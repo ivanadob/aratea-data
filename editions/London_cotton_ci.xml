@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Cotton_MS_Tiberius_C_I">London, BL, Cotton Tib. C. I</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="bl_tib_ci" xml:lang="eng">
+                <msIdentifier>
+                    <!-- contains the information required to identify the manuscript being described MANDATORY -->
+                    <settlement/>
+                    <institution/>
+                    <collection/>
+                    <idno/>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Cicero: Aratea</title>
+                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#">Peterborough</origPlace>
+                    <origDate notBefore="1120" notAfter="1135">1120-1135</origDate>
+                </head>                
+            <msContents>
+                <msItem>
+                    <locus from="1r" to="1v">1r-v</locus>
+                    <note>Originally left blank, modern table of content added on f. 1r.</note>
+                </msItem>
+                <msItem>
+                    <locus from="2r">2r-4r</locus>
+                    <note>Computistical argumenta and table about <foreign>termini lunae</foreign>, <foreign>regulares</foreign>; diagram presenting in circles the duration of the solar year, the <foreign>annus magnus</foreign>, <foreign>annus decennovenalis</foreign> etc.</note>
+                </msItem>
+                <msItem>
+                    <locus from="4v">4v</locus>
+                    <note>Blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="5r">5r</locus>
+                    <note/>
+                </msItem>
+               <msItem>
+                   <locus from="21r" to="36r"/>
+                  <author ref="#cicero">Cicero</author>
+                   <title ref="#aratea_cicero">Aratea</title>
+                   <rubric>
+                            <locus from="36v">36v </locus>Ex opere ciceronis de astronomia</rubric>
+                   <incipit>Equibus hinc subter possis cognoscere fultum</incipit>
+                   <msItem>
+                       <locus from="21r"/>
+                       <title/>
+                       <incipit>Aries hic existimatur esse qui phrixem</incipit>
+                       <explicit/>
+                   </msItem>
+               </msItem>              
+            </msContents>
+            <physDesc>
+               <!-- contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. -->
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="0"> fols.</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height/>
+                                  <width/>
+                              </dimensions>
+                          </extent>
+                          <foliation/>
+                          <collation>
+                                <formula/>
+                            </collation>
+                          <condition>
+                              <p/>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="1" writtenLines="0"/>
+                  </layoutDesc>
+               </objectDesc>   
+            </physDesc>
+            <history>
+               <!-- groups elements describing the full history of a manuscript or manuscript part. -->
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl/>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

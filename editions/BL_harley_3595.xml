@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref type="mss" target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">London, British Library, Harley MS 3595</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001v" n="1v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048r" n="48r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048v" n="48v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049r" n="49r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049v" n="49v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050r" n="50r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050v" n="50v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f051r" n="51r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f052v" n="52v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053r" n="53r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053v" n="53v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f054v" n="54v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f055r" n="55r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f056v" n="56v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f057r" n="57r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f068r" n="68r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f072r" n="72r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f073v" n="73v"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="harley_3595" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>London</settlement>
+                    <repository>British Library</repository>
+                    <collection>Harley</collection>
+                    <idno>3595</idno>
+                </msIdentifier>
+                <head>
+                    <title>Boethius, De arithmetica, De musica, RAL and Agrimensores</title>
+                    <origPlace ref="w_germany">West Germany</origPlace>, <origPlace ref="#cologne">Cologne (?)</origPlace>
+                    <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
+                </head>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="73">ii (paper) + 73 fols. + ii (paper)</measure>
+                            </extent>
+                            <foliation>Foliated in pencil in the top right corner of each recto page.</foliation>
+                        </supportDesc>                        
+                    </objectDesc>
+                    <bindingDesc>
+                        <binding>
+                            <p>Modern binding (1966). The front and back of the pre-modern 'Harleian' red-leather binding are glued on the innerside of the modern binding.</p>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <provenance>
+                        <p>Mayr-Harting (p. 248), who studied the glosses to Boethius'<title>De arithmetica</title>, considered that Harley 3595 was a Cologne manuscript, by provenance and possibly by origin.</p>
+                    </provenance>
+                    <provenance>On the lower margin of f.<locus from="1r">1r</locus> ownership inscription <quote>E. Benzelius</quote> referring to <rs type="person" ref="#benzelius_erik">Erik Benzelius</rs> (1675-1743), the archbishop of Sweden.</provenance>
+                    <provenance>For the later provenance see<bibl>Cyril Ernest Wright,<title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title> (London: British Museum, 1972), pp. 70-71, 169, 367</bibl>.</provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Mayr-Harting, Henry.<title>Church and Cosmos in Early Ottonian Germany: The View from Cologne</title>. Oxford: OUP, 2007 (pp. 240, 242, 248).</bibl>
+                        <bibl>
+                            <abbr>Folkerts (1970)</abbr>, pp. 4-5 and 113-171.</bibl>
+                        <bibl>Bower, C. M. "Boethius' De Institutione Musica: A Handlist of Manuscripts."<title>Scriptorium</title> 42 (1988): 205-51 (p. 221)<note>[with additional bibliography]</note>.</bibl>
+                        <bibl>Gibson, M. T. and Lesley Smit (eds.)<title>Codices Boethiani: A Conspectus of Manuscripts of the Works of Boethius</title>. Vol. I: Great Britain and the Republic of Ireland. London: Warburg Institute, 1995. (No. 129 pp. 148-49).</bibl>
+                        <bibl>Wright, Cyril Ernest.<title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title>. London: British Museum, 1972 (pp. 70-71, 169, 367).</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part I (ff. 1r-56v):</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Boethius</title>
+                        <origDate notBefore="0901" notAfter="1000">s.X</origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="48v">1r-48v</locus>
+                            <author ref="#boethius">Boethius</author>
+                            <title ref="#de_arithmetica">De arithmetica</title>
+                            <rubric>Incipiunt duo libri artis arithmeticae anitii manlii· severini· boethii· u<ex>iri</ex> c<ex>lari</ex>· et inl<ex>ustri</ex>· ex con<ex>suli</ex>s ord<ex>ine</ex>· patricii· Domino suo patritio Symmacho boethius·</rubric>
+                            <incipit>In dandis accipiendisque muneribus ita recte offitia</incipit>
+                            <explicit>
+                                <note>
+                                    <locus from="48r">48r</locus> </note>huius descriptio<add place="above">nis</add> subter exemplar subiecimus.</explicit>
+                            <decoNote>f.<locus from="48v">48v</locus> a diagram with four rectangulars <quote>geometrica</quote>, <quote>arithmetica</quote>, <quote>armonica</quote>, <quote>consonantiae</quote>.</decoNote>
+                            <note>Many interlienar and marginal glosses, tables and figures.</note>
+                        </msItem>                        
+                        <msItem>
+                            <locus from="50r" to="56v">50r-56v</locus> 
+                            <author ref="#boethius">Boethius</author> 
+                            <title ref="#de_musica">De institutione musica <note>imperfect</note>
+                            </title>
+                            <note>Book I, ch. 13-16 and sections from Book II and III.</note>
+                            <msItem>
+                                <locus from="50r" to="50v">50r-v</locus>
+                                <note>Book I, ch. 13-16* (end imperfect)</note>
+                                <incipit>
+                                    <hi rend="caps">Quod infinitatem vocum humana natura finiverit</hi> Sed quae continua uox est· et ea rursus qua decurrimus cantilenam</incipit>
+                                <explicit>diatesseron ac diapente unum perficiunt diapason hoc modo<note>part of a diagram.<gap reason="lacuna"/>
+                                    </note>
+                                </explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="51r" to="52v">51r-52v</locus>
+                                <note>Book II, ch. 20* (beginning imperfect) - 23* (end imperfect ).</note>
+                                <incipit>
+                                    <gap reason="lacuna"/> quadruplus parsque contratia quarta atque ita crescendi</incipit>
+                                <explicit>tres igitur toni unum diatessaron nulla ratione<gap reason="lacuna"/>
+                                </explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="53r" to="53v">53r-v</locus>
+                                <note>Book II, ch. 31* (beginning imperfect)</note>
+                                <incipit>
+                                    <gap reason="lacuna"/> Ab hoc igitur ultimo numero sex toni inses qui octaua proportione</incipit>
+                                <explicit>nunc columinis seriem fastidii uitator adstringam.</explicit>
+                                <finalRubric>Explicitvs de musica· id est armonica institutione Liber II.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus from="53v">53v-54v</locus>
+                                <note>Book III, ch. 1* (end imperfect)</note>
+                                <rubric>Incipit liber· III· I· Adversum aristoxenem demonstratio super particulare proportionem· dividi in aequa non posse atque ideo nec tonvm</rubric>
+                                <incipit>SVPERIORE uolumine demonstratum est diatessaron consonantiam</incipit>
+                                <explicit>dimidium cum ipsa sesqui XVI<hi rend="sup">ma</hi> <gap reason="lacuna"/>
+                                </explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="55r">55r-56v</locus>
+                                <note>Book II, 26*-29* (imperfect beginning and end)</note>
+                                <incipit>
+                                    <gap reason="lacuna"/> pente ac diapason consonantiis diatessaron symponia iungatur</incipit>
+                                <explicit>Liquet igitur eam proportionem quae in CCLVI<gap reason="lacuna"/>
+                                </explicit>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount">56 fols.</measure>
+                                    <dimensions type="leaf">
+                                        <height>285</height>
+                                        <width>200</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="29 30">Written in one column throughout; about 30 long lines. Written space:
+                                    <dimensions type="written">
+                                        <height>220</height>
+                                        <width>150</width>
+                                    </dimensions>. 
+                                </layout>                                
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>There are two principal hands. One writing ff.<locus from="1r" to="48v">1r-48v</locus> and a second one responsible for ff. <locus from="50r" to="56v">50r-56v</locus>.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="carolmin">Caroline minuscule. Complete word-division. Ligature: st, &amp; as well as e-caudata. Specific letters: <quote>a</quote> with an upright stroke and a small lower-positioned lobe.</scriptNote>
+                            <scriptNote script="caprust">For <term>incipit</term> and <term>explicit</term> used <term>Capitalis rustica</term>
+                            </scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part II (f. 49):</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Revised Aratus Latinus</title>
+                        <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <locus from="49r" to="49v">49r-v</locus>
+                            <title ref="#ral">Revised Aratus Latinus <note>(Excerpt with sections: Perseus, Pleiades, and Lyra)</note>
+                            </title>
+                            <incipit>
+                                <gap reason="lacuna"/>inter astra collocatus eo quod iupiter in similitudinem aurei imbris</incipit>
+                            <explicit>sedens in monte puggeo expectans solis ortum missis a libero patre<gap reason="lacuna"/>
+                            </explicit>
+                            <decoNote>Illustration of Perseus (<locus from="49r">49r</locus>) and the Pleiades as medaillons (<locus from="49v">49v</locus>).</decoNote>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount">1 fol.</measure>
+                                    <dimensions type="leaf">
+                                        <height>285</height>
+                                        <width>200</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="29 30">Written in one column throughout; around 30 lines per page. Written space:
+                                    <dimensions type="written">
+                                        <height>220</height>
+                                        <width>150</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Less skilled hand struggling to keep the letters even on the line.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="carolmin">
+                                <term>Caroline minuscule</term>, probably from the <date notBefore="0901" notAfter="1000">s. X</date>.</scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part III (ff. 57r-73v):</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Boethius, Geometria</title>
+                        <origDate notBefore="1026" notAfter="1075">s.XI<hi rend="sup">2/4-3/4</hi>
+                        </origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <locus from="57r" to="68r">57r-68r</locus> 
+                            <author ref="#boethius">Ps-Boethius</author>
+                            <title ref="#geometria_ii">Geometry II</title>
+                            <rubric>Incipit liber primus Geometriae Euclidis a boetio in latinum translata</rubric>
+                            <incipit>Quia uero mi patrici geometrum exercitatissime euclidis de artis geometricae</incipit>
+                            <explicit>In puncto autem duo minuta et dimidium et in minuto IIII momenta esse asseruerunt.</explicit> 
+                            <finalRubric>Epilogus finitur. Si quis uero de controuersiis et de qualitatibus et nominibus agrorum de que limitibus et de statibus controuersiarum scire desideret· Iulium frontinum necnon vrbicum agenum<unclear>lectitet</unclear>. Nos uero haec ad praesens dicta dixisse sufficiat.</finalRubric>
+                            <decoNote>Geometrical figures within the body of the text and in the outer margin.</decoNote>
+                            <bibl>
+                                <abbr>Folkerts (1970)</abbr>, pp. 113-171.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="68r" to="72r">68r-72r</locus> 
+                            <note>Treatise on gromatics and geometry</note>
+                            <note>partly based on<title>Liber podismi</title>and <title>Geometria incerti auctoris</title> (sections: IV 1, 17, 10, 3-7 (imperfect), 2, 7 (imperfect) 8, 10-13, 28, 9, 14-16, 29-42, 18, 43-44, 27, 22-24, 26, 45-47; III 9; IV 48-50).</note>                       
+                            <incipit>Mensurarum genera sunt tria· rectum, planum, solidum</incipit>
+                            <explicit>nisi mira in eis fuerit diuersitas.</explicit>
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, pp. 510 and 317-365.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="72r" to="73v">72r-73v</locus>
+                            <note>Series of short texts on measures, their signs and conversion:</note>
+                            <msItem>
+                                <locus from="72r">72r</locus>
+                                <incipit>Z oboli dimidia, Z oboli II, T III, F III, E V, A libra pondus XII uncias x obolus</incipit>
+                                <explicit>et in super longitudinis partem sextam decimam haec consonantia semitonium erit· Multiplicatio singularis per singularem directę et conuersim.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="72r">72r</locus>
+                                <note>Excerpt from<rs type="person" ref="isidore" role="author">Isidore</rs>'s <title ref="etymologiae">Etymologies</title>, Book 16,27,1-6:</note>
+                                <incipit>Ponderis signa plerisque ignota sunt, et inde errorem legentibus faciunt</incipit>
+                                <explicit>alfa grecae in dextro brachio superiori o littera coniuncta kenix est.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="72r">72r</locus>
+                                <incipit>Obolus scripulus dimidius siliquae III. Coclearum scripulus I et dimidium, id est siliqua IIII</incipit>
+                                <note>Same text in<bibl>
+                                        <abbr>Abbo, Commentary</abbr>, pp. 61-62</bibl>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="72r" to="73r">72r-73r</locus>
+                                <incipit>Uncia multiplicata per CCLXXXVIII quia tot scripuli sunt</incipit>
+                                <explicit>Hos cum XII augeas quomodo XII sunt as ducitur id est CCLXXXVIII. Hoc as in assem sit as.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="73r">73r</locus>                                
+                                <incipit>Digitus minima pars agrestium mensurarum</incipit>
+                                <explicit>In leuga I sunt MD passus, VII D pedes XC XL unciae. Quot unciae tot dies fuerunt qui faciunt annos CCLXVI et dies CCX.</explicit>
+                                <note>(partly based on Isidore's<title>Etymologiae</title>, Book 15)</note>
+                                <bibl>
+                                    <abbr>Bubnov 1899</abbr>, p. 22.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="73r">73r</locus>
+                                <note>Argumentum ad inveniendos dies anni:</note>
+                                <quote>Duodecim sunt signa zodiaci circuli in quibus singulis moratur sol XXX diebus, et X horis et semisse unius horae. Quo circa ad inueniendos dies anni duc duodecies XXX dies, quibus moratur sol in unoquoque signo, et habebis CCCLX et hae sunt partes zodiaci circuli. Deinde accipe X horas, quae supersunt,<gap reason="lacuna"/> diebus et semissem et habebis CXXVI horas. Has horas partire per XXIIII, quia tot sunt horae diei et habebis V dies integros et insuper VI horas. Qui V dies et VI horae superioribus iunctae faciunt CCCLXV et S. Quos si per VII diuiseris quia tot ebdomadae sunt inuenies illum quinquagies et bis restante uno die cum S. Qui unus in capite solarium concurrentium inscribitur primus cum bissexto. Secundo anno remanet unus cum S tertio anno II cum S quarto III cum S quinto III cum S. Qui quadrantes simul positi reddunt integrum diem. Et haec est transilitio quinarii in VI.</quote>
+                                <explicit/>
+                            </msItem>
+                            <msItem>
+                                <locus from="73r">73-v</locus>
+                                <incipit>Septem grana ordei conuersim transuersa faciunt unum digitum geometricalem id est pollicem</incipit>
+                                <explicit>Digitos VII milies IM et DC LXXX VII IM et D.</explicit>
+                            </msItem>
+                            
+                            <msItem>
+                                <locus from="73r">73r</locus>
+                                <incipit>Si fistulae aequalis grossitudinis fuerint et maior minorem in sua longitudine bis habuerit</incipit>
+                                <explicit>haec consonantia semitonium erit. Multiplicatio singularis per singulare directae et conuersim.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="73v">73v</locus>
+                                <note>Short text on measures:</note>
+                                <incipit>Quinque grana ordei pollicem componuit· Quindecim pollices pedem Quinque pedes passum</incipit>
+                                <explicit>clxxviiii soliditas circuli</explicit>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount">17 fols.</measure>
+                                    <dimensions type="leaf">
+                                        <height>275</height>
+                                        <width>185</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="43">Written in one column throughout; around 30 lines per page. Written space:
+                                    <dimensions type="written">
+                                        <height>225</height>
+                                        <width>135</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>                            
+                            <scriptNote script="carolgot">57r-73v: Praegothica (early example). Slanting to the right; Laterally compressed letter bodies; the stroke of a is upright; the lower lobe of g is foro the most part closed, but not connected to the upper one; the feet of the last minims of m and n break to the right; long s and r go often below base line; the tongue of e point to two o'clock; round d used side-by-side with straight d; ligatures still used st, ct, &amp;; e-caudata.</scriptNote>
+                        </scriptDesc>
+                        <additions>On f. 73v<term>probatio pennae</term> with golden colour <quote>auri pigmenti probatio</quote> and <quote>aureus iste color</quote>.</additions>
+                    </physDesc>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

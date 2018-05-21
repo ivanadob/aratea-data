@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of Dresden, Sächsische Landesbibliothek, Dc 183</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="dresden_Dc_183" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Dresden</settlement>
+                    <repository>Sächsische Landesbibliothek</repository>
+                    <idno>Dc 183</idno>
+                </msIdentifier>
+                <head>
+                    <title>Astronomical collection</title>
+                    <origPlace ref="#nw_france">North-west France</origPlace>
+                    <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+                    </origDate>
+                </head>                
+            <msContents>
+                <msItem>
+                    <locus from="1r">1r-</locus>
+                    <title ref="#ral">RAL</title>
+                    <msItem>
+                        <locus from="1r">1r-</locus>
+                        <title>Arati ea quae videntur</title>
+                        <incipit>
+                                <supplied>Ostensione quoque de quibus uidentur oportet fieri</supplied>
+                                <gap reason="illegible"/> A dextris orientem</incipit>
+                    </msItem>
+                    <msItem>
+                        <locus from="6r">6r</locus>
+                        <title>Alia descriptio prefationis</title>
+                        <incipit>Subtus terra firmantur signa sex</incipit>
+                    </msItem>
+                    <msItem>
+                        <locus from="7v" to="8v">7v-8v</locus>
+                        <rubric>Descriptio duorum semisperiorum</rubric>
+                        <incipit>Habet autem pondus</incipit>
+                        <explicit>
+                                <gap reason="illegible"/>
+                            </explicit>
+                        <decoNote>Illustration of the two hemi spheres</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="9r" to="9v">9r-v</locus>
+                        <title>Arati genus</title>
+                        <rubric>
+                                <note>on the bottom of f. 8r</note>Arati genus</rubric>
+                        <incipit>Aratus patris quidem est athinodori filius</incipit>
+                        <explicit>reperimus illum et super.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="9v" to="10v">9v-10v</locus>
+                        <author ref="#censorinus">Ps. Censorinus</author>
+                        <title ref="#fragmenta_censorini">Fragmenta Censorini (cap. 2)</title>
+                        <rubric>De celi positione</rubric>
+                        <incipit>Caelum circulis distinguitur</incipit>
+                        <explicit>solida anteposita his deformia.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="10v" to="11v">10v-11v</locus>
+                        <author ref="#censorinus">Ps. Censorinus</author>
+                        <title ref="#fragmenta_censorini">Fragmenta Censorini (cap. 3)</title>
+                        <rubric>De stellis fixis et stantibus</rubric>
+                        <incipit>stellarum aliae cum caelo feruntur</incipit>
+                        <explicit>et quomodo consentit aut uisus est.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="11v" to="12v">11v-12v</locus> 
+                        <title ref="#involutio_spherae">Involutio spherae</title>
+                        <rubric>Involutio spherae</rubric>
+                        <incipit>H<unclear>ic</unclear> est stellarum ordo</incipit>
+                        <explicit>commune habet stellam.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="12v" to="13r">12v-13r</locus> 
+                        <note>On the zodiac</note>
+                        <incipit>porro duodecim signorum ordo hic est</incipit>
+                        <explicit>Id est saturnus, iouis mars  sol uenus mercurius luna.</explicit>
+                        <note>Continues without dividing marks from previous text.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="13r">13r</locus>
+                        <decoNote>Illustration of the celestial globe on pillars</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="13v" to="31r">13v-31r</locus>
+                        <incipit>Uertices extremos circa quos</incipit>
+                        <explicit>adeptos fuisse opinabantur uictoriam.</explicit>
+                        <finalRubric>Explicit liber astrolocorum.</finalRubric>
+                    </msItem>
+                </msItem>
+                <msItem>
+                    <locus from="31v">31v</locus>
+                    <title ref="#ad_boreae">De sideribus</title>                    
+                </msItem>
+                <msItem>
+                    <locus from="31v">31v</locus>
+                    <note>Anonymous verse on the zodiacal signs (12 hexameters).</note>
+                    <incipit>Bis sex signiferae numerantur sidera spaerae</incipit>
+                </msItem>
+                <msItem>
+                    <locus from="32r" to="32v">32r-v</locus>
+                    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                    <incipit>Duo sunt extremi uertices mundi</incipit>
+                    <explicit>ipsum usque decurrit accipiens.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="33r" to="86v">33r-86v</locus>
+                    <author ref="#hyginus">Hyginus</author>
+                    <title ref="#de_astronomia">De astronomia</title>
+                </msItem>
+                <msItem>
+                    <locus from="87r" to="93v">87v-93v</locus>
+                    <note>blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="94r" to="97v">94r-97v</locus>
+                    <author ref="#cicero">Cicero</author>
+                    <title ref="#aratea_cicero">Aratea<note>(vv. 1-471)</note>
+                        </title>
+                    <note>According to Soubiran the text of Cicero begins on f. 94r with title:</note> 
+                    <rubric>Incipiunt versus Ciceronis des signis. Primitus de ariete</rubric> 
+                    <incipit>
+                            <gap/>quam gelidum ualido de corpora frigus</incipit>
+                    <explicit>et cernis uolucris exsistis clara sagita.</explicit>
+                    <note>Text is written in two columns 34 lines per page, in a much more regular Carolingian hand (letters with equal height, no open a; initials detached from the beginning of verses).</note>
+                </msItem>
+                <msItem>
+                    <locus from="98r" to="99r">98r-99r</locus>
+                    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                    <rubric>Excerptio de astrologia</rubric>
+                    <incipit>Duo sunt extremi uertices mundi</incipit>
+                    <explicit>ipsum usque decurrit acipiens.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="99r" to="101r">99r-101r</locus>
+                    <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
+                    <rubric>De ordine ac positione stellarum in signis<sic>in signis</sic> incipit</rubric>
+                    <incipit>Est quidem hic ordo</incipit>
+                    <explicit>
+                            <supplied>A</supplied>nticanis habet stellas IIII.</explicit>
+                </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="101">101 fols.</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>250</height>
+                                  <width>182</width>
+                              </dimensions>
+                          </extent>
+                          <foliation/>
+                      <collation>
+                                <formula/>On f. 97v – quire mark XIII;</collation>
+                          <condition>
+                              <p>The manuscript was destroyed during World War II. This description is based therefore on Warburg Insitute photographs for ff. 8v, 13r, 14r-26r, 27v, 28v, 29v and 31r and on microfilm in IRHT for ff. 1r-2v, 7r-28r, and 94r-101v. For the rest of the content I relay on the description of Maass.</p>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                       <layout columns="1" writtenLines="30 33">Written in 30-33 long lines. Exception ff. 94r-97v ruled and written in two columns;
+                     <dimensions type="written" unit="mm">
+                         <height>195</height>
+                         <width>125</width>
+                     </dimensions>
+                            </layout>
+                  </layoutDesc>
+               </objectDesc>   
+            </physDesc>
+            <history>
+                <origin>
+                        <origPlace ref="#nw_france">North-west France</origPlace> (Bischoff), <origPlace ref="#n_france">North France</origPlace> (Dell'Era). As far as I can judge by the reproductions the manuscript seems to be a composite one with three different sets of astronomical material combined together at a later stage moment. <!--The RAL seems as the earliest part, judging by the script should be ninth century; Cicero’s and Excerptu-De ordine later, hands from late ninth or tenth century.
+                    RAL has clear explicit on 31 r, followed by Priscian and further verses on the months or bissextum – the computistic tradition? -> mark it was used in this sphere; 
+                    Hyginus? – what period perhaps to see Vire-->
+                    </origin>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Bischoff, Katalog I</abbr>, p. 225.</bibl>
+                   <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 234-39.</bibl>
+                   <bibl>Reeve, Michael D. “Some Astronomical Manuscripts.”<title level="j">Classical Quarterly</title>, New Series 30, 2 (1980): 508–22 (esp. 508-10).</bibl>
+                   <bibl>Marcus Tullius Cicero.<title level="m">Aratea. Fragments Poétiques</title>. Edited by Jean Soubiran. Paris: Les belles lettres, 1972 (esp. 116-117).</bibl>
+                   <bibl>
+                            <title>Cicéron, Les Aratea</title>. Edited by Victor Buescu. Paris: Les Belles Lettres, 1941.</bibl>
+                   <bibl>Buescu, Victor. “La tradition manuscrite des Aratea de Cicéron; Nouvelles découvertes.” In<title level="m">Problèmes de critique et d’histoire textuelle</title>, 133–209. Bucharest and Paris, 1942 (esp. pp. 164-69).</bibl>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

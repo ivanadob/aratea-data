@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of London, BL, Cotton MS Tiberius B V/1<ptr target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_B_V/1"/>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f002r" n="2r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f003v" n="3v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f004r" n="4r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f004v" n="4v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f005r" n="5r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f005v" n="5v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f006r" n="6r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f006v" n="6v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f007r" n="7r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f007v" n="7v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f008r" n="8r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f008v" n="8v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f049v" n="49v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f003r" n="3r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f008v" n="8v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f009r" n="9r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f010r" n="10r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f011r" n="11r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f011v" n="11v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f012r" n="12r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f012v" n="12v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f013r" n="13r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f013v" n="13v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f014r" n="14r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f019r" n="19r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f019v" n="19v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f023v" n="23v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f024r" n="24r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f028v" n="28v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f029r" n="29r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f029v" n="29v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f030r" n="30r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f032r" n="32r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f049v" n="49v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f044r" n="44r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f032v" n="32v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f033r" n="33r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f033v" n="33v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f034r" n="34r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f034v" n="34v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f035r" n="35r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f035v" n="35v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f036v" n="36r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f036v" n="36v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f037r" n="37r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f037v" n="37v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f038r" n="38r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f038v" n="38v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f039r" n="39r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f039v" n="39v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f040r" n="40r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f040v" n="40v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f041r" n="41r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f041v" n="41v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f042r" n="42r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f042v" n="42v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f043r" n="43r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f043v" n="43v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f044r" n="44r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f044v" n="44v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f046v" n="46v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f047r" n="47v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f051r" n="51r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f052r" n="52r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f052v" n="52v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f053r" n="53r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f053v" n="53v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f054r" n="54r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f054v" n="54v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f056v" n="56v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f057r" n="57r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f073r" n="73r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f001r" n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f001v" n="1v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f073v" n="73v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f055r" n="55r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f056r" n="56r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f077r" n="77r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f077v" n="77v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f078r" n="78r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f074r" n="74r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f074v" n="74v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f075r" n="75r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f075v" n="75v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f076r" n="76r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f076v" n="76v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f078v" n="78v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f086v" n="86v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f087r" n="87r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f087v" n="87v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f088r" n="88r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f088v" n="88v"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="london_bl_tib_bv" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>London</settlement>
+                    <repository>British Library</repository>
+                    <collection>Cotton</collection>
+                    <idno>Tiberius B V/1</idno>
+                    <msName/>
+                </msIdentifier>
+                <head>
+                    <title>Anglo-saxon miscellany</title>
+                    <note type="caption"/>
+                    <origPlace ref="#">Canterbury</origPlace>
+                    <origDate notBefore="1026" notAfter="1175">s. XI<hi rend="sup">2/4</hi> (additions s. XII<hi rend="sup">3/4</hi>)</origDate>
+                </head>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs="ang"/>
+                    <msItem> 
+                        <locus>2r–19r</locus>
+                        <note>Computistical, historical and astronomical miscellany with a metrical calendar</note>
+                        <msItem>
+                            <locus from="2r">2r</locus>
+                            <note>Three<term>rotae</term> illustrating the path of the sun throughout the year; upper right rota with a title: <quote>Hoc modo solis circulus hiemalis et equinoctialis et estiuus designat</quote>. The rota on the lower half of the page is left unfinished.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="2v">2v</locus>
+                            <note>Short texts on the months, and the<term>regulares</term>.</note>
+                            <msItem>
+                                <incipit>Coniunge regulares singulorum mensium et epactas</incipit>
+                            <explicit>quot remanent ipsa est ętas lunae.</explicit>
+                            </msItem>
+                            <msItem>
+                                <rubric>De singulis mensibus</rubric>
+                            <incipit>Ianuarius Augustus et December IIII nonas habent</incipit>
+                            <explicit>Omnes uero menses octo idus habent.</explicit>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="3r" to="8v">3r-8v</locus>
+                            <note>Calendar</note>
+                            <decoNote>(Source British Library) 12 medallions in colours with zodiac signs, one at the foot of each page, and 12 full page-width framed miniatures with colours, depicting plowing and sowing (f.<locus from="3r">3r</locus>), pruning vines (f. <locus from="3v">3v</locus>), digging, raking and sowing (f. <locus from="4r">4r</locus>), feasting (f. <locus from="4v">4v</locus>), tending sheep (f. <locus from="5r">5r</locus>), reaping (f. <locus from="5v">5v</locus>), cutting wood (f. <locus from="6r">6r</locus>), mowing (f. <locus from="6v">6v</locus>), feeding hogs (f. <locus from="7r">7r</locus>), hunting with falcon (f. <locus from="7v">7v</locus>), making a fire and smithying (f. <locus from="8r">8r</locus>), threshing (f. <locus from="8v">8v</locus>).</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="9r" to="10r">9r-10r</locus>
+                            <note>Tables for the age of the moon.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="10v">10v</locus>
+                            <note>Blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="11r">11r</locus>
+                            <note>Feria table.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="11v">11v</locus>
+                            <note>Table for<term>pagina regularis</term>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="12r" to="12v">12r-12v</locus>
+                            <note>Lunar-zodiac table.</note>
+                            <incipit>Luna ianuarii in media nocte accenditur</incipit>
+                            <explicit>Luna decembris inter uesperum et medium noctis accenditur.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="13r" to="13v">13r-v</locus>
+                            <note>Table for lunar letters A-K and lunar letters AEIOV.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="14r" to="19r">14r-19r</locus>
+                            <note>
+                                <term>Computus</term> tables: table of termini of movable feasts (ff.14r-15r), Paschal table for AD 969-1006 (f.16r): <term>computus</term> argumenta (ff. 17r-19r) and poetry (ff. 15v, 16v). For a detail description see <bibl>
+                                    <abbr>McGurk, Miscellany</abbr>, pp. 18-20</bibl>.</note>
+                                <incipit>His supra positis regularibus per singulos annos singuli addantur concurrentes</incipit>                          
+                        </msItem>                        
+                    </msItem>
+                        <msItem>
+                            <locus from="19v" to="23v">19v-23v</locus>
+                            <note>List of popes (f.19v), roman emperors (f.20r), bishops of different part of the christian world (ff.20r-22r) and a genealogy of the Anglo-Saxon kings (ff.22v-23r).</note>
+                            <rubric>Incipiunt nomina pontificum romane urbis per ordinem</rubric>
+                        </msItem>
+                    <msItem>
+                        <locus from="23v" to="24r">23v–24r</locus>
+                        <title>Adventus Sigerici ad Romam</title>
+                        <incipit>In nomine domini nostri ihesu christi iohannes rabennati sedit</incipit>
+                        <bibl>W. Stubbs (ed.),<title>Memorials of Saint Dunstan, Archbishop of Canterbury</title> (London, 1874), pp. 391-395.</bibl>
+                    </msItem>
+                    <msItem xml:lang="ang">
+                        <locus from="24r" to="28v">24r–28v</locus>
+                        <author ref="#aelfric">Ælfric</author>
+                        <title ref="#de_temporibus_anni">De temporibus anni</title>
+                        <rubric>Incipiunt pauca de temporibus bedae presbiteri</rubric>
+                    </msItem>
+                    <msItem>
+                        <locus from="29r">29r</locus>
+                        <note>Macrobian Zonal Map</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="29v">29v</locus>
+                        <note>Blank.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="30r">30ra</locus>
+                        <note>Prayer:</note>
+                        <rubric>Oratio ad sanctam trinitatem</rubric>
+                        <incipit>Domine deus omnipotens sancta trinitas</incipit>
+                        <explicit>et aliis ministrare ualeamus per eundem dominum.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="30r">30ra</locus>
+                        <note>On the creation of the luminaries according to the bible:</note>
+                        <incipit>
+                            <supplied>S</supplied>ancta scriptura nobis a deo per beatum moysen tradita</incipit>
+                        <explicit>et luminare minus ut preesset nocti.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="30r" to="32r">30ra-32ra</locus>
+                        <title ref="#de_nominibus_stellarum">De nominibus stellarum</title>
+                        <rubric>De duodecim signis</rubric>
+                        <incipit>Regionem XII<hi rend="sup">ma</hi> cęli in quam sol cursum suum dirigit</incipit>
+                        <explicit>sed christus dominus saluator mundi euertit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="32v" to="49v">32v–49v</locus>
+                        <author ref="#cicero">Cicero</author>
+                        <title ref="#aratea_cicero">Aratea</title>                        
+                        <rubric>Fabula arietis</rubric>
+                        <incipit>A quibus hinc subterpossis cognoscere fultum</incipit>
+                        <explicit>
+                            <supplied>H</supplied>anc autem totam properant depellere pisces.</explicit>
+                        <msItem>
+                            <locus from="32v" to="44r">32v-44r</locus>
+                            <note>as scholia<title ref="#ral">Revised Aratus Latinus</title>:</note>
+                            <incipit>Aries hic existimatur esse qui fryxum</incipit>
+                            <explicit>Habet quidem stellas III.</explicit>
+                        </msItem>
+                        <decoNote>(Source British Library) Miniatures accompanying Cicero's Aratea, depicting Aries (f.<locus from="32v">32v</locus>); Deltoton (f.<locus from="33r">33r</locus>); Pisces (f.<locus from="33v">33v</locus>); Perseus (f.<locus from="34r">34r</locus>); Pleiades (f.<locus from="34v">34v</locus>); Lyra (f.<locus from="35r">35r</locus>); Cygnus (f.<locus from="35v">35v</locus>); Aquarius (f.<locus from="36r">36r</locus>); Capricornus (f.<locus from="36v">36v</locus>); Sagittarius (f.<locus from="37r">37r</locus>); Sagitta (f.<locus from="37v">37v</locus>); Aquila (f.<locus from="38r">38r</locus>); Delphinus (f.<locus from="38v">38v</locus>); Orion (f.<locus from="39r">39r</locus>); Canis (f.<locus from="39v">39v</locus>); Lepus (f.<locus from="40r">40r</locus>); Argo (f.<locus from="40v">40v</locus>); Cetus (f.<locus from="41r">41r</locus>); Eridanus (f.<locus from="41v">41v</locus>); Piscis (f.<locus from="42r">42r</locus>); Ara (f.<locus from="42v">42v</locus>); Centaurus (f.<locus from="43r">43r</locus>); Hydra (f.<locus from="43v">43v</locus>); Anticanus (f.<locus from="44r">44r</locus>); Heads of planets (f.<locus from="44v">44v</locus>); Winds and seasons (f.<locus from="46v">46v</locus>); Sol and Luna (f.<locus from="47r">47r</locus>). For description see <bibl>
+                                <abbr>Sternbilder des Mittelalters</abbr>, pp. 311-12</bibl> and K. Lippincott's description in the <ref target="http://www.kristenlippincott.com">Saxl Project</ref>.</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="49v">49v</locus>
+                        <rubric>De concordia solaris et lunaris</rubric>
+                        <incipit>Nouem horis in luna pro quinque diebus</incipit>
+                        <explicit>IIII horas lucet luna V<hi rend="sup">ta</hi>.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="49v">49v</locus>
+                        <rubric>De concordia maris et lunae</rubric>
+                        <incipit>Unius semper horę dodrante et semuncia transmissa</incipit>
+                        <explicit>tardius ueniret, tardiusque recederet.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="49v" to="51r">49v-51r</locus>
+                        <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 12)</title>
+                        <rubric>De presagiis tempestatum presagia solis XXVII</rubric>
+                        <incipit>Purus oriens atque non feruens serenum diem nuntiat</incipit>
+                        <explicit>repositoriis relinquentia diras tempestates prenuntiant.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="51r">51r-52r</locus>
+                        <title ref="#excerpt_libri_computi_vi4">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 4</title>
+                        <rubric>Ambrosii Macrobii Theodosii de mensura et amgnitudine terrae et circuli per quem solis iter est</rubric>
+                        <incipit>In omni orbe uel sphera medietas centrum uocatur</incipit>
+                        <explicit/>
+                    </msItem>
+                    <msItem>
+                        <locus from="52r">52r</locus>
+                        <title ref="#excerpt_libri_computi_vi6">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
+                        <rubric>Felicis Capellę de mensura lunae</rubric>
+                        <incipit>Luna item circuli sui sex centesimam obrinet portionem</incipit>
+                        <explicit>ipsum uero circulum centies maiorem esse tellure.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52r" to="52v">52r-v</locus>
+                        <title ref="#excerpt_libri_computi_vi7">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
+                        <rubric>Quomodo terrae deprehensa est</rubric>
+                        <incipit>Eratostenes philosophus idemque geometra</incipit>
+                        <explicit>nullam humanę coniecture dimensionem admittit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52v">52v</locus>
+                        <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 3)</title>
+                        <rubric>De positione et cursu septem planetarum</rubric>
+                        <incipit>Inter celum et terra certis discreta spatiis</incipit>
+                        <explicit>cum tardissime a tricesima luce ad easdem uices exit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52v">52v</locus>
+                        <title ref="#pliny_excerpt_intervals">De intervallis earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 4)</title>
+                        <rubric>De intervallis earum</rubric> 
+                        <incipit>Interualla eorum a terra multi indagare temptarunt</incipit>
+                        <explicit>ita VII<hi rend="sup">te</hi> tonis effici quam diapason armoniam uocant.</explicit>
+                        <decoNote>On f.<locus from="53r">53r</locus> a rich ornamented diagram of planetary spheres.</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="53r" to="53v">53r-v</locus>
+                        <title ref="#pliny_excerpt_absidibus">De absidibus earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 5)</title>
+                        <rubric>De absidibus earum</rubric>
+                        <incipit>Tres autem quas supra solem diximus sitas occultantur</incipit>
+                        <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                        <note>No accompanying drawing.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="53v" to="53r">53v-54r</locus>
+                        <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 6)</title>
+                        <rubric>De cursu earum per zodiacum circulum</rubric>
+                        <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                        <explicit>sidera martis maxime inobseruabilis est cursus.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="54r">54r</locus>
+                        <title ref="#excerpt_libri_computi_v11">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 11</title>
+                        <rubric>Dimensio caelestium spatiorum secundum quosdam</rubric>
+                        <incipit>A terra ad lunam tonum esse adnuntiant quod C¯X¯X¯V¯ stadiorum</incipit>
+                        <explicit>sunt in summa que continentur in his VII tonis stadia D¯C¯C¯C¯LXXV. Id est miliaria CVIIII et CCCLXXV.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="54r" to="54v">54r-v</locus>
+                        <author ref="#macrobius">Macrobius</author>
+                        <note>Excerpt from<title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis</title>, Lib. II, 11, 5-17.</note>
+                        <rubric>De mundano anno qui quindecim milibus solarium conficitur annorum Tullii Ciceronis Somnium Scipionis dictantis et Macrobii exponentis ac Senece philosophorum auctoritas</rubric>
+                        <incipit>Annus non is solus quem nunc communis omnium usus apellat</incipit>
+                        <explicit>septuaginta tres Quisquis in digitos mittit inueniet.</explicit>
+                    </msItem>                    
+                    <msItem>
+                        <locus from="56v">56v</locus>
+                        <note>A map of the world</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="57r" to="73r">57r-73r</locus>
+                        <title>Periegesis</title>
+                        <author ref="#priscianus">Priscianus Caesariensis</author>
+                        <rubric>Incipit liber pergesis id est de situ terrae prisciani grammatici urbis rome caesariensis doctoris quem de priscorum dictis excerpsit ormistarum sed et huic operi de tribus partibus. Uidelicet asia africa europa mappam depinxerat aptam in qua nationum promontoriorum fluminum insularum que situs atque monstrorum formatur honeste</rubric>
+                        <incipit>Nature genitor que mundum continet omnem</incipit>
+                        <explicit>Omnipotens per quo genitor mihi premia donec.</explicit>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="88">88 folia</measure>
+                                According to McGurk: <dimensions type="leaf" unit="mm">
+                                    <height>260</height>
+                                    <width>218</width>
+                                </dimensions>
+                            </extent>
+                            <foliation>Foliated on the paper mounts (1-88). Two previous foliation in ink were probably done before the fire damage and are only partly preserved in the upper right corner of recto-sides.</foliation>
+                            <condition>
+                                <p>The original manuscript made up of what are today Cotton Tib. B.V Part 1 and Cotton Nero D.II suffered damages by the Cotton fire in 1731. Some time after that the book was separated in two parts. In the 19<hi rend="sup">th</hi> century Cotton B.V. was restorated so that each leaf was mounted on a paper frame and the mansucript rebound.</p>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1" writtenLines="33 35">
+                                Written predominantly in 33-35 long lines;
+                            </layout>
+                            <layout columns="1" writtenLines="41">
+                                on ff. 2-8, 17-24 in 41 long lines;
+                            </layout>
+                            <layout columns="2">
+                                ff.30r-33v, 55r-56r, 73r-v, 78r-88v - two columns.
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <summary/>
+                        <scriptNote script="carolmin">
+                            <p>In a detailed analysis of the script McGurk (s.<bibl>
+                                    <abbr>McGurk, Miscellany</abbr>
+                                </bibl>) suggested that the mansucript was produced in one scriptorium and mostly by one scribe. Of interest to our study here is his observation that the Calendar, computistical sections, Aratea and Priscian belonged together, while the Marvels of the world and the Mappa mundi were later additions though by the main scribe.</p>
+                        </scriptNote>                     
+                    </scriptDesc>  
+                    <additions/>
+                    <bindingDesc>
+                        <binding>
+                            <p>Eighteen-century binding<ref target="http://www.bl.uk/manuscripts/Viewer.aspx?order=b&amp;ref=cotton_ms_tiberius_b_v!1_fblefv"/> with the coat of arms of Sir Cotton.</p>
+                        </binding>
+                    </bindingDesc>
+                    <accMat>Early modern table of content on f.<locus from="1r" to="1v">1r-v</locus>.</accMat>
+                </physDesc>
+                <history>
+                    <summary>As already noted by Saxl the first part of the manuscript (ff.2r-19r) is closely related to the Leofric Missal (Oxford, MS. Bodl. 579<ref target="https://digital.bodleian.ox.ac.uk/inquire/p/97b5f725-af6d-4934-ad75-575eb081838f"/>), while the texts on ff.30r-54v are found in three other Aratea manuscripts in the British Library: Harley 647 (ff.1r-20r), Harley 2506 (ff.33r-55r), Cotton Tib. C. I (ff.18r-41v).</summary>
+                    <origin>
+                        <p/>
+                    </origin>
+                    <provenance>This volume was formerly bound with the folios in Cotton Tiberius B V/2.</provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                      <bibl/>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno/>
+                    </msIdentifier>
+                    <head>ff. 55-56, 73 and 77</head>
+                    <msContents>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="73r" to="73v">73r-v</locus>
+                                <locus from="55r" to="56r">55r-56r</locus>
+                                <locus from="77r">77r</locus>
+                            </locusGrp>
+                            <note>Poem on the miracles of St. Nicolaus (later addition, s. XII).</note>
+                            <incipit>In licię prouintia fuit quidam christicola</incipit>
+                            <explicit>simus bonorum omnium participes euntium. Amen.</explicit>
+                            <listBibl>
+                                <bibl>
+                                    <abbr>BHL</abbr> Nr. 6215.</bibl>
+                                <bibl>Wright-Halliwell (ed.), Reliquiae antiquae II, 1843, pp. 199-208.</bibl>
+                            </listBibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="77v">77v</locus>
+                            <note>Blank. Two lines added later:<quote>Qui plus exspendit quam<gap/>
+                                </quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="78r">78r</locus>
+                            <note>Blank.</note>
+                        </msItem>           
+                    </msContents>
+                    <physDesc/>
+                    <history/>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno/>
+                    </msIdentifier>
+                    <head>ff. 74-76</head>
+                    <msContents>
+                        <msItem>
+                            <locus from="74r" to="74v">74r-v</locus>
+                            <note>Fragment of Gospel-book containing documents relating to Ely Abbey.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="75r" to="75v">75r-v</locus>
+                            <note>Leaf of a gospel-book in Latin, containing Old English manumissions.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="76r" to="76v">76r-v</locus>
+                            <note>Leaf of a gospel-book in Latin containing a record in Old English.</note>
+                        </msItem>
+                       <msItem xml:lang="ang">
+                            <locus from="78v" to="86v">78v–86v</locus>
+                            <title>Marvels of the East</title>
+                            <incipit>Colonia est initium ab antimolima</incipit>
+                            <explicit>cubita pid and feopra lang.</explicit>
+                        </msItem>
+                            <msItem>
+                                <locus from="87r" to="87v">87r-v</locus>
+                                <note>Apocryphal legend of Mambres and Jannes.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="88r" to="88v">88r–v</locus>
+                                <note>Notes relating to Battle Abbey, added in the 3rd quarter of the 12th century.</note>
+                            </msItem>
+                    </msContents>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_647">London, BL, Ms Harley 647</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f001r" n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002r" n="2r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002v" n="2v"/>        
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f003r" n="3r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010r" n="10r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010v" n="10v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011r" n="11r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011v" n="11v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012r" n="12r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012v" n="12v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013r" n="13r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013v" n="13v"/>        
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014r" n="14r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014v" n="14v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015r" n="15r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015v" n="15v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016r" n="16r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016v" n="16v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017r" n="17r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017v" n="17v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018r" n="18r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018v" n="18v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019r" n="19r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019v" n="19v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020r" n="20r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020v" n="20v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021r" n="21r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021v" n="21v"/>
+       
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="london_harley_647" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>London</settlement>
+                    <repository>British library</repository>
+                    <collection>Harley</collection>
+                    <idno>647</idno>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Astronomical miscellany</title>
+                    <note type="caption"/>
+                    <origPlace ref="#lotharingia">Lotharingia</origPlace>, <origPlace ref="#aachen">Aachen</origPlace>
+                    <origDate notBefore="0826" notAfter="0850">s.IX<hi rend="sup">2/4</hi>
+                    </origDate>, with later additions (s. X<hi rend="sup">ex</hi> and s. XI<hi rend="sup">in</hi>)
+                </head>                
+            <msContents>
+                <msItem>
+                    <locus from="1r" to="2r">1r-2r</locus>
+                    <title ref="#de_nominibus_stellarum">De nominibus stellarum</title>
+                    <incipit>Octauam nominauerunt scorpionem, quia scorpius arcuatam habet caudam et uariatam</incipit>
+                    <explicit>sed Christus Dominus saluator mundi euertit.</explicit>
+                    <note>The first folio is a later (s. X<hi rend="sup">ex</hi>/s. XI?) substitution. The original first folio was lost (see history).</note>                    
+                <!--Remarks: foliated 162? On the 12 region of the sky (the zodiac) but starting only from the eighth (Scorpio); then on the name of constellations based on Isidore, Etym. III, 71 (De nominibus stellarum); the first part based on? Again reproach to these fabulis mendacissimis foedicissimisque
+                This folio was to replace a missing one. The current fol. 1 is written by an English hand (according to T. A. M. Bishoff a late tenth-century hand of St. Augustine’s, Canterbury). Originally there were three short text preceding the Aratea text based on Isidore on the name of the constellations, and two short prayers (the second is unfinished). Both prayers touch upon the firmament and cosmological themes – connected with the text to follow. In the Tib. B. V., Harley 2506 and Cambridge 945 – the prayers precede the Isidorian text on the constellations (probably scribes thought it more suitable to start with the prayers and then constellations and swift transition to the Aratea). Comparing the missing and existing section with text in Harley 2506 – missing sections that was preceding the current fol. 2 – the Carolingian original – could have fit approximately 2,1 pages – roughly 1 folio (Text on the XII regions and the beginning of the Isidorian text on the constellations); the later added English which now also starts imperfectly missing the first 7 regions – text approximately same in length as the one present now – i.e. less than page and a half ?? Most logical to presume there is missing one folio now, but what was on it, apart from the text on the regions (again the two prayers?): f. 2: written by a continental hand; based on Isidore, Etym. III, 71 (De nominibus stellarum) but ends up with the phrase: His de positione quarundam stellarum iuxta opinionem antiquorum in quibusdam quasi uerisimilibus commemoratus · reliqua nomina falsissimo commento inuenta et a filiis dei id est xristianis ita ignoranda ac si nunquam fuissent audita uel scripta penitus sunt omittenda quę diabolicus error confirmauit · sed christus dominus saluator mundi euertit.
+                Remarks: perhaps it was originally there, then in 11th c. someone noticed it starts imperfectly and added in a bifolio the first part (but consequently lost the first folio).-->
+                </msItem>
+                <msItem>
+                    <locus from="2r">2r</locus>
+                    <note>Prayer:</note>
+                    <incipit>Domine Deus omnipotens sancta trinitas</incipit>
+                    <explicit>In unitate eiusdem spiritus sancti per omnia secula seculorum AMEN.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="2r">2r</locus>
+                    <note>On the creation of the luminaries according to the bible:</note>
+                    <quote>Sancta scriptura nobis a deo per beatum moysen tradita docet<gap reason="damage"/> in quarto die luminaria duo solem uidelicet lunamque per uerbum sicut omnia  creauit fecisse luminare maius ut preesset et diei et luminare minus nocti ut preesset nocti.</quote>
+                </msItem>
+                <msItem>
+                    <locus from="2v" to="17v">2v-17v</locus>
+                    <author ref="#cicero">Cicero</author>
+                    <title ref="#aratea_cicero">Aratea</title>
+                    <rubric>Ex opere Ciceronis de astronomia</rubric>
+                    <incipit>E quibus hinc subter possis cognoscere fultum</incipit>
+                    <explicit>Hanc autem totam properant depellere pisces.</explicit>
+                    <note>The text is lacking vv. 55-71 (section on Equus and Capricornus) and vv. 341-371 in the two missing folios after f. 5 and 15 (see condition). The scribe left the lower half of f. 15 blank finishing the section on the zodiac. This suggest that on the next page there was a drawing thereof, later cut out. This would explain why there are only 30 verses missing, probably occupying once the verso of the folium.</note>
+                    <msItem>
+                        <locus from="2v" to="13v">2v-13v</locus>
+                        <author ref="#hyginus">Hyginus</author>
+                        <note>Excerpts from<title ref="#de_astronomia">De astronomia</title>, Lib. 2 and 3 written as <term>scholia figurata</term>. The scribe often repeated some of the text to fill up the boundaries of the figures.</note>
+                        <incipit>Aries hic existimatur esse qui phryxum et hellen</incipit>
+                        <explicit>quae stellae planetae dictae sunt.</explicit>
+                        <bibl>Kauffmann, Georg.<title>De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</title>. Breslau, 1888.</bibl>
+                    </msItem>
+                    <decoNote>22 drawings of the constellations in colours, filled with text from the scholia within the shapes (<term>scholia figurata</term>). For description see <bibl>
+                                <abbr>Sternbilder des Mittelalters</abbr>, pp. 325-26</bibl> and K. Lippincott's description in the <ref target="http://www.kristenlippincott.com">Saxl Project</ref>.</decoNote>
+                </msItem>
+                    <msItem>
+                        <locus from="16r" to="16v">16r-v</locus>
+                        <note>Excerpt from<rs type="person" role="author" ref="#pliny">Pliny</rs>'s <title>Naturalis historia</title>, Lib. XVIII, 80-89 (§§ 351-365) placed in the margin of the <title>Aratea</title>
+                        </note>
+                        <incipit>
+                            <gap reason="lacuna"/> splendidum articuli temporum quos proposuimus autumnum serenum</incipit>
+                        <explicit>relinquentia diras tempestates praenuntiant.</explicit>
+                        <note>The excerpt began probably on the now lost folium preceding f. 16 with chapters 78-80 (§§ 340-351).</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="17v" to="18r">17v-18r</locus>
+                        <title ref="#excerpt_libri_computi_vi4">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 4</title>
+                        <rubric>Ambrosii Macrobii Theodosii de mensura et magnitudine terrae et circuli per quem solis iter est</rubric>
+                        <incipit>In omni orbe uel sphera medietas centrum uocatur</incipit>
+                        <explicit>et insuper centum septuaginta milia.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="18r">18r</locus>
+                        <title xml:id="excerpt_libri_computi_vi5">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 5</title>
+                        <rubric>Item eiusdem de mensura et magnitudine solis</rubric>
+                        <incipit>His dictis quibus mensura quam terrae uel ambitus</incipit>
+                        <explicit>Ergo ex his dicendum solem octies terra esse maiorem.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="18r">18r</locus>
+                        <title xml:id="excerpt_libri_computi_vi6">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
+                        <rubric>Felicis Capellae de mensura lunae</rubric>
+                        <incipit>Luna item circuli sui sex centesimam optinet portionem</incipit>
+                        <explicit>circulum centies maiorem esse tellure.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="18r">18r</locus>
+                        <title xml:id="excerpt_libri_computi_vi7">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
+                        <rubric>Eiusdem argumentum quo magnitudo terrae depraehensa est</rubric>
+                    <incipit>Erathostenes philosophus idemque geometra subtilissimus</incipit>
+                    <explicit>humanę coniecturae dimensionem admittit.</explicit>
+                    </msItem>
+                    
+                <msItem>
+                    <locus from="18v">18v</locus>
+                    <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 3)</title>
+                    <rubric>De positione et cursu septem planetarum</rubric> 
+                    <incipit>Inter caelum et terram certis discreta spatiis septem sidera pendent</incipit>
+                    <explicit>cum tardissime a trigesima luce ad easdem uices exit.</explicit>
+                </msItem>
+                    <msItem>
+                        <locus from="18v">18v</locus>
+                        <title ref="#pliny_excerpt_intervals">De intervallis earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 4)</title>
+                        <rubric>De intervallis earum</rubric> 
+                    <incipit>Interualla eorum a terra multi indagare temptarunt</incipit>
+                    <explicit>ita septem tonis effici quam diapason armoniam uocant.</explicit>
+                        <decoNote>On f.<locus from="19r">19r</locus> a diagram of planetary intervals (<bibl>
+                                <abbr>Eastwood, Diagrams</abbr>, p. 26</bibl>).</decoNote>
+                    </msItem>
+                    <msItem>
+                     <locus from="19r" to="19v">19r-v</locus>
+                        <title ref="#pliny_excerpt_absidibus">De absidibus earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 5)</title>
+                        <rubric>De absidibus earum</rubric>
+                     <incipit>Tres autem quas supra solem diximus sitas occultantur</incipit>
+                     <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                     <note>No accompanying drawing.</note>
+                </msItem>
+                    <msItem>
+                    <locus from="19v" to="20r">19v-20r</locus>
+                        <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 6)</title>
+                        <rubric>De cursu earum per zodiacum circulum</rubric>
+                    <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                    <explicit>sidera martis maxime inobseruabilis est cursus.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="20r">20r</locus>
+                    <title ref="#excerpt_libri_computi_v11">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 11</title>
+                    <rubric>Dimensio celestium spaciorum secundum quosdam</rubric>
+                    <incipit>A terra ad lunam tonum esse adnuntiant quod C¯X¯X¯V¯ stadiorum</incipit>
+                    <explicit>sunt in summa quę continentur in his septem tonis stadia DCCCLXXV. Id est miliaria C¯V¯I¯I¯I¯I¯ et CCCLXXV.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="20r">20r</locus>
+                    <author ref="#macrobius">Macrobius</author>
+                    <note>Excerpt from<title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis</title>, Lib. II, 11, 5-17.</note>
+                    <rubric>De mundano anno qui quindecim milibus solarium conficitur annorum Tullii Ciceronis somnium scipionis dictantis et Macrobii idem exponentis ac Senecae philosophorum auctoritas</rubric>
+                    <incipit>Annus non is solus quem nunc communis omnium usus apellat</incipit>
+                    <explicit>septuaginta tres quisquis in digitos mittit inueniet.</explicit>
+                </msItem>
+                    <msItem>
+                    <locus from="20v" to="21r">20v-21r</locus>
+                    <note>blank.</note>
+               </msItem>
+                    <msItem>
+                    <locus from="21v">21v</locus>
+                        <decoNote>Drawing of a planisphere of the norther and souther hemispheres. The names of the constellations were added later (s. XI?) by a certain Gervvigus:<quote>Ista propria sudore nomina unoquoque propria ego indignus sacerdos et monachus nomine Gervvigus repperi ac scripsi. Pax legentibus</quote>.</decoNote>
+                </msItem> 
+                <!--Remarks on the names of the constellations added on the planisphere: Gervvigus repperi ac scripsi – probably added later by this monk and sacerdos who found the names (repperi) comparing with some sort of a catalogue or Hyginus? Mistakes: next to cancer written Lyra orphei; Cancer qui et Eridanus – added around Eridanus; Herculis, Serpens qui et pellis leonis; Corona – for Lyra (the drawing of corona erased intentionally?) Deltoton written between drawings of Equus and Andromeda, no drawing of Deltoton, with no label for Andromeda.-->
+                
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="26">i (modern paper) + ii (parchment) + 21 fols. + ii (parchment)</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>320</height>
+                                  <width>285</width>
+                              </dimensions>
+                          </extent>
+                          <foliation>The first folium is foliated<quote>162</quote> (?) and <quote>1</quote>. The rest are foliated 2-21, a crossed-over foliation in pencil, starting from today f. 3: 2-20.</foliation>
+                      <collation>According to Blume (<bibl>
+                                    <abbr>Sternbilder des Mittelalters</abbr>, p. 322</bibl>) the poem is written on four today imperfect binions (ff. 2-15), the continuation of the poem together with the astronomical excerpts occupy another binion and a double leaf (ff. 16-21). Blume suggested that the first leaf was added later. Bishop on the otherhand noted that the binding is too tight to see if f.1 is conjoint with a leaf from the first quire (see Bishop, Notes). It remains uncertain if it was originally left blank and written on later.</collation>
+                          <condition>
+                              <p>The manuscript lost early at least two folios at the beginning. Probably both were replaced in the turn of the eleventh century, but consequently only the second survived (today as f.1). The manuscript lost also a leaf after f.<locus from="5r">5</locus> and f.<locus from="15r">15</locus>. Folium <locus from="17r">17</locus> is of a significantly lower quality.</p>
+                              <p>The ink on ff. 6r-7r (vv. 72-90) has almost completely disappeared.</p>
+                              <p>A ridge passing vertically in the middle of all folia except f.1 suggests that the manuscript was folded in two probably for transporting.</p>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="1" writtenLines="33 36">Written in one column, between 33 and 36 lines. Written-space: 
+                     <dimensions type="written">
+                         <height>22</height>
+                         <width>18</width>
+                     </dimensions>. On ff. <locus from="2v" to="13v">2v-13v</locus> the text of Cicero's poem are placed below the corresponding illustrations. Most of the pages have titles in <term>Capitalis rustica</term> at the bottom naming the constellation. The verses begin with rubricated initials in Capitalis rustica (corroded). The scribe on ff. <locus from="16r" to="17v">16r-17v</locus> placed them ahead of the verses (versals). The astronomical texts on ff. <locus from="17v" to="20r">17v-20r</locus> have rubricated titles in <term>Capitalis rustica</term>. The red pigment has corroded. In the second part of the poem (ff. <locus from="14r" to="17v">14r-17v</locus>) whole verses are written in red pigment to mark text divisions.</layout>
+                  </layoutDesc>
+               </objectDesc>
+                <handDesc>
+                    <handNote>The poem is written by one main hand (ff.<locus from="2v" to="15v">2v-15v</locus>) with characteristics: open g, x with a thine long schaft from right to left; a second hand (ff. <locus from="16r" to="17v">16r-17v</locus>) with a characteristic ra-ligature and all together tighter ductus.</handNote>
+                    <handNote>The astronomical texts on ff.<locus from="17v" to="20r">17v-20r</locus> are written by a younger hand (s.IX<hi rend="sup">2</hi>?) using e-caudata with a long cauda slanted to the left, -tur abbreviation in the form of 2, and a horizontal stroke with an elevated right side for final nasal abbreviation. A similar wrote the excerpt from Pliny on f. <locus from="16r" to="16v">16r-v</locus>.</handNote>
+                    <handNote>The text on f.<locus from="2r">2r</locus> was written by a continental (french?) hand in <date notBefore="0851" notAfter="0900">s.IX<hi rend="sup">2</hi>
+                            </date>.</handNote>
+                    <handNote>On the Anglo-Saxon hand on f.<locus from="1r">1</locus> see the article by T.A.M. Bishop, who identified it in three other Cambridge manuscripts coming from the library of <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's</rs>: Trinity College <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=87">B.11.2</ref> - James 241 (Amalarius), <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=652">O.2.30</ref> - James 1134 (Regula S. Benedicti), and <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=762">O.4.10 - James 1241</ref> (Juvenalis and Persius).</handNote>
+                </handDesc>
+                <scriptDesc>
+                    <scriptNote script="insulmin">The text on f. <locus from="1r" to="1v">1r-v</locus> is written in round <term>English minuscule</term>.</scriptNote>
+                    <scriptNote script="carolmin">The text of the poem and the astronomical texts following it are written in <term>Carolingian minuscule</term>.</scriptNote>
+                    <scriptNote script="caprust">The text of the scholia within the images (ff.<locus from="2v" to="13v">2v-13v</locus>) is written in <term>Capitalis rustica</term>
+                        </scriptNote>
+                </scriptDesc>                
+                <additions>
+                    <p>The text of the poem was corrected by two hands. The first labeled H<hi rend="sup">2</hi> by Buescu and dated by him to <date notBefore="0901" notAfter="1000">s.X</date>, belong to a scholar who corrected by deleting false readings and adding his correction over or above the line. Comparing these corrections with the other witnesses, Buescu concluded that this editor did not collate the readings with a second manuscript. The second hand labeled H<hi rend="sup">3</hi> made correction after h - the exemplar for the other manuscripts of the branch - was copied from our manuscript.</p>
+                    <p>Marginal annotation on f.<locus from="17v" to="20r">17v-20r</locus> by a later (s. XV?) hand copying the rubricated title, showing that the <term>Capitalis rustica</term> written in <term>scriptio continua</term> was at the time causing difficulties for the readers.</p>
+                </additions>
+                <bindingDesc>
+                    <binding notBefore="1601" notAfter="1700">
+                        <p>Seventeen-century binding in green leather with blind tooling.</p>
+                    </binding>
+                </bindingDesc>
+            </physDesc>
+            <history>
+                <summary>The manuscript seems to be the product of several writing phases: 1) the poem with illustrations written by the two hands (s.IX<hi rend="sup">2/4</hi> according to Bischoff); 2) the additional astronomical texts after the poem and by a different by contemporary hand the Christian introduction to the myths on f.<locus from="2r">2r</locus> (s. IX<hi rend="sup">2</hi>); 3) the Pliny's excerpt on the margin of ff.<locus from="16r" to="16v">16r-v</locus> is another later (s.X?) addition; and finally 4) the substitution for the missing first folium was added in England around the year 1000.</summary>
+                <origin>Bischoff and Borst place the origin of the manuscript in Lorraine (Borst pointing also Fleury as a possibility); based on iconography features Mütherich (1990) and Blume (Sternbilder des Mittelalters, p. 323) supposed it was a product of the court scriptorium of<rs type="person" ref="#louis_pious">Louis the Pious</rs>. Van de Vyver suggested that it was <rs type="person" ref="#abbo">Abbo of Fleury</rs> who brought the manuscript to England. Due to lack of evidence this remains a hypothesis. Before it left the continent in the second half of the ninth century, whether in Fleury or elsewhere a scribe added the astronomical texts after the poem and the pro-christian opening at the front.</origin>
+                <provenance>Many scholars placed the manuscript in Fleury in the tenth century, where<ref type="altMs" target="London_harley_2506.xml">Harley 2506</ref> was most probably produced. Soubiran (p.130-32), however, demonstrated that the latter manusript is not a direct copy of Harley 647, hence there is no prove for a Fleury provenance. Similarly hypothetical remains the suggestion that the mansucript was the possession of <rs type="person" ref="#lupus_servatus">Lupus of Ferrières</rs>.</provenance>
+                <provenance>The later additions of f.<locus from="1r">1</locus> and the text added to the planisphere on f.<locus from="21v">21v</locus> prove that the manuscript was in England <date notBefore="0990" notAfter="1010">around the year 1000</date>.</provenance>
+                <provenance>In<date notBefore="1101" notAfter="1150">s. XII<hi rend="sup">1</hi>
+                        </date> the manuscript was at <rs type="place" ref="#peterborough">Peterborough</rs>, where it served as an exemplar for <ref type="altMs" target="London_cotton_ci.xml">London, BL, MS Cotton Tib. C. I</ref>.</provenance>
+                <provenance>By the<date notBefore="1486" notAfter="1500">late 15th century</date> the manuscript was at the <rs type="corporate" ref="#saint_augustine_abbey">Benedictine abbey of St Augustine</rs>, Canterbury as it was included in the catalogue (see <title>Medieval Libraries of Great Britain: A List of Surviving Books</title>, ed. by N. R. Ker, London: Royal Historical Society, 1964, p. 44).</provenance>
+                <provenance>It belonged further to<rs type="person" ref="#francis_babington">Francis Babington</rs> (academic administrator at the University of Oxford, d. 1569): see inscription on f. <locus from="2v">2v</locus> <quote>Francis Babyngton</quote>.</provenance>
+                <provenance>The manuscript became part of the collection owned by<rs type="person" ref="#robert_harley">Rober Harley</rs> (d. 1724), later by his daughter, the duchess of Portland, who sold it to the British nation.</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 321-26.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 1</abbr>, p. 333.</bibl>
+                   <bibl>
+                            <abbr>Leonardi</abbr>, pp. 72-73.</bibl>
+                   <bibl>Bischoff, Bernhard. Manuscripts and Libraries in the Age of Charlemagne. Translated by Michael Gorman. Cambridge: Cambridge University Press, 2007, p. 87.</bibl>
+                   <bibl>Vyver, André van de. “Les oeuvres inédites d’Abbon de Fleury.”<title level="j">Revue Bénédictine</title> 47 (1935): 125–69.</bibl>
+                   <bibl>Helmut Gneuss,<title>Handlist of Anglo-Saxon Manuscripts: A List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>. Tempe: Arizona Center for Medieval and Renaissance Studies, 2001, no. 423.</bibl>
+                   <bibl>B. Bischoff in<title>Karl der Grosse: Werk und Wirkung</title>, ed. by W. Braunfels Aachen, 1965, p. 307</bibl>!
+                   <bibl>
+                            <title>Medieval Libraries of Great Britain: A List of Surviving Books</title>, ed. by N. R. Ker, 2nd edn, Royal Historical Society Guides and Handbooks, 3 (London: Royal Historical Society, 1964), p. 44.</bibl>
+                   <bibl>
+                            <abbr>Buescu (1942)</abbr>, esp. 138-151.</bibl>
+                   <bibl>
+                            <abbr>Dekker</abbr> esp. pp. 145-148.</bibl>
+                   <bibl>Euw, Anton von. “Astronomie und Zeitrechnung im Karolingerreich.” In<title>Mittelalterliche Handschriften der Kölner Dombibliothek. Erste Symposion der Diözesan- Und Dombibliothek Köln zu den Dom-Manusckripten</title>, ed. by Heinz Finger, pp. 21–64. Köln: Ezbischöfliche Diözesan- und Dombibliothek, 2005.</bibl>
+                   <bibl>Kauffmann, Georg.<title>De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</title>. Breslau, 1888.</bibl>
+                   <bibl>Köhler, Wilhelm, and Florentine Mütherich.<title>Die karolingischen Miniaturen. Die Hofschule Kaiser Lothars. Einzelhandschriften aus Lotharingien</title>. Berlin: Deutscher Verlag für Kunstwissenschaft, 1971, pp. 77-79.</bibl>
+                   <bibl>
+                            <abbr>Soubiran (1972)</abbr>, pp. 106-109.</bibl>
+                   <bibl>Montgomery, Scott L. Science in Translation. Chicago: University of Chicago Press, 2000.</bibl>
+                   <bibl>
+                            <abbr>Mostert (1989)</abbr>, p. </bibl>!                   
+                   <bibl>Mütherich, Florentine. “Book Illumination at the Court of Louis the Pious.” In Charlemagne’s Heir. New Perspectives on the Reign of Louis the Pious (814-840), edited by Peter Godman, 593–604. Oxford: Clarendon Press, 1990, pp.597-600.</bibl>                   
+                   <bibl>Ottley, William Y. On a Ms. of Cicero’s Translation of Aratus Believed to Be from the Second or Third Century. London, 1835.</bibl>
+                   <bibl>
+                            <abbr>Reeve (1980)</abbr>, pp. 508.</bibl>
+                   <bibl>Saxl, Fritz, and Peter Georg Hans Meier. Verzeichnis astrologischer und mythologischer illustrierter Handschriften des lateinischen Mittelalters. Vol 3: Handschriften in englischen Bibliotheken. Edited by Harry Bober. London: Warburg institute, 1953.</bibl>
+                   <bibl>T. A. M. Bishop. “Notes on Cambridge Manuscripts. Part II.”<title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
+                   <bibl>Thiele, Georg.<title>Antike Himmelsbilder: mit Forschungen zu Hipparchos, Aratos und seinen Fortsetzern und Beiträgen zur Kunstgeschichte des Sternhimmels</title>. Berlin: Weidmann, 1898.</bibl>
+                   <bibl>Vogels, J.<title>Scholia in Ciceronis Aratea aliaque ad astronomiam pertinentia e codice Musei Britannici Harleiano 647</title>. Wissenschaftliche Beilage zum Programm des Gymnasiums zu Crefeld, Ostern 1884. Pt. 1. Crefeld, 1884.</bibl>                   
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

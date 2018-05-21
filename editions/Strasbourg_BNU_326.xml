@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref target="http://gallica.bnf.fr/ark:/12148/btv1b10224563x">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="strasbourg_BNU_326" xml:lang="eng">
+                <msIdentifier>                    
+                    <settlement>Strasbourg</settlement>
+                    <repository>Bibliothèque nationale et universitaire</repository>
+                    <idno>326</idno>
+                    <altIdentifier type="former">
+                        <idno>Latin 275</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Astronomical-Computistical Collection</title>
+                    <note type="caption"/>
+                    <origPlace ref="#limoges">Limoges</origPlace> or <placeName ref="#angouleme">Angoulême</placeName>
+                    <origDate notBefore="0950" notAfter="1050">s. X<hi rend="sup">2</hi>
+                    </origDate> (with later additions)
+                </head> 
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="201">ii+ 201 fols. + ii (modern paper)</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>320</height>
+                                  <width>255</width>
+                              </dimensions> (exception f. 181 which is of smaller format).
+                          </extent>
+                          <foliation>Foliated in pencil in the upper right corner of every folium.</foliation>
+                          <condition>
+                              <p>Fol. 1 cut perpendicularly, missing the outer half. Missing leaf (most probably originally left blank) between ff. 172 and 173, now only a small rest visible; two stubs visible also between ff. 169 and 170.</p>
+                              <p>Stanes probably from water damage on ff. 191-201.</p>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="1" writtenLines="31 33">Part 1 (ff. 1-111) written in 31-33 long lines.</layout>
+                       <layout columns="1" writtenLines="29">Part 2 (ff. 112-135) written in 29 long lines.</layout>
+                       <layout columns="1" writtenLines="33">Part 3 (ff. 136-167) written in 33 long lines.</layout>
+                       <layout columns="1" writtenLines="40 44">ff. 168-172 (Aratea) written in 40-44 long lines.</layout>
+                       <layout columns="1">ff. 173-179r (Calendar) ruled in 33 long lines; ff. 179v-184v (Tables) in 44-59 lines.</layout>
+                       <layout columns="2" writtenLines="44">ff. 185r-v written in two columns 44 lines.</layout>
+                       <layout columns="1" writtenLines="44">ff. 186r-201v written in 44 long lines.</layout>
+                  </layoutDesc>
+               </objectDesc>
+                <scriptDesc>
+                    <scriptNote script="carolmin">Most of the texts are written in a tight carolingian minuscule, which shows characteristics of the tenth century such as: e-caudata, word division, ligatures (ct, st, ra, nt) and abbreviation (-orum, -tur). The script used for the Aratea section exhibits fewer ligatures and seems to be written by a more modern hand (the shaft of the caroline a becoming more up-right, the tongue of the e pointing to 2 o'clock). The same hand wrote probably also ff. 185-201.</scriptNote>
+                </scriptDesc>
+                <decoDesc>
+                    <decoNote>Rubrics for chapters headings in<term>Capitalis rustica</term> and initial-majuscule for opening the chapter. Later added paragraph marks in red; ample margins left but no glossa.</decoNote>
+                </decoDesc>
+                <additions>On f.<locus from="169r">169r</locus> a prayer later added in the free space: <quote>In nomine patri et filii et spiritus sancti amen. Adiuro uos tempestates et uoces et tonitrua et fulgura<gap reason="omitted"/>
+                        </quote>. Fol. 181 a later addition.</additions>
+                <bindingDesc>
+                    <binding>
+                        <p>Modern brown shagreen leather binding on six sewing stations.</p>
+                    </binding>
+                </bindingDesc>
+            </physDesc>
+            <history>
+                <origin>The manuscript is a copy of<ref type="altMs" target="Paris_lat_5239">Paris, BnF, Ms lat. 5239</ref> (s. X<hi rend="sup">1/3</hi>, Saint-Martial in Limoges).</origin>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Catalogue général</abbr>. Vol. 47. Paris, 1923, pp. <ref target="https://archive.org/stream/cataloguegnr47fran#page/138">139</ref>-<ref target="143">143</ref>.</bibl>
+                   <bibl>
+                            <abbr>Borst, Schriften</abbr>. Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._294">294</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._296">296</ref>.</bibl>
+                   <bibl>
+                            <abbr>Lott, Transmission</abbr>, p. 150.</bibl>
+                   <bibl>
+                            <abbr>Dell'Era, Baseleensia</abbr>, p. 304.</bibl>
+                   <bibl>Buescu, Victor. “Deux Nouveaux Francici de Germanicus César.” In<title>Problèmes de critique et d’histoire textuelle</title>, 229–37. Bucharest and Paris, 1942.</bibl>
+                   <bibl>Folkerts, Menso. “De Arithmeticis Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede.” In<title level="m">Essays on Early Medieval Mathematics</title>, by Menso Folkerts, III. 1–30. Aldershot: Variorum, 2003, here p. 6.</bibl>
+                   <bibl>
+                            <abbr>Juste, Observation</abbr>, p. 193.</bibl>
+                   <bibl>
+                            <abbr>Leonardi</abbr>, p. 453.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 1</abbr>, p. 409.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 2</abbr>, p. 269.</bibl>
+                  </listBibl>
+            </additional>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 1</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="10r">1r-10r</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#DNR">De natura rerum</title>
+                            <msItem>
+                                <locus from="1r">1r</locus>
+                                <rubric>Incipiunt uersus bedae pre<gap reason="damage"/>
+                                </rubric>
+                                <incipit>Naturas rerum uarias labentis et</incipit>
+                                <explicit>Quis legit astra super mente tuere<subst>
+                                        <del>deum</del>
+                                        <add place="above">diem</add>
+                                    </subst>
+                                </explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="1r">1r</locus>
+                                <note>Capitula.</note>
+                                <rubric>Incipit liber bedae presb<supplied>iteri</supplied>
+                                </rubric>
+                                <incipit>I. De quadrifario dei opere</incipit>
+                                <explicit>XXV. De aere</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="1v" to="10r">1v-10r</locus>
+                                <note>Text</note>
+                                <rubric>De quadrifario dei opere</rubric>
+                                <incipit>
+                                    <gap reason="damage"/>ratione distinguitur. Primo quod</incipit>
+                                <explicit>usque ad occidentem extenditur.</explicit>
+                                <finalRubric>Explicit de natura rerum.</finalRubric>
+                            </msItem>                            
+                        </msItem>                
+                        <msItem>
+                            <locus from="10r" to="15v">10r-15v</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#DT">De temporibus</title>
+                            <rubric>Incipit liber de temporibus</rubric>
+                            <msItem>
+                                <locus from="10r">10r</locus>
+                                <note>Capitula</note>
+                                <incipit>I.De temporibus horis et momentis</incipit>
+                                <explicit>De sexta aetate.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="10r" to="15v">10r</locus>
+                                <rubric>I. De temporibus horis et momentis</rubric>
+                                <incipit>Tempora momentis horis diebus mensibus annis saeculis aetatibus diuiduntur</incipit>
+                            </msItem>
+                            <explicit>Reliquum sextae aetatis deo soli patet.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="16r" to="82v">16r-82v</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#DTR">De temprum ratione</title>
+                            <rubric>Praefatio Bedae presbuteri in librum de temporibus</rubric>
+                            <incipit>De natura rerum et ratione temporum duos<sic>condam</sic> per stricto sermone libellos discentibus</incipit>
+                            <explicit>caelestium premiorum mereamur accipere palmam.</explicit>
+                            <finalRubric>
+                                <note>(f.<locus from="82v">82v</locus>)</note> Explicit domino iuvante Bedae presbiteri.</finalRubric>
+                            <note>On f.<locus from="77v">77v</locus> the text jumps from chapter 66,10 <quote>
+                                    <gap reason="omitted"/> cuius adiutorio propagaret genuit humanum</quote> to chapter 67-71 <quote>Haec de cursu praeteriti saeculi<gap reason="omitted"/>
+                                </quote>.</note>
+                            <msItem>
+                                <locus from="83r" to="104r">83r-104r</locus>
+                                <author ref="#bede">Bede</author>
+                                <note>Chapter 66.</note>
+                                <incipit>Adam annorum CXXX genuit Sed, cui superuixit annis DCC</incipit>
+                                <explicit>cum debito tanto patri honore condidit.</explicit>
+                            </msItem>
+                            <note>Few marginal notes and interlinear, more abundant in the first chapters.</note>
+                        </msItem>                
+                        <msItem>
+                            <locus from="104v" to="107r">104v-107r</locus>
+                            <title ref="#chronica_807">Series annorum mundi nova</title>
+                            <rubric>Adbreviatio chronicae. Aetas prima</rubric>
+                            <incipit>Adam cum esset CXXX annorum genuit seth. Set autem habens annos CV</incipit>
+                            <explicit>Sunt autem totius summae ab origine mundi anni usque in presentem annum DCCCX incarnationis dni I̅I̅I̅I̅DCCLXII.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="107r" to="109r">107r-109r</locus>
+                            <author ref="#isidore">(Ps.) Isidore</author>
+                            <title ref="#de_ortu_et_obitu_patrum">De ortu et obitu patrum</title>
+                            <rubric>Incipit de ortu et obitu patrum</rubric>
+                            <incipit>Adam pater generis humani dei manibus ex terra creatus</incipit>
+                            <explicit>episcopus missu sibidem requies at in pace.</explicit>
+                            <note>Taken probably from<title ref="#libri_computi">Libri computi</title>, I, 6.</note>                    
+                        </msItem>
+                        <msItem>
+                            <locus from="109r">109r</locus>
+                            <note>Excerpt from<title ref="#libri_computi">Libri computi</title>, I, 7 C.</note>
+                            <rubric>Nostrates Hieronimus graeci</rubric>
+                            <incipit>Ab adam usque ad natiuitatem xri computantur anni I̅I̅I̅DCCCLII<gap reason="omitted"/> Si in primo anno quo adam factus est posueris terminum paschae</incipit>
+                            <explicit>anno que passionis terminus nonas aprilis et concurens VII.</explicit>
+                        </msItem>
+                        <msItem> 
+                            <locus from="109v" to="110r">109v-110r</locus>
+                            <note>On different languages and alphabets after the flood. Included are the jewish, greek, and latin alphabets, the one by Aethicus Cosmographus, and the northmen (<quote>northmannorum</quote>. The name of each letter is transliterated in Latin. At the end is alist of the Roman numerals from one to million <quote>MM</quote> (in 5 columns), with the corresponding Greek numerals transliterated in Latin letter <quote>Mia<gap reason="omitted"/> Ecathostochyle</quote>.</note>
+                            <incipit>Primus omnium litteras ante diluuium inuenisse enoch dicitur</incipit>
+                            <explicit>MM Ecathostochyle.</explicit>
+                        </msItem>
+                        <msItem> 
+                            <locus from="110v" to="111r">110v-111r</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#de_arithmeticis_propositionibus">De arithmeticis propositionibus liber<note>(1.1-3.3)</note>
+                            </title>
+                            <rubric>Incipiunt numeri per quos potest qui voluerit aliterius cogitationes de numero quolibet quem animo conceperit explorare</rubric>
+                            <incipit>Quo modo numerous a quolibet animo conceptus quis sit</incipit>
+                            <explicit>sexies conteni sextam septies conteni septimam.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="111v">111v</locus>
+                            <note>Unfinished digram; a large circle.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 2</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="112r" to="115r">112r–115r</locus>
+                            <note>Computistical tables.</note>
+                            <msItem>
+                                <locus from="112r">112r</locus>
+                                <note>Lunar zodiac table;</note>
+                            </msItem> 
+                            <msItem>
+                                <locus from="112v">112v</locus>
+                                <note>Feria table (weekdays coded S<supplied>abbato</supplied>, D<supplied>ominica</supplied> and letters <quote>II</quote> to <quote>VI</quote>),</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="113r">113r</locus>
+                                <note>Tabula Dionysii;</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="113v" to="114r">113v-114r</locus>
+                                <note>Five further tables for calculating the weekdays (the first four coded with letters A-G while the fifth with letters D<supplied>ominica</supplied>, L<supplied>unae</supplied>, M<supplied>artis</supplied>, C<supplied>
+                                        <unclear>andidi circuli</unclear>
+                                    </supplied>, T<supplied>
+                                        <unclear/>
+                                    </supplied>, A<supplied>
+                                        <unclear>phroditis</unclear>
+                                    </supplied>, and S<supplied>aturni</supplied>. Explanatory text on f. 113v <quote>Littere huius laterculi qui uocatur ratio sepri zodiaci eo quod<gap reason="omitted"/>
+                                    </quote>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="114v" to="115r">114v-115r</locus>
+                                <rubric>Argumentum quota sit luna per decem et novem annos</rubric>
+                                <note>Two Lunar letters AEIOV tables the first with Greek numerals<quote>Haec figura grecis litteris et numeris computatur</quote>;</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="115v">115v</locus>
+                                <note>Rota of monthly lunar epacts;</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="116r" to="116v">116r-v</locus>
+                                <note>two calendrical rotas (?);</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="117r">117r</locus>
+                                <note>Rota for feria of kalends;</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="117v">117v</locus>
+                                <note>Rota for calculating the zodiacal ascendent, divided in 12 wedge-shaped segments for each of the months accompanied by short<term>regula</term> (for March: <quote>So XI aut XII remanserint oriuntur pisces</quote>); Cf. <title ref="#libri_computi">Libri computi</title>, I, 6.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="118r">118r</locus>
+                                <rubric>Quibus signis orientibus quae occident vel centrum caeli supra vel infra eodem tempore teneant subiecta formula continetur</rubric>
+                                <note>Rota divided in 12 wedge-shaped segments for calculating the simultaneously rising and setting of the zodiacal signs:<quote>ariete oriente II horis occidit libra et centrum superioris zodiaci tunc capricornus inferioris optinet cancer</quote>, <quote>tauro oriente II horis occidit scorpius et centrum superioris zodiaci tunc aquarius inferioris optinet leo</quote>; Cf. <title ref="#libri_computi">Libri computi</title>, I, 6.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="118v">118v</locus>
+                                <note>Two diagrams of solstices and equinoxes.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="119r">119r</locus>
+                                <note>Two small rotae of the elements and their qualities and with the season; below it<foreign>horologium viatorum</foreign> with explanatory text <quote>Ianuaris cum decembri in horarum mensura concordat<gap reason="omitted"/>
+                                    </quote>.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="119v">119v</locus>
+                            <note>Text on the winds based on<rs type="person" ref="#isidore">Isidore</rs>'s <title ref="#de_natura_rerum">De natura rerum</title>, 37.</note>
+                            <rubric>De nominibus ventorum</rubric>
+                            <incipit>Ventorum primus cardinalis septentrio</incipit>
+                            <explicit>si circuli similitudinem prudens lector inquirat.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="119v" to="120r">119v-120r</locus>
+                            <note>Verse on the winds.</note>
+                            <rubric>Versus de ventorum nominibus ac speris subpositis</rubric>
+                            <incipit>Quatttuor aquadro consurgunt limite uenti</incipit>
+                            <explicit>Argestemque grai uocitant cognomina prisco.</explicit>
+                        </msItem>                
+                        <msItem>
+                            <locus from="120r">120r</locus>
+                            <note>Wind diagram rota with twelve wedge-shaped segments with text for each of the twelve winds again based on<rs type="person" ref="#isidore">Isidore</rs>'s <title ref="#de_natura_rerum">De natura rerum</title>, 37: <quote>Ventorum primus cadinalis septentrio qui et a partias frigidus et niualis<gap reason="omitted"/>
+                                </quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="120v">120v</locus>
+                            <note>Rota for phases of the moon<quote>ledo</quote>, <quote>malina</quote> in connection with the tides, in the centre of the rota with T-O centre and four smaller circles on the sides each with text <quote>Luna XXVIII incipit malina</quote> etc. probably taken from <title ref="#libellus_annalis">Annalis libellus</title>, c. 51.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="121r">121r</locus>
+                            <note>Another wind diagram with eight wedge-shaped segments, each divided further in two. Texts inbetween the eight segments each starting with the the letter O:<quote>O miranda suo flamantia sidera celo</quote>, <quote>Ordine quadrifido solari currere ciclo</quote> <quote>Orridus est aquilo frigentia climate celo</quote> etc.</note>
+                        </msItem>                        
+                        <msItem>
+                            <locus from="121v">121v</locus>
+                            <author ref="#pliny">Pliny the Elder</author>
+                            <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
+                            <rubric>De positione et cursu septem planetarum</rubric>
+                            <incipit>Inter caelum et terram certis</incipit>
+                            <explicit>ad easdem uices exit.</explicit>
+                            <decoNote>On f.<locus from="122r">122r</locus> the bust medallions of the planets.</decoNote>
+                        </msItem>
+                        
+                        <msItem>
+                            <locus from="122r">122r</locus>
+                            <author ref="#pliny">Pliny the Elder</author>
+                            <title ref="#pliny_excerpt_intervals">De intervallis earum</title>
+                            <rubric>De intervallis earum</rubric>
+                            <incipit>Interualla eorum a terra multi indagare</incipit>
+                            <explicit>diapason armoniam uocant.</explicit> 
+                            <decoNote>On f.<locus from="122r">122r</locus> parallel to the text a list of the planets with the intervalls in between. On f.<locus from="122v">122v</locus> a circular diagram of the planetary intervals.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="123r">123r</locus>
+                            <decoNote>On f.<locus from="123r">123r</locus> a rectangular diagram of the planetary latitudes.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="123v" to="124r">123v-124r</locus>
+                            <author ref="#pliny">Pliny the Elder</author>
+                            <rubric>De absidibus earum</rubric>
+                            <incipit>Tres autem quas supra solem diximus</incipit>
+                            <explicit>ut subiecta figura demonstrate.</explicit>
+                            <decoNote>On f.<locus from="124r">124r</locus> a circular diagram of the planetaryabsides.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="124v" to="125r">124v-125r</locus>
+                            <note>Excerpts from<title ref="#libellus_annalis">Annalis libellus</title>, c. 69b-c and <title ref="#libri_computi">Libri computi</title>, Lib. IIII, 24-26.</note>
+                            <rubric>De eclypsin solis et lunae</rubric>
+                            <incipit>Eclypsin solis ei quotiens luna XXX ad eandem lineam qua sol uehitur</incipit>
+                            <explicit>quotidie tardius ueniret tardius recederet.</explicit>
+                            <note>Astronomical notes on the place of the planets in the zodiacal band for the years 770 and 794:<quote>Anno DCCLXX indictione VIII prima die ianuari mensis stella saturni nec non et stella iouis in siderecri uersabantur. Et cuicumque codicellus iste perueniat in manus si tamen curiosit errantium recognoscere siderum cursus intellegat post quanta annorum curricula ad idem redeant sidus. Anno dominice DCCXCIIII indictione V stellarum in mense marti in geminis et stella iouis in scorpione stella martis in cancro et stella ueneris in tauro uersatur. Discite o iuuenes cum abraham caeli et siderum cursus cognoscere non cum ępicurio uoluptatum ad sertore uentri deseruire et luxuriae.</quote>
+                            </note>
+                            <filiation>Valenciennes, BM, Ms 174, ff. 28r-29r.</filiation>
+                        </msItem>
+                        <msItem>
+                            <locus from="125r" to="125v">125r-v</locus>
+                            <author ref="#bede">(Ps.) Bede</author>
+                            <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
+                            <rubric>De stella veneris et mercurii</rubric>
+                            <incipit>Itaque stella ueneris et mercurio hoc superioribus tribus planetarum stellis differunt</incipit>
+                            <explicit>et idcirco longiores aetheris meta peragit.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="125v">125v</locus>
+                            <author ref="#bede">(Ps.) Bede</author>
+                            <title ref="#de_apsidibus_planetarum">De apsidibus planetarum</title>
+                            <rubric>De absidibus planetarum</rubric>
+                            <incipit>Circulus zodiacus qui duodecim signis constat omni ex parte aequeuicinus est terre</incipit>
+                            <explicit>sed potius LXX dierum numerum reddat.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="125v" to="126r">125v-126r</locus>
+                            <title ref="#iqsvm">In quo signo versetur mars</title>
+                            <rubric>De signo mars</rubric>
+                            <incipit>In quo signo uersetur mars Annis ab inicio mundi</incipit>
+                            <explicit>inueniri planetam. Virgo latitudinem signiferi scandes.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="126r" to="127r">126r-127r</locus>
+                            <author ref="#pliny">Pliny the Elder</author>
+                            <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum</title>
+                            <rubric>De sursu earum per zodiacum circulum</rubric>
+                            <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                            <explicit>maxime inobseruabilis est cursus.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="127r">127r</locus>
+                            <note>Excerpt from<title ref="#libri_computi">Libri computi</title>, V, 11.</note>
+                            <rubric>Dimensio caelestium spaciorum secundum quosdam</rubric>
+                            <incipit>A terra ad lunam tonum esse pronunciant</incipit>
+                            <explicit>id est miliaria CVIIII et CCCLXXV</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="127r" to="129r">127r-129r</locus>
+                            <author ref="#pliny">Pliny the Elder</author>
+                            <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum</title>
+                            <rubric>De praesagiis tempestatum</rubric>
+                            <incipit>Etenim prqedictis difficilioribus transpire conuenit</incipit>
+                            <explicit>diras tempestates praenunciant.</explicit>
+                            <note>Marginal heading in<term>Capitalis rustica</term> for each section: <quote>solis</quote>, <quote>lunae</quote>, <quote>stellarum</quote> etc.</note> 
+                        </msItem>
+                        <msItem>
+                            <locus from="129r">129r</locus>
+                            <note>List of types of numbers according to<rs type="person" ref="#augustinus_aurelius">Augustine</rs>'s <title ref="#de_musica_augustine">De musica</title>:</note>
+                            <rubric>Genera numerorum in sensibus secundum Augustinum</rubric>
+                            <quote>Progressores· In actu· Occursores· In passione· Recordabiles· In memoria Sonantes· In delectatione· Iudiciales· In discretione.</quote>
+                        </msItem>
+                        <msItem>
+                            <locus from="129r">129r</locus>
+                            <note>Excerpt from<title ref="#libellus_annalis">Annalis libellus</title>, c. 65.</note>
+                            <rubric>
+                                <sic>Raciocinatione</sic> item de generibus numerorum in</rubric>
+                            <incipit>Cardinales sunt numeri ut unus duo tres</incipit>
+                            <explicit>solus solius soli alter alterius alteri.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="129r">129r</locus>                        
+                            <rubric>De compoto articulari</rubric>
+                            <msItem>
+                                <note>A table with six columns showing how to represent number by the fingers.</note>
+                                <incipit>III digiti sinistra manu idem auricularis medicus in pudicus usque ad VIIII continent numerum I, II<gap reason="omitted"/> VIIII</incipit>
+                                <explicit>Continet dextra manus per iunsturas semper usque ad DCCCC milia C￣<gap reason="omitted"/> D￣C￣C￣C￣C￣.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="129v" to="130r">129v-130r</locus>
+                                <author ref="#bede">Bede</author>
+                                <title>De computo digitorum</title>
+                                <incipit>Cum ergo dicis I minimum in leua digitum inflectens in medium palmae artum in</incipit>
+                                <explicit>sed ante aures retro respicientes.</explicit>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <note>Short texts on measures, predominantly excerpts from the<title ref="#libri_computi">Libri computi</title>, Lib. VI, 1-7:</note>
+                            <msItem>
+                                <locus from="130r">130r</locus>
+                                <rubric>De racione unciarum</rubric>
+                                <incipit>Scripulus - sex siliquae<lb/>Dimidia sextula - duo scripuli et siliquae xii</incipit>
+                                <explicit>Assis siue as - duodecim unciae</explicit>
+                                <note>Text in two columns with signs for each<foreign>uncia</foreign>.</note>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1305">pp. 1305-07</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="130v">130v</locus>
+                                <note>Excerpt from<rs type="person" role="author" ref="#eucherius_lugdunensis">Eucherius of Lyon</rs>'s <title ref="#instructionum_liber">Instructionum Liber</title>, Book 2, chapter 13-15:</note>
+                                <rubric>De ponderibus</rubric>
+                                <incipit>Talentum est pondo LXII semis quod faciunt LXX libras arrice libra</incipit>
+                                <explicit>quae ecclesiae ora celebra in sermonem nostrum uertuntur ex greco.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="130v" to="131r">130v-131r</locus>
+                                <rubric>De probatione auri et argenti</rubric>
+                                <incipit>Omne aurum purum cuiuslibet ponderisomni argento</incipit>
+                                <explicit>sicut prima lectionis huius fronte praefixum est.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1307">pp. 1307-08</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="131r" to="131v">131r-v</locus>
+                                <rubric>De mensura caerae et metalli in operibus fusilibus</rubric>
+                                <incipit>In fundendis operibus cuius ponderis metallum quodlibet ad certum</incipit>
+                                <explicit>auri librae XVIIII et duo decies VIII denarii quod sunt unciae tres et denarii XVI.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1309">pp. 1309-10</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="131v" to="132r">131v-132r</locus>
+                                <rubric>Ambrosii Macrobii Theodosii de mensura et magnitudine terrae et circuli per quem solis iter est</rubric>
+                                <incipit>In omni orbe uel sphera medietas centrum uocatur</incipit>
+                                <explicit>ambitum stadiorum habere trecenties centena milia et insuper CLXX milia.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1310">pp. 1310-13</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="132r" to="133r">132r-133r</locus>
+                                <rubric>Item eiusdem de mensura et magnitudine solis</rubric>
+                                <incipit>His dictis quibus mensura quam terrae uel ambitus uel diametros habet</incipit>
+                                <explicit>Ergo ex his dicendum solem occies terra esse maiorem.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1313">pp. 1313-16</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="133r">133r</locus>
+                                <rubric>Felicis Capellae de mensura lunae</rubric>
+                                <incipit>Luna item circuli sui sexcensimam optinet portionem</incipit>
+                                <explicit>Ipsum uero circulum centies maiorem esse tellure.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1316">pp. 1316-18</ref>.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="133r" to="133v">133r-v</locus>
+                                <rubric>Eiusdem argumentum quo magnitudo terrae depraehensa est</rubric>
+                                <incipit>Eratostenes philosophus idemque geometra subtilissimus magnitudinem terraeni orbis nosse uolens</incipit>
+                                <explicit>nullam humanae coniecturae dimensionem admittit.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1318">pp. 1318-20</ref>.</bibl>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="133v" to="134v">133v-134v</locus>
+                            <note>Further excerpts from<title ref="#libri_computi">Libri computi</title>, Lib. IV, 31a-33a and V, 10:</note>
+                            <msItem>
+                                <rubric>Argumentum quot horas luna in unaquaque nocte luceat</rubric>
+                                <incipit>Si uis scire quot horas luna in unaquaque lucet nocte</incipit>
+                                <explicit>iterum descendit computandi racio.</explicit>
+                            </msItem>
+                            <msItem>
+                                <rubric>Expositio de eadem re</rubric>
+                                <incipit>Traditur autem secundum quosdam argumentum</incipit>
+                                <explicit>pro punctis iii semisse pro ii quadrante pro uno.</explicit>
+                            </msItem>
+                            <msItem>
+                                <rubric>De accensione lunae</rubric>
+                                <incipit>Si quis nosse desiderat qua hora luna renouetur</incipit>
+                                <explicit>in decimae horae noctis primo puncto finem accipit.</explicit>
+                            </msItem>
+                            <bibl>
+                                <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1237">pp. 1237-42</ref>.</bibl>
+                            <msItem>
+                                <locus from="134v">134v</locus>
+                                <rubric>De solis eclypsi quando visa sit</rubric>
+                                <incipit>Anno dominicae incarnationis DCCLX facta est eclypsis solis</incipit>
+                                <explicit>Item anno DCCCXII fuit eclypsis solis idus maii hora diei quasi septima in XXVIIII parte tauri.</explicit>
+                                <bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1277">pp. 1277-79</ref>.</bibl>
+                            </msItem>
+                        </msItem>                    
+                        <msItem>
+                            <locus from="134v" to="135r">134v-135r</locus> 
+                            <note>Excerpt from<rs type="person" role="author" ref="#servius">Servius</rs>' <title ref="#in_vergilii_carmina_commentarii">In Vergilii carmina commentarii</title>, 10, v. 272.</note>
+                            <rubric>De differentia cometarum</rubric> 
+                            <incipit>Hanc stellam electram dicunt cum qua iuppiter concubuit</incipit>
+                            <explicit>rapinas bella et caetera mala significat.</explicit>
+                            <note>Later annotations in the margin.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="135v">135v</locus>
+                            <decoNote>Drawing of a circular labirint.</decoNote>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 3</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="136r" to="164v">136r-164v</locus>
+                            <note>A collection of computistical<term>argumenta</term> predominantly taken from <title ref="#libri_computi">Libri computi</title>, <title ref="#lectiones_conputi">Lectiones conputi</title> and <title ref="#libellus_annalis">Annalis libellus</title>.</note>
+                            <msItem>
+                                <locus from="150r" to="151r">150r-151r</locus>
+                                <title ref="#argumentum_aquens">Argumentum ad lunam</title>
+                                <rubric>Argumentum ad lune cursum turbatum anno domini infrascripto aquis palatio repertum est</rubric>
+                                <incipit>Anno ab incarnatione domini DCCXVI quod raro aliquando euenit</incipit>
+                                <explicit>sine ulla alia interpositione ueniunt.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="159r">159r</locus>
+                                <rubric>Incipit computatio circuli magni paschae quigentorum XXX annorum duorum in se ipsum revolve</rubric>
+                            </msItem>
+                            <msItem>
+                                <locus from="163v" to="164r">163v-164r</locus>
+                                <rubric>De quattuor temporibus</rubric>
+                                <incipit>Vernum tempus ingreditur VIII kalendis marti</incipit>
+                                <explicit>proceritas eius et altitudo XXIIIIor pedes.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="164r" to="164v">164r-v</locus>
+                                <rubric>De divisionibus temporum</rubric>
+                                <incipit>Diuisiones temporum XIIII sunt id est athomus momentum</incipit>
+                                <explicit>de prima diuisione temporis quam athomum diximus.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="164v">164v</locus>
+                                <rubric>Item de divisionibus temporum</rubric>
+                                <incipit>Diuisiones temporum sunt XIIII id est athomus momentum</incipit>
+                                <explicit>mundus uero est uniuersitas que constat caelo terra et mari.</explicit>
+                            </msItem>
+                            
+                        </msItem>
+                        <msItem>
+                            <locus from="164v" to="167r">164v-167r</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#letter_wicthede">Letter to Wicthede</title>
+                            <rubric>Incipit praefatio Bedae Presbiteri</rubric>
+                            <incipit>Reuerentissimo ac sansctissimo fratri uictheda</incipit>
+                            <explicit>aut ante aequinoctium fuisset confirmet.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="167v">167v</locus>
+                            <note>Blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 4</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="168r" to="168v">168r-v</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uertices mundi</incipit>
+                            <explicit>ad ipsum usque currit accipiens.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="168v" to="171v">168v-171v</locus>
+                            <author ref="#germanicus">Germanicus</author>
+                            <title ref="#germanicus_aratea">Aratea<note>O family (vv. 1-146)</note>
+                            </title>
+                            <msItem>
+                                <locus from="168v" to="170r">168v-170r</locus>
+                                <note>Verses:</note>
+                                <incipit>Ab ioue principium magno deduxit aratus</incipit>
+                                <explicit>Vatibus ignotis priscis sine honore feruntur.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="168v" to="171v">168v-171v</locus>
+                                <note>Scholia:</note>
+                                <incipit>Quaeritur quare ab ioue coepit et non a musis</incipit>
+                                <explicit>mortalibus portat uirgo figuratur stellis XVIIII.</explicit>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="171v" to="172v">171v-172v</locus>
+                            <note>Later addition (s.XII<hi rend="sup">2</hi>?) historical introduction in the art of computus.</note>
+                            <incipit>De annis domini de quibus tanta dubitacio est intercalculatores qui existunt in arte compoti<sic>pariciores</sic> de pluribus libris <gap reason="omitted"/>  excerpsi</incipit>
+                            <explicit>Septuaginta uero interpretes, multum ab hac supputatione annorum dissentiunt.</explicit>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 5</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="173r">173r</locus>
+                            <note>Blank.</note>
+                        </msItem>
+                        <msItem>
+                            <note>Calendrics:</note>
+                            <msItem>
+                                <locus from="173v" to="179r">173v-179r</locus>
+                                <note>Calendar of the 12 months. Cf.<title ref="#libri_computi">Libri computi</title>, Lib. I, 3.</note>
+                            </msItem>                
+                            <msItem>
+                                <locus from="179v" to="182r">179v-180r</locus>
+                                <note>Table<term>Litterae punctatae</term>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="180v">180v</locus>
+                                <note>
+                                    <term>Pagina regulares</term>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="181r">181r</locus>
+                                <note>Lunar Letters A-K table.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="181v">181v</locus>
+                                <note>Table with rules for the intercalation.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="182r">182</locus>
+                                <note>Table for the monthly lunar epacts. The table was accompanieed by a text, which was erased. Only an initial P visible.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="182v" to="184v">182v-184v</locus>
+                                <rubric>Cursus lunaris de diebus singulis per XVIIII annos</rubric>
+                                <note>Lunar table for the 19-year cycle with explanatory text on f. 184v<quote>In isto predicto circulo ostenditur aetas naturalis lunae in unoquoque die<gap reason="omitted"/>
+                                    </quote>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="185r" to="185v">185r-v</locus>
+                                <note>Calendrical verses.</note>
+                                <msItem>
+                                    <locus from="185r">185r</locus>
+                                    <rubric>Tetrastikon autenticum de singulis mensibus</rubric>
+                                    <incipit>Ianuarius. Hic iani mensis sacer est</incipit>
+                                    <explicit>Nunc tibi cum domino ludere uerna licent</explicit>
+                                </msItem>
+                                <msItem>
+                                    <note>Verse on the zodiac taken from<rs type="person" ref="#cicero">Cicero</rs>'s <title ref="#aratea_cicero">Aratea</title> (vv.329-331, 320-328):</note>
+                                    <rubric>Versus de duodecim signis</rubric>
+                                    <incipit>Primus adest aries obscuro lumine labens</incipit>
+                                    <explicit>Exin squamiferi serpentes ludere pisces.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <rubric>Versus de singulis mensibus</rubric>
+                                    <incipit>Primus romanas ordinis iane kalendas</incipit>
+                                    <explicit>Umbrifera mensis cumque december adest.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <locus from="185r" to="185v">185r-v</locus>
+                                    <rubric>Item versus de numero dierum singulorum mensium</rubric>
+                                    <incipit>Dira patet iani romanis ianua bellis</incipit>
+                                    <explicit>Unde december amat te genealis hiemps.</explicit>
+                                </msItem>
+                                <note>Written in two columns, 44 lines  as the Aratea; on<locus from="185v">185v</locus> – only two lines written the rest left blank.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="186r" to="190v">186r–190v</locus>
+                                <note>On the duration of the day and the night throughout the year.</note>
+                                <incipit>In una parte zodiaci id est in XXIIII<hi rend="sup">or</hi> horis et XXI ostentis adcrescunt diei uel nocti ostenta IIII<hi rend="sup">or</hi> <gap reason="omitted"/> In una die et XXor ostento adcrescunt ostenta IIII<hi rend="sup">or</hi> <gap reason="omitted"/> In tredecim diebus et CCLXXIII ostentis adcrescunt ostenta LII <gap reason="omitted"/> In XV partibus zodiaci adcrescit hora una <gap reason="omitted"/> Partes XC quarta pars anni solaris est</incipit>
+                                <explicit>In utroque aequinoccio dies habet horas XII. Nox horas XII.</explicit>
+                                <note>A table showing the length of the day for each day of the year<quote>I KL IAN dies horarum VI et puncta IIIor<gap reason="omitted"/>
+                                    </quote>.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="191r" to="194r">191r-194r</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note>Lib. V, 28-39</note>
+                            </title>
+                            <note>List of chapters on previous f. 190v.</note>
+                            <incipit>Cronica greci dicitur quae latine temporum series apellatur</incipit>
+                            <explicit>Eracleus annos XXVII huius V￣DCCCXXXIII.</explicit>                
+                        </msItem>
+                        <msItem>
+                            <locus from="194r" to="197v">194r-197v</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note>Lib. III, 24-71</note>
+                            </title>
+                            <rubric>Item Isydori</rubric>
+                            <msItem>
+                                <note>List of chapters:</note>
+                                <incipit>I. De astronomiae nominae. II De inuentoribus astronomiae</incipit>
+                            </msItem>
+                            <incipit>Astronomia est astrotum lex quae cursus siderum</incipit>                
+                            <explicit>et insuperna contemplacione conlocaret.</explicit>                
+                        </msItem>
+                        <msItem>
+                            <locus from="197v" to="199v">197v-199v</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note>Lib. XIII, 1-11</note>
+                            </title>
+                            <rubric>Item Isydori</rubric>
+                            <msItem>
+                                <note>List of chapters:</note>
+                                <incipit>I. De mundo. II. De athomis</incipit>
+                            </msItem>
+                            <rubric>In hoc vero libello quasi in brevi tabella quasdam caeli causas situsque terrarum et maris spacia adnotavimus ut in modico lector ea percurrat et compendiosa brevitate ethimologias eorum causasque cognoscat</rubric>
+                            <incipit>Mundus est celum terra mare et que in eis pera dei</incipit>
+                            <explicit>poete ut alitis austris.</explicit>
+                        </msItem>
+                        
+                        <msItem>
+                            <locus from="199v" to="200r">199v-200r</locus>
+                            <note>Dies egyptiaci.</note>
+                            <msItem>
+                                <incipit>Mense ianuario intrante die primo secundo exiente die septimo</incipit>
+                                <explicit>isti dies per omnia obseruandi sunt.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="200r">200r</locus>
+                                <incipit>Mense ianuario die secundo et VI et XVI sanguinem noli minuare</incipit>
+                                <explicit>ab illo studium declinare memento.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="200r">200r</locus>
+                                <incipit>Item ubi abuerit ianuarii dies IIII et dies VI aut dies XXX</incipit>
+                                <explicit>III ides decembri XVIII kalendas ianuarii.</explicit>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="200r" to="201r">200r-201r</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note>Lib. IX, 5-6,22</note>
+                            </title>
+                            <incipit>Heredis nomen inposuit census heris</incipit>
+                            <explicit>cognati, cognate, progenitores, progenetrices, Germani, Germanae.</explicit>
+                            <note>On f. 201v – three column table with heading<quote>Item de predictis affinitatibus</quote> and family realtions: <quote>Auctor mei generis -- michi pater est -- ego illi filius aut filia<gap reason="omitted"/>
+                                </quote>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

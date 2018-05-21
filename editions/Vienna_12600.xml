@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<!--    SEE MANUSCRIPT IN SITU FOR COLLATION, QUIRE STRUCTURE, PARTS ETC.-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref type="mss" target="http://data.onb.ac.at/rec/AL00174919">Vienna, Österreichische Nationalbibliothek, Codex Vindobonensis Palatinus 12600</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103109869~397" n="2r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103210257~36" n="2v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103287739~882" n="6r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103340995~672" n="6v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103421116~911" n="7r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103450557~984" n="7v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478103511780~970" n="8r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478181327805~323" n="9v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478172627107~508" n="10r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478104545004~694" n="10v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478185760808~779" n="14r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478104573678~754" n="14v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478104602709~672" n="16v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478185791516~185" n="17v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478185813154~5" n="18r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478185839775~367" n="18v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478185861407~149" n="19r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478250698842~283" n="20v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478250899576~599" n="21r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478250958950~21" n="21v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478250980793~308" n="22r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478267970394~865" n="22v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478267813958~156" n="23r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268454982~711" n="23v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268612196~92" n="24r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268651743~488" n="24v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268699890~882" n="25r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268756974~175" n="25v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478268792653~397" n="26r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478269200338~451" n="26v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478269125279~150" n="27r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478269492732~15" n="27v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478269794737~295" n="28r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478269742815~535" n="28v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478270478001~765" n="29r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478272771207~477" n="29v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478272986369~148" n="30r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478273368807~368" n="30v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478273570520~704" n="31r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478274702130~961" n="31v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478277334418~575" n="32r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478181747917~771" n="33r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478277362958~323" n="37v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478277376521~274" n="38r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478277469544~78" n="39r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478278156594~601" n="40r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537727237~25" n="40v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537703287~228" n="41v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537690289~451" n="42r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478510499753~745" n="42v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478510720797~240" n="43r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478510984914~349" n="45r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478511667382~192" n="49v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478528598964~345" n="51r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478531981185~265" n="65v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478532943084~918" n="75r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478533337465~548" n="76v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478535432899~543" n="97r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478535389762~354" n="105r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537657167~532" n="135v"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537644576~598" n="136r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537625164~921" n="137r"/>
+        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1478537594927~217" n="137v"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="vienna_12600" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Vienna</settlement>
+                    <repository>Österreichische Nationalbibliothek</repository>
+                    <idno>Codex Vindobonensis Palatinus 12600</idno>
+                    <altIdentifier type="former">
+                        <idno>Suppl. 372</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Computistical-Astronomical Sammelhandschrift</title>
+                    <origPlace ref="#pruefening">Prüfening</origPlace>
+                    <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                </head>                
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="137">137 ff.</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>301</height>
+                                    <width>207</width>
+                                </dimensions> (exception f. 18 which is some cm narrower and f. 40 which has folded edges and is some cm larger)
+                            </extent>
+                            <foliation>Foliated in pencil on the upper right corner of every recto page and the lower left corner of every verso page.</foliation>
+                            <!--<collation>The manuscript comprises several codicological units. <formula>I<hi rend="sup">6</hi> (ff. 1-6), II<hi rend="sup">5</hi>(ff. 7-21), (ff.22-31), <hi rend="sup">5</hi> (ff.32-41), <hi rend="sup">8</hi> (ff.42-49, 50-57, 58-65, 66-73, 74, 81, 82-89, 90-97, 98-105), </formula></collation>-->
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1" ruledLines="41">
+                                <p>Most of the manuscript is written in one column, around 41 lines.</p>
+                            </layout>
+                            <layout columns="3">
+                                <p>Exception are ff. 22r-26r written in three columns.</p>
+                            </layout>
+                            <layout>In Bede's DTR rubrication for titles of chapters in capitalis rustica, red initials and red for filling letters.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <handDesc>
+                        <handNote>According to H. von Fichtenau (1937, pp. 321-2) Part 1 (ff.<locus from="1r" to="21v">1-21</locus>) with the Annals to 1130 was written by one hand. Part 2 and 3 were copied by a different hand, with the exception at the end (f. 137, lines 13-21) where <rs type="person" ref="#wolfger">Wolfger from Prüfening</rs> took over. He also wrote further on the Annals for the years 1130-1154 (<locus from="6r" to="6v">6r-v</locus> changing ink and ductus). It is probable that Wolfger supervised the production of the codex and in the first case step in because of difficulties in the text that was to be copied. The end of the Annals (f. <locus from="6v">6v</locus>) was finished by another hand with similar features. The additions in the margins were added by another hand at the <date notBefore="1186" notAfter="1200" resp="Fichtenau">end of the 12th c</date>.</handNote>
+                    </handDesc>
+                    <scriptDesc>
+                        <scriptNote script="carolgot">
+                            <p>
+                                <term>Caroline minuscule</term> showing initial gothical features, characteristic for <date>s. XII<hi rend="sup">2</hi>
+                                </date> (long s and r are still often going below base line, the lower lobe of g closed but not connected from the upper one).</p>
+                        </scriptNote>                     
+                    </scriptDesc> 
+                    <bindingDesc>
+                        <binding>
+                            <p>Lederbinding with metal clasps and bosses.</p>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <p>
+                            <origPlace ref="#pruefening">Prüfening</origPlace> near <rs type="place" ref="#regensburg">Regensburg</rs> in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
+                            </origDate>.</p>
+                        <p>The manuscript was produced under the directions of<rs type="person" ref="#wolfger">Wolfger</rs>, who studied in <rs type="place" ref="#bamberg">Bamberg</rs> and moved around 1120 to Prüfening. His connections to Bemberg remained strong. According to Schmitz the three parts of the manuscript were joined together most probably shortly after <date notBefore="1200">1200</date>.</p>
+                        <p>The style of the illustrations in Part 2 shows 13th-century features (Mütherich, p. 57). The script, however, exhibits characterics of the second half of the 12th c.</p>                        
+                    </origin>
+                    <provenance>
+                        <p>The manuscript remained in<rs type="place" ref="#pruefening">Prüfening</rs> at least until <date notAfter="1314">1314</date>. Evidences for that are the annals mentioning f. <locus from="9v">9v</locus> the death of Abbot Bruno in <date>1281</date> and the election of <rs type="person">Abbot Ulrich</rs>. The death of the latter on the 14. March 1314 is noted in the calendar on f. <locus from="33r">33r</locus>.</p>
+                    </provenance>
+                    <provenance>
+                        <p>In 1803 during the secularisation the abbey was dissolve and the library of Prüfening was transferred to<rs type="place" ref="#regensburg">Regensburg</rs>.</p>
+                    </provenance>
+                    <provenance>
+                        <p>How the manuscript arrived in Vienna is unclear. Boeckler suggested that the manuscript might have been part of the library of<rs type="person" ref="#caspar_von_nidbruck">Caspar von Nidbruck</rs>, who served as a <foreign>kaiserlicher Rat</foreign> in the court of Maximilian the II and Ferdinand the I. He bequeathed large part of his collection in Regensburg to serve the Reformation. Since many of his books were obtained from austrian monasteries, after his death Vienna asked for the books back. Boeckler considered it plausible that on that occasion our manuscript was mistaken as an austrian book and transferred to Vienna. To strengthen this hypothesis, Boeckler argued that Caspar von Nidbruck might have borrowed the manuscript from Regensburg, so that it was later found among his collection.</p>
+                    </provenance>
+                    <provenance>
+                        <p>According to Hermann once in<rs type="place">Vienna</rs> the manuscript belong to the antiquarian <rs type="person" ref="#matthaeus_kuppitisch">Kuppitsch</rs>. Upon his death in <date when="1849">1849</date> it became part of the 'Neuer Fond' which includes manuscripts of the Hofbibliothek bought from or donated by <rs type="person" ref="#hammer_purgstall">Hammer-Purgstall</rs>.</p>
+                    </provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Boeckler, Albert.<title>Die Regensburg-Prüfeninger Buchmalerei des 12. und 13. Jahrhunderts</title>. Munich: Reusch, 1924 (esp. pp. 72-76).</bibl>
+                        <bibl>Blume, Dieter. "Körper und Kosmos im Mittelalter." In<title>Bild und Körper im Mittelalter</title>. Ed. by Kristin Marek, 225-242. Munich: Fink, 2006.</bibl>
+                        <bibl>
+                            <abbr>Borst, Schriften</abbr>, Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._315">315</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._316">316</ref>.</bibl>
+                        <bibl>Buberl, Paul, and Hans Gerstinger. Die Byzantinischen Handschriften. 2. Die Handschriften des X. - XVIII. Jahrhunderts vols. Leipzig: Hiersemann, 1938 (pp. 72-81).</bibl>
+                        <bibl>Fichtenau, Heinrich von. "Wolfger von Prüfening,"<title>Mitteilungen des Instituts für österreichische Geschichtsforschung</title>, 51 (1937): 313-357.</bibl>
+                        <bibl>Hermann, Hermann Julius.<title>Die Deutschen Romanischen Handschriften</title>. Leipzig: Hiersemann, 1926 (Nr. 46, pp. 73-81).</bibl>
+                        <bibl>
+                            <abbr>Saxl, Verzeichnis 2</abbr>, pp. 12-14, 159-163.</bibl>                        
+                        <bibl>Saxl, Fritz.<title>Lectures</title>. Vol. 1. 2 vols. London: Warburg institute, 1957 (pp. 58-72).</bibl>
+                        <bibl>
+                            <abbr>Munk Olsen, Catalogue 2</abbr>, p. 273.</bibl>
+                        <bibl>Mütherich, Florentine, ed.<title>Regensburger Buchmalerei: Von frühkarolingischer Zeit bis zum Ausgang des Mittelalters</title>. Munich: Prestel, 1987 (Nr. 46, pp. 56-57).</bibl>
+                        <bibl>
+                            <title>Tabulae codicum manu scriptorum, praeter graecos et orientales in Bibliotheca Palatina Vindobonensi asservatorum</title>. Vol. VII: Cod. 11501-14000. Wien, 1875, pp. 119-120.<ptr target="http://www.manuscripta-mediaevalia.de/hs/kataloge/HSK0751g.htm"/>
+                        </bibl>
+                        <bibl>Unterkircher, Franz.<title>Inventar der illuminierten Handschriften, Inkunabeln und Frühdrucke der Österreichischen Nationalbibliothek</title>. Teil 1: Die abendländischen Handschriften. Wien: Prachner, 1957, p. 153.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part I (ff. 1-6)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus from="1r" to="6v">1r-6v</locus>
+                            <title>Annales ratisponenses</title>
+                            <note>Annals of Regensburg and Prüfening from AD 1 to 1167.</note>
+                            <incipit>Ihesus christus uiui dei filius et omnium conditor temporum</incipit>
+                            <explicit>Eberhardus ratisponensis episcopus inibi etiam obiit. Chuno successit.</explicit>
+                            <bibl>
+                                <note>Ed. in</note>
+                                <abbr>MGH. SS.</abbr> 17, pp. 577-590 (here 579-588)<ptr target="http://www.mgh.de/dmgh/resolving/MGH_SS_17_S._577"/>.</bibl>                            
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part II (ff. 7-41)</idno>
+                    </msIdentifier>
+                    <head>
+                        <origDate notBefore="1131" notAfter="1170">1130-1170</origDate>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus from="7r">7r</locus>
+                            <note>Astrological table for finding the planets within the zodiac.</note>
+                            <incipit>Hec pagina adeo utilitatem sui commendat ut sine ea nullam sibi quisque astrologiae noticiam promittat</incipit>
+                            <explicit>per ordinem signis horae binae et bine substituuntur.</explicit>
+                            <decoNote>Three-dimensional meander decoration in the inner margin.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="7v" to="14r">7v-14r</locus>
+                            <title>Cycli decemnovennales</title>
+                            <note>Paschal tables for the 19-year cicle with annals in the margin.</note>
+                            <rubric>Incipiunt annales dominicae incarnationis</rubric>
+                            <msItem>
+                                <locus from="7v" to="10v">7v-10v</locus>
+                                <title>Annales Pruveningenses</title>
+                                <incipit>(MLXXXXII) expeditio ierusalem sub gotfrido</incipit>
+                                <explicit>Adolfus romanorum rex in bello occiditur.</explicit>
+                                <note>Written by several hands.</note>
+                                <bibl>
+                                    <note>Ed. in</note>
+                                    <abbr>MGH. SS.</abbr> 17, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_SS_17_S._606">606-609</ref>.</bibl>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="14v" to="16v">14v-16v</locus>
+                            <note>Excerpts from<title ref="#libri_computi">Libri computi</title> (III.2-9, 14; IV.10)</note>
+                            <rubric>De anno et partibus eius</rubric>
+                            <rubric>Quot athomos habet annus vel partes eius</rubric>
+                            <rubric>Quot modis soleat annus nominari</rubric>
+                            <rubric>De mundano anno qui quindecim milibus solarium<gap reason="omitted"/> ac senacae philosophorum auctoritas</rubric>
+                            <rubric>Unde conficiatur bissextus</rubric>
+                            <rubric>De mensura crementi bissextilis</rubric>                            
+                            <incipit>Annus solaris habet IIII tempora menses XII</incipit>
+                            <explicit>XV KL aprilis arietem possit aggredi.</explicit>
+                            <bibl>
+                                <abbr>Borst, Schriften</abbr>, Vol. 2, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1186">1186</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1192">1192</ref>, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1196">1196</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1197">97</ref>, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1212">1212</ref>.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="16v" to="17v"/>
+                            <author ref="#pliny">Pliny</author>
+                            <title ref="#pliny_excerpt_presagiis">De praesagiis tempestatum</title>
+                            <note>Possibly taken from the<title ref="#libri_computi">Libri computi</title> (V.12), but corrected agains a copy of Pliny's <title>Naturalis historia</title> (<bibl>
+                                    <abbr>Borst, Schriften</abbr>, Vol. 1, p. 316</bibl>).</note>
+                            <incipit>Qui tempestatum serenitatisue presagia inuestigare et depraehendere nititur his indicis innitatur. Sol oriens sed non feruens serenum</incipit>
+                            <explicit>sudorem repositorus reliquentia diras tempestates prenuntiant.</explicit>
+                            <bibl>
+                                <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1282">pp. 1282-1293</ref>.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="18r" to="18v">18r-v</locus>                            
+                            <note>Text on geometry and on the distances between planets. Excerpt from<rs type="person" ref="#cassiodorus">Cassiodor</rs>'s <title ref="#institutiones">Institutiones</title>, followed by an excerpts from <rs type="person" ref="#censorinus">Censorinus</rs>' <title ref="#de_die_natali">De die natali</title>.</note>
+                            <msItem>
+                                <author ref="#cassiodorus">Cassiodor</author>
+                                <title ref="#institutiones">Institutiones<note>Lib. II,6</note>
+                                </title>
+                                <incipit>Nunc de geometricam uideamus in his que sunt que ad VII planetas et reliqua sidera pertinent. Geometria namque est disciplina magnitudinis inmobilis et formarum</incipit>
+                                <explicit>Unde censorinus in libro quem scripsit ad cerellium quintum spatia ipsium celi terrae ambitum per numerum stadiorum disctincta curiositate descripsit dicens</explicit>
+                                <bibl>
+                                    <abbr>PL</abbr> 70, 1212D</bibl>
+                            </msItem>
+                            <msItem>
+                                <author ref="#censorinus">Censorinus</author>
+                                <title ref="#de_die_natali">De die natali<note>cap. 13</note>
+                                </title>
+                                <incipit>Pytagoras prodidit hunc totum mundum musica factum ratione septemque stellas inter celum et terram uagas</incipit>
+                                <explicit>quia si uellem in unum librum separatim congerere tantum tamen in angustiis uersarer.</explicit>
+                                <bibl>
+                                    <ptr target="http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Censorinus/text*.html#13.1"/>
+                                </bibl>
+                            </msItem>
+                            <note>Apparently the reader of Cassiodorus followed his recommendation to read Censorinus for the one who would read it<quote>multa philosophorum mysteria brevi lectione cognoscit.</quote>
+                            </note>
+                        </msItem>
+                        <msItem>
+                            <locus from="19r" to="21r"/>
+                            <author ref="#hermannus_contractus">Hermannus Contractus</author>
+                            <title>De mensura astrolabii<note>(ch. 1-9)</note>
+                            </title>
+                            <rubric>De tribus circulis astrolabii inveniendis</rubric>
+                            <incipit>In metienda igitur subtilissime inuentionis Ptholomei wazzalchora id est plana spera</incipit>
+                            <explicit>ingenium in huius modo rerum usu exercitanti alias debet notificari.</explicit>
+                            <decoNote>
+                                <locus from="20v">20v</locus>, <locus from="21r">21r</locus> diagrams representing an astrolab. Table with the Zodiacal signs.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="21v">21v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="22r" to="23r">22r-23r</locus>
+                            <author ref="#bede">Bede</author>
+                            <note>Excerpt from<title ref="#DTR">De temporum ratione</title> (I.1 De computo vel loquela digitorum) on finger reckoning preceded by:</note>
+                            <msItem>
+                                <author ref="#isidore">Isidore</author>
+                                <note>Excerpt from 's<title ref="#etymologiae">Etymologiae (XI, 1, 70-71)</title>.</note>
+                                <incipit>Digiti nuncupati quod decem sunt uel quia decenter iuncti existunt</incipit>
+                                <explicit>Ungulas ex greco uocamus. Illi namque has unicem dicunt.</explicit>
+                            </msItem>
+                            <incipit>Cum dicis unum in leua digitum inflectens minimum in medium palmae artum infiges</incipit>
+                            <explicit>
+                                <supplied>D</supplied>ecies centena milia cum dicis ambas manus insertis inuicem digitis complicabis.</explicit> 
+                            <decoNote>On f.<locus from="22r">22r</locus> drawings of hands beside the three columns of text. On ff. <locus from="22v" to="23r">22v-23r</locus> medallion with human figures from the waist up making the hand signs. On f.<locus from="23r">23r</locus> the last illustration is in colour representing an entire human figure of a man.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <note>Excerpts from<title ref="#libri_computi">Libri computi</title> (V.)</note>
+                            <bibl>
+                                <abbr>Borst, Schriften</abbr>, Vol. 3, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1251">1251</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1273">1273</ref>.</bibl>
+                        <msItem>
+                            <locus from="23r" to="26r">23r-26r</locus>
+                            <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
+                            <incipit>Est quidem hic ordo et positio syderum que fixa celo plurium coaceruatione stellarum</incipit>
+                            <explicit>Anticanis habet in toto corpore stellas III.</explicit>
+                            <decoNote>Illustrations of the constellations. There was too little place left for the illustration. As a consequence in several places the artist painted only parts of the figures. An artistic sollution which hinders the use of the illustrations as help to identify the constellation.</decoNote>
+                        </msItem>
+                            <msItem>
+                                <locus from="26v">26v</locus>
+                                <author ref="#pliny">Pliny the Elder</author>
+                                <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
+                                <incipit>Inter celum et terram certis discreta spatiis VII sydera pendent</incipit>
+                                <explicit>cum tardissime a tricesima luce ad easdem uices exit.</explicit>
+                                <decoNote>On f.<locus from="27r" facs="http://warburg.sas.ac.uk/vpc/VPC_search/pdf_frame.php?image=00001981">27r</locus> diagram for planetary order. Circular diagram of concentric circle representing the planetary orbits.</decoNote>
+                            </msItem>
+                            <msItem>
+                                <locus from="27r">27r</locus>
+                                <author ref="#pliny">Pliny the Elder</author>
+                                <title ref="#pliny_excerpt_intervals">De intervallis eorum</title>
+                                <incipit>Interualla eorum a terra multi indagare temptarunt</incipit>
+                                <explicit>Ita VII tonis effici quam dyapason armoniam uocant.</explicit>
+                                <decoNote>On f.<locus from="27v">27v</locus> diagram for planetary intervals. Concentric circles representing the orbits of the planets this time positioned according to the distances stated in the text.</decoNote>
+                            </msItem>
+                            <msItem>
+                                <locus from="27v" to="28r">27v-28r</locus>
+                                <author ref="#pliny">Pliny the Elder</author>
+                                <title ref="#pliny_excerpt_absidibus">De absidibus earum</title>
+                                <incipit>Tres autem quas supra solem diximus sitas occultantur</incipit>
+                                <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                                <decoNote>Diagram for planetary absides left unfinished. In the outer circular band the twelve zodiacal signs in their natural order. The inner of the circle divided into twelve equal part, where one would expect to see the concentric planetary circles.</decoNote>
+                            </msItem>
+                            <msItem>
+                                <locusGrp>
+                                    <locus from="28v">28v</locus>
+                                    <locus from="29v">29v</locus>
+                                </locusGrp>
+                                <author ref="#pliny">Pliny the Elder</author>
+                                <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum</title>
+                                <incipit>
+                                    <supplied>C</supplied>ur autem magnitudines suas et colores mutent</incipit>
+                                <explicit>sed inter omnia sydera martis maxime inobservabilis est cursus.</explicit>
+                            </msItem>                            
+                        </msItem>
+                        <msItem>
+                            <locus from="29v">29v</locus>
+                            <decoNote>Micro and macrocosmos diagram. The twelve winds on the four sides represented by human heads with wings. In the middle a rectangular with the four elements and world directions on each side. In the centre a human figure.<quote>Macrocosmos constat ex quatuor elementis igne aere aqua et terra. Sic et microcosmos id est homo constat ex isdem IIII elementis igne aere aqua terra. De igne sumit calerem de aere spiritum de aqua humorem de terra corpus. Sed et IIII hec elementa significant IIII euangelia quae per IIII partes mundi ad saluationem totius generis humani per XII apostolos et per successores eorum episcopos et presbiteros predicantur</quote>.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="30r">30r</locus>
+                            <decoNote>Personification of the four elements as human figures.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="30v">30v</locus>
+                            <note>Cumputistical table for the<quote>cyclus decemnovenalis</quote> (?)</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="31r">31r</locus>
+                            <note>Excerpt from<title>Geometria incerti auctoris</title> (cap. 60). Part of the text taken also in <title ref="#libri_computi">Libri computi</title> (VI.7)</note>
+                            <rubric>De magnitudine terreni orbis per umbram solis depraehensa</rubric>
+                            <incipit>Eratosthenes philosophus itemque geometria subtilissimus</incipit>
+                            <explicit>nunc puncto a interuallo e circulum scribimus.</explicit> 
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, Appendix IV. pp. <ref target="https://archive.org/stream/abv8574.0001.001.umich.edu#page/361/mode/2up">362</ref>-364.</bibl>
+                            <bibl>
+                                <abbr>Borst, Schriften</abbr>, Vol. 3, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1318">1318</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1320">1320</ref>.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="31v">31v</locus>
+                            <author ref="#abbo">Abbo Floriacensis</author>
+                            <note>Excerpt from<title ref="#computus_vulgaris">Computus vulgaris</title>.</note>
+                            <incipit>Efemeris uel ephemerida est subputatio singularum dierum<gap reason="omitted"/> mensibus signis terminis annis cicli decennovenalis. Quadratus hic equilater<ex>alis</ex> qui dicitur tetragonus</incipit>
+                            <explicit>Terminos quoque seper inuenies si obseruaueris lunam. Febr. X. Martis II. Aprilis XIIII. Maii XX. Iunii IIII.</explicit>
+                            <decoNote>Table</decoNote>
+                            <filiation>
+                                <ref type="altMs" target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74A00000000">Berlin, SB, Ms. Phill. 1833</ref>, f. 33v.</filiation>
+                        </msItem>
+                        <msItem>
+                            <locus from="32r" to="37v">32r-37v</locus>
+                            <note>Calendar with later added necrology of abbots from Prüningen.</note>
+                            <bibl>
+                                <abbr>MGH, SS</abbr> 7, p. <ref target="http://www.mgh.de/dmgh/resolving/MGH_SS_17_S._609">609</ref>.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="38r" to="40r">38r-40r</locus>
+                            <note>Computistical tables.<locus from="38r">38r</locus> <quote>Cursus lunae per duodecim signa</quote>; On <locus from="39r">39r</locus> a marginal note: <quote>Hii omnes eximii conputiste fuere  Nestor capuarius episcopus<add place="above">uel victor obscure scriptum</add>, Anatolius laodicie episcopus <gap reason="omitted"/> Beda in testimonium computi sui sumpsit. Beda ipse, Rabanus, Elbericus. Hii duo imitatores bedae fuerunt. <rs type="person" ref="#hermannus_contractus">Herimannus sueui</rs> gena phylosophus quamuis ultima in computatione sua est subtilissimus. Hic multa et ammirabili et hactenus inaudita regula composuit</quote>. <locus from="39v">39v</locus> <quote>In quo signo sit luna cottidie</quote>. In the upper margine a later 14th-century note dividing the zodiac in three groups: aries, libra, aquarius and sagittarius - <quote>bona</quote>; cancer, capricornus, pisces and virgo <quote>media</quote>; and <sic>thaurus</sic>, gemini, leo and scorpio <quote>mala</quote>. <locus from="40r">40r</locus> unfinished rota diagram.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="40v" to="41v">40v-41v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Part III (ff. 42-137)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus from="42r" to="97r"/>
+                            <author ref="#bede">Bede</author>
+                            <title ref="DTR">De temporum ratione<note>(ch. 66-71 on ff. 105r-135v)</note>
+                            </title>
+                            <msItem>
+                                <locus from="42r" to="42v">42r-v</locus>
+                                <note>Prolog:</note>
+                                <rubric>Incipit prefatio bede presbuteri</rubric>
+                                <incipit>De natura rerum et ratione temporum duos quondam stricto sermone libellos</incipit>
+                                <explicit>nihilominus debitae fraternitatis intemerata iura custodiat.</explicit>  
+                                <finalRubric>Explicit prefatio.</finalRubric>
+                            </msItem>   
+                            <msItem>
+                                <locus from="42v">42v</locus>
+                                <note>Capitula:</note>
+                                <rubric>Incipiunt capitula operis sequentis</rubric>
+                                <incipit>I. De computo uel loquela digitorum</incipit>
+                                <explicit>LXXII. De septima et octaua etate futuri seculi.</explicit> 
+                                <finalRubric>Expliciunt capitula.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus from="43r" to="97r">43r-97r</locus>
+                                <note>Text:</note>
+                                <rubric>Incipit compotus Venerabilis Bedae presbiteri</rubric>
+                                <incipit>De ratione temporum domino adiuuante dicturi necessarium duximus</incipit>
+                                <explicit>in questionem uenerant quando uel quales fuerint euidentius agnoscant.</explicit> 
+                                <finalRubric>Explicit liber de temporibus.</finalRubric>
+                                <decoNote>f.<locus from="45r">45r</locus> two drawings of horologium in form of two semicircles the first showing the mathematical relation between puncti, minuta, partes and momenta: <quote>hec astrolabica ratione probanda sunt. Horologium cum punctis minutis partibus et momentis hoc modo erit</quote>. The second <quote>Partos nihil alius dicimus quam cottidiano solis in celo progressus ut in argumentatione lunaris computi.<unclear>Ideo</unclear> ut scias per etatem cuiuslibet lunae per tetragonum ductae eiusque summa numeri iterum per trigonum ductae monstrate tibi tot partibus lunam a sole distare.</quote>
+                                </decoNote>
+                                <decoNote>f.<locus from="49v">49v</locus> diagram illustrating the night shadow cast by earth that sometimes touches the moon in the form of a pointed pyramid (<quote>columna pyramidis</quote>). Bede says: <quote>acuminatis instar pyramidum tenebris</quote>
+                                </decoNote>
+                                <decoNote>f.<locus from="51r">51r</locus> rota diagram of the planetary orbits represented as concentric circles the outher most being the zodiac divided in the twelve signs. Each planet represented by a red star spread around the zodiac. A correction of the place of the sun (from beginning of Virgo to the border line between Libra and Scorpio) could suggest the intentional recording of an observation of the planetary position.</decoNote>
+                                <decoNote>f.<locus from="65v">65v</locus> illustrations of the different possitions of the moon crescent (to ch. 25).</decoNote>
+                                <decoNote>f.<locus from="75r">75r</locus> globe with the five circles and zones and the zodiacal band, which curiously crosses perpendicularly all other. Side-by-side an Isidorian rota of the five circles represented as petals of a flower (to illustrate ch. 34).</decoNote>
+                                <decoNote>f.<locus from="76v">76v</locus> two rota diagrams, first illustrating the relations between the four seasons-world directions-qualities (calidus/siccus etc.); the second a micro-macro cosmos showing relations between the four elements-seasons-qualities-humours.</decoNote>
+                                <note>Some interlinear notations and marginal notations.</note>
+                            </msItem>
+                        </msItem>	
+                        <msItem>
+                            <locus from="97r" to="105r">97r-105r</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="DNR">De natura rerum</title>
+                            <rubric>Incipit liber bedae de natura rerum</rubric>
+                            <msItem>
+                                <note>Capitula.</note>
+                            </msItem>                 
+                            <msItem>
+                                <locus from="97r">97r</locus>
+                                <incipit>I. De quadrifario opere dei. II. De mundi formatione</incipit>
+                                <explicit>XXI. Argumentum de cursu lunae per signa.</explicit>
+                                <finalRubric>Expliciunt capitula.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus from="97r">97r</locus>
+                                <note>Text:</note>
+                                <rubric>Incipiunt uersus eiusdem.</rubric>
+                                <incipit>Naturas rerum uarias lanetis et aeui<lb/>Perstrinci titulis tempora lata citis</incipit>
+                                <explicit>atque inde africa a meridie usque ad occidentem extenditur.</explicit>
+                                <finalRubric>Explicit liber bede De natura rerum.</finalRubric>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="105r" to="135v">105r-135v</locus>
+                            <author ref="#bede">Bede</author>
+                            <title>De temporum ratione<note>(ch. 66-71)</note>
+                            </title>
+                            <rubric>Incipit chronica eiusdem.</rubric>
+                            <incipit>
+                                <supplied>D</supplied>e sex huius mundi aetatibus ac septima uel octaua quietis</incipit>
+                            <explicit>aeternam cuncti caelestium praemiorum mereamur accipere palmam. Amen.</explicit>
+                            <note>Rest of the page (12 lines) left blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="136r" to="137r">136r-137r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
+                            <explicit>que ad ipsum usque decurrit accipiens.</explicit>                                            
+                        </msItem>
+                        <msItem>
+                            <locus from="137r">137r</locus>
+                            <author ref="priscianus">Ps. Priscianus</author>
+                            <title ref="#ad_boreae">De sideribus</title>
+                            <incipit>Ad boree partes arcti uertuntur et angues</incipit>
+                            <explicit>
+                                <sic>inc</sic> sequitur pistrix simul eridanique fluenta.</explicit>                                            
+                        </msItem>
+                        <msItem>
+                            <locus from="137r" to="137v">137r-v</locus>
+                            <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                            <incipit>Herodius dixit elicen licaonis fuisse filiam quae a ioue uiolata</incipit>
+                            <explicit>propter iouem quod in bouem sit fabulose conuersus.</explicit>                                            
+                        </msItem>
+                        <msItem>
+                            <locus from="137v">137v</locus>
+                            <note>Short text (prognostica).</note>
+                            <quote>Tres dies et noctes sunt in quibus si uir generatus fuerit sine duobio corpus eius integrum manet usque ad diem iudicii. Hoc est in VI K. et III. K. et ID Febr. et<unclear>suum</unclear> mysterium ualde mirabile est.</quote>
+                        </msItem>
+                    </msContents>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

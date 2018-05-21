@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of Einsiedeln, Stiftsbibliothek, Codex 338</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="einsiedeln_stiftbibliothek_338" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Einsiedeln</settlement>
+                    <repository>Stiftsbibliothek</repository>
+                    <idno>338</idno>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Composite manuscript</title>
+                    <note type="caption"/>
+                    <origPlace ref="#trier">Trier</origPlace> (Part 1), <origPlace ref="#wuerzburg">Würzburg</origPlace>
+                    <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                </head>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="pagesCount" quantity="455">457 pages + i</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>118</height>
+                                  <width>105</width>
+                              </dimensions>
+                          </extent>
+                          <foliation>Paginated 1-455 with 1, 162 and 163 used twice (here the second time marked with *).</foliation>
+                      <collation>According to Meier pp. 1-271 are regular quaternios with quire marks<quote>a</quote>-<quote>h</quote>. On the second part visible on the microfilm are quire marks <quote>I</quote> to <quote>VIII</quote> on pp. 285, 301, 317, 333, 349, 365, 381, 397 (all verso), which suggests one quire of 14 leaves (pp. 272-285) and seven quires of 16 leaves (pp. 286-397).</collation>
+                          <condition>
+                              <p/>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="1" writtenLines="18 19">Written in 18-19 lines in one column. Smith gives written space:
+                         <dimensions type="written" unit="mm">
+                             <height>90</height>
+                             <width>70</width>
+                         </dimensions>
+                     </layout>
+                       <layout>In the<title>Aratea</title> each verse is written on a separate line starting with versals. Some initials for section were left unexecuted; the sections on constellations are divided by empty line inserted after the corresponding verses or alternatively by marginal note as in the case for Cassiepia and Andromeda, Deltoton.</layout>
+                  </layoutDesc>
+               </objectDesc>
+                <handDesc>
+                    <handNote/>!
+                </handDesc>
+                <bindingDesc>
+                    <binding>
+                            <p>White leather on wood with one clasp, which is now lost (Smith).</p>
+                        </binding>
+                </bindingDesc>
+            </physDesc>
+            <history>
+                <origin>The manuscript was written in the<origDate notBefore="0901" notAfter="1000">s. X</origDate> in <origPlace ref="#germany">Germany</origPlace> or <origPlace ref="#switzerland">Switzerland</origPlace>.</origin>
+                <provenance>Since the<date notBefore="1301" notAfter="1400">s. XIV</date> the manuscript is kept in the Stiftsbibliothek in <rs type="place" ref="#einsiedeln">Einsiedeln</rs> cf. the note bz a 14th-century hand on p. 457 <quote>Gehört gan Einsidlen disses büchl in das gotthuss LXI°</quote> (Smith).</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>Hoffmann, Hartmut.<title level="m">Schreibschulen des 10. und des 11. Jahrhunderts im Südwesten des Deutschen Reichs</title>. Vol. 1. 2 vols. Hannover: Hahn, 2004, pp. 124-5.</bibl>
+                   <bibl>Bruckner, A.<title>Scriptoria Medii Aevi Helvetica</title>. Vol. 5. 14 vols. Geneva: Roto-Sadag, 1943.</bibl>
+                   <bibl>
+                            <abbr>Bischoff, Katalog I</abbr>, pp. 236-245.</bibl>
+                   <bibl>Obbema, Pieter F. J. “Die Handschrift.” In<title level="m">Aratea. Faksimile der Handschrift Ms. Voss. Lat. Q.79 der Rijksuniversiteit Leiden</title>, edited by Bernhard Bischoff, 9–29. Luzern: Faksimile-Verl., 1989, here p. 13-14, 34, 60, 65, 91.</bibl>
+                   <bibl>Tischer, Matthias M. “Die ottonische Klosterschule in Einsiedeln zur Zeit Abt Gregors. Zum Bildungsprofil des hl. Wolfgang.” In<title>Festschrift zum tausendsten Todestag des Seligen Abtes Gregor, des dritten Abtes von Einsiedeln 996 - 1996</title>, edited by Odo Lang, 93–181. München: Bayerische Benediktinerakademie, 1996, esp. 130-133, 139f.</bibl>
+                   <bibl>
+                            <title level="m">Aristoteles Latinus Codices</title>. Vol. 2: <title>Supplementa altera</title>. Bruges-Paris: Desclée de Brouwer, 1961, n. 2125, p. 121.</bibl>
+                   <bibl>Meier, Gabriel.<title level="m">Catalogus codicum manu scriptorum qui in Bibliotheca Monasterii Einsidlensis O.S.B. servantur</title>. Einsiedeln, 1899, pp. 311-2.</bibl>
+                   <bibl>Passalacqua, Marina.<title level="m">I codici di Prisciano</title>. Roma: Edizioni di storia e letteratura, 1978, n. 115, pp. 52-53.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 1</abbr>, p. 407.</bibl>
+                   <bibl>Smith, Lesley et al.<title level="m">Codices Boethiani. A Conspectus of Manuscripts of the Works of Boethius</title>. Vol. 2 <title>Austria, Belgium, Denmark, Luxembourg, The Netherlands, Sweden, Switzerland</title>. London: Warburg Institute, 2001, p. 194, n. 47.</bibl>
+                  </listBibl>
+            </additional>
+                <msPart>
+                    <msIdentifier/>
+                    <msContents>
+                        <msItem>
+                            <locus from="1">1</locus>
+                            <note>Three lines with the Greek alphabet with the corresponding Roman numerals placed above the letters.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="1bis" to="272">1*-272</locus>
+                            <author ref="#boethius">Boethius</author>
+                            <title ref="#commentaria_boethius">Commentaria in Porphyrium</title>
+                        <rubric>Boethii expositio secunda in ysagogen</rubric>
+                       <incipit>Secundus hic arreptae expositionis labor nostrae seriem translationis expediet</incipit>
+                        <explicit>ad praedicamenta seruanti.</explicit> 
+                            <finalRubric>Ancii Manlii severini boetii v. c. et ill. excons. ord. patritii in ysagoga porphirii id est interpretatione in categorias a se translatas editionis secunde liber V explicit feliciter. Tibi pax amen.</finalRubric>
+                            <decoNote>Interlinear and marginal annotations (partly cut off due to rebinding). Diagrams to Book V.</decoNote>
+                        </msItem>                        
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier/>
+                    <msContents>
+                        <msItem>
+                            <locus from="272bis" to="301">272*(recto)-301</locus>
+                            <author ref="#priscianus">Priscianus</author>
+                            <title ref="#de_figuris_numerorum">De figuris numerorum</title>
+                            <rubric>De figuris numerorum priscianus gramaticus symacho</rubric> 
+                            <incipit>Omnite symmache nobilitatis splendore celebratem</incipit>
+                            <explicit>quadriangulum quinquangulum saxangulum et simlia.</explicit> 
+                            <finalRubric>De figuris nvmerorum liber singularis prissciani grammatici caesariensis explicit.</finalRubric> 
+                            <note>Few marginal notations and underlined phrases.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="301" to="322">301-322</locus>
+                            <author ref="#priscianus">Priscianus</author>
+                            <title ref="#de_metris_fabularum">De metris fabularum Terentii</title>
+                            <rubric>Incipit eiusdem de metris fabularum terentii et aliorum comicorum Prisciani sophistae ars prae exertitaminum secundum hermogenem uel libanium explicit feliciter</rubric> 
+                            <incipit>Cum non colum terentius sed etiam Plautus et ennius ac cuisque et naeuius</incipit>                             
+                        </msItem>
+                        <msItem>
+                            <locus from="323" to="356">323-356</locus>
+                            <author ref="#priscianus">Priscianus</author>
+                            <title ref="#praeexercitamina">Praeexercitamina</title>
+                            <rubric>Incipiunt eiusdem praeexercitamina de fabula</rubric>
+                            <explicit>quod neque potest fieri decent quando dicimus quod inglorium est.</explicit> 
+                        </msItem>
+                        <msItem>
+                            <locus from="356" to="410">356-410</locus>
+                            <author ref="#rufinus">Rufinus</author>
+                            <title ref="#commentarium_rufini">Commentaria in metra Terentiana</title>
+                            <rubric>Commentarium rufini u<ex>iri</ex> c<ex>lari</ex> gramatici antiochensis in metra terentiana</rubric>
+                            <incipit>Euanthius in commentario terentii de fibula hoc est de comoedia sic dicit</incipit>
+                            <explicit>non consulebat. ITEM. Nec rei publicae cosuluisti nec amicis profuisti nec inimicis restitisti.</explicit>
+                            <finalRubric>Commentarium rufini in metra terentiana finit feliciter.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus from="411">411</locus>
+                            <note>left blank.</note>
+                            <decoNote>Underlines of an image of a human figure with drapery (roman style?), holding in the left hand something like a rotulus, while the right hand is bended in front of the chest; note on the upper most page<quote>abauus</quote>.</decoNote> 
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier/>
+                    <msContents>                        
+                        <msItem>
+                            <locus from="412">412</locus>
+                            <note>is a recto left blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="412bis" to="455">412*-455</locus>
+                            <author ref="#germanicus">Germanicus</author>
+                            <title ref="#germanicus_aratea">Aratea<note>(Family Z with Fragments III and II</note>
+                            </title>
+                            <incipit>Ab ioue principium magno deduxit aratus<lb/> carminis at nobis</incipit>
+                            <explicit>Festinare putes nunc pigro sidere sumpto</explicit>
+                            <note>On several places misplaced verses: after v. 64 come vv. 90-95, then vv. 71-89, 96-208; 224-247, 209-223, 256-268, 248-255, 276-285, 387-393, 315-386, 414-725. Few interlinear glosses.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">Paris, BnF, lat. 12117</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f5.item" n="1r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f6.item" n="1v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f6.item" n="2r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f7.item" n="2v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f7.item" n="3r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f8.item" n="3v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f8.item" n="4r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f9.item" n="4v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f9.item" n="5r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f23.item" n="19r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f38.item" n="33r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f56.item" n="49v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f69.item" n="62r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f73.item" n="65r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f80.item" n="70v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f91.item" n="82v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f97.item" n="88r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f110.item" n="99v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f114.item" n="103v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f115.item" n="104v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f115.item" n="105r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f120.item" n="108r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f122.item" n="108v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f122.item" n="109r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f123.item" n="110r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f124.item" n="110v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f124.item" n="111r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f140.item" n="126v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f140.item" n="127r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f140.item" n="127r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f141.item" n="128r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f142.item" n="128v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f142.item" n="129r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f143.item" n="129v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f143.item" n="130r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f145.item" n="130v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f145.item" n="131r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f152.item" n="137v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f152.item" n="138r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f153.item" n="139r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f161.item" n="146v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f161.item" n="147r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f162.item" n="147v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f162.item" n="148r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f174.item" n="160r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f175.item" n="160v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f180.item" n="166r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f186.item" n="172r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f186.item" n="171v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f189.item" n="173v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f189.item" n="174r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f189.item" n="174r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f190.item" n="174v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f192.item" n="177r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f194.item" n="179r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f195.item" n="179v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f195.item" n="180r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f196.item" n="180v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f196.item" n="181r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f197.item" n="181v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f197.item" n="182r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f198.item" n="182v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f198.item" n="183r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f199.item" n="183v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f199.item" n="184r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f200.item" n="184v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f200.item" n="185r"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="paris_lat_12117" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Paris</settlement>
+                    <repository>BnF</repository>
+                    <idno>latin 12117</idno>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Computistical collection</title>
+                    <note type="caption"/>
+                    <origPlace ref="#st_germain_des_pres">Saint-Germain-des-Prés (?)</origPlace>
+                    <origDate notBefore="1051" notAfter="1100">s. XI<hi rend="sup">2</hi> (ca. 1063)</origDate>
+                </head>                
+            <msContents>
+                <msItem>
+                    <locus from="1r" to="2r">1r-2r</locus>		
+                    <author ref="#remius_favinus">Remius Favinus</author>
+                    <title ref="#de_ponderibus">Carmen de ponderibus et mensuris</title>
+                    <incipit>
+                            <supplied>P</supplied>ondera peonis ueterum memorata libellis</incipit>
+                    <explicit>nec non et sine aquis <gap reason="lacuna"/>
+                        </explicit>                    
+                </msItem>
+                <msItem>
+                    <locus from="2r">2r</locus>			
+                    <note>Text on the measures</note>
+                    <rubric>De olearia mensura</rubric>
+                    <incipit>Mensura centum sextarii</incipit>
+                    <explicit>libra grece lx librę atticę talentum.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="2v">2v</locus>		
+                    <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
+                    <title>De libra et partibus eius</title>
+                    <rubric>De libra et partibus eius</rubric>
+                    <incipit>
+                            <sic>Libralis</sic> as ex unciolis constat duodenis</incipit>
+                    <explicit>mediam secuntiam iungens.</explicit>
+                </msItem>
+                <msItem>
+                    <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
+                <title>De uncia et partibus eius</title>
+                <rubric>De uncia et partibus eius</rubric>
+                    <incipit>Uncia uiginti scripulos et quattuor ambit</incipit>
+                    <explicit>scripulis seu gramma retentant.</explicit>                    
+                </msItem>
+                <msItem>
+                    <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
+                    <title>De scripulo et partibus eius</title>
+                    <rubric>De scripulo et partibus eius</rubric>
+                    <incipit>Unus item scripuli calcis componitur octo</incipit>
+                    <explicit>calcus ciceris duo granula pensans.</explicit>
+                </msItem>
+                <msItem>
+                    <locus>2v</locus>		
+                    <title ref="#">Liber Alchandrei<note>, § 17</note>
+                        </title>
+                    <incipit>
+                            <supplied>S</supplied>ciendum est quam uis sol moritur in uno quoque signo</incipit>
+                        <explicit>et secunda hora connumerantur scorpioni et sic deinceps.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="3r" to="3v">3r-3v</locus>		
+                    <note>Mnemonic verses for the months of the year</note>
+                    <incipit>
+                            <supplied>P</supplied>rocedunt februe quinta sub sorte KL</incipit>
+                    <explicit>
+                            <supplied>N</supplied>one iuni explentur tribus</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="4r" to="99v">4r-99v</locus>	
+                    <author>Ps. Clemens</author>
+                    <title>Recognitionum libri X</title>    
+                    <msItem>
+                        <locus from="4r">4r</locus>
+                        <note>Table of content presenting the ten books.</note>
+                        <rubric>In hoc corpore continentur libri clementis numero decem</rubric>
+                        <incipit>
+                                <hi rend="rubric">P</hi>rimus liber ex his quae misit ad eum continent de uero propheta</incipit>
+                        <explicit>de his ergo singulis quae aput.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="4v" to="5r">4v-5r</locus>
+                        <note>Praefatio ad Gaudentium episcopum:</note>
+                        <rubric>In hoc codice habentur sancti clementis libri numero X</rubric>
+                        <incipit>
+                                <hi rend="rubric">T</hi>ibi quidem papa Gaudenti nostrorum decus</incipit>
+                        <explicit>quam apostolo exhiberet.</explicit> 
+                        <finalRubric>Explicit liber decimus.</finalRubric>
+                    </msItem>
+                    <msItem>
+                        <locus from="5r" to="99v">5r-99v</locus>
+                        <note>Text of the ten books:</note>
+                        <incipit>Ego clemens in urbo roma natus ex prima aetate</incipit>
+                        <explicit>ei gratiam quam apostolo exhiberet.</explicit>
+                        <finalRubric>Explicit liber decimus.</finalRubric>
+                        <note>Division: f.<locus from="19r">19r</locus> Lib. II; f.<locus from="33r">33r</locus> Lib. III; f.<locus from="49v">49v</locus> Lib. IV; Lib. V; f.<locus from="62r">62r</locus> Lib. VI; f.<locus from="65r">65r</locus> Lib. VII; f.<locus from="70v">70v</locus> Lib. VIII; f.<locus from="82v">82v</locus> Lib. IX; f.<locus from="88r">88r</locus>Lib. X</note>
+                        <decoNote>Large decorated initial P on f.<locus from="4r">4r</locus>; ca. 6-line decorated initials on ff.<locus from="19r">19r</locus>, <locus from="33r">33r</locus>, <locus from="70v">70v</locus>, <locus from="82v">82v</locus>, <locus from="88r">88r</locus>; left space for initial on f.<locus from="62r">62r</locus>, f.<locus from="65r">65r</locus>.</decoNote>
+                    </msItem>
+                    <listBibl>
+                        <bibl>
+                                <title>Die Pseudoklementinen. Vol. 2: Rekognitionen in Rufins Übersetzung</title>. Edited by Bernhard Rehm. Berlin: Akad.-Verl., 1994, pp. 3-371.</bibl>
+                        <bibl>
+                                <title>S. Clementis Romani Recognitiones Rufino Aquilei. presb. interprete</title>. Edited by Ernst G. Gersdorf. Leipzig: Tauchnitz, 1838.</bibl>
+                    </listBibl>
+                </msItem>
+                <msItem>
+                    <locus from="99v" to="104v">99v-103v</locus>	
+                    <author>Ps-Clemens</author>
+                    <note>Spurious Decretal Epistle of Clemens to Jacob translated by Rufinus</note>
+                    <rubric>Incipit epistola Clementis ad Iacobum fratrem domini</rubric>
+                    <incipit>
+                            <supplied>C</supplied>lemens jacobo domino episcopo episcoporum recenti hebreorum</incipit>
+                    <explicit>quae pręcipit exponere iam incipiam.</explicit>
+                    <bibl>
+                            <title>Die Pseudoklementinen. Vol. 2: Rekognitionen in Rufins Übersetzung</title>. Edited by Bernhard Rehm. Berlin: Akad.-Verl., 1994, pp. 375-387.</bibl>
+                </msItem>
+                <msItem>
+                    <locus from="103v" to="104v">103v-104v</locus>
+                    <note>Another letter:</note>
+                    <rubric>Item alia eiusdem clementis epistola ad eundem Iacobum</rubric>
+                    <incipit>
+                            <supplied>C</supplied>lemens Jacobo carissimo. Quam sicut a petro accepimus</incipit>
+                    <explicit>qui autem non te audierit immo deum loquentem per te ipse sibi dimnationem accipiet.</explicit>
+                    <bibl>
+                            <abbr>PL</abbr> 130,37-44B.</bibl>
+                </msItem>
+                
+                <msItem>
+                    <locus from="104v">104v</locus> 		
+                    <note>Two mathematical mnemonic verses (written by the same hand but in a fainter ink):</note> 
+                    <msItem>
+                        <incipit>Adsistunt domino seniors bis duodem</incipit>
+                        <explicit>Tercia namque tribus super pars unica solus.</explicit>
+                    </msItem>
+                    <msItem>
+                        <incipit>Quattuor et pentas duo monas tres mias unus</incipit>
+                        <explicit>Tum quoque cuncto.</explicit>   
+                        <bibl>
+                                <abbr>MGH Poetae lat. aevi carol.</abbr> 4, p. <ref target="http://www.mgh.de/dmgh/resolving/MGH_Poetae_4,2.3_S._1119">1119</ref>
+                            </bibl>
+                    </msItem>
+                </msItem>
+                <msItem>
+                    <locus from="105r" to="108r">105r-108r</locus>
+                    <title ref="#chronica_807">Series annorum mundi nova</title>
+                    <note>World chronicle of the six ages (from Adam to Charlemagne)</note>
+                    <incipit>
+                            <supplied>A</supplied>dam cum esset annorum CXXX genuit seth</incipit>
+                    <explicit>ab origine mundi usque in praesentem annum I¯I¯I¯I¯ DCCLXI.</explicit>    
+                    <decoNote>The text in positioned within single and double arcade; in the tympanua the artist <rs type="person" ref="#ingelard">Ingelard</rs> drawn portraits of the Patriarchs or biblical scenes (including Abraham as astronomer with astrolab), together with some zoomorphical decoration or drolleries. For description see <bibl>Yvonne Deslandres, “Les manuscrits décorés au XIe siècle à Saint-Germain-des-Prés par Ingelard,” Scriptorium 9 (1955): <ref target="http://www.persee.fr/doc/scrip_0036-9772_1955_num_9_1_2581">3–16</ref>.</bibl>
+                        </decoNote>
+                    <msItem>
+                        <locus from="108v">108v</locus> 	
+                        <note>Continuation with a list of Roman emperors and kings:</note>
+                        <incipit>
+                                <supplied>A</supplied>nte ęneam isti reges fuerunt in italia Ianus Saturnus Picus</incipit>
+                        <explicit>Carlomannus atque Carolus item et Carlomannus et <rs type="person" ref="#louis_pious">hludouicus</rs>.</explicit>
+                    </msItem>
+                    <bibl>
+                            <abbr>MGH SS</abbr>, Auct. ant., Vol. XIII, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_Auct._ant._13_S._349">349</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_Auct._ant._13_S._354">354</ref>.</bibl>
+                </msItem>
+                <msItem>
+                    <locus from="109r" to="110r">109r-110r</locus>
+                    <note>Chronica based on <rs ref="#isidore">Isidore</rs>'s <title ref="#etymologiae">Etymologiae</title>, Lib. V, 39.</note>
+                    <rubric>Item alia chronica. Prima aetas seculi</rubric>
+                    <incipit>Primo die condidit deus lucem. Secundo firmamentum caeli</incipit>
+                    <explicit>Hludouicus reganuit annis XXVII. Et inde domnus Karolus et deo protegente gubernauit annis XXX et uno.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="110v">110v</locus>		
+                    <note>List of Frankish kings from Merovech to Henry I.</note>
+                    <rubric>Genealogia regum francorum</rubric>
+                    <incipit>Ex genere priami fuit Merouens qui genuit Childericum</incipit>
+                    <explicit>heynricus rex frater eius pro eo.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="111r" to="126v">111r-126v</locus> 	
+                    <note>Cycli decemnovenales with the annals of Saint-Germain-des-Pres (till year 1063)</note>
+                </msItem>
+                <msItem>
+                    
+                    <locus from="127r">127r</locus>		
+                    <author ref="#fulbert_of_chartres">Fulbert of Chartres</author> 
+                    <title>De signis et mensibus et diebus et horis compendium computi</title> 
+                    <incipit>Annum sol duodena means per signa rotundat <lb/>singula denis percurrit signa diebus</incipit>
+                    <explicit>tres bissexte quadris quinis nes iungito derus.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="127v">127v</locus> 		
+                    <note>Cycli decemnovenales for the years 1064 – 1196 (later addition)</note>
+                </msItem>
+                <msItem>
+                    <locus from="128r" to="128v">128r-128v</locus> 	
+                    <note>Computistical argumenta</note>
+                    <rubric>Ad terminus septuagesimę inveniendum</rubric>
+                    <incipit/>
+                    <explicit>Sed quintus decimus bis denaque bina habet annus XXII.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="129r">129r</locus> 	
+                    <note>blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="129v" to="130r">129v-130r</locus> 	
+                    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                    <note>The text is preceded by a short note also found in <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref> <quote>Discite de iuvenes cum Abraham caeli et cursus syderum cognoscere non cum epicureo uoluptatum adsertore ventre desevire et luxuriare</quote>.</note>
+                    <rubric>Excerptum de astrologia</rubric>
+                    <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
+                    <explicit>quia ad ipsum usque decurrit accipiens.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="130r">130r</locus> 		
+                    <title ref="#iqsvm">In quo signo versetur mars</title>
+                    <incipit>In quo duodecim signorum mars habeatur. In quo signo uersetur mars. Annis ab initio mundi per senarium diuisis</incipit>
+                    <explicit>in uirginem memoratam simper inueniri planetam.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="130v">130v</locus> 	
+                    <note>Horologium viatorum</note>
+                    <incipit>Spera caeli quater senis horis dum reuoluitur omnes stele fixe celo</incipit>
+                    <explicit>qui erectus ad superna ducitur radius ad ima mersus hiemalis dicitur.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="131r" to="137v">131r-137v</locus> 	
+                    <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
+                    <incipit>Est quidem hic ordo et positio syderum</incipit>
+                    <explicit>Anticanis habet stellas III.</explicit>
+                    <decoNote>Illustrations of the constellations with stars marked with different symbols presumably reflecting the size and magnitude of stars.</decoNote>
+                </msItem>
+                <msItem>
+                    <locus from="138r">138r</locus>  	
+                    <title ref="#haec_pictura">De spaera caeli</title>
+                    <incipit>Haec pictura docet quicquid recitauit yginus</incipit>
+                    <explicit>centaurique pedes postremos tangit et aram.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="138r" to="139r">138r-139r</locus> 	
+                    <note>Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. III, 9</note>
+                    <incipit>Primo igitur anno praeparationis bissexti prima hora noctis</incipit>
+                    <explicit>XV kalendas martias arietem posit ingredi.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="139r">139r</locus> 		
+                    <note>Anonymous text on calculating the current year</note>
+                    <incipit>Hrabanus Secundum computationem eusebii et <sic>iheronimi</sic> sunt anni ab adam usque ad diluuium II CC XLII</incipit>
+                    <explicit>ad passionem dominus uenit fiunt anni V CC XXXI.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="139r" to="146v">139r-146v</locus> 	
+                    <author ref="#helperic">Helpericus</author>
+                    <title ref="#liber_de_computo">Liber de computo<note> (here Abbo of Fleury’s redaction)</note>
+                        </title>
+                    <rubric>Incipit excerptio vel expositio compoti herici</rubric>
+                    <incipit>Cum quibusdam fratribus nostris adolescentulis</incipit>
+                    <explicit>Bis quaterni sunt octo remanet nihil. Sic de reliquis facies.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="146v">146v</locus> 		
+                    <note>Anonymous mnemonic text on the alphabet</note>
+                    <incipit>Omnes litere ad similitudinem uocis caracteres accepterunt A sub hiatu oris congruo solo spiritu nominamus</incipit>
+                    <explicit>Z uero idcirco appius Claudius detestatur que dentes mortui dum exprimitur imitator.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="147r" to="147v">147r-v</locus>
+                    <author ref="#wandalbert_von_pruem">Wandalbert of Prüm</author>
+                    <title ref="#horologium">Horologium</title>
+                    <rubric>Versus domini bede ad componendum orologum</rubric>
+                    <incipit>Quos cursus solis iugant sua tempora menses</incipit>
+                    <explicit>Hinc centro torrens ternos sibi sexta retentat.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="148r" to="160r">148r-160r</locus> 	
+                    <author ref="#abbo">Abbo of Fleury</author>
+                    <title ref="#computus_vulgaris">Computus vulgaris</title>
+                    <incipit>Computus vulgaris qui dicitur ephemerida de luna</incipit>
+                </msItem>
+                <msItem>
+                    <note>Collection of computistical tables, argumenta and verses.</note>
+                    <msItem>
+                        <locus from="160v" to="171r">160v-174r</locus> 	
+                        <note>Computistical tables.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="171v">171va-b</locus>
+                        <note>Verse accompaning the table on f.<locus from="172r">172r</locus>
+                            </note>
+                        <incipit>Quid subiecta ferat cognosces pagina lector</incipit>
+                        <explicit>Paschalem dehinc indicat esse diem.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="171v">171va</locus>
+                        <title ref="#ad_boreae">De sideribus</title>
+                        <author ref="#priscianus">Ps. Priscianus</author>
+                        <rubric>Versus prisciani de sideribus caeli</rubric>
+                        <incipit>Ad boreae partes arcty uertuntur et anguis</incipit>
+                        <explicit>Celsior his saturnus tardior omnibus astris.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="174r">174r</locus>
+                        <note>19-line verse on the dates of the paschal full moon.</note>
+                        <incipit>None aprilis norunt quinos. V</incipit>
+                        <explicit>quindenę constant	tribus adeptis.	III</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="174v" to="177r">174v-177r</locus> 	
+                        <note>Computistical argumenta and regula.</note>
+                        <incipit>Anni domini notantur in psenti linea cum</incipit>
+                        <explicit>Aug XIIII. Quatrenis regularibus at letatur augustus.</explicit>
+                    </msItem>
+                </msItem>
+                <msItem>
+                    <locus from="177r" to="179r">177r-179r</locus>
+                    <author ref="#isidore">Isidore of Seville</author>
+                    <note>Excerpt from <title ref="#etymologiae">Etymologies</title> (V, 28-39)</note>
+                    <incipit>Cronica grece dicitur quae latine temporum series appelatur</incipit>
+                    <explicit>sexto animantia ex terra et hominem quem appelauit adam.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="179v">179v</locus>  	
+                    <note>blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="180r" to="181v">180r-181v</locus>	
+                    <note>Excerpts from <title ref="#libri_computi">Libri computi</title>, Lib. V-VI:</note>
+                    <msItem>
+                        <locus from="180r">180r</locus>
+                        <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
+                        <rubric>De positione et cursu septem planetarum</rubric>
+                        <incipit>Inter caelum et terram certis discreta spatiis semptem sydera pendent</incipit>
+                        <explicit>Dein morata in coitu solis biduo cum tardissimę a tricesimali luce ad easdem uices exit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="180r">180r</locus>
+                        <title ref="#pliny_excerpt_intervals">De intervallis earum</title>
+                        <rubric>De intervallis earum</rubric>
+                        <incipit>Interualla earum a terra multi indagare temptarunt</incipit>
+                        <explicit>Ita septem tonis effici quam diapason armoniam uocant.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="180r" to="180v">180r-v</locus>
+                        <title ref="#pliny_excerpt_absidibus">De absidibus earum</title>
+                        <rubric>De absidibus earum</rubric>
+                        <incipit>Tres autem quas supra solem diximus sitas</incipit>
+                        <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="180v">180v</locus>
+                        <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum</title>
+                        <rubric>De cursu earum per cotidianum circulum</rubric>
+                        <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                        <explicit>et supeream duabus Saturni duabus ut sol.</explicit>
+                        <msItem>
+                            <locus from="180v" to="181r">180v-181r</locus>
+                            <rubric>Item de eadem re</rubric>
+                            <incipit>Tres superiores ab exortu matutino latitudinem signiferi scandere</incipit>
+                            <explicit>sydera martis maxime in obseruabilis est cursus.</explicit>
+                        </msItem>
+                    </msItem>
+                        <msItem>
+                            <locus from="181r">181r</locus>
+                            <title ref="#excerpt_libri_computi_v11">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. V, 11</title>
+                            <rubric>Dimensio caelestium spatiorum secundum quosdam</rubric>
+                            <incipit>A terra ad lunam tonum esse pronuntiant</incipit>
+                            <explicit>id est miliaria CVIIII et CCCLXXV.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="181r" to="181v">181r-v</locus>	
+                            <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum</title>
+                            <rubric>De presagiis tempestatum</rubric>
+                            <incipit>Et enim predictis difficilioribus transire conuenit ad reliqua tempestatum presagia</incipit>
+                            <explicit>si in alteram earum aquiloniam caligo abstulerit auster saeuit. Si in austrinam aquilo.</explicit>
+                        </msItem>
+                            <msItem>
+                                <locus from="181v" to="182r">181v-182r</locus>	
+                                <title ref="#excerpt_libri_computi_vi2">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 2</title>
+                                <rubric>De probatione auri et argenti</rubric>
+                                <incipit>Omne aurum purum cuius libet ponderis omni argento similiter puro</incipit>
+                                <explicit>sicut prima lectionis huius fronte prefixum est.</explicit>
+                            </msItem>                            
+                            <msItem>
+                                <locus from="182r">182r</locus>
+                                <title ref="#excerpt_libri_computi_vi3">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 3</title>
+                                <rubric>De mensura cere et metalli in operibus fusilis</rubric>
+                                <incipit>In fundendis operibus cuius ponderis metallum quodlibet ad certum</incipit>
+                                <explicit>auri librae XVIIII et duodecies VIII denarii quod sunt untiae III et denarii XVI.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="182r" to="182v">182r-182v</locus>	
+                                <title ref="#excerpt_libri_computi_vi4">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 4</title>
+                                <rubric>Ambrosii Macrobii Theodosii. De mensura et magnitudine terrae et circuli per quem solis iter est.</rubric>
+                                <incipit>In omni orbe uel spera medietas centrum uocatur</incipit>
+                                <explicit>et insuper centum septuaginta milia.</explicit>                                            
+                            </msItem>
+                            <msItem>
+                                <locus from="182v" to="183r">182v-183r</locus> 	
+                                <title ref="#excerpt_libri_computi_vi5">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 5</title>
+                                <rubric>De mensura vel magnitudine solis</rubric>
+                                <incipit>His dictis quibus mensura quam terrę uel ambitus uel diametros habet</incipit>
+                                <explicit>Ergo ex his dicendum est sollem octies terra esse maiorem.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="183r">183r</locus>
+                                <title ref="#excerpt_libri_computi_vi6">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
+                                <rubric>De mensura lunae vel eius magnitudine</rubric>
+                                <incipit>Luna item circuli sui sexcentesimam obtinet portionem</incipit>
+                                <explicit>Ipsum uero circulum centies maiorem esse tellure.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="183r">183r</locus>
+                                <title ref="#excerpt_libri_computi_vi7">
+                                <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
+                                <rubric>De magnitudine terreni orbes</rubric>
+                                <incipit>Eratostenes phylosophus idemque geometra subtilissimus magnitudinem terreni orbis nosse uolens</incipit>
+                                <explicit>nullam humanae coniecturae dimensionem admittit.</explicit>
+                            </msItem>
+                        </msItem>
+                            <msItem>
+                                <locus from="183v">183v</locus> 	
+                                <author ref="#abbo">Abbo of Fleury</author>
+                                <title ref="#abbo_sentenia">Sententia Abbonis de ratione sperae<note> (imperfect)</note>
+                        </title> 
+                                <incipit>A studiosis astrologie primo sciendum est per geometricam</incipit>
+                                <explicit>sed ex oblique natet ac nauiget.</explicit>
+                            </msItem>
+            </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="192"> iii (modern paper) + 185 fols. (foliated 1-91, 91*, 92-184) + i (unfoliated medieval parchment attached on a stub to the last quire) + iii (modern paper)</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>340</height>
+                                    <width>255</width>
+                                </dimensions>
+                            </extent>
+                            <foliation>Modern foliation in the upper right corner.</foliation>
+                            <collation>
+                                <formula>I<hi rend="sup">2+1</hi> (ff.1-3), II-XXII<hi rend="sup">8</hi> (ff.4-170), XXIII<hi rend="sup">8+1</hi> (ff.171-178), XXIV<hi rend="sup">4+1</hi> (ff.179-185).</formula>
+                            </collation>
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="2" writtenLines="38 39">Fol. 1, partly 2v, 3r-v written in two columns, 38-39 lines.</layout>
+                            <layout columns="2">The list of kings on ff.<locus from="105r" to="106v">105r-106v</locus> laid out within two arcades.</layout>
+                            <layout columns="3">Fol. 108v written in three columns (within an arcade decoration).</layout>
+                            <layout columns="1" writtenLines="38 39">Written in 38-39 long lines.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <scriptNote script="carolmin">Carolingian minuscule by many hands. In general the script exhibits trends of the transitional script of the long twelfth century: upright shaft of a, e-caudata, round r after o, f and long s placed mostly on the baseline, feets on minims often curved to the right, dotting of y. In the same time there are still st, ct, rt, nt, &amp; ligatures and the lower lobe of g is still open.</scriptNote>
+                    </scriptDesc>                
+                    <decoDesc>
+                        <decoNote>Decorated initials; equatorial sundial (<locus from="2v">2v</locus>); diagrams (<locus from="130v">130v</locus>, <locus from="161v">161v</locus>, <locus from="166r">166r</locus>); picture cycle (<locus from="105r" to="108v">105r-108v</locus>, <locus from="131r" to="137v">131r-137v</locus>).</decoNote>
+                    </decoDesc>
+                    <additions>On f.<locus from="185r">185r</locus> medical recipes (s.XI?): <quote>aduentoris dolorem aut duriciam uel inflationes id est erba quinquefolii succi coclearia ii dab<supplied>is</supplied> sine mora dolorem tollit. Item Plantagine <gap reason="omitted"/> Si tumor fuerit <gap reason="omitted"/> cum uino calido mixto potui da</quote>. On f. 1r and 184v note by the same hand (s.XIII) on the extent of the manuscript: <quote>In hoc libro sunt <gap reason="illegible"/> folia et nouem. primum folium</quote> on f.184 respectively <quote>
+                            <gap reason="omitted"/> ultimum folium</quote>.</additions>
+                </physDesc>
+            <history>
+                <origin>Judging by the presence of the <title>Anneles Sancti Germani</title> (ff.<locus from="111r" to="126v">111r-126v</locus>) the manuscript was produced in <origPlace type="place" ref="#st_germain_des_pres">Saint-Germain-des-Prés</origPlace>. The last king mentioned in the chronicle list on f.<locus from="110v">110v</locus> (written by a hand copying also other parts in the manuscript) is Henry I. (1031-1060), which gives a <term>terminus post quem</term> 1031. The <term>terminus ante quem</term> is provided by the annals ending 1063. Consequently the date of origin is between the years <origDate notBefore="1031" notAfter="1063">1031-1063</origDate>. Note however, that modern scholars take the last year of Henry's reign and suggest the manuscript is datable to 1060-1063. The introduction of gothic characteristic in the script suggests indeed a date in s.XI<hi rend="sup">2</hi>. The illustrations and decoration are the work of the artist <rs type="person" ref="#ingelard">Ingelard</rs> (see the article of Deslandres and Vieillard-Troiekouroff).</origin>
+                <provenance>The manuscript remained in the abbey till <date notAfter="1600">s.XV</date>. See the former shelf-mark on f.
+                    <locus from="1r">1r</locus> <quote>434</quote>, <quote>547</quote> as well as two ex-libris notes on f.<locus from="184v">184v</locus> (s.XV?): <quote>Liber germano de pratis pertinet almo</quote> and <quote>Iste liber <supplied>est Sancti Germani de Pratis Parisiensis</supplied> Qui <gap reason="illegible"/>
+                        </quote>, (s.XIV?) now crossed-over and illegible on the microfilm.</provenance>
+                <provenance>On f.<locus from="184r">184r</locus> note (s.XIV?): <quote>legite librum plenum fidei confirmatione morum instructione, bonorum omnium exemplo, karitatis amore errore confusione ac omnibus doctrinis ad uitam eternam consequendam, quam nobis prestare <unclear>dignet</unclear>, qui est benedictus in secula seculorum amen amen benedictus sit jhesus amen.</quote>
+                    </provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>Samaran, Charles, and Robert Marichal. <title>Catalogue des manuscrits en écriture latine: portant des indications de date, de lieu ou de copiste</title>. Vol. 3: <title>Bibliothèque Nationale, fonds latin Nos. 8001 à 18613</title>. Paris: CNRS, 1974, p. <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k48292/f302.image.">275</ref>.</bibl>
+                   <bibl>Deslandres, Yvonne. “Les manuscrits décorés au XIe siècle à Saint-Germain-des-Prés par Ingelard.” <title level="j">Scriptorium</title> 9 (1955): <ref target="http://www.persee.fr/doc/scrip_0036-9772_1955_num_9_1_2581">3–16</ref>.</bibl>
+                   <bibl>
+                            <abbr>Juste, Observation</abbr>, p. 260.</bibl>
+                   <bibl>
+                            <abbr>Leonardi</abbr>, p. 441.</bibl>
+                   <bibl>Denoël, Charlotte. “Le scriptorium de Saint-Germain-des-Prés au temps de l’abbé Adelard (vers 1030-1060): les manuscrits enluminés par Ingelard, scriptor honestus.” In <title level="m">Saint-Germain-des-Prés. Mille ans d’une abbaye à Paris</title>, edited by Roland Recht and Michel Zink. Paris: Académie des Inscriptions et Belles-Lettres, 2015.</bibl>
+                   <bibl>McCormick, Michael. <title level="m">Les Annales Du Haut Moyen Age</title>. Typologie Des Sources Du Moyen âge Occidental 3. Turnhout: Brepols, 1975.</bibl>
+                   <bibl>Vieillard-Troiekouroff, May. “Art carolingien et art roman parisien. Les illustrations astrologiques jointes aux chroniques de Saint-Denis et Saint-Germain-des-Prés. IXe-XIIe siècle.” <title level="j">Cahiers archéologiques</title> 16 (1966): 77–105.</bibl>
+                   <bibl>
+                            <abbr>Delisle</abbr>, Vol. 3, pp. <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k140992s/f287.item">278</ref>-<ref target="http://gallica.bnf.fr/ark:/12148/bpt6k140992s/f288.item">79</ref>.</bibl>
+                   <bibl>
+                            <abbr>Borst (1994)</abbr>, pp. 157, 284.</bibl>!
+                   <bibl>
+                            <abbr>Duits</abbr>, p. 155.</bibl>
+                   <bibl>Lippincott, Saxl Project<ptr target="file:///C:\Users\Ivana\Documents\MANUSCRIPTS\LIPPINCOTT%20desc\Paris-BN-lat-12117-de-ordine-ac-positione-June-2011.pdf"/>.</bibl>
+                   <bibl>
+                            <abbr>Borst, Schriften</abbr>, Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._277">277</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._278">278</ref>.</bibl>
+                   <bibl>
+                            <abbr>Borst, Reichskalender</abbr>, Vol. 1, p. 218.</bibl>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

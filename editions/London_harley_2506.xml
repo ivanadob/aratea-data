@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="harley_2506" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>London</settlement>
+                    <repository>British Library</repository>
+                    <collection>Harley</collection>
+                    <idno>2506</idno>
+                </msIdentifier>
+                <head>
+                    <title>Astronomical compilation</title>
+                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#fleury">Northern France, Fleury (?)</origPlace>
+                    <origDate notBefore="0976" notAfter="1000">X<hi rend="sup">4/4</hi>
+                    </origDate>
+                </head>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs=""/>
+                    <msItem>
+                        <locus from="" to=""/>
+                        <author ref="#"/>
+                        <title/>
+                        <incipit/>
+                        <explicit/>
+                        <msItem>
+                            <locus from="" to=""/>
+                            <note/>
+                            <incipit/>
+                        </msItem>                     
+                    </msItem>					
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity=""> </measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height/>
+                                    <width/>
+                                </dimensions>
+                            </extent>
+                            <foliation/>
+                            <collation>
+                                <formula/>
+                            </collation>
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="" ruledLines="">
+                                <p/>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <summary/>
+                        <scriptNote script="carolmin">
+                            <p/>
+                        </scriptNote>                     
+                    </scriptDesc>                                      
+                    <musicNotation/>
+                    <decoDesc>
+                        <decoNote/>
+                    </decoDesc>
+                    <additions/>
+                    <bindingDesc>
+                        <binding>
+                            <p/>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary/>
+                    <origin>
+                        <p>The name of <rs type="person">Bern</rs> (abbot of Reichenau from 1008 to 1048, who stayed in Fleury in 994 is present in this manuscript where it replaces that of Abbo in the example where it should illustrate the gap between new moon and the sun (duodecim fratribus distet Berno a suo abbate) on fol. 31rb.
+                        </p>
+                    </origin>
+                    <provenance>
+                        <p/>
+                    </provenance>
+                    <acquisition>
+                        <p/>
+                    </acquisition>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl>Barbara Obrist, Les tables et figures abboniennes, p. 160.</bibl>
+                        <bibl>Moster The library of Fleury.</bibl>
+                        <bibl>
+                            <abbr>Leonardi</abbr>, pp. 73-75.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno/>
+                    </msIdentifier>
+                    <head/>
+                    <msContents/>
+                    <physDesc/>
+                    <history/>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

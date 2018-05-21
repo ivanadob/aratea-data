@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Germanicus: Aratea</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                        <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+                    </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>
+                    <rs type="person" ref="#germanicus">Germanicus</rs> or Tiberius (recent scholarship still argues about the authorship) made a second translation of Aratus’ poem known to us. Germanicus employed a more critical approach to the Phaenomena. Due to its elaborations and additions, as well as exclusions of certain parts his work is a reinterpretation rather than translation. Firstly, he introduced the corrections made by Hipparchus. Secondly, he dismissed most of the stoic elements in the text, so characteristic of Aratus’ work. Thirdly, Germanicus’ style resembles that of the Neoterics (Catullus, Cinna etc.) in contrast to Cicero’s mimesis of Ennius and Aratus’ usage of Hesiod as a model. The most radical change, however, is connected with his choice of replacing Aratus’ second part on weather signs with his own text on astral meteorology (the affect of the planets as they pass through the zodiac).</p>
+            <p>The manuscripts of Germanicus are in most cases accompanied by the so-called Germanicus’ scholia or<ref target="scholia_basileensia.xml">scholia Basileensia</ref>, which are an abbreviated translation of the Catasterisms of Pseudo-Erathostenes. Lactantius (fl. 4th c.) quoted them three times, which provides a <term>terminus ante quem</term> for their composition.</p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <p/>
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <biblStruct type="bookSection" xml:id="Montanari_Caldini1987" corresp="http://zotero.org/users/1642161/items/8DBTRU6P">
+                  <analytic>
+                     <title level="a">Aspetti dell'astrologia in Germanico</title>
+                     <author>
+                                <forename>R.</forename>
+                                <surname>Montanari Caldini</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Germanico. La persona, la personalità, il personaggio</title>
+                     <imprint>
+                        <biblScope unit="page">153-171</biblScope>
+                        <date>1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Possanza2004" corresp="http://zotero.org/users/1642161/items/VBP7B2I4">
+                  <monogr>
+                     <title level="m">Translating the heavens: Aratus, Germanicus, and the poetics of Latin
+                        translation</title>
+                     <title type="short">Translating the heavens</title>
+                     <idno type="ISBN">0-8204-6939-4</idno>
+                     <author>
+                                <forename>D. Mark</forename>
+                                <surname>Possanza</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>New York u.a.</pubPlace>
+                        <publisher>Peter Lang</publisher>
+                        <date>2004</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                            <title level="s">Lang classical studies , ISSN 0891-4087</title>
+                            <biblScope unit="volume">14</biblScope>
+                        </series>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Montanari_Caldini1973" corresp="http://zotero.org/users/1642161/items/UHNMG9MT">
+                  <monogr>
+                     <title level="m">L'astrologia nei Prognostica di Germanico</title>
+                     <author>
+                                <forename>Roberta</forename>
+                                <surname>Montanari Caldini</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Firenze</pubPlace>
+                        <publisher>Le Monnier</publisher>
+                        <date>1973</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="zoteroItem_V9AFE5JM" corresp="http://zotero.org/users/1642161/items/V9AFE5JM">
+                  <analytic>
+                     <title level="a">Germanici Aratea cum scholiis: A new illustrated Witness from
+                        Wales</title>
+                     <author/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The National Library of Wales Journal</title>
+                     <imprint>
+                        <biblScope unit="volume">18</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <biblScope unit="page">197-216</biblScope>
+                        <date>1973</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="DellEra1979a" corresp="http://zotero.org/users/1642161/items/4MC6GESV">
+                  <monogr>
+                     <title level="m">Una miscellanea astronomica medievale: gli Scholia Strozziana a
+                        Germanico</title>
+                     <title type="short">Una miscellanea astronomica medievale</title>
+                     <author>
+                                <forename>Antonio</forename>
+                                <surname>Dell'Era</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Roma, 1979</pubPlace>
+                        <date>1979</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                            <title level="s">Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe
+                     di Scienze morali, storiche e filologiche</title>
+                        </series>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Lott1982" corresp="http://zotero.org/users/1642161/items/FHGQJU99">
+                  <analytic>
+                     <title level="a">Paris B.N. lat. 7418 and the Italian tradition of the Aratea of
+                        Germanicus Caesar</title>
+                     <author>
+                                <forename>Elizabeth S.</forename>
+                                <surname>Lott</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Manuscripta</title>
+                     <imprint>
+                        <biblScope unit="volume">26</biblScope>
+                        <biblScope unit="page">8</biblScope>
+                        <date>1982</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Lott1981" corresp="http://zotero.org/users/1642161/items/EU44N4RI">
+                  <analytic>
+                     <title level="a">The textual tradition of the Aratea of Germanicus Caesar: missing links
+                        in the "m"</title>
+                     <title type="short">The textual tradition of the Aratea of Germanicus Caesar</title>
+                     <author>
+                                <forename>Elizabeth S.</forename>
+                                <surname>Lott</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Revue d'histoire des textes</title>
+                     <imprint>
+                        <biblScope unit="volume">11</biblScope>
+                        <biblScope unit="page">147-158</biblScope>
+                        <date>1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_CEEH7PGR" corresp="http://zotero.org/users/1642161/items/CEEH7PGR">
+                  <monogr>
+                     <title level="m">Germanici Caesaris Aratea cum scholiis</title>
+                     <idno type="callNumber">AL 27-0450</idno>
+                     <author/>
+                     <editor>
+                                <forename>Alfred</forename>
+                                <surname>Breysig</surname>
+                            </editor>
+                     <edition>Reprograf. Nachdr. der Ausg. Berlin 1867.</edition>
+                     <imprint>
+                        <pubPlace>Hildesheim</pubPlace>
+                        <publisher>Olms</publisher>
+                        <date>1967</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_JVBHGFPD" corresp="http://zotero.org/users/1642161/items/JVBHGFPD">
+                  <monogr>
+                     <title level="m">Les phénomènes d'Aratos</title>
+                     <idno type="ISBN">2-251-01097-1</idno>
+                     <idno type="callNumber">53.3524</idno>
+                     <author/>
+                     <editor>
+                                <forename>André</forename>
+                                <surname>LeBœuffle</surname>
+                            </editor>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Les Belles Lettres</publisher>
+                        <date>2003</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                            <title level="s">Collection des universités de France</title>
+                        </series>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_NCHZJUIQ" corresp="http://zotero.org/users/1642161/items/NCHZJUIQ">
+                  <monogr>
+                     <title level="m">Les phénomènes d'Aratos</title>
+                     <idno type="ISBN">2-251-01097-1 978-2-251-01097-7</idno>
+                     <author/>
+                     <editor>
+                                <forename>André</forename>
+                                <surname>LeBœuffle</surname>
+                            </editor>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Les Belles Lettres</publisher>
+                        <date>1975</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="DellEra1979b" corresp="http://zotero.org/users/1642161/items/T7WVQW4D">
+                  <monogr>
+                     <title level="m">Gli Scholia Basileensia a Germanico</title>
+                     <author>
+                                <forename>Antonio</forename>
+                                <surname>Dell'Era</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Romе</pubPlace>
+                        <date>1979</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                            <title level="s">Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe
+                     di Scienze morali, storiche e filologiche</title>
+                        </series>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_HCJ9QKCM" corresp="http://zotero.org/users/1642161/items/HCJ9QKCM">
+                  <monogr>
+                     <title level="m">The Aratus ascribed to Germanicus Caesar</title>
+                     <idno type="ISBN">0-485-13708-9</idno>
+                     <idno type="callNumber">PA6121.A7</idno>
+                     <editor/>
+                     <author/>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Athlone Press</publisher>
+                        <date>1976</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Maurach1978" corresp="http://zotero.org/users/1642161/items/RFBNGKGT">
+                  <monogr>
+                     <title level="m">Germanicus und sein Arat : e. vergl. Auslegung von V.1 - 327 d.
+                        Phaenomena</title>
+                     <title type="short">Germanicus und sein Arat</title>
+                     <idno type="ISBN">3-533-02651-5</idno>
+                     <author>
+                                <forename>Gregor</forename>
+                                <surname>Maurach</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Heidelberg</pubPlace>
+                        <publisher>Winter</publisher>
+                        <date>1978</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="zoteroItem_SFGRAMCD" corresp="http://zotero.org/users/1642161/items/SFGRAMCD">
+                  <analytic>
+                     <title level="a">Germanico e il suo poema astronomico</title>
+                     <author/>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Aufstieg und Niedergang der romischen Welt</title>
+                     <idno type="ISBN">978-3-11-010363-2</idno>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <biblScope unit="volume">II. 32. 1</biblScope>
+                        <biblScope unit="page">321-343</biblScope>
+                        <publisher>Walter de Gruyter</publisher>
+                        <date>1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

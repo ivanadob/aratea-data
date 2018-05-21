@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref type="altMs" target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">Brussels, Bibliothèque royale, MS 5413-22</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="brussels_5413-22" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Brussels</settlement>
+                    <repository>Bibliothèque royale de Belgique</repository>
+                    <idno>5413-22</idno>
+                </msIdentifier>
+                <head>
+                    <title>Composite manuscript: Hincmar of Reims (letters and texts); Isidore's Chronica; astronomical miscellany with parts from the RAL</title>
+                    <origPlace ref="#reims">Reims (?)</origPlace>, <origPlace ref="#ne_france">North-east France</origPlace>
+                    <origDate notBefore="0801" notAfter="0900">s. IX</origDate> and <origDate notBefore="0951" notAfter="1000">s. X</origDate>
+                </head>                
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="128">iii (modern paper) + 1 (medieval parchment here numered I) + 1 (modern paper) + 128 fols.</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>185-190</height>
+                                    <width>160</width>
+                                </dimensions>                                
+                            </extent>
+                            <foliation>Foliated in red inc on the top right corner of every recto (1-128). Previous pagination in pencil on the top outher corner of every recto and verso (1-122).</foliation>
+                            <collation>No autopsy. According to Gilissen: one flyleaf attached<foreign>à l'italienne</foreign>
+                                I<hi rend="sup">8</hi> (ff.1-8); 
+                                II<hi rend="sup">8(-2)</hi> (ff.9-14); 
+                                III<hi rend="sup">8</hi> (ff.15-22) with a quire mark <quote>VI</quote> on f.22v; 
+                                IV<hi rend="sup">10(+1)</hi> (ff.23-33, accroding to Gilissen (p. 115) f.26 is a single leaf, the stub of which is visible between ff. 30 and 31; ff. 29-30 form a bifolium the fold of which is visible as a double stub between ff. 26 and 27);  
+                                V<hi rend="sup">8</hi> (ff.34-41) with a quire mark <quote>IIII</quote>; 
+                                VI<hi rend="sup">8</hi> (ff.42-49) with quire mark <quote>VIII</quote>; 
+                                VII<hi rend="sup">13(-1)</hi> (ff.50-62); 
+                                VIII-XI<hi rend="sup">8</hi> (ff.63-70, 71-78, 79-86 and 87-94) with a quire mark <quote>II</quote> on f.78v, <quote>III</quote>on f.86v, <quote>IIII</quote>on f.94v; 
+                                XII<hi rend="sup">8(-2)</hi> (ff.95-100) with a quire mark <quote>V</quote>on f.100v; 
+                                XIII-XV<hi rend="sup">8</hi> (ff.101-108, 109-116 and 117-124); 
+                                and two single (ff.125-26) and one double leaf (ff.127-128) on stubs. According to <bibl>H. Silvestre, "Notices et extraits des manuscripts 5413-22, 10098-105 et 10127-44 de la Bibliotheque Royale de Bruxelles,"</bibl> ff.23-30 is a regular quaternio, ff.31-33 binion missing its first folium.</collation>
+                        </supportDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <scriptNote script="carolmin">
+                        </scriptNote>                     
+                    </scriptDesc>
+                    <additions>Table of content added in s. XII (?) on the first medieval flyleaf listing the letter of Pope Nicolaus I to Hincmar as wll as<quote>
+                            <unclear>ysidorus</unclear> de distinctione temporum</quote> and <quote>reuolutio spere</quote>.</additions>
+                    <bindingDesc>
+                        <binding>
+                            <p>The original carolingian binding was restaurated preserving, however, its characteristics. The wooden boards have probably never been covered. The coat of arms<rs type="person" ref="#jacobus_pamelius">Jacob Pamelius</rs> engraved on the front. For a detailed description of the binding see <bibl>Léon Gilissen,<title level="m">La reliure occidentale antérieure à 1400 d’après les manuscrits de la Bibliothèque Royale Albert Ier à Bruxelles</title> (Turnhout: Brepols, 1983), pp. 31-73, 118-121 and plates V, VII, VIII, XXIII, XXV and LIV</bibl>, and <bibl>Berthe Van Regemorter, 'Évolution de la technique de la reliure,'<title level="j">Scriptorium</title> 2 (1948): 275-285</bibl>.</p>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary>The manuscript is composed of several codicological units.</summary>
+                    <origin>
+                        <p>Separate leaf:<origPlace>Reims</origPlace>, <origDate when="0863">863</origDate>.</p>
+                        <p>Codicological unit 1 encompass the first two quires (ff.1-14). The third quire (ff.15-22) is written by a different contemporary hand but has a quire mark<quote>VI</quote> on f. 22v. This suggests that here starts a separate codicological unit, labeled here 2 (ff.15-33). The following quire V (ff.34-41) begins without any title and touches on the same topic as the previous text (on the deposition of Rothad of Soissons). The end overlaps with the end of the quire numbered <quote>IIII</quote>. This indicate either that this quire once preceded the third quire or that it belonged to another manuscript. The slight differences in the layout (dimensions of the written space) give some preferences for the second suggestion and so in this description ff.34-41 are listed as a separate codicological unit 3. The first 41 folios were copied in <origPlace ref="#reims">Reims</origPlace> <origDate notBefore="0843" notAfter="0863">ca. 853</origDate> in <quote>typische Hincmar-Minuskel</quote> (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>
+                            </bibl>). Silvestre (1953) dated these quires to the years <origDate notBefore="0862" notAfter="0867">862-867</origDate>.</p>
+                        <p>Codicological unit 4 on quire VI (ff.42-49) was written probably in<origPlace ref="#reims">Reims</origPlace> in <origDate notBefore="0901" notAfter="0950">s. X<hi rend="sup">1</hi>
+                            </origDate> (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>
+                            </bibl>). Silvestre (1953) dated it to <origDate notBefore="0801" notAfter="0900">s. IX</origDate>.</p>
+                        <p>Codicological unit 5 on quire VII (ff.50-62) was written in<origPlace ref="#reims">Reims</origPlace> in <origDate notBefore="0853" notAfter="0900">s. IX<hi rend="sup">2</hi>, after 853</origDate> (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>
+                            </bibl>). Silvestre (1953) dated it to <origDate notBefore="0845" notAfter="0865">ca. 855</origDate>.</p>
+                        <p>Codicological unit 6 on quires VIII-XIII and XV (ff.63-108 and 117-124) was written in<origPlace ref="#ne_france">North-east France</origPlace> in <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
+                            </origDate> (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>
+                            </bibl>). Quire-mark <quote>II</quote>-<quote>V</quote> on f. 78v, 86v, 94v, 100v respectively (first quire-mark probably cut out with the lower margin missing on f. 70).</p>
+                        <p>Codicological unit 7 on quire XIV (ff.109-116) is dated by Bischoff (1967) to<origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
+                            </origDate>. He noticed that the quire was once folded in two - a sign that it was carried probably in the inner pocket.</p>
+                        <p>Ff. 125-128 (here labelled as Codicological unit 8) were written in<origPlace ref="#bretagne">Bretagne</origPlace> in <origDate notBefore="0801" notAfter="0850">s.IX<hi rend="sup">1</hi>
+                            </origDate> (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>
+                            </bibl>). It is not sure how these leaves were once attached to the codex.</p>
+                    </origin>
+                    <provenance>
+                        <p>In<date notBefore="1551" notAfter="1587">s. XVI<hi rend="sup">2</hi>
+                            </date> the manuscript belonged to the Flemish theologian <rs type="person" ref="#jacobus_pamelius">Jacobus Pamelius</rs> (1536-1587). His coat of arms is engraved on the front cover with the motto <quote>Daultrui te pas mesle</quote> (cf. <bibl>Bergen-Pantens, Christiane van den. L’ Heraldique dans les manuscrits anterieurs a 1600: Exposition Chapelle de Nassau, 8 mai-15 juin 1985. Bruxelles: Bibliotheque Royale Albert Ier, 1985, Nr. 76, p. 81.</bibl>; for the activities of Pamelius see also <bibl>Gorman, Michael. “Jacob Pamelius (1536-1587) and a St Victor Manuscript Used for the 1563 Edition of Bede: Paris Lat. 14489.” Scriptorium 52, no. 2 (1998): 321–30<ref target="http://www.persee.fr/doc/scrip_0036-9772_1998_num_52_2_1848"/>
+                            </bibl>).</p>
+                    </provenance>
+                    <provenance>Pamelius donated the manuscript to the<rs type="corporate">Jesuit College in Bruges</rs>, cf. the <foreign>exlibris</foreign> on the first flyleaf <quote>Collegii Societatis Iesu Brug. ex dono Rmt D. Iac. Pamelii</quote>.</provenance>
+                    <acquisition>
+                        <p>After the suppression of the Jesuit Colleges in<date notBefore="1701" notAfter="1800">s. XVIII</date> the manuscript was transferred to the <rs type="corporate">Royal Library in Brussels</rs>.</p>
+                    </acquisition>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Calcoen, R.<title level="m">Inventaire des manuscrits scientifiques de la Bibliothèque royale Albert Ier</title>, II. Bruxelles, 1971, p. 18, nr. 162.</bibl>
+                        <bibl>Masai F. and M. Wittek (eds),<title level="m">Manuscrits datés conservés en Belgique</title>, I. Bruxelles-Gand, 1968, p. 55, nr. A1.</bibl>
+                        <bibl>Van den Gheyn, J.<title level="m">Catalogue des manuscrits de la Bibliothèque royale de Belgique</title>, IV. Bruxelles, 1904, p. 60-61, nr. 2606.</bibl>
+                        <bibl>
+                            <abbr>Bischoff, Katalog I</abbr>, pp. 154-5.</bibl>
+                        <bibl>Stratmann, M. "Briefe an Hinkmar von Reims," in<title level="j">Deutsches Archiv für Erforschung des Mittelalters</title>, 48,1 (1992): 37-81.</bibl>
+                        <bibl>Silvestre, H. "Notices et extraits des manuscripts 5413-22, 10098-105 et 10127-44 de la Bibliotheque Royale de Bruxelles,"<title level="j">Sacris Erudiri</title> 5 (1953): 174-192.</bibl>
+                        <bibl>Silvestre, Hubert. “Incipits des traités médiévaux de sSciences expérimentales dans les manuscrits latins de Bruxelles, I. Corrections au catalogue de Lynn Thorndike et Pearl Kibre.”<title level="j">Scriptorium</title> 5 (1951): 145–60.</bibl>
+                        <bibl>Michel, Henri. "Les manuscrits astronomiques de la Bibliotheque Royale de Belique,"<title level="j">Ciel et terre</title>, 65 (1949): <ref target="http://articles.adsabs.harvard.edu//full/1949C%26T....65..199M/0000199.000.html">199</ref>-204.</bibl>
+                        <bibl>Bischoff, Bernhard. "Über gefaltete Handschriften, vornehmlich hagiographischen Inhalts," in<title level="m">Mittelalterliche Studien</title> Vol.1 (Stuttgart 1967), pp. 93-100, (esp. p.98).</bibl>
+                        <bibl>Beeson, Charles Henry.<title>Isidor-Studien</title>. Vol. 4, 2. <title>Quellen und Untersuchungen zur lateinischen Philologie des Mittelalters</title>. München, 1913.</bibl>
+                        <bibl>Bergen-Pantens, Christiane van den.<title>L’ Heraldique dans les manuscrits anterieurs a 1600: Exposition Chapelle de Nassau, 8 mai-15 juin 1985</title>. Bruxelles: Bibliotheque Royale Albert Ier, 1985.</bibl>
+                        <bibl>
+                            <abbr>Borst, Schriften</abbr>, pp.<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._220">220</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._221">221</ref>.</bibl>
+                        <bibl>
+                            <abbr>Borst, Kalenderreform</abbr>, p. 180.</bibl>                        
+                        <bibl>Devisse, Jean.<title>Hincmar, Archevêque de Reims : 845 - 882</title>. Genève: Droz, 1975.</bibl>
+                        <bibl>Gaiffier, B. de. “Le calendrier d’ Héric d’ Auxerre du Manuscrit Melk 412.”<title level="j">Analecta Bollandiana</title> 77 (1959): 392–425.</bibl>
+                        <bibl>Gilissen, Léon.<title>La reliure occidentale antérieure à 1400 d’après les manuscrits de la Bibliothèque Royale Albert Ier à Bruxelles</title>. Turnhout: Brepols, 1983.</bibl>
+                        <bibl>Gorman, Michael. “Jacob Pamelius (1536-1587) and a St Victor Manuscript Used for the 1563 Edition of Bede: Paris Lat. 14489.”<title level="j">Scriptorium</title> 52, no. 2 (1998): 321–30.</bibl>
+                        <bibl>Van Regemorter, Berthe. “Évolution de La Technique de La Reliure.”<title level="j">Scriptorium</title> 2 (1948): 275–85.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Flyleaf</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <msItem>
+                            <author>Hincmar</author>
+                            <title>Epistula ad Hardwicum et Teutgaudum</title>
+                            <incipit>Hincmarus nomine non merito remorum episcopus ac plebis dei famulus harduico et teutgaudo carissimis et reu<supplied>erissimis</supplied>
+                                <gap reason="omitted"/> salutem</incipit>
+                            <explicit>et uenerationem tantorum tamque carissimorum<gap reason="damage"/>
+                            </explicit>
+                            <note>Text goes vertically. Visible corrections, which would suggest this was perhaps the draft of the letter. According to Bischoff it is a typical Hincmar-minuscle (see his Katalog I, p. 154).</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="1">1 vertically inserted leaf</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>190</height>
+                                        <width>190</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 1 (ff.1-14)</idno>
+                    </msIdentifier>
+                    <head>Nicolaus I, Epistulae</head>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="1v">1r-v</locus>
+                            <note>Letter of Pope Nicolaus I to emperor Louis.</note> 
+                            <incipit>Nicolaus<unclear>episcopus</unclear> seruus seruorum dei dilecto filio <gap reason="damage"/>
+                                <unclear>rolo</unclear> glorioso regi· Comperiat celsitudo uestra</incipit>
+                            <explicit>ualere dilectissime file D<gap reason="illegible"/> Kalendas nouembrias indictione prima.</explicit>
+                            <note>Marginal notes from a modern hand.</note>
+                            <bibl>
+                                <abbr>MGH Epp. aevi carol.</abbr> (IV), p. 610.</bibl>
+                        </msItem>                        
+                        <msItem>
+                            <locus from="1v" to="14r">1v-14r</locus>
+                            <note>Letter of Pope Nicolaus I to Hincmar</note>
+                            <incipit>Nicolaus episcopus seruus seruorum dei· Reuerentissimis et sanctissimis hincmar et ceteris confratribus nostris archiepiscopis<gap reason="omitted"/> Omnium nos portare onera</incipit>
+                            <explicit>scriptorum tuorum serie relator inueniaris. datae X Kalendas nouembris indictione prima.</explicit>
+                            <bibl>
+                                <abbr>MGH Epp. aevi carol.</abbr> (IV), pp. 601-9.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="14v">14v</locus>
+                            <note>blank</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                <measure type="leavesCount" quantity="14">14 fol.</measure>
+                                </extent>
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="18 19">18-19 long lines per page.
+                                    <dimensions type="written" unit="mm">
+                                        <height>135</height>
+                                        <width>105</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Reims</origPlace>, <origDate notBefore="0841" notAfter="0860">ca. 853</origDate>.</origin>
+                    </history>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 2</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="15r" to="33r">15r-33r</locus>
+                            <title>De primatu ecclesiae</title>
+                            <incipit>Sin autem communi cunctorum decreto rationabili et secundum regulam ecclesiasticam comprobato duo aut tres</incipit>
+                            <explicit>nulla erunt de alieni usurpation certamina.</explicit>  
+                            <bibl>Perels, Ernst. "Eine Denkschrift Hinkmars von Reims im Prozeß Rothads von Soissons,"<title level="j">Neues Archiv der Gesellschaft für ältere deutsche Geschichtskunde</title> 44 (1922): 43-100.<ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858530_0044|log9"/>
+                            </bibl>                       
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="19">19 fol.</measure>
+                                </extent>                                
+                                <condition>f. 33 has only three lines with the end of the text on the recto. The rest of the folio was probably left blank and hence cut off for reuse.</condition>
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="18">18 long lines per page.
+                                    <dimensions type="written" unit="mm">
+                                        <height>135</height>
+                                        <width>110</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="34r" to="41v">34r-41v</locus>
+                            <note>On the deposition Rothadus, bishop of Suessionensis</note>
+                            <incipit>Denique quod quidam dicunt quoniam rothadus post depositionem suam libellous proclamationis</incipit>
+                            <explicit>contra ueritatem euangelicam sentientes dicente dno.</explicit>   
+                            <bibl>Perels, Ernst. "Eine Denkschrift Hinkmars von Reims im Prozeß Rothads von Soissons,"<title level="j">Neues Archiv der Gesellschaft für ältere deutsche Geschichtskunde</title> 44 (1922): 43-100.<ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858530_0044|log9"/>
+                            </bibl>
+                        </msItem>     
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="8">8 fol.</measure>
+                                </extent>  
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="18 19">18-19 long lines per page.
+                                    <dimensions type="written" unit="mm">
+                                        <height>130</height>
+                                        <width>110</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>                        
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 4 (ff.42-49)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <msItem>
+                            <locus from="42r" to="49v">42r-49v</locus>
+                            <author ref="#augustinus_aurelius">Augustine of Hippo</author>
+                            <title>De baptismo contra Donatistas libri septem<note>(excerpt from Book 3 and 4)</note>
+                            </title>
+                            <incipit>
+                                <gap reason="lacuna"/>caritatis inimici siue sperte foris sint siue intus esse uideantur</incipit>
+                            <explicit>esse diligendum ut non solum<gap reason="lacuna"/>
+                            </explicit>
+                            <note>Acephalus missing a title and text at the beginning and ends abruptly with the end of a quire numbered<quote>VIII</quote>.</note>
+                            <bibl>
+                                <abbr>PL</abbr>43, 152-58.</bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="8">8 fol.</measure>
+                                </extent>
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="22">22 long lines per page.
+                                    <dimensions type="written">
+                                        <height>145</height>
+                                        <width>105</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 5</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <msItem>
+                            <locus from="50r">50r</locus>
+                            <note>blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="50v" to="62r">50v-62r</locus>
+                            <note>Protocol from the Council of Soissans 853.</note>
+                            <incipit>Residentibus in synodo uenerabilibus episcopiss. Hincmaro remensis ecclesiae archiepiscopo</incipit>
+                            <explicit>super terram si ligata non sunt in caelis quae ipsi ligauerit in terris.</explicit>                            
+                            <filiation>Vat. Pal. lat. 576.</filiation>
+                            <bibl>Hartmann, Wilfried (ed.) in<abbr>MGH</abbr> Concilia Vol. 3: Die Konzilien der karolingischen Teilreiche 843-859, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_Conc._3_S._264">264</ref>-279.</bibl>
+                        </msItem>                        
+                        <msItem>
+                            <locus from="62v">62v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="13">13</measure>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="22">22 long lines per page.
+                                    <dimensions type="written">
+                                        <height>144</height>
+                                        <width>115</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote>According to Bischoff (Katalog I, p. 154) the part is written in<foreign>Reimser</foreign> minuscle.</scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 6</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="63r" to="73v">63r-73v</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#chronica_isidori">Chronica</title>
+                            <rubric>Incipit expositio temporum ysidori episcopi</rubric>
+                            <incipit>Breuem temporum expositionem per generations et regna Primus ex nostris iulius africanus</incipit>
+                            <explicit>migrat homo tunc illi consumatio seculi est.</explicit>
+                            <finalRubric>finit.</finalRubric>
+                        </msItem>                        
+                        <msItem>
+                            <locus from="73v" to="74v">73v-74v</locus>
+                            <title ref="#chronica_809">Series annorum mundi secundum antiquos patres</title>
+                            <rubric>Numerus annorum ab initio mundis secundum eusebium et ceteros usque in presentem annum.</rubric>
+                            <incipit>Eusebius caesarensis episcopus dicit sunt anni ab adam usque ad diluuium</incipit>
+                            <explicit>Utputa secundum fiunt simul anni VI milia et VIIII. Iste est numerus annorum ab initio mundi usque ad praesentem annum.</explicit>                            
+                        </msItem>
+                        <msItem>
+                            <locus from="74v" to="77v">74v-77v</locus>
+                            <title ref="#chronica_807">Series annorum mundi nova</title>
+                            <rubric>In dei nomine series annorum ab initio mundi secundum hebraicam ueritatem ut alli dicunt incipit</rubric>
+                            <incipit>Adam cum CXXX esset annorum genuit seth seth autem habens annos CV genuit enos</incipit>
+                            <explicit>sunt autem totius summe ab origine mundi usque in praesentem annum I̅I̅I̅I̅.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="77v" to="107v">77v-107v</locus>
+                            <title ref="#scottus_ratio">De ratione conputandi secundum solem et lunam<note>(Scottus Rat.)</note>
+                            </title>
+                            <incipit>Sciendum nobis quomodo sol in principalibus linguis uocatur Ita gamse uel simsia</incipit>
+                            <explicit>paschalis solempnitatis celebrari summa breuitate notauit.</explicit>
+                            <finalRubric>Finit amen</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus from="107v" to="108v">107v-108v</locus>
+                            <note>Computistical argumenta taken from<title ref="libri_computi">Libri computi</title> (Book IIII, 8 and II, 16-17).</note>
+                            <rubric>DCCLXI De saltu lunae.</rubric>
+                            <incipit>In cyclo decennouenali sunt anni lunares XVIIII de quibus</incipit>
+                            <explicit>numerum lunationis eiusdem subtraxeris remanebit tibi regularis mensis sequentis.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="108v">108v</locus>
+                            <note>Later addition medical recepies (s.X): Excerpts from<rs role="author">Pseudo-Dioscorides</rs>' <title>De herbis femineis</title>.</note>
+                            <incipit>Erba heliotropium ubicumque fuerit nec fastus neque striga accidit</incipit>
+                            <explicit>quos greci oegilupas uocant cum umo<unclear>sico sale trita instruit</unclear>.</explicit>
+                            <listBibl>
+                                <bibl>
+                                    <note>Transcribed in</note>Silvestre, Hubert. “Notices et extraits des manuscrits 5413-22, 10098-105 et 10127-44 de la Bibliothèque Royale de Bruxelles.” Sacris erudiri 5 (1953): 174–92 (here pp. 182-83).</bibl>
+                                <bibl>Kästner, H. F. "Pseudo-Dioscoridis de herbis femininis,"<title level="j">Hermes</title> 31 (1896): <ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN509862098_0031|LOG_0060">578</ref>-636 (here pp. 624-25).</bibl>
+                            </listBibl>
+                        </msItem>                            
+                        <msItem>                            
+                            <locus from="117r" to="117v">117r-v</locus>                            
+                            <title ref="#involutio_spherae">Involutio spherae</title>
+                            <rubric>Inuolutio spherae</rubric>
+                            <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplices</incipit>
+                            <explicit>Conexio uero piscium commune habet stellam.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="117v" to="118r">117v-118r</locus>
+                            <note>On the zodiac</note>
+                            <incipit>Porro xii signorum ordo hic est</incipit>
+                            <explicit>Id est  saturnus iouis mars sol uenus mercurius luna.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="118r">118r-122r</locus>
+                            <note>Sections from<title ref="#ral">RAL</title> on the planets.</note>
+                            <incipit>Cum sole et luna septem astra numerantur quae non sunt fixa in caelo ut caetera</incipit>
+                            <explicit>quod ora nona procliuior uergens ab occasu pronus incubat.</explicit>
+                            <bibl>
+                                <abbr>Maass</abbr>, pp. 272-77, 285-87, 290-95.</bibl>
+                        </msItem>
+                            <msItem>
+                                <locus from="122r" to="122v">122r-122v</locus>
+                                <note>Three short texts: 1) on the zodiacal signs within the calendar:<quote>Aries taurus geminus cancer<gap/> XV Kalnedis aprilis ingreditur sol in signum arietis sic et ceteri mensis in medio suo inuius cuiusque ingreditur et in alio medio finitur</quote>; followed by 2) a verse on each of the months: <quote>Respicis aprilis aries frixe Kalendas<gap/> procedunt duplices in marcia tempora pisces</quote>; and 3) on the motion of the sun and the moon: <quote>sol CCCLXV. Luna uero XXVII diebus et octo oras. Zodiacum ambitum lustrant. SIngula uero signa sol tricenis diebus et denis horis ac semisse, luna autem binis dienus et senis horis ac bisse unius hore perlabitur, quod facit sol in una die facit luna in XII dies; quod facit sol in una hora facit luna in XIII horas. Luna cotidie quatuor punctas elongabitur a sole crescens IIIIor adpropinquans decrescens</quote>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="122v" to="123v">122v-123v</locus>
+                                <author ref="#censorinus">Ps. Censorinus</author>
+                                <title ref="#fragmenta_censorini">Fragmenta Censorini (cap. 3)</title>
+                                <rubric>De stellis</rubric>
+                                <incipit>Stellarum alie cun celum feruntur ideoque quod non excedunt suos locos fixe nominantur</incipit>
+                                <explicit>iuppiter<sic>mercorius</sic> uarie et quomodo consentit aut uisus est.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="123v" to="124r">123v-124r</locus>
+                                <note>List of the constellations:</note>
+                                <quote>Semispheria. Inuolutio sphere arcturus maior arcturus minor Serpens inter ambas arcturus hercules corona<gap/> anticanis quinque planete. Lacteus circulus. Presepe et asini.</quote>
+                            </msItem>
+                            <msItem>
+                                <locus from="124r" to="124v">124r-v</locus>
+                                <note>Later addition: On the clothes proper for a priest.</note>
+                                <incipit>Si quidem pontifex hocto haber speties uestimentorum. longum est nunc dicere de ephot, de tonica</incipit>
+                                <explicit>quo se pro nobis in altam crucis obtulit ostiam patris.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="124v">124v</locus>
+                                <note>Later addition: Preverbs</note>
+                                <incipit>Pinguis uenter tenuem<sic>senssum</sic> gignit</incipit>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="46">46 fol.</measure>
+                                </extent>
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="25">25 long lines per page.
+                                    <dimensions type="written">
+                                        <height>145</height>
+                                        <width>115</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote>Accroding to Bischoff (Katalog I, p. 155) several hands, with insular abbreviation, partly misunderstood the abbreviations in the exemplar.</scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                </msPart> 
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="109r" to="116v">109r-116v</locus>
+                            <note>Computistical argumenta divided in unnumbered chapters.</note>                                
+                            <incipit>Pasce quartas decimas lunas earumque annuas appellationes absque difficultate reperies si nonas aprilis retinens</incipit>
+                            <explicit>Eclypsis solis est quociens luna XXXma ad eandem lineam quam sol uehitur peruenit eique se obiciens<gap reason="lacuna"/>
+                            </explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="parchment">
+                                <support>Parchment</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="8">8 fol.</measure>
+                                </extent>
+                            </supportDesc>                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="27">27 long lines per page.
+                                    <dimensions type="written">
+                                        <height>145</height>
+                                        <width>110</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Codicological unit 8</idno>
+                    </msIdentifier>
+                    <msContents>                        
+                        <msItem>
+                            <locusGrp>
+                                <locus from="126r" to="126v">126r-v</locus>
+                                <locus from="128r" to="128v">128r-v</locus>
+                                <locus from="127r" to="127v">127r-v</locus>
+                                <locus from="125r" to="125v">125r-v</locus>
+                            </locusGrp>
+                            <author ref="#arator">Arator</author>
+                            <note>Fragments from<title>De actibus apostolorum</title>, Book II, vv. 613-658 (f. 126), vv. 712-755 (f. 128), vv. 761-782, 788-908 (f. 127), vv. 857-910 (f. 125).</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

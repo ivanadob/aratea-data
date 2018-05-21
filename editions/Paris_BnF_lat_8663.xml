@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of<ref target="http://gallica.bnf.fr/ark:/12148/btv1b8432469w.r=8663.langEN">Paris, BnF, Ms. lat. 8663</ref>
+                </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f9.item" n="1r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f10.item" n="1v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f46.item" n="19v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f54.item" n="23v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f55.item" n="24r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f56.item" n="24v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f57.item" n="25r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f75.item" n="34r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f76.item" n="34v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f78.item" n="35v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f82.item" n="37v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f84.item" n="38v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f86.item" n="39v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f96.item" n="44v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f97.item" n="45r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f99.item" n="46r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f100.item" n="46v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f101.item" n="47r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f102.item" n="47v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f103.item" n="48r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f104.item" n="48v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f105.item" n="49r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f106.item" n="49v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f107.item" n="50r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f108.item" n="50v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f109.item" n="51r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f121.item" n="57r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f122.item" n="57v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f123.item" n="58r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f124.item" n="58v"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="paris_bnf_8663" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Paris</settlement>
+                    <repository>BnF</repository>
+                    <idno>latin 8663</idno>
+                    <altIdentifier type="former">
+                        <idno>Reg. 5462</idno>
+                    </altIdentifier>
+                    <altIdentifier type="former">
+                        <idno>De la Mare 432</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Astronomical compilation</title>
+                    <origPlace ref="#fleury">Fleury (?)</origPlace>, <origPlace ref="#tours">Tours (?)</origPlace>
+                    <origDate notBefore="0901" notAfter="1050">s. X-XI<hi rend="sup">1</hi>
+                    </origDate>
+                </head> 
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="64">iii (paper) + 58 fols. + iii (paper)</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>272</height>
+                                  <width>182</width>
+                              </dimensions>
+                          </extent>
+                          <foliation>In pencil and ink in the upper right corner of every folium.</foliation>
+                      <collation>
+                                <p>Composed, according to Moster, from three homogeneous and contemporary parts: ff. 1-24, ff. 25-46 and ff. 47-58 (Mostert's BF 1155, 1156 and 1157 accordingly).</p> <formula>I<hi rend="sup">2</hi> (ff.1-2), II-III<hi rend="sup">8</hi> (ff.3-10 and 11-18), IV<hi rend="sup">2</hi> (ff.19-20), V<hi rend="sup">4</hi> (ff.21-24), VI-VII<hi rend="sup">8</hi> (ff.25-32 and 33-40), VIII<hi rend="sup">6</hi> (ff.41-46), IX<hi rend="sup">4</hi> (ff.47-50) and X<hi rend="sup">8</hi> (ff.51-58)</formula>
+                            </collation>
+                      <condition>The manuscript lost at least two quaternions between ff. 32 and 33. See note to<locus from="25r" to="44v">25r-44v</locus>.</condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="1" writtenLines="34 44">Written in 32-44 long lines.</layout>
+                  </layoutDesc>
+               </objectDesc>   
+            </physDesc>
+            <history>
+                <origin>All three parts show palaeographical similarities and where probably written in the Loire valley in<origDate notBefore="0901" notAfter="1050">s. X-XI<hi rend="sup">1</hi>
+                        </origDate>, scholars suggesting <origPlace ref="#fleury">Fleury</origPlace> (Carey) and <origPlace ref="#tours">Tours</origPlace> (Saxl) as possible place of production.</origin>
+               <provenance>The verse on f.<locus from="58v">58v</locus> suggests the manuscript was in <rs type="place" ref="#flery">Fleury</rs> in the <date notBefore="1001" notAfter="1100">s. XI</date>.</provenance>
+                <provenance>In the<date notBefore="1601" notAfter="1700">s. XVII</date> it belonged to the <rs type="person" ref="#philibert_de_la_mare" role="owner">Philibert de La Mare</rs>.</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Mostert (1989)</abbr>.</bibl>
+                   <bibl>
+                            <abbr>Bubnov 1899</abbr>, p. LVIII.</bibl>
+                   <bibl>
+                            <abbr>Saxl, Verzeichnis 3,1</abbr>, p. XX.</bibl>
+                   <bibl>Bernhard, Michael, ed.<title>Anonymi saeculi decimi vel undecimi tractatus de musica “Dulce ingenium musicae”</title>. Veröffentlichungen der Musikhistorischen Kommission 6. München, 1987, esp. pp. 5-6.</bibl>
+                   <bibl>Carey, Frederick.<title level="u">De Scriptura Floriacensi</title>. Unpublished diss. Cambridge, MA: Harvard University, 1923.</bibl>
+                   <bibl>Vernet, Marie-Thérèse. “Notes de Dom André Wilmart † sur quelques manuscrits latins anciens de la Bibliothèque nationale de Paris.”<title level="j">Bulletin d’information de l’Institut de Recherche et d’Histoire des Textes</title>, no. 8 (1960): 7–46, esp. pp. 40-44.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 1</abbr>, p. 532.</bibl>
+                   <bibl>Barker-Benfield, R.C. "A ninth-century manuscript from Fleury." In<title level="m">Medieval Learning and Literature</title>. Oxford, 1976, pp. 145-165, here p. 155.</bibl>
+                   <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 430-35.</bibl>
+                  </listBibl>
+            </additional>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 1</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="19v">1r-19v</locus>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title>De astronomia</title>
+                            <incipit>Et si te studio gramaticae artis inductum non solum uersuum moderatione</incipit>
+                            <explicit>annum uoluerunt esse cum sol a haestiuo circulore dieris CCCos LXVI dies suo cursu transigit.</explicit>
+                            <decoNote>Large decorated initial E on f. 1r; drawing of Centaurus on f. 11v inside the text.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="19v" to="23v">19v-23v</locus>
+                            <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                            <rubric>De ordine ac positione stellarum in signis</rubric>
+                            <incipit>Est quidem hic ordo ac positio siderum quae fixa caelo</incipit>
+                            <explicit>Anticanis habet summum stellarum III.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="24r" to="24v">24r-v</locus>
+                            <author ref="#pliny">Pliny</author>
+                            <title>Excerpta Eboracensia</title>
+                            <msItem>
+                                <locus from="24r">24r</locus>
+                                <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
+                                <rubric>De positione et cursu septem planetarum</rubric>
+                                <incipit>Inter caelum et terram certis discreta spatiis VII sydera pendent</incipit>
+                                <explicit>Dein morata in coitu solis biduo cum tardissime a tricesima luce ad easdem uices exit.</explicit>
+                                <decoNote>Drawings of the planets as human bust scluptures with their names written in a halo around their heads. Drawing of the Sun missing (only a heading<foreign>Sol</foreign>).</decoNote>
+                            </msItem>
+                            <msItem>
+                                <locus from="24v">24v</locus>
+                                <title ref="#pliny_excerpt_absidibus">De absidibus earum</title>
+                                <rubric>De absidibus earum</rubric>
+                                <incipit>Tres sunt autem quas supras solem diximus sitas</incipit>
+                                <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                                <decoNote>An elaborated zoomorphic initial<quote>T</quote>.</decoNote>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 2</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="25r" to="44v">25r-44v</locus>
+                            <author ref="#macrobius">Macrobius</author>
+                            <title ref="#commentarium_somnium">Commentarium in somnium Scipionis</title>
+                            <rubric>Macrobii Ambrosii Theodosii v. c. et in l. commenta ex cicerone in somnium scipionis.</rubric>
+                            <incipit>Inter platonis et ciceronis libros quos de republica uterque constituit</incipit>
+                            <explicit>philosophiae continetur integritus.</explicit>
+                            <finalRubric>Macrobii Ambrosii commenta ex cicerone in somnium scipionis explicit.</finalRubric>
+                            <note>Lacuna of probably two quaternions between ff. 32 and 33. On f. 32v the text ends in mid lib. 1, cap. 11<quote>id est inferos uocauerunt</quote> and f. 33r begins with mid lib. 1, cap. 21 <quote>
+                                    <supplied>re</supplied>ferens quo a ueteribus et temptata est</quote>.</note>
+                            <decoNote>Decorated zoomorphic initials on f.<locus from="25r">25r</locus> and <locus from="34v">34v</locus> (begin of Book 2); f. <locus from="34r">34r</locus> rain diagram; f. <locus from="35">35v</locus> Lambda diagram; ff. <locus from="37v">37v</locus> and <locus from="38v">38v</locus> diagram of the celestial and terrestrial circles; f. <locus from="39v">39v</locus> diagram of the terrestrial globe.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="44v" to="46r">44v-46r</locus>
+                            <author ref="#cicero">Cicero</author>
+                            <title ref="#somnium_scipionis">Somnium Scipionis</title>
+                            <note>On f. 44v introductory note:<quote>Incipit somnium scipionis quod macrobius exponens ad<unclear>euste</unclear> dominum filium suum duos edidit libros in quibus subtiliter disseruit de bono senectutis et de natura animae uiciisque eius et uirtutibus de diuersitatibus etiam et nominibus somniorum necnon et de natura numerorum et diuisione de sideribus quoque et stellis de numero et magnitudine caelestium circulorum de positione ac magnitudine celi ac terrae de magnitudine et defectu necnon et cursu soli et lunae de VII planetis et de armonia caeli</quote>.</note>
+                            <rubric>Somnium scipionis M. Tullii Ciceronis excerptum ex libro VI de re publica.</rubric>
+                            <incipit>Cum in africam uenissem A manlio consule</incipit>
+                            <explicit>qui nec pauciores et certe meliores fuere uiri<gap reason="lacuna"/>
+                            </explicit>
+                            <note>Two thirds of the page left blank.</note>
+                            <decoNote>Decorated zoomorphic initials on f.<locus from="45r">45r</locus>.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="46v">46v</locus>
+                            <note>blank, marks from drawing of circles perhaps later additions for the following text of Gerbert.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 3</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="47r">47r</locus>
+                            <author ref="#gerbert">Gerbert of Aurillac</author>
+                            <title>Letter to Constantine of Fleury on the abacus</title>
+                            <incipit>Uis amiciciae penae impossibilia redigit ad possibilia. Nam quomodo rationes numerorm abaci explicare contenderemus nisite ad ortante omni dulce solamen laborum</incipit>
+                            <explicit>ac terrae plena fide comparatam.</explicit>
+                            <listBibl>
+                                <bibl>
+                                    <abbr>Bubnov 1899</abbr>, pp. 6-8.</bibl>
+                                <bibl>Gerbert of Aurillac.<title level="m">The Letters of Gerbert with His Papal Privileges as Sylvester II</title>. Translated by Harriet Pratt Lattin. New York: Columbia Univ. Press, 1961.</bibl>
+                            </listBibl>
+                            <msItem>
+                                <locus from="47r" to="47v">47r-v</locus>
+                                <note>The letter is followed by<title>Regulae multiplicationis</title> and <title>Regulae divisionis</title>
+                                </note>
+                                <incipit>Si multiplicaueris singularem numerum per X dabis unicuique digiti X et omni articulo C</incipit>
+                                <explicit>denominationes mittunt ad extremos digitos.</explicit>
+                                <bibl>
+                                    <abbr>Bubnov 1899</abbr>, pp. 8-22.</bibl>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="47v" to="48r">47v-48r</locus>
+                            <author ref="#herigerus_lobiensis">Herigerus Lobiensis</author>
+                            <incipit>Singularem per decenum si multiplicaueris dabis digitos X articulos C</incipit>
+                            <explicit>Hic ulterius ad hanc consequentiam multiplicantur numeri etiamsi interminabilis multitudinis fiat abacus.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="48r" to="49r">48r-49r</locus>
+                            <note>Commentary on the Regulae.</note>
+                            <incipit>Diuiduntur autem numero diuiso modo</incipit>
+                            <explicit>sic diuisores per denominutionem totius dividendi multiplicabuntur.</explicit>
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, pp. 262-68.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="49r">49r</locus>
+                            <title>Regulae de numerorum abaci rationibus</title>
+                            <incipit>Quomodo decenus metitur centenum aut millenum vel millenus ulteriores. Si volueris per decenum numerum dividere</incipit>
+                            <explicit>idem tibi diligenter exsequenti constabit.</explicit>
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, pp. 13-14, 19-20, 15-17, 20-21.</bibl>
+                            <msItem>
+                                <locus from="49v">49v</locus>
+                                <decoNote>Abacus table.</decoNote>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="50r">50r</locus>
+                            <author ref="#gerbert">Gerbertus of Aurillac</author>
+                            <title>Epistola ad fratrem Adam</title>
+                            <incipit>
+                                <gap reason="lacuna"/> Marcianus in astrologia incrementa horarum ita fieri putat</incipit>
+                            <explicit>quae sit XXIIIIor partium.</explicit>
+                            <decoNote>two tables illustrating the lenght of day and night with headings<quote>Horologium secundum eos qui diem maximum habent horarum aequinoctialium XVIII</quote> and <quote>Item horologium hellesponti ubi dies maximum est horarum XV</quote>.</decoNote>
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, pp. 39-40.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="50r" to="51r">50r-51r</locus>
+                            <note>Anonymous work on the measure of monocords</note>
+                            <rubric>Designatio monordi</rubric>
+                            <incipit>Dulce ingenium musicae quamuis instrumentis plurimis uigeat</incipit>
+                            <explicit>huius tropi talis est forma NOEAGIS.</explicit>
+                            <note>On f. 51r a tonarium; according to Vernet it is executed in the style of the Loire area.</note>
+                            <bibl>Bernhard, Michael.<title>Anonymi saeculi decimi vel undecimi tractatus de musica 'Dulce ingenium musicae'</title>. Munich, 1987.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="51v" to="57r">51v-57r</locus>
+                            <note>Diagrams for calculating muscial intervals.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="57v">57v</locus>
+                            <title>Apuleian Sphere</title>
+                            <incipit>Sphera apulegii de egris uel monomachis, si uis scire qua die decumbant uel liberentur</incipit>
+                            <explicit>si infra mortem uel casum monomachi monstrabit.</explicit>
+                            <decoNote>Diagram of the sphere with headings int he middle<quote>Vita Mors</quote>.</decoNote>
+                        </msItem>
+                        <msItem>
+                            <locus from="57v">57v</locus>
+                            <note>Text on measures (later addition in two column).</note>
+                            <incipit>batus I mensura L sextariorum</incipit>
+                            <explicit>Talentum minus recipit L libras.</explicit>
+                            <note>On the inner margin added as a third column a table of measures.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="58r">58r</locus>
+                            <note>Liturgical songs<foreign>Pro defunctis</foreign>:</note>
+                            <msItem>
+                                <note>Responsorium (<ref target="http://cantus.uwaterloo.ca/chant/397039">Cantus N.006325</ref>).</note>
+                                <incipit>Congregati sunt deus ad deuorandum me</incipit>
+                                <explicit>deus meus in adiutorium meum intende.</explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Verse (<ref target="http://cantus.uwaterloo.ca/chant/006325a">Cantus N.006325a</ref>):</note>
+                                <quote>Delicta iuuentutis mee ne memineris domine et ne auersas faciem tuam a me quoniam tribulor uelociter exaudime domine.</quote>
+                            </msItem>
+                            <msItem>
+                                <note>Verse.</note>
+                                <quote>Reminiscere misericordie tue domine et ap peccatis absolue quos regenerasti baptismatis in fonte.</quote>
+                            </msItem>
+                            <msItem>
+                                <note>Verse (<ref target="http://cantus.uwaterloo.ca/chant/007091zh">Cantus N.007091zh</ref>):</note>
+                                <quote>Miserere ihesu christe miserere qui umbrosum inluminasti infernum da eis splendidissimum lumen ut possuit uidere perpetuam lucem.</quote>
+                            </msItem>
+                            <msItem>
+                                <note>Short notice of several verses:</note>
+                                <quote>Deus meus ne elongeris. alia deus meus in auxilium. alia deus meus in<unclear>adiutorium</unclear>.</quote>
+                            </msItem>
+                            <msItem>
+                                <note>Responsorium (<ref target="http://cantus.uwaterloo.ca/chant/601986">Cantus N.601986</ref>):</note>
+                                <quote>Redemptor meus uiuit et in nouissimo resurgam et renouabuntur denuo ossa mea in carne mea uidebo dominum meum.</quote>
+                            </msItem>
+                            <msItem>
+                                <note>Verse (<ref target="http://cantus.uwaterloo.ca/chant/601986a">Cantus N.601986a</ref>:</note>
+                                <quote>Lauda anima mea dominum laudabo dominum in uita mea psallam deo meo quandiu ero.</quote>
+                            </msItem>
+                            <note>with interlinear notation and traces of French, Lotharingian and Aquitanian neumes (Mostert).</note>
+                            <bibl>Hesbert, Dom R.-J. “L’office de la commémoraison des dédunts à Saint-Benoît-sur-Loire au XIIIe siècle.” In<title level="m">Miscellanea liturgica in honorem L. Cuniberti Mohlberg</title>, 2:393–421. Rome: Edizioni Liturgiche, 1949.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="58r" to="58v">58r-v</locus>
+                            <note>Probatio pennae.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="58v">58v</locus>
+                            <note>Later additions and verses:<quote>Florida floriacum perlustrauit pragmata claustri<lb/>floret florigerum dogmatis hic studium</quote>.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b10502052p">Paris, BnF, lat. 5543</ref>.</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="bnf_5543" xml:lang="eng">
+                <msIdentifier>
+                    <!-- contains the information required to identify the manuscript being described MANDATORY -->
+                    <settlement/>
+                    <institution/>
+                    <collection/>
+                    <idno/>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title/>
+                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#"/>
+                    <!--<origDate notBefore="" notAfter=""></origDate>-->
+                </head>                
+            <!--<msContents>
+                
+                Fol. 1r - 3r hardly legible some list; of medical recipes, what to take for which illnesses? Example: 'ad dolorem auriculem vel aquę ingressu; Coriandrios cum lacte mulicris mixtus et auriculam infusis cito sanat prodest etiam multum sucus rutę; Ad caliginem ocolorum...
+                Lines - 1rv - 34 lines; 2r - 33lines; script different hand from the following ones; perhaps again 9th century; no paragraphs or visual aids to differentiate parts or entries; end in 3r - leaving part of the folio blank
+                3v -computus inc.: Decem nouenalis clici firma constat ratio per annos embolismorum simulque commumium. Nam dierum ccc lxxx iiii habet vii embollismos communes xii ccc l dierum iiii...tertio nonas aprilis ter denam finies. 
+                Added perhaps later 4 lines 1st - months ianuari - iuni; 2nd - al.. Dns diuina gerens bon extat 3rd - the rest of the months 4th - Gratuite celi fert aurea dona fideli - hand protogothic? Again the end of the folio left blank as well as 4r - blank
+                4v - 5v inc.: De cursu solis per menses et signa qualiter bissextilem diem quarto suo compleat anno written in rustic capitals Primo igitur anno preparationis bissexti... Prima hora noctis quue procedit xvli mar arietem possit ingredi.
+                34 lines again one column; more diligent hand; has initials perhaps in colour standing in the margin; 
+                6r - blank
+                6v - inc. In libris antiquitatum et descriptione gretie refertur subsaturno id est in aureo sclo cum omnia... Eubolus qui historiam in ide multis uoliminibus explicauit narrat apud persas tria genera magorum.- story about the golden age; hand different, more close to the hand of the medical text; using the blank page? Blank page left because of quire ending here and later being added to the other part because of the text on 4v-5v?
+                END OF QUIRE
+                7r - inc. INCIPIT LIBER DYONISII EXIGUI. Domino beatissimo et nimium desiderantissimo patri...
+                34 lines still one column; change in hand in middle of fol. 9r.
+                9-v - tables of the cycles. Starts with year DXXXII (532. - but perhaps later added next to these year on f. 9v additional set of years from MLXIIII 1064 to 1082 by a different hand and different ink)
+                With chronicle at the lower half of each folio:
+                Notes on drago princeps francorum; pipinus; childebertus; dagobertus; fol. 19r - 'primum pugnauit carolus dux contra ratbodum ad coloniam' to year DCCXIX? Notes to carolus carlomanus pipinus; 
+                also on Bede: 'baeda prbt doctor anglorum obiit fol. 19v  to year DCCXXXI
+                Fol. 16v -'Alchuinus abba obiit' to year DCCCIIII
+                'Anno incarnationis dnicae dcccvi II non iun luna XIII signum crucis mirabili modo in luna apparuit. Frferia? V prima aurora incipiente quasi hoc modo added a image of a cross with a circle in the middle. Mark to year DCCVI
+                Another note for solar eclipse in year DCCVIIII Aug XVII kl or ID?
+                Another note that 'carolus imperator obiit et hludouuicus imperium recepit to year DCCCXIIII 
+                Fol. 17r -'Hieremias archeps obiit' to year DCCCXXVIIII
+                Fol. 17v - 'Hludouuicus imperator obiit et eclypsin solis facta est iii feria  antem ascensionem dnu hora diei nona ii non mai' to year dcccxl connected by a mark on the margin.
+                Check if there is a note to year DCCCLXI about ignee acies and the death of Abbo abba it is in MS 5239. -> no there is no such note in 5543.
+                Already by a different hand (check the catalogue) 'Anno incarnationis dni dcccxlviiii anno octauo Karoli regis xii kl mar extitit terrtie motus quasi decima hor noctis'
+                Fol. 18r -'Cometes apparuit circa KL maias per uiginti dies' - marked to year?
+                Fol. 18v - 'eodem anno dcclxxvii idibus octb eclypsis lunae fuit cum esset quarta die et eclypsis solis secuta est eodem mense III kl noueb. 
+                Fol. 19r - 'hoc anno mediante mai u quinta feria apparuit stella circa ipsum septentrionem a parte circu emittens radium magnum uersus euro austrum quasi longissimam hastram inter leonem et geminos trans zodiacum et uisa est ita fere XXIII diebus to year DCCCCV -905
+                Fol. 20v - 'Hoc anno IIII nonas septembris luna uersa est in sanguinem. Eodem quoque anno  mense iunio signum mirabile in caelo apparuit draco magno ____ et sine capite' to year DCCCCLVI -956
+                Another note on a solar eclipse and a stars appearing  in the first hour till the third in XI KL ianuarii  to year - ? 'et stellę apparuerunt'
+                
+                Has a marginal note at the bottom of fol. 7r: Hic liber scriptus est post annum Christi 816 ante annum vero 900 ut patet ex folio ab hoc primo 5107 p. 1 ubi in margine adnotatus numerus 900.
+                Fols. 23v -24r - written by a different hand
+                Fol. 24v - blank
+                Fol. 25r - 76r- Bede, DTR inc. Incipit praefatio De natura rerum et ratione temporum duos quondam... Cuius adiutorio genus propagaret humanum. EXPLICIT.
+                With capitula; initials in colour; capital letters for paragraphs and sentences; chapters written in capitals and in red; some explanatory annotations 'bruma dr...' gives synonyms in the margin; still 34 lines per page one column;
+                Fol. 76v-85r Incipiunt Uersus Bedę PrbIterI Naturas rerum uarias labentis... Incipit liber bedae presbiteri de natura rerum. Incipiunt capitula. I De quadrifario dei opere...ad occidentem extenditur. Explicit de natura rerum
+                Has a lot of marginal notes in the same ink and perhaps the same hand; interlinear to give synonyms; marginal longer additions; after ch. XIDe stellis fewer marginals and actually none; Red initials for the beginning of chapters; Rustic capitals in red for title and roman capitals for the chapter number;
+                Fol. 85r -90v Incipit liber de temporibus I De temporibus horis et momentis II De die... Reliquum sextae aetatis deo solipatet Explicit.
+                Written by the same hand. Starts with the capitula and on fol. 85v with the chapters the same style - initials for beginning of paragraphs, roman numerals and rustic capitals for titles of chapters but this time no annotations whatsoever.
+                Fol. 91r - 93v Adbreviatio cronicae aetas prima. Adam cum esset  CXXX annorum genuit... A philippo anni XLI
+                Written by a different hand; marginal notes on the outer margin for memoriable events.
+                93v - some table - marginal note 'hic est annus  MC ab incarnatione dni'; 
+                also on fol. 94r letters in capital and later someone used the blank space to add text
+                94 v - another table and Quo tempore mutari debeant epacte solares ..
+                Fol. 95r - 100v Mensis ianuarius habet dies XXXI luna XXX
+                Calendar with annotation for fiests. Like the one in Berlin MS: also has notes on the astronomy: as in fol. 96v :
+                'in attica uergiliae uesperi occultantur' - IIII N apr
+                'orion et gladius eius incipit abscondi' - VII ID apr
+                'soli in taurum ' for kl XV aprilis
+                Fol. 97r:
+                'ortus uergiliarum' - VIII ID mai
+                'Fidiculae exortus arcturi exortus mat' - III ID mai
+                Fol. 100r - 'occasus uirgiliarum' - VI ID nov
+                Fol. 99r - III k okt (29 sept) - Dedicatio basilicae archangeli michahelis (sic)
+                Fol. 101r-v two tables for concordances? 
+                Fol. 101v - Si vis scire quotus annus sit a bisexto teneat...
+                Fol. 102r-v another tables
+                Fol. 103r - Ratio calculandi primodediebus mensium. januarius aug et decemb iiii non habent... Written in uncial; added a table in the form of four plates-tables and more computistical tables on the verso
+                Fol. 104 r - Argumentum de recl msiu unde sumant originem Meminisse debes quia...
+                Still 34 lines per page; similar hand;one column; initials for the beginning of paragraphs; rustic capitals for chapter headings;According to Borst the excerpts from the comp collections stop at fol. 122r, what follows are still other 'argumenta' : arg de accensione lunae inrogatur; de accensione lunae pentecosten; arg de termino paschali; de contrati etatibus vii cycli lunaris; de duabus lunationibus in uno mse et de luna abortiua; de quattuor tempora ubi incrediuntur id est uer aetas autumnus et hiemps; de divisionibus temporum;
+                Fol. 126v -129r Incipit praefatio bede presbiteri Reuerentissimo ac sanctissimo fratri uuictheda presbitero beda optabilem in dno sal. Libenter accepi litteras... Aut VIIII klru apr die non fuisse aut ante aequinoctium fuisse confirmet.
+                Written by the same hand as the text of the argumenta above;  
+                
+                Fol. 129r - Quo die mundus creatus sit Multi cupientes primum diem saeculi inuestigare et caput mundi quod est.. Seruaret inchoauit cuius augmento quadrans efficitur.; 
+                129r-v De creatione vii dierum Prima die saeculi idem dominica XV K ap.. Quem diem ob resurrectionem dni dominicum xriantas nuncupat.
+                Fol. 129v-130r De differentiis annorum. Annus magnus dr quando oma sidera certis tempribus numerisque completas.. Aduenientem in nos gratiam sci sps.
+                Fol. 130r-v - De eclipsin soles et lunae. Eclypsis soli quoties luna XXX adeandem lineam qua sol uehitur peruenit... Ad sertore uentri deseuire & luxuriae.
+                130v-131r Itaque stella ueneris & mercurii hoc a superioribus tribus planetarum stellis differunt quod numquam... Sed quae ulteriores & idcirco longiores &theris m&as peragit.
+                
+                Fol. 131r De absidibus planetarum Circulus zodiacus qui XII signis constat omni exparte aeq uicinus est terrae Uerum sol .. Hiparchus in eo opere quod scribitu de secessibus at que interuallis solis et lunae doset magnitudinem soli mille dccc et lxxx partibus...  Expl: sed potius lex dierum numerum reddat.
+                
+                131r-v Pliny on De cursu earum per zodiacum  No title although one line left blank and begins with red initial Inc . Tres autem superores ab exortu matutino... Maxime inobseruabilis cursus.
+                
+                fol. 131v-132r - in quo signo uersetur mars annis ab initio mundi per senarium diuisis et annorum hunc numerum ... In uirgine memoratum semper inueniri planetam uirgo.
+                
+                132r-v De absidibus earum Tres autem quas supra solem diximus sitas...  Ut subiecta figura demonstrat. Left blank the lower half of the verso. 
+                
+                Fol. 133r - De intervallis septem planetarum Inter terram & lunam tonum esse pronuntiant quodem CXXV stadiorum spatium...  Inde ad signiferum toni duo & semissis by the same hand
+                
+                ITEM De septem planetarum interuallis Interualla eorum quae a terra multi indagare temptarunt... Ita septem tonis effici quam diapason armoniam uocant; 
+                
+                133r-v Incipit de duodecim signis Duodecim in caelos signa q testante isidoro ex nominibus deorum suorum gentile falsa... CCCLXVIII diebus signiferum cursum suum complens.
+                
+                Fol. 133v-134r - De positione vii stellarum errantium In ambitum quoque septem caelestium orbium Primum in inferiores fere circulo lunae constituta ideo proxima terris posita...  quorum orbitum atquestellarum positione subdita demonstrat figura. followed by a rota the circles of the planets - Saturnus -fertur-explere-circulum suum - ANNOS XXX... , on fol. 134r.
+                
+                Fol. 134v Hortum signorum xii qualibet die uel noctis hora quisque liquido dephensurus est ... With another rota of the 12 months below each text: 'si III Aut quattuor remanserint oritur scorpio...
+                Fol. 135r - another rota for the 12 signs and text on the simultaneos rising or settings: Taurus oriente ii hora occidit scorpiuset centaurus super zodiac tunc aquarius inferior optinet leo
+                To this rota there is a heading starting from the bottom of the previous page:  Quibus signis orientibus quae occidant uel ce__ caele supra uel infra eodem tempore tene__ subiecta formula continetur.
+                Fol. 135v-136r - another rotae of the T-o map and the winds with smaller circles on the four sides of 'Luna led/ malina' see B. Kuhnel plate 21, p. 301 ; 136r - two rotae about the elements and their qualities
+                Fol. 136v - rota for the 12 winds inside the TO map; De nominibus uentorum Ventorum primus cardinalis septentrio frigid et niualis... Si circuli similitudinem prudens lector inquirat. Followed by another rota of the winds againthis time with double names: Auster-Notus
+                Fol. 137v another rota of the months; fol. 138r - another rota for days weeks... Also on fol. 138v
+                Fol. 139r - Horologium diagram. DE CONCORDIA MENSIUM Ianuarius cum decembri In horarum mensura concordat...
+                Fol. 140 - inc. Quattuor aquadro consurgunt limite uenti/ hic quoque sex gemini dextra leuaque iugantur/ atque ita bisseno circumdant flamine ... At tu chore fremens zephyri de parte sinistra/ argestenque grai uocitant cognomina. 28 lines/ verses
+                Fol. 140v - Concordia mensium in horarum spatiis quod est horologium six rota for the six couple of months Jan- Dec ... - inside instruction how many hours, pedes... Three more rotas for horologium on the next fol. 141r; 141v - blank
+                Fol. 142r - De cursu solis et lunae. Sol tarditates ui cursus unum quodque signum XXX et...
+                de solstitiis et aequinoctiis Solstitia duo sunt . Primum uernale VIII...
+                Fol. 142 v - 146r - table of the cyclo paschali...
+                Fol. 146v-147r - Verses Versus de singulis mensibus 
+                Primus emanas...
+                Dira patet
+                Hiem... Latona genitum quo peribente ...
+                Fol. 147r
+                Primus adest ariens obscuro lumine labens... - Cicero!
+                Respicis apriles aries frixeae kalendas...
+                
+                Fol. 147v-148r - Incipiunt numeri per quos potest quo uoluerit alterius cogitationes de numero quolibet quem animo conceperit explorari. Quomodo numerus aquolibet animo conceptus quos sit possit qgnosci... Item aliter Ad sumatur numerus... Expl: ... septies centeni septimam.
+                Fol. 148v - De temporibus isidorus
+                I. De cronicae uocabulo... And another 12 chapter
+                Cronica grece dicitur qua latine temporum feries appellatur...
+                Fol. 153v - Quinto et quarto religiosis semipricipis sisibuti spania iudaei babtizantur residuum sextae aetatis tempus deo soli est cognitum
+                153v - Item isidori followed by a table of content of the chapters I de astronomiae nomine ; de inuentoribus astronomiae; de scptoribus a, de differentia astron et astorl; de astronomiae ratione; de mundo et nomine eius; de forma mundi; de caelo eiusque nomine; de caelesti spherae situ; de septem planetis caeli; de eiusdem sphere motu; de eiusdem sperae cursu; de celeritate caeli; de axe caeli; de caelestibus polis; de cardinibus caeli; de conuexis caeli idem artibus; de duabus ianuis caeli; de gemina facie caeli; da quattuor partibus caeli; de emis fereis; de quinque circulis caeli; de circulo zodiaco; de candido circulo; de magnitudine solis; de magnitudine lunae; de natura solis; de cursu solis; de effectu solis;... XLVIIII de nominib stellarum quibus ex causis nomina acceperint id est sol, luna, stellae, sidera signa, artos artofilax, arctutus, orion iades pliades canicula comites lucifer uesperus et reliqua... Expl. Planetae stellae sunt quae non sunt fixe in caelo ut relique sed maere ferunt datae autem planetae apotes planes idem aberrore Nam interdum in austrum
+                Written by the same style as Bede's DNR, with initials for the openning of chapter; chapter heading with rustic capitals; roman numerals in the margin; end abruptly? Filled out the last fol. 157v and end of the quire, perhaps lost a quire? End of quire labeled  XXII (regular octavo ff. 150-157) for the other quires see the notebook.
+                Nice red Initials for the constellation on the last chapter for their origin.
+                Logical continuation with Ps-Bede from the stories of isidore to the pictorial cycle. 
+                
+                Fol. 158r - Ps-Bede De signis caeli. Starts with illustration of Twins and text for  Cancer in the bottom: _ancer habet stellas splendidas in testo IIII...
+                Order corrupted perhaps by the rebinding: starts with twins/cancer; The two bear on fol. 160r - both called Felix - Twins (fol. 158r) should follow after fol.162v - after Virgo - so it is one bifolio 158r-159v; 160r-162v - trinio; Frames drawn after the figures;
+                - perhaps the scribe responsible for the initials mistook it as he also didn't put initials on some folios.
+                Some of the images in frames some not...Initials missing. Text and illustration not always on the same page
+                What was the choice which images to put in a frame and which not to? Probably frame was placed after the images as the image overlaps it often.
+                The text for the last two images Hydra and antecanis is missing - Lippincot suggest that the text came after the images; this is clear by the way text image interact - example fol. 168v with the rays coming from the mouth of Canis and entering the space of the text - the words are adjusted so not to conflict with the image. But what about the frame - ont he same folio - the initial L for Lepus is perhaps under the frame - so frames might have been added later. 
+                Ends with fol. 171r - the two images of Hydra and antecanis; fol. 171v - blank just a stamp of bibliothecae regiae. 
+                If indeed the images were added first, then the text partial or no; with initials here and there; and later the frame - some long process to accomplish the task - someone perceive it as important text.
+                However, it is not originally part of the MS, hard to say when it was added and also the origin might be different from the other part...
+                
+               
+                
+                
+            </msContents>-->
+            <physDesc>
+               <!-- contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. -->
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="00"> fols.</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height/>
+                                  <width/>
+                              </dimensions>
+                          </extent>
+                          <foliation/>
+                      <collation>
+                                <formula/> Quire mark 'II' on fol. 14v; 'III' on fol. 22v; - if there is a quire 7r-14v that was the second, then there should have been another quire before it, or the quire marks are put later when the different texts were put together.
+                          
+                          14v - II
+                          22v - III
+                          24v - IIII?
+                          32v - V
+                          40v - VI
+                          48v - VII
+                          56v - VIII
+                          64v - VIIII
+                          71v - X
+                          86v - XI
+                          125v - XVII
+                          149v - XXI
+                          157v - XXII (?)</collation>
+                          <condition>
+                              <p/>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="0" writtenLines="0"/>
+                  </layoutDesc>
+               </objectDesc>   
+            </physDesc>
+            <history>
+               <!-- groups elements describing the full history of a manuscript or manuscript part. -->
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>Folkerts, Menso. “De Arithmeticis Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede.” In <title>Essays on Early Medieval Mathematics</title>, by Menso Folkerts, III. 1–30. Aldershot: Variorum, 2003, here p. 5.</bibl>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

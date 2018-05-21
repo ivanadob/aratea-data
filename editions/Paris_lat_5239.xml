@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of Paris, BnF, lat. 5239.</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="bnf_5239" xml:lang="eng">
+                <msIdentifier>
+                    <!-- contains the information required to identify the manuscript being described MANDATORY -->
+                    <settlement/>
+                    <institution/>
+                    <collection/>
+                    <idno/>
+                    <altIdentifier type="other">
+                        <idno/>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title/>
+                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#"/>
+                    <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
+                    </origDate>
+                </head>                
+            <!--<msContents>
+               Excerpts from Isidore, Etym, XIII, 10-11 (De arcu et nubium effectibus; De ventis)
+Folio number: 1r-2r
+Incipit: … dicta a greco u<o>cabulo quod terram inhebrient ad germinandum...
+Explicit: quam flumina (sic) alata figunt (sic) poetae ut alitis austris.
+Remarks: f. 1r – hard to read, warn out parchment perhaps it was for a long time at the beginning of the volume; 30 lines per page, one column, Carolingian minuscule; Begins in the middle of a phrase; Greek words written in Latin characters.
+
+Additional note (see brown notebook)
+Folio number: 3r
+Incipit:
+Explicit:
+Gloss:
+Drawings:
+Remarks: note in Greek and Latin on the celestial circles; different hand, perhaps added later to use the blank space; perhaps taken from Isidore, Etym. XIII, 6 (although it has terms not used in Isidore).
+
+Dies aegyptiaci (Favourable and unfavourable days)
+Folio number: 2v
+Incipit: Mense ianuario intranet die primo secundo exiente die vii februario intranet die viiii exeunte ... si quis in his diebus in lecto inciderit non citp euadet et nec nullum genus pecculium dimittetur...
+Explicit: Istis dies per omnia observandi sunt
+Remarks: missing the initial M at the beginning
+
+Incipit: Mense ian die ii et vi et xvi sanguine noli minuare. Mense feb die ii et xxiii uenam non incidas…
+Explicit : Mense decembris die vii et xxii ab illo studium declinare memento.
+Remarks: missing the initial M at the beginning; different hand from the previous and following sections. Still 30 lines per page, but the scribe placed the last two words in the lower margin (in order not to go to next folio?).
+
+Obituaries List with monks their day of death and profession.
+Folio number: 3r
+Author:
+Title:
+Incipit: ii nona jan obit Isembertus hic fecit scrinium sancti valerici et duas cruces; vii idus jan Galtetius hi fecit signum quod uocatur uox chii et unum pallium leoninem ...
+Explicit: ... et fecit ii-a candelabra magna qnte altare.
+Then added in a later protogothis hand additional note about Bnardus thesaurarius et armarius.
+Remarks: mention names: Wido add; petrus abba; abb Amblardus; Odolricus abba; Gaufred abb; different hand later 11th c.? Ordered not chronologically, but by months starting from January ending in December - it mentions only the month of dead, not the year.
+
+2 capitulars
+Folio number: 3v
+Incipit: Hes sit ornamenta quod A. de brucia sub pior dedit deo et bo marciali casulam …
+Explicit: ... et sedilia tam ligne quam lapidea ibidem fecit fieri.
+
+Incipit: Notum sit omnibus tam praesentibus quam futuris quod ego fulco de riora et Wmus frater meus dedimus monisterio sancti marciali et fratribus...
+Explicit: ... de iam dicto monasterio huius concessionis testes fuerunt Ai capellanus de niolio Ai demote et Johanus Guitbertus.
+Remarks: two capitulars stating a donation made to the monastery of St Martial; different later hand. No clues about their date.
+
+Dionisius Exiguus
+Folio number: 4r-6r
+Incipit: Incipit Liber Dionisii Exigui. Domino beatissimo et nimium desiderantissimo Patri petronio episcopo Dionisius exiguus. Paschalis festi rationem quam…
+Explicit: Orantem pro nobis beatitudinem uram diuina gratia custodire dignetur. Explicit praefatio. 
+Remarks: same layout, 30 lines, one column; initial D, title in roman capitals; text in caroline minuscule;
+
+Tables 19-year cycles (28 cycles: years 532-1063)
+Folio number: 6r-20r
+Author:
+Title:
+Incipit: Incipit cyclus decennovenalis Qvem greci enneacaideca derica vocant. Constitutus a sanctis patribus in quo xiiii d paschales omni tempore sine ulla…
+Explicit: with the vicesimus VIII cyclus decennovenalis and year MLXIII
+Remarks: from 6v- on one page one cycle : primus cyclus decennovenalis; secundus cyclus etc. Begins with year 532 DXXXII anni dni nostril ihu xri. Notes on emperors deaths and succession; no note about the death of Bede, but kept the one for Alcuin; notes on the dedication of the basilica St. Columba in 853 (DCCLIII but should be DCCCLIII) XI Kl Aug; et ipsius mensis translation corporum scorum Columne uirginis; On the margin : Canonicalis habitus in monachalem habitum et sce religionis uitam mutauit in monasterium sci marcialis II k Aprl DCCCXLVIII (848) (on f. 18v);
+Another note on the monastery: fol. 18v 952 – monasterium sci marcialis igne erematum est;
+f. 19r – last note from the original hand for year 1010 MX solar eclipse and the consecration of a sepulcrum dni apaganis ii kl octr; 
+then follow notes by different hands for years MXVIIII 1019 – Hic ob Gaurfredus abba ii; 1025 – Ob Ugo abbas Rotgerius cantor Hildeberdus monachi -> abbots of Monastery of St. Martial in Limoges.
+Another note on fire in Monasterium sci marcial in 1053, and iterum in 1060 xi kl mai
+Notes for solar eclipse: 
+-	Fol. 6v year 538 – Eclypsis solis facta est xiiii k mar ab hora prima usque ad tertiam
+-	Fol. 6v year 540 – Eclypsis solis facta est xii k iul et apparuerunt stellę pene hora dimidia ab hora diei tertia.
+-	Fol. 13v the same note about signum crucis mirabili modo as in MS Paris BnF lat. 5543 f. 16v.
+-	Fol. 15r – 861 id mar igneę acies apparuerunt in cęlo circa gallicinium et obit Abbo abbas. the second abbot of St. Martial
+-	Fol. 15v – 886:‘Hugo abb inclitus obiit. Karolus imperator pei suis contra nortmannos uenit; 887: ‘Monasterium sci germani a nortmannis incensus est’
+-	Fol. 19v – 1037 – xii id mai eclipsis sol facta est ab hora iiii usque pine vi non ut mos est sed ita sole pius apparent  (added a full circle) deinde ita (mostly black with one little part white circle) pira ita (mostly white with little balck)
+
+Chronicle 
+Folio number: 20v-21r
+Incipit: Anno dominicę incarnationis DCCCXXX Herio innsula a generali monachorum habitatione destituitur mense iunio
+Explicit: anno DCCCCXXX Ademarius comes emenonis filius iiii nonas aprilis obit apud scm hylarium pictauis sepultus.
+Remarks: years 830-930; then a later hand added a note to year 1025 (death of certain Wido uicomes apud scm marcialem limouicas sepultus; eodem anno Enricus impr obit .. eodem anno basilius impr grecorum ob et constantinus fr eius imperium suscepit; additions by a later cursive hand.
+Folios are ruled for tables (the same quire as the tables before)
+
+Fol. 21v - blank
+
+Excerpt from Servius Comm. In Vergil’s Aeneid 10.272
+Folio number: 22r
+Title: De Differentia Cometarum
+Incipit: Hanc stellam electram dicunt cumqua iuppiter concubuit quęcum troiam ardentem uideret capillum lacerabat atque in astra est recepta. Sane auienorum cometarum has differentias dicit. Stella quae oblicam facem post se trahens quasi crinem facit yppius uocatur Ita si ab occasu in ortum ueniat mala perfide et syriae ostendit. Si ad meridiem adtenderit africam et egyptum amalis releuat solis peccoribus pestem denuntians. Si septemntrionem respexerit aegyptum bellis et miserus premit. 
+Another kind : alter cometes est cui ex gladio nomen est Nam grece siphas appellatur cuius tractus est longior et pallidus color neque comas habere dr et hebetior eius flamma est. Again different significations if comes from S N E W
+Alter cometes est qui lampas appellatur et quasi fax lucet
+Est et cometes qui uere cometes appellatur…
+Est alter cometes intympani modum qui nec ualde lucet et electri colorem habet quem disceum uocant
+Explicit: ... orbi terarum cędes rapinas bella et cetera mala significat.
+Remarks: ruled for tables also; large initial H, title in rustic capitals.
+
+Fol. 22v-23v – blank ruled as for table, end of quire IIII here;
+
+Bede, De natura rerum
+Folio number: 24r-32r
+Author:
+Title: 
+Incipit: Incipiiunt versus bedae Praesbiteri Naturas rerum uarias labentis...
+Explicit: ... atque inde Africa a meridie usque ad occideentem extenditur. explicit de natura rerum.
+Remarks: chapter titles in rustic capitals; initials for opening the chapter. While MS 5543 had a lot of marginal notes, this one has none. 30 lines per page, one column; starts new quire
+
+Bede, De temporibus
+Folio number: 32r-38r
+Incipit: incipit liber de temporibus. I de temporibus horis et momentis (table of the 21 chapters)
+Explicit: Reliquum sextę aetatis deo soli patet.
+Remarks: continues the same hand; the same layout, titles in rustic capitals, initials; this time has chapter numbers; again no annotations
+
+Pliny fragments Eboracensia, (De positione et cursu septem planetarum)
+Folio number: 38r
+Title: d	e septem sydera qvae pendunt inter caelum et terram
+Incipit: Inter celum et terram certis discrete spatiis septem sidera pendent...
+Explicit: Dein morata in coitu solis biduo cum tardissime atricesima luce ad easdem uices exit.
+Drawings: the busts of seven planets in three lines (3-1-3)
+Remarks: written by a different but similar hand. Filling the remaining blank folios from the quire (38r-39v)
+
+Pliny fragments Eboracensia, (De intervallis earum)
+Folio number: 38v
+Incipit: Interualla eorum a terra multi indagare temptarunt et solem...
+Explicit: …quam diapason armoniam uocant.
+Drawings: Diagram of the intervals (similar to that printed in Eastwood Planetary diagrams, p. 28) side by side with the text occupying part of the written space: vertical list drawing of the seven planets and their intervals (signifier – tria semitona – saturnus – semit – iupiter – semit – mars – tonus – sol  - tria semit – venus – semit – mercurius - semi – luna – tonus – tellus; with ‘diapason’ written on the left, and ‘armonia’ on the right.
+
+Pliny fragments Eboracensia, (Deabsidibus earum)
+Incipit: Tres autem quas supra solem diximus sitas…
+Explicit: …cum cetere utraque statione quaternos menses non impleant.
+Diagrams: Vertical diagram of the latitudes of planets on f. 39r – the degrees of change in correspondence with the zodiac.
+
+Fol. 39v – blank (end of quire)
+
+Bede, De temporis ratione (ch. 1-66)
+Folio number: 40r-95v
+Title: Praefatio bedae Presbiteri In Librum de temporibvs.
+Incipit: De natura rerum et racione temporum duos quondam perstrict sermon libellous...
+Explicit: (imperfect) ... edificauit mulierem cuius ad uitorio propagaret genus humanum.
+Gloss: occasional marginal glosses probably by the hand writing the main text (mainly at the beginning)
+Remarks: initials for beginning of sentences; change in hands in f. 80r (new quire); end leaving more than half a page blank. Begins on a new quire (quires:VII-XIII)
+
+Argumenta 
+Folio number: 96r-116v
+Title: Ratio calculandi primo de diebvs mensivm.
+Incipit: Ian augustys et December IIII non habent XVIIII post idus deis XXXI...
+Explicit: (Quibus modis soleat annus nominari)... reuertantur ubi primum statuta fuerunt et DXXXII annis impletur.
+Remarks: computistical argument (ad feriam inveniendam; ad lunam inquirendam; ad concurentes inveniendum etc.) taken from... see Borst. Runing titles in rustic capitals; initials
+
+Bede, Epistola ad Witchedum presbiterum (prefacing Bede’s Chronica maiora Migne, Patr. lat., XC, col. 599-605.)
+Folio number: 116v-119v
+Incipit: Incipit Praefatio Bedae Presbiteri. Reuerentissimo ac sanctissimo fratri uutheda presbitero beda in domino optabilem salutem. Libenter accepi…
+Explicit: diem non fuisse autante aequi noctum fuisset confirmet.
+
+Pseudo-Athanasius (Martin von Bracara, gest. 580 Über das Osterfest (PL 72, 49D-52B ; Krusch 1880, 329-335 ; Strobel 1984, 107ff. (see it also in Ms Cologne 83ii ff 191-193)
+Folio number: 119v-121r
+Author:
+Title: Incipit Prologus Paschalis qvem Beatus Fecit hieronimus
+Incipit: Plerique mysterium pasche narrare uoluer simulque digerere extractiones supputationes in mse...
+Explicit: cui est honor et gloria et laus in secula seculorum amen.
+
+TEXT
+f. 121r Quo die mundus creatus sit. Multi cupientes primum dies scli inuestigare et capud mundi... inchoauit cuius augmento quadrans efficitur; 
+f. 121r-v – De creation septem dierum Prima dies scli id est dominica xv kl ap dixit deus fiat lux...  quem diem  ob resurrectionem dni dominicum nuncupat.
+f. 121v-122r – De differ annorum Annus magnus dicitur quando omnia sidera certis temporibus… adueninetem in nos spu sci gratiam.
+f. 122r-v – Ratio quomodo Fr qua dns passus est invenitur. Prima dies scli creditur fuisse dominica Septima sabbatum sicut diuina scriptura testatur… sci euangelii sacra testatur istoria.
+f. 122v- 123v –  De eclypsin solis et lunae Eclypsin solis quotiens luna XXXma ad eandem lineam qua soluebitur... non cum aepicurio uoluptatum adsertore deseruire et luxuriae.
+f. 123v – De stella veneris et mercurii. Itaque stella ueneris et mercurio hoc superioribus tribus planetarum stellis differunt quod numquam… et idcirco longiores aeteris metas peragit ; 
+123v-124r – De absidibus planetarum Circulum zodiacus quo duodecim signis constat omni exparte aeque insinus est terre uerum sol cum e regione signorum terras circuit non omnibus in locis eque uicinus est terre. Hiparchus in eo opere que scribitur de secessibus interuallis solis et lune docet magnitudinem solis mille octingentis… annis an initio mundi persenarioum diuisus.
+f. 124r – de signo mars In quo signo uersetur mars. Annis ab initio mundi persenarium diuisus et annorum hunc numerum extenduntium mensib.. uirgo latitudinem signiferi scandes. text studied by D. Juste David Juste, "Neither Observation nor Astronomical Tables: An Alternative Way of Computing the Planetary Longitudes in the Early Western Middle Ages," pp. 181–222 in Charles Burnett, Jan P. Hogendijk, Kim Plofker, and Michio Yano, Studies in the Exact Sciences in Honour of David Pingree, (Leiden: Brill, 2004) In BnF Tolbiac
+
+Pliny’s excerpt (Eboracensia) Decursu earum per zodiacum circulum (begins imperfectly)
+Folio number: 124r-125r
+Incipit: tres superiores ab exortu matutino crescere id est ad aquilonem accedere…
+Explicit: martis maxime in obseruabiliss est cursus.
+Remarks: chapters in rustic capitals and initials 
+
+Pliny’s excerpt (Eboracensia) De absidibus earum
+Folio number: 125r – 125v 
+Title: de absidibus earum 
+Incipit: Tres autem quas supra solem diximus sitas occultantur…
+Explicit: …sicut in rotis radios ut subiecta figura demonstrat.
+Diagram: f. 125v – on the diagram the planets are not even positioned on the absides, but on radios coming from the central circle.
+
+f. 126r – blank
+
+f. 126v-127r – computistical tables 128r-v also, text on 127v
+
+Calendar
+Folio number: 129r-134v
+Remarks: as its exemplar ms 5543 it also has notes for astronomical phenomena : VI kl Feb Exortus arcturi uespertinus
+
+Computistical Tables and Diagrams
+Folio number: 135r-138r 
+Drawings:
+Diagrams: f. 138r diagram of the thronos soli (as in Ms ? square with mundus in the middle)
+Remarks:
+
+TEXT
+Folio number: 138v
+Title: De nominibus ventorum
+Incipit: Ventorum primorum cardinalis septentrio frigidus... 
+Explicit: ... si circuli similitudinem prudens lector inquiraet.
+Remarks:
+
+TEXT
+Folio number: 138v-139r
+Title: Versus de ventorum nominibus ac speris subpositis
+Incipit: Quattuor aquadro consurgunt limite uenti...
+Explicit: ... Argestemque grai uocitant cognomina prisco.
+Diagram: rota of the 12 winds : Septentrio Ventorum primus cardinalis septentrio qui...
+
+Fol. 139v-1v – computistical rotae
+f. 141 – 12 months – rising sign ‘ianuarius - Si VIII aut VIIII remanserint oritur capricornus’
+f. 141v – Quibus signis orientibus quae occident vel centrum caeli supra vel infra eodem tempore teneant subiecta formula continetur. 
+Followed by a rota in 12 sections : ‘ariete oriente II horis occidit libra et centru superioris zodiaci runc capricornus inferioris optinet cancer’. -> perhaps for astrological purposes Juste?
+f. 142r – central rota with four on each side ‘ledo/ malina’
+f. 142v – computistical table 
+f. 143r – rota computistic
+f. 143v – the solar thronos the type as in Cologne 83ii f. 81v
+f. 144r – table
+f. 144v – two rota for the elements and their qualities connected with the ‘annus cuius communionis haec est figura’ and with the four human characters sanguis colera humor melancholia. Below another diagram ‘orologium viatorum’ preceded by a short instruction: ‘Ianuarius cum decembri in horarum mensura concordat…’
+End of quire
+
+Isidore, Etym., V, 28-39
+Folio number: 145r-151v
+Author:
+Title: De temporibus isidori (followed by chapters title – 12corresponding to chapter 28-39)
+Incipit: Incipit liber. Cronica grece dicitur quae latine temporum series apellatur...
+Explicit: ... Eracleus XXVII huius VDCCCXXXIII.
+Remarks: the last chapter De aetatibus takes the form of list, years placed to the right.
+
+Isidore, Etym. III, 24-71 (de astronomia)
+Folio number: 151v-158r
+Title: Item isydori
+Incipit: I. De astronomiae nomine II de inuentoribus astronomiae...
+Explicit: ... et in superna contemplatione conlocaret.
+Gloss:
+Drawings: on the margin of f. 157r next to the passage on Cometes stella, there is a drawing of a comet with rays like ‘comas’
+Remarks: Begins with list of the chapters on fol. 151v-152v: 49 corresponding to ; part of 152v left blank, text begins on 153r De astronomia. Astronomia est astrorum lex...; Greek terms in latin characters with expetion in the chapter De nominibus stellarum, but no sense in the words there.
+
+Isidore, Etym. XIII, 1-11
+Folio number: 158r-162r
+Title: Item isydori
+Incipit: I De mundo II de athomis... (12 chapters; on f. 158v: In hoc vero libello qvasi in brevi tabella qvasdam caeli causas situsque terrarum et maris spatia adadnotavimus ut in modico lector ea per cvrrat. Et compendiosa breuitate et homologias eorum causas cognoscat. I De mundo II de athomis III De elementis. Mundus est caelum terra mare et que in eis opera dei...
+Explicit: ... quam flumina alata figunt poetęut alitis austris.
+Remarks: On ff. 158r-v list of the 12 chapter; then follows explication of what follows ‘libellum’ with three chapters; then on f. 159r – Item isidori I De cello II de partibus caeli III de circulis caeli; left half page blank at the end, left out de aquis (half of the book) only cosmology and de ventis; the texts of Isidore written by one scribe, with the exception of the very beginning on f. 149r-v; then change in the scribes with new quire on f. 160v-161r.
+
+Dies Aegypti?
+Folio number: 162v
+Incipit: Mense ianuario inerante die primo scdo exiente die septimo...
+Explicit: ... Istis dies per omnia obseruandi sunt.
+Remarks: similar or the same as the one on f. 3???
+
+Folio number: 162v
+Incipit: Mense ian die scdo et vi et xvi sanguinem noli minuere…
+Explicit: Mense deceb die vii et xxii ab illo stadium declinare memento.
+
+Folio number: 162v-163r
+Incipit: Item ubi habuere ian dies IIII et dies VI aut dies XXX et ubi...
+Explicit: ... XVIII K ian.
+Remarks: only days no verb (understandable that these are bad day?)
+
+Isidore, Etym. IX, 5-6
+Folio number: 163r-164v
+Incipit: Heredius nomen inposuit census heris. Soluit enim tributum auctoris... 
+Explicit: ...unde et a uulgo ande natus uocabula a gente haec uidentur declinata Genitor genetrix agnati agnace cognate cognace progenitors progenetrices Germani Germanę
+Remarks: on the ethymology of family names, of terms in the family (pater faimilias...)
+Tables follow on fols. 165r- Item de predictis affinitatibus, Auctor mei generis/ Patris mei Pater/ Patris mei auus/ Patris mei proauus...
+fol. 165v – another tree-table two side one for the father one for the mother family relations.
+Fol. 166r – another similar ‘Scemata dicuntur ramusculi quos aduocati faciunt in genere cum  gradus cognationum partiuntur ut puta ille filius ille pater ille auus ille agnates et ceteri quorum figurae hae sunt.
+
+Petosiris Nechepso regi salutem
+Folio number: 166v-167r
+Title: Petosiris Nechepso rege salutem / Dies lunae cum nvmeris svis.
+Incipit: De his quae a me ad humanę uitę cautelam inuenta sunt...
+Explicit: ... aduersa omnia prouenient. EXPLICIT
+Drawings: the circular diagram (similar as in the edition, but no interlanced lines) with title: Grecae littere cum numeris svis.
+Remarks: different hand; has underlined parts
+
+Additional note at the bottom: Inl. Semel XXVIIII et remanent XXI In C ter XXVIIII et rem XIII in CC sexies XXVIIII et rem... In IIII centies tricies et septies et remanent XXVII.
+
+Fols. 167v-168v – blank (end of quire)
+
+TEXT
+Folio number: 169r-193r
+Incipit: Adam annorum CXXX genuit Sed cui superiuxit annis DCCC...
+Explicit: cuncti celectium premiorum mereumur accipere palmam. Explicit domino iuuante bedae presbiteri.
+Remarks: Initials to mark sections; two hands
+
+TEXT
+Folio number: 193v-196r
+Title: Adbreviatio chronicae 
+Incipit: aetas prima Adam cum esset CXXX annorum genuit seth...
+Explicit: … Sunt autem totius summe ab origine mundi anni 		in praesentem annum DCCCX Incarnationis domini III DCC LXII
+Remarks: divided in two, left for events/ text, right part for years; has older text : domnus carlus regnum suscepit et deo protegente gurbernat usque in presentem annum feliciter qui est annus reni eius XLII Imperii autem VIIII
+
+TEXT
+Folio number: 196r
+Title: Argumentum ad annum mundi inveniendum
+Incipit: Si scire cupis annos ab initio mundi multiplica...
+Explicit: ... sine errore repperies.
+
+TEXT
+Folio number: 196r-199v
+Title: Incipit compuitacio circuli magni pasche qui ingentorum xxx annorum duorum inse ipsum reuolutus.
+Incipit: Non est pretermittendum cum dixit de natura rerum cur non et iam de natura temporum uel de ratione rerum et ratione temporum dixit. Aliut ergo est de natura rerum disserere aliud de ratione. Natura rerum est substantia ipsa spiritalis uel corporalis creaturarum cuius qualitatibus propriis. Sed prius querendum de natura temporum…
+Explicit: … id est ducentesima XXXma V pars XL VII semis momentorum V.
+
+Lunar Tables
+Folio number: 200r-208v
+Title: Cursus Lunaris de diebus singulis per XVIIII annos nullae
+Remarks: On f. 208v side byside with the last table is placed a text with the title: Cursus lunae unicvuique per decem et novem annos. In isto praedicto circulo ostenditur aetas naturalis lunae in uno quoque die per XVIIII annos nisi saltus vel bissextus aut luna abortiua uel embolis maris aut quarta decima luna primi mensis uel alia contraria regula conturbet. Sed confiderandum est aepactas lunares anni semper praesentis in kalendas ianuarias et litteram accensionis et diem praesentem utrum sine an sub se uel supra se punctum habeat.
+
+TEXT
+Folio number: 205r
+Incipit: In una parte zodiaci id est in XXIIII horis et XXI ostentis adcrescunt diei uel nocti ostensis IIIIor. In duabi partibus ostenta VIII…
+Explicit: in utroque aequinoctio dies habet horas XII Nox horas XII.
+Remarks: 4 short sections: 
+1st on the passing of time in respect to the path of the sun in the zodiac; 
+2nd  how much increases or decreases the length of day/ night with passing of time in XV dien et V horis et uno puncto et duobus momentis adcrescunt uel decrescunt hora una then how much it takes for 2, 3, 4, 5, 6 hours to increase/ decrease XXX diebus/ XLV diebus/ LLX/ LXXV/ XC
+3rd section in respect to the zodiac In XV partibus zodiaci adcrescit hora una. In XXX partib adcrescunt hore duae…
+4th section - last part how many hours the day and night have during solsticio brumali (6/ 18), in solsticio aestiuali (18/ 6), in utroque aequinoctio (12/12), 
+
+Calendar
+Folio number: 205v -211r
+Incipit: Mensis ianuarivs habet dies xxxi. I KL IAN Dies horarum VI et puncta IIIIor NOX horarum XVII et puncta I…
+Explicit:
+Remarks: for every day of the twelve months, how long the day and the night is measured in hora punctum ostensio.
+
+TEXT
+Folio number: 211v-212r
+Incipit: In primis sciendum est unam quamquae luna ab una renouatione sua usque ad alteram habere dies XXVIIII et horas XIIII et ostenta VIIII ac pro idem quacumque diei …
+Explicit: … sexies conteni sextam septies conteni septimam.
+Remarks:
+
+Verse on the twelve months
+Folio number: 212r
+Title: Versus de singulis mensibus
+Incipit: Primum romanas ordinis ian kldas…
+Explicit: … Umbrifera mensis cumque december adest.
+Remarks: all verses are written one following the other, in two columns.
+
+TEXT
+Folio number: 212r
+Title: Item versus de numero dierum singulorum mensium 
+Incipit: Dira patet iani romanis ianua bellis…
+Explicit: Unde december a matte gen alis hiems.
+Remarks:
+
+TEXT
+Folio number: 212r-v
+Title: Petrasti non autenticum de singulis mensibus
+Incipit: IAN Kic iani mensis sac est enaspic ut aris…
+Explicit: … Nunc tibi cum dno ludere una licens.
+Remarks:
+
+Verse on the twelve signs (Cicero, Aratea)
+Folio number: 212v
+Title: Versus de duodecim signis
+Incipit: Primus adest aries obscure lumine labens…
+Explicit: … Ex insquamiferi sorpentes ludere pisces.
+Remarks:
+
+TEXT
+Folio number: 212v
+Title: Item vsvs de duodecim signis
+Incipit: Respicis aprilis aries fri… kalendas/ Maius agenorei miratur eximia tauri…
+Explicit: Scorpius hibernum preceps iubet ire nouembrem.
+Remarks:
+
+Tables
+Folio number: 213r-
+Title:
+Remarks:
+
+f. 214v - blank
+
+Ps-Bede, De signis coelis
+Folio number: 215r-224v
+Title: no
+Incipit: Fenix arcturus maio habet autem stellas obscuras VII…
+Explicit:
+Remarks: starts on a new quire; images drawn before text was written (see f. 217 with Bootes)
+
+f. 225r – Drawing of the twelve winds
+Excerptum de astrologia
+Folio number: 225v-226r
+Title: no
+Incipit: Duo sunt extremi uertices mundi quos appellant polos...
+Explicit: ... urnae aquarii qui ad ipsum usque decurrit accipiens.
+Remarks: written by the same scribe of the De signis coelis; exactly filled the two folios of 30 lines leaving no space even for a single word, but also without squeezing the text. Coloured? Initials for the beginning of sentences
+
+Germanicus, Aratea
+Folio number: 226v-231v
+Title: no
+Incipit: Ab ioue principium magno deduxit aratus...
+Explicit: ...qui exoritur summam pestilentiam mortalibus portat uirgo figuratur stellis XVIIII.
+Drawings: no
+Remarks: followed by the scholia ‘Quaeritur quare ab oiue coepit et non a musis...’, the verses of Germanicus written on separate lines (visibly distinguished as verses), the scholia follow with initials; text taking the whole lines one column. See note on back of notes on Berlin 1832 for disposition of vv-sch on folios
+
+Capitulars ff. 231v-232r
+Folio number: 231v
+Incipit: Nouerint omnes tam praesentes quam future quod Wido uicecomes lemouic uolens ire ierosolimam ab abbe sci marciali quinque milia solidos accepit…
+Explicit: … debitores uero sunt isti Audoinus de nouila Wido de teulet Gerardus labrocza.
+Remarks: About money received by certain Wido and others. written by a later hand (11th-12th c)
+
+Folio number: 231v-232r
+Incipit: In nomine uerbi incarnate agnoscatur cuncti praesentes et futurI memoriam et noticiam huius facti…
+Explicit: … et spiritu sancto per cuncta secula seculorum amen.
+Remarks: About donation made by a certain wife made to the monastery of St. Martial. Temporibus domini Widoni episcopI lemouicensis et domini Ademari abbatis Sancti Martialis; acta sunt hec tempore Philypi regis francorum et Widonis episcopI lemuice sedis et Domini Ademari abbatis SanctI Marcialis
+
+Folio number: 232r
+Incipit: In nomine partis et filii et spiritus samcti et in honore beatissime dei genitooris uirginis marie…
+Explicit:… sit dampnatus sicut datan et abiran.
+Remarks: donation made by a woman to St. Martial. Haec carta scripta est Ludouico rege regnant Geraldo lemouicarus existente episcopo Amblardo existente abbe monisterii sci marcialis
+
+f. 232v-233r - blank
+Tables
+Folio number: 233v 
+Title: Argumentum quota sit luna per decem et novem annos
+Remarks: has a note:  Hec figura grecis litteris et numeris computatur
+
+Folio number: 234r
+Title: Argumentum quota sit luna in sigulis mensium KL per annos XVIIII
+
+Folio number: 234v
+Title: Annotatio feriarum per uiginti octo annos in kalendis
+
+Text about different letters/ alphabets 
+Folio number: 235r-236r
+Incipit: Primus omnium litteras ante diluuium inuenisse enoch dicitur et post diluuium cham filius noe…
+Sections: 1- the Hebrew mather of all languages, from hebrew – Greek, from Greek – Latin, at the end written the letters of the Hebrew alphabet with little notes on the pronuntiation (aleph, beth, delech…)
+2 – on the Greek alphabet, also have numeral value but not noted
+3 – on the Latin, giving also some value A- d – 500, b – 300, c-100…
+4 – Aethicus phylosophus et cosmographus litterarum karacteres quod adinuenit… (alam, betha, cathai…)
+5 – the litterarum figure ingente northmannorum.. quib et runstabath nomen imposuerunt…
+Explicit:…quod his res ansconditas uicissim scriptitando aperiebant.
+Remarks: at the end tables of the Greek numbers ( I Mia II Dia III Tris IIII Tessera… MM Ecathostochyle)
+
+TEXT
+Folios number: 236v
+Title: Veteris qvestionis nova solvtio
+Incipit: <D>ominicę resurrectionis diem idcirco sollempniter celebramus quod…
+Explicit: …et ressurrectionem VI K sic et martirologus uniuersaliter annotatur.
+Remarks: later addition, end 11th c.
+
+f. 237r - blank
+
+Capitular
+Folios number: 237v
+Incipit: Noscant praesentes et futuri quod dopnus I abbas Sancti Marciali lem uoluntate…
+Explicit: … redditus diuiditur hic cimiliter diuidatur
+Remarks: later hand.
+
+Dies aegypti
+Folios number: 238r
+Incipit: <I>tem ubi habueris ian dies III et dies VI aut dies XXX et ubi habuere feb dies…
+Explicit: non nouember IIII K decemb II idibus deceb XVIII K ian
+Remarks: the same text as on ff. 162v-163r
+
+Isidore, Etym, IX, 5-6
+Folios number: 238r-239v
+Incipit: <H>eredis nomen inposuit census heris. Soluit enim tributem…
+Explicit: progenitors progenetrices germane germane.
+Remarks: check if the hands are the same as the text before 163r-164v
+            
+            </msContents>-->
+            <physDesc>
+               <!-- contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. -->
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="00"> fols.</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height/>
+                                  <width/>
+                              </dimensions>
+                          </extent>
+                          <foliation/>
+                      <collation>
+                                <formula/>Quire marks: on f. 3v – I; f. 11v – Q II; f. 19v – Q III; f. 23v – Q IIII; f. 31v – V; 39v – VI; f. 47v – VII; f. 55v – VIII; f. 63v – VIIII; f. 71v – X; f. 79 – XI; f. 87 – XII; f. 95v – XIII; f. 103v – XIIII; f. 111 – XV; f. 119v – XVI; (128r – begins a new quire?)135v – XVIII; f. 144v- XVIIII; f. 148 – XVIIII; f. 152v – XX; ___; f. 184v – XXIIII; f. 192v - XXV f. 199v- XXVI; f. 207v – XXVII; f. 214v – XXVIII; f. 222v – XXVIIII; f. 230v – XXX; f. 235v - XXXI</collation>
+                          <condition>
+                              <p/>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                     <layout columns="00" writtenLines="0"/>
+                  </layoutDesc>
+               </objectDesc> 
+            </physDesc>                
+            <history>
+                <origin>has an obituary of monks and abbots of the monastery of St. Martial (Limoges) on f. 3r, as well as 2 capitulars for donations made to the same monastery</origin>
+                <provenance>On f.2r note in the upper margin <quote>cod. Colb. 1020 Regius 3823</quote>.</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Dell'Era, Baseleensia</abbr>, p. 304.</bibl>
+                   <bibl>
+                            <abbr>Juste, Observation</abbr>, p. 192.</bibl>
+                   <bibl>Buescu, Victor. “Deux Nouveaux Francici de Germanicus César.” In <title>Problèmes de critique et d’histoire textuelle</title>, 229–37. Bucharest and Paris, 1942.</bibl>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>

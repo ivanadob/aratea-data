@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cicero: Aratea</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                        <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+                    </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Generally admired for his prosaic works, <rs type="person" ref="#cicero">Cicero</rs> is less now-a-days popular and admired as a poet. Nevertheless even this lesser popularity results in an extensive amount of scholarship devoted to it. The aim of this study, however, is not Cicero’s poetic language, his style, or meter, about which there have been extensive studies. The main goal of the current research is to study the manuscript tradition of the text. In this respect it should be worth noting any characteristics of Cicero's translation, characteristics that might have delineated its (peculiar) medieval transmission and reception.</p>
+               <p>On the first place let us observe the general information about the creation of the translation. <rs type="person" ref="#aratus">Aratus</rs>’ Phaenomena constitutes of 1154 verses divided in two main part preceded by a proemium. The first part examined the constellations, their relative position in respect to each other, the celestial circles, the simultaneous rising and setting of constellations, while the second part is devoted to the signs used for weather forecast. From this translation today we posses one verse from the premium, 480 verses from the first part, and another six fragment or 27 verses from the second part. In the modern edition of the Aratea these sections are conveniently placed together, but the medieval tradition of it incorporated solely the 480 verses from the first part. As it is found in all manuscripts, the text starts with the end of the description of the constellation Aries and continues till the end of the first part. The obvious conjecture is that during its early life the poem suffered a serious physical damage resulting in the lost of the first 229 verses which included the proemium and the text describing the first eighteen constellations from the northern hemisphere.</p>
+               <list>
+                  <item>Proemium (only one verse fragment from DND, Aratus vv.1-18)</item>
+                  <item>I. Phaenomena, map of the heavenly sphere</item>
+                  <item>1) Northern constellations (starting from Aries Cicero’s vv.1-101 = Aratus vv.19 (Aries:229-)320)</item>
+                  <item>2) Southern constellations (Cicero vv.102-222 = Aratus’ vv. 320-453)</item>
+                  <item>3) Planets (Cicero vv.223-236, Aratus vv.454-461)</item>
+                  <item>4) Circles (Cicero vv.237-340 = Aratus vv.462-558)</item>
+                  <item>5) Simultaneous rising and setting of constellations (Cicero vv.341-480 = Aratus vv.559-757)</item>
+                  <item>II. Diosemeia, (Cicero’s Prognostics), signs of good and bad weather (only 6 fragments, Aratus vv.758-1154)</item>
+               </list>
+               <p>Although today only fragments of the second part, the Prognostics have survived, it is very likely that Cicero translated this part in whole. Evidences for that are his own words in a letter addressed to Atticus, where one reads “expect very soon my Prognostics and some short speeches.”3 This letter, however, was written in June 60 BC, which poses a problem for the general chronology of translating the Phaenomena. Jean Soubiran, who edited the text, suggested three hypotheses: a) that the whole poem was translated in 89 BC b) that the whole poem was translated in 89 BC but in 60 BC the second part was revised c) that in 89 BC only the first part was translated, while the second part, the Diosemeia, was rendered only thirty years later in 60 BC.4 Whatever the case it is evident that by the year 60 BC Cicero was able to send a copy of his Prognostics and by the year 44 BC he incorporated fragment from it in his De divinatione.</p> 
+               <p>Of greater importance for the current study on the <term>Nachleben</term> of the work, however, is the way Cicero and later readers treated the two parts. Soubiran gave notice to the citations by Priscian, the Latin grammarian from the sixth century. In the latter Institutiones grammaticae he used verses from Cicero’s Aratea strictly distinguishing between the first part, referred to as “ad Arato”, and the second part referred to as “in Prognosticis”. As mentioned above, in some of the manuscripts of the Phaenomena there is a division between the two parts after v. 731. There is than the possibility that Cicero also possessed two scrolls of the poem, one for each part. It is possible then that also Cicero’s translation took the shape of two separate parts, if not even separate works, the transmission and survival of which was also individual. Consequently, the Prognostics of Cicero was lost some time after the sixth century. The six fragments from it to have survived are quotations from the already mentioned Institutiones grammaticae of Priscian and from Cicero’s De divinatione.</p> 
+               <p>In addition to that there are also 33 fragments covering 63 whole or partial verses from the first part of the poem. These are found in Cicero’s De natura deorum. </p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <biblStruct type="book" xml:id="zoteroItem_BWKSR22A" corresp="http://zotero.org/users/1642161/items/BWKSR22A">
+                  <monogr>
+                     <title level="m">Aratea. Fragments poétiques</title>
+                     <author/>
+                     <editor/>
+                     <imprint>
+                        <publisher>Les belles lettres</publisher>
+                        <date>1972</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Cicero1941" corresp="http://zotero.org/users/1642161/items/SE38WKIN">
+                  <monogr>
+                     <title level="m">Cicéron, Les Aratea</title>
+                     <author>
+                                <forename>Marcus Tullius</forename>
+                                <surname>Cicero</surname>
+                            </author>
+                     <editor>
+                                <forename>Victor</forename>
+                                <surname>Buescu</surname>
+                            </editor>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Les Belles Lettres</publisher>
+                        <date>1941</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Schaubach1818" corresp="http://zotero.org/users/1642161/items/C752GNID">
+                  <monogr>
+                     <title level="m">Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F.
+                        Avieni</title>
+                     <author>
+                                <forename>Johann Konrad</forename>
+                                <surname>Schaubach</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Meiningen</pubPlace>
+                        <publisher>Hartmann</publisher>
+                        <date>1818</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Cicero1963" corresp="http://zotero.org/users/1642161/items/X6AU6MBK">
+                  <monogr>
+                     <title level="m">M. Tullii Ciceronis Poetica fragmenta</title>
+                     <author>
+                                <forename>Marcus Tullius</forename>
+                                <surname>Cicero</surname>
+                            </author>
+                     <editor>
+                                <forename>Antonio</forename>
+                                <surname>Traglia</surname>
+                            </editor>
+                     <imprint>
+                        <pubPlace>Milan</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date>1963</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                            <title level="s">(Cicero: [Werke] Opera omia quae extant)</title>
+                        </series>
+               </biblStruct>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <biblStruct type="book" xml:id="Leuthold1942" corresp="http://zotero.org/users/1642161/items/BQ6GK3IB">
+                  <monogr>
+                     <title level="m">Die Übersetzung der Phaenomena durch Cicero und Germanicus</title>
+                     <author>
+                                <forename>Werner</forename>
+                                <surname>Leuthold</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Zürich</pubPlace>
+                        <publisher>Leemann</publisher>
+                        <date>1942</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Lewis1983" corresp="http://zotero.org/users/1642161/items/GKMZ42WW">
+                  <monogr>
+                     <title level="m">From Aratus to the Aratus Latinus: A Comparative Study of Latin
+                        Translation (Ph. D. dissertation)</title>
+                     <author>
+                                <forename>Anne-Marie</forename>
+                                <surname>Lewis</surname>
+                            </author>
+                     <imprint>
+                        <pubPlace>Hamilton</pubPlace>
+                        <publisher>McMaster university</publisher>
+                        <date>1983</date>
+                        <note type="url">http://hdl.handle.net/11375/14244</note>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Siebengartner2012" corresp="http://zotero.org/users/1642161/items/UZGPF9VC">
+                  <analytic>
+                     <title level="a">Stoically Seeing and Being Seen in Cicero's Aratea</title>
+                     <author>
+                                <forename>Andrew</forename>
+                                <surname>Siebengartner</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Greek into Latin from Antiquity until the Nineteenth Century. Warburg
+                        Institute colloquia, 18</title>
+                     <imprint>
+                        <pubPlace>London, Turin</pubPlace>
+                        <biblScope unit="page">97-116</biblScope>
+                        <publisher>Nino Aragno Editore</publisher>
+                        <date>2012</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Landolfi1990" corresp="http://zotero.org/users/1642161/items/9QKQ7K6D">
+                  <analytic>
+                     <title level="a">Cicerone, Arato E Il Mito Delle Età</title>
+                     <author>
+                                <forename>Luciano</forename>
+                                <surname>Landolfi</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Quaderni Urbinati Di Cultura Classica</title>
+                     <imprint>
+                        <biblScope unit="volume">34</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page">87-98</biblScope>
+                        <date>1990</date>
+                        <note type="url">http://www.jstor.org/stable/20547030</note>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Lewis1986" corresp="http://zotero.org/users/1642161/items/88EH3EEN">
+                  <analytic>
+                     <title level="a">Rearrangement of motif in Latin translation. The emergence of a Roman
+                        Phaenomena</title>
+                     <author>
+                                <forename>Anne-Marie</forename>
+                                <surname>Lewis</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Studies in Latin literature and Roman history 4</title>
+                     <editor>
+                                <forename>Carl</forename>
+                                <surname>Deroux</surname>
+                            </editor>
+                     <imprint>
+                        <pubPlace>Brussels</pubPlace>
+                        <biblScope unit="page">210-233</biblScope>
+                        <publisher>Latomus</publisher>
+                        <date>1986</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="Mantovanelli2013" corresp="http://zotero.org/users/1642161/items/DNJEMCXK">
+                  <monogr>
+                     <title level="m">Gli Aratea di Cicerone. Per un commento al proemio (frr. 1-2) e alla
+                        mappa delle costellazioni (frr. 3-34,222)</title>
+                     <author>
+                                <forename>Paolo</forename>
+                                <surname>Mantovanelli</surname>
+                            </author>
+                     <imprint>
+                        <publisher>Padova Digital University Archive</publisher>
+                        <date>2013</date>
+                        <note type="url">http://paduaresearch.cab.unipd.it/6062/</note>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Bing1993" corresp="http://zotero.org/users/1642161/items/5ACH52YE">
+                  <analytic>
+                     <title level="a">Aratus and his audiences</title>
+                     <author>
+                                <forename>Peter</forename>
+                                <surname>Bing</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Materiali e discussioni</title>
+                     <imprint>
+                        <biblScope unit="volume">31</biblScope>
+                        <biblScope unit="page">99-109</biblScope>
+                        <date>1993</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Büchner1939" corresp="http://zotero.org/users/1642161/items/VURB3M32">
+                  <analytic>
+                     <title level="a">M. Tullius Cicero (Fragmente)</title>
+                     <author>
+                                <forename>Karl</forename>
+                                <surname>Büchner</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Realencyclopädie der classischen Altertumswissenschaft</title>
+                     <imprint>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <biblScope unit="volume">VII A. I</biblScope>
+                        <biblScope unit="page">1236-1274</biblScope>
+                        <publisher>Druchenmüller</publisher>
+                        <date>1939</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Ferrari1940" corresp="http://zotero.org/users/1642161/items/DHDA5IXQ">
+                  <analytic>
+                     <title level="a">Cicerone e Arato</title>
+                     <author>
+                                <forename>Walter</forename>
+                                <surname>Ferrari</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Studi Italiani di Filologia Classica</title>
+                     <imprint>
+                        <biblScope unit="volume">17</biblScope>
+                        <biblScope unit="page">77-96</biblScope>
+                        <date>1940</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Gee2001" corresp="http://zotero.org/users/1642161/items/U44PUGPC">
+                  <analytic>
+                     <title level="a">Cicero's astronomy</title>
+                     <author>
+                                <forename>Emma</forename>
+                                <surname>Gee</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Classical Quarterly</title>
+                     <imprint>
+                        <biblScope unit="volume">51</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <biblScope unit="page">520-536</biblScope>
+                        <date>2001</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Gee2007" corresp="http://zotero.org/users/1642161/items/DDWF8HWU">
+                  <analytic>
+                     <title level="a">Quintus Cicero's astronomy</title>
+                     <author>
+                                <forename>Emma</forename>
+                                <surname>Gee</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Classical Quarterly</title>
+                     <imprint>
+                        <biblScope unit="volume">57</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <biblScope unit="page">565-585</biblScope>
+                        <date>2007</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Hübner2005" corresp="http://zotero.org/users/1642161/items/IXIA2TLH">
+                  <analytic>
+                     <title level="a">Die Rezeption der Phainomena Arats in der Lateinischen
+                        Literatur</title>
+                     <author>
+                                <forename>Wolfgang</forename>
+                                <surname>Hübner</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Wissensvermittlung in dichterischer Gestalt</title>
+                     <editor>
+                                <forename>Marietta</forename>
+                                <surname>Horster</surname>
+                            </editor>
+                     <editor>
+                                <forename>Christiane</forename>
+                                <surname>Reitz</surname>
+                            </editor>
+                     <edition>Steiner</edition>
+                     <imprint>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <biblScope unit="page">133-154</biblScope>
+                        <date>2005</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Hurka" corresp="http://zotero.org/users/1642161/items/Z3QE8ZLI">
+                  <analytic>
+                     <title level="a">Arat und Aratea</title>
+                     <author>
+                                <forename>Florian</forename>
+                                <surname>Hurka</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Der neue Pauly - Supplemente</title>
+                     <imprint>
+                        <biblScope unit="volume">7</biblScope>
+                        <!--  no publisher, publication date or place given  -->
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Knox2011" corresp="http://zotero.org/users/1642161/items/FG65YPIU">
+                  <analytic>
+                     <title level="a">Cicero as a Hellenistic poet</title>
+                     <author>
+                                <forename>Peter E.</forename>
+                                <surname>Knox</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Classical Quarterly</title>
+                     <imprint>
+                        <biblScope unit="volume">61</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page">192-204</biblScope>
+                        <date>2011</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="Lewis1985" corresp="http://zotero.org/users/1642161/items/I5LLRZGZ">
+                  <analytic>
+                     <title level="a">Aratus, Phaenomena 443-49: sound and meaning in a Greek model and its
+                        translations</title>
+                     <author>
+                                <forename>Anne-Marie</forename>
+                                <surname>Lewis</surname>
+                            </author>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Latomus</title>
+                     <imprint>
+                        <biblScope unit="volume">44</biblScope>
+                        <biblScope unit="page">805-810</biblScope>
+                        <date>1985</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <p/>
+         </div>
+      </body>
+  </text>
+</TEI>

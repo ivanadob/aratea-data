@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Description of Vienna, Österreichische Nationalbibliothek, Cod. 107</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="paris_bnf_13955" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Vienna</settlement>
+                    <repository>Österreichische Nationalbibliothek</repository>
+                    <idno>Cod. 107</idno>
+                </msIdentifier>
+                <head>
+                    <title/>
+                    <note type="caption"/>
+                    <origPlace ref="#"/>
+                    <origDate notBefore="" notAfter=""/>
+                </head>                
+            <msContents>
+                <msItem>
+                    <locus from="1r" to="8v">1r-8v</locus>
+                    <author ref="#avienus">Avienus</author>
+                    <title ref="#aratea_avienus">Aratea</title>
+                    <incipit>Rufi festi Arati incipit liber primus de positione syderum. Carminis incentor mihi iuppiter</incipit>
+                    <explicit>aggere deuicto supera<gap reason="illegible"/>
+                        </explicit>
+                    <note>no glosses; f. 1r. before v. 76 on the bears heading ‘ARCTOE’, ‘ENGONAIS’ BEFORE v. 169 and so on for each constellation then on f. 5v ‘PLANETAE’ and ‘CIRCULI’, on f. 8v ‘SOL’; a second hand wrote on part of f. 1v.;</note> 
+                    <filiation>Milan, Biblioteca Ambrosiana, Ms D 52 is a copy of this MS.</filiation>
+                </msItem>
+                
+                <msItem>
+                    <locus from="9r" to="14v">9r-14v</locus>
+                    <author ref="#lucretius">Lucretius</author>
+                    <note>Excerpts from<title ref="#de_rerum_natura">De natura rerum</title>
+                        </note>
+                    <msItem>
+                        <locus from="9r" to="11v">9r-11v</locus>
+                        <note>Book 2 (v. 642 till the end of the book)</note>
+                        <incipit>Ac uirtute uelint patriam defendere terram</incipit>
+                        <!--<explicit>ad capulum spatio aetatis defessa vetusto. CHECK</explicit>-->
+                        <finalRubric>Titi Lucretii Cari de rerum natura liber II explicit</finalRubric>
+                    </msItem>
+                    <msItem>
+                        <locus from="11v" to="14v">11v-14v</locus>
+                        <note>Book 3 (vv. 1-621)</note>
+                        <rubric>Incipit liber III</rubric>
+                        <!--<incipit>E tenebris tantis tam clarum extollere lumen CHECK</incipit>-->
+                        <explicit>membrorum numquam exitur praeposterus</explicit>
+                    </msItem>
+                    <msItem>
+                    <locus from="15r" to="18r">15r-18r</locus>
+                    <author>Lucretius</author>
+                    <note>Excerpts from<title>De natura rerum</title> (book VI vv. ... and II, vv. 756-805, then De cauda pauonis Mandatum ualidis aptum p[er] uis ceranerus/ nec facile exaestu nec frigore)</note>
+                    <incipit>____ remittunt/ ___ cadunt molli ceruice profusae</incipit> 
+                    <explicit>nam neque quo poscit genus ullum materia.</explicit>
+                Remarks: different hand, less angular; detached initial for verses; 55 lines in two columns; Book VI ends on 17v (missing last three verses); </msItem>
+                </msItem>                
+                
+                
+                <msItem>
+                    <locus from="18v" to="22v">18v-22v</locus>
+                    <author ref="#iuvenalis">Juvenal</author>
+                    <title ref="#satirae">Satyrae <note>1-5, v.96.</note>
+                        </title>
+                    <incipit>Semper ego auditor tantum numque reponam</incipit>
+                    <explicit/>
+                Explicit: [unreadable] left half of the second column blank
+                Remarks: left the most of 18v blank only 18 lines of the second column – the scribe knew how much space he would need; different hand
+                On 21r text of Iuvenal ‘sublimibus unde cerebrum/ testa ferit quotiens rimosa ..’ but at the bottom of the margin text : ..seqturferit hinc ubito ferteas .. dure’ – could it be that it was written before pages were cut and this is from another page?
+                Hard to imagine but...’</msItem>
+                
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                          <support>
+                              <p>
+                                    <material>Parchment</material>
+                                </p>
+                          </support>
+                          <extent>
+                              <measure type="leavesCount" quantity="22">22 fols.</measure>
+                              <dimensions type="leaf" unit="mm">
+                                  <height>270</height>
+                                  <width>200</width>
+                              </dimensions>
+                          </extent>
+                          <foliation/>
+                      <collation>
+                                <formula>I<hi rend="sup">8</hi> (ff. 1-8); II<hi rend="sup">6</hi> (ff. 9-14); III<hi rend="sup">8</hi> (ff. 15-22).</formula>
+                            </collation>
+                          <condition>
+                              <p>Probably lost a couple of leaves after f.8 with the rest of the poem (missing 297 vv = less than two folios if one column has 47vv-&gt; 1 folio = 188vv).</p>
+                          </condition>
+                  </supportDesc>
+                   <layoutDesc>
+                       <layout columns="2" writtenLines="47 55">
+                                <locus from="1r" to="8v">1r-8v</locus> written in two columns, 47-55 lines; initials for verses detached from the verse; texts occpupies almost the whole length of the page;</layout>
+                       <layout columns="2" writtenLines="47">
+                                <locus from="9r">9r-</locus> not the same layout although again in two columns, 47 lines; initials not detached from verses, but with capitals</layout>
+                  </layoutDesc>
+               </objectDesc>  
+                <handDesc>
+                    <handNote/>
+                </handDesc>
+                <scriptDesc>
+                    <scriptNote script="carolmin">Tiny caroline minuscule.</scriptNote>
+                </scriptDesc>
+                <bindingDesc>
+                    <binding>
+                        <p>Paper binding from 19th c.</p>
+                    </binding>
+                </bindingDesc>
+            </physDesc>
+            <history>
+                <origin>The two excerpts from Lucretius' text represent two parts from a codex discissus spread in three pars. The other part is the so-called<foreign>Schedae Gottorpienses</foreign> fragment with shelfmark <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241/eng">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> (see <bibl>Jörgensen, Ellen.<title>Catalogus codicum latinorum medii aevi Bibliothecae Regiae Hafniensis</title>. Hafniae: Gyldendal, 1926, p.301-2)</bibl>. It consists of a gathering of eight folia written in two columns and about 48 verses per page with the text of Book 1 (omitting vv. 734-85) and Book 2 (omitting vv. 253-304). According to Bischoff the script is from <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+                        </origDate>. The origin of the manuscript is less certain. Lehmann suggested that it was produced in <origPlace ref="#bobbio">Bobbio</origPlace>. Bischoff after first considering it as product of Southern Germany (<bibl>
+                            <title>Lorsch im Spiegel seiner Handschriften</title>, p. 74, No. 30</bibl>) later agreed with Lehmann's opinion (<bibl>
+                            <abbr>Bischoff, Katalog I</abbr>, p. 88</bibl> as well as in the second edition of <bibl>
+                            <title>Lorsch im Spiegel seiner Handschriften</title>, p. 80, No. 30.</bibl>. Munk Olsen follows this proposition. Due to the quite different script in the third part (ff. 15-22) there were still some doubts if this part too belonged to the codex discissus. Thinking it would have been to much of a coincedence that the poem was copied twice in the same period and both parts ended as part of one and the same codex in the National Library of Vienna deminishes these doubts (see <bibl>
+                            <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1</bibl>.</origin>
+                <provenance/>
+                <provenance>Salem, Zisterzienserkloster (?) [Trenkler, Lazius, 1978, 200]. - Wolfgang Lazius (Dr. med.; *1514; Uni. Wien; Mediziner, Historiograph, Humanist; +1565): Lazius-Signatur 'D' [Trenkler, Lazius, 1978, 200].</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Bischoff, Katalog I</abbr>, p. 411.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, Catalogue 2</abbr>, p. 88.</bibl>
+                   <bibl>
+                            <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1, 119, 120.</bibl>
+                  </listBibl>
+            </additional>
+         </msDesc>
+        </body>
+    </text>
+</TEI>
