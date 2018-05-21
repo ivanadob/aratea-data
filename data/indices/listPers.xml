@@ -1,7 +1,5 @@
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="edoc_ed000223_fg_personenregister"
-     xml:base="http://diglib.hab.de/edoc/ed000223/">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="edoc_ed000223_fg_personenregister" xml:base="http://diglib.hab.de/edoc/ed000223/">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -46,9 +44,7 @@
                         <persName xml:id="gnd_119017962" ref="http://d-nb.info/gnd/119017962">Astronomus</persName>
                     </person>
                     <person xml:id="augustinus_aurelius">
-                        <persName xml:id="gnd_118505114"
-                         ref="http://d-nb.info/gnd/118505114"
-                         xml:lang="lat">Augustinus, Aurelius</persName>
+                        <persName xml:id="gnd_118505114" ref="http://d-nb.info/gnd/118505114" xml:lang="lat">Augustinus, Aurelius</persName>
                         <persName>Augustine of Hippo</persName>
                     </person>
                     <person xml:id="ausonius">
@@ -61,9 +57,7 @@
                         <persName xml:id="gnd_119554852" ref="http://d-nb.info/gnd/119554852">Balbus</persName>
                     </person>
                      <person xml:id="bede">
-                         <persName xml:id="gnd_118508237"
-                         ref="http://d-nb.info/gnd/118508237"
-                         xml:lang="lat">Beda &lt;Venerabilis&gt;</persName>
+                         <persName xml:id="gnd_118508237" ref="http://d-nb.info/gnd/118508237" xml:lang="lat">Beda &lt;Venerabilis&gt;</persName>
                     </person>
                     <person xml:id="benzelius_erik">
                         <persName xml:id="gnd_120993627">Erik &lt;Benzelius&gt;</persName>
@@ -190,9 +184,7 @@
                         <persName xml:id="gnd_119288842">Isaac &lt;Vossius&gt;</persName>
                     </person>
                     <person xml:id="isidore">
-                        <persName xml:id="gnd_118555995"
-                         ref="http://d-nb.info/gnd/118555995"
-                         xml:lang="lat">Isidorus &lt;Hispalensis&gt;</persName>
+                        <persName xml:id="gnd_118555995" ref="http://d-nb.info/gnd/118555995" xml:lang="lat">Isidorus &lt;Hispalensis&gt;</persName>
                         <persName>Isidore of Seville</persName>
                     </person>
                     <person xml:id="iulius_frontinus">

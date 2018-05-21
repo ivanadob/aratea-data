@@ -1,16 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="altMs"
-                    target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">Brussels, Bibliothèque royale, MS 5413-22</ref>
+            <title type="sub">Description of<ref type="altMs" target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">Brussels, Bibliothèque royale, MS 5413-22</ref>
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>

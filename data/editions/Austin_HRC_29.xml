@@ -1,16 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="deu">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description<ref type="altMs"
-                    target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Austin, HRC MS 29</ref>
+            <title type="sub">Description<ref type="altMs" target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Austin, HRC MS 29</ref>
                 </title>
                 <respStmt>
                     <resp>cataloged by</resp>

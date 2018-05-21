@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,8 +27,7 @@
             </publisher>
             <date when="2016-03-03" type="issued">03.03.2016</date>
             <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/"
-                        notBefore="2013-03-01">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/" notBefore="2013-03-01">
                   <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
                </licence>
             </availability>
@@ -421,9 +422,7 @@
                   <add>o</add>
                </corr>s cum prima sua porcione· <note place="margin">xii·</note>Geminis orienti
                <lb break="no"/>bus oritur fluuius cetus incolo Occidit autem serpenta
-               <pb n="3v"
-                   break="no"
-                   facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item"/>
+               <pb n="3v" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item"/>
                <lb break="no"/>rius usque ad genucula· Quae cumque oport&amp; in spera
                <lb/>intuere ut dictum est hec sunt Sequenter &amp; terra est in sphe<lb/>re modum habens medio axem positam que contin&amp; eam
                <lb/>inmobilem habens fines indiuisos in aquilonio polo &amp; fa
@@ -504,9 +503,7 @@
                <lb/>in alia mittere tibi prouenit· Hec que uidentur arati
                <lb/>dirigere &amp; meam conscientiam umquam de <add place="above">h</add>ac directione
                <lb/>traditam exemplum uero utens meum signis quoque &amp; in
-               <pb n="4v"
-                   break="no"
-                   facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f9.item"/>
+               <pb n="4v" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f9.item"/>
                <lb break="no"/>dicus de sex centesimo &amp; duplo &amp; utrum &amp; stellantium paui
                <lb break="no"/>mento scriptum autem si uideris uersum minis positum aliquot
                <lb/>de quibus predictum est Signorum &amp; sub paginem hoc infron
@@ -619,9 +616,7 @@
                <lb break="no"/>tus fecit Incipiens a septentrione &amp; percircuens
                <lb/>totum orientem in circuitu usque ad signalem· Inde quo
                <lb break="no"/>que transiens &amp; incipiens ab orione pro eo quod splendi
-               <pb n="6r"
-                   break="no"
-                   facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f10.item"/>
+               <pb n="6r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f10.item"/>
                <lb break="no"/>dus hic <add place="above">a</add> solare fauoni<corr>
                   <del>u</del>
                   <add place="above">a</add>
@@ -899,9 +894,7 @@
                <lb/>cum sit pedes ponit super dorsum agitatoris equo con
                <lb break="no"/>nexus andromede caput tenens Ipsum autem aequum ute
                <lb break="no"/>ros cani stella Inter cignum quidem &amp; ipsum inge
-               <pb n="10r"
-                   break="no"
-                   facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f14.item"/>
+               <pb n="10r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f14.item"/>
                <lb break="no"/>niculum lyra constituitur in medio eorum· Item ad 
                <lb/>orientem quoque delfinus adest equi autem caput 
                <lb/>iuxta extollitur desuper aquarius capricornium ten&amp; 
@@ -1047,9 +1040,7 @@
                <lb/>conuertit in tempestatem inuolucio a terra aquarum spargit 
                <lb/>decursus demonstrant tempora yemis tempestatum naturam 
                <lb/>hic duplicia utitur temporum curricula uentorum ha
-               <pb n="12r"
-                   break="no"
-                   facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f16.item"/>
+               <pb n="12r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f16.item"/>
                <lb break="no"/>bentes ordinem innumerabilem quorum priora iup
                <lb break="no"/>piter a sole mensis condidit mars uero &amp; honorifica 
                <lb/>
@@ -1239,9 +1230,7 @@
                <lb/>ad orientem adiac&amp; ad summum habens pisces sortes
                <lb/>xvii Item aquilonium duobus quibus innumuro
                <lb/>distat aquilonio polo sortes <num value="40">xl</num> restant equinocti
-               <pb n="14r"
-                      break="no"
-                      facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f18.item"/>
+               <pb n="14r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f18.item"/>
                   <lb break="no"/>ales australis quoque est qui in cauda reliqui uero
                <lb/>duo nominantur circenses eo quod in circuitu per ambu
                <lb/>lent</p>
@@ -2031,9 +2020,7 @@
                <lb break="no"/>fecit omnes cicinos qui iouis fulmen furauerant quos
                <lb/>interimit per asclipium quem &amp; abscondidit ad a
                <lb break="no"/>quilonem &amp; quando cessabit tunc &amp; iaculum adsum
-               <pb n="28v"
-                      break="no"
-                      facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f33.item"/>
+               <pb n="28v" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f33.item"/>
                   <lb break="no"/>tum est cum frutiferam cecerem erat autem super magni
                <lb break="no"/>tudine herculis pontici in quo propter iusticia &amp; in hoc grauiter
                <lb/>aliquid ferebat uenturum Unde memorialem de sua li
@@ -2156,9 +2143,7 @@
                   </subst>tus uidendus nisi erga uteri summitatem
                <lb/>canicularis circumciditur stella quam uocant homi
                <lb break="no"/>nes sirium sirius quoque apellata propter flamme can
-               <pb n="31r"
-                      break="no"
-                      facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f35.item"/>
+               <pb n="31r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f35.item"/>
                   <lb break="no"/>dorem &amp; eo quod pre ceteris lucere uideatur Hec cum
                <lb/>orta fuerit ardore nimio caloris mundum· incen
                <lb break="no"/>dit &amp; fructus exurit morboque corpora affli
@@ -2192,9 +2177,7 @@
                <lb/>rora propter flamme motum aspicitur:, tales enim
                <lb/>stellas astrologi sirios uocant alii quippe dicunt
                <lb/>eum de orione fieri &amp; circa bestias factum consequi
-               <pb n="31v"
-                      break="no"
-                      facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f36.item"/>
+               <pb n="31v" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f36.item"/>
                   <lb break="no"/>re sicut hii qui uenationem exercent omnibus ani
                <lb break="no"/>malibus concordant &amp; bestiis assumere quidem illum
                <lb/>inter astra secundum orionis assumptionem &amp; hoc quiasi fac
@@ -2229,9 +2212,7 @@
                   <rs type="person">aristotelis filosophus</rs> de animalium racione simili mo
                <lb break="no"/>do quidem &amp; <rs type="person">arhelaus</rs> in suis uoluminibus ita ma
                <lb break="no"/>nifestat <milestone unit="section"/>hab&amp; autem stellas per singulas aures <num value="1">unam</num> in cor
-               <pb n="32r"
-                      break="no"
-                      facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f36.item"/>
+               <pb n="32r" break="no" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721144c/f36.item"/>
                   <lb break="no"/>pore <num value="2">ii</num> in spino <num value="1">i</num> nitidam in alterutris pedibus retror
                <lb break="no"/>sis <num value="1">unam</num> omnes <num value="7">septem</num>
                </p>

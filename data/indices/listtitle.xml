@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <work xml:id="abbo_sentenia">
@@ -323,8 +324,7 @@
         <author ref="#cassiodorus">Cassiodor</author>
         <title>Institutiones</title>
     </work>
-    <work xml:id="de_mensura_astrolabi"
-         ref="http://www.geschichtsquellen.de/repOpus_02709.html">
+    <work xml:id="de_mensura_astrolabi" ref="http://www.geschichtsquellen.de/repOpus_02709.html">
         <author ref="#hermannus_contractus">Hermannus Contractus</author>
         <title>De mensura astrolabi</title>
         <bibl>
@@ -496,8 +496,7 @@
         <incipit>Ad ioue principium magno deduxit aratus</incipit>
         <explicit>Haec eadem tibi signa dabunt non inrita pisces.</explicit>
     </work>
-    <work xml:id="filocalus_calendar"
-         ref="https://en.wikipedia.org/wiki/Chronography_of_354">
+    <work xml:id="filocalus_calendar" ref="https://en.wikipedia.org/wiki/Chronography_of_354">
         <title>Filocalus calendar</title>
         <bibl>Divjak, Johannes und Wolfgang Wischmeyer (Eds.): <title>Das Kalenderhandbuch von 354 - Der Chronograph des Filocalus</title>. 2 Vols. Vienna: Holzhausen, 2014.<ptr target="http://www.oapen.org/search?identifier=512258"/>
       </bibl>
@@ -572,8 +571,7 @@
         <bibl>
          <abbr>PL</abbr>, 50, 773A-822D.</bibl>
     </work>
-    <work xml:id="in_vergilii_carmina_commentarii"
-         ref="http://d-nb.info/gnd/4138843-4">
+    <work xml:id="in_vergilii_carmina_commentarii" ref="http://d-nb.info/gnd/4138843-4">
         <author ref="#servius">Servius</author>
         <title>In Vergilii carmina commentarii</title>
         <bibl>digilibLT<ptr target="http://digiliblt.lett.unipmn.it/xtf/view?query=;brand=default;docId=dlt000469/dlt000469.xml;"/>

@@ -1,8 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -118,9 +115,7 @@
                   <bibl>Wormald, F.<title>English Drawings in the Tenth and Eleventh Centuries</title>. London: , 1952, p. 64.</bibl>
                </listBibl>
                <listBibl>
-                  <biblStruct type="journalArticle"
-                              xml:id="zoteroItem_ZRFNZA3U"
-                              corresp="http://zotero.org/users/1642161/items/ZRFNZA3U">
+                  <biblStruct type="journalArticle" xml:id="zoteroItem_ZRFNZA3U" corresp="http://zotero.org/users/1642161/items/ZRFNZA3U">
                      <analytic>
                         <title level="a">Notes on Cambridge Manuscripts. Part II</title>
                         <author>
@@ -138,9 +133,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Ker1941"
-                              corresp="http://zotero.org/users/1642161/items/KMKT29ZE">
+                  <biblStruct type="book" xml:id="Ker1941" corresp="http://zotero.org/users/1642161/items/KMKT29ZE">
                      <monogr>
                         <title level="m">Medieval libraries of Great Britain: a list of surviving books</title>
                         <title type="short">Medieval libraries of Great Britain</title>
@@ -155,9 +148,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Gneuss2001"
-                              corresp="http://zotero.org/users/1642161/items/X9BIX3TG">
+                  <biblStruct type="book" xml:id="Gneuss2001" corresp="http://zotero.org/users/1642161/items/X9BIX3TG">
                      <monogr>
                         <title level="m">Handlist of Anglo-Saxon manuscripts: a list of manuscripts and manuscript fragments ; written or owned in England up to 1100</title>
                         <title type="short">Handlist of Anglo-Saxon manuscripts</title>
@@ -173,9 +164,7 @@
                      </monogr>
                      <idno type="ISBN">978-0-86698-283-2</idno>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Keynes1992"
-                              corresp="http://zotero.org/users/1642161/items/2PXRGUPX">
+                  <biblStruct type="book" xml:id="Keynes1992" corresp="http://zotero.org/users/1642161/items/2PXRGUPX">
                      <monogr>
                         <title level="m">Anglo-Saxon manuscripts: and other items of related interest in the library of Trinity College, Cambridge</title>
                         <title type="short">Anglo-Saxon manuscripts</title>
@@ -190,9 +179,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Robinson1988"
-                              corresp="http://zotero.org/users/1642161/items/3VJV6WJG">
+                  <biblStruct type="book" xml:id="Robinson1988" corresp="http://zotero.org/users/1642161/items/3VJV6WJG">
                      <monogr>
                         <title level="m">Catalogue of dated and datable manuscripts c. 737 - 1600 in Cambridge libraries</title>
                         <author>
@@ -207,9 +194,7 @@
                      </monogr>
                      <idno type="ISBN">978-0-85991-249-5</idno>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Ker1957"
-                              corresp="http://zotero.org/users/1642161/items/735RWJ2R">
+                  <biblStruct type="book" xml:id="Ker1957" corresp="http://zotero.org/users/1642161/items/735RWJ2R">
                      <monogr>
                         <title level="m">Catalogue of manuscripts containing Anglo-Saxon</title>
                         <author>
@@ -223,9 +208,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="journalArticle"
-                              xml:id="Eastwood1997"
-                              corresp="http://zotero.org/users/1642161/items/7FV6Z4M4">
+                  <biblStruct type="journalArticle" xml:id="Eastwood1997" corresp="http://zotero.org/users/1642161/items/7FV6Z4M4">
                      <analytic>
                         <title level="a">Astronomy in Christian Latin Europe c.500-c.1150</title>
                         <author>
@@ -243,9 +226,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="bookSection"
-                              xml:id="McGurk1983"
-                              corresp="http://zotero.org/users/1642161/items/H9WIPRHA">
+                  <biblStruct type="bookSection" xml:id="McGurk1983" corresp="http://zotero.org/users/1642161/items/H9WIPRHA">
                      <analytic>
                         <title level="a">The Astronomical Section</title>
                         <author>
@@ -267,9 +248,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="journalArticle"
-                              xml:id="van_de_Vyver1935"
-                              corresp="http://zotero.org/users/1642161/items/79ZRPFGV">
+                  <biblStruct type="journalArticle" xml:id="van_de_Vyver1935" corresp="http://zotero.org/users/1642161/items/79ZRPFGV">
                      <analytic>
                         <title level="a">Les oeuvres inédites d'Abbon de Fleury</title>
                         <author>
@@ -286,9 +265,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Chardonnens2007"
-                              corresp="http://zotero.org/users/1642161/items/BWTFKQ7V">
+                  <biblStruct type="book" xml:id="Chardonnens2007" corresp="http://zotero.org/users/1642161/items/BWTFKQ7V">
                      <monogr>
                         <title level="m">Anglo-Saxon prognostics: 900-1100 ; study and texts</title>
                         <title type="short">Anglo-Saxon prognostics</title>
@@ -304,9 +281,7 @@
                      </monogr>
                      <idno type="ISBN">978-90-04-15829-0</idno>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Rushforth2008"
-                              corresp="http://zotero.org/users/1642161/items/W5RK3QRP">
+                  <biblStruct type="book" xml:id="Rushforth2008" corresp="http://zotero.org/users/1642161/items/W5RK3QRP">
                      <monogr>
                         <title level="m">Saints in English kalendars before A.D. 1100</title>
                         <author>
@@ -321,9 +296,7 @@
                      </monogr>
                      <idno type="ISBN">978-1-870252-23-2</idno>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Obrist2004"
-                              corresp="http://zotero.org/users/1642161/items/K6Z4R7KV">
+                  <biblStruct type="book" xml:id="Obrist2004" corresp="http://zotero.org/users/1642161/items/K6Z4R7KV">
                      <monogr>
                         <title level="m">Abbon de Fleury: philosophie, science et comput autour de l'an mil</title>
                         <author>
@@ -337,9 +310,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Morgan2013"
-                              corresp="http://zotero.org/users/1642161/items/46GUKCMB">
+                  <biblStruct type="book" xml:id="Morgan2013" corresp="http://zotero.org/users/1642161/items/46GUKCMB">
                      <monogr>
                         <title level="m">Illuminated manuscripts in Cambridge : a catalogue of western book illumination in the Fitzwilliam Museum and the the Cambridge colleges. Part 4, The British Isles</title>
                         <editor>
@@ -359,9 +330,7 @@
                      </monogr>
                      <idno type="ISBN">978-1-909400-04-7</idno>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Barker-Benfield2008"
-                              corresp="http://zotero.org/users/1642161/items/EJNADV4H">
+                  <biblStruct type="book" xml:id="Barker-Benfield2008" corresp="http://zotero.org/users/1642161/items/EJNADV4H">
                      <monogr>
                         <title level="m">St Augustine's Abbey, Canterbury</title>
                         <author>
@@ -389,9 +358,7 @@
                             </series>
                      <idno type="ISBN">978-0-7123-0931-8 978-0-7123-4987-1</idno>
                   </biblStruct>
-                  <biblStruct type="bookSection"
-                              xml:id="Thomson1985"
-                              corresp="http://zotero.org/users/1642161/items/JZXET2IW">
+                  <biblStruct type="bookSection" xml:id="Thomson1985" corresp="http://zotero.org/users/1642161/items/JZXET2IW">
                      <analytic>
                         <title level="a">Two Astronomical Tractates of Abbo of Fleury</title>
                         <author>
@@ -417,9 +384,7 @@
                         </imprint>
                      </monogr>
                   </biblStruct>
-                  <biblStruct type="book"
-                              xml:id="Wormald1988"
-                              corresp="http://zotero.org/users/1642161/items/4USQA2WH">
+                  <biblStruct type="book" xml:id="Wormald1988" corresp="http://zotero.org/users/1642161/items/4USQA2WH">
                      <monogr>
                         <title level="m">English Kalendars before A.D. 1100</title>
                         <editor>

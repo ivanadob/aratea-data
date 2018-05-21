@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -472,7 +474,8 @@
                             <note>Identified by A. Kaffarnik (Querela magistri Treverensis, p. 328) as Dicta V (Quomodo quidquid sit) and VI (Quid sit substantia) from <title>Dicta Candidi de imagine Dei</title> of Candidus from Fulda. These are followed by three lines of unidentified addition: <quote>Omnis res significat substantiam aut acidens <gap/> si dico albus aut niger qualitatem significo</quote>. These lines are transcribed by Piper.</note>
                             <bibl>Ed. P. Piper Die Schriften Notkers I, 1882, S. L-LI.</bibl>
                             <bibl>
-                           <note>On Candidus and the <title>Dicta</title>see </note>J. Marenbon, From the Circle of Alcuin to the School of Auxerre: Logic, Theology and Philosophy in the Early Middle Ages (Cambridge: Cambridge University Press, 2006), 43. <!--<quote>.. probable origin.. before 791.. Alcuin wrote his <q>dicta</q>. Candidus then wrote his dicta as an extension of his master's thought; and the other passages were composed at roughly the same time, in the same milieu, probably by Candidus himself..</quote>--></bibl>
+                           <note>On Candidus and the <title>Dicta</title>see </note>J. Marenbon, From the Circle of Alcuin to the School of Auxerre: Logic, Theology and Philosophy in the Early Middle Ages (Cambridge: Cambridge University Press, 2006), 43. <!--<quote>.. probable origin.. before 791.. Alcuin wrote his <q>dicta</q>. Candidus then wrote his dicta as an extension of his master's thought; and the other passages were composed at roughly the same time, in the same milieu, probably by Candidus himself..</quote>-->
+                                </bibl>
                             <bibl>B. (Barthélemy) Hauréau, Histoire de la philosophie scolastique, (Paris, Durand et Pedone-Lauriel, 1872), 135-6. <ptr target="https://archive.org/details/histoiredelaphi01haurgoog"/>
                         </bibl>
                             <bibl>C. E. Ineichen-Eder, Theologisches und philosophisches Lehrmaterial aus dem Alkuinkreise, in: Deutsches Archiv für Erforschung des Mittelalters 34 (1978): 192-201. <ptr target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858735_0034%7Clog17"/>
