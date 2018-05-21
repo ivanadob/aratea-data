@@ -1,0 +1,341 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+     xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Description of Paris, BnF, n.a.l. 176</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>TO BE CHECKED AGAINST MICROFILM OR MANUSCRIPT</p>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+                <change who="" date=""></change>
+            </revisionDesc>
+        -->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="paris-n-a-l-176" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Paris</settlement>
+                    <repository>BnF</repository>
+                    <collection>n.a.l.</collection>
+                    <idno>176</idno>
+                </msIdentifier>
+                <head>
+                    <title>Aratus Latinus. Theorica planetarum</title>
+                    <origPlace ref="#"/>
+                    <origDate notBefore="" notAfter="">
+                        <hi rend="sup"/>
+                    </origDate>
+                </head>
+                <msContents>
+                    <textLang mainLang="lat"/>
+                    <msItem>
+                        <locus from="1r" to="41v">1ra-41vb</locus>
+                        <author ref="#" rend="attributed">Gerardus Cremonensis</author>
+                        <author ref="#" rend="supplied">Campanus de Novara</author>
+                        <title>Theorica planetarum</title>
+                        <incipit>Primus philosophie magister primum ipsius negocium</incipit>
+                        <explicit>per isto mensium facile invenies quem adde mercurio supra docuimus.</explicit>
+                                          
+                    </msItem>
+                    <msItem>
+                        <locus from="42r" to="47r">42r-47rb</locus>
+                        <author ref="#" rend="attributed">Gerardus Cremonensis</author>
+                        <author ref="#" rend="supplied">Campanus de Novara</author>
+                        <title>Theorica planetarum</title>
+                        <incipit>Incipit theorica planetarum magistri gerardi cremonensis</incipit>
+                        <explicit>planete et non corporaliter.</explicit>
+                    </msItem>    
+                    <msItem>
+                        <locus from="47rb" to="50r">47rb-50r</locus>
+                        <author ref="#">Thabit ibn Qurra</author>
+                        <title>In motu accessionis et recessionis 8e spere</title>
+                        <rubric>Tebith ben corath in motu accessionis et recessionis 8e spere</rubric>
+                        <incipit>Imaginabor speram equatoris diei et circulos</incipit>
+                        <explicit>
+                            <note>
+                                <locus from="49v">49vb</locus>: </note>Hec est tabula motus accessus et recessus medii motus capitis arietis et libre in 2 circulis.</explicit>
+                        <note>Glosses in the margin</note>
+                        <msItem>
+                            <locus from="49v" to="50r">49v-50r</locus>
+                            <note>Tabula motus accessus et recessus medii motus capitis arietis et libra in 2 circulis</note>
+                            <incipit/>
+                        </msItem>                     
+                    </msItem>
+                    <msItem>
+                        <locus from="50v">50v</locus>
+                        <note>blank</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="65r" to="66r">65ra-66ra</locus>
+                        <author ref="#" rend="attributet">Aratus</author>
+                        <title>Excerptum de astrologia Arati</title>
+                        <rubric>Incipit liber Arati de ymaginibus celi et ordine earum constellatione</rubric>
+                        <incipit>
+                            <add>D</add>uo sunt extremi uertices mundi</incipit>
+                        <explicit>Usque decurrit accipiens.</explicit>                                          
+                    </msItem>
+                    <msItem>
+                        <locus from="66r" to="72r">66ra-72ra</locus>
+                        <title>De ordine ac positione stellarum in <unclear>sisius</unclear> signis</title>
+                        <incipit>
+                            <add>E</add>st quidem hic ordo et posicio syderum</incipit>
+                        <explicit>Anticanus habet stellas iii.</explicit>
+                        <decoNote>Blank space left for illustrations within the column. Initials missing.</decoNote>
+                    </msItem> 
+                    <msItem>
+                        <locus from="72v">72v</locus>
+                        <note>blank.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="73r" to="75v">73ra-75v</locus>
+                        <title>Excerpt from RAL on <rs ref="#planetae">planets</rs>, <rs ref="#lacteus_circulus">milky way</rs> and on the <rs ref="#zodiacus_circulus">zodiac</rs>
+                        </title>
+                        <rubric>Quedam dicta Ysidori de planetis</rubric>
+                        <incipit>
+                            <add>C</add>um sole et luna septem astra numerantur qui non sunt fixa in celo ut cetera sydera</incipit>
+                        <note>Blank space left presumably for drawing of the circles, once before section of Lacteus circulus, then once more before Zodiacus</note>
+                        <explicit/>
+                        <msItem>
+                            <locus from="74v" to="75r">74va-75ra </locus>
+                            <note>RAL, section about <rs ref="luna">luna</rs>
+                            </note>
+                            <incipit>Luna terria in <unclear>amor</unclear> est quam sol: siue cetera errantia sydera </incipit>
+                            <explicit>Luna cum duobus equis et duabus <gap/> pingitur unde et dicitur bigas</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="75r" to="75v">75rb-75vb</locus>
+                            <note>RAL, section about <rs ref="sol">sol</rs>
+                            </note>
+                            <incipit>
+                                <add>S</add>olem per se ipsem moueri non cum mundo uerti</incipit>
+                            <explicit>Quadriga solis cum IIIor equis et IIIor rotis <unclear>pingiyut</unclear>.</explicit>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="75v" to="76r">75vb-76r</locus>
+                        <title ref="#arati_genus">Arati genus</title>
+                        <incipit>
+                            <add>A</add>ratus patris quidem est athinodorus filium</incipit>
+                        <explicit>mathematice repperituus illum ey supra</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="76r" to="76v">76rb-76vr</locus>
+                        <title ref="#de_coeli_positione">De celi posicione</title>
+                        <incipit>
+                            <add>C</add>aelum circulis quinque distinguitur quorum duo extremi maxime frigidi</incipit>
+                        <explicit>Duo solsticiali capricornus et cancer tropicis maxima solida ante posita his deforma.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="76v" to="77v">76vb-77va</locus>
+                        <title ref="#de_stellis_fixis">De stellis</title>
+                        <incipit>
+                            <add>Stellarum alie cum celo feruntur ideoque quod non excedunt suos locos</add>
+                        </incipit>
+                        <explicit>Plus die possit sol saturnus iupiter mercurius uarie et <unclear>quomodo</unclear> consentit aut visus est.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="77v" to="78r">77va-78ra</locus>
+                        <title ref="#involutio_spherae">De ordinatione stellatum</title>
+                        <incipit>
+                            <add>H</add>ic est stellarum ordo utrorumque circulorum</incipit>
+                        <explicit>Communem habet stellam</explicit>
+                        <msItem>
+                            <locus from="78r">78ra-b</locus>
+                            <incipit>Porro duodecim signorum ordo hic est</incipit>
+                            <explicit>sol uenus mercurius luna.</explicit>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="78r" to="80r">78rb-80rb</locus>
+                       <title ref="#arati_ea_quae_uidentur">RAL, I. Arati ea quae videntur.</title>
+                        <rubric>Arati aliter excerptus</rubric>
+                        <incipit>Arati ea que uidentur ostensionem quoque de quibus uidentur</incipit>
+                        <explicit>Aries Taurus Gemini</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="80r" to="81r">80rb-81rb</locus>
+                        <note>RAL, III. Isagoge.</note>
+                        <incipit>quibus arati uidentur quedam sunt secundum celi stellarum</incipit>
+                        <explicit>quia simili modo in ipsum suggesserunt</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="81r" to="82r">81rb-82rb</locus>
+                        <note>RAL, I.2. Alia descriptio</note>
+                        <incipit>Subtus terra firmant</incipit>
+                        <explicit>piscis coetus orion</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="82r" to="82v">82rb-82va</locus>
+                        <note>RAL, IV. Descriptio duorum semispheriorum.</note>
+                        <rubric>Discretio duum semisperiorum est liber arati cum dictis poetarum comentia conpilatus expositus</rubric>
+                        <incipit>
+                            <add>H</add>aber autem pondus totum</incipit>
+                        <explicit>medio iacet duobus semisperus.</explicit>
+                        <explicit/>
+                    </msItem>
+                    <msItem>
+                        <locus from="82v" to="88r">82va-88rb</locus>
+                        <note>RAL, VIII. Phaenomena.</note>
+                        <rubric>De polis p<unclear>rimum</unclear> de maiori arcturo</rubric>
+                        <incipit>
+                            <add>V</add>ertices extremos circa quos spera celi uoluitur</incipit>
+                        <explicit>habet quidem stellas iii.</explicit>
+                        <note>Space left for initials. The text is divided in section according to the constellations with rubricated headings for each.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="82r" to="90r">82rb-90ra</locus>
+                        <note>Excerpts from Pliny. Written by a differen hand.</note>
+                        <msItem>
+                            <locus from="82r" to="88v">82rb-88vb</locus>
+                            <rubric>De posicione et cursu planetarum</rubric>
+                            <incipit>
+                                <add>I</add>nter celum et terram certis discreta spaciis</incipit>
+                            <explicit>Ad easdem uices exit.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="88v">88vb</locus>
+                            <rubric>De interualiis planetarum</rubric>
+                            <incipit>
+                                <add>I</add>nterualla earum a terra multi indagare</incipit>
+                            <explicit>quam diapasum armoniam uocant.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="88v" to="89v">88vb-89va</locus>
+                           <title>De absidibus planetarum</title>
+                            <rubric>De absidibus planetarum</rubric>
+                            <incipit>
+                                <add>T</add>res autem quas supra solem</incipit>
+                            <explicit>ut subiecta figura demonstrat.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="89v">89va</locus>
+                            <incipit>ina autem magnitudinis suas et colores mutant</incipit>
+                            <explicit>saturni duabus ut sol.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="89v" to="90r">89va-90ra</locus>
+                            <title/>
+                            <incipit>
+                                <add>T</add>res superiores exortu matutino</incipit>
+                            <explicit>Martis maxime inobseruabilis est cursus.</explicit>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="90r"/>
+                        <quote>
+                            <gap/> sapiencia a domino do est et cum illo fuit semper et est an euum. Altitudinem et latitudinem terre et profundum an illi quis <gap/> est hrenam maris et pluuie guttas dies <gap/> omnia ipsi honor et gloria in secula seculorum amen.</quote>
+                        <quote>Quis enim cognovit sensum domini aut quis consiliarius eius fuit aut quis primo dedit illi et retribuetur ei. Quoniam ex ipso et per ipsum et in ipso sunt omnia ipsi honor et gloria in secula seculorum amen. Ego benedictus de nursia.</quote>
+                        <explicit/>
+                    </msItem>
+                </msContents>
+                 
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount"> </measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height/>
+                                    <width/>
+                                </dimensions>
+                            </extent>
+                            <foliation>ff. 1-50 and 65-90.</foliation>
+                            <collation>
+                                <formula/>
+                            </collation>
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="2" ruledLines="30 31">
+                                <p/>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <handDesc n="2">
+                        <handNote scribe="a">ff. 1r-50r</handNote>
+                        <handNote scribe="b">ff. 65r-72r</handNote>
+                    </handDesc>
+                    <scriptDesc>
+                        <summary/>
+                        <scriptNote script="carolmin">
+                            <p/>
+                        </scriptNote>                     
+                    </scriptDesc>                                      
+                    <musicNotation/>
+                    <decoDesc>
+                        <decoNote/>
+                    </decoDesc>
+                    <additions/>
+                    <bindingDesc>
+                        <binding>
+                            <p/>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary/>
+                    <origin>
+                        <p/>
+                    </origin>
+                    <provenance>
+                        <p/>
+                    </provenance>
+                    <acquisition>
+                        <p/>
+                    </acquisition>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                       <bibl>Jordanus entry<ptr target="http://ptolemaeus.badw.de/jordanus/ms/5513#0_6"/>.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno/>
+                    </msIdentifier>
+                    <head/>
+                    <msContents/>
+                    <physDesc/>
+                    <history/>
+                </msPart>
+               </msDesc>
+        </body>
+    </text>
+</TEI>

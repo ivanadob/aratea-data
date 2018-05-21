@@ -1,0 +1,172 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+     xml:lang="deu">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Description of </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                    <!--<ptr target=""/>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>           
+        <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="klosterneuburg_685" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Klosterneuburg</settlement>
+                    <repository>Stiftsbibliothek</repository>
+                    <collection/>
+                    <idno>685</idno>
+                </msIdentifier>
+                <head>
+                    <title>Bede works on nature</title>
+                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#corvey"/>
+                    <origDate notBefore="1201" notAfter="1250">s. XIII<hi rend="sup">1</hi>
+                    </origDate>
+                </head>
+                <msContents>
+                    <textLang mainLang="lat" otherLangs=""/>
+                    <msItem>
+                        <locus from="1v" to="8v">1v-8v</locus>
+                        <author>Bede</author>
+                        <title>De natura rerum</title>
+                        <rubric>Incipit expositio de natura rerum. I.</rubric>
+                        <incipit>Operatio diuina que secula creauit et gubernat</incipit>
+                    </msItem>
+                    <msItem>
+                        <locus from="8v" to="13r">8v-13r</locus>
+                        <author>Bede</author>
+                        <title>De temporibus</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="14r">14r</locus>
+                        <note>two chapters on the planets and on the zodiac excerpted from???</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="14v" to="64v">14v-64v</locus>
+                        <author>Bede</author>
+                        <title>De temporum ratione</title>
+                        <msItem>
+                            <locus from="14v" to="15v">14v-15v</locus>
+                            <note>Capitula.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="15v">15v</locus>
+                            <rubric>Incipit liber de temporibus. De computo uel loquela digitorum.</rubric>
+                            <incipit>De temporum ratione domino adiuuante dicturi necessarium</incipit>
+                            <incipit/>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="64v" to="88r">64v-88r</locus>
+                        <author>Ps. Bede</author>
+                        <title>De signis (?)</title>
+                        <msItem>
+                            <locus from="71r">71r</locus>
+                            <incipit>Quinam tamen multa dicunt et alii aliter narrasse celum diuersis proferentes uocabulis sed ipse magis axe continetur quam se continui indemetipso reuoluitur. Habet autem undique inponderata per medium terre in circuitum celi equalem deductum</incipit>
+                        </msItem>
+                    </msItem>			
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount"> </measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height/>
+                                    <width/>
+                                </dimensions>
+                            </extent>
+                            <foliation/>
+                            <collation>
+                                <formula/>
+                            </collation>
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1">
+                                <p/>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <summary/>
+                        <scriptNote script="carolmin">
+                            <p/>
+                        </scriptNote>                     
+                    </scriptDesc>                                      
+                    <musicNotation/>
+                    <decoDesc>
+                        <decoNote>Pendrawings in red and violet ink. On <locus from="70v"> f. 70v</locus> three rota-diagrams on of the terrestria zones, one stating the circumference of earth, and another combining zodiacal signs, months, elements and their qualities, and the path of the sun. (image<ptr target="http://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_70v.jpg"/>) Illustrations of the constellations on <locus from="71r" to="83v">ff. 71r-83v</locus>; portraits of the planets on <locus from="84r">f. 84r</locus>; Zodiacal circle with full figures of Sol and Luna in the middle on <locus from="86r"> f. 86r</locus>; medalion of Sol in quadriga on <locus from="86v">f. 86v</locus> and medalion of Luna in biga on <locus from="88r">f. 88r</locus>.</decoNote>
+                    </decoDesc>
+                    <additions/>
+                    <bindingDesc>
+                        <binding>
+                            <p/>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary/>
+                    <origin>
+                        <p>The manuscript cannot to be found in any of the monastery catalogues from the 12-14th c. A. Haidinger, in <bibl>Sehnsucht nach der Antike, ed. Huber Wolfgang, pp. 66-67</bibl> however found palaeographical similarities between this manuscript and other written in Klosterneuburg, as for example MS 20.</p>
+                    </origin>
+                    <provenance>
+                        <p>Exlibris on <locus from="88r">f. 88r</locus> 
+                     <quote>Iste liber est sancte marie de Neuburga.</quote>
+                        </p>
+                    </provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl>Hermann Pfeiffer und Berthold Černík, Catalogus codicum manu scriptorum, qui in bibliotheca Canonicorum Regularium s. Augustini Claustroneoburgi asservantur. Bd. 4, pp. 892-894.<ptr target="http://www.ksbm.oeaw.ac.at/_scripts/php/newWin4msDescription.php?ID=889"/>
+                        </bibl>
+                        <bibl>Huber, Wolfgang, ed. Sehnsucht Nach Der Antike: Handbuch Und Katalog. Klosterneuburg: Mayer, 1992.</bibl>
+                        <bibl>Winkler, Erich. Die Buchmalerei in Niederösterreich von 1150 - 1250.  Wien: Krystall-Verl., 1923. Pp. 11f.</bibl>
+                        <bibl>Christine Glaßner–Alois Haidinger, Die Anfänge der Melker Bibliothek. Neue Erkenntnisse zu Handschriften und Fragmenten aus der Zeit vor 1200. Präsentiert im Rahmen der Sonderausstellung aus Anlaß '1000 Jahre Ostarrichi'. Melk 1996, 74-78.</bibl>
+                        <bibl>Ernst Zinner, Verzeichnis der astronomischen Handschriften des deutschen Kulturgebietes. München 1925, Nr.01046, Nr.01067, Nr.01102, Nr.10272.</bibl>
+                        <bibl> Haidinger, Alois. Verborgene Schönheit: Die Buchkunst Im Stift Klosterneuburg; Katalog Zur Sonderausstellung 1998 Des Stiftsmuseums Klosterneuburg. Klosterneuburg/Wien: Mayer, 1998. Pp. 18-19.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
