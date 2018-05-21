@@ -1,0 +1,3 @@
+# aratea data
+
+This repo contains (xml) data about....
