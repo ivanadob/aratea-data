@@ -6,6 +6,5 @@
     </meta>
     <projectTree name="aratea-digital.xpr">
         <folder path="."/>
-        <file name="split_title_add_attributes.xsl"/>
     </projectTree>
 </project>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Laon, BM, Ms. 422</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>           
+      <!--
+            <revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="laon_bm_422" xml:lang="lat">	             
+            <msIdentifier>
+               <settlement>Laon</settlement>
+               <repository>Bibliothèque municipale</repository>
+               <idno>Ms. 422</idno>
+               <altIdentifier type="former">
+                  <idno>yy</idno>
+               </altIdentifier>
+               <altIdentifier type="former">
+                  <idno>xiv H</idno>
+               </altIdentifier>
+               <altIdentifier type="former">
+                  <idno>119</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title>Isidorus Hispalensis: De natura rerum ; Etymologiae ; Sententiae</title>
+               <origPlace>Laon</origPlace>
+               <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
+                    </origDate>
+               <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8492138z">Digital fscsimile at gallica</ref>
+            </head>
+            <msContents>
+               
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>
+                        <p>
+                           <material>Parchment</material>
+                        </p>
+                     </support>
+                     <extent>
+                        <measure type="leavesCount" quantity="96">II + 94 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>295</height>
+                           <width>185</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>	                          	                       
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout/>
+                  </layoutDesc>
+               </objectDesc>  
+               <handDesc>
+                  <handNote/>
+               </handDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+               <bindingDesc>
+                  <binding>
+                     <p/>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>
+                            <abbr>Bischoff, Katalog II</abbr>, p. 34.</bibl>
+                  <bibl>
+                            <abbr>Dell'Era (1979)</abbr>, esp. p. 271.</bibl>
+                  <bibl>Barbara Obrist, "Le diagramme isidorien des saisons, son contenu physique et les représentations figuratives." <title>Mélanges de l’Ecole française de Rome</title> 108-1 (1996), p. 95-164.</bibl>
+                  <bibl>J.J. Contreni, <title>The Cathedral School of Laon from 850 to 930. Its Manuscripts and Masters</title>, Munich, 1978, p. 31, 48.</bibl>
+                  <bibl>Entry at <ref target="http://www.europeanaregia.eu/en/manuscripts/laon-biblioth-que-municipale-ms-422/en">Europeana Regia</ref>
+                        </bibl>
+                  <bibl>BnF Archives et manuscripts <ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc94700t">ms. 422</ref>
+                        </bibl>
+               </listBibl>	                  
+            </additional>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r">1r-72r</locus>
+                     <author ref="#isidore">Isidore of Seville</author>
+                     <title ref="#de_natura_rerum">De natura rerum</title>
+                     <rubric>Domino et filio sisebuto esydorus</rubric>
+                     <msItem>
+                        <note>Prologue</note>
+                        <incipit>Dum in te prestantem ingenio</incipit>
+                        <explicit>auctoritas dictorum fidem efficiat. Explicit prefatio.</explicit>
+                     </msItem>
+                     <msItem>
+                        <note>Liste of capitula</note>
+                        <rubric>Incipit capitulatio</rubric>
+                     </msItem>
+                     <note>with additions by another hand on ff. 72r-73v.</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="73r">73-93</locus>
+                     <note>leaves added for Isidore's Sententiae</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="91r">91r-93v</locus>
+                     <note>Missae Speciales added at the end of s. IX.</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
