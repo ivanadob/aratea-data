@@ -43,6 +43,10 @@
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Hyde_Abbey"/>
                </bibl>
             </org>
+            <org>
+               <orgName xml:id="gnd_812882-0" ref="http://www.geonames.org/6639586">Salem</orgName>
+               <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Salem_Abbey"/></bibl>
+            </org>
             <org xml:id="tegernsee_abbey">
                <orgName xml:id="gnd_809501-2" ref="http://www.geonames.org/2823679">Abbey Tegernsee</orgName>
             </org>

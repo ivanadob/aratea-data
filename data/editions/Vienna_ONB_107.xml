@@ -48,61 +48,116 @@
                     <title/>
                     <note type="caption"/>
                     <origPlace ref="#"/>
-                    <origDate notBefore="" notAfter=""/>
+                    <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+                    </origDate>
                 </head>                
             <msContents>
                 <msItem>
                     <locus from="1r" to="8v">1r-8v</locus>
                     <author ref="#avienus">Avienus</author>
                     <title ref="#aratea_avienus">Aratea</title>
-                    <incipit>Rufi festi Arati incipit liber primus de positione syderum. Carminis incentor mihi iuppiter</incipit>
-                    <explicit>aggere deuicto supera<gap reason="illegible"/>
-                        </explicit>
-                    <note>no glosses; f. 1r. before v. 76 on the bears heading ‘ARCTOE’, ‘ENGONAIS’ BEFORE v. 169 and so on for each constellation then on f. 5v ‘PLANETAE’ and ‘CIRCULI’, on f. 8v ‘SOL’; a second hand wrote on part of f. 1v.;</note> 
+                    <rubric> Rufi festi Arati incipit liber primus de positione syderum</rubric>
+                    <incipit>Carminis incentor mihi iuppiter aussice <note>(corrected to: auspice)</note> terras </incipit>
+                    <explicit>aggere deuicto supera <gap reason="illegible"/>.</explicit>
+                    <note>no glosses; f. 1r. before v. 76 on the bears heading ARCTOE, ENGONAIs BEFORE v. 169 and so on for each constellation then on f. 5v PLANETAE and CIRCULI, on f. 8v SOL; a second hand wrote on part of f. 1v.;</note> 
                     <filiation>Milan, Biblioteca Ambrosiana, Ms D 52 is a copy of this MS.</filiation>
                 </msItem>
-                
                 <msItem>
                     <locus from="9r" to="14v">9r-14v</locus>
                     <author ref="#lucretius">Lucretius</author>
-                    <note>Excerpts from<title ref="#de_rerum_natura">De natura rerum</title>
-                        </note>
+                    <title ref="#de_rerum_natura">De natura rerum</title>
+                    <note>Excerpts</note>
                     <msItem>
                         <locus from="9r" to="11v">9r-11v</locus>
-                        <note>Book 2 (v. 642 till the end of the book)</note>
+                        <note>Book II (v. 642 till the end of the book)</note>
                         <incipit>Ac uirtute uelint patriam defendere terram</incipit>
-                        <!--<explicit>ad capulum spatio aetatis defessa vetusto. CHECK</explicit>-->
+                        <explicit>ad scopullum spaclo <note>(for spacio ?)</note> etatis defensa uetusto. </explicit>
                         <finalRubric>Titi Lucretii Cari de rerum natura liber II explicit</finalRubric>
                     </msItem>
                     <msItem>
                         <locus from="11v" to="14v">11v-14v</locus>
-                        <note>Book 3 (vv. 1-621)</note>
+                        <note>Book III (vv. 1-621)</note>
                         <rubric>Incipit liber III</rubric>
-                        <!--<incipit>E tenebris tantis tam clarum extollere lumen CHECK</incipit>-->
-                        <explicit>membrorum numquam exitur praeposterus</explicit>
+                        <incipit>O tenebris tantis tam <note>(corrected)</note> clarum extollere lumen</incipit>
+                        <explicit>membrorum numquam <sic>exitut</sic> per <unclear>posterus</unclear>.</explicit>
                     </msItem>
                     <msItem>
-                    <locus from="15r" to="18r">15r-18r</locus>
-                    <author>Lucretius</author>
-                    <note>Excerpts from<title>De natura rerum</title> (book VI vv. ... and II, vv. 756-805, then De cauda pauonis Mandatum ualidis aptum p[er] uis ceranerus/ nec facile exaestu nec frigore)</note>
-                    <incipit>____ remittunt/ ___ cadunt molli ceruice profusae</incipit> 
-                    <explicit>nam neque quo poscit genus ullum materia.</explicit>
-                Remarks: different hand, less angular; detached initial for verses; 55 lines in two columns; Book VI ends on 17v (missing last three verses); </msItem>
-                </msItem>                
-                
-                
+                        <locus from="15r" to="18r">15r-18r</locus>
+                        <note>Book VI (vv. 743-) </note>
+                        <incipit>
+                                <supplied>remigii oblitae pennarum ve</supplied>la remittunt</incipit> 
+                        <explicit>Rixantes pocius quam corpora deserentur</explicit> 
+                        <!--Mark on the margin h editorial for ommision added later. But additon (?)-->
+                    </msItem>
+                    <msItem>
+                        <locus from="18r">18r</locus>
+                        <note>After a rubrication that is almost completely erased begin Excerpts from Book II, vv. 757-805:</note>
+                        <incipit>Praeterea si nulla coloris principiis est</incipit>
+                        <explicit>Inter ceruleum uiridis miscere zmaragdos</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="" to="17v">-17vb</locus>
+                        <note>Book V (vv. 926-1077)</note>
+                        <rubric>De cauda pauonis</rubric>
+                        <incipit>Fundatum ualidis aptum per uiscera neruis</incipit>
+                        <explicit>non erat ut fieri posset mirarier umquam</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="18r" to="">18ra- </locus>
+                        <note>Book I (vv. 734-785)</note>
+                        <incipit>
+                                <supplied>Hic tamen</supplied> et supra quo diximus inferiores</incipit>
+                        <explicit>ex igni retroque in terram cuncta reverti</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="18r">18ra-b</locus> 
+                        <note>Book II (vv. 253-304)</note>
+                        <incipit>Nec declinando faciunt primordia motus</incipit>
+                        <explicit>Nam neque quo poscit genus ullum materia.</explicit>
+                    </msItem> 
+                </msItem>
                 <msItem>
-                    <locus from="18v" to="22v">18v-22v</locus>
+                    <locus from="18v" to="22v">18vb-22vb</locus>
                     <author ref="#iuvenalis">Juvenal</author>
-                    <title ref="#satirae">Satyrae <note>1-5, v.96.</note>
-                        </title>
+                    <title ref="#satirae">Satyrae</title>
+                    <msItem>
+                        <locus>18vb-19va</locus>
+                    <note>Satyra I</note>
                     <incipit>Semper ego auditor tantum numque reponam</incipit>
-                    <explicit/>
-                Explicit: [unreadable] left half of the second column blank
-                Remarks: left the most of 18v blank only 18 lines of the second column – the scribe knew how much space he would need; different hand
-                On 21r text of Iuvenal ‘sublimibus unde cerebrum/ testa ferit quotiens rimosa ..’ but at the bottom of the margin text : ..seqturferit hinc ubito ferteas .. dure’ – could it be that it was written before pages were cut and this is from another page?
-                Hard to imagine but...’</msItem>
-                
+                    <explicit>Quorum flamina <sic>legitur</sic> cinis atque latina.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus>19va-20rb</locus>
+                        <note>Satyra II</note>
+                        <rubric>De philosophis obscenis</rubric>
+                        <incipit>Ultra sauromatas fugere hinc libet et glacialem</incipit>
+                        <explicit>sic praetextatos referunt <sic>artaxat amores</sic>.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus>20rb-21va</locus>
+                        <note>Satyra III</note>
+                        <rubric>De malis urbis</rubric>
+                        <incipit>Quamuis digressu ueteris confusus amici</incipit>
+                        <explicit>auditor gelidos ueniam caligatus in agros.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus>21va-22rb</locus>
+                        <note>Satyra IV</note>
+                        <rubric>De piscis magnitudine</rubric>
+                        <incipit>Ecce iterum crispinus et est mihi saepe uocandus</incipit>
+                        <explicit>Ceperat hoc nocuit lamiarum cede madenti.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus>22rb-22vb</locus>
+                        <note>Satyra V, vv. 1-96</note>
+                        <rubric>Imperasitos daecenis <unclear>contumelisis</unclear>
+                            </rubric>
+                        <incipit>Si te propositi nondum pudet adque eadem est mens</incipit>
+                        <explicit>proxima nec patimur tirrenum crescere <supplied>piscem</supplied>.</explicit>
+                        <!--<note>On 21r text of Iuvenal ‘sublimibus unde cerebrum/ testa ferit quotiens rimosa ..’ but at the bottom of the margin text : ..seqturferit hinc ubito ferteas .. dure’ – could it be that it was written before pages were cut and this is from another page?
+                Hard to imagine but...’</note>-->
+                    </msItem>
+                </msItem>                
             </msContents>
             <physDesc>
                <objectDesc form="codex">
@@ -147,14 +202,13 @@
                 </bindingDesc>
             </physDesc>
             <history>
-                <origin>The two excerpts from Lucretius' text represent two parts from a codex discissus spread in three pars. The other part is the so-called<foreign>Schedae Gottorpienses</foreign> fragment with shelfmark <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241/eng">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> (see <bibl>Jörgensen, Ellen.<title>Catalogus codicum latinorum medii aevi Bibliothecae Regiae Hafniensis</title>. Hafniae: Gyldendal, 1926, p.301-2)</bibl>. It consists of a gathering of eight folia written in two columns and about 48 verses per page with the text of Book 1 (omitting vv. 734-85) and Book 2 (omitting vv. 253-304). According to Bischoff the script is from <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+                <origin>The two excerpts from Lucretius' text represent two parts from a codex discissus spread in three parts. The other part is the so-called <foreign>Schedae Gottorpienses</foreign> fragment with shelfmark <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241/eng">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> (see <bibl>Jörgensen, Ellen.<title>Catalogus codicum latinorum medii aevi Bibliothecae Regiae Hafniensis</title>. Hafniae: Gyldendal, 1926, p.301-2)</bibl>. It consists of a gathering of eight folia written in two columns and about 48 verses per page with the text of Book 1 (omitting vv. 734-785) and Book 2 (omitting vv. 253-304). According to Bischoff the script is from <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                         </origDate>. The origin of the manuscript is less certain. Lehmann suggested that it was produced in <origPlace ref="#bobbio">Bobbio</origPlace>. Bischoff after first considering it as product of Southern Germany (<bibl>
                             <title>Lorsch im Spiegel seiner Handschriften</title>, p. 74, No. 30</bibl>) later agreed with Lehmann's opinion (<bibl>
                             <abbr>Bischoff, Katalog I</abbr>, p. 88</bibl> as well as in the second edition of <bibl>
-                            <title>Lorsch im Spiegel seiner Handschriften</title>, p. 80, No. 30.</bibl>. Munk Olsen follows this proposition. Due to the quite different script in the third part (ff. 15-22) there were still some doubts if this part too belonged to the codex discissus. Thinking it would have been to much of a coincedence that the poem was copied twice in the same period and both parts ended as part of one and the same codex in the National Library of Vienna deminishes these doubts (see <bibl>
-                            <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1</bibl>.</origin>
-                <provenance/>
-                <provenance>Salem, Zisterzienserkloster (?) [Trenkler, Lazius, 1978, 200]. - Wolfgang Lazius (Dr. med.; *1514; Uni. Wien; Mediziner, Historiograph, Humanist; +1565): Lazius-Signatur 'D' [Trenkler, Lazius, 1978, 200].</provenance>
+                            <title>Lorsch im Spiegel seiner Handschriften</title>, p. 80, No. 30.</bibl>). Munk Olsen follows this proposition. Due to the quite different script in the third part (ff. 15-22) there were still some doubts if this part too belonged to the codex discissus. Thinking it would have been to much of a coincedence that the poem was copied twice in the same period and both parts ended as part of one and the same codex in the National Library of Vienna deminishes these doubts (see <bibl>
+                            <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1</bibl>).</origin>
+                <provenance>The manuscript was at some time in the 15th. or early 16th. century in the Cistercian monastery in <rs type="corporate" ref="#salem">Salem</rs> (Bodensee)(?) [Trenkler, Lazius, 1978, 200]. - Wolfgang Lazius (Dr. med.; *1514; Uni. Wien; Mediziner, Historiograph, Humanist; +1565): Lazius-Signatur 'D' [Trenkler, Lazius, 1978, 200].</provenance>
             </history>
             <additional>
                <listBibl>
@@ -165,6 +219,7 @@
                             <abbr>Munk Olsen, Catalogue 2</abbr>, p. 88.</bibl>
                    <bibl>
                             <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1, 119, 120.</bibl>
+                   <bibl>Trenkler, Ernst. "Wolfgang Lazius, Humanist und Büchersammler." <title type="journal">Biblos</title> 27 (1978): 186-203.</bibl>
                   </listBibl>
             </additional>
          </msDesc>

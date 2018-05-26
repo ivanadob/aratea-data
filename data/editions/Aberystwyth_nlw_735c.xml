@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref type="mss" target="http://hdl.handle.net/10107/4387889">Aberystwyth NLW, MS 735 C</ref>
-                </title>
+            <title type="sub">Aberystwyth NLW, MS 735 C</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -111,6 +110,7 @@
                     <title>Texts on astronomy</title>
                     <origPlace ref="#limoges">Limoges area</origPlace>
                     <origDate notBefore="0986" notAfter="1160">ca. 1000; ca. 1150</origDate>
+                    Digital facsimile at <ref type="mss" target="http://hdl.handle.net/10107/4387889">The National Library of Wales</ref>.
                 </head>
                 <physDesc>
                     <objectDesc form="codex">

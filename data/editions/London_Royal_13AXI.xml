@@ -240,9 +240,10 @@
                   <author>Bede</author>
                   <title>Epistola ad Wicthedum de aequinoctio vel de paschae celebratione</title>
                   <note>imperfect at the beginning and at the end</note>
-                  <incipit>[equi]noctialem sui cursus locum in signifero circulo</incipit>
+                  <incipit>
+                            <supplied>equi</supplied>noctialem sui cursus locum in signifero circulo</incipit>
                   <explicit>aut nona kalendarum aprilium die non fuisse, aut ante equinoctium fuisse confirmet</explicit>
-                  <finalRubric>Explicit Epistola Bede presbiteri ad Vicredam (sic) presbiterum </finalRubric>
+                  <finalRubric>Explicit Epistola Bede presbiteri ad <sic>Vicredam</sic> presbiterum </finalRubric>
                </msItem>
                <msItem>
                   <locus from="149r" to="v">149r-v</locus>
@@ -250,7 +251,6 @@
                </msItem>
             </msContents>
             <physDesc>
-               <!-- contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. -->
                <objectDesc form="codex">
                   <supportDesc material="perg">
                           <support>
@@ -283,38 +283,34 @@
                   </layoutDesc>
                </objectDesc>
                 <decoDesc>
-                    <decoNote type="initial">Nine large interlace initials in green, red and yellow colours or in outline drawing, inhabited with predominantly zoomorphic motifs (ff. 1r, 1v, 14v, 22r, 30v, 32v, 104r, 105r, 120r).</decoNote>
-                    <decoNote type="illustration">Series of ink drawings of the constellations slightly tinted (<locus from="105r" to="112v">105r-112v</locus>).</decoNote>
-                    <decoNote type="diagram">Decoration:One explanatory drawing of methods of calculation of the Computus (f. 33v). Ten diagrams and tables in brown and red ink (ff. 14r, 29v, 114v, 118r, 123r, 127v, 143v, 144r, 144v, 145v). Line-filler in red and/or green. Marginal drawings in ink of dragons, some attached to glosses (ff. 5v, 8r, 9r, 9v, 10v, 15v, 16r, 23v, 24v, 26v, 117v), of the moon and sun (f. 55v), the island Thule (f. 61v), human, animals heads and zodiac signs (ff. 14r, 36r, 43r, 43v, 47r, 49v, 59v, 72v, 81v, 107v, 110r, 111r, 112r, 112v), and initials (e.g., ff. 66v, 69v, 79v). Glosses in green and red frames (e.g., f. 39v) </decoNote>
+                    <decoNote type="initial">Nine large initials in green, red and yellow colours with zoomorphic motifs (ff. 1r, 1v, 14v, 22r, 30v, 32v, 104r, 105r, 120r).</decoNote>
+                    <decoNote type="illustration">44 drawings of the constellations in braun and red ink(<locus from="105r" to="112v">105r-112v</locus>). The drawings had been made before the text was copied. They are placed on the side of the text-body, usually in the inner half of the page. The figures of the constellations have circles partly matching the place where according to the text stars are. It is possible that the artist misunderstood the model manuscript and mistook the star marking for clothes decoration.</decoNote>
+                    <decoNote type="diagram">One explanatory drawing of methods of calculation of the Computus (f. 33v). Ten diagrams and tables in brown and red ink (ff. 14r, 29v, 114v, 118r, 123r, 127v, 143v, 144r, 144v, 145v). Line-filler in red and/or green. Marginal drawings in ink of dragons, some attached to glosses (ff. 5v, 8r, 9r, 9v, 10v, 15v, 16r, 23v, 24v, 26v, 117v), of the moon and sun (f. 55v), the island Thule (f. 61v), human, animals heads and zodiac signs (ff. 14r, 36r, 43r, 43v, 47r, 49v, 59v, 72v, 81v, 107v, 110r, 111r, 112r, 112v), and initials (e.g., ff. 66v, 69v, 79v). Glosses in green and red frames (e.g., f. 39v) </decoNote>
                 </decoDesc>
             </physDesc>
             <history>
-               <origin/>
-                <provenance>Origin: France, N. or Central, or England.Provenance:Added leaf (trimmed) containing a fragment of a register of letters [Close Roll ?] of Edward I (b. 1239, d. 1307), king of England and lord of Ireland, and duke of Aquitaine, for March 1301 beginning on the verso and including: letters to the sheriffs of Oxford and Worcester concerning provisions for the royal household for the king's coming to Woodstock [and Evesham], written at Medborne, 8 March; a letter to the bishop of Lincoln, repeating a former request sent by Hue de Val-Laumosnier, signed at Ockham, 8 March; a letter to John de Tingewyke, keeper of Whittlewood forest, written at Medborne, 9 March; a letter to Gautier de Beauchamp, 'seneschal', perhaps to be identified with Guy de Beauchamp, 10th earl of Warwick (b. c. 1272, d. 1315), written at Harrington, 9 March; a letter to the 'Official deuerwike' [York], in favour of his chaplain Gilbert de Grim[esby] recommending him for the 'chancerye a Bercleye' resigned by William de Hameltone [date cut away]; a letter asking to prepare a manor of Woodstock for the king, signed on Friday, 17 March; a letter to Alice [widow of John] de Montfort concerning her case against the executors of William de Beauchamp, 9th earl of Warwick (b. 1238, d. 1298), written at Northampton, 10 March; a letter to the sheriff of Leicester concerning payments for goods supplied for the royal household, written at Northampton, 10 March; a letter to Edward his son, requesting him to give the church of Bangor in the diocese of Chester, vacant by the death of [Da]vid de la Poele, to William de la Poele, written at Northampton, 10 March; a letter to all sheriffs, etc., in favour of Wautier (Walter) de Canterbury, 'vadlet de nostre botillerie', ordered to procure wine and beer for the royal household [date excised], 14th century (ff. 150r-150v).Inscribed 'Ja. Bonin', 14th century (f. 145v).Inscribed 'De libris J. de Longolio', 15th century (f. 149v).Presented to the British Museum by George II in 1757 as part of the Old Royal Library.</provenance>
+               <origin>Northern or central France.</origin>
+                <provenance>Added leaf (trimmed) containing a fragment of a register of letters [Close Roll ?] of Edward I (b. 1239, d. 1307), king of England and lord of Ireland, and duke of Aquitaine, for March 1301 beginning on the verso and including: letters to the sheriffs of Oxford and Worcester concerning provisions for the royal household for the king's coming to Woodstock [and Evesham], written at Medborne, 8 March; a letter to the bishop of Lincoln, repeating a former request sent by Hue de Val-Laumosnier, signed at Ockham, 8 March; a letter to John de Tingewyke, keeper of Whittlewood forest, written at Medborne, 9 March; a letter to Gautier de Beauchamp, 'seneschal', perhaps to be identified with Guy de Beauchamp, 10th earl of Warwick (b. c. 1272, d. 1315), written at Harrington, 9 March; a letter to the 'Official deuerwike' [York], in favour of his chaplain Gilbert de Grim[esby] recommending him for the 'chancerye a Bercleye' resigned by William de Hameltone [date cut away]; a letter asking to prepare a manor of Woodstock for the king, signed on Friday, 17 March; a letter to Alice [widow of John] de Montfort concerning her case against the executors of William de Beauchamp, 9th earl of Warwick (b. 1238, d. 1298), written at Northampton, 10 March; a letter to the sheriff of Leicester concerning payments for goods supplied for the royal household, written at Northampton, 10 March; a letter to Edward his son, requesting him to give the church of Bangor in the diocese of Chester, vacant by the death of [Da]vid de la Poele, to William de la Poele, written at Northampton, 10 March; a letter to all sheriffs, etc., in favour of Wautier (Walter) de Canterbury, 'vadlet de nostre botillerie', ordered to procure wine and beer for the royal household [date excised], 14th century (ff. 150r-150v).Inscribed 'Ja. Bonin', 14th century (f. 145v).Inscribed 'De libris J. de Longolio', 15th century (f. 149v).Presented to the British Museum by George II in 1757 as part of the Old Royal Library.</provenance>
             </history>
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                   <bibl>George F. Warner and Julius P. Gilson, Catalogue of Western Manuscripts in the Old Royal and King’s Collections, 4 vols (London: British Museum, 1921), II, pp. 80-81.
-                       A. van de Vyver, 'Les oeuvres inédites d'Abbon de Fleury', Revue Bénédictine, 2 (1937), 125-69 (p. 145).
-                       Charles W. Jones, 'Manuscripts of Bede's De natura rerum', Isis, 127 (1937), 430-40 (p. 433).
-                       Charles W. Jones, Bedae opera de temporibus, Mediaval Academy of America Publication, 41 (Cambridge Mass., 1943), p. 153.
-                       Fritz Saxl and Rudolf Wittkower, British Art and the Mediterranean (London: Oxford University Press, 1948), p. 30.
-                       Fritz Saxl and Hans Meier, Catalogue of Astrological and Mythological Illuminated Manuscripts of the Latin Middle Ages, 4 vols (London: The Warburg Institute, 1953), III: Manuscripts in English Libraries, pp. 197-98, figs. 159, 174.
-                       H. Bober, 'An Illustrated Medieval School Book of Bede's De Natura Rerum', Journal of the Walter Art Gallery, 19-20 (1956-57), 64-97 (p. 77).
-                       Kyle M. Phillips Jr, 'Perseus and Andromeda', The American Journal of Archaeology, 72 (1968), 1-23 (p. 19, fig. 54).
-                       Patrick McGurk, 'Computus Helperici: Its Transmission in England in the Eleventh and Twelfth Centuries', Medium Aevum, 43 (1974), 1-4 (p. 2).
-                       John E. Murdoch, Album of Science: Antiquity and the Middle Ages, ed. by I. B. Cohen (New York: Scribner's Sons, 1984), no. 249.
-                       Ron B. Thomson, 'Two Astronomical Tractates of Abbo of Fleury' in The Light of Nature. Essays in the History and Philosophy of Science presented to A. C. Crombie, ed. by J. D. North and J. J. Roche (Dordrecht: Martinus Nijhoff Publishers, 1985), pp. 113-34.
-                       The Making of England: Anglo-Saxon Art and Culture AD 600-900, ed. by Leslie Webster and Janet Backhouse (London: British Museum, 1991), no. 61 [exhibition catalogue].
-                       Alison Stones, 'The Decoration and Illumination of the Codex Calixtinus at Santiago de Compostella', in The Codex Calixtinus and the Shrine of St James, ed. by John Williams and Alison Stones (Tübingen: Gunter Narr, 1992), pp. 137-67 (p. 149, n. 51).
-                       The Libraries of King Henry VIII, ed. by J. P. Carley, Corpus of British Medieval Library Catalogues, 7 (London: The British Library, 2000), p. xxxvi, n. 48.
-                       Helmut Gneuss, Handlist of Anglo-Saxon Manuscripts: A List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100, Medieval and Renaissance Texts and Studies, 241 (Tempe: Arizona Center for Medieval and Renaissance Studies, 2001), no. 483
-                       Michelle P. Brown, Painted Labyrinth: The World of the Lindisfarne Gospels (London: British Library, 2003), p. 46.
-                       Rembrandt Dutis, 'Celestial Transmissions: An Iconographical Classification of Constellation Cycles in Manuscripts (8th-15th Centuries)', in Scriptorium: Revue internationale des études relative aux manuscrits, 59 (2005), 147-202 (pp. 162, n. 85, 192, pls 40d-e).
-                       Roy Michael Liuzza, 'The Sphere of Life and Death: Time, Medicine and the Visual Imagination', in Latin Learning and English Lore, II: Studies in Anglo-Saxon Literature for Michael Lapidge, ed. by Katherine O'Brien O'Keeffe and Andy Orchard, Toronto Oldby English Series, 14 (Toronto: University of Toronto Press, 2005), 28-52, pp, 30, 34-35, 38-42, 48n.
-                       L. S. Chardonnens, Anglo-Saxon Prognostics 900-1100: Study and Texts (Boston: Brill, 2007), pp. 272, 547.
-                       Roy Michael Liuzza, Anglo-Saxon Prognostics: An Edition and Translation of Texts from London, British Library, MS Cotton Tiberius A.iii (Cambridge: D. S. Brewer, 2011), p. 73.</bibl>
+                   <bibl>George F. Warner and Julius P. Gilson, Catalogue of Western Manuscripts in the Old Royal and King’s Collections, 4 vols (London: British Museum, 1921), II, pp. 80-81.</bibl>
+                       <bibl>A. van de Vyver, 'Les oeuvres inédites d'Abbon de Fleury', Revue Bénédictine, 2 (1937), 125-69 (p. 145).</bibl>
+                       <bibl>Charles W. Jones, 'Manuscripts of Bede's De natura rerum', Isis, 127 (1937), 430-40 (p. 433).</bibl>
+                       <bibl>Charles W. Jones, Bedae opera de temporibus, Mediaval Academy of America Publication, 41 (Cambridge Mass., 1943), p. 153.</bibl>
+                       <bibl>Fritz Saxl and Hans Meier, Catalogue of Astrological and Mythological Illuminated Manuscripts of the Latin Middle Ages, 4 vols (London: The Warburg Institute, 1953), III: Manuscripts in English Libraries, pp. 197-98, figs. 159, 174.</bibl>
+                       <bibl>H. Bober, 'An Illustrated Medieval School Book of Bede's De Natura Rerum', Journal of the Walter Art Gallery, 19-20 (1956-57), 64-97 (p. 77).</bibl>                       
+                       <bibl>Patrick McGurk, 'Computus Helperici: Its Transmission in England in the Eleventh and Twelfth Centuries', Medium Aevum, 43 (1974), 1-4 (p. 2).</bibl>
+                       <bibl>John E. Murdoch, Album of Science: Antiquity and the Middle Ages, ed. by I. B. Cohen (New York: Scribner's Sons, 1984), no. 249.</bibl>
+                      <bibl> Ron B. Thomson, 'Two Astronomical Tractates of Abbo of Fleury' in The Light of Nature. Essays in the History and Philosophy of Science presented to A. C. Crombie, ed. by J. D. North and J. J. Roche (Dordrecht: Martinus Nijhoff Publishers, 1985), pp. 113-34.</bibl>
+                       <bibl>Helmut Gneuss, Handlist of Anglo-Saxon Manuscripts: A List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100, Medieval and Renaissance Texts and Studies, 241 (Tempe: Arizona Center for Medieval and Renaissance Studies, 2001), no. 483.</bibl>
+                       <bibl>Rembrandt Dutis, 'Celestial Transmissions: An Iconographical Classification of Constellation Cycles in Manuscripts (8th-15th Centuries)', in Scriptorium: Revue internationale des études relative aux manuscrits, 59 (2005), 147-202 (pp. 162, n. 85, 192, pls 40d-e).</bibl>
+                       <bibl>Roy Michael Liuzza, 'The Sphere of Life and Death: Time, Medicine and the Visual Imagination', in Latin Learning and English Lore, II: Studies in Anglo-Saxon Literature for Michael Lapidge, ed. by Katherine O'Brien O'Keeffe and Andy Orchard, Toronto Oldby English Series, 14 (Toronto: University of Toronto Press, 2005), 28-52, pp, 30, 34-35, 38-42, 48n.</bibl>
+                       <bibl>L. S. Chardonnens, Anglo-Saxon Prognostics 900-1100: Study and Texts (Boston: Brill, 2007), pp. 272, 547.</bibl>
+                       <bibl>Roy Michael Liuzza, Anglo-Saxon Prognostics: An Edition and Translation of Texts from London, British Library, MS Cotton Tiberius A.iii (Cambridge: D. S. Brewer, 2011), p. 73.</bibl>
+                   <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 333-339.</bibl>
                   </listBibl>
             </additional>
          </msDesc>
