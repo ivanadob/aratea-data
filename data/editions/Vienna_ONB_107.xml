@@ -30,11 +30,9 @@
                 <p/>
             </sourceDesc>
         </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
-			</revisionDesc>
-		-->
+        <revisionDesc status="draft">
+            <change>work in progress</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -66,10 +64,9 @@
                     <locus from="9r" to="14v">9r-14v</locus>
                     <author ref="#lucretius">Lucretius</author>
                     <title ref="#de_rerum_natura">De natura rerum</title>
-                    <note>Excerpts</note>
                     <msItem>
                         <locus from="9r" to="11v">9r-11v</locus>
-                        <note>Book II (v. 642 till the end of the book)</note>
+                        <note>Book II (v. 642-1174)</note>
                         <incipit>Ac uirtute uelint patriam defendere terram</incipit>
                         <explicit>ad scopullum spaclo <note>(for spacio ?)</note> etatis defensa uetusto. </explicit>
                         <finalRubric>Titi Lucretii Cari de rerum natura liber II explicit</finalRubric>
@@ -82,39 +79,43 @@
                         <explicit>membrorum numquam <sic>exitut</sic> per <unclear>posterus</unclear>.</explicit>
                     </msItem>
                     <msItem>
-                        <locus from="15r" to="18r">15r-18r</locus>
-                        <note>Book VI (vv. 743-) </note>
+                        <locus from="15r" to="17v">15ra-17va</locus>
+                        <note>Book VI (vv. 743-1281)</note>
                         <incipit>
                                 <supplied>remigii oblitae pennarum ve</supplied>la remittunt</incipit> 
                         <explicit>Rixantes pocius quam corpora deserentur</explicit> 
-                        <!--Mark on the margin h editorial for ommision added later. But additon (?)-->
+                        <!--Mark on the margin h editorial for ommision added later. But no additon (?)-->
                     </msItem>
                     <msItem>
-                        <locus from="18r">18r</locus>
+                        <locus from="17v">17va-b</locus>
                         <note>After a rubrication that is almost completely erased begin Excerpts from Book II, vv. 757-805:</note>
                         <incipit>Praeterea si nulla coloris principiis est</incipit>
                         <explicit>Inter ceruleum uiridis miscere zmaragdos</explicit>
                     </msItem>
                     <msItem>
-                        <locus from="" to="17v">-17vb</locus>
+                        <locus from="17v" to="17v">17vb</locus>
                         <note>Book V (vv. 926-1077)</note>
                         <rubric>De cauda pauonis</rubric>
                         <incipit>Fundatum ualidis aptum per uiscera neruis</incipit>
                         <explicit>non erat ut fieri posset mirarier umquam</explicit>
                     </msItem>
                     <msItem>
-                        <locus from="18r" to="">18ra- </locus>
-                        <note>Book I (vv. 734-785)</note>
+                        <locus from="18r" to="18r">18ra</locus>
+                        <note>Book I (vv. 734-785 skipped in <ref type="altMs" target="http://www.kb.dk/permalink/2006/manus/241/eng/5+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 5ra</ref>)</note>
                         <incipit>
                                 <supplied>Hic tamen</supplied> et supra quo diximus inferiores</incipit>
                         <explicit>ex igni retroque in terram cuncta reverti</explicit>
                     </msItem>
                     <msItem>
                         <locus from="18r">18ra-b</locus> 
-                        <note>Book II (vv. 253-304)</note>
+                        <note>Book II (vv. 253-304 skipped in <ref type="altMs" target="http://www.kb.dk/permalink/2006/manus/241/eng/8+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 8ra</ref>)</note>
                         <incipit>Nec declinando faciunt primordia motus</incipit>
                         <explicit>Nam neque quo poscit genus ullum materia.</explicit>
-                    </msItem> 
+                    </msItem>
+                    <msItem>
+                        <locus from="18v">18v</locus>
+                        <note>The entire left column and about two-thirds of the right one are left blank.</note>
+                    </msItem>
                 </msItem>
                 <msItem>
                     <locus from="18v" to="22v">18vb-22vb</locus>
@@ -202,13 +203,13 @@
                 </bindingDesc>
             </physDesc>
             <history>
-                <origin>The two excerpts from Lucretius' text represent two parts from a codex discissus spread in three parts. The other part is the so-called <foreign>Schedae Gottorpienses</foreign> fragment with shelfmark <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241/eng">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> (see <bibl>Jörgensen, Ellen.<title>Catalogus codicum latinorum medii aevi Bibliothecae Regiae Hafniensis</title>. Hafniae: Gyldendal, 1926, p.301-2)</bibl>. It consists of a gathering of eight folia written in two columns and about 48 verses per page with the text of Book 1 (omitting vv. 734-785) and Book 2 (omitting vv. 253-304). According to Bischoff the script is from <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+                <origin>The two excerpts from Lucretius' text represent two parts from a codex discissus spread in three parts. The other part is the so-called <foreign>Schedae Gottorpienses</foreign> fragment with shelfmark <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> (see <bibl>Jörgensen, Ellen.<title>Catalogus codicum latinorum medii aevi Bibliothecae Regiae Hafniensis</title>. Hafniae: Gyldendal, 1926, p.301-2)</bibl>. It consists of a gathering of eight folia written in two columns and about 48 verses per page with the text of Book 1 (omitting vv. 734-785) and Book 2 (omitting vv. 253-304). Note the shelfmark there on f. 1r "Q 4784" and the one in the manuscript in Vienna on f. 22v "P 4658". The Copenhagen manuscripts contains Lucretius' De rerum natura Book 1 and 2 (vv. 1-456); some sections skipped there are added in the Vienna manuscripts (see content above). According to Bischoff the script is from <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                         </origDate>. The origin of the manuscript is less certain. Lehmann suggested that it was produced in <origPlace ref="#bobbio">Bobbio</origPlace>. Bischoff after first considering it as product of Southern Germany (<bibl>
                             <title>Lorsch im Spiegel seiner Handschriften</title>, p. 74, No. 30</bibl>) later agreed with Lehmann's opinion (<bibl>
                             <abbr>Bischoff, Katalog I</abbr>, p. 88</bibl> as well as in the second edition of <bibl>
                             <title>Lorsch im Spiegel seiner Handschriften</title>, p. 80, No. 30.</bibl>). Munk Olsen follows this proposition. Due to the quite different script in the third part (ff. 15-22) there were still some doubts if this part too belonged to the codex discissus. Thinking it would have been to much of a coincedence that the poem was copied twice in the same period and both parts ended as part of one and the same codex in the National Library of Vienna deminishes these doubts (see <bibl>
                             <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1</bibl>).</origin>
-                <provenance>The manuscript was at some time in the 15th. or early 16th. century in the Cistercian monastery in <rs type="corporate" ref="#salem">Salem</rs> (Bodensee)(?) [Trenkler, Lazius, 1978, 200]. - Wolfgang Lazius (Dr. med.; *1514; Uni. Wien; Mediziner, Historiograph, Humanist; +1565): Lazius-Signatur 'D' [Trenkler, Lazius, 1978, 200].</provenance>
+                <provenance>In the second half od the 16th c. the manuscript belonged the library of the humanist <rs type="person">Wolfgang Lazius</rs> (b. 1514 in Vienna d. 1565), as attested by the shelfmark "D" on f. 1r. Lazius worked as court historian and visited many monastic libraries in search for material and sources for his historical monographs. We know of three journeies he made; the third one in 1551 led him among other places also in in the Cistercian monastery in <rs type="corporate" ref="#salem">Salem</rs> near the Bodensee. Trenkler believed that Cod. 107 was given to Lazius as a gift there, for according to him the "Acta monasterii Salem" were part of the same binding (Trenkler p. 200). After Lazius death his book collection became part of the court library in Vienna, as mentioned by Peter Lambeck (Commentariorum de Augustissima Bibliotheca Caesarea Vindobonensi, Lib. 1, Vienna, 1665, p. 38).</provenance>
             </history>
             <additional>
                <listBibl>
