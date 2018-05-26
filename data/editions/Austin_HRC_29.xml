@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description<ref type="altMs" target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Austin, HRC MS 29</ref>
-                </title>
+            <title type="sub">Austin, HRC MS 29</title>
                 <respStmt>
                     <resp>cataloged by</resp>
                     <name>Ivana Dobcheva</name>
@@ -27,6 +26,9 @@
                 <p/>
               </sourceDesc>
         </fileDesc>   
+        <revisionDesc status="complete">
+            <change when="2018-05-24">complete</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -43,7 +45,8 @@
                     <note type="caption"/>
                     <origPlace>Southern Germany</origPlace>
                     <origDate notBefore="1001" notAfter="1050"> s. XI<hi rend="sup">1</hi>
-                    </origDate>                     
+                    </origDate> 
+                    Digital facsimile at <ref target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Harry Ranson Humanities Research Center</ref>                    
                 </head>
                 <msContents>
                     <msItem>

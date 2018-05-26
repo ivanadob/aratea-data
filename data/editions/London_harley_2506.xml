@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of </title>
+            <title type="sub">London, British library, Harley 2506</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -30,11 +30,11 @@
                 <p/>
             </sourceDesc>
         </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        
+            <revisionDesc status="draft">
+				<change>work in progress</change>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <text>
         <body>
