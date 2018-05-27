@@ -8,8 +8,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="http://gallica.bnf.fr/ark:/12148/btv1b8452589j">Valenciennes, Bibliothèque municipale, Ms. 343</ref>
-                </title>
+            <title type="sub">Valenciennes, Bibliothèque municipale, Ms. 343</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -33,11 +32,9 @@
                 <p/>
             </sourceDesc>
         </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
-			</revisionDesc>
-		-->
+        <revisionDesc status="draft">
+            <change when="2018-05-18"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8452589j/f3.item" n="1r"/>
@@ -99,6 +96,7 @@
                     <title>Astronomical collection</title>
                     <origPlace ref="#ne_france">North-east France</origPlace>, <origPlace ref="#st_amand">Saint Amand</origPlace>(?)
                     <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    Digital facsimile at <ref type="mss" target="http://gallica.bnf.fr/ark:/12148/btv1b8452589j">gallica.bnf.fr.</ref>
                 </head>                
                 
             <physDesc>
@@ -126,11 +124,11 @@
                      <layout columns="1" writtenLines="31">ff. 8-13 written in 31 long lines.</layout>
                        <layout columns="1" writtenLines="27">ff. 1-6r, 14-35 and 58-187 written in 27 long lines.</layout>
                        <layout columns="1" writtenLines="20 21">ff. 50-57 ruled in 20-21 long lines</layout>
-                       <layout>Rubrics and initials in red<foreign>capitalis rustica</foreign> or monumental <foreign>capitalis</foreign> (partly faded and illegible). Red also used in the calendar and the tables.</layout>
+                       <layout>Rubrics and initials in red <foreign>capitalis rustica</foreign> or monumental <foreign>capitalis</foreign> (partly faded and illegible). Red also used in the calendar and the tables.</layout>
                   </layoutDesc>
                </objectDesc>   
                 <handDesc>
-                    <handNote>Two hand in the<title>Excerptum</title> (change f.1r, line 14), the second wrote also the <title>Ad boreae</title>. The <title>Anonymus Sangallensis</title> written by at least three different hands.</handNote>
+                    <handNote>Two hand in the <title>Excerptum</title> (change f.1r, line 14), the second wrote also the <title>Ad boreae</title>. The <title>Anonymus Sangallensis</title> written by at least three different hands.</handNote>
                     <handNote>Corrections including the additions of middle dot in darker ink.</handNote>
                 </handDesc>
                 <bindingDesc>
@@ -141,9 +139,9 @@
             </physDesc>
             <history>
                 <summary>The core of the manuscript is Bede's<title>De tempore ratione</title> preceded by a his <title>De natura rerum</title> and a computistical collection ascribed to him. To this volume were then added two codicological units written by similar contemporary hands: Part I (ff.1-7) with <foreign>astronomica</foreign> and Part II (ff.8-13) with Bede's <title>De temporibus</title>.</summary>
-                <origin>Based on<foreign>annus currens</foreign> mentioned in the computistical section Borst considered that the manuscript was copied <origDate notBefore="0965" notAfter="0985">around 975</origDate> from an exemplar from around 880. The inclusion of <title>Annales Elnonenses</title> and the list of abbots of Saint-Amand indicates the <origPlace ref="#st_amand">Abbey of Saint-Amand</origPlace> as the place of production. The Abbey was severely devasted by the Normans and received help for the restoration of the Abbey from Fulbert, bishop of Cambrai and from Hildebrand and Gérard of Brogne, Abbots of Saint-Bertin. It is then possible that the exemplar of our manuscirpt arrived from these houses (sse <bibl>Blouard, René. “Saint Gérard de Brogne.” Le Guetteur Wallon, no. 3 (1959): 61-140<ptr target="http://webapps.fundp.ac.be/bib/pdf/620.pdf"/>.</bibl>
+                <origin>Based on <foreign>annus currens</foreign> mentioned in the computistical section Borst considered that the manuscript was copied <origDate notBefore="0965" notAfter="0985">around 975</origDate> from an exemplar from around 880. The inclusion of <title>Annales Elnonenses</title> and the list of abbots of Saint-Amand indicates the <origPlace ref="#st_amand">Abbey of Saint-Amand</origPlace> as the place of production. The Abbey was severely devasted by the Normans and received help for the restoration of the Abbey from Fulbert, bishop of Cambrai and from Hildebrand and Gérard of Brogne, Abbots of Saint-Bertin. It is then possible that the exemplar of our manuscirpt arrived from these houses (sse <bibl>Blouard, René. “Saint Gérard de Brogne.” Le Guetteur Wallon, no. 3 (1959): 61-140<ptr target="http://webapps.fundp.ac.be/bib/pdf/620.pdf"/>.</bibl>
                     </origin>
-                <provenance>The many additions datable up to<date notBefore="1201" notAfter="1300">s. XIII</date> testify that the manuscript was used continously during several centuries. The list of abbots of Saint-Amand, which was extended till the s. XVIII suggests that the manuscript remained in the Abbey till <date notBefore="1701" notAfter="1800">s. XVIII</date>. The twelfth-century catalogue of Saint-Amand (Paris, BnF, MS lat. 1850) includes three books of Bede <quote>Bede tres de naturis rerum et temporibus</quote>, which Delisle identified as Valenciennes, BM, Ms 166 and 330bis - the former shelfmark of our manuscript (<bibl>Delisle,<title>Le cabinet des manuscrits de la Bibliothèque impériale nationale</title>, 3 vols. (Paris, 1868-81), II, p. 452</bibl>).</provenance>
+                <provenance>The many additions datable up to <date notBefore="1201" notAfter="1300">s. XIII</date> testify that the manuscript was used continously during several centuries. The list of abbots of Saint-Amand, which was extended till the s. XVIII suggests that the manuscript remained in the Abbey till <date notBefore="1701" notAfter="1800">s. XVIII</date>. The twelfth-century catalogue of Saint-Amand (Paris, BnF, MS lat. 1850) includes three books of Bede <quote>Bede tres de naturis rerum et temporibus</quote>, which Delisle identified as Valenciennes, BM, Ms 166 and 330bis - the former shelfmark of our manuscript (<bibl>Delisle,<title>Le cabinet des manuscrits de la Bibliothèque impériale nationale</title>, 3 vols. (Paris, 1868-81), II, p. 452</bibl>).</provenance>
                 <provenance>Notes on the front paste-down:<quote>Liber s. Amandi<unclear>pa</unclear>
                         </quote>; with black ink <quote>B 105</quote>; with pencil <quote>III 6</quote>.</provenance>
             </history>
@@ -216,7 +214,7 @@
                             <incipit>Tempora momentis horis diebus mensibus annis saeculis aetatibus diuiduntur</incipit>
                             <explicit>Reliquum sextae aetatis deo soli patet.</explicit>
                             <finalRubric>finit.</finalRubric>
-                            <note>Following are a group of tracts, which are often associated with<title>De temporibus</title> and as Jones argues might be genuine works of Bede:</note>
+                            <note>Following are a group of tracts, which are often associated with <title>De temporibus</title> and as Jones argues might be genuine works of Bede:</note>
                             <msItem>
                                 <locus from="13r">13r</locus>
                                 <author ref="#bede">(Ps.) Bede</author>
@@ -278,7 +276,7 @@
                         </msItem>
                         <msItem>
                             <locus from="22v" to="65v">22v-65v</locus>
-                            <note>Computistical compendium with excerpts from<title ref="#libri_computi">Libri computi</title> and <title ref="#libellus_annalis">Annalis libellus</title> cap. 1-65, 69 in different order (keeping its <foreign>annus praesens</foreign> 80r: <quote>Anni ab incarnatione domini anno praesente sunt<date when="0793">DCCXCIII</date>
+                            <note>Computistical compendium with excerpts from <title ref="#libri_computi">Libri computi</title> and <title ref="#libellus_annalis">Annalis libellus</title> cap. 1-65, 69 in different order (keeping its <foreign>annus praesens</foreign> 80r: <quote>Anni ab incarnatione domini anno praesente sunt<date when="0793">DCCXCIII</date>
                                 </quote>, but also adding the modernised years 877 and 972).</note>
                             <msItem>
                                 <locus from="22v" to="23v">22v-23v</locus>
@@ -291,7 +289,7 @@
                             <msItem>
                                 <locus from="23v">23v</locus>
                                 <rubric>Incipit liber bedae presbiteri de numero.</rubric>
-                                <note>After the rubric 15 lines left blank. Two prayers added later (s. X)<quote>Deus qui per sanguinem domini nostri ihesu christi in ligno crucis pacem hominibus et collegium caelestium angelorum dedisti da nobis et tuae pacis ubertate repleri et angelorum societate laetari pereundem</quote> and <quote>Saciati<unclear>diuone</unclear> misterio maiestatem tuam dominem suppliciter deprocamur <gap reason="omitted"/> et a cunctis periculis miseratus absoluas</quote>.</note>
+                                <note>After the rubric 15 lines left blank. Two prayers added later (s. X) <quote>Deus qui per sanguinem domini nostri ihesu christi in ligno crucis pacem hominibus et collegium caelestium angelorum dedisti da nobis et tuae pacis ubertate repleri et angelorum societate laetari pereundem</quote> and <quote>Saciati <unclear>diuone</unclear> misterio maiestatem tuam dominem suppliciter deprocamur <gap reason="omitted"/> et a cunctis periculis miseratus absoluas</quote>.</note>
                             </msItem>
                             <msItem>
                                 <locus from="24r" to="24v">24r-v</locus>
@@ -311,7 +309,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="26r" to="26v">26r-v</locus>
-                                <note>Rota named from Borst<title>Aachener Radkalender</title> showing the <quote>natalicia sanctorum in Kalendis, Nonis et Idibus per unumquemque mensem</quote>.</note>
+                                <note>Rota named from Borst <title>Aachener Radkalender</title> showing the <quote>natalicia sanctorum in Kalendis, Nonis et Idibus per unumquemque mensem</quote>.</note>
                                 <bibl>
                                     <abbr>Borst, Kalenderreform</abbr>, p. 314-15.</bibl>
                             </msItem>
@@ -321,7 +319,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="27v">27v</locus>
-                                <note>Computistical table<foreign>Pagina regularis</foreign>.</note>
+                                <note>Computistical table <foreign>Pagina regularis</foreign>.</note>
                                 <rubric>Cursus lunae per XII signa XVIIII annorum</rubric>
                             </msItem>
                             <msItem>
@@ -341,7 +339,7 @@
                                 <explicit>Ne in media ima ruas sed clara per ethera uiuas.</explicit>
                                 <note>The otherwise first two verses (<quote>Si tenebrae egyptus greco<gap reason="omitted"/> tenebrosos iure uocamus</quote> here come after verse 6 <quote>Nec simul hos iunctos homine peste trucident</quote>.</note>
                                 <bibl>
-                                    <note>Edited in</note>Chardonnens, László Sándor. <title>Anglo-Saxon Prognostics, 900-1100: Study and Texts</title>. Brill, 2007, p. 379.</bibl>
+                                    <note>Edited in </note>Chardonnens, László Sándor. <title>Anglo-Saxon Prognostics, 900-1100: Study and Texts</title>. Brill, 2007, p. 379.</bibl>
                             </msItem>
                             <msItem>
                                 <locus from="35v" to="57v">35v-57v</locus>
@@ -370,7 +368,7 @@
                                 <locus from="58r" to="65v">58r-65v</locus>
                                 <note>19-year cycle tables.</note>
                                 <rubric>Anno primo cicli decennouenalis. Cursus uel aetas lunae hoc argume<unclear>nto</unclear> cognoscitur.</rubric>
-                                <note>On f. 65v after the end of the table a smudged note<quote>O<gap reason="damage"/>s martis cepit lex quinque librorum</quote>. The rest of the page (ca. 14 lines) left blank.</note>
+                                <note>On f. 65v after the end of the table a smudged note <quote>O<gap reason="damage"/>s martis cepit lex quinque librorum</quote>. The rest of the page (ca. 14 lines) left blank.</note>
                             </msItem>
                             <msItem>
                                 <locus from="66r">66r</locus>
@@ -386,19 +384,19 @@
                                     <rubric>De concurrentibus unde acceperunt exordium</rubric>
                                     <incipit>Interrogandum est de concurrentibus septimanae diei unde acceperunt exordium</incipit>
                                     <explicit>sed semper ad unum reuertaris et sic per XXVIII lineas discurras.</explicit>
-                                    <note>Excerpt from<title ref="#libri_computi">Libri computi</title> II, 15b.</note>
+                                    <note>Excerpt from <title ref="#libri_computi">Libri computi</title> II, 15b.</note>
                                 </msItem>
                                 <msItem>
                                     <rubric>Unde procedunt regulares qui secundum sole nascuntur</rubric>
                                     <incipit>Si uis scire unde procedunt regulares qui secundum solem numerantur Id sunt</incipit>
                                     <explicit>remanent III Mai III et sic de ceteris.</explicit>
-                                    <note>Excerpt from<title ref="#libri_computi">Libri computi</title> II, 15a.</note>
+                                    <note>Excerpt from <title ref="#libri_computi">Libri computi</title> II, 15a.</note>
                                 </msItem>
                                 <msItem>
                                     <rubric>Unde regulares lunae acceperunt exordium</rubric>
                                     <incipit>Si uis scire unde procedunt regulares ad luna· Id sunt sept. V tene dies</incipit>
                                     <explicit>Alia XXVIIII recidas.</explicit>
-                                    <note>Excerpt from<title ref="#libri_computi">Libri computi</title> II, 15c.</note>
+                                    <note>Excerpt from <title ref="#libri_computi">Libri computi</title> II, 15c.</note>
                                 </msItem>
                             </msItem>
                             <msItem>
@@ -415,7 +413,7 @@
                                 <note>Computistical tables.</note>
                                 <msItem>
                                     <locus from="69r">69r</locus>
-                                    <rubric>De singulis mensibus<unclear>quae</unclear> kalendas Nones uel ides <gap reason="illegible"/> De nonis idibus et kalendis singulorum mensium</rubric>
+                                    <rubric>De singulis mensibus <unclear>quae</unclear> kalendas Nones uel ides <gap reason="illegible"/> De nonis idibus et kalendis singulorum mensium</rubric>
                                     <incipit>Ianuarius augustus et december IIII nones habent</incipit>
                                     <explicit>Omnes ergo menses VIII ides habent.</explicit>
                                 </msItem>
@@ -427,16 +425,16 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="69v">69v</locus>
-                                    <note>Aid lists for to accompany<quote>argumentum ad invenienda feria</quote>; first list starting in January, the lower one in March.</note>
+                                    <note>Aid lists for to accompany <quote>argumentum ad invenienda feria</quote>; first list starting in January, the lower one in March.</note>
                                 </msItem>                             
                             </msItem>       
                             <msItem>
                                 <locus from="70r" to="80v">70r-80v</locus>
                                 <note>Argumenta and regula.</note>
                                 <incipit>
-                                    <note>(f.70r)</note>XV. De ratione aequinoctii. A XII kalendis aprelis quod aequinoctium uernale usque in XIII kalendis iulii sunt dies XC et I<note>(= Lib. ann. LIII)</note>
+                                    <note>(f.70r) </note>XV. De ratione aequinoctii. A XII kalendis aprelis quod aequinoctium uernale usque in XIII kalendis iulii sunt dies XC et I<note>(= Lib. ann. LIII)</note>
                                 </incipit>
-                                <explicit>Si uis scire quantos debeas adicere ad lunae cursum<gap reason="omitted"/>ita in singulis annis ut quanti super XXX fnt tantos habeat ad lunae cursum<note>(= Lib. ann. XXVIII)</note>.</explicit>                        
+                                <explicit>Si uis scire quantos debeas adicere ad lunae cursum <gap reason="omitted"/> ita in singulis annis ut quanti super XXX fnt tantos habeat ad lunae cursum<note>(= Lib. ann. XXVIII)</note>.</explicit>                        
                                 <!--<note>List of chapters:
                             <list>
                                 <item n="15">De ratione aequinoctii  (= Lib. ann. LIII)</item>
@@ -480,13 +478,6 @@
                                 <item n="53">Item ratio bissextilis</item>
                                 <item n="54">De augmento diei <subst><del>et</del><add>uel</add></subst> noctis</item>
                                 <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
-                                <item n=""></item>
                             </list>
                         </note>-->
                             </msItem> 
@@ -526,7 +517,7 @@
                             <title ref="#chronica_maiora">Chronica maiora</title>
                             <rubric>Incipit<unclear>chronica</unclear> ab anno incarnationis domini <gap/> ab initio uero mundi anno IIII DCC LXX</rubric>                        
                             <incipit>Iustinianus minor filius constantini regnauit annos X. Hic constituit pacem cum sarracenis decennio terra marique</incipit>
-                            <explicit>Imperator<unclear>hludouicus</unclear> 
+                            <explicit>Imperator <unclear>hludouicus</unclear> 
                         <gap/> cum consilio francorum constituit.</explicit>
                         </msItem>
                     </msContents>

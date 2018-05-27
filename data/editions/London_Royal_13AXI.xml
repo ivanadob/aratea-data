@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -6,8 +5,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">London, BL, Royal MS 13 A XI</ref>
-                </title>
+            <title type="sub">London, BL, Royal MS 13 A XI</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -57,6 +55,7 @@
                     <note type="caption"/>
                     <origPlace ref="#"/>
                     <origDate notBefore="1051" notAfter="1200">s.XI<hi rend="sup">2</hi>-XII</origDate>
+                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">www.bl.uk.</ref>
                 </head>                
             <msContents>
                 <msItem>
@@ -86,7 +85,7 @@
                 </msItem>
                     <msItem>
                         <locus from="12v" to="13r">12v-13r</locus>
-                        <title>Dies Egyptiaci</title>
+                        <title ref="#dies_egyptiaci">Dies Egyptiaci</title>
                         <rubric>De diebus egyptiis</rubric>
                         <incipit>Si tenebre ęgiptus graio sermone uocatur</incipit>
                         <explicit>mortale periculum est sanguinem minuere.</explicit>
@@ -98,7 +97,6 @@
                      <locus from="13r">13r</locus>
                      <rubric>Incipit ciclus annalis</rubric>
                      <incipit>Arsista apud hebreos siros et chaldeos nimiam uocatur</incipit>
-                     <explicit/>
                      <note>Computistical table for the moveable feasts.</note>
                   </msItem>
                   <msItem>
@@ -137,57 +135,85 @@
                   <title ref="#DT">De temporibus</title>
                   <rubric>Incipit secundus de temporibus horis et momentis</rubric>
                   <incipit>Tempora momentis horis diebus mensibus annis saeculis ętatibus diuiduntur</incipit>
-                  <explicit/>
+                  <explicit>Reliquum sexte etatis deo soli patet finis.</explicit>
+                   <finalRubric>Explicit.</finalRubric>
                </msItem>
                <msItem>
                   <locus from="28r" to="29v">28r-29v</locus>
-                  <title>Epistola Petosiris de sphera vite et mortis</title>
-                  <incipit>
-                            <sic>Pitoris</sic> Necnepso regi salutem. De his que a me ad humane vite</incipit>
+                  <title ref="#apuleian_sphere">Apuleian Sphere</title>
+                   <rubric>Ratio de egris.</rubric>
+                  <incipit>Pitoris (corrected to: Pitorisis) Necnepso regi salutem. De his que a me ad humane vite</incipit>
                   <decoNote>(ff. 28v-29r) and two circular diagrams (f. 29v).</decoNote>
                </msItem>
+                <msItem>
+                    <locus from="30r">30r</locus>
+                    <note>blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="30v" to="103v">30v-103v</locus>
+                    <author ref="#bede">Bede</author>
+                    <title ref="#DTR">De temporum ratione</title> 
                     <msItem>
-                        <locus from="30v" to="103v">30v-103v</locus>
-                        <author>Bede</author>
-                        <title>De temporum ratione</title> 
-                        <msItem>
-                            <locus from="30v" to="31r">30v-31r</locus>
-                            <note>Prologue:</note>
-                            <incipit/>
-                        </msItem>
+                        <locus from="30v" to="31v">30v-31v</locus>
+                        <note>Prologue:</note>
+                        <rubric>Incipit prologus in libro Bede de temporibus III.</rubric>
+                        <incipit>De natura rerum et ratione temporum duos quondam</incipit>
+                        <explicit>fraternitatis intemerata iura custodiat.</explicit>
+                        <finalRubric>Explicit prologus.</finalRubric>
+                    </msItem>
+                    <msItem>
+                        <locus from="31v" to="32r">31v-32r</locus>
+                        <rubric>Incipiunt capitula</rubric>
+                    </msItem>
+                    <msItem>
+                        <locus from="32r">32r</locus>
+                        <rubric>Incipit liber tertius de compoto vel loquela digitorum.</rubric>
+                        <explicit>mereamur accipere palmam.</explicit>
+                        <finalRubric>Explicit liber Bede resbiteri de temporibus tertius</finalRubric>
+                    </msItem>
                </msItem>
                <msItem>
-                  <locus from="104r" to="112v">104r-112v</locus>
-                  <author>Hyginus</author>
-                  <title>De astrologia</title>
-                  <incipit>Duo sunt vertices mundi</incipit>
-                  <note>book 1 to 3.</note>
+                  <locus from="104r" to="105r">104r-105r</locus>
+                   <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                  <incipit>Duo sunt vertices mundi quos appelant polos</incipit>
+                   <explicit>ad ipsum usque decurrit accipiens.</explicit>
                </msItem>
-                    <msItem>
-                        <locus from="112v" to="113r">112v-113r</locus>
-                        <note>Short astrological text preceding Abbo of Fleury's Sententia</note>
-                        <incipit>Colurorum primus incipit ad octava parte arietis</incipit>
-                    </msItem>
+                <msItem>
+                    <locus from="105r" to="113r">105r-113r</locus>
+                    <title ref="#excerptio_abbonis">Excerptio Abbonis ex higino de figuratione signorum</title>
+                    <author ref="#abbo">Abbo of Fleury</author>
+                    <incipit>Denique ut dicit plinius inter omnia sunt LXXII<hi rend="sup">ta</hi> signa</incipit>
+                    <explicit>secans ad octauam partem cancri redit.</explicit>
+                    <decoNote>Drawings of the constellations.</decoNote>
+                </msItem>                    
                <msItem>
-                  <locus from="113r" to="115v">113r-115v</locus>
-                  <author>Abbo of Fleury</author> 
-                  <title>De differentia circule et sphere</title>
-                  <incipit>Studiosis astrologie primo sciendum est</incipit>
+                  <locus from="113r" to="115v">113r-114r</locus>
+                   <author ref="#abbo">Abbo of Fleury</author> 
+                   <title ref="#abbo_sentenia">Sententia Abbonis de differentia circuli et sperae</title>
+                   <incipit>Studiosis astrologię primo sciendum est</incipit>
+                   <explicit>Si vero nota est aliquis planetarum est.</explicit>
                </msItem>
-                    <msItem>
-                        <locus from="114r" to="115v">114r-115v</locus>
-                        <author>Abbo of Fleury</author>
-                        <title>Excerptio Abbonis ex Hygino de figuratione signorum</title>
-                        <incipit>Denique luna totius Zodiaci signa</incipit>
-                    </msItem>
+                <msItem>
+                    <locus from="114r" to="115v">114r-115v</locus>
+                    <author ref="#abbo">Abbo of Fleury</author>
+                    <incipit>Denique luna totius zodiaci signa puncta partes studiooso lectori manifestabit</incipit>
+                    <explicit>similiter in reliquis.</explicit>
+                    <finalRubric>Explicit liber arati de signis celestibus.</finalRubric>
+                    <decoNote>Diagram of the lunar motion on f.14v.</decoNote>
+                </msItem>
                <msItem>
                   <locus from="115v" to="118r">115v-118r</locus>
-                  <title>De xii signis cur figurantur sic de ariete</title>
+                   <title ref="#de_duodecim_signis">De duodecim signis</title>
+                  <rubric>De XII signis cur figurantur sic de ariete</rubric>
+                   <incipit>Regionem primam celi in qua sol cursum suum dirigit</incipit>
+                   <explicit>ac si numquam fuissent audita vel scripta penitus omittenda, quae diabolicus error confirmavit sed christus dominus salvator mundi evertit.</explicit>
+                   <decoNote>Diagram of the rising and setting of the sun throughout the year.</decoNote>
                </msItem>
                     <msItem>
                         <locus from="118v" to="119v">118v-119v</locus>
-                        <note>On the measurements of the celestes circuli</note>
-                        <incipit>Spera fiat omni parte equalis</incipit>
+                        <title ref="#spera_fiat">On the celestial circles and the postiton of the constellations</title>
+                        <incipit>Spera fiat omni parte equalis et rotunda</incipit>
+                        <explicit>leua manu ipsius serpentis pectus stringens flexuosu.</explicit>
                     </msItem>
                <msItem>
                   <locus from="120r" to="126v">120r-126v</locus>

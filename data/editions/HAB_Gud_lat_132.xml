@@ -6,7 +6,7 @@
 				        <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">&gt;Wolfenbüttel HAB, Cod. Guelf. 132 Gud. lat.</title>
+            <title type="sub">Wolfenbüttel HAB, Cod. Guelf. 132 Gud. lat.</title>
 				        <respStmt>
 					          <resp>cataloged by</resp>
 					          <name>Ivana Dobcheva</name>
@@ -27,10 +27,13 @@
 			      <sourceDesc>
                 <p/>
 			      </sourceDesc>
-		    </fileDesc>   
+		    </fileDesc> 
+	  	<revisionDesc status="complete">
+	  		<change when="2018-05-18">License CC 4.0 added and minor corrections.</change>
+	  	</revisionDesc>
 	  </teiHeader>
 	  <facsimile>
-		    <graphic url=""/>
+	  	<graphic url="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001"/>
 	  </facsimile>
 	  <text>
 		    <body>
@@ -81,7 +84,7 @@
 						            <rubric>Incipiunt uersus de nuptiis philologiae</rubric>
 						            <incipit>Et iam tunc roseo subtexere sidera peplo<lb/> Coeperat amboru<am>m</am> promens aurora pudorem</incipit>
 						            <explicit>ac nos sacrate musas.</explicit>
-						            <note>Remarks: written by a different hand than the<quote>De architectura</quote>. Different ruling – the outer double lines are more narrow to each other; also pricking visible unlike in the previous f.os; also different hand; all clues suggest that this is a separate but contemporary production.</note>
+						            <note>Remarks: written by a different hand than the <quote>De architectura</quote>. Different ruling – the outer double lines are more narrow to each other; also pricking visible unlike in the previous f.os; also different hand; all clues suggest that this is a separate but contemporary production.</note>
 						            <msItem>
 							              <locus from="52v" to="54r">52v-54r</locus>
 							              <author ref="#martianus_capella">Martianus Capella</author>
@@ -111,7 +114,7 @@
 					          </msItem>
 					          <msItem>
 						            <locus from="61v">61v</locus>
-						            <note>Lemmata to<rs type="person" role="author" ref="#avienus">Avienus</rs>' <title>Aratea</title>
+						            <note>Lemmata to <rs type="person" role="author" ref="#avienus">Avienus</rs>' <title>Aratea</title>
                         </note>
 						            <rubric>Rufi festi auieni uiri clari arati phenomena</rubric>
 						            <incipit>Arctoe anguis corona<add resp="later">o</add>phyucus</incipit>
@@ -155,7 +158,7 @@
                             <hi rend="font-variant:small-caps">Incipit ortographia bedę praesbyteri</hi>
                         </rubric>
 						            <incipit>A littera &amp;iam nota praenominis est</incipit>
-						            <explicit>oratoris sermo peruerat.<hi rend="font-variant:small-caps">Explicit. Amen.</hi>
+						            <explicit>oratoris sermo peruerat. <hi rend="font-variant:small-caps">Explicit. Amen.</hi>
                         </explicit>
 					          </msItem>					
 				        </msContents>
@@ -227,7 +230,7 @@
 				        <history>
 					          <summary/>
 					          <origin>
-						            <p>According to<bibl>Ganz</bibl> the manuscript was written at <rs type="corporate" ref="#corvey">Corvey Abbey</rs> partially copied by a Corbie scribe.</p>
+						            <p>According to <bibl>Ganz</bibl> the manuscript was written at <rs type="corporate" ref="#corvey">Corvey Abbey</rs> partially copied by a Corbie scribe.</p>
 					          </origin>
 					          <provenance>
 						            <p>According to Gustav Milchsack there is a note on the lower margin of f.<locus from="11v">11v</locus>: <quote>
@@ -241,11 +244,11 @@
 					          <listBibl>
 						            <head>Selected bibliography:</head>
 						            <bibl>Ganz, Corbie, p. 158</bibl>
-						            <bibl>O. Heinemann, Die Hss. der Herzoglichen Bibliothek zu Wolfenbüttel, IV, pp. 155-6</bibl>
-						            <bibl>Leonardi, C. I codici di Marziano Capella, in Aevum 34 (1960): 493-4</bibl>
-						            <bibl>Ebert, F. A. Zur Handschriftenkunde, II, pp. 29, 40, 138, 142, 177</bibl>
-						            <bibl>Keil, H. Grammatici Latini III, pp. 398-9</bibl>
-						            <bibl>Holder, A. Rufi Festi Auieni Carmina, ad Aeni pontem 1887, pp. xii-xiii</bibl>
+						            <bibl>O. Heinemann, Die Hss. der Herzoglichen Bibliothek zu Wolfenbüttel, IV, pp. 155-6.</bibl>
+						            <bibl>Leonardi, C. I codici di Marziano Capella, in Aevum 34 (1960): 493-4.</bibl>
+						            <bibl>Ebert, F. A. Zur Handschriftenkunde, II, pp. 29, 40, 138, 142, 177.</bibl>
+						            <bibl>Keil, H. Grammatici Latini III, pp. 398-9.</bibl>
+						            <bibl>Holder, A. Rufi Festi Auieni Carmina, ad Aeni pontem 1887, pp. xii-xiii.</bibl>
 					          </listBibl>
 				        </additional>
 			      </msDesc>

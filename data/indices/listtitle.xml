@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <work xml:id="abbo_sentenia">
@@ -47,6 +46,12 @@
         <title>Anonymus Sangallensis</title>
         <incipit>Herodius dicit helicem licaonis fuisse filiam</incipit>
         <explicit>absides eius ultima in capricorno est.</explicit>
+    </work>
+    <work xml:id="apuleian_sphere">
+        <title>Apuleian sphere</title>
+        <note>Referred to also as Sphere of life and death, Sphere of Petosiris. Attributed to Apuleius, Nechepso, Petosiris and others. In some version the diagram is preceeded by a letter from Petosiris to the Pharaoh Nechepso.</note>
+        <bibl>Chardonnens, S. Anglo-Saxon Prognostics, 900-1100: Study and Texts, pp. 181-222.</bibl>
+        <bibl>Fuentes González, P. "Néchepso-Pétosiris." In R. Goulet (ed.), Dictionnaire des Philosophes Antiques, vol. IV. Paris: CNRS, 2005, p. 601-615.</bibl>
     </work>
     <work xml:id="aratea_avienus" ref="http://d-nb.info/gnd/4122863-7">
         <title>Aratea</title>
@@ -211,6 +216,9 @@
          <abbr>PL</abbr>, <ref target="http://www.documentacatholicaomnia.eu/02m/0560-0636,_Isidorus_Hispaliensis,_De_Ortu_Et_Obitu_Patrum_Qui_In_Scriptura_Laudibus_Efferuntur,_MLT.pdf/"/>
       </bibl>
     </work>
+    <work xml:id="dies_egyptiaci">
+        <title>Dies egyptiaci</title>
+    </work>
     <work xml:id="geometria_i">
         <author ref="#boethius">Pseudo-Boethius</author>
         <title>Geometry I</title>
@@ -294,6 +302,13 @@
         <author ref="#censorinus">Censorinus</author>
         <bibl>M. Olsen, L'étude des auteurs classiques latins aux xie et xiie siècles, IV. 2, p. 114, 332.</bibl>
       <!--        mentioned also St Gall 250 (s. ix2); Paris 1614 s. ix1 Tours, Bruxelles 5413-5422 (s. ix3/3 NE France), bern 87-->
+    </work>
+    <work xml:id="de_duodecim_signis">
+        <title>De duodecim signis</title>
+        <incipit>Regionem duodecim caeli in qua sol cursum suum dirigit</incipit>
+        <explicit>ac si numquam fuissent audita vel scripta penitus omittenda, quae diabolicus error confirmavit sed christus dominus salvator mundi evertit.</explicit>
+        <note>Text divided in twelve section for each zodiacal sign; the explanation for the names of the twelve zones are not mythological.</note>
+        <bibl>Vogels, J. (ed.). Scholia in Ciceronis Aratea aliquae ad astronomiam pertinentia e codice Musei Britannici Harleiano 647. 1884. </bibl>
     </work>
     <work xml:id="de_figuris_numerorum">
         <author ref="#priscianus">Priscianus</author>
