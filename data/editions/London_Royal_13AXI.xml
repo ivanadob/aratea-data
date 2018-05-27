@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -211,15 +212,18 @@
                </msItem>
                     <msItem>
                         <locus from="118v" to="119v">118v-119v</locus>
-                        <title ref="#spera_fiat">On the celestial circles and the postiton of the constellations</title>
+                        <title ref="#sphera_fiat">On the celestial circles and the postiton of the constellations</title>
                         <incipit>Spera fiat omni parte equalis et rotunda</incipit>
                         <explicit>leua manu ipsius serpentis pectus stringens flexuosu.</explicit>
                     </msItem>
                <msItem>
                   <locus from="120r" to="126v">120r-126v</locus>
-                  <author>Dungalus</author>
-                  <title>Epistola ad Carolum Magnum de duplici solis eclipsi anno 810</title>
-                  <note>Dungal's letter to Charlemagne about the two solar eclipses that occurred in 810.</note>
+                  <author ref="#dungal">Dungal</author>
+                   <title ref="#dungal_letter">Epistola ad Carolum Magnum de duplici solis eclipsi anno 810</title>
+                   <incipit>In nomine patris et filii et spiritus sancti. Domino gloriosissimo Karolo serenissimo augusto</incipit>
+                   <explicit/>
+                   ##################
+                  <note>Dungal's letter to Charlemagne about the two solar eclipses that occurred in 810. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text here is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117.</note>
                </msItem>
                     <msItem>
                         <locus from="126v" to="127r">126v-127r</locus>

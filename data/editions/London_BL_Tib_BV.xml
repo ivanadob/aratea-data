@@ -158,7 +158,7 @@
                         </msItem>
                         <msItem>
                             <locus from="2v">2v</locus>
-                            <note>Short texts on the months, and the<term>regulares</term>.</note>
+                            <note>Short texts on the months, and the <term>regulares</term>.</note>
                             <msItem>
                                 <incipit>Coniunge regulares singulorum mensium et epactas</incipit>
                             <explicit>quot remanent ipsa est ętas lunae.</explicit>
@@ -249,7 +249,7 @@
                     </msItem>
                     <msItem>
                         <locus from="30r" to="32r">30ra-32ra</locus>
-                        <title ref="#de_nominibus_stellarum">De nominibus stellarum</title>
+                        <title ref="#de_duodecim_signis">De duodecim signis</title>
                         <rubric>De duodecim signis</rubric>
                         <incipit>Regionem XII<hi rend="sup">ma</hi> cęli in quam sol cursum suum dirigit</incipit>
                         <explicit>sed christus dominus saluator mundi euertit.</explicit>

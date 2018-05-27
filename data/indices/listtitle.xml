@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <work xml:id="abbo_sentenia">
@@ -219,6 +220,12 @@
     <work xml:id="dies_egyptiaci">
         <title>Dies egyptiaci</title>
     </work>
+    <work xml:id="dungal_letter">
+        <author ref="#dungal">Dungal</author>
+        <title>Epistola ad Carolum Magnum de duplici solis eclipsi anno 810</title>
+        <bibl>
+            <abbr>MGH Epp.</abbr> IV, <ref target="http://www.mgh.de/dmgh/resolving/MGH_Epp._4_S._570">pp. 570</ref>.</bibl>
+    </work>
     <work xml:id="geometria_i">
         <author ref="#boethius">Pseudo-Boethius</author>
         <title>Geometry I</title>
@@ -302,14 +309,7 @@
         <author ref="#censorinus">Censorinus</author>
         <bibl>M. Olsen, L'étude des auteurs classiques latins aux xie et xiie siècles, IV. 2, p. 114, 332.</bibl>
       <!--        mentioned also St Gall 250 (s. ix2); Paris 1614 s. ix1 Tours, Bruxelles 5413-5422 (s. ix3/3 NE France), bern 87-->
-    </work>
-    <work xml:id="de_duodecim_signis">
-        <title>De duodecim signis</title>
-        <incipit>Regionem duodecim caeli in qua sol cursum suum dirigit</incipit>
-        <explicit>ac si numquam fuissent audita vel scripta penitus omittenda, quae diabolicus error confirmavit sed christus dominus salvator mundi evertit.</explicit>
-        <note>Text divided in twelve section for each zodiacal sign; the explanation for the names of the twelve zones are not mythological.</note>
-        <bibl>Vogels, J. (ed.). Scholia in Ciceronis Aratea aliquae ad astronomiam pertinentia e codice Musei Britannici Harleiano 647. 1884. </bibl>
-    </work>
+    </work>    
     <work xml:id="de_figuris_numerorum">
         <author ref="#priscianus">Priscianus</author>
         <title>De figuris numerorum</title>
@@ -354,6 +354,18 @@
         <incipit>Nominibus mensum quae sit rationis origo</incipit>
         <incipit>Quem primum mensem servari Iulius anni</incipit>
         <explicit>Maxima Agrippinae veteris quis moenia praesunt.</explicit>
+    </work>
+    <work xml:id="de_duodecim_signis">
+        <title>De duodecim signis</title>
+        <incipit>Regionem duodecim caeli in qua sol cursum suum dirigit</incipit>
+        <explicit>ac si numquam fuissent audita vel scripta penitus omittenda, quae diabolicus error confirmavit sed christus dominus salvator mundi evertit.</explicit>
+        <note>Text divided in twelve section for each zodiacal sign; the explanation for the names of the twelve zones are not mythological. Then on the name of constellations based on Isidore, Etym. III, 71 (De nominibus stellarum); reproach to these fabulis mendacissimis foedicissimisque.</note>
+        <bibl>Vogels, J. (ed.). Scholia in Ciceronis Aratea aliquae ad astronomiam pertinentia e codice Musei Britannici Harleiano 647. 1884. </bibl>
+    </work>
+    <work xml:id="sphera_fiat">
+        <title>On the celestial circles and the postiton of the constellations</title>
+        <incipit>Spera fiat omni parte equalis et rotunda</incipit>
+        <explicit>leua manu ipsius serpentis pectus stringens flexuosu.</explicit>
     </work>
     <work xml:id="de_nuptiis" ref="http://d-nb.info/gnd/4285130-0">
         <title>De nuptiis Philologiae et Mercirii</title>
