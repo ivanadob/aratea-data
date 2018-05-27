@@ -6,8 +6,7 @@
 				        <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description<ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Wolfenbüttel HAB, Cod. Guelf. 132 Gud. lat.</ref>
-                </title>
+            <title type="sub">&gt;Wolfenbüttel HAB, Cod. Guelf. 132 Gud. lat.</title>
 				        <respStmt>
 					          <resp>cataloged by</resp>
 					          <name>Ivana Dobcheva</name>
@@ -21,7 +20,9 @@
 				        </respStmt>
 			      </editionStmt>
 			      <publicationStmt>
-				        <p/>
+				        <availability status="free">
+				        	<licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+				        </availability>			      	
 			      </publicationStmt>
 			      <sourceDesc>
                 <p/>
@@ -42,9 +43,10 @@
 				        </msIdentifier>
 				        <head>
 					          <title/>
-					          <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+					          <note type="caption"/>
 					          <origPlace ref="#corvey">Corvey Abbey</origPlace>
 					          <origDate notBefore="0850" notAfter="0900">IX<hi rend="sup">2</hi>
+					          	Digital facsimile at <ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref>
                     </origDate>
 				        </head>
 				        <msContents>

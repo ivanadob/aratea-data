@@ -45,7 +45,7 @@
                 <head>
                     <title/>
                     <note type="caption"/>
-                    <origPlace ref="#"/>
+                    <origPlace ref="#bobbio">Bobbio</origPlace>
                     <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                     </origDate>
                 </head>                
@@ -66,10 +66,10 @@
                     <title ref="#de_rerum_natura">De natura rerum</title>
                     <msItem>
                         <locus from="9r" to="11v">9r-11v</locus>
-                        <note>Book II (v. 642-1174)</note>
+                        <note>Book II (vv. 642-1174)</note>
                         <incipit>Ac uirtute uelint patriam defendere terram</incipit>
                         <explicit>ad scopullum spaclo <note>(for spacio ?)</note> etatis defensa uetusto. </explicit>
-                        <finalRubric>Titi Lucretii Cari de rerum natura liber II explicit</finalRubric>
+                        <finalRubric>Titi Lucretii Cari de rerum natura liber II explicit.</finalRubric>
                     </msItem>
                     <msItem>
                         <locus from="11v" to="14v">11v-14v</locus>
@@ -83,28 +83,27 @@
                         <note>Book VI (vv. 743-1281)</note>
                         <incipit>
                                 <supplied>remigii oblitae pennarum ve</supplied>la remittunt</incipit> 
-                        <explicit>Rixantes pocius quam corpora deserentur</explicit> 
-                        <!--Mark on the margin h editorial for ommision added later. But no additon (?)-->
+                        <explicit>Rixantes pocius quam corpora deserentur.</explicit> 
                     </msItem>
                     <msItem>
                         <locus from="17v">17va-b</locus>
-                        <note>After a rubrication that is almost completely erased begin Excerpts from Book II, vv. 757-805:</note>
+                        <note>After a rubrication that is almost completely erased begins a section from Book II (vv. 757-805)</note>
                         <incipit>Praeterea si nulla coloris principiis est</incipit>
-                        <explicit>Inter ceruleum uiridis miscere zmaragdos</explicit>
+                        <explicit>Inter ceruleum uiridis miscere zmaragdos.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="17v" to="17v">17vb</locus>
                         <note>Book V (vv. 926-1077)</note>
                         <rubric>De cauda pauonis</rubric>
                         <incipit>Fundatum ualidis aptum per uiscera neruis</incipit>
-                        <explicit>non erat ut fieri posset mirarier umquam</explicit>
+                        <explicit>non erat ut fieri posset mirarier umquam.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="18r" to="18r">18ra</locus>
                         <note>Book I (vv. 734-785 skipped in <ref type="altMs" target="http://www.kb.dk/permalink/2006/manus/241/eng/5+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 5ra</ref>)</note>
                         <incipit>
                                 <supplied>Hic tamen</supplied> et supra quo diximus inferiores</incipit>
-                        <explicit>ex igni retroque in terram cuncta reverti</explicit>
+                        <explicit>ex igni retroque in terram cuncta reverti.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="18r">18ra-b</locus> 
@@ -155,8 +154,6 @@
                             </rubric>
                         <incipit>Si te propositi nondum pudet adque eadem est mens</incipit>
                         <explicit>proxima nec patimur tirrenum crescere <supplied>piscem</supplied>.</explicit>
-                        <!--<note>On 21r text of Iuvenal ‘sublimibus unde cerebrum/ testa ferit quotiens rimosa ..’ but at the bottom of the margin text : ..seqturferit hinc ubito ferteas .. dure’ – could it be that it was written before pages were cut and this is from another page?
-                Hard to imagine but...’</note>-->
                     </msItem>
                 </msItem>                
             </msContents>
@@ -180,14 +177,12 @@
                                 <formula>I<hi rend="sup">8</hi> (ff. 1-8); II<hi rend="sup">6</hi> (ff. 9-14); III<hi rend="sup">8</hi> (ff. 15-22).</formula>
                             </collation>
                           <condition>
-                              <p>Probably lost a couple of leaves after f.8 with the rest of the poem (missing 297 vv = less than two folios if one column has 47vv-&gt; 1 folio = 188vv).</p>
+                              <p>Probably lost a couple of leaves after f.8 with the rest of the poem (missing 297 verses, which could fit around two folios). The eight folia preserved in <ref type="altMs" target="www.kb.dk/permalink/2006/manus/241">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°</ref> preceeded once the second quire. Gap between the second and third preserved quires - between ff. 14 and 15.</p>
                           </condition>
                   </supportDesc>
                    <layoutDesc>
                        <layout columns="2" writtenLines="47 55">
-                                <locus from="1r" to="8v">1r-8v</locus> written in two columns, 47-55 lines; initials for verses detached from the verse; texts occpupies almost the whole length of the page;</layout>
-                       <layout columns="2" writtenLines="47">
-                                <locus from="9r">9r-</locus> not the same layout although again in two columns, 47 lines; initials not detached from verses, but with capitals</layout>
+                                <locus from="1r" to="8v">1r-8v</locus> written in two columns, ruled 47 partly irregular lines; at some instances two verses written in the space of one ruler line, with up to 55 written lines; initials for verses detached from the verse; texts occpupies almost the whole length of the page.</layout>                       
                   </layoutDesc>
                </objectDesc>  
                 <handDesc>
@@ -198,7 +193,7 @@
                 </scriptDesc>
                 <bindingDesc>
                     <binding>
-                        <p>Paper binding from 19th c.</p>
+                        <p>Paper binding from the 19th c.</p>
                     </binding>
                 </bindingDesc>
             </physDesc>
@@ -216,6 +211,7 @@
                   <head>Selected Bibliography:</head>
                    <bibl>
                             <abbr>Bischoff, Katalog I</abbr>, p. 411.</bibl>
+                   <bibl>Bischoff, Die Abtei Lorsch im Spiegel ihrer Handschriften. Lorsch: Laurissa, 1989, p. 74.</bibl>
                    <bibl>
                             <abbr>Munk Olsen, Catalogue 2</abbr>, p. 88.</bibl>
                    <bibl>
