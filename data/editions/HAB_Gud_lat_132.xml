@@ -1,8 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="eng">
 	  <teiHeader>
 		    <fileDesc>
 			      <titleStmt>
@@ -52,8 +49,7 @@
 					          <note type="caption"/>
 					          <origPlace ref="#corvey">Corvey Abbey</origPlace>
 					          <origDate notBefore="0850" notAfter="0900">IX<hi rend="sup">2</hi>
-					          	Digital facsimile at <ref type="altMs"
-                       target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref>
+					          	Digital facsimile at <ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref>
                     </origDate>
 				        </head>
 				        <msContents>

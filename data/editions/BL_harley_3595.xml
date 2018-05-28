@@ -1,16 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss"
-                    target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">London, British Library, Harley MS 3595</ref>
+            <title type="sub">Description of<ref type="mss" target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">London, British Library, Harley MS 3595</ref>
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -41,42 +37,24 @@
 		-->
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001v"
-               n="1v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048r"
-               n="48r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048v"
-               n="48v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049r"
-               n="49r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049v"
-               n="49v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050r"
-               n="50r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050v"
-               n="50v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f051r"
-               n="51r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f052v"
-               n="52v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053r"
-               n="53r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053v"
-               n="53v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f054v"
-               n="54v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f055r"
-               n="55r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f056v"
-               n="56v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f057r"
-               n="57r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f068r"
-               n="68r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f072r"
-               n="72r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f073v"
-               n="73v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001v" n="1v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048r" n="48r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048v" n="48v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049r" n="49r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f049v" n="49v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050r" n="50r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f050v" n="50v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f051r" n="51r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f052v" n="52v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053r" n="53r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f053v" n="53v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f054v" n="54v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f055r" n="55r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f056v" n="56v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f057r" n="57r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f068r" n="68r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f072r" n="72r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f073v" n="73v"/>
     </facsimile>
     <text>
         <body>

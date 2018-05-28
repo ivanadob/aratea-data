@@ -1,8 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -37,8 +34,7 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f001r"
-               n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f001r" n="1r"/>
     </facsimile>
     <text>
         <body>

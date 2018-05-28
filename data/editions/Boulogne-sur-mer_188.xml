@@ -1,16 +1,12 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="eng">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss"
-                    target="http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=115">Boulogne-sur-mer, BM, MS 188</ref>
+            <title type="sub">Description of<ref type="mss" target="http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=115">Boulogne-sur-mer, BM, MS 188</ref>
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -41,88 +37,47 @@
 		-->
     </teiHeader>
     <facsimile>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94654"
-               n="1r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94656"
-               n="1v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94656"
-               n="2r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94660"
-               n="5v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94660"
-               n="6r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94662"
-               n="7v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94662"
-               n="8r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94663"
-               n="8v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94663"
-               n="9r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94665"
-               n="10v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94665"
-               n="11r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94673"
-               n="18v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94673"
-               n="19r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94674"
-               n="19v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94674"
-               n="20r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94675"
-               n="20v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94675"
-               n="21r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94676"
-               n="21v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94676"
-               n="22r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94677"
-               n="22v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94677"
-               n="23r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94678"
-               n="23v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94678"
-               n="24r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94679"
-               n="24v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94679"
-               n="25r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94680"
-               n="25v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94680"
-               n="26r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94681"
-               n="26v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94681"
-               n="27r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94682"
-               n="27v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94682"
-               n="28r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94683"
-               n="28v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94683"
-               n="29r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94684"
-               n="29v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94684"
-               n="30r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94685"
-               n="30v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94685"
-               n="31r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94686"
-               n="31v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94686"
-               n="32r"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94687"
-               n="32v"/>
-        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94687"
-               n="33r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94654" n="1r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94656" n="1v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94656" n="2r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94660" n="5v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94660" n="6r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94662" n="7v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94662" n="8r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94663" n="8v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94663" n="9r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94665" n="10v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94665" n="11r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94673" n="18v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94673" n="19r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94674" n="19v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94674" n="20r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94675" n="20v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94675" n="21r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94676" n="21v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94676" n="22r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94677" n="22v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94677" n="23r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94678" n="23v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94678" n="24r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94679" n="24v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94679" n="25r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94680" n="25v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94680" n="26r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94681" n="26v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94681" n="27r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94682" n="27v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94682" n="28r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94683" n="28v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94683" n="29r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94684" n="29v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94684" n="30r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94685" n="30v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94685" n="31r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94686" n="31v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94686" n="32r"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94687" n="32v"/>
+        <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94687" n="33r"/>
     </facsimile>
     <text>
         <body>

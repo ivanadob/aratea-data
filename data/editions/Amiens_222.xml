@@ -1,8 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -37,134 +34,70 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f1.image"
-               n="VD"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f2.image"
-               n="VS"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f3.image"
-               n="Ir"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f4.image"
-               n="Iv"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f5.image"
-               n="1r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f6.image"
-               n="1v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f7.image"
-               n="2r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f8.image"
-               n="2v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f9.image"
-               n="3r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f10.image"
-               n="3v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f11.image"
-               n="4r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f12.image"
-               n="4v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f13.image"
-               n="5r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f14.image"
-               n="5v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f15.image"
-               n="6r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f16.image"
-               n="6v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f17.image"
-               n="7r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f18.image"
-               n="7v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f19.image"
-               n="8r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f20.image"
-               n="8v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f21.image"
-               n="9r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f22.image"
-               n="9v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f23.image"
-               n="10r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f24.image"
-               n="10v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f25.image"
-               n="11r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f26.image"
-               n="11v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f27.image"
-               n="12r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f28.image"
-               n="12v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f29.image"
-               n="13r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f30.image"
-               n="13v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f31.image"
-               n="14r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f32.image"
-               n="14v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f33.image"
-               n="15r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f34.image"
-               n="15v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f35.image"
-               n="16r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f36.image"
-               n="16v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f37.image"
-               n="17r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f38.image"
-               n="17v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f39.image"
-               n="18r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f40.image"
-               n="18v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f41.image"
-               n="19r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f42.image"
-               n="19v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f43.image"
-               n="20r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f44.image"
-               n="20v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f45.image"
-               n="21r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f46.image"
-               n="21v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f47.image"
-               n="22r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f48.image"
-               n="22v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f49.image"
-               n="23r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f50.image"
-               n="23v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f51.image"
-               n="24r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f52.image"
-               n="24v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f53.image"
-               n="25r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f54.image"
-               n="25v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f55.image"
-               n="26r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f56.image"
-               n="26v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f57.image"
-               n="27v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f58.image"
-               n="27v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f59.image"
-               n="28r"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f60.image"
-               n="28v"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f61.image"
-               n="Ir*"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f62.image"
-               n="Iv*"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f63.image"
-               n="HS"/>
-        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f64.image"
-               n="HD"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f1.image" n="VD"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f2.image" n="VS"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f3.image" n="Ir"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f4.image" n="Iv"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f5.image" n="1r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f6.image" n="1v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f7.image" n="2r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f8.image" n="2v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f9.image" n="3r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f10.image" n="3v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f11.image" n="4r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f12.image" n="4v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f13.image" n="5r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f14.image" n="5v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f15.image" n="6r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f16.image" n="6v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f17.image" n="7r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f18.image" n="7v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f19.image" n="8r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f20.image" n="8v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f21.image" n="9r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f22.image" n="9v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f23.image" n="10r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f24.image" n="10v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f25.image" n="11r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f26.image" n="11v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f27.image" n="12r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f28.image" n="12v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f29.image" n="13r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f30.image" n="13v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f31.image" n="14r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f32.image" n="14v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f33.image" n="15r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f34.image" n="15v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f35.image" n="16r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f36.image" n="16v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f37.image" n="17r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f38.image" n="17v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f39.image" n="18r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f40.image" n="18v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f41.image" n="19r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f42.image" n="19v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f43.image" n="20r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f44.image" n="20v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f45.image" n="21r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f46.image" n="21v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f47.image" n="22r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f48.image" n="22v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f49.image" n="23r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f50.image" n="23v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f51.image" n="24r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f52.image" n="24v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f53.image" n="25r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f54.image" n="25v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f55.image" n="26r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f56.image" n="26v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f57.image" n="27v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f58.image" n="27v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f59.image" n="28r"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f60.image" n="28v"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f61.image" n="Ir*"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f62.image" n="Iv*"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f63.image" n="HS"/>
+        <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b8452179s/f64.image" n="HD"/>
     </facsimile>
     <text>
         <body>

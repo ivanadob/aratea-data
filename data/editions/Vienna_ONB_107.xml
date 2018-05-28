@@ -1,8 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     version="5.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -102,16 +99,14 @@
                     </msItem>
                     <msItem>
                         <locus from="18r" to="18r">18ra</locus>
-                        <note>Book I (vv. 734-785 skipped in <ref type="altMs"
-                             target="http://www.kb.dk/permalink/2006/manus/241/eng/5+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 5ra</ref>)</note>
+                        <note>Book I (vv. 734-785 skipped in <ref type="altMs" target="http://www.kb.dk/permalink/2006/manus/241/eng/5+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 5ra</ref>)</note>
                         <incipit>
                                 <supplied>Hic tamen</supplied> et supra quo diximus inferiores</incipit>
                         <explicit>ex igni retroque in terram cuncta reverti.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="18r">18ra-b</locus> 
-                        <note>Book II (vv. 253-304 skipped in <ref type="altMs"
-                             target="http://www.kb.dk/permalink/2006/manus/241/eng/8+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 8ra</ref>)</note>
+                        <note>Book II (vv. 253-304 skipped in <ref type="altMs" target="http://www.kb.dk/permalink/2006/manus/241/eng/8+recto/">Copenhagen Kongelige Bibliotek, Gl. Kgl. S. 211 2°, f. 8ra</ref>)</note>
                         <incipit>Nec declinando faciunt primordia motus</incipit>
                         <explicit>Nam neque quo poscit genus ullum materia.</explicit>
                     </msItem>
