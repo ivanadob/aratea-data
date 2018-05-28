@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+     xml:lang="en">
 <!--    SEE MANUSCRIPT IN SITU FOR COLLATION, QUIRE STRUCTURE, PARTS ETC.-->
     <teiHeader>
         <fileDesc>
@@ -23,11 +26,10 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <name type="org"/>
-                    <!--<ptr target=""/>-->
-                </publisher>
-            </publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -357,7 +359,8 @@
                                 <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
                                 <incipit>Inter celum et terram certis discreta spatiis VII sydera pendent</incipit>
                                 <explicit>cum tardissime a tricesima luce ad easdem uices exit.</explicit>
-                                <decoNote>On f.<locus from="27r" facs="http://warburg.sas.ac.uk/vpc/VPC_search/pdf_frame.php?image=00001981">27r</locus> diagram for planetary order. Circular diagram of concentric circle representing the planetary orbits.</decoNote>
+                                <decoNote>On f.<locus from="27r"
+                                  facs="http://warburg.sas.ac.uk/vpc/VPC_search/pdf_frame.php?image=00001981">27r</locus> diagram for planetary order. Circular diagram of concentric circle representing the planetary orbits.</decoNote>
                             </msItem>
                             <msItem>
                                 <locus from="27r">27r</locus>
@@ -418,7 +421,8 @@
                             <explicit>Terminos quoque seper inuenies si obseruaueris lunam. Febr. X. Martis II. Aprilis XIIII. Maii XX. Iunii IIII.</explicit>
                             <decoNote>Table</decoNote>
                             <filiation>
-                                <ref type="altMs" target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74A00000000">Berlin, SB, Ms. Phill. 1833</ref>, f. 33v.</filiation>
+                                <ref type="altMs"
+                             target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74A00000000">Berlin, SB, Ms. Phill. 1833</ref>, f. 33v.</filiation>
                         </msItem>
                         <msItem>
                             <locus from="32r" to="37v">32r-37v</locus>

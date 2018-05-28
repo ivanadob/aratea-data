@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,15 +19,8 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>
-               <name type="person">Peter Andorfer</name>
-               <ptr target="http://www.digital-archiv.at/"/>
-            </publisher>
-            <date when="2016-03-03" type="issued">03.03.2016</date>
-            <availability status="restricted">
-               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/" notBefore="2013-03-01">
-                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
-               </licence>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>

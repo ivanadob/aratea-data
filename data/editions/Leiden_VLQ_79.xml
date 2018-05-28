@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+     xml:lang="eng">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="https://www.google.at/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=12&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjUlp-60YTQAhWGvxQKHc4PA4gQFghNMAs&amp;url=https%3A%2F%2Fdisc.leidenuniv.nl%2Fwebclient%2FDeliveryManager%3Fcustom_att_2%3Dsimple_viewer%26pid%3D1739618&amp;usg=AFQjCNEPAT35U1FWC4RVm0RviP6w-z5Kvw">Leiden, Bibliotheek der Rijksuniversiteit Leiden, MS VLQ 79</ref>
+            <title type="sub">Description of<ref type="mss"
+                    target="https://www.google.at/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=12&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjUlp-60YTQAhWGvxQKHc4PA4gQFghNMAs&amp;url=https%3A%2F%2Fdisc.leidenuniv.nl%2Fwebclient%2FDeliveryManager%3Fcustom_att_2%3Dsimple_viewer%26pid%3D1739618&amp;usg=AFQjCNEPAT35U1FWC4RVm0RviP6w-z5Kvw">Leiden, Bibliotheek der Rijksuniversiteit Leiden, MS VLQ 79</ref>
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -22,11 +26,10 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <name type="org"/>
-                    <!--<ptr target=""/>-->
-                </publisher>
-            </publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>

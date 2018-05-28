@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd"
+     xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,11 +25,10 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <name type="org"/>
-                    <!--<ptr target=""/>-->
-                </publisher>
-            </publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -38,34 +40,62 @@
 		-->
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f001r" n="1r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002r" n="2r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002v" n="2v"/>        
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f003r" n="3r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010r" n="10r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010v" n="10v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011r" n="11r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011v" n="11v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012r" n="12r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012v" n="12v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013r" n="13r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013v" n="13v"/>        
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014r" n="14r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014v" n="14v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015r" n="15r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015v" n="15v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016r" n="16r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016v" n="16v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017r" n="17r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017v" n="17v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018r" n="18r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018v" n="18v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019r" n="19r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019v" n="19v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020r" n="20r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020v" n="20v"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021r" n="21r"/>
-        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021v" n="21v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f001r"
+               n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002r"
+               n="2r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f002v"
+               n="2v"/>        
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f003r"
+               n="3r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010r"
+               n="10r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f010v"
+               n="10v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011r"
+               n="11r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f011v"
+               n="11v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012r"
+               n="12r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f012v"
+               n="12v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013r"
+               n="13r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f013v"
+               n="13v"/>        
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014r"
+               n="14r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f014v"
+               n="14v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015r"
+               n="15r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f015v"
+               n="15v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016r"
+               n="16r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f016v"
+               n="16v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017r"
+               n="17r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f017v"
+               n="17v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018r"
+               n="18r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f018v"
+               n="18v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019r"
+               n="19r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f019v"
+               n="19v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020r"
+               n="20r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f020v"
+               n="20v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021r"
+               n="21r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f021v"
+               n="21v"/>
        
     </facsimile>
     <text>
@@ -260,7 +290,10 @@
                     <handNote>The astronomical texts on ff.<locus from="17v" to="20r">17v-20r</locus> are written by a younger hand (s.IX<hi rend="sup">2</hi>?) using e-caudata with a long cauda slanted to the left, -tur abbreviation in the form of 2, and a horizontal stroke with an elevated right side for final nasal abbreviation. A similar wrote the excerpt from Pliny on f. <locus from="16r" to="16v">16r-v</locus>.</handNote>
                     <handNote>The text on f.<locus from="2r">2r</locus> was written by a continental (french?) hand in <date notBefore="0851" notAfter="0900">s.IX<hi rend="sup">2</hi>
                             </date>.</handNote>
-                    <handNote>On the Anglo-Saxon hand on f.<locus from="1r">1</locus> see the article by T.A.M. Bishop, who identified it in three other Cambridge manuscripts coming from the library of <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's</rs>: Trinity College <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=87">B.11.2</ref> - James 241 (Amalarius), <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=652">O.2.30</ref> - James 1134 (Regula S. Benedicti), and <ref type="altMs" target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=762">O.4.10 - James 1241</ref> (Juvenalis and Persius).</handNote>
+                    <handNote>On the Anglo-Saxon hand on f.<locus from="1r">1</locus> see the article by T.A.M. Bishop, who identified it in three other Cambridge manuscripts coming from the library of <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's</rs>: Trinity College <ref type="altMs"
+                          target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=87">B.11.2</ref> - James 241 (Amalarius), <ref type="altMs"
+                          target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=652">O.2.30</ref> - James 1134 (Regula S. Benedicti), and <ref type="altMs"
+                          target="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=762">O.4.10 - James 1241</ref> (Juvenalis and Persius).</handNote>
                 </handDesc>
                 <scriptDesc>
                     <scriptNote script="insulmin">The text on f. <locus from="1r" to="1v">1r-v</locus> is written in round <term>English minuscule</term>.</scriptNote>
