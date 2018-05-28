@@ -29,12 +29,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
-			</revisionDesc>
-		-->
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2018-05-28"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f001r" n="1r"/>
@@ -223,17 +221,17 @@
                    <incipit>In nomine patris et filii et spiritus sancti. Domino gloriosissimo Karolo serenissimo augusto</incipit>
                    <explicit/>
                    ##################
-                  <note>Dungal's letter to Charlemagne about the two solar eclipses that occurred in 810. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text here is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117.</note>
+                  <note>Dungal's letter to Charlemagne about the two solar eclipses that occurred in 810. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text here is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117. Additions starting from, f. 122v-123 from Macrobius with diagram.</note>
                </msItem>
                     <msItem>
                         <locus from="126v" to="127r">126v-127r</locus>
-                        <author>Isidore of Seville</author>
+                        <author ref="#isidore">Isidore of Seville</author>
                         <note>Extracts from <title>Etymologiae</title>, book 3, De eclipse, chapters 58 and 59.</note>
                         <incipit>Eclipsis solis est quotiens luna trigesima ad eandem lineam</incipit>
                     </msItem>
                <msItem>
                   <locus from="127r" to="132r">127r-132r</locus>
-                  <author>Macrobius</author>
+                  <author ref="#macrobius">Macrobius</author>
                   <note>Extracts on astronomical subjects from <title>Commentarii in Ciceronis Somnium Scipionis</title>.</note>
                </msItem>
                     <msItem>
@@ -267,7 +265,7 @@
                     </msItem> 
                <msItem>
                   <locus from="146r" to="148v">146r-148v</locus>
-                  <author>Bede</author>
+                  <author ref="#bede">Bede</author>
                   <title>Epistola ad Wicthedum de aequinoctio vel de paschae celebratione</title>
                   <note>imperfect at the beginning and at the end</note>
                   <incipit>
