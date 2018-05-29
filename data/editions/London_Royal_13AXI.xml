@@ -217,10 +217,28 @@
                   <locus from="120r" to="126v">120r-126v</locus>
                   <author ref="#dungal">Dungal</author>
                    <title ref="#dungal_letter">Epistola ad Carolum Magnum de duplici solis eclipsi anno 810</title>
-                   <incipit>In nomine patris et filii et spiritus sancti. Domino gloriosissimo Karolo serenissimo augusto</incipit>
-                   <explicit/>
-                   ##################
-                  <note>Dungal's letter to Charlemagne about the two solar eclipses that occurred in 810. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text here is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117. Additions starting from, f. 122v-123 from Macrobius with diagram.</note>
+                   <note>The middle section of Dunagl's text is replaced with an excerpt from Macrobius' Commentary. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text of the letter is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117. Additions starting from, f. 122v-123 from Macrobius with diagram.</note>
+                   <msItem>
+                       <locus from="120r" to="122v">120r-122v</locus>
+                       <note>Dungal's letter (MGH Epp. IV, pp. 570-573 line 29)</note>
+                       <incipit>In nomine patris et filii et spiritus sancti. Domino gloriosissimo Karolo serenissimo augusto</incipit>
+                       <explicit>mox oritur aries in quo sol ante.</explicit>
+                   </msItem>
+                   <msItem>
+                       <locus from="122v" to="125r">122v-125r</locus>
+                       <author ref="#macrobius">Macrobius</author>
+                       <title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis<note> (excerpts from Lib. II, cap. 7, § 5-21 and cap. 8, § 1-8)</note>
+                            </title>
+                       <incipit>his depictis sine dificultate constabit singulas terre partes</incipit>
+                       <explicit>quid possit amplius pro absoluenda hac questione conferri.</explicit>
+                       <decoNote>Diagram of the celestial and terrestrial sphere, divided by five circles and the zodiac.</decoNote>
+                   </msItem>
+                   <msItem>
+                       <locus from="125r" to="126v">125r-126v</locus>
+                       <note>Continuation of Dungal's letter (MGH Epp. IV, from p. 576 line 27 until the end).</note>
+                       <incipit>Igitur sicut annum solis non solum a kalendis</incipit>
+                       <explicit>sed et piissime adque amantissime pater.</explicit>
+                   </msItem>
                </msItem>
                     <msItem>
                         <locus from="126v" to="127r">126v-127r</locus>
@@ -231,7 +249,7 @@
                <msItem>
                   <locus from="127r" to="132r">127r-132r</locus>
                   <author ref="#macrobius">Macrobius</author>
-                  <note>Extracts on astronomical subjects from <title>Commentarii in Ciceronis Somnium Scipionis</title>.</note>
+                   <note>Extracts on astronomical subjects from <title ref="#commentarium_somnium">Commentarii in Ciceronis Somnium Scipionis</title>.</note>
                </msItem>
                     <msItem>
                         <locus from="132v" to="139v">132v-139v</locus>
