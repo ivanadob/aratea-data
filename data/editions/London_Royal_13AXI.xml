@@ -54,7 +54,7 @@
                     <origPlace ref="#"/>
                     <origDate notBefore="1051" notAfter="1200">s.XI<hi rend="sup">2</hi>-XII</origDate>
                     Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">www.bl.uk.</ref>
-                </head>                
+                </head>
             <msContents>
                 <msItem>
                     <locus from="1r" to="12v">1r-12v</locus>
@@ -90,7 +90,7 @@
                     </msItem>
                <msItem>
                   <locus from="13r" to="14r">13r-14r</locus>
-                  <note>Computus material including Ciclus annalis, De horis mensium and De singulis horis in die quomodo mensurantur cum pedibus with a table of moveable feasts (f. 13r) and an orologium diagram.</note> 
+                  <note>Computus material including Ciclus annalis, De horis mensium and De singulis horis in die quomodo mensurantur cum pedibus with a table of moveable feasts (f. 13r) and an orologium diagram.</note>
                   <msItem>
                      <locus from="13r">13r</locus>
                      <rubric>Incipit ciclus annalis</rubric>
@@ -150,7 +150,7 @@
                 <msItem>
                     <locus from="30v" to="103v">30v-103v</locus>
                     <author ref="#bede">Bede</author>
-                    <title ref="#DTR">De temporum ratione</title> 
+                    <title ref="#DTR">De temporum ratione</title>
                     <msItem>
                         <locus from="30v" to="31v">30v-31v</locus>
                         <note>Prologue:</note>
@@ -183,10 +183,10 @@
                     <incipit>Denique ut dicit plinius inter omnia sunt LXXII<hi rend="sup">ta</hi> signa</incipit>
                     <explicit>secans ad octauam partem cancri redit.</explicit>
                     <decoNote>Drawings of the constellations.</decoNote>
-                </msItem>                    
+                </msItem>
                <msItem>
                   <locus from="113r" to="115v">113r-114r</locus>
-                   <author ref="#abbo">Abbo of Fleury</author> 
+                   <author ref="#abbo">Abbo of Fleury</author>
                    <title ref="#abbo_sentenia">Sententia Abbonis de differentia circuli et sperae</title>
                    <incipit>Studiosis astrologię primo sciendum est</incipit>
                    <explicit>Si vero nota est aliquis planetarum est.</explicit>
@@ -270,7 +270,7 @@
                         <locus from="141v" to="143r">141v-143r</locus>
                         <author>De mensuris et ponderibus</author>
                         <incipit>Mensurarum in liquidis coclear est pars minima</incipit>
-                    </msItem> 
+                    </msItem>
                     <msItem>
                         <locus from="145r">145r</locus>
                         <rubric>Versus de ciclo Pasche magno</rubric>
@@ -279,7 +279,7 @@
                     <msItem>
                         <locus from="145v">145v</locus>
                         <note>A short text on the moveable feasts followed by a diagram on the epacts allowing to find the date in the lunar calendar from the solar calendar; it is used in the calculation of the date of Easter.</note>
-                    </msItem> 
+                    </msItem>
                <msItem>
                   <locus from="146r" to="148v">146r-148v</locus>
                   <author ref="#bede">Bede</author>
@@ -345,7 +345,7 @@
                        <bibl>Charles W. Jones, 'Manuscripts of Bede's De natura rerum', Isis, 127 (1937), 430-40 (p. 433).</bibl>
                        <bibl>Charles W. Jones, Bedae opera de temporibus, Mediaval Academy of America Publication, 41 (Cambridge Mass., 1943), p. 153.</bibl>
                        <bibl>Fritz Saxl and Hans Meier, Catalogue of Astrological and Mythological Illuminated Manuscripts of the Latin Middle Ages, 4 vols (London: The Warburg Institute, 1953), III: Manuscripts in English Libraries, pp. 197-98, figs. 159, 174.</bibl>
-                       <bibl>H. Bober, 'An Illustrated Medieval School Book of Bede's De Natura Rerum', Journal of the Walter Art Gallery, 19-20 (1956-57), 64-97 (p. 77).</bibl>                       
+                       <bibl>H. Bober, 'An Illustrated Medieval School Book of Bede's De Natura Rerum', Journal of the Walter Art Gallery, 19-20 (1956-57), 64-97 (p. 77).</bibl>
                        <bibl>Patrick McGurk, 'Computus Helperici: Its Transmission in England in the Eleventh and Twelfth Centuries', Medium Aevum, 43 (1974), 1-4 (p. 2).</bibl>
                        <bibl>John E. Murdoch, Album of Science: Antiquity and the Middle Ages, ed. by I. B. Cohen (New York: Scribner's Sons, 1984), no. 249.</bibl>
                       <bibl> Ron B. Thomson, 'Two Astronomical Tractates of Abbo of Fleury' in The Light of Nature. Essays in the History and Philosophy of Science presented to A. C. Crombie, ed. by J. D. North and J. J. Roche (Dordrecht: Martinus Nijhoff Publishers, 1985), pp. 113-34.</bibl>

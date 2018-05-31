@@ -28,12 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>        
+            <revisionDesc status="complete">
+				<change when="2018-05-31"/>
 			</revisionDesc>
-		-->
+
     </teiHeader>
     <facsimile>
         <graphic url="https://viewer.library.wales/4387889#?cv=3&amp;z" n="1r"/>
@@ -152,14 +151,14 @@
                     </scriptDesc>
                     <bindingDesc>
                         <binding notBefore="1601" notAfter="1700">
-                            <p>According to a note on the first garde folio the manuscript was rebbacked in the original blind-tooled 17th century English binding at N.L.W.</p>
+                            <p>According to a note on the first flying leaf the manuscript was rebacked in the original blind-tooled 17th-century English binding at N.L.W.</p>
                         </binding>
                     </bindingDesc>
                 </physDesc>
                     <history>
                         <origin>
-                            <p>Part 1 was copied around<origDate notBefore="0986" notAfter="1015">1000</origDate> in the <origPlace ref="#limoges">Limoges</origPlace> area (MsGurk) and came from the circle of <rs type="person" ref="#ademar_de_chabannes">Adémar de Chabannes</rs> (989-1034).</p>
-                            <p>Part 2 was copied possibly in<origPlace>Wels</origPlace> (McGurk/Bischoff) in the <origDate notBefore="1141" notAfter="1160">mid 12th c.</origDate>
+                            <p>Part 1 was copied around <origDate notBefore="0986" notAfter="1015">1000</origDate> in the <origPlace ref="#limoges">Limoges</origPlace> area (MsGurk) and came from the circle of <rs type="person" ref="#ademar_de_chabannes">Adémar de Chabannes</rs> (989-1034).</p>
+                            <p>Part 2 was copied possibly in <origPlace>Wels</origPlace> (McGurk/Bischoff) in the <origDate notBefore="1141" notAfter="1160">mid 12th c.</origDate>
                         </p>
                         </origin>
                     <provenance>
@@ -218,7 +217,7 @@
                         </msItem>
                         <msItem>
                             <locus from="3r">3r</locus>
-                            <note>Verse from the so called<title>Appendix Vergiliana</title>, <title>De est et non</title>.</note>
+                            <note>Verse from the so called <title>Appendix Vergiliana</title>, <title>De est et non</title>.</note>
                             <rubric>Versus prisciani eloquentissimi viri de est et non incipiunt</rubric>
                             <incipit>Est et non cuncti monosyllaba nota frequentant</incipit>
                             <explicit>Qualis uita hominum duo quam monosyllaba uersant.</explicit>
@@ -228,8 +227,7 @@
                                 <bibl>Anthologia Latina, p. 96-7, n. 645, vv. 1-25.</bibl>
                             </listBibl>
                             <note>Last five verses written in a pailer ink.</note>
-                            <decoNote>In the lower half of the page schema with 3 trios of contrasting
-                                conditions in 9 lines "summum bonum, magnum bonum, bonum" , "creat et non creatur, creatur et non moritur, creatur et moritur" and "movet et non movetur, movetur tempore et non loco, movetur tempore et loco". From each of these nine conditions begins a line with text, which cross each other, so that from everygroup of three conditions the first, second and third are joined to one point.<gap/>
+                            <decoNote>In the lower half of the page schema with 3 trios of contrasting conditions in 9 lines "summum bonum, magnum bonum, bonum" , "creat et non creatur, creatur et non moritur, creatur et moritur" and "movet et non movetur, movetur tempore et non loco, movetur tempore et loco". From each of these nine conditions begins a line with text, which cross each other, so that from every group of three conditions the first, second and third are joined to one point.<gap/>
                             </decoNote>
                         </msItem>
                         <msItem>
@@ -238,7 +236,7 @@
                         </msItem>
                         <msItem>
                             <locus from="4v">4v</locus>
-                            <note>Verses with heading<quote>De circulo superiori</quote>, <quote>De circulo saturni</quote>, <quote>De circulo phetontis id est iovis</quote>, <quote>De circulo<unclear>maultis</unclear> id est martis</quote>, <quote>De circulo elyos id est solis</quote>, <quote>De circulo veneris id est luciferi</quote>, <quote>De circulo stilbontis id est mercurii</quote>, and <quote>De circulo lunae</quote>.</note>
+                            <note>Verses with heading <quote>De circulo superiori</quote>, <quote>De circulo saturni</quote>, <quote>De circulo phetontis id est iovis</quote>, <quote>De circulo<unclear>maultis</unclear> id est martis</quote>, <quote>De circulo elyos id est solis</quote>, <quote>De circulo veneris id est luciferi</quote>, <quote>De circulo stilbontis id est mercurii</quote>, and <quote>De circulo lunae</quote>.</note>
                             <incipit>De cirylo superiori. Aplanes supera<ex>m</ex> centron dixere priores</incipit>
                             <explicit>De circulo lunae. Primo luna gradu terrae confinialisque (?)</explicit>
                             <filiation>Rheims MS. 1263, 98v-99 (based on P. McGurk's description).</filiation>
@@ -248,14 +246,14 @@
                         <msItem>
                             <locus from="5r">5r</locus>
                             <decoNote>Unfinished drawings of the two hemispheres with the constellations this time the two circles are joined not at the side like in the previous drawing on f. 3v-4r, but are positioned so that the upper circle has its south pole up and north pole down, while the lower circle its north pole up and south down.</decoNote>
-                            <note>Around the drawings short texts almost illegible<quote>Sub pedibus nostris<unclear>antarcticus iste iacebis</unclear>
+                            <note>Around the drawings short texts almost illegible<quote>Sub pedibus nostris <unclear>antarcticus iste iacebis</unclear>
                                     <gap reason="illegible"/> Circulus hic nostris iugit subiectus <unclear>ocellis</unclear>. Contrariet et <gap reason="illegible"/> et gentes frigora uentos.</quote>
                             </note>
                         </msItem>
                         <msItem>
                             <locus from="5v" to="7r">5v-7r</locus>
-                            <author>Ps-Cicero</author>
-                            <title>In Sallustium</title>
+                            <author ref="#cicero">Ps-Cicero</author>
+                            <title ref="#in_sallustium">In Sallustium</title>
                             <rubric>Controversia ciceronis in salustium incipit</rubric>
                             <incipit>Ea demum magna uoluptas est C. Sallusti, aequalem ac parem uerbis uitam agere</incipit>
                             <explicit>sed ut ea dicam, si qua ego honeste effari possim.</explicit>
@@ -263,8 +261,8 @@
                         </msItem>
                         <msItem>
                             <locus from="7r" to="7v">7r-v</locus>
-                            <author>Ps-Sallustius</author>
-                            <title>In Ciceronem</title>
+                            <author ref="#sallustius">Ps-Sallustius</author>
+                            <title ref="#in_ciceronem">In Ciceronem</title>
                             <rubric>Salustii in Ciceronem</rubric>
                             <incipit>Grauiter &amp; iniquo animo maledicta tua paterer, M. Tulli, si te scirem iudicio magis quam morbo</incipit>
                             <explicit>neque in hac neque in ill parte fidem habens.</explicit>
@@ -272,7 +270,7 @@
                         </msItem>
                         <msItem>
                             <locus from="7v">7v</locus>
-                            <author>Ps. Priscianus</author>
+                            <author ref="#priscianus">Ps. Priscianus</author>
                             <title ref="#ad_boreae">De sideribus</title>
                             <rubric>Incipit epitome phenomenon id est apparatio sive apparencia Prisciani grammatici versibus XII de sideribus</rubric>
                             <incipit>Ad boreę partes arcti uertuntur et anguis</incipit>
@@ -280,12 +278,12 @@
                         </msItem>
                         <msItem>
                             <locus from="7v" to="9v">7v-9v</locus>
-                            <author ref="cicero">Cicero</author>
+                            <author ref="#cicero">Cicero</author>
                             <title ref="#somnium_scipionis">Somnium Scipionis</title>
                             <rubric>Somnivm scipionis M. Tulli Ciceronis excerptum ex libro VI. de re pvblica</rubric>
                             <incipit>Cum in afficam uenissem a manilio consule ad quartam legionem tribunus</incipit>
                             <explicit>Ille discessit, ego somno solutus.</explicit>
-                            <finalRubric>Explicit</finalRubric>
+                            <finalRubric>Explicit.</finalRubric>
                             <msItem>
                                 <locus from="9v">9v</locus>
                                 <author ref="#macrobius">Macrobius</author>

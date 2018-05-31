@@ -29,12 +29,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+            <revisionDesc status="complete">
+				<change when="2018-05-31"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <facsimile>
         <graphic url="http://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;reproductionId=115&amp;VUE_ID=94654" n="1r"/>
@@ -159,7 +157,7 @@
                         </title>
                         <msItem>
                             <locus from="20r">20r</locus>
-                            <note>Planispheric constellation map with the five celestial circles, the zodiac and the Milky Way.</note>
+                            <decoNote>Planispheric constellation map with the five celestial circles, the zodiac and the Milky Way.</decoNote>
                         </msItem>
                         <msItem>
                             <locus from="20v" to="33r">20vb-33ra</locus>
@@ -171,7 +169,7 @@
                                 <hi rend="font-variant:small-caps">mercurius bimos gradivvs perficit orbis.</hi>
                             </explicit>
                             <decoNote>40 illustrations of the constellations placed in orange-black frames on blue background in the left part of the f.os. Two pictures per page one on top of the other; stars noted with black or golden dots.</decoNote>
-                            <decoNote> 
+                            <decoNote>
                         <locus from="30r">30r</locus> planisphere showing the planetary circles (similar to that in <ref type="altMs">Leiden VLQ MS 79 f. 93v</ref>), around the diagram in each corner four smaller circular diagram: 7 concentric circles one for each planet: similar to that in<ref type="altMs"> Laon BM 422 f. 15v</ref> but with textual differences; upper left an isidorian type of rota for the five zones; lower left a rota for the yearly position of the sun (so called tronos soli diagram or horologium rota), lower right a rota diagram for the twelve winds.</decoNote>
                         </msItem>
                         <msItem>
@@ -195,7 +193,7 @@
                                     <width>280</width>
                                 </dimensions>
                             </extent>
-                            <collation>According to<bibl>C. Jeudi, Y.-F. Riou</bibl> 
+                            <collation>According to<bibl>C. Jeudi, Y.-F. Riou</bibl>
                         <formula>I<hi rend="sup">10</hi> (ff.1-10), II-III<hi rend="sup">8</hi> (ff.11-18 and 19-26), IV<hi rend="sup">8(-1)</hi> (ff.27-33)</formula>.</collation>
                         </supportDesc>
                         <layoutDesc>
@@ -207,23 +205,23 @@
                     <scriptDesc>
                         <scriptNote script="uncialis">
                             <p>The text of the calender and the tables on<locus from="1r" to="10v">ff. 1r-10v</locus>is written in uncial in red and green.</p>
-                        </scriptNote> 
+                        </scriptNote>
                         <scriptNote script="carolmin">
                             <p>The argumenta on<locus from="11r" to="19r"> f. 11r-19r</locus> are written in tiny Caroline minuscule.</p>
                         </scriptNote>
                         <scriptNote script="caprust">
                             <p>The text of germanicus' Aratea is written in Capitalis rustica.</p>
                         </scriptNote>
-                    </scriptDesc> 
+                    </scriptDesc>
                 </physDesc>
                 <history>
-                    <summary>The text of Germanicus' Aratea belong to the Z-family. There is still dispute about the origin of manuscript. The fact that the text in Boulogne-sur-mer skips 142 and 144-146, which are present in<ref type="altMs" target="Leiden_VLQ_79">Leiden, VLQ MS 79</ref> have cast doubt that the latter manuscript served as the model. Reeve (1980), however, argues that these verses were simply erased from the Leiden MS from the scribe who added the Gothic transcript. Scholars are nevertheless still careful in establishing the connection between the two witnesses (see Obbema). <!--Some nonsense also - Sourbiran attested that vv. 373-4 from Avienus interpolated after v. 146 of Germanicus were not found in the Leiden MS, thus leading to the conclusion that the Boulogne-sur-mer MS could not have been copied from the Leiden MS. These verses are however present in the Leiden MS on f. 17r-v. As Reev sugested one should have looked at the Gothic transcription and see if it really present a better text, which would allow than to suppose there was a sister MS of the Leiden MS, which served to correct the later transcription and from which perhaps the Boulogne-sur-mer MS was copied.-->
+                    <summary>The text of Germanicus' Aratea belong to the Z-family. There is still dispute about the origin of manuscript. The fact that the text in Boulogne-sur-mer skips 142 and 144-146, which are present in<ref type="altMs" target="Leiden_VLQ_79">Leiden, VLQ MS 79</ref> have cast doubt that the latter manuscript served as the model. Reeve (1980), however, argues that these verses were simply erased from the Leiden MS from the scribe who added the Gothic transcript. Scholars are nevertheless still careful in establishing the connection between the two witnesses (see Obbema). <!--Some nonsense also - Sourbiran attested that vv. 373-4 from Avienus interpolated after v. 146 of Germanicus were not found in the Leiden MS, thus leading to the conclusion that the Boulogne-sur-mer MS could not have been copied from the Leiden MS. These verses are however present in the Leiden MS on f. 17r-v. As Reev sugested one should have looked at the Gothic transcription and see if it really present a better text, which would allow than to suppose if there was a sister MS of the Leiden MS, which served to correct the later transcription and from which perhaps the Boulogne-sur-mer MS was copied.-->
                     </summary>
                     <origin>
-                        <p>The computistical argumenta in give a terminus post quem<origDate notBefore="0905">905</origDate>. Based on the palaeographical and art-historical features the MS is supposed to be written in the <rs type="corporate" ref="#">abbey of Saint-Omer-Saint-Bertin</rs> during the time of <rs type="person" ref="#odbert">Abbot Odbert</rs> (986-1008).</p>
+                        <p>The computistical argumenta in give a terminus post quem <origDate notBefore="0905">905</origDate>. Based on the palaeographical and art-historical features the MS is supposed to be written in the <rs type="corporate" ref="#saint_bertin">abbey of Saint-Omer-Saint-Bertin</rs> during the time of <rs type="person" ref="#odbert">Abbot Odbert</rs> (986-1008).</p>
                     </origin>
                     <provenance>
-                        <p>Unclear. Around the end of the 10th c. the mansucript was still in Saint-Bertin where it served as the model for the production of<ref type="altMs" target="Bern_BB_88.xml">Bern Bürgerbibliothek MS 88</ref>. It is however not mentioned in the library cathalogue from 1104 (<bibl>
+                        <p>Around the end of the 10th c. the mansucript was still in Saint-Bertin where it served as the model for the production of <ref type="altMs" target="Bern_BB_88.xml">Bern Bürgerbibliothek MS 88</ref>. It is however not mentioned in the library catalogue from 1104 (<bibl>
                                 <abbr>Becker</abbr>, Nr. 77, p. 181-184</bibl>).</p>
                     </provenance>
                 </history>

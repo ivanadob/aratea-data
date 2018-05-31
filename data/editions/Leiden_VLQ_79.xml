@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="https://www.google.at/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=12&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjUlp-60YTQAhWGvxQKHc4PA4gQFghNMAs&amp;url=https%3A%2F%2Fdisc.leidenuniv.nl%2Fwebclient%2FDeliveryManager%3Fcustom_att_2%3Dsimple_viewer%26pid%3D1739618&amp;usg=AFQjCNEPAT35U1FWC4RVm0RviP6w-z5Kvw">Leiden, Bibliotheek der Rijksuniversiteit Leiden, MS VLQ 79</ref>
-                </title>
+            <title type="sub">Leiden, Bibliotheek der Rijksuniversiteit Leiden, MS VLQ 79</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,13 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+				<revisionDesc status="complete">
+				<change when="2018-05-31"/>
 			</revisionDesc>
-		-->
-    </teiHeader>
+		</teiHeader>
     <text>
         <body>
             <msDesc xml:id="leiden_vlq_79" xml:lang="eng">
@@ -66,21 +63,21 @@
                         </title>
                         <msItem>
                             <locus from="2r" to="92r">2r-92r</locus>
-                            <title>Aratea<note>vv. 1-725 with interpolations from Avienus</note>
+                            <title>Aratea <note>vv. 1-725 with interpolations from Avienus</note>
                             </title>
                             <incipit>
                                 <hi rend="rubric">Ab ioue principium magno deduxit aratus</hi>
                             </incipit>
-                            <explicit>Significet uentos uetruces fidamque quietem</explicit>
+                            <explicit>Significet uentos uetruces fidamque quietem.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="92v" to="93r"/>
-                            <note>blank.</note>
+                            <note>blank</note>
                         </msItem>
                         <msItem>
                             <locus from="93v">93v</locus>
                             <decoNote>Planisphere of the planetary orbits.</decoNote>
-                            <note>Text to each planet as for example:<quote>sol peragit circulum suum in CCLXV diebus et VI horis cuius pars altissima gemini, humillima sagittarius est.</quote>; <quote>Circulus signifer qui a grecis zodiacus appelatur habet in circulo pariter CCCLXV in latitudine XII per quem planete uario motu feruntur<gap reason="omitted"/>
+                            <note>Text to each planet, as for example: <quote>sol peragit circulum suum in CCLXV diebus et VI horis cuius pars altissima gemini, humillima sagittarius est.</quote>; <quote>Circulus signifer qui a grecis zodiacus appelatur habet in circulo pariter CCCLXV in latitudine XII per quem planete uario motu feruntur <gap reason="omitted"/>
                                 </quote>.</note>
                         </msItem>
                         <msItem>
@@ -99,16 +96,16 @@
                     <msItem>
                         <locus from="97r" to="97v"/>
                         <author ref="#avienus">Avienus</author>
-                        <title ref="#aratea_avienus">Aratea<note>vv. 1740-1762, 1769-1770, 1773, 1870, 1877-1878 (prognostica).</note>
+                        <title ref="#aratea_avienus">Aratea <note>vv. 1740-1762, 1769-1770, 1773, 1870, 1877-1878 (prognostica).</note>
                         </title>
                         <incipit>tempore tum proprio modulatur noctua carmen</incipit>
-                        <explicit>Pluribus indiciis sollers fulcire memento</explicit>
+                        <explicit>Pluribus indiciis sollers fulcire memento.</explicit>
                         <colophon>Vale fidens in d<am>omi</am>no xpi uestitus amore.</colophon>
                         <msItem>
                             <locus from="98r" to="99v"/>
-                            <note>blank.</note>
-                        </msItem>                        
-                        <decoNote>Illustrations of the constellations  on fols. 3v, 6v, 8v, 10v, 12v, 16v, 18v, 20v, 22v, 23v, 24v, 26v, 28v, 30v, 32v, 34v, 36v, 38v, 40v, 42v, 44v, 46v, 48v, 50v, 52v, 54v, 56v, 58v, 60v, 62v, 64v, 66v, 68v, 70v, 72v (now missing 74v probably), 76v, 78v, 80v, 82v, and 93v. See the iconographical analysis in<bibl>
+                            <note>blank</note>
+                        </msItem>
+                        <decoNote>Illustrations of the constellations  on fols. 3v, 6v, 8v, 10v, 12v, 16v, 18v, 20v, 22v, 23v, 24v, 26v, 28v, 30v, 32v, 34v, 36v, 38v, 40v, 42v, 44v, 46v, 48v, 50v, 52v, 54v, 56v, 58v, 60v, 62v, 64v, 66v, 68v, 70v, 72v, 76v, 78v, 80v, 82v and 93v. See the iconographical analysis in<bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>, pp. 295-97</bibl> and <bibl>
                                 <abbr>Mütherich (1989)</abbr>
                             </bibl>.</decoNote>
@@ -142,14 +139,14 @@
                         <layoutDesc>
                             <layout columns="1" ruledLines="2 15">
                                 <p>15 ruled long lines.</p>
-                                <p>The first letter of every verse is written in red (exception 74v and 51r. Few red Initials (ff. 83r</p>
+                                <p>The first letter of every verse is written in red (exception ff. 74v and 51r). Few red Initials (f. 83r).</p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
                     <scriptDesc>
                         <scriptNote script="caprust">The poem is written in Capitalis rustica by several hands.</scriptNote>
                         <scriptNote script="carolmin">
-                            <p>Caroline minuscle used only on f. 93v for short texts in the diagram of planetary motion. Carolingian<quote>a</quote> together with open cc-a. N used rarely. <quote>X</quote> with second stroke extended down to the left. The lower lobe of <quote>g</quote> is wide open. &amp; and st ligatures. Word-division almost complete. According to B. Bischoff this script is from <date notBefore="0826" notAfter="0850">s. IX<hi rend="sup">2/4</hi>
+                            <p>Caroline minuscle used only on f. 93v for short texts in the diagram of planetary motion. Carolingian <quote>a</quote> together with open cc-a. <quote>N</quote> used rarely. <quote>X</quote> with second stroke extended down to the left. The lower lobe of <quote>g</quote> is wide open. &amp; and st ligatures. Word-division almost complete. According to Bischoff this script is from <date notBefore="0826" notAfter="0850">s. IX<hi rend="sup">2/4</hi>
                                 </date> in <rs type="place">Lotharingia</rs>.</p>
                         </scriptNote>
                         <scriptNote script="textualis">In the <date notBefore="1251" notAfter="1300">s. XII<hi rend="sup">2</hi>
@@ -164,12 +161,12 @@
                 </physDesc>
                 <history>
                     <origin>
-                        <p>Written in the<origDate notBefore="0826" notAfter="0850">s. IX<hi rend="sup">2/4</hi>
-                            </origDate>, somewhere in <origPlace ref="#lotharingia">Lotharingia</origPlace> (<origPlace ref="#aachen">Aachen</origPlace>-<origPlace ref="#metz">Metz</origPlace>) by the request of the royal court of <rs type="person" role="commissioner" ref="#louis_pious">Louis the Pious</rs> (813-840) and his second wife <rs type="person" ref="#judith">Judith</rs> (819-843); compiler and coordinator of the pictures and text was presumably <rs type="person" role="editor" ref="#astronomus">the Astronomus</rs>. Mütherich (1990) observed that the dedication <quote>Vale fidens in domino Christi vestitus amore</quote> suggests that this was a product made for a noble patron.</p>
+                        <p>Written in the <origDate notBefore="0826" notAfter="0850">s. IX<hi rend="sup">2/4</hi>
+											</origDate>, somewhere in <origPlace ref="#lotharingia">Lotharingia</origPlace> (<origPlace ref="#aachen">Aachen</origPlace>-<origPlace ref="#metz">Metz</origPlace>) by the request of the royal court of <rs type="person" role="commissioner" ref="#louis_pious">Louis the Pious</rs> (813-840) and his second wife <rs type="person" ref="#judith">Judith</rs> (819-843); compiler and coordinator of the pictures and text was presumably <rs type="person" role="editor" ref="#astronomus">the Astronomus</rs>. Mütherich (1990) observed that the dedication <quote>Vale fidens in domino Christi vestitus amore</quote> suggests that this was a product made for a noble patron.</p>
                     </origin>
                     <provenance>
-                        <p>The MS was probably in<rs type="place">St. Bertin</rs> 
-                     <date notBefore="0990" notAfter="1010">around the year 1000</date> where it served as the exemplar for <ref type="altMs" target="Boulogne-sur-mer_BM_188.xml">Boulogne-sur-mer 188</ref>
+                        <p>The MS was probably in <rs type="place" ref="#saint_bertin">St. Bertin</rs>
+                     <date notBefore="0990" notAfter="1010">around the year 1000</date> where it served as the exemplar for <ref type="altMs" target="Boulogne-sur-mer_BM_188.xml">Boulogne-sur-mer 188</ref>.
                         </p>
                     </provenance>
                     <provenance>
@@ -178,10 +175,10 @@
                             </quote>).</p>
                     </provenance>
                     <provenance>
-                        <p>Acquired by<rs type="person" ref="#hugo_grotius">Hugo Grotius</rs> before the year <date notBefore="1595" notAfter="1600">1600</date>. After his death, in <date when="1648">1648</date> became part of the collection of <rs type="person" ref="#christina_from_sweden">Queen Christina from Sweden</rs> (1626-1689) in Antwerpen. The librarian <rs type="person" ref="#isaac_vossius">Isaac Vossius</rs> (1618-1689), who was responsible for the cathaloging of the collection, received the manuscript as a present from the queen.</p>
+                        <p>Acquired by <rs type="person" ref="#hugo_grotius">Hugo Grotius</rs> before the year <date notBefore="1595" notAfter="1600">1600</date>. After his death, in <date when="1648">1648</date>, the manuscript became part of the collection of <rs type="person" ref="#christina_from_sweden">Queen Christina from Sweden</rs> (1626-1689) in Antwerpen. The librarian <rs type="person" ref="#isaac_vossius">Isaac Vossius</rs> (1618-1689), who was responsible for the cathaloging of the collection, received the manuscript as a present from the queen.</p>
                     </provenance>
                     <acquisition>
-                        <p>After the death of Vossius, in<date when="1690">1690</date> Leiden University acquired the manuscript for its collection.</p>
+                        <p>After the death of Vossius, in <date when="1690">1690</date> <rs type="corporate">Leiden University</rs> acquired the manuscript for its collection.</p>
                     </acquisition>
                 </history>
                 <additional>
@@ -191,7 +188,7 @@
                             <abbr>Bischoff, Katalog II</abbr>, p. 60</bibl>
                         <bibl>
                             <abbr>Bischoff, Kommentar</abbr>.</bibl>
-                        <bibl>Dekker, Elly. "Carolingian Planetary Observations: The Case of the Leiden Planetary Configuration."<title>Journal for the history of astronomy</title> 38 (2007): 77-90.</bibl>
+                        <bibl>Dekker, Elly. "Carolingian Planetary Observations: The Case of the Leiden Planetary Configuration." <title>Journal for the history of astronomy</title> 38 (2007): 77-90.</bibl>
                         <bibl>
                             <abbr>Eastwood (2002)</abbr>.</bibl>
                         <bibl>
@@ -200,9 +197,9 @@
                             <abbr>Obbema (1989)</abbr>.</bibl>
                         <bibl>
                             <abbr>Sternbilder des Mittelalters</abbr>, pp. 292-298.</bibl>
-                        <bibl>Köhler, Wilhelm, and Florentine Mütherich.<title>Die karolingischen Miniaturen. Die Hofschule Kaiser Lothars. Einzelhandschriften aus Lotharingien</title>. Berlin: Deutscher Verlag für Kunstwissenschaft, 1971, pp. 79-83.</bibl>
+                        <bibl>Köhler, Wilhelm, and Florentine Mütherich. <title>Die karolingischen Miniaturen. Die Hofschule Kaiser Lothars. Einzelhandschriften aus Lotharingien</title>. Berlin: Deutscher Verlag für Kunstwissenschaft, 1971, pp. 79-83.</bibl>
                         <bibl>Mütherich, Florentine. “Book Illumination at the Court of Louis the Pious.” In Charlemagne’s Heir. New Perspectives on the Reign of Louis the Pious (814-840), edited by Peter Godman, 593–604. Oxford: Clarendon Press, 1990, pp.597-600.</bibl>
-                        <bibl>Stückelberg, Alfred. "Sterngloben und Sternkarten. Zur wissenschaftlichen bedeutung des Leidener Aratus."<title>Museum helveticum: schweizerusche Zeitschrift für klassische Altertumswissenschaft</title> 47:2 (1990): 70-81.</bibl>
+                        <bibl>Stückelberg, Alfred. "Sterngloben und Sternkarten. Zur wissenschaftlichen bedeutung des Leidener Aratus." <title>Museum helveticum: schweizerusche Zeitschrift für klassische Altertumswissenschaft</title> 47:2 (1990): 70-81.</bibl>
                     </listBibl>
                 </additional>
             </msDesc>

@@ -88,7 +88,7 @@
         <incipit>Bissena mensium uertigine uoluitur annis</incipit>
         <explicit>personas idus decurrens atque kalendas.</explicit>
         <bibl>Ed. in Baker and Lapidge 1995, p. 384.</bibl>
-    </work> 
+    </work>
     <work xml:id="chronica_isidori">
         <author ref="#isidore">Isidore</author>
         <title>Chronica</title>
@@ -108,7 +108,7 @@
         <bibl>
          <abbr>Clavis</abbr> 2273.</bibl>
         <bibl>Bede. Opera Didascalica. Edited by Charles Jones. CCSL, 123 C. Turnhout: Brepols, 1980. Pp. 601-611.</bibl>
-    </work>    
+    </work>
     <work xml:id="chronica_maiora">
         <author ref="#bede">Bede</author>
         <title>Chronica maiora</title>
@@ -309,7 +309,7 @@
         <author ref="#censorinus">Censorinus</author>
         <bibl>M. Olsen, L'étude des auteurs classiques latins aux xie et xiie siècles, IV. 2, p. 114, 332.</bibl>
       <!--        mentioned also St Gall 250 (s. ix2); Paris 1614 s. ix1 Tours, Bruxelles 5413-5422 (s. ix3/3 NE France), bern 87-->
-    </work>    
+    </work>
     <work xml:id="de_figuris_numerorum">
         <author ref="#priscianus">Priscianus</author>
         <title>De figuris numerorum</title>
@@ -331,7 +331,7 @@
         <bibl>
          <abbr>GL</abbr> III 2, pp. 430-440.</bibl>
     </work>
-    
+
     <work xml:id="de_gubernatione_dei" ref="http://d-nb.info/1000898628">
         <title>De gubernatione dei</title>
     </work>
@@ -383,7 +383,7 @@
       </explicit>
         <bibl>Martianus Capella. De nuptiis philologiae et mercurii. Edited by James Willis. Leipzig: Teubner, 1983.</bibl>
         <bibl>Martianus Capella. <title>Martianus Capella and the Seven Liberal Arts</title>. Vol. 2, <title>The Marriage of Philology and Mercury</title>. Translated by William H. Stahl and Richard Johnson. New York: COlumbia University Press, 1977.</bibl>
-    </work>    
+    </work>
     <work xml:id="de_ordine_ac_positione">
         <title>De ordine ac positione stellarum in signis</title>
         <incipit>Est quidem hic ordo et positio siderum, quae fixa caelo plurium coaceruatione stellarum</incipit>
@@ -432,7 +432,7 @@
         <title>De signis (interpolated version)</title>
         <incipit>Quinam tamen multa dicunt et alii aliter narrasse celum diuersis proferentes uocabulis sed ipse magis axe continetur quam se continui indemetipso reuoluitur. Habet autem undique inponderata per medium terre in circuitum celi equalem deductum</incipit>
         <explicit/>
-    </work>    
+    </work>
     <work xml:id="DT" ref="http://d-nb.info/gnd/7745328-1">
         <title>De temporibus</title>
         <author ref="#bede">Bede</author>
@@ -560,7 +560,7 @@
         <bibl>David Juste, "Neither Observation nor Astronomical Tables: An Alternative Way of Computing the Planetary Longitudes in the Early Western Middle Ages," in Studies in the History of the Exact Sciences in Honour of David Pingree, Leiden-Boston, MA 2004, pp. 181-222, with editioin in the appendix (<ref target="http://librarun.org/book/62528/231">pp. 216-217</ref>).</bibl>
         <bibl>Entry in <ref target="http://www.mirabileweb.it/title/in-quo-signo-versetur-mars-title/169852">Mirabile</ref>.</bibl>
         <note>The work  offers a method to calculate the longitude of the five planets without the need of observation or manipulation of astronomical tables. Since one knew the position of the planets during the Creation, one needed just to calculate the time elapsed since Creation and do the neccessary multiplication.</note>
-    </work>    
+    </work>
     <work xml:id="itaque_stella_veneris">
         <author ref="#bede">(Ps.) Bede</author>
         <title>Opusculum Itaque stella veneris et mercurii</title>
@@ -597,6 +597,19 @@
         <title>Instructionum liber</title>
         <bibl>
          <abbr>PL</abbr>, 50, 773A-822D.</bibl>
+    </work>
+    <work xml:id="in_sallustium">
+      <author ref="#cicero">Ps-Cicero</author>
+      <title>In Sallustium</title>
+      <bibl>Loeb 462, pp. 372-391.</bibl>
+      <bibl>Novokhatko, Anna. The Invectives of Sallust and Cicero. Critical Edition with Introduction, Translation, and Commentary. Berlin: Walter de Gruyter, 2009</bibl>
+    </work>
+    <work xml:id="in_ciceronem">
+        <author ref="#sallustius">Ps-Sallustius</author>
+        <title>In Ciceronem</title>
+        <bibl>Novokhatko, Anna. The Invectives of Sallust and Cicero. Critical Edition with Introduction, Translation, and Commentary. Berlin: Walter de Gruyter, 2009</bibl>
+        <bibl>Text in LacusCurtius<ptr target="http://penelope.uchicago.edu/Thayer/l/roman/texts/Sallust/pseudo/In_Ciceronem*.html"/>
+        </bibl>
     </work>
     <work xml:id="in_vergilii_carmina_commentarii" ref="http://d-nb.info/gnd/4138843-4">
         <author ref="#servius">Servius</author>
@@ -756,7 +769,7 @@
     <work xml:id="scottus_ratio">
         <title>De ratione conputandi<note> (Scottus Rat.)</note>
       </title>
-        <bibl>Maura Walsh, and Dáibhí Ó Cróinín (ed). <title>Cummian’s Letter De controversia paschali, together with a related Irish computistical tract De ratione conputandi</title>. Toronto: Pontifical Institute of Medieval Studies, 1988.</bibl>        
+        <bibl>Maura Walsh, and Dáibhí Ó Cróinín (ed). <title>Cummian’s Letter De controversia paschali, together with a related Irish computistical tract De ratione conputandi</title>. Toronto: Pontifical Institute of Medieval Studies, 1988.</bibl>
         <note>Borst (<bibl>
             <abbr>Borst, Kalenderreform</abbr>, pp. 177-189.</bibl>) suggested that this work was written around 650 in South Ireland. It was intended not only for monastic, but for general use - a manual for all Latin readers including clerics. On calendar and arithmetical questions followed Victorius of Aquitaine and Dionysius. For the theme on language borrowed heavily from Isidore. The manual is divided in two parts: 1) comprising 62 chapters mainly on the solar calendar with a catalogue of time units; 2) comprising 53 chapters - the course of the moon and its significance for the Easter calculation.</note>
     </work>

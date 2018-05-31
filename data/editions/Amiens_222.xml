@@ -212,7 +212,7 @@
                             <note>Acephalous and anourous<title ref="#DTR">De temporum ratione</title> (from mid of cap. 6 till mid of cap. 23).</note>
                             <incipit>die occursum equinoctii et ante triduum hoc est quintodecimo KLdarum earunndem</incipit>
                             <explicit>
-                                <locus from="17v">17v</locus>Est namque aetiam uetus argumentum non solummodo de KLdarum uerum et de quorumlibet inter KLdarum dierum luna uel feria dinoscenda repertum                             
+                                <locus from="17v">17v</locus>Est namque aetiam uetus argumentum non solummodo de KLdarum uerum et de quorumlibet inter KLdarum dierum luna uel feria dinoscenda repertum
                             </explicit>
                             <note>F. 8 displaced, originally following f. 17: (<locus from="8r">8r:</locus>) <quote>aliquanto<gap/>ndum sed maiorum tamen nobis <gap reason="omitted"/>
                                 </quote> so that the logical <foreign>explicit</foreign> is on f. <locus from="8v">8v:</locus>
@@ -332,7 +332,7 @@
                             <incipit>Intuentum quit sit status quid cursus postremo quid finis. Status est natura uel temporum ordo</incipit>
                             <explicit>nemo horas et momenta et ceteros temporum articulos distinguet quia omnia praesentia simul.</explicit>
                             <!--<filiation>Similar to the commentary to Martianus Capella found in <ref type="altMs">Leiden, UB, MS VLQ 48</ref>.</filiation>-->
-                            <quote type="full_text">Intuentum quit sit status quid cursus postremo quid finis. Status est natura uel temporum ordo <unclear>qui in se</unclear> semper per acto naturali circulo reuertitur ut partes in horam, horę in diem, dies in mensem, <supplied>m</supplied>enses in annum, anni in lunares solaresque circulos et cetera. Et ideo status dicitur quia semper sine ulla ordinis motatione currit per eosdem curriculos atque recurrit. Nam cursus ille temporum quem hic appellat per omnia motabilis est. Per VI enim huius mundi aetates gesta uariantur humana.                    
+                            <quote type="full_text">Intuentum quit sit status quid cursus postremo quid finis. Status est natura uel temporum ordo <unclear>qui in se</unclear> semper per acto naturali circulo reuertitur ut partes in horam, horę in diem, dies in mensem, <supplied>m</supplied>enses in annum, anni in lunares solaresque circulos et cetera. Et ideo status dicitur quia semper sine ulla ordinis motatione currit per eosdem curriculos atque recurrit. Nam cursus ille temporum quem hic appellat per omnia motabilis est. Per VI enim huius mundi aetates gesta uariantur humana.
                                 <pb n="28r"/>De isto cursu chronica scripsit quę sunt secunda pars huius libri. Finem uero temporum elegantissime exposuit. cum de vii et viii aetate in fine sui operis disserte lucideque tracauit. <ref type="medieval" cRef="dtr_praefatio">Immo ipse labentibus curriculis temporum finem cum uoluerit imponet </ref>et reliqua. Quem finem deus tempori imponet  non per omnia patet facile. Si enim cęli et siderum cursibus quae hęc notissima tempora efficiunt profecto cęlum cum suius planetis aut penitus deficient quod absit aut sine ulla motatione de loco <subst>
                                     <del>ad</del>
                                     <add>in</add>

@@ -27,7 +27,7 @@
     </teiHeader>
     <text>
         <body>
-                <listPerson> 
+                <listPerson>
                     <person xml:id="abbo">
                         <persName xml:id="gnd_118637576" ref="http://d-nb.info/gnd/118637576">Abbo &lt;Floriacensis&gt;</persName>
                         <persName>Abbo of Fleury</persName>
@@ -287,6 +287,9 @@
                     <person xml:id="salvianus_massiliensis">
                         <persName xml:id="gnd_118605208" ref="http://d-nb.info/gnd/118605208">Salvianus &lt;Massiliensis&gt;</persName>
                     </person>
+                    <person xml:id="sallustius">
+                      <persName xml:id="gnd_118605097" ref="http://d-nb.info/gnd/118605097">Ps-Sallustius</persName>
+                    </person>
                     <person xml:id="servius">
                         <persName xml:id="gnd_118796313" ref="http://d-nb.info/gnd/118796313">Servius</persName>
                     </person>
@@ -329,7 +332,7 @@
                     </affiliation>
                         <occupation>monk</occupation>
                         <occupation>librarian</occupation>
-                    </person> 
+                    </person>
                 </listPerson>
         </body>
     </text>
