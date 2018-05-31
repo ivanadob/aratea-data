@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=115">Boulogne-sur-mer, BM, MS 188</ref>
-                </title>
+            <title type="sub">Boulogne-sur-mer, BM, MS 188</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -91,6 +90,7 @@
                     <note type="caption">Germanicus' Aratea</note>
                     <origPlace ref="#saint_bertin">Saint-Bertin</origPlace>
                     <origDate notBefore="0905" notAfter="1100">X-XI (not before 905).</origDate>
+                    Digital facsimile at: <ref type="mss" target="http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=115">Bibliothèque Virtuelle des Manuscrits Médiévaux</ref>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>

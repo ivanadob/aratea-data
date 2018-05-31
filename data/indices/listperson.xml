@@ -147,6 +147,7 @@
                     </person>
                     <person xml:id="herigerus_lobiensis">
                         <persName xml:id="gnd_118703625" ref="http://d-nb.info/gnd/118703625">Herigerus &lt;Lobiensis&gt;</persName>
+                        <ref target="http://www.geschichtsquellen.de/repPers_118703625.html">Entry in Repertorium Geschichtsquellen des deutschen Mittelalters</ref>
                     </person>
                     <person xml:id="hermannus_contractus">
                         <persName xml:id="gnd_118549693" ref="http://d-nb.info/gnd/118549693">Hermannus &lt;Contractus&gt;</persName>

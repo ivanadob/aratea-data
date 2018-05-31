@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref target="http://gallica.bnf.fr/ark:/12148/btv1b8432469w.r=8663.langEN">Paris, BnF, Ms. lat. 8663</ref>
+            <title type="sub">Paris, BnF, Ms. lat. 8663
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,12 +29,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+            <revisionDesc status="complete">
+				<change when="2018-05-31"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <facsimile>
         <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b8432469w/f9.item" n="1r"/>
@@ -87,7 +85,8 @@
                     <origPlace ref="#fleury">Fleury (?)</origPlace>, <origPlace ref="#tours">Tours (?)</origPlace>
                     <origDate notBefore="0901" notAfter="1050">s. X-XI<hi rend="sup">1</hi>
                     </origDate>
-                </head> 
+                    Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8432469w.r=8663.langEN">gallica.bnf.fr</ref>
+                </head>
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
@@ -105,7 +104,7 @@
                           </extent>
                           <foliation>In pencil and ink in the upper right corner of every folium.</foliation>
                       <collation>
-                                <p>Composed, according to Moster, from three homogeneous and contemporary parts: ff. 1-24, ff. 25-46 and ff. 47-58 (Mostert's BF 1155, 1156 and 1157 accordingly).</p> 
+                                <p>Composed, according to Moster, from three homogeneous and contemporary parts: ff. 1-24, ff. 25-46 and ff. 47-58 (Mostert's BF 1155, 1156 and 1157 accordingly).</p>
                         <formula>I<hi rend="sup">2</hi> (ff.1-2), II-III<hi rend="sup">8</hi> (ff.3-10 and 11-18), IV<hi rend="sup">2</hi> (ff.19-20), V<hi rend="sup">4</hi> (ff.21-24), VI-VII<hi rend="sup">8</hi> (ff.25-32 and 33-40), VIII<hi rend="sup">6</hi> (ff.41-46), IX<hi rend="sup">4</hi> (ff.47-50) and X<hi rend="sup">8</hi> (ff.51-58)</formula>
                             </collation>
                       <condition>The manuscript lost at least two quaternions between ff. 32 and 33. See note to<locus from="25r" to="44v">25r-44v</locus>.</condition>
@@ -113,7 +112,7 @@
                    <layoutDesc>
                      <layout columns="1" writtenLines="34 44">Written in 32-44 long lines.</layout>
                   </layoutDesc>
-               </objectDesc>   
+               </objectDesc>
             </physDesc>
             <history>
                 <origin>All three parts show palaeographical similarities and where probably written in the Loire valley in<origDate notBefore="0901" notAfter="1050">s. X-XI<hi rend="sup">1</hi>
@@ -232,7 +231,7 @@
                         <msItem>
                             <locus from="47r">47r</locus>
                             <author ref="#gerbert">Gerbert of Aurillac</author>
-                            <title>Letter to Constantine of Fleury on the abacus</title>
+                            <title ref="#gerbert_letter">Letter to Constantine of Fleury on the abacus</title>
                             <incipit>Uis amiciciae penae impossibilia redigit ad possibilia. Nam quomodo rationes numerorm abaci explicare contenderemus nisite ad ortante omni dulce solamen laborum</incipit>
                             <explicit>ac terrae plena fide comparatam.</explicit>
                             <listBibl>
@@ -242,7 +241,7 @@
                             </listBibl>
                             <msItem>
                                 <locus from="47r" to="47v">47r-v</locus>
-                                <note>The letter is followed by<title>Regulae multiplicationis</title> and <title>Regulae divisionis</title>
+                                <note>The letter is followed by <title>Regulae multiplicationis</title> and <title>Regulae divisionis</title>
                                 </note>
                                 <incipit>Si multiplicaueris singularem numerum per X dabis unicuique digiti X et omni articulo C</incipit>
                                 <explicit>denominationes mittunt ad extremos digitos.</explicit>
@@ -251,10 +250,16 @@
                             </msItem>
                         </msItem>
                         <msItem>
+                          <locus from="47v" to="49v">47v-49v</locus>
+                          <note>On the calculation with abacus:</note>
+                          <msItem>
                             <locus from="47v" to="48r">47v-48r</locus>
                             <author ref="#herigerus_lobiensis">Herigerus Lobiensis</author>
+                            <title ref="#regulae_herigerus">Regulae de numerorum abaci rationibus</title>
                             <incipit>Singularem per decenum si multiplicaueris dabis digitos X articulos C</incipit>
                             <explicit>Hic ulterius ad hanc consequentiam multiplicantur numeri etiamsi interminabilis multitudinis fiat abacus.</explicit>
+                            <bibl>
+                                <abbr>Bubnov 1899</abbr>, pp. 8-12.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="48r" to="49r">48r-49r</locus>
@@ -276,6 +281,7 @@
                                 <decoNote>Abacus table.</decoNote>
                             </msItem>
                         </msItem>
+                      </msItem>
                         <msItem>
                             <locus from="50r">50r</locus>
                             <author ref="#gerbert">Gerbertus of Aurillac</author>
@@ -283,7 +289,7 @@
                             <incipit>
                                 <gap reason="lacuna"/> Marcianus in astrologia incrementa horarum ita fieri putat</incipit>
                             <explicit>quae sit XXIIIIor partium.</explicit>
-                            <decoNote>two tables illustrating the lenght of day and night with headings<quote>Horologium secundum eos qui diem maximum habent horarum aequinoctialium XVIII</quote> and <quote>Item horologium hellesponti ubi dies maximum est horarum XV</quote>.</decoNote>
+                            <decoNote>two tables illustrating the lenght of day and night with headings <quote>Horologium secundum eos qui diem maximum habent horarum aequinoctialium XVIII</quote> and <quote>Item horologium hellesponti ubi dies maximum est horarum XV</quote>.</decoNote>
                             <bibl>
                                 <abbr>Bubnov 1899</abbr>, pp. 39-40.</bibl>
                         </msItem>
@@ -302,7 +308,7 @@
                         </msItem>
                         <msItem>
                             <locus from="57v">57v</locus>
-                            <title>Apuleian Sphere</title>
+                            <title ref="#apuleian_sphere">Apuleian Sphere</title>
                             <incipit>Sphera apulegii de egris uel monomachis, si uis scire qua die decumbant uel liberentur</incipit>
                             <explicit>si infra mortem uel casum monomachi monstrabit.</explicit>
                             <decoNote>Diagram of the sphere with headings int he middle<quote>Vita Mors</quote>.</decoNote>
@@ -316,7 +322,7 @@
                         </msItem>
                         <msItem>
                             <locus from="58r">58r</locus>
-                            <note>Liturgical songs<foreign>Pro defunctis</foreign>:</note>
+                            <note>Liturgical songs <foreign>Pro defunctis</foreign>:</note>
                             <msItem>
                                 <note>Responsorium (<ref target="http://cantus.uwaterloo.ca/chant/397039">Cantus N.006325</ref>).</note>
                                 <incipit>Congregati sunt deus ad deuorandum me</incipit>
@@ -355,7 +361,7 @@
                         </msItem>
                         <msItem>
                             <locus from="58v">58v</locus>
-                            <note>Later additions and verses:<quote>Florida floriacum perlustrauit pragmata claustri<lb/>floret florigerum dogmatis hic studium</quote>.</note>
+                            <note>Later additions and verses:<quote>Florida floriacum perlustrauit pragmata claustri <lb/>floret florigerum dogmatis hic studium</quote>.</note>
                         </msItem>
                     </msContents>
                 </msPart>

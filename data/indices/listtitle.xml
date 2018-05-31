@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<work xml:id="gerbert_letter">
+  <author ref="#gerbert">Gerbert of Aurillac</author>
+  <title>Letter to Constantine of Fleury on the abacus</title>
+  <bibl>
+      <abbr>Bubnov 1899</abbr>, pp. 6-8.</bibl>
+  <bibl>Gerbert of Aurillac.<title level="m">The Letters of Gerbert with His Papal Privileges as Sylvester II</title>. Translated by Harriet Pratt Lattin. New York: Columbia Univ. Press, 1961.</bibl>
+  </work>
     <work xml:id="abbo_sentenia">
         <title>Sententia Abbonis de differentia circuli et sperae</title>
         <title type="alternative">De ratione sphere</title>
@@ -760,6 +766,12 @@
     <work xml:id="ral">
         <title>Revised Aratus Latinus</title>
     </work>
+    <work xml:id="regulae_herigerus">
+      <author ref="#herigerus_lobiensis">Herigerus Lobiensis</author>
+      <title>Regulae de numerorum abaci rationibus</title>
+      <bibl>
+          <abbr>Bubnov 1899</abbr>, pp. 8-22.</bibl>
+      </work>
     <work xml:id="satirae" ref="http://d-nb.info/gnd/4331976-2">
         <author ref="#iuvenalis">Iuvenalis</author>
         <title>Saturae</title>

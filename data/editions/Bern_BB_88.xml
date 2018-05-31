@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0088">Bern, Burgerbibliothek, MS 88</ref>
+            <title type="sub">Bern, Burgerbibliothek, MS 88
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,12 +29,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
-			</revisionDesc>
-		-->
+        </fileDesc>
+            <revisionDesc status="complete">
+				<change when="2018-05-31"/>
+			</revisionDesc>		
     </teiHeader>
     <facsimile>
         <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/1r" n="1r"/>
@@ -71,6 +69,7 @@
                     <origPlace ref="#luxeuil">Luxeuil</origPlace> (?) or <origPlace ref="#saint_bertin">Saint-Bertin(?)</origPlace>
                     <origDate notBefore="0986" notAfter="1015">s. X<hi rend="sup">ex</hi>-XI<hi rend="sup">in</hi>
                     </origDate>
+                    Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0088">e-codices - Virtual Manuscript Library of Switzerland</ref>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -118,7 +117,7 @@
                             <locus from="11v">11v</locus>
                             <decoNote>Planisphere with five concentric circles for each of the celestial zones and another one marking the zodiacal band.</decoNote>
                         </msItem>
-                    </msItem>		
+                    </msItem>
                 </msContents>
                 <physDesc>
                     <objectDesc form="codex">
@@ -150,8 +149,8 @@
                         <summary/>
                         <scriptNote script="carolmin">
                             <p/>
-                        </scriptNote>                     
-                    </scriptDesc>  
+                        </scriptNote>
+                    </scriptDesc>
                     <decoDesc>
                         <decoNote>28 illustrations of the constellations, two per folio. For iconographical analysis see<bibl>Homburger, Otto: Die illustrierten Handschriften der Burgerbibliothek Bern. Bd. 2. (Bern, um 1960)<ptr target="http://www.e-codices.unifr.ch/de/description/bbb/0088/"/>
                             </bibl>, <bibl>
@@ -166,12 +165,12 @@
                 <history>
                     <summary/>
                     <origin>
-                        <p>The manuscript is a copy of<ref type="altMs" target="Boulogne-sur-mer_188.xml">Boulogne-sur-mer, BM, MS 188</ref>. Looking at the iconographic features  proposed that the illustrations were drawn by <rs type="person" ref="#odbert">Odbert</rs> from <origPlace ref="#saint_bertin">St. Bertin</origPlace>, where the exemplar <ref type="altMs" target="Boulogne-sur-mer_188.xml">MS Boulogne 188</ref> came from.</p>
+                        <p>The manuscript is a copy of <ref type="altMs" target="Boulogne-sur-mer_188.xml">Boulogne-sur-mer, BM, MS 188</ref>. Looking at the iconographic features  proposed that the illustrations were drawn by <rs type="person" ref="#odbert">Odbert</rs> from <origPlace ref="#saint_bertin">St. Bertin</origPlace>, where the exemplar <ref type="altMs" target="Boulogne-sur-mer_188.xml">MS Boulogne 188</ref> came from.</p>
                     </origin>
                     <provenance>
                         <p>Donantion inscription on top margin of f. 1v:<quote>Werinharius eps dedit sanctę Marię</quote> refering to a gift made by bishop <rs type="person" ref="#werner_von_habsburg">Werner I</rs> (1001-1028) made to the cathedral of St. Mary in <rs type="place" ref="#strasbourg">Strasbourg</rs> (on the library at Strasbourg destroyed in the war of 1870 see <bibl>Hoffmann, H. Schreibschulen p. 273-4</bibl>). <!--While for palaeographical studies it is of small imporatance whether the book itself was an import or the monk Constantius went to write it in Strasbourg, it is of great relevance for studing the transmission of the Aratea. One can, however, only speculate if the bishop wanted to supply his cathedral library with texts, he thought were important and of which knew to be in Luxeuil or St. Bertin.-->
                         </p>
-                        <p>The manuscript was for some time binded together with<ref type="mss">Bern, Burgerbibliothek MS 87</ref> (described together by Wimpfelin in 1508: <quote>Geometria ex Greco in latinum a Boecio translate, proprietates et dispositions signorum caeli</quote>). This manuscript has a colophon written by <rs type="person" role="scribe">Constantius</rs>, priest of St. Peter’s abbey church in Luxeuil in <origDate when="1004">1004</origDate>. It is then possible that Werner procured copies of Boethius' texts from Constantius in Luxeuil and an Aratea from St. Bertin and at some time later the two were bound together based on their common use in the quadrivium.</p>
+                        <p>The manuscript was for some time binded together with <ref type="altMs" target="https://www.e-codices.unifr.ch/en/list/one/bbb/0087">Bern, Burgerbibliothek MS 87</ref> (described together by Wimpfelin in 1508: <quote>Geometria ex Greco in latinum a Boecio translate, proprietates et dispositions signorum caeli</quote>). This manuscript has a colophon written by <rs type="person" role="scribe">Constantius</rs>, priest of St. Peter’s abbey church in Luxeuil in <origDate when="1004">1004</origDate>. It is then possible that Werner procured copies of Boethius' texts from Constantius in Luxeuil and an Aratea from St. Bertin and at some time later the two were bound together based on their common use in the quadrivium.</p>
                     </provenance>
                 </history>
                 <additional>
@@ -209,7 +208,7 @@
                             <abbr>Dekker</abbr>, pp. 145, 163, 173-75 and 233-35.</bibl>
                         <bibl>Saenger, Paul.<title>Space Between Words: The Origins of Silent Reading</title>. Stanford University Press, 1997.</bibl>
                         <bibl>Stutzmann, Dominique. “Saint-Bertin : centre culturel du VIIe au XVIIIe siècle.” 2016.<ptr target="http://saint-bertin.irht.cnrs.fr/site/php/notice.php?id=Boulogne-sur-Mer188&amp;catalogue=boulogne"/>.</bibl>
-                        <bibl>Lippincott, Kristen. Saxl Project<ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-descriptions-Germanicus-Bern-88-15-Nov-2012.pdf"/>.</bibl>                        
+                        <bibl>Lippincott, Kristen. Saxl Project<ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-descriptions-Germanicus-Bern-88-15-Nov-2012.pdf"/>.</bibl>
                     </listBibl>
                 </additional>
             </msDesc>
