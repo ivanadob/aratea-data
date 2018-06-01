@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of London, BL, Cotton MS Tiberius B V/1<ptr target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_B_V/1"/>
-                </title>
+            <title type="sub">London, British Library, Cotton MS Tib. B V/1</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,12 +28,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <facsimile>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_tiberius_b_v!1_f002r" n="2r"/>
@@ -143,8 +140,9 @@
                 <head>
                     <title>Anglo-saxon miscellany</title>
                     <note type="caption"/>
-                    <origPlace ref="#">Canterbury</origPlace>
+                    <origPlace ref="#canterbury">Canterbury</origPlace>
                     <origDate notBefore="1026" notAfter="1175">s. XI<hi rend="sup">2/4</hi> (additions s. XII<hi rend="sup">3/4</hi>)</origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_B_V/1">www.bl.uk</ref>.</note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat" otherLangs="ang"/>
@@ -411,7 +409,7 @@
                     <additions/>
                     <bindingDesc>
                         <binding>
-                            <p>Eighteen-century binding<ref target="http://www.bl.uk/manuscripts/Viewer.aspx?order=b&amp;ref=cotton_ms_tiberius_b_v!1_fblefv"/> with the coat of arms of Sir Cotton.</p>
+                            <p>Eighteen-century binding with the coat of arms of Sir Cotton.</p>
                         </binding>
                     </bindingDesc>
                     <accMat>Early modern table of content on f.<locus from="1r" to="1v">1r-v</locus>.</accMat>

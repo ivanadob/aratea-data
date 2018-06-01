@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref target="http://sosa2.uni-graz.at/sosa/katalog/katalogisate/297.html">Graz, Universitätsbibliothek, Ms 297</ref>.</title>
+            <title type="sub">Graz, Universitätsbibliothek, Ms 297</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -28,12 +28,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
-			</revisionDesc>
-		-->
+        </fileDesc> 
+        <revisionDesc status="complete">
+            <change when="2018-06-01"/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -49,8 +47,9 @@
                 <head>
                     <title>Computistical collection</title>
                     <note type="caption"/>
-                    <origPlace ref="#"/>
+                    <origPlace ref="#st_lambrecht">Sankt Lambrecht</origPlace>
                     <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://sosa2.uni-graz.at/sosa/katalog/katalogisate/297.html">ub.uni-graz.at</ref>.</note>
                 </head>
                 <msContents>
                     <msItem>
@@ -149,7 +148,7 @@
                 </physDesc>
                 <history>
                     <origin>The manuscript was written in<origDate notBefore="1101" notAfter="1150">s. XII<hi rend="sup">1</hi>
-                        </origDate>, probably in the <origPlace>Benedictine monastery of St. Lambrecht</origPlace>. See the exlibris on the front paste-down <quote>Librum istum sancti lamberti et fratrum eius quisquis ui uel furto abstulerit anathema sit</quote> (s. XII<hi rend="sup">2</hi>.</origin>
+                    </origDate>, probably in the <rs type="corporate" ref="#st_lambrecht">Benedictine monastery of St. Lambrecht</rs>. See the exlibris on the front paste-down <quote>Librum istum sancti lamberti et fratrum eius quisquis ui uel furto abstulerit anathema sit</quote> (s. XII<hi rend="sup">2</hi>.</origin>
                 </history>
                 <additional>
                     <listBibl>

@@ -41,6 +41,9 @@
             <org xml:id="saint_augustine_abbey">
                <orgName xml:id="gnd_4399943-8" ref="http://www.geonames.org/6619924">St Augustine's Abbey</orgName>
             </org>
+            <org xml:id="st_lambrecht">
+               <orgName xml:id="gnd_037112-5" ref="http://d-nb.info/gnd/5037112-5">Abbey St. Lambrecht</orgName>
+            </org>
             <org xml:id="hyde_abbey">
                <orgName xml:id="gnd_1092073159">Hyde Abbey</orgName>
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Hyde_Abbey"/>

@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_647">London, BL, Ms Harley 647</ref>
-                </title>
+            <title type="sub">London, British Library, Harley MS 647</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,12 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc> 
+        <revisionDesc status="comoplete">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <facsimile>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_647_f001r" n="1r"/>
@@ -75,16 +73,13 @@
                     <repository>British library</repository>
                     <collection>Harley</collection>
                     <idno>647</idno>
-                    <altIdentifier type="other">
-                        <idno/>
-                    </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title>Astronomical miscellany</title>
-                    <note type="caption"/>
                     <origPlace ref="#lotharingia">Lotharingia</origPlace>, <origPlace ref="#aachen">Aachen</origPlace>
                     <origDate notBefore="0826" notAfter="0850">s.IX<hi rend="sup">2/4</hi>
                     </origDate>, with later additions (s. X<hi rend="sup">ex</hi> and s. XI<hi rend="sup">in</hi>)
+                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_647">British library</ref>
                 </head>                
             <msContents>
                 <msItem>
@@ -99,13 +94,13 @@
                 </msItem>
                 <msItem>
                     <locus from="2r">2r</locus>
-                    <note>Prayer:</note>
+                    <title ref="#oratio">Prayer</title>
                     <incipit>Domine Deus omnipotens sancta trinitas</incipit>
                     <explicit>In unitate eiusdem spiritus sancti per omnia secula seculorum AMEN.</explicit>
                 </msItem>
                 <msItem>
                     <locus from="2r">2r</locus>
-                    <note>On the creation of the luminaries according to the bible:</note>
+                    <title ref="#sancta_scriptura">On the creation of the luminaries according to the bible</title>
                     <quote>Sancta scriptura nobis a deo per beatum moysen tradita docet<gap reason="damage"/> in quarto die luminaria duo solem uidelicet lunamque per uerbum sicut omnia  creauit fecisse luminare maius ut preesset et diei et luminare minus nocti ut preesset nocti.</quote>
                 </msItem>
                 <msItem>

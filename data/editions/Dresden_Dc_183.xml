@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Dresden, Sächsische Landesbibliothek, Dc 183</title>
+            <title type="sub">Dresden, Sächsische Landesbibliothek, Dc 183</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -28,12 +28,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="complete">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <text>
         <body>
@@ -51,8 +49,8 @@
                 </head>                
             <msContents>
                 <msItem>
-                    <locus from="1r">1r-</locus>
-                    <title ref="#ral">RAL</title>
+                    <locus from="1r">1r-(?)</locus>
+                    <title ref="#ral">Revised Aratus Latinus</title>
                     <msItem>
                         <locus from="1r">1r-</locus>
                         <title>Arati ea quae videntur</title>
@@ -194,7 +192,7 @@
                       <collation>
                                 <formula/>On f. 97v – quire mark XIII;</collation>
                           <condition>
-                              <p>The manuscript was destroyed during World War II. This description is based therefore on Warburg Insitute photographs for ff. 8v, 13r, 14r-26r, 27v, 28v, 29v and 31r and on microfilm in IRHT for ff. 1r-2v, 7r-28r, and 94r-101v. For the rest of the content I relay on the description of Maass.</p>
+                              <p>The manuscript suffered grate damage during World War II. This description is based therefore on Warburg Insitute photographs for ff. 8v, 13r, 14r-26r, 27v, 28v, 29v and 31r and on microfilm in IRHT for ff. 1r-2v, 7r-28r, and 94r-101v. For the rest of the content draws on the description of Maass.</p>
                           </condition>
                   </supportDesc>
                    <layoutDesc>
@@ -218,6 +216,8 @@
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
+                   <bibl>
+                            <abbr>Maass</abbr>, pp. XXI-XXII.</bibl>
                    <bibl>
                             <abbr>Bischoff, Katalog I</abbr>, p. 225.</bibl>
                    <bibl>

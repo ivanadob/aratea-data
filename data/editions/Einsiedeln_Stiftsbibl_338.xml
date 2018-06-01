@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Einsiedeln, Stiftsbibliothek, Codex 338</title>
+            <title type="sub">Einsiedeln, Stiftsbibliothek, Codex 338</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -28,12 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc>
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <text>
         <body>
@@ -48,7 +47,6 @@
                 </msIdentifier>
                 <head>
                     <title>Composite manuscript</title>
-                    <note type="caption"/>
                     <origPlace ref="#trier">Trier</origPlace> (Part 1), <origPlace ref="#wuerzburg">Würzburg</origPlace>
                     <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                 </head>
@@ -84,7 +82,7 @@
                   </layoutDesc>
                </objectDesc>
                 <handDesc>
-                    <handNote/>!
+                    <handNote/>
                 </handDesc>
                 <bindingDesc>
                     <binding>
@@ -93,7 +91,7 @@
                 </bindingDesc>
             </physDesc>
             <history>
-                <origin>The manuscript was written in the<origDate notBefore="0901" notAfter="1000">s. X</origDate> in <origPlace ref="#germany">Germany</origPlace> or <origPlace ref="#switzerland">Switzerland</origPlace>.</origin>
+                <origin>The manuscript was written in  <origDate notBefore="0901" notAfter="1000">s. X</origDate> in <origPlace ref="#germany">Germany</origPlace> or <origPlace ref="#switzerland">Switzerland</origPlace>.</origin>
                 <provenance>Since the<date notBefore="1301" notAfter="1400">s. XIV</date> the manuscript is kept in the Stiftsbibliothek in <rs type="place" ref="#einsiedeln">Einsiedeln</rs> cf. the note bz a 14th-century hand on p. 457 <quote>Gehört gan Einsidlen disses büchl in das gotthuss LXI°</quote> (Smith).</provenance>
             </history>
             <additional>

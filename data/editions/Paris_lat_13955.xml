@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 13955
-                </title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 13955</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -380,7 +379,7 @@
             <msDesc xml:id="paris_bnf_13955" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Paris</settlement>
-                    <repository>BnF</repository>
+                    <repository>Bibliothèque nationale de France</repository>
                     <idno>lat. 13955</idno>
                     <altIdentifier type="former">
                         <idno>N.1094</idno>

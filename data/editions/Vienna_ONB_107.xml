@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Vienna, Österreichische Nationalbibliothek, Cod. 107</title>
+            <title type="sub">Vienna, Österreichische Nationalbibliothek, Cod. 107</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,7 +29,7 @@
                 <p/>
             </sourceDesc>
         </fileDesc>           
-        <revisionDesc status="draft">
+        <revisionDesc status="complete">
             <change>work in progress</change>
         </revisionDesc>
     </teiHeader>

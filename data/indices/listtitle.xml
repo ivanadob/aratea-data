@@ -15,6 +15,7 @@
         <bibl>Gerbert of Aurillac. <title>The Letters of Gerbert with His Papal Privileges as Sylvester II</title>. Tr. Harriet Pratt Lattin. New York: Columbia Univ. Press, 1961 (here pp. 36-39).</bibl>
     </work>
     <work xml:id="abbo_sentenia">
+        <author ref="#abbo">Abbo of Fleury</author>
         <title>Sententia Abbonis de differentia circuli et sperae</title>
         <title type="alternative">De ratione sphere</title>
         <incipit>Studiosis astrologie primo sciendum est per geometricam quid distat inter circulum et speram</incipit>
@@ -25,18 +26,21 @@
          <abbr>Borst, Kalenderreform</abbr>, p. 328.</bibl>
     </work>
     <work xml:id="abbo_denique_luna">
+        <author ref="#abbo">Abbo of Fleury</author>
         <title>Untitled</title>
         <incipit>Denique luna totius zodiaci signa puncta partes studiooso lectori manifestabit</incipit>
         <explicit>similiter de reliquis.</explicit>
         <bibl>Thomson, Ron B. “Two Astronomical Tractates of Abbo of Fleury.” <title level="m">In The Light of Nature. Essays in the History and Philosophy of Science Presented to A.C. Crombie</title>, edited by J.D. North and J.J. Roche, 113–33. Dordrecht: Springer, 1985.</bibl>
     </work>
     <work xml:id="abbo_de_duplici">
+        <author ref="#abbo">Abbo of Fleury</author>
         <title>De duplici signorum ortu vel occasu</title>
         <incipit>De duplici ortu signorum dubitantes aliquando hac ratione conveni</incipit>
         <explicit>Matutino ex ortu hiemalem horrorem, vespertino vernalem adducunt temperiem.</explicit>
         <bibl>Thomson, Ron B. "Further Astronomical Material of Abbo of Fleury." <title level="j">Medieval Studies</title> 50 (1988): 671-3.</bibl>
     </work>
     <work xml:id="abbo_de_quinque_circulis">
+        <author ref="#abbo">Abbo of Fleury</author>
         <title>De quinque circulis mundi</title>
         <incipit>Quinque tenent caelum zonae quarum una corusco</incipit>
         <explicit>unde etiam fit ut duae zonae frigidissimae sint, ad quas sol numquam accedit.</explicit>
@@ -653,6 +657,10 @@
         <bibl>
          <abbr>Clavis</abbr>, 2321.</bibl>
     </work>
+    <work xml:id="liber_alchandrei">
+        <title>Liber Alchandrei</title>
+        <bibl>Juste, David. Les Alchandreana Primitifs: Étude Sur Les plus Anciens Traités Astrologiques Latin d’origin Arabe (Xe Siècle). Leiden: Brill, 2007.</bibl>
+    </work>
     <work xml:id="argumentum_aquens">
         <title>Argumentum ad lunam, cursu turbato anno domini infrascripto</title>
         <title>Arg. Aquens.</title>
@@ -708,6 +716,14 @@
         <note>Consists of one opening letter (Praefatio) addressed to Otrich and the text of the martyrologium.</note>
         <incipit>Domino Otrio Wandalbertus salutem dicit. Veteri et perantiquo praecepto monemur</incipit>
         <incipit>Dies 1 Primum nunc Iani vocitatum nomine mensem </incipit>
+    </work>
+    <work xml:id="oratio">
+        <title>Prayer</title>
+        <quote>Domine deus omnipotens sancta trinitas et indiuisa unitas Domine pater qui per unigenitum filium tuum dominum nostrum ihesum christum totum coaeternum et aequalem in substantia diuinitatis, in unitate et uirtute spiritus sancti omnia condidisti, et tempore nouissimo per eundem incarnatum totum mundum reformasti, presta domine ut tua misericordia inspirante per apertionem illam qua sensus apostolorum post resurrectionem aperuisti de uolubilitate firmamenti et stellarum astrorumque cursu secundum modulum nostrae fragilitatis capere et aliis ministrare ualeamus. per eundem dominum.</quote>
+    </work>
+    <work xml:id="sancta_scriptura">
+        <title>On the creation of the luminaries according to the bible</title>
+        <quote>Sancta scriptura nobis a deo per beatum moysen tradita docet deum in quarto die luminaria duo solem uidelicet lunamque per uerbum sicut omnia creauit fecisse luminare maius ut preesset et diei et luminare minus nocti ut preesset nocti.</quote>
     </work>
     <work xml:id="partitiones_duodecim_versuum_aeneidos">
         <title>Partitiones duodecim versuum Aeneidos principalium</title>

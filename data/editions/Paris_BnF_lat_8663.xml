@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Paris, BnF, Ms. lat. 8663
-                </title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 8663</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -71,7 +70,7 @@
             <msDesc xml:id="paris_bnf_8663" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Paris</settlement>
-                    <repository>BnF</repository>
+                    <repository>Bibliothèque nationale de France</repository>
                     <idno>latin 8663</idno>
                     <altIdentifier type="former">
                         <idno>Reg. 5462</idno>

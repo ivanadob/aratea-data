@@ -95,7 +95,8 @@
                     <title>Astronomical collection</title>
                     <origPlace ref="#ne_france">North-east France</origPlace>, <origPlace ref="#st_amand">Saint Amand</origPlace>(?)
                     <origDate notBefore="0901" notAfter="1000">s. X</origDate>
-                    Digital facsimile at <ref type="mss" target="http://gallica.bnf.fr/ark:/12148/btv1b8452589j">gallica.bnf.fr.</ref>
+                    <note type="facs">Digital facsimile at <ref type="mss" target="http://gallica.bnf.fr/ark:/12148/btv1b8452589j">gallica.bnf.fr.</ref>
+                    </note>
                 </head>                
                 
             <physDesc>
@@ -332,7 +333,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="35r">35r</locus>
-                                <note>Verse on the egyptian days.</note>
+                                <title ref="#dies_egyptiaci">Dies egyptiaci</title>
                                 <rubric>Uersus de diebus egyptiacis</rubric>
                                 <incipit>Bisdeni binique dies scribuntur in anno· In quibus una solet mortalibus hora timeri</incipit>
                                 <explicit>Ne in media ima ruas sed clara per ethera uiuas.</explicit>

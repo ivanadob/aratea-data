@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Cotton_MS_Tiberius_C_I">London, BL, Cotton Tib. C. I</ref>
-                </title>
+            <title type="sub">London, British Library, Cotton Tib. C. I</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,31 +28,29 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <text>
         <body>
             <msDesc xml:id="bl_tib_ci" xml:lang="eng">
                 <msIdentifier>
-                    <!-- contains the information required to identify the manuscript being described MANDATORY -->
-                    <settlement/>
-                    <institution/>
-                    <collection/>
-                    <idno/>
+                    <settlement>London</settlement>
+                    <repository>British Library</repository>
+                    <collection>Cotton</collection>
+                    <idno>Tiberius C I</idno>
                     <altIdentifier type="other">
                         <idno/>
                     </altIdentifier>
                 </msIdentifier>
                 <head>
-                    <title>Cicero: Aratea</title>
-                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
-                    <origPlace ref="#">Peterborough</origPlace>
+                    <title/>
+                    <note type="caption"/>
+                    <origPlace ref="#peterborough">Peterborough</origPlace>
                     <origDate notBefore="1120" notAfter="1135">1120-1135</origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Cotton_MS_Tiberius_C_I">www.bl.uk</ref>.</note>
                 </head>                
             <msContents>
                 <msItem>
@@ -73,14 +70,14 @@
                     <note/>
                 </msItem>
                <msItem>
-                   <locus from="21r" to="36r"/>
+                   <locus from="21r" to="36r">21r-36r</locus>
                   <author ref="#cicero">Cicero</author>
                    <title ref="#aratea_cicero">Aratea</title>
                    <rubric>
                             <locus from="36v">36v </locus>Ex opere ciceronis de astronomia</rubric>
                    <incipit>Equibus hinc subter possis cognoscere fultum</incipit>
                    <msItem>
-                       <locus from="21r"/>
+                       <locus from="21r">21r</locus>
                        <title/>
                        <incipit>Aries hic existimatur esse qui phrixem</incipit>
                        <explicit/>

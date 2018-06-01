@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref target="http://gallica.bnf.fr/ark:/12148/btv1b10224563x">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref>
-                </title>
+            <title type="sub">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,12 +28,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <text>
         <body>
@@ -53,6 +50,7 @@
                     <origPlace ref="#limoges">Limoges</origPlace> or <placeName ref="#angouleme">Angoulême</placeName>
                     <origDate notBefore="0950" notAfter="1050">s. X<hi rend="sup">2</hi>
                     </origDate> (with later additions)
+                    <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10224563x">gallica.bnf.fr</ref>.</note>
                 </head> 
             <physDesc>
                <objectDesc form="codex">

@@ -6,7 +6,7 @@
             <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Zwettl, Stiftsbibliothek, Cod. 296</title>
+            <title type="sub">Zwettl, Stiftsbibliothek, Cod. 296</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -29,6 +29,9 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-06-01"/>
+      </revisionDesc>
   </teiHeader>
   <text>
       <body>

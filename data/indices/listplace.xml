@@ -191,6 +191,9 @@
                         <tei:geo>47.42391 9.37477</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="st_lambrecht">
+                    <placeName ref="http://www.geonames.org/7872476">Sankt Lambrecht</placeName>
+                </place>
                 <place xml:id="strasbourg">
                     <placeName xml:id="gnd_4057878-1" ref="http://www.geonames.org/2973783">Strasbourg</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">

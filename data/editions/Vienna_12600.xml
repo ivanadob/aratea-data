@@ -7,8 +7,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="http://data.onb.ac.at/rec/AL00174919">Vienna, Österreichische Nationalbibliothek, Codex Vindobonensis Palatinus 12600</ref>
-                </title>
+            <title type="sub">Vienna, Österreichische Nationalbibliothek, Cod. 12600</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -30,85 +29,19 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
-    <!--<facsimile>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103109869~397" n="2r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103210257~36" n="2v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103287739~882" n="6r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103340995~672" n="6v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103421116~911" n="7r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103450557~984" n="7v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478103511780~970" n="8r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478181327805~323" n="9v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478172627107~508" n="10r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478104545004~694" n="10v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478185760808~779" n="14r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478104573678~754" n="14v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478104602709~672" n="16v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478185791516~185" n="17v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478185813154~5" n="18r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478185839775~367" n="18v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478185861407~149" n="19r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478250698842~283" n="20v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478250899576~599" n="21r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478250958950~21" n="21v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478250980793~308" n="22r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478267970394~865" n="22v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478267813958~156" n="23r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268454982~711" n="23v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268612196~92" n="24r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268651743~488" n="24v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268699890~882" n="25r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268756974~175" n="25v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478268792653~397" n="26r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478269200338~451" n="26v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478269125279~150" n="27r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478269492732~15" n="27v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478269794737~295" n="28r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478269742815~535" n="28v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478270478001~765" n="29r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478272771207~477" n="29v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478272986369~148" n="30r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478273368807~368" n="30v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478273570520~704" n="31r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478274702130~961" n="31v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478277334418~575" n="32r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478181747917~771" n="33r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478277362958~323" n="37v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478277376521~274" n="38r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478277469544~78" n="39r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478278156594~601" n="40r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537727237~25" n="40v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537703287~228" n="41v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537690289~451" n="42r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478510499753~745" n="42v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478510720797~240" n="43r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478510984914~349" n="45r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478511667382~192" n="49v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478528598964~345" n="51r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478531981185~265" n="65v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478532943084~918" n="75r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478533337465~548" n="76v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478535432899~543" n="97r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478535389762~354" n="105r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537657167~532" n="135v"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537644576~598" n="136r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537625164~921" n="137r"/>
-        <graphic url="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&dvs=1478537594927~217" n="137v"/>
-    </facsimile>-->
     <text>
         <body>
             <msDesc xml:id="vienna_12600" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Vienna</settlement>
                     <repository>Österreichische Nationalbibliothek</repository>
-                    <idno>Codex Vindobonensis Palatinus 12600</idno>
+                    <idno>Cod. 12600</idno>
                     <altIdentifier type="former">
                         <idno>Suppl. 372</idno>
                     </altIdentifier>
@@ -117,6 +50,7 @@
                     <title>Computistical-Astronomical Sammelhandschrift</title>
                     <origPlace ref="#pruefening">Prüfening</origPlace>
                     <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://data.onb.ac.at/rec/AC13958443">onb.ac.at</ref>.</note>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">

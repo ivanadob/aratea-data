@@ -6,8 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">Paris, BnF, lat. 12117</ref>
-                </title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 12117</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,12 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <facsimile>
         <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b9076834n/f5.item" n="1r"/>
@@ -110,7 +108,7 @@
             <msDesc xml:id="paris_lat_12117" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Paris</settlement>
-                    <repository>BnF</repository>
+                    <repository>Bibliothèque nationale de France</repository>
                     <idno>latin 12117</idno>
                     <altIdentifier type="other">
                         <idno/>
@@ -118,9 +116,10 @@
                 </msIdentifier>
                 <head>
                     <title>Computistical collection</title>
-                    <note type="caption"/>
                     <origPlace ref="#st_germain_des_pres">Saint-Germain-des-Prés (?)</origPlace>
                     <origDate notBefore="1051" notAfter="1100">s. XI<hi rend="sup">2</hi> (ca. 1063)</origDate>
+                    <note type="facs">Digital facsimile at <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">gallica.bnf.fr</ref>
+                    </note>
                 </head>                
             <msContents>
                 <msItem>
@@ -149,6 +148,7 @@
                     <explicit>mediam secuntiam iungens.</explicit>
                 </msItem>
                 <msItem>
+                    <locus from="2v">2v</locus>
                     <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                   <title>De uncia et partibus eius</title>
                   <rubric>De uncia et partibus eius</rubric>
@@ -156,6 +156,7 @@
                     <explicit>scripulis seu gramma retentant.</explicit>                    
                 </msItem>
                 <msItem>
+                    <locus from="2v">2v</locus>
                     <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                     <title>De scripulo et partibus eius</title>
                     <rubric>De scripulo et partibus eius</rubric>
@@ -163,8 +164,8 @@
                     <explicit>calcus ciceris duo granula pensans.</explicit>
                 </msItem>
                 <msItem>
-                    <locus>2v</locus>		
-                    <title ref="#">Liber Alchandrei<note>, § 17</note>
+                    <locus from="2v">2v</locus>		
+                    <title ref="#liber_alchandrei">Liber Alchandrei<note>, § 17</note>
                         </title>
                     <incipit>
                             <supplied>S</supplied>ciendum est quam uis sol moritur in uno quoque signo</incipit>
@@ -605,7 +606,7 @@
                    <bibl>
                             <abbr>Delisle</abbr>, Vol. 3, pp. <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k140992s/f287.item">278</ref>-<ref target="http://gallica.bnf.fr/ark:/12148/bpt6k140992s/f288.item">79</ref>.</bibl>
                    <bibl>
-                            <abbr>Borst (1994)</abbr>, pp. 157, 284.</bibl>!
+                            <abbr>Borst (1994)</abbr>, pp. 157, 284.</bibl>
                    <bibl>
                             <abbr>Duits</abbr>, p. 155.</bibl>
                    <bibl>Lippincott, Saxl Project<ptr target="file:///C:\Users\Ivana\Documents\MANUSCRIPTS\LIPPINCOTT%20desc\Paris-BN-lat-12117-de-ordine-ac-positione-June-2011.pdf"/>.</bibl>

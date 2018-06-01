@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Paris, BnF, n.a.l. 176</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS n.a.l. 176</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -26,30 +26,28 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p>TO BE CHECKED AGAINST MICROFILM OR MANUSCRIPT</p>
+                <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-                <change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc>
+                <change when="2018-06-01">TO BE CHECKED AGAINST MICROFILM OR MANUSCRIPT</change>
             </revisionDesc>
-        -->
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:id="paris-n-a-l-176" xml:lang="eng">
+            <msDesc xml:id="paris-nal-176" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Paris</settlement>
-                    <repository>BnF</repository>
+                    <repository>Bibliothèque nationale de France, MS latin</repository>
                     <collection>n.a.l.</collection>
                     <idno>176</idno>
                 </msIdentifier>
                 <head>
                     <title>Aratus Latinus. Theorica planetarum</title>
-                    <origPlace ref="#"/>
+                    <!--<origPlace ref="#"/>
                     <origDate notBefore="" notAfter="">
                         <hi rend="sup"/>
-                    </origDate>
+                    </origDate>-->
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>

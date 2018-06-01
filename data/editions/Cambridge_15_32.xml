@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref target="http://sites.trin.cam.ac.uk/manuscripts/R_15_32/manuscript.php?fullpage=1">Cambridge, Trinity College, MS R 15.32</ref>
+            <title type="sub">Cambridge, Trinity College, MS R 15.32
                 </title>
             </titleStmt>
             <editionStmt>
@@ -26,6 +26,9 @@
                 <p/>
             </sourceDesc>
         </fileDesc>
+       <revisionDesc status="comoplete">
+          <change when="2018-06-01"/>
+       </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -41,18 +44,19 @@
             </msIdentifier>
             <head>
                <title>Astronomical Collection</title>
-               <origPlace>Winchester</origPlace>
+               <origPlace ref="#winchester">Winchester</origPlace>
                <origDate>s. XI<hi rend="sup">1</hi>
                     </origDate> (with additions from <date notBefore="1051" notAfter="1100">s. XI<hi rend="sup">2</hi>
                     </date>)
-    </head>
+               Digital facsimile at <ref target="http://sites.trin.cam.ac.uk/manuscripts/R_15_32/manuscript.php?fullpage=1">Wren Digital Library</ref>
+            </head>
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
                      <support>
                         <p>
-                                    <material>Parchment</material>
-                                </p>
+                           <material>Parchment</material>
+                        </p>
                      </support>
                      <extent>
                         <measure type="pagesCount" quantity="218">ii + 218 p + ii</measure>
@@ -85,17 +89,17 @@
                </scriptDesc>
                <bindingDesc>
                   <binding>
-                     <p>Early-modern binding in braun leather and an embossed coat of arms of<rs type="person">George Willmer</rs> (1582–1626) in gold on the front cover with a proverb <quote>expertus credo</quote>.</p>
+                     <p>Early-modern binding in braun leather and an embossed coat of arms of <rs type="person">George Willmer</rs> (1582–1626) in gold on the front cover with a proverb <quote>expertus credo</quote>.</p>
                   </binding>
                </bindingDesc>
             </physDesc>
             <history>
                <origin>
                   <p>The astronomical section. Furthermore on p.165 Robinson identified the hand as that of<rs type="person" role="scribe">Aelsinus</rs>, a monk of Hyde Abbey (New Minster), who wrote <ref type="altMs">London, BL, Cotton Titus D. XXXVI</ref> fols. 68-75 and <ref type="altMs">Stowe 994</ref> which is the "Liber Vitae" of Hyde Abbey.</p>
-                  <p>The Calendar section on pp. 13-26 was written in<origPlace ref="#new_minster">New Minster</origPlace> near <origPlace ref="#winchester">Winchester</origPlace> most probably in mid 1030s. On p.17 for the 27th March is noted <quote>Resurrectio christi</quote>, which was true for the year 1036. Robinson also observed a cross in hard point for the year 1036 in the Paschal tables on pp. 32-5. Usually such makring points the following Easter and in this case would suggest that pp. 13-26 were written between Easter 1035 and Easter 1036.</p>
+                  <p>The Calendar section on pp. 13-26 was written in <origPlace ref="#new_minster">New Minster</origPlace> near <rs type="place" ref="#winchester">Winchester</rs> most probably in mid 1030s. On p.17 for the 27th March is noted <quote>Resurrectio christi</quote>, which was true for the year 1036. Robinson also observed a cross in hard point for the year 1036 in the Paschal tables on pp. 32-5. Usually such makring points the following Easter and in this case would suggest that pp. 13-26 were written between Easter 1035 and Easter 1036.</p>
                </origin>
                <provenance>
-                  <p>The MS was transferred from<rs type="corporate" ref="hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157. At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
+                  <p>The MS was transferred from <rs type="corporate" ref="hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157. At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
                   <p>The two MS parts were united in their present form in the 11th c. Bishop points to additions (filling text) on the first folio of the fourth quire (p. 37-38) which was probably initially left blank as the opening of a separate booklet. The unfinished table of the cyclus decemnovennalis on the first unpaginated page is written by an 11th c. hand.</p>
                </provenance>
                <acquisition>
@@ -105,299 +109,19 @@
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                  <!--<bibl>T. A. M. Bishop. “Notes on Cambridge Manuscripts. Part II.” <title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
-            <bibl>Gneuss, H. <title>Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note></bibl>
-            <bibl>Morgan, N. and Panayotova, S. (eds.) with the assistance of Rebecca Rushforth. <title>Illuminated Manuscripts in Cambridge : A Catalogue of Western Book Illumination in the Fitzwilliam Museum and the Cambridge Colleges</title>. Part 4, The British Isles, 2 vols. (London, 2013), vol 1. no. 34.</bibl>
-            <bibl>McGurk, P. "The Astronomical Section," in <title>An Eleventh-Century Anglo-Saxon Illustrated Miscellany</title>, ed. P. McGurk, Early Engilsh Manuscripts in Facsimile 21 (Copenhagen, 1983), 67-70.</bibl>-->
+                  <bibl>T. A. M. Bishop. “Notes on Cambridge Manuscripts. Part II.” <title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
+                  <bibl>Gneuss, H. <title>Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note>
+                        </bibl>
+                  <bibl>Morgan, N. and Panayotova, S. (eds.) with the assistance of Rebecca Rushforth. <title>Illuminated Manuscripts in Cambridge : A Catalogue of Western Book Illumination in the Fitzwilliam Museum and the Cambridge Colleges</title>. Part 4, The British Isles, 2 vols. (London, 2013), vol 1. no. 34.</bibl>
+                  <bibl>Ker, Neil. R. Medieval libraries of Great Britain: a list of surviving books. London: Offices of the Royal Historical Society, 1941.</bibl>
+                  <bibl>McGurk, P. "The Astronomical Section," in <title>An Eleventh-Century Anglo-Saxon Illustrated Miscellany</title>, ed. P. McGurk, Early Engilsh Manuscripts in Facsimile 21 (Copenhagen, 1983), 67-70.</bibl>
                   <bibl>
-                            <abbr>Munk Olsen, Catalogue 1</abbr>, pp. 526-7.</bibl>
+                     <abbr>Munk Olsen, Catalogue 1</abbr>, pp. 526-7.</bibl>
                   <bibl>Wormald, F.<title>English Drawings in the Tenth and Eleventh Centuries</title>. London: , 1952, p. 64.</bibl>
-               </listBibl>
-               <listBibl>
-                  <biblStruct type="journalArticle" xml:id="zoteroItem_ZRFNZA3U" corresp="http://zotero.org/users/1642161/items/ZRFNZA3U">
-                     <analytic>
-                        <title level="a">Notes on Cambridge Manuscripts. Part II</title>
-                        <author>
-                                    <forename>T.A.M.</forename>
-                                    <surname>Bishop</surname>
-                                </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Transactions of the Cambridge Bibliographical Society</title>
-                        <imprint>
-                           <biblScope unit="volume">2</biblScope>
-                           <biblScope unit="issue">2</biblScope>
-                           <biblScope unit="page">185-199</biblScope>
-                           <date>1955</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Ker1941" corresp="http://zotero.org/users/1642161/items/KMKT29ZE">
-                     <monogr>
-                        <title level="m">Medieval libraries of Great Britain: a list of surviving books</title>
-                        <title type="short">Medieval libraries of Great Britain</title>
-                        <editor>
-                                    <forename>Neil R.</forename>
-                                    <surname>Ker</surname>
-                                </editor>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Offices of the Royal Historical Society</publisher>
-                           <date>1941</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Gneuss2001" corresp="http://zotero.org/users/1642161/items/X9BIX3TG">
-                     <monogr>
-                        <title level="m">Handlist of Anglo-Saxon manuscripts: a list of manuscripts and manuscript fragments ; written or owned in England up to 1100</title>
-                        <title type="short">Handlist of Anglo-Saxon manuscripts</title>
-                        <author>
-                                    <forename>Helmut</forename>
-                                    <surname>Gneuss</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Tempe, Ariz.</pubPlace>
-                           <publisher>Arizona Center for Medieval and Renaissance Studies</publisher>
-                           <date>2001</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-0-86698-283-2</idno>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Keynes1992" corresp="http://zotero.org/users/1642161/items/2PXRGUPX">
-                     <monogr>
-                        <title level="m">Anglo-Saxon manuscripts: and other items of related interest in the library of Trinity College, Cambridge</title>
-                        <title type="short">Anglo-Saxon manuscripts</title>
-                        <author>
-                                    <forename>Simon</forename>
-                                    <surname>Keynes</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Binghamton, N.J.</pubPlace>
-                           <publisher>Cemers</publisher>
-                           <date>1992</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Robinson1988" corresp="http://zotero.org/users/1642161/items/3VJV6WJG">
-                     <monogr>
-                        <title level="m">Catalogue of dated and datable manuscripts c. 737 - 1600 in Cambridge libraries</title>
-                        <author>
-                                    <forename>Pamela</forename>
-                                    <surname>Robinson</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Cambridge</pubPlace>
-                           <publisher>Brewer</publisher>
-                           <date>1988</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-0-85991-249-5</idno>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Ker1957" corresp="http://zotero.org/users/1642161/items/735RWJ2R">
-                     <monogr>
-                        <title level="m">Catalogue of manuscripts containing Anglo-Saxon</title>
-                        <author>
-                                    <forename>Neil R.</forename>
-                                    <surname>Ker</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Oxford</pubPlace>
-                           <publisher>Clarendon</publisher>
-                           <date>1957</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="Eastwood1997" corresp="http://zotero.org/users/1642161/items/7FV6Z4M4">
-                     <analytic>
-                        <title level="a">Astronomy in Christian Latin Europe c.500-c.1150</title>
-                        <author>
-                                    <forename>Bruce Stansfield</forename>
-                                    <surname>Eastwood</surname>
-                                </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Journal for the history of astronomy</title>
-                        <imprint>
-                           <biblScope unit="volume">28</biblScope>
-                           <biblScope unit="page">235-58</biblScope>
-                           <date>1997</date>
-                           <note type="url">http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1997JHA....28..235E&amp;defaultprint=YES&amp;filetype=.pdf</note>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="bookSection" xml:id="McGurk1983" corresp="http://zotero.org/users/1642161/items/H9WIPRHA">
-                     <analytic>
-                        <title level="a">The Astronomical Section</title>
-                        <author>
-                                    <forename>Patrick</forename>
-                                    <surname>McGurk</surname>
-                                </author>
-                     </analytic>
-                     <monogr>
-                        <title level="m">An Eleventh-Century Anglo-Saxon Illustrated Miscellany</title>
-                        <editor>
-                                    <forename>Patrick</forename>
-                                    <surname>McGurk</surname>
-                                </editor>
-                        <imprint>
-                           <pubPlace>Copenhagen</pubPlace>
-                           <biblScope unit="page">67-70</biblScope>
-                           <publisher>Rosenkilde and Bagger</publisher>
-                           <date>1983</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="van_de_Vyver1935" corresp="http://zotero.org/users/1642161/items/79ZRPFGV">
-                     <analytic>
-                        <title level="a">Les oeuvres inédites d'Abbon de Fleury</title>
-                        <author>
-                                    <forename>André</forename>
-                                    <surname>van de Vyver</surname>
-                                </author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">Revue Bénédictine</title>
-                        <imprint>
-                           <biblScope type="volume" unit="volume">47</biblScope>
-                           <biblScope unit="page">125-69</biblScope>
-                           <date>1935</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Chardonnens2007" corresp="http://zotero.org/users/1642161/items/BWTFKQ7V">
-                     <monogr>
-                        <title level="m">Anglo-Saxon prognostics: 900-1100 ; study and texts</title>
-                        <title type="short">Anglo-Saxon prognostics</title>
-                        <author>
-                                    <forename>László Sándor</forename>
-                                    <surname>Chardonnens</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Leiden</pubPlace>
-                           <publisher>Brill</publisher>
-                           <date>2007</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-90-04-15829-0</idno>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Rushforth2008" corresp="http://zotero.org/users/1642161/items/W5RK3QRP">
-                     <monogr>
-                        <title level="m">Saints in English kalendars before A.D. 1100</title>
-                        <author>
-                                    <forename>Rebecca</forename>
-                                    <surname>Rushforth</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <publisher>Boydell Press</publisher>
-                           <date>2008</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-1-870252-23-2</idno>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Obrist2004" corresp="http://zotero.org/users/1642161/items/K6Z4R7KV">
-                     <monogr>
-                        <title level="m">Abbon de Fleury: philosophie, science et comput autour de l'an mil</title>
-                        <author>
-                                    <forename>Barbara</forename>
-                                    <surname>Obrist</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>Paris-Villejuif</pubPlace>
-                           <publisher>Bureau des Publ. de l'Univ. de Paris 7</publisher>
-                           <date>2004</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Morgan2013" corresp="http://zotero.org/users/1642161/items/46GUKCMB">
-                     <monogr>
-                        <title level="m">Illuminated manuscripts in Cambridge : a catalogue of western book illumination in the Fitzwilliam Museum and the the Cambridge colleges. Part 4, The British Isles</title>
-                        <editor>
-                                    <forename>Nigel J.</forename>
-                                    <surname>Morgan</surname>
-                                </editor>
-                        <editor>
-                                    <forename>Stella</forename>
-                                    <surname>Panayotova</surname>
-                                </editor>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <biblScope unit="volume">1: Insular and Anglo-Saxon manuscripts c. 700 - c. 1100</biblScope>
-                           <publisher>Miller</publisher>
-                           <date>2013</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-1-909400-04-7</idno>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Barker-Benfield2008" corresp="http://zotero.org/users/1642161/items/EJNADV4H">
-                     <monogr>
-                        <title level="m">St Augustine's Abbey, Canterbury</title>
-                        <author>
-                                    <forename>Bruce C.</forename>
-                                    <surname>Barker-Benfield</surname>
-                                </author>
-                        <author>
-                                    <forename>Richard</forename>
-                                    <surname>Sharpe</surname>
-                                </author>
-                        <author>
-                                    <forename>Anthony I.</forename>
-                                    <surname>Doyle</surname>
-                                </author>
-                        <imprint>
-                           <pubPlace>London</pubPlace>
-                           <biblScope unit="volume">3. Other sources, appendices and indexes</biblScope>
-                           <publisher>British Library</publisher>
-                           <date>2008</date>
-                        </imprint>
-                     </monogr>
-                     <series>
-                                <title level="s">Corpus of British Medieval Library Catalogues</title>
-                                <biblScope unit="volume">13</biblScope>
-                            </series>
-                     <idno type="ISBN">978-0-7123-0931-8 978-0-7123-4987-1</idno>
-                  </biblStruct>
-                  <biblStruct type="bookSection" xml:id="Thomson1985" corresp="http://zotero.org/users/1642161/items/JZXET2IW">
-                     <analytic>
-                        <title level="a">Two Astronomical Tractates of Abbo of Fleury</title>
-                        <author>
-                                    <forename>Ron B.</forename>
-                                    <surname>Thomson</surname>
-                                </author>
-                     </analytic>
-                     <monogr>
-                        <title level="m">The Light of Nature. Essays in the History and Philosophy of Science presented to A.C. Crombie</title>
-                        <editor>
-                                    <forename>J.D.</forename>
-                                    <surname>North</surname>
-                                </editor>
-                        <editor>
-                                    <forename>J.J.</forename>
-                                    <surname>Roche</surname>
-                                </editor>
-                        <imprint>
-                           <pubPlace>Dordrecht</pubPlace>
-                           <biblScope unit="page">113-133</biblScope>
-                           <publisher>Springer</publisher>
-                           <date>1985</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Wormald1988" corresp="http://zotero.org/users/1642161/items/4USQA2WH">
-                     <monogr>
-                        <title level="m">English Kalendars before A.D. 1100</title>
-                        <editor>
-                                    <forename>Francis</forename>
-                                    <surname>Wormald</surname>
-                                </editor>
-                        <imprint>
-                           <pubPlace>Woodbridge, Suffolk</pubPlace>
-                           <publisher>Boydell Press</publisher>
-                           <date>1988</date>
-                        </imprint>
-                     </monogr>
-                     <idno type="ISBN">978-0-9501009-7-5</idno>
-                  </biblStruct>
+                  <bibl>Keynes, S. Anglo-Saxon manuscripts: and other items of related interest in the library of Trinity College, Cambridge. Binghamton, N.J.: Cemers, 1992.</bibl>
+                  <bibl>Robinson, P. Catalogue of dated and datable manuscripts c. 737 - 1600 in Cambridge libraries. Cambridge: Brewer, 1988.</bibl>
+                  <bibl>Ker, Neil R. Catalogue of manuscripts containing Anglo-Saxon. Oxford: Clarendon, 1957.</bibl>
+                  <bibl>Morgan, N. J. and Panayotova, S. (eds.). Illuminated manuscripts in Cambridge: a catalogue of western book illumination in the Fitzwilliam Museum and the the Cambridge colleges. Part 4, The British Isles. Vol. 1: Insular and Anglo-Saxon manuscripts c. 700 - c. 1100. London: Miller, 2013.</bibl>
                </listBibl>
             </additional>
             <msPart>
@@ -426,7 +150,7 @@
                   <msItem>
                      <locus from="3" to="6">3-6</locus>
                      <author ref="#abbo">Abbo of Fleury</author>
-                     <title>Sententia Abbonis de differentia circuli</title>
+                     <title ref="#abbo_sentenia">Sententia Abbonis de differentia circuli</title>
                      <rubric>Sententia Abbonis de differentia circuli et sperae</rubric>
                      <incipit>Studiosis astrologiae primo sciendum est per geometricam quid distat inter circulum et speram</incipit>
                      <explicit>Si uero nota est aliquis planetarum est.</explicit>
@@ -444,7 +168,7 @@
                   <msItem>
                      <locus from="11">11</locus>
                      <author ref="#abbo">Abbo of Fleury</author>
-                     <title>De duplici signorum ortu uel occasu</title>
+                     <title ref="#abbo_de_duplici">De duplici signorum ortu uel occasu</title>
                      <rubric>Abbo de duplici signorum ortu uel occasu</rubric>
                      <incipit>De duplici ortu signorum dubitantes aliquando has ratione conueni</incipit>
                      <explicit>matutino exortu hiemalem horrorem, vespertino vernalem adducunt temperiem.</explicit>
@@ -488,7 +212,7 @@
                   </msItem>
                   <msItem>
                      <locus from="27" to="36">27-31</locus>
-                     <note>Computus tables linked to the columns of key letters in the calendar: pp. 27-28<foreign>Litterae punctatae</foreign> table; p. 29 table for the monthly lunar epacts; p. 30 <foreign>Pagina regulares</foreign>; p. 31 Table with the lunar letters AEIOV.</note>
+                     <note>Computus tables linked to the columns of key letters in the calendar: pp. 27-28 <foreign>Litterae punctatae</foreign> table; p. 29 table for the monthly lunar epacts; p. 30 <foreign>Pagina regulares</foreign>; p. 31 Table with the lunar letters AEIOV.</note>
                   </msItem>
                   <msItem>
                      <locus from="32" to="36">32-35</locus>
@@ -510,7 +234,7 @@
                <msContents xml:lang="lat">
                   <msItem>
                      <locus from="37">37</locus>
-                     <title>De diebus egyptiaci</title>
+                     <title ref="#dies_egyptiaci">De diebus egyptiaci</title>
                      <incipit>KL Ian. Iani prima dies et septima fine timetur</incipit>
                      <explicit>KL Dec. Dat duodena cohors septem inde dexemque decembri.</explicit>
                      <note>later addition from XI<hi rend="sup">ex</hi> to the first folio of the following quire (initially left blank)</note>
@@ -520,7 +244,7 @@
                      <note>A computistical table (?) with a zodiacal diagram (later addition from XI<hi rend="sup">ex</hi>.</note>
                   </msItem>
                   <msItem>
-                     <locus from="39" to="135"/>
+                     <locus from="39" to="135">39-135</locus>
                      <author ref="#hyginus">Hyginus</author>
                      <title ref="#de_astronomia">De astronomia</title>
                      <msItem>
@@ -555,7 +279,7 @@
                      </msItem>
                   </msItem>
                   <msItem>
-                     <locus from="136" to="165"/>
+                     <locus from="136" to="165">136-165</locus>
                      <author ref="#martianus_capella">Martianus Capella</author>
                      <title ref="de_nuptiis">De nuptiis<note>(Book 8.<title ref="#de_nuptiis_VIII">De astronomia</title>
                                 </note>
@@ -566,16 +290,16 @@
                      <note>many interlinear glosses; p. 165 was erased and rewritten by a different hand, which Bishop identified in two other Hyde manuscripts - London, BL, Add. Ms. 3489 (ff. 158-160) and Stowe Ms. 944 (41r and 59r).</note>
                   </msItem>
                   <msItem>
-                     <locus from="166" to="200"/>
+                     <locus from="166" to="200">166-200</locus>
                      <author ref="#helperic">Helperic</author>
-                     <title>Expositio computi</title>
+                     <title ref="#liber_de_computo">Expositio computi</title>
                      <rubric>Incipit expositio compoti</rubric>
                      <incipit>Cum quibusdam fratribus nostris adolescentulis quaedam</incipit>
                      <explicit>alfabeti caracteribus inducti, illa deinceps facilius assequantur.</explicit>
                      <finalRubric>Finit excerptio uel expositio compoti heririci<note>(corrected to helperici)</note> uiri doctissimi.</finalRubric>
                   </msItem>
                   <msItem>
-                     <locus from="200" to="208"/>
+                     <locus from="200" to="208">200-208</locus>
                      <author ref="#abbo">Abbo of Fleury</author>
                      <title ref="#excerptio_abbonis">Excerptio Abbonis ex Igino de figuratione signorum</title>
                      <rubric>Incipit excerptio abbonis ex igino de figuratione signorum</rubric>
@@ -583,22 +307,34 @@
                      <explicit>cuius et gubernaculum et rectam puppim secans ad octauam partem cancri redit.</explicit>
                   </msItem>
                   <msItem>
-                     <locus from="209" to="212"/>
-                     <author ref="#abbo">Abbo of Fleury (?)</author>
-                     <title>Prologue to astronomy</title>
-                     <note>on the name of the constellations (de xii signis)</note>
-                     <incipit>Domine deus omnipotens sancta trinitas et indiuisa unitas Domine pater qui per unigenitum filium tuum</incipit>
-                     <explicit>Quae diabolicus error confirmauit sed christus dominus saluator mundi euerat</explicit>
+                     <locus from="209">209</locus>
+                     <title ref="#oratio">Prayer</title>
+                     <incipit>Domine deus omnipotens sancta trinitas</incipit> 
+                     <explicit>aliis ministrare ualeamus. per eundem dominum.</explicit>
                   </msItem>
                   <msItem>
-                     <locus from="213" to="216"/>
+                     <locus from="209">209</locus>
+                     <title ref="#sancta_scriptura">On the creation of the luminaries according to the bible</title>
+                     <rubric>De sole et luna</rubric>
+                     <incipit>Sancta scriptura nobis a deo per beatum moysen tradita</incipit>
+                     <explicit>et luminare minus ut preesset nocti.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="209" to="212">209-212</locus>
+                     <title ref="#de_duodecim_signis">De duodecim signis</title>
+                     <rubric>De XII signis sed primum de ariete</rubric>
+                     <incipit>Regionem duodecimam caeli in quam sol cursum suum dirigit</incipit>
+                     <explicit>sed christus dominus saluator mundi euertit.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="213" to="216">213-216</locus>
                      <author ref="#cicero">Cicero</author>
                      <title ref="aratea_cicero">Aratea</title>
                      <incipit>Quinque solent stellae simili ratione notari</incipit>
                      <explicit>Hanc autem totam properant depellere pisces.</explicit>
                   </msItem>
                   <msItem>
-                     <locus from="217" to="218"/>
+                     <locus from="217" to="218">217-218</locus>
                      <note>Probatio pennae.</note>
                   </msItem>
                </msContents>

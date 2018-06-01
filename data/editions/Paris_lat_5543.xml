@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b10502052p">Paris, BnF, lat. 5543</ref>.</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 5543</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -29,30 +29,30 @@
                 <p/>
             </sourceDesc>
         </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <text>
         <body>
             <msDesc xml:id="bnf_5543" xml:lang="eng">
                 <msIdentifier>
                     <!-- contains the information required to identify the manuscript being described MANDATORY -->
-                    <settlement/>
-                    <institution/>
-                    <collection/>
-                    <idno/>
+                    <settlement>Paris</settlement>
+                    <repository>Bibliothèque nationale de France</repository>
+                    <idno>lat. 5543</idno>
                     <altIdentifier type="other">
                         <idno/>
                     </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title/>
-                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <note type="caption"/>
                     <origPlace ref="#"/>
                     <!--<origDate notBefore="" notAfter=""></origDate>-->
+                    <note type="facs">Digital facsimile at <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b10502052p">gallica.bnf.fr</ref>.</note>
                 </head>                
             <!--<msContents>
                 
