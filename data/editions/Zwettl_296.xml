@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">
@@ -37,18 +35,14 @@
             <msDesc xml:id="Zwettl_296" xml:lang="en">
                <msIdentifier>
                   <settlement>Zwettl</settlement>
-                  <institution>Stiftsbibliothek</institution>
-                  <collection/>
+                  <repository>Stiftsbibliothek</repository>
                   <idno>296</idno>
-                  <altIdentifier type="other">
-                     <idno/>
-                  </altIdentifier>
                </msIdentifier>
-               <head>Computistical-astronomical collection <lb/>
-                  <region>Austria </region>, <settlement>Zwettle</settlement>, <origDate>s. XII<hi rend="sup">ex</hi>
-                    </origDate>
-                  <lb/>
-                    <note type="Aratea">De signis coelis (redaction)</note>
+               <head>
+                  <title>Computistical-astronomical collection</title>
+                  <origPlace ref="#zwettl">Zwettl</origPlace> 
+                  <origDate>s. XII<hi rend="sup">ex</hi>
+                    </origDate>                  
                </head>
                <physDesc>
                   <objectDesc form="codex">
@@ -56,10 +50,9 @@
                         <support>Perchment</support>
                         <extent>
                            <dimensions type="leaf" n=""/>
-                           <dimensions>
                               <height/>
                               <width/>
-                           </dimensions>
+                           
                         </extent>
                         <foliation/>
                         <collation>
@@ -74,13 +67,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1170" notAfter="1200"/>
-                     <origPlace>
-                        <geogName>Austria</geogName>
-                        <settlement>Zwettl</settlement>
-                        <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
-                     </origPlace>
-                     <p>Ferner showed that Klosterneuburg MS 685 could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of  Klosterneuburg 685 made fewer mistakes than his colleague. The model was not Vat. lat. 643, but a MS which was a model for Vat. lat. 643. The two austrian MS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of Paris, BnF lat. 5543.</p>
+                     The manuscript was written in the <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
+                        </origDate> (based on the palaeographical examination) in the <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>.
+                     <p>Ferner showed that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of  Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of Paris, BnF lat. 5543.</p>
                   </origin>
                   <provenance>
                      <persName/>
@@ -95,20 +84,19 @@
                   <msContents>
                      <msItem n="1">
                         <locus from="1r" to="2v">1r-2v</locus>
-                        <author/>
                         <title>Filling notes on astronomy, medicine (?)</title>
                         <titlePart/>
                      </msItem>
                      <msItem n="2">
                         <locus from="3v" to="12v">3v-12v</locus>
-                        <author>Bede</author>
-                        <title>De natura rerum</title>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DNR">De natura rerum</title>
                         <titlePart/>
                      </msItem>
                      <msItem n="3">
                         <locus from="12v" to="19v">12v-19v</locus>
-                        <author>Bede</author>
-                        <title>De temporibus</title>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DT">De temporibus</title>
                         <titlePart/>
                      </msItem>
                      <msItem>
@@ -121,13 +109,13 @@
                      </msItem>
                      <msItem n="4">
                         <locus from="20v" to="78r">20v-78r</locus>
-                        <author>Bede</author>
-                        <title>De temporum ratione</title>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DTR">De temporum ratione</title>
                         <titlePart/>
                      </msItem>
                      <msItem n="5">
                         <locus from="78r" to="78v">78r-78v</locus>
-                        <author>Ps-Bede (?)</author>
+                        <author ref="#bede">Ps-Bede (?)</author>
                         <title>De duodecim signis</title>
                         <incipit>Ariete oriente duabus horis...</incipit>
                      </msItem>
@@ -173,9 +161,9 @@
                      </msItem>
                      <msItem>
                         <locus from="85v" to="101v">85v-101v</locus>
-                        <title ref="#">De signis coelis (redaction)</title>
-                        <note>with insertion from AL</note>
-                        <note>unlike in the Vat. lat. 643 where on fol. 97r missing text from the AL, the scribe was aware and left blank space to be added later; in the two austrian MS no space is left (Blume, p. 563)</note>
+                        <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
+                        <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
+                        <note>unlike in the Vat. lat. 643 where on fol. 97r missing text from the AL, the scribe was aware and left blank space to be added later; in the two austrian MS no space is left (Blume, p. 563).</note>
                      </msItem>
                      <msItem>
                         <locus from="102r">102r</locus>
@@ -191,7 +179,7 @@
                   <msContents>
                      <msItem n="6">
                         <locus from="103r" to="215v">103r-215v</locus>
-                        <author>Augustine</author>
+                        <author ref="#augustinus_aurelius">Augustine</author>
                         <title>Opera</title>
                         <note>titles in the catalogue</note>
                      </msItem>
@@ -200,7 +188,7 @@
             </msDesc>
          <listBibl>
             <bibl>Ziegler, Charlotte. <title>Zisterzienserstift Zwettl. Katalog der Handschriften des Mittelalters</title>, Teil III: Codex 201-300 (Scriptorium ordinis Cisterciensium). Wien-München, 1989.</bibl>
-            <bibl>manuscripta.at. entry with further bibliographical references<ptr target="http://manuscripta.at/?ID=31908"/>.</bibl>
+            <bibl>Entry at manuscripta.at with further bibliographical references<ptr target="http://manuscripta.at/?ID=31908"/>.</bibl>
          </listBibl>
       </body>
   </text>

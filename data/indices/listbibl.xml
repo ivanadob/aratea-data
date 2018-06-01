@@ -370,11 +370,12 @@
                <label>Catalogue général</label>
                <bibl>Catalogue général des manuscrits des bibliothèques publiques de France: Départements. Paris.</bibl>
             </item>
-           <!--   <item xml:id="">
-               <label></label>
-               <bibl></bibl>
+           <item>
+              <label>Thorndike-Kibre</label>
+              <bibl>Lynn Thorndike–Pearl Kibre. A Catalogue of Incipits of Mediaeval Scientific Writings in Latin. Revised and Augmented Edition. Cambridge Mass., 1963.<ptr target="https://cctr1.umkc.edu/search"/>
+                    </bibl>
             </item>
-            <item xml:id="">
+           <!--    <item xml:id="">
                <label></label>
                <bibl></bibl>
             </item>

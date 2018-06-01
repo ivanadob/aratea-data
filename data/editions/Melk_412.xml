@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of Melk, Benediktinerstiftes, Cod. 370</title>
+            <title type="sub">Melk, Benediktinerstiftes, Cod. 412</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -62,8 +60,7 @@
                   <supportDesc material="perg">
                      <support>Perchment</support>
                      <extent>
-                        <dimensions type="leaf" n="96"/>
-                        <dimensions>
+                        <dimensions type="leaf" n="96">
                            <height>302</height>
                            <width>227</width>
                         </dimensions>
@@ -96,16 +93,15 @@
                      <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
                   </origPlace>
                </origin>
-               <provenance> Belonged to<persName>Heiric of Auxerre</persName>, as one can suppose
+               <provenance> Belonged to <persName>Heiric of Auxerre</persName>, as one can suppose
                   based on his annotation in all three parts of the manuscripts. Judging by the
                   annotations and recepts in German inserted in the free space of the margins, the
                   manuscript was probably in the <date notBefore="1000" notAfter="1100">s. XI</date>
-                  was in a German speaking region. (Melk monastery was founded ca. 1089) In the<date notBefore="1100" notAfter="1200">s. XII</date> served as the exemplar of a
-                  German (südostdeeutsche Abschrift) copy, Vatican Vat. lat. 643, where the scribe
-                  copied the medical notes inserted in Melk 412, but skipped outdated text on ff??
+                  was in a German speaking region. (Melk monastery was founded ca. 1089) In the <date notBefore="1100" notAfter="1200">s. XII</date> served as the exemplar of a
+                  German (südostdeeutsche Abschrift) copy, <ref type="altMs" target="BAV_Vat_lat_643">Vatican Vat. lat. 643</ref>, where the scribe
+                  copied the medical notes inserted in Melk 412, but skipped outdated texts<!-- on ff??-->.
                   Has a note on f. 1 that from the <date notBefore="1400" notAfter="1500">s.
-                     XV</date> belonged to the Melk monastery. <settlement/>
-                  <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+                     XV</date> belonged to the <rs type="corporate" ref="#melk">Benedictine Abbey of Melk</rs>.
                </provenance>
             </history>
             <additional>
@@ -129,46 +125,34 @@
                <msContents>
                   <msItem n="1">
                      <locus from="1" to="16">1-16</locus>
-                     <author>Bede</author>
-                     <title>De natura rerum</title>
-                     <titlePart/>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DNR">De natura rerum</title>
+                     
                   </msItem>
                   <msItem n="2">
                      <locus from="16" to="26">16-26</locus>
-                     <author>Bede</author>
-                     <title>De temporibus</title>
-                     <titlePart/>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DT">De temporibus</title>
+                     
                   </msItem>
                   <msItem n="3">
                      <locus from="26" to="27">26-27</locus>
-                     <author/>
-                     <title>On the planets</title>
-                     <incipit>Itaque stella veneris et mercirii hoc a superioribus tribus planetarum
-                        stellis differunt...</incipit>
-                     <titlePart/>
-                     <listBibl>
-                        <bibl>Thorndike-Kibre 797.7</bibl>
-                     </listBibl>
+                     <author ref="#bede">Ps-Bede</author>
+                     <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
+                     <incipit>Itaque stella veneris et mercirii hoc a superioribus tribus planetarum stellis differunt</incipit>
                   </msItem>
                   <msItem n="4">
                      <locus from="27">27</locus>
-                     <author>On the absides of planets</author>
-                     <title/>
-                     <titlePart>De absidibus planetarum</titlePart>
-                     <incipit>Circulus zodiacus quo duodecim signis constat omni es parte aeque
-                        vicinus est terrae...</incipit>
-                     <explicit>... quod subiecta melius pictura declarabitur</explicit>
-                     <note>partly later additions with two rough diagrams</note>
-                     <listBibl>
-                        <bibl>Thorndike-Kibre 224.14</bibl>
-                     </listBibl>
+                     <title>De absidibus planetarum</title>
+                     <incipit>Circulus zodiacus quo duodecim signis constat omni es parte aeque vicinus est terrae</incipit>
+                     <explicit>quod subiecta melius pictura declarabitur.</explicit>
+                     <note>Partly later additions with two rough diagrams.</note>
+                     <bibl>
+                                <abbr>Thorndike-Kibre</abbr> 224.14</bibl>
                   </msItem>
                   <msItem n="5">
                      <locus from="28">28</locus>
-                     <author/>
-                     <title>Easter table</title>
-                     <titlePart>Cursus lunae per duodecim signa</titlePart>
-                     <note>nahzeitiger Nachtrag</note>
+                     <title>Easter table: Cursus lunae per duodecim signa</title>
                   </msItem>
                </msContents>
             </msPart>
@@ -186,18 +170,19 @@
                <msContents>
                   <msItem n="6">
                      <locus from="29">29</locus>
-                     <author/>
+                     
                      <title>On the zodiac</title>
                      <titlePart>De duodecim signis</titlePart>
                      <incipit>Ariete oriente duabus horis occidit libra...</incipit>
                      <explicit>... obtinent gemini.</explicit>
                      <listBibl>
-                        <bibl>Thorndike-Kibre 134.7</bibl>
+                        <bibl>
+                                    <abbr>Thorndike-Kibre</abbr> 134.7</bibl>
                      </listBibl>
                   </msItem>
                   <msItem n="6">
                      <locus from="29">29</locus>
-                     <author/>
+                     
                      <title>On the zodiac</title>
                      <titlePart>De ortu duodecim signis</titlePart>
                      <incipit>Ortum signorum dudoecim qualibet diei vel noctis hora quisque liquido
@@ -209,7 +194,7 @@
                   </msItem>
                   <msItem n="7">
                      <locus from="29">29</locus>
-                     <author/>
+                     
                      <title>On eclipses</title>
                      <titlePart>De solis et lunae defectu</titlePart>
                      <incipit>Deliquium solis contigisse fertur anno ab incarnatione domini
@@ -222,22 +207,22 @@
                   </msItem>
                   <msItem n="8">
                      <locus from="29" to="30">29-30</locus>
-                     <author/>
+                     
                      <title>IQSVM</title>
-                     <titlePart/>
+                     
                      <incipit>Annis ab inicio mundi per senarium divisis...</incipit>
                      <explicit>... memoratum semper inveniri planetam virgo.</explicit>
                   </msItem>
                   <msItem n="9">
                      <locus from="29" to="34">29-34</locus>
-                     <author/>
+                     
                      <title>Medical receipts</title>
-                     <titlePart/>
+                     
                      <note>later addition on the blank lower margin</note>
                   </msItem>
                   <msItem n="10">
                      <locus from="30" to="31">30-31</locus>
-                     <author/>
+                     
                      <title/>
                      <titlePart>De incremento saltus lunae</titlePart>
                      <incipit>Primus sciendum est quod in toto decemnovennali circulo unus dies de
@@ -246,7 +231,7 @@
                   </msItem>
                   <msItem n="11">
                      <locus from="31">31</locus>
-                     <author/>
+                     
                      <title/>
                      <titlePart>De concordia solis et lunae</titlePart>
                      <incipit>Novem horis in luna pro V diebus in sole computatis...</incipit>
@@ -258,7 +243,7 @@
                   </msItem>
                   <msItem n="12">
                      <locus from="31" to="32">31-32</locus>
-                     <author/>
+                     
                      <title/>
                      <titlePart>De quibus embolismi menses et bissextiles dies
                         adimplentur</titlePart>
@@ -270,7 +255,7 @@
                   </msItem>
                   <msItem n="13">
                      <locus from="32" to="38">32-38</locus>
-                     <author/>
+                     
                      <title>Commentary to Bede's DTR</title>
                      <titlePart>De natura rerum et temporum ratione</titlePart>
                      <incipit>Non est praetermittendum cum dixit de natura rerum, cur non etiam de
@@ -282,7 +267,7 @@
                   </msItem>
                   <msItem n="14">
                      <locus from="38">38</locus>
-                     <author/>
+                     
                      <title>On the epacts and regulars</title>
                      <titlePart>Quid sit epacta et regulares solis</titlePart>
                      <incipit>Dum audis epactas lunae, aetates lunae per singulos annos
@@ -292,7 +277,7 @@
                   </msItem>
                   <msItem n="15">
                      <locus from="38">38</locus>
-                     <author/>
+                     
                      <title>Verse on the planets</title>
                      <titlePart>Versus de cursu planetarum per duodecim signa</titlePart>
                      <note>Later addition</note>
@@ -303,57 +288,57 @@
                   </msItem>
                   <msItem n="16">
                      <locus from="38">38</locus>
-                     <author/>
+                     
                      <title/>
-                     <titlePart/>
+                     
                      <incipit>M. Luna VIII et XX diebus totius zodiaci ambitum conficit...</incipit>
                      <explicit>... rursus dicitur nasci</explicit>
                      <note>Later addition</note>
                   </msItem>
                   <msItem n="17">
                      <locus from="38">38</locus>
-                     <author/>
+                     
                      <title>Medical recipies</title>
-                     <titlePart/>
+                     
                   </msItem>
                   <msItem n="18">
                      <locus from="39" to="42">39-42</locus>
-                     <author/>
+                     
                      <title>Easter table</title>
-                     <titlePart/>
+                     
                      <note>for the years 836-890 and 944-999, lost a folio inbetween</note>
                   </msItem>
                   <msItem n="19">
                      <locus from="43">43</locus>
-                     <author/>
+                     
                      <title>Easter table lunar</title>
-                     <titlePart/>
+                     
                      <incipit>Quot sit luna per singulas Kalnedas decem et nouem annos</incipit>
                   </msItem>
                   <msItem n="20">
                      <locus from="43">43</locus>
-                     <author/>
+                     
                      <title>Verse for the computus cycle</title>
-                     <titlePart/>
+                     
                      <incipit>Me legat annales vult qui cognoscere cyclos...</incipit>
                   </msItem>
                   <msItem n="21">
                      <locus from="44" to="55">44-55</locus>
-                     <author/>
+                     
                      <title>Calendar</title>
-                     <titlePart/>
+                     
                   </msItem>
                   <msItem n="22">
                      <locus from="56" to="58">56-58</locus>
-                     <author/>
+                     
                      <title>Lunar tables</title>
-                     <titlePart/>
+                     
                   </msItem>
                   <msItem n="23">
                      <locus from="58">58</locus>
-                     <author/>
+                     
                      <title>Geomemtrical drawings</title>
-                     <titlePart/>
+                     
                   </msItem>
                </msContents>
             </msPart>
@@ -373,13 +358,13 @@
                      <locus from="59" to="191">59-191</locus>
                      <author>Bede</author>
                      <title>De temporum ratione</title>
-                     <titlePart/>
+                     
                   </msItem>
                   <msItem n="25">
                      <locus from="191" to="192">191-192</locus>
-                     <author/>
+                     
                      <title>Four later additions argumenta and medical notes</title>
-                     <titlePart/>
+                     
                   </msItem>
                </msContents>
             </msPart>

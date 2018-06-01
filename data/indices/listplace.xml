@@ -37,6 +37,9 @@
                         <tei:geo>51.21989 4.40346</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="austria">
+                    <placeName ref="http://www.geonames.org/2782113">Austria</placeName>
+                </place>
                 <place xml:id="bamberg">
                     <placeName ref="http://www.geonames.org/2952984">Bamberg</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
@@ -123,6 +126,12 @@
                     <placeName ref="http://www.geonames.org/2996995">Luxeuil</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <tei:geo>47.8171 6.365</tei:geo>
+                    </tei:location>
+                </place>
+                <place xml:id="melk">
+                    <placeName ref="http://www.geonames.org/2771682/">Melk</placeName>
+                    <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.227 15.332</tei:geo>
                     </tei:location>
                 </place>
                 <place xml:id="metz">
@@ -229,6 +238,9 @@
                 </place>
                 <place xml:id="w_germany">
                     <placeName>West Germany</placeName>
+                </place>
+                <place xml:id="s_germany">
+                    <placeName>South Germany</placeName>
                 </place>
             </listPlace>
         </body>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">Vatican, BAV, Vat. lat. 643</ref>
+            <title type="sub">
+                    <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">Vatican, BAV, Vat. lat. 643</ref>
                 </title>
             <respStmt>
                <resp>Catalogued by:</resp>
@@ -45,12 +44,12 @@
                      <idno/>
                   </altIdentifier>
                </msIdentifier>
-               <head>TITLE <lb/>
-                  <region>Austria </region>, <settlement>Melk (?)</settlement>, <origDate>s. XII<hi rend="sup"/>
+               <head>
+                  <title>Bede works on nature</title>
+                  <origPlace ref="#melk">Melk (?)</origPlace>                  
+                  <origDate notBefore="1101" notAfter="1200">s. XII<hi rend="sup"/>
                     </origDate>
-                  <lb/>
-                    <note type="Aratea">De signis coelis (readction)</note>
-                  <locus facs="http://warburg.sas.ac.uk/vpc/VPC_search/record.php?record=4149"/>
+                  Digital facsimile at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">DigiVatLib</ref>
                </head>
                <msContents>
                   <msItem>
@@ -65,10 +64,10 @@
                   </msItem>
                   <msItem>
                      <locus from="15r" to="15v">15r-15v</locus>
-                     <title/>
+                     <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
                      <rubric>De stella veneris et mercurii saturni iouis et martis</rubric>
                      <incipit>Itaque stella ueneris et mercurii hoc a superioribus tribus planetarum stellis differunt</incipit>
-                     <explicit>et idcirco longiores ethercas metas peragit</explicit>
+                     <explicit>et idcirco longiores ethercas metas peragit.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="15v">15v</locus>
@@ -103,24 +102,19 @@
                      <locus from="70v" to="71r">70v-71r</locus>
                      <author/>
                      <title>De solis et lunae defectus</title>
-                     <titlePart/>
-                     <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini
-                        DCCCVIII...</incipit>
-                     <explicit>... quod quotiens contigerit totiens eclypsin non defecturam</explicit>
+                     <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCCVIII</incipit>
+                     <explicit>quod quotiens contigerit totiens eclypsin non defecturam.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="71r">71r</locus>
                      <author/>
                      <title>Argumentum ad inveniendum IQSVM</title>
-                     <titlePart/>
                      <incipit>Annis ab initio mundi per senarium diuisis...</incipit>
                      <explicit>... memoratum semper inueniri planetam uirgo</explicit>
                   </msItem>
                   <msItem>
                      <locus from="71r" to="71v">71r-71v</locus>
-                     <author/>
                      <title>De incremento saltus lunae</title>
-                     <titlePart/>
                      <incipit>Primo sciendum est quod in toto decennouenali circulo unus dies de saltu
                         lunae accrescat</incipit>
                      <explicit>... et sextans id eset sexta pars momenti.</explicit>
@@ -129,7 +123,6 @@
                      <locus from="71v">71v</locus>
                      <author/>
                      <title>De concordia soli et lunae</title>
-                     <titlePart/>
                      <incipit>Nouem horis in luna...</incipit>
                      <explicit>...possunt VIIII hore lunares cum quinque diebus solaribus
                         concordare</explicit>
@@ -138,7 +131,6 @@
                      <locus from="71v" to="71av"/>
                      <author/>
                      <title>De quibus embolismi menses et bissextiles dies adimplentur</title>
-                     <titlePart/>
                      <incipit>Luna igitur cotidie et cetera transit XIII partes et horas
                         VIII...</incipit>
                      <explicit>... Hec ratio subtilissima est et ualde necessatia et maxima labori
@@ -163,7 +155,6 @@
                   <msItem>
                      <locus from="75r">75r</locus>
                      <note>12-line verse on the course of the planets within the zodiac and their distance from earth.</note>
-                     <titlePart/>
                      <incipit>Bissex signiferae numerantur sydera sperae</incipit>
                      <explicit>Proxima telluri dum curris candida phebe</explicit>
                      <note>ed. Walther, 2200, Schaller 1977, 1725; Baehrens, Poetae Latini minores,
@@ -181,7 +172,6 @@
                      <incipit>
                             <supplied>N</supplied>omina signorum quis clauditur astriger orbis</incipit>
                      <explicit>Versus qui restant qui uult in fine requirat.</explicit>
-                     <titlePart/>
                   </msItem>
                   <msItem>
                      <locus from="82v" to="100v">82v-100v</locus>
@@ -196,8 +186,7 @@
                      <supportDesc material="perg">
                         <support>Perchment</support>
                         <extent>
-                           <dimensions type="leaf" n="101"/>
-                           <dimensions>
+                           <dimensions type="leaf" n="101">
                               <height>276</height>
                               <width>210</width>
                            </dimensions>
@@ -214,19 +203,8 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>
-                     <origDate notBefore="1100" notAfter="1199"/>
-                     <origPlace>
-                        <geogName>Austria</geogName>
-                        <settlement>Melk (?)</settlement>
-                        <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
-                     </origPlace>
-                  </origin>
-                  <provenance>
-                     <persName/> From the <date when="1700">18th c.</date> was in the
-                     <settlement>Vatican</settlement>
-                     <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
-                  </provenance>
+                  <origin>Based on the script as well as on early added German glosses the manuscript was written in <origDate notBefore="1101" notAfter="1200">s. XII</origDate> in <origPlace ref="#s_germany">South Germany</origPlace> or <origPlace ref="#austria">Austria</origPlace>. The textual similarities with <ref type="altMs" target="Melk_412.xml">Melk, Benediktinerstiftes, Cod. 412</ref> suggest the <origPlace ref="#melk">Benedictine Abbey of Melk</origPlace> as place of production.</origin>
+                  <provenance>From the <date when="1700">18th c.</date> was in the <settlement>Vatican</settlement>.</provenance>
                </history>
                <additional>
                   <listBibl>

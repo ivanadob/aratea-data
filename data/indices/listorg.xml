@@ -24,6 +24,9 @@
             <org xml:id="corvey">
                <orgName xml:id="gnd_2071959-0" ref="http://www.geonames.org/10942877">Corvey Abbey</orgName>
             </org>
+            <org xml:id="melk">
+               <orgName xml:id="gnd_82463-X" ref="http://www.geonames.org/2771682/">Abbey Melk</orgName>
+            </org>
             <org xml:id="new_minster">
                <orgName xml:id="gnd_4604518-1">New Minster</orgName>
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/New_Minster,_Winchester"/>
@@ -43,12 +46,11 @@
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Hyde_Abbey"/>
                </bibl>
             </org>
-            <org>
-               <orgName xml:id="gnd_812882-0" ref="http://www.geonames.org/6639586">Salem</orgName>
-               <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Salem_Abbey"/></bibl>
-            </org>
             <org xml:id="tegernsee_abbey">
                <orgName xml:id="gnd_809501-2" ref="http://www.geonames.org/2823679">Abbey Tegernsee</orgName>
+            </org>
+            <org xml:id="zwettl">
+               <orgName xml:id="gnd_10092270-3" ref="http://www.geonames.org/2760415/">Zwettl</orgName>
             </org>
          </listOrg>
       </body>
