@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="altMs" target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">Brussels, Bibliothèque royale, MS 5413-22</ref>
+            <title type="sub">Brussels, Bibliothèque royale, MS 5413-22
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,12 +29,10 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
     </teiHeader>
     <text>
         <body>
@@ -48,6 +46,7 @@
                     <title>Composite manuscript: Hincmar of Reims (letters and texts); Isidore's Chronica; astronomical miscellany with parts from the RAL</title>
                     <origPlace ref="#reims">Reims (?)</origPlace>, <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> and <origDate notBefore="0951" notAfter="1000">s. X</origDate>
+                    Digital facsimile at <ref target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">belgica.kbr.be</ref>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">
@@ -87,14 +86,14 @@
                             <unclear>ysidorus</unclear> de distinctione temporum</quote> and <quote>reuolutio spere</quote>.</additions>
                     <bindingDesc>
                         <binding>
-                            <p>The original carolingian binding was restaurated preserving, however, its characteristics. The wooden boards have probably never been covered. The coat of arms<rs type="person" ref="#jacobus_pamelius">Jacob Pamelius</rs> engraved on the front. For a detailed description of the binding see <bibl>Léon Gilissen,<title level="m">La reliure occidentale antérieure à 1400 d’après les manuscrits de la Bibliothèque Royale Albert Ier à Bruxelles</title> (Turnhout: Brepols, 1983), pp. 31-73, 118-121 and plates V, VII, VIII, XXIII, XXV and LIV</bibl>, and <bibl>Berthe Van Regemorter, 'Évolution de la technique de la reliure,'<title level="j">Scriptorium</title> 2 (1948): 275-285</bibl>.</p>
+                            <p>The original carolingian binding was restaurated preserving, however, its characteristics. The wooden boards have probably never been covered. The coat of arms <rs type="person" ref="#jacobus_pamelius">Jacob Pamelius</rs> engraved on the front. For a detailed description of the binding see <bibl>Léon Gilissen, <title level="m">La reliure occidentale antérieure à 1400 d’après les manuscrits de la Bibliothèque Royale Albert Ier à Bruxelles</title> (Turnhout: Brepols, 1983), pp. 31-73, 118-121 and plates V, VII, VIII, XXIII, XXV and LIV</bibl>, and <bibl>Berthe Van Regemorter, 'Évolution de la technique de la reliure,' <title level="j">Scriptorium</title> 2 (1948): 275-285</bibl>.</p>
                         </binding>
                     </bindingDesc>
                 </physDesc>
                 <history>
                     <summary>The manuscript is composed of several codicological units.</summary>
                     <origin>
-                        <p>Separate leaf:<origPlace>Reims</origPlace>, <origDate when="0863">863</origDate>.</p>
+                        <p>Separate leaf: <origPlace>Reims</origPlace>, <origDate when="0863">863</origDate>.</p>
                         <p>Codicological unit 1 encompass the first two quires (ff.1-14). The third quire (ff.15-22) is written by a different contemporary hand but has a quire mark<quote>VI</quote> on f. 22v. This suggests that here starts a separate codicological unit, labeled here 2 (ff.15-33). The following quire V (ff.34-41) begins without any title and touches on the same topic as the previous text (on the deposition of Rothad of Soissons). The end overlaps with the end of the quire numbered <quote>IIII</quote>. This indicate either that this quire once preceded the third quire or that it belonged to another manuscript. The slight differences in the layout (dimensions of the written space) give some preferences for the second suggestion and so in this description ff.34-41 are listed as a separate codicological unit 3. The first 41 folios were copied in <origPlace ref="#reims">Reims</origPlace> 
                      <origDate notBefore="0843" notAfter="0863">ca. 853</origDate> in <quote>typische Hincmar-Minuskel</quote> (<bibl>
                                 <abbr>Bischoff, Katalog I</abbr>

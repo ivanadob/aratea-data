@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="mss" target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">London, British Library, Harley MS 3595</ref>
+            <title type="sub">London, British Library, Harley MS 3595
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,12 +29,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="complete">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <facsimile>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001v" n="1v"/>
@@ -58,7 +57,7 @@
     </facsimile>
     <text>
         <body>
-            <msDesc xml:id="harley_3595" xml:lang="eng">
+            <msDesc xml:id="bl_harley_3595" xml:lang="eng">
                 <msIdentifier>
                     <settlement>London</settlement>
                     <repository>British Library</repository>
@@ -67,8 +66,9 @@
                 </msIdentifier>
                 <head>
                     <title>Boethius, De arithmetica, De musica, RAL and Agrimensores</title>
-                    <origPlace ref="w_germany">West Germany</origPlace>, <origPlace ref="#cologne">Cologne (?)</origPlace>
+                    <origPlace ref="#w_germany">West Germany</origPlace>, <origPlace ref="#cologne">Cologne (?)</origPlace>
                     <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
+                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -92,10 +92,10 @@
                 </physDesc>
                 <history>
                     <provenance>
-                        <p>Mayr-Harting (p. 248), who studied the glosses to Boethius'<title>De arithmetica</title>, considered that Harley 3595 was a Cologne manuscript, by provenance and possibly by origin.</p>
+                        <p>Mayr-Harting (p. 248), who studied the glosses to Boethius' <title>De arithmetica</title>, considered that Harley 3595 was a <origPlace ref="#cologne">Cologne</origPlace> manuscript, by provenance and possibly by origin.</p>
                     </provenance>
                     <provenance>On the lower margin of f.<locus from="1r">1r</locus> ownership inscription <quote>E. Benzelius</quote> referring to <rs type="person" ref="#benzelius_erik">Erik Benzelius</rs> (1675-1743), the archbishop of Sweden.</provenance>
-                    <provenance>For the later provenance see<bibl>Cyril Ernest Wright,<title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title> (London: British Museum, 1972), pp. 70-71, 169, 367</bibl>.</provenance>
+                    <provenance>For the later provenance see <bibl>Cyril Ernest Wright,<title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title> (London: British Museum, 1972), pp. 70-71, 169, 367</bibl>.</provenance>
                 </history>
                 <additional>
                     <listBibl>
@@ -103,9 +103,9 @@
                         <bibl>Mayr-Harting, Henry.<title>Church and Cosmos in Early Ottonian Germany: The View from Cologne</title>. Oxford: OUP, 2007 (pp. 240, 242, 248).</bibl>
                         <bibl>
                             <abbr>Folkerts (1970)</abbr>, pp. 4-5 and 113-171.</bibl>
-                        <bibl>Bower, C. M. "Boethius' De Institutione Musica: A Handlist of Manuscripts."<title>Scriptorium</title> 42 (1988): 205-51 (p. 221)<note>[with additional bibliography]</note>.</bibl>
+                        <bibl>Bower, C. M. "Boethius' De Institutione Musica: A Handlist of Manuscripts." <title>Scriptorium</title> 42 (1988): 205-51 (p. 221)<note>[with additional bibliography]</note>.</bibl>
                         <bibl>Gibson, M. T. and Lesley Smit (eds.)<title>Codices Boethiani: A Conspectus of Manuscripts of the Works of Boethius</title>. Vol. I: Great Britain and the Republic of Ireland. London: Warburg Institute, 1995. (No. 129 pp. 148-49).</bibl>
-                        <bibl>Wright, Cyril Ernest.<title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title>. London: British Museum, 1972 (pp. 70-71, 169, 367).</bibl>
+                        <bibl>Wright, Cyril Ernest. <title>Fontes Harleiani: A Study of the Sources of the Harleian Collection of Manuscripts in the British Museum</title>. London: British Museum, 1972 (pp. 70-71, 169, 367).</bibl>
                     </listBibl>
                 </additional>
                 <msPart>
@@ -306,7 +306,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="72r">72r</locus>
-                                <note>Excerpt from<rs type="person" ref="isidore" role="author">Isidore</rs>'s <title ref="etymologiae">Etymologies</title>, Book 16,27,1-6:</note>
+                                <note>Excerpt from<rs type="person" ref="#isidore" role="author">Isidore</rs>'s <title ref="#etymologiae">Etymologies</title>, Book 16,27,1-6:</note>
                                 <incipit>Ponderis signa plerisque ignota sunt, et inde errorem legentibus faciunt</incipit>
                                 <explicit>alfa grecae in dextro brachio superiori o littera coniuncta kenix est.</explicit>
                             </msItem>

@@ -3,9 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Aratea Digital</title>
-            <title type="sub">Description of<ref type="altMs" target="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html">Bamberg, Staatsbibliothek, MS Class. 55</ref>
-                </title>
+                <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Bamberg, Staatsbibliothek, MS Class. 55</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -27,12 +28,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc> 
+        <revisionDesc status="complete">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
+		
     </teiHeader>
     <facsimile>
         <graphic url="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html?nativeno=1r+" n="1r"/>
@@ -118,7 +118,7 @@
     </facsimile>
     <text>
         <body>
-            <msDesc xml:id="paris_bnf_13955" xml:lang="eng">
+            <msDesc xml:id="bamberg_class_55" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Bamberg</settlement>
                     <repository>Staatliche Bibliothek</repository>
@@ -130,7 +130,9 @@
                 <head>
                     <title>Composite manuscript of geometrical, astronomical and computistical texts</title>
                     <origPlace ref="#reims">North-east France, Reims (?)</origPlace>
-                    <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
+                    </origDate>
+                    Digital facsimile as part of the project <ref target="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html">Kaiser-Heinrich-Bibliothek</ref>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -174,8 +176,8 @@
                     </bindingDesc>
                 </physDesc>
                 <history>
-                    <origin>The manuscript has been labeled as a ninth-century by Leonardi, Fischer and Borst, and as a tenth-century by B. Bischoff (Katalog I, p. 49). H. Hoffmann (Bamberg Handschriften, p. 136), who could recognise all three hands working in the manuscript also in other Reims manuscripts, considered it a production of the Reims scriptorium from the end of tenth century.</origin>
-                    <provenance>Upon establishing the new Diocese of<rs type="place" ref="#bamberg">Bamberg</rs> in 1007, Henry II arranged for territorial and intellectual support for the new foundation. Almost half of todays collection can be traced based on palaeographical features to the scriptoria in Reims, Wurzburg, Reichenau, Mainz, Regensburg, Lorsch, Cluny and Corvey. Class. 55 belong  to the group of books produced in Reims and, with high probability, belonging to the personal library of Gerbert. There are three scenarios how the manuscript arrived in Bamberg: a) it was acquired by the magister scholarum Meinhard, who studied at Reims and facilitated the book exchange between the two scriptoria; b) Gerbert's books were taken upon his death by Otto III and later donated to Bamberg by Henry II; c) Gerbert's manuscripts were brought from Rome to Bamberg by Leo of Vercelli. Hoffmann considered the last option as most probable. (Bamberg Handschirften, 26-30).</provenance>
+                    <origin>The manuscript has been labeled as a ninth-century by Leonardi, Fischer and Borst, and as a tenth-century by B. Bischoff (Katalog I, p. 49). H. Hoffmann (Bamberg Handschriften, p. 136), who could recognise all three hands working in the manuscript also in other Reims manuscripts, considered it a production of the <origPlace ref="#reims">Reims</origPlace> scriptorium from the <origDate notBefore="0986" notAfter="1000">end of tenth century</origDate>.</origin>
+                    <provenance>Upon establishing the new Diocese of <rs type="place" ref="#bamberg">Bamberg</rs> in <date when="1007">1007</date>, <rs type="person" ref="#henry_ii">Henry II</rs> arranged for territorial and intellectual support for the new foundation. Almost half of todays collection can be traced based on palaeographical features to the scriptoria in Reims, Wurzburg, Reichenau, Mainz, Regensburg, Lorsch, Cluny and Corvey. Our manuscript belong to the group of books produced in Reims and, with high probability, belonging to the personal library of <rs type="person" ref="#gerbert">Gerbert</rs>. There are three scenarios how the manuscript arrived in Bamberg: a) it was acquired by the magister scholarum <rs type="person">Meinhard</rs>, who studied at Reims and facilitated the book exchange between the two scriptoria; b) Gerbert's books were taken upon his death by Otto III and later donated to Bamberg by Henry II; c) Gerbert's manuscripts were brought from Rome to Bamberg by <rs type="person">Leo of Vercelli</rs>. Hoffmann considered the last option as most probable. (Bamberg Handschirften, 26-30).</provenance>
                 </history>
                 <additional>
                     <listBibl>
@@ -188,12 +190,12 @@
                         <bibl>
                             <abbr>Bischoff, Katalog I</abbr>, 49.</bibl>
                         <bibl>Hoffmann, Hartmut. Bamberger Handschriften des 10. und des 11. Jahrhunderts. Hannover, Hahnsche Buchhandlung, 1995, esp.<ref target="http://www.mgh.de/dmgh/resolving/MGH_Schriften_39_S._26">26-30</ref> and <ref target="http://www.mgh.de/dmgh/resolving/MGH_Schriften_39_S._136">136</ref>.</bibl>
-                        <bibl>Borst, Arno.<title>Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments</title>. Heidelberg: Winter, 1994. Here p. 185.</bibl>
+                        <bibl>Borst, Arno. <title>Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments</title>. Heidelberg: Winter, 1994. Here p. 185.</bibl>
                         <bibl>
                             <abbr>Munk Olsen, Catalogue 2</abbr>, p. 250.</bibl>
                         <bibl>
                             <abbr>Munk Olsen, L’ étude 3,1</abbr>, p. 38.</bibl>
-                        <bibl>Toneatto, Lucio.<title>Codices Artis Mensoriae: i manoscritti degli antichi opuscoli latini d'agrimensura (V - XIX sec.)</title>. Spoleto 1995. Here pp. 888-894.</bibl>
+                        <bibl>Toneatto, Lucio. <title>Codices Artis Mensoriae: i manoscritti degli antichi opuscoli latini d'agrimensura (V - XIX sec.)</title>. Spoleto 1995. Here pp. 888-894.</bibl>
                     </listBibl>
                 </additional>
                 <msPart>
@@ -203,8 +205,8 @@
                     <msContents>
                         <msItem>
                             <locus from="1r">1r</locus>
-                            <author>Gerbert</author>
-                            <title>Regulae de numerorum abaci rationibus</title>
+                            <author ref="#herigerus_lobiensis">Herigerus Lobiensis</author>
+                            <title ref="#regulae_herigerus">Regulae de numerorum abaci rationibus</title>
                             <incipit>Si multiplicaueris singularem numerum per decenum dabis unicuique digito x et omni articulo c</incipit>
                             <explicit>Si multiplicaueris decenum per decenum millenum dabis digitum centum milia et articulis mille milia.</explicit>
                             <bibl>
@@ -240,7 +242,7 @@
                     <msContents>
                         <msItem>
                             <locus from="17r" to="19v">17r-19v</locus>
-                            <title>Excerpts from<title ref="#libri_computi">Libri computi</title>, Lib. V, 3-6:</title>
+                            <title>Excerpts from <title ref="#libri_computi">Libri computi</title>, Lib. V, 3-6:</title>
                             <msItem>
                                 <locus from="17r" to="17v">17r-v</locus>
                                 <author ref="#pliny">Pliny the Elder</author>
@@ -295,7 +297,7 @@
                         <msItem>
                             <locus from="21r" to="24v">21r-24v</locus>
                             <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
-                            <note>Excerpted as part of the<title ref="#libri_computi">Libri computi</title>, Lib. V, 2.</note>
+                            <note>Excerpted as part of the <title ref="#libri_computi">Libri computi</title>, Lib. V, 2.</note>
                             <rubric>De ordine ac positione stellarum in signis</rubric>
                             <incipit>Est quidem hic ordo et positio siderum quae fixa caelo</incipit>
                             <explicit>Anticanis habet stellas III.</explicit>
@@ -365,7 +367,7 @@
                         </msItem>
                         <msItem>
                             <locus from="29r" to="32r">29r-32r</locus>
-                            <note>Excerpts from the<title ref="#libri_computi">Libri computi</title>, Lib. VII, 2-4:</note>
+                            <note>Excerpts from the <title ref="#libri_computi">Libri computi</title>, Lib. VII, 2-4:</note>
                             <msItem>
                                 <locus from="29r" to="30v">29r-30v</locus>
                                 <rubric>De mensuris et ponderibus</rubric>
@@ -400,7 +402,7 @@
                         </msItem>
                         <msItem>
                             <locus from="35r" to="39r">35r-39r</locus>
-                            <note>Excerpt from the<title ref="#libri_computi">Libri computi</title>, Lib. III, 2-4 and 9-10:</note>
+                            <note>Excerpt from the <title ref="#libri_computi">Libri computi</title>, Lib. III, 2-4 and 9-10:</note>
                             <msItem>
                                 <locus from="35r">35r</locus>
                                 <rubric>De anno et partibus eius</rubric>

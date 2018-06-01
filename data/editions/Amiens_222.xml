@@ -6,7 +6,8 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s"> Amiens, BM MS 222</ref>
+            <title type="sub">
+                    <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">Amiens, BM, MS 222</ref>
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,7 +30,7 @@
                 <p/>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc status="complete">
             <change who="ID" when="2016-10-16">Added facsimile.</change>
         </revisionDesc>
     </teiHeader>
@@ -110,9 +111,10 @@
                 </msIdentifier>
                 <head>
                     <title>Composite manual with texts by Bede</title>
-                    <origPlace ref="#">North-east France</origPlace>
+                    <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
+                    Digital facsimile at <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -138,13 +140,13 @@
                                 <p>Written in one column; mostly 28 long lines (exception on ff. 9r-v and 10v written in 27 lines; ff. 11r and 14v - 26 lines). Capitalis rustica used for headings - in part one using the same braunish ink as for the text; in part 3 it is in red with yellow (possibly gold) filling colour. Hollow initials, in part 1 left blank or coloured red, in part 2 left blank, and in part 3 executed completely with yellow paint as a background.</p>
                             </layout>
                             <layout columns="2" ruledLines="38">
-                                <p>The<title>De signis coelis</title> on <locus from="18r" to="18v">f. 18</locus> is written in two columns, ca. 38 lines. The layout here is messier, the scribe probably trying to fit the text on the folio, often writing two lines of text on one ruled line.</p>
+                                <p>The <title>De signis coelis</title> on <locus from="18r" to="18v">f. 18</locus> is written in two columns, ca. 38 lines. The layout here is messier, the scribe probably trying to fit the text on the folio, often writing two lines of text on one ruled line.</p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
                     <handDesc>
                         <handNote script="carolmin">
-                            <p>Two main hands writing in carolingian minuscule. Hand A wrote part 1 with Bede,<title>DTR</title>; Hand B wrote parts 2 and 3, where one notice also similar initials. In part 2 however the script and rubrication are more hasty. Hand B also wrote the marginal note in part 1, f. <locus from="16r">16r</locus>. Hand B use complete word-division; ligatures &amp; and e-caudata, st, ct; abbreviations -ur, -m and -n; punctuation: <quote>·</quote> and <quote>;</quote>. Hand A writes for the most with word-division; to the abbreviations used by Habd B adds -us; writes sporadic 'N'; punctuation: <quote>·</quote> / <quote>.,</quote> / <quote>,¨</quote> and <quote>;</quote>.</p>
+                            <p>Two main hands writing in carolingian minuscule. Hand A wrote part 1 with Bede, <title>DTR</title>; Hand B wrote parts 2 and 3, where one notice also similar initials. In part 2 however the script and rubrication are more hasty. Hand B also wrote the marginal note in part 1, f. <locus from="16r">16r</locus>. Hand B use complete word-division; ligatures &amp; and e-caudata, st, ct; abbreviations -ur, -m and -n; punctuation: <quote>·</quote> and <quote>;</quote>. Hand A writes for the most with word-division; to the abbreviations used by Habd B adds -us; writes sporadic 'N'; punctuation: <quote>·</quote> / <quote>.,</quote> / <quote>,¨</quote> and <quote>;</quote>.</p>
                         </handNote>
                     </handDesc>
                     <decoDesc>
@@ -154,15 +156,16 @@
                     </decoDesc>
                     <bindingDesc>
                         <binding>
-                            <p>The original wooden boards were removed in<date when="1794">1794</date>. Later in <date when="1825">1825</date>
+                            <p>The original wooden boards were removed in <date when="1794">1794</date>. Later in <date when="1825">1825</date>
                                 <rs type="person">M. Le Prince</rs> rebounded them in green leather<locus from="VD"/>.</p>
                         </binding>
                     </bindingDesc>
                 </physDesc>
                 <history>
                     <origin>
-                        <p>The manuscript was thought to originated from<rs type="place" ref="#corbie">Corbie</rs>. According to David Ganz, who studies the manuscripts produced at Corbie, Amien 222 may have been in Corbie in the 9th c., but it was not written there (see <bibl>Contreni, John J. ‘John Scottus and Bede’. In<title level="m">History and Eschatology in John Scottus Eriugena and His Time</title>. Ed. Michael Dunne and J. J. McEvoy, 91–140 (here p. 97, n. 15). Leuven University Press, 2002.</bibl> B. Bischoff (<bibl>
-                                <abbr>Bischoff, Katalog I</abbr>, p. 14</bibl>) considered it to be written in <origPlace ref="ne_france" resp="Bischoff, Katalog I">North-east Francia</origPlace> in the <origDate notBefore="0867" notAfter="0900">last third of the ninth century</origDate>.</p>
+                        <p>The manuscript was thought to originated from <rs type="place" ref="#corbie">Corbie</rs>. According to David Ganz, who studies the manuscripts produced at Corbie, Amien 222 may have been in Corbie in the 9th c., but it was not written there (see <bibl>Contreni, John J. ‘John Scottus and Bede’. In <title level="m">History and Eschatology in John Scottus Eriugena and His Time</title>. Ed. Michael Dunne and J. J. McEvoy, 91–140 (here p. 97, n. 15). Leuven University Press, 2002.</bibl> B. Bischoff (<bibl>
+                                <abbr>Bischoff, Katalog I</abbr>, p. 14</bibl>) considered it to be written in <origPlace ref="ne_france" resp="Bischoff, Katalog I">North-east Francia</origPlace> in the <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
+                            </origDate>.</p>
                     </origin>
                     <provenance>
                         <p>Unclear.</p>
@@ -178,23 +181,23 @@
                             <abbr>Bischoff, Katalog I</abbr>, p. 14.</bibl>
                         <bibl>
                             <abbr>Borst (1994)</abbr>, p. 158, n. 83.</bibl>
-                        <bibl>Contreni, John J. “Bede’s Scientific Works in the Carolingian Age.” In<title>Bède Le Vénérable</title>. Ed. by Stéphane Lebecq, Michel Perrin, and Olivier Szerwiniak, 247–59. Villeneuve d’Ascq: Institut de Recherches Historiques du Septentrion, 2005. <ptr target="http://hleno.revues.org/348"/>.</bibl>
-                        <bibl>Coyecque, Ernest.<title level="m">Catalogue général des manuscrits des bibliothèques publiques de France; Départements</title>. Vol. 19. Paris: Plon, 1893, p. 105.<ptr target="https://archive.org/stream/cataloguegnr191893fran"/>
+                        <bibl>Contreni, John J. “Bede’s Scientific Works in the Carolingian Age.” In <title>Bède Le Vénérable</title>. Ed. by Stéphane Lebecq, Michel Perrin, and Olivier Szerwiniak, 247–59. Villeneuve d’Ascq: Institut de Recherches Historiques du Septentrion, 2005. <ptr target="http://hleno.revues.org/348"/>.</bibl>
+                        <bibl>Coyecque, Ernest. <title level="m">Catalogue général des manuscrits des bibliothèques publiques de France; Départements</title>. Vol. 19. Paris: Plon, 1893, p. 105.<ptr target="https://archive.org/stream/cataloguegnr191893fran"/>
                         </bibl>
                         <bibl>
                             <abbr>Dell'Era (1979)</abbr>.</bibl>
                         <bibl>
                             <abbr>Haffner</abbr> p. 174.</bibl>
-                        <bibl>Jones, Charles. “Manuscripts of Bede’s ‘De Natura Rerum.’”<title level="j">Isis</title> 27 (1937): 430–40, p. 431.</bibl>
-                        <bibl>Le Bourdellès, Hubert. “La diffusion des Aratea dans la culture du nord-ouest de la France pendant le haut Moyen-Age, et le débat idéologique sur la mythologie d’après un texte inédit.” In<title level="m">L’Art du haut Moyen Age dans le Nord-Ouest de la France: Actes du Colloque de St Riquier (22-24 septembre 1987)</title>. Ed. by Dominique Poulan and Michel Perrin, 201–12. Greifswald: Reineke, 1993.</bibl>
+                        <bibl>Jones, Charles. “Manuscripts of Bede’s ‘De Natura Rerum.’” <title level="j">Isis</title> 27 (1937): 430–40, p. 431.</bibl>
+                        <bibl>Le Bourdellès, Hubert. “La diffusion des Aratea dans la culture du nord-ouest de la France pendant le haut Moyen-Age, et le débat idéologique sur la mythologie d’après un texte inédit.” In <title level="m">L’Art du haut Moyen Age dans le Nord-Ouest de la France: Actes du Colloque de St Riquier (22-24 septembre 1987)</title>. Ed. by Dominique Poulan and Michel Perrin, 201–12. Greifswald: Reineke, 1993.</bibl>
                         <bibl>
                             <abbr>Le Bourdellès (1985)</abbr>.</bibl>
                         <bibl>Jeudy, Colette, and Yves-François Riou. Les manuscrits classiques latins des bibliothèques publiques de France: catalogue. Vol. I. Paris: CNRS, 1989, pp. 33-4.</bibl>
-                        <bibl>Contreni, John J. “John Scottus and Bede.” In<title level="m">History and Eschatology in John Scottus Eriugena and His Time: Proceedings of the Tenth International Conference of the Society for the Promotion of Eriugenian Studies, Maynooth and Dublin, August 16-20, 2002</title>. Ed. by Michael Dunne and J. J. McEvoy, 91–140. Leuven University Press, 2002, p. 97.</bibl>
+                        <bibl>Contreni, John J. “John Scottus and Bede.” In <title level="m">History and Eschatology in John Scottus Eriugena and His Time: Proceedings of the Tenth International Conference of the Society for the Promotion of Eriugenian Studies, Maynooth and Dublin, August 16-20, 2002</title>. Ed. by Michael Dunne and J. J. McEvoy, 91–140. Leuven University Press, 2002, p. 97.</bibl>
                         <bibl>
                             <abbr>Sternbilder des Mittelalters</abbr>, pp. 76, 185-7, Plates 24-25.</bibl>
-                        <bibl>Kendall, Calvin B., and Faith Wallis, trans.<title level="m">Bede: On the Nature of Things and on Times</title>. Liverpool: Liverpool University Press, 2010, pp. 39, 44, and 65.</bibl>
-                        <bibl>Lipp, Frances.<title level="u">The Carolingian Commentaries on Bede's De natura rerum</title>. Yale University (unpublished dissertation), 1961.</bibl>
+                        <bibl>Kendall, Calvin B., and Faith Wallis, trans. <title level="m">Bede: On the Nature of Things and on Times</title>. Liverpool: Liverpool University Press, 2010, pp. 39, 44, and 65.</bibl>
+                        <bibl>Lipp, Frances. <title level="u">The Carolingian Commentaries on Bede's De natura rerum</title>. Yale University (unpublished dissertation), 1961.</bibl>
                         <bibl>Lippincott, Kristen. Amiens, Bibliothèque municipale, 222<ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-descriptions-ps-Bede-de-signis-Amiens-222-15-Nov-2012.pdf"/>.</bibl>
                     </listBibl>
                 </additional>
@@ -209,20 +212,20 @@
                             <author ref="#bede">Bede</author>
                             <rubric>Bedae de computo<note>(added probably later)</note>
                             </rubric>
-                            <note>Acephalous and anourous<title ref="#DTR">De temporum ratione</title> (from mid of cap. 6 till mid of cap. 23).</note>
+                            <note>Acephalous and anourous <title ref="#DTR">De temporum ratione</title> (from mid of cap. 6 till mid of cap. 23).</note>
                             <incipit>die occursum equinoctii et ante triduum hoc est quintodecimo KLdarum earunndem</incipit>
                             <explicit>
-                                <locus from="17v">17v</locus>Est namque aetiam uetus argumentum non solummodo de KLdarum uerum et de quorumlibet inter KLdarum dierum luna uel feria dinoscenda repertum
+                                <locus from="17v">17v</locus> Est namque aetiam uetus argumentum non solummodo de KLdarum uerum et de quorumlibet inter KLdarum dierum luna uel feria dinoscenda repertum
                             </explicit>
-                            <note>F. 8 displaced, originally following f. 17: (<locus from="8r">8r:</locus>) <quote>aliquanto<gap/>ndum sed maiorum tamen nobis <gap reason="omitted"/>
+                            <note>F. 8 displaced, originally following f. 17: (<locus from="8r">8r:</locus>) <quote>aliquanto <gap/> ndum sed maiorum tamen nobis <gap reason="omitted"/>
                                 </quote> so that the logical <foreign>explicit</foreign> is on f. <locus from="8v">8v:</locus>
                                 <quote>
-                                    <gap reason="omitted"/>&amp; sic ex ordine recurrens luna suam cuique litterae restituit aetatem<gap reason="lacuna"/>
+                                    <gap reason="omitted"/>&amp; sic ex ordine recurrens luna suam cuique litterae restituit aetatem <gap reason="lacuna"/>
                                 </quote>
                             </note>
                             <msItem>
                                 <locus from="16r">16r</locus>
-                                <note>Marginal note with<rs type="person" role="author" ref="#cicero">Cicero</rs>'s Aratea vv. 329-331, 319-328 on the zodiacal signs.</note>
+                                <note>Marginal note taken from <rs type="person" role="author" ref="#cicero">Cicero</rs>'s Aratea vv. 329-331, 319-328 on the zodiacal signs.</note>
                                 <incipit>primus adest aries obscura lumine labens</incipit>
                                 <explicit>ex in squamiferi serpentes ludere pisces.</explicit>
                             </msItem>
@@ -303,8 +306,8 @@
                         </msItem>
                         <msItem>
                             <locus from="27v">27v</locus>
-                            <author>Sisebut</author>
-                            <title>Carmen de eclipsibus<note>(vv. 31-44)</note>
+                            <author ref="#sisebut">Sisebut</author>
+                            <title ref="#carmen_de_eclipsibus">Carmen de eclipsibus<note>(vv. 31-44)</note>
                             </title>
                             <msItem>
                                 <locus from="27v">27v</locus>
@@ -313,7 +316,7 @@
                             </msItem>
                             <incipit>Bis nouies cluiat quam terreus orbis<lb/>Non circumcingit terrestres lumine moetas</incipit>
                             <explicit>Fratre caret uacuaquę exsanguis deficit horae.</explicit>
-                            <note>In the outer margine list of roman numerals in four columns entitled<quote>Numerus in litteras latinas</quote>.</note>
+                            <note>In the outer margine list of roman numerals in four columns entitled <quote>Numerus in litteras latinas</quote>.</note>
                             <bibl>Fontaine, J.<title>Isidore de Séville. Traité de la nature; suivi de l'épître en vers du roi Sisebut à Isidore</title>. Bordeaux: Féret et fils, 1960 (here pp. 329-335).</bibl>
                         </msItem>
                         <msItem>

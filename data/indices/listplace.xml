@@ -58,8 +58,11 @@
                         <tei:geo>51.27904 1.07992</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="chartres">
+                    <placeName ref="http://www.geonames.org/3026467">Chartres</placeName>
+                </place>
                 <place xml:id="cologne">
-                    <placeName ref="http://www.geonames.org/2886242/koeln">Cologne</placeName>
+                    <placeName ref="http://www.geonames.org/2886242/">Cologne</placeName>
                     <placeName>Köln</placeName>
                 </place>
                 <place xml:id="corbie">

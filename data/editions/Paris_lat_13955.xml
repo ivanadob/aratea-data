@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Description of<ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b9066978w">Paris, BnF, MS lat. 13955</ref>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 13955
                 </title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -29,20 +29,11 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
 			</revisionDesc>
-		-->
-        <profileDesc>
-            <!--<textClass>
-                <keywords scheme="#gnd">
-                    <!-\- normdaten also for keywords so maybe again make a list?? when linking to gnd scheme -\->
-                    <term xml:lang="en">astronomy</term>
-                </keywords>
-            </textClass>-->
-        </profileDesc>
+		
     </teiHeader>
     <facsimile>
         <graphic url="http://www.gallica.bnf.fr/ark:/12148/btv1b9066978w/f1.item" n="Ar"/>
@@ -391,11 +382,21 @@
                     <settlement>Paris</settlement>
                     <repository>BnF</repository>
                     <idno>lat. 13955</idno>
+                    <altIdentifier type="former">
+                        <idno>N.1094</idno>
+                    </altIdentifier>
+                    <altIdentifier type="former">
+                        <idno>olim 644</idno>
+                    </altIdentifier>
+                    <altIdentifier type="former">
+                        <idno>16</idno>
+                    </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title>Paris Compend</title>
                     <origPlace ref="#corbie">Corbie</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> (with additions till the <date notBefore="1001" notAfter="1100">s. XI</date>)
+                    Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9066978w">gallica.bnf.fr</ref>
                 </head>                
             <msContents>
                <msItem>
@@ -431,7 +432,7 @@
                </msItem>
                 <msItem>
                     <locus from="3r">3r</locus>
-                    <note>Later addition from<date notBefore="0901" notAfter="1100">s. X-XI</date>: <term>Hymn</term> with Corbie interlinear <term>neumes</term>.</note>
+                    <note>Later addition from <date notBefore="0901" notAfter="1100">s. X-XI</date>: <term>Hymn</term> with Corbie interlinear <term>neumes</term>.</note>
                     <incipit>Laudes tibi mens et lingua</incipit>
                     <explicit>Cunctis monstrant inunda.</explicit>
                     <bibl>published online<ptr target="http://saprat.ephe.sorbonne.fr/media/d97c99a8d103ab85b9068ece37915554/latin-13955.pdf"/>
@@ -592,7 +593,8 @@
                <msItem>
                   <locus from="105v" to="106r">105v-106r</locus>
                    <author ref="#gerbert">Gerbert of Aurillac</author>
-                   <note>Letter to Constantinus on making a hemisphere. A later addition, written by a diferent scribe using probably left blank space.</note>
+                   <title ref="#gerbert_letter_sphere">Letter to Constantinus on making a hemisphere</title>
+                   <note>A later addition, written by a diferent scribe using probably left blank space.</note>
                    <rubric rend="rustics">Gerbertus Constantino</rubric>
                    <incipit>Sphera mi frater de qua queris ad celestes circulos uel signa ostendenda conponitur</incipit>
                    <explicit>nihil caeli sed terra tantum per utrasque fitulas intuenti occurrit.</explicit>
@@ -773,7 +775,7 @@
                 <msItem>
                   <locus from="137r">137r</locus>
                    <author ref="#isidore">Isidore</author>
-                  <note>Excerpt from<title>Etymologiae</title>, lib. XII, cap. 1, §§ 41 and 48-54.</note>
+                    <note>Excerpt from <title ref="#etymologiae">Etymologiae</title>, lib. XII, cap. 1, §§ 41 and 48-54.</note>
                    <rubric rend="rustics">De equis</rubric>
                    <incipit>Equi ab aquando dicti quia in quadrigis similes forma et pares</incipit>
                    <explicit>Qui color est medius inter nigrum et album et ab albo elbum diriuatum.</explicit>
@@ -789,7 +791,7 @@
                </msItem>
                 <msItem>
                     <locus from="146r" to="147v">146r-147v</locus>
-                    <note>Collection of excerpts from<rs type="person" ref="#theodorus_priscianus">Theodorus Priscianus</rs> (begins on the same line with an Initial and a marginal note "Aliud").</note>
+                    <note>Collection of excerpts from <rs type="person" ref="#theodorus_priscianus">Theodorus Priscianus</rs> (begins on the same line with an Initial and a marginal note "Aliud").</note>
                     <incipit>Vt pili ENR canis lac<add>te</add> si tetigeris non rescrescunt</incipit>
                     <explicit>folia imposita continui curant.</explicit>
                     <bibl>A. Ferraces Rodríguez, "El recetario Ut pili euulsi non recrescant (Paris, BNF, lat. 13955, ff. 146r-147v): extractos de Teodoro Prisciano y otras fuentes tardoantiguas en un manuscrito del s. IX."<title type="j">Galenos</title> 5 (2011): 71-90.</bibl>
@@ -797,14 +799,14 @@
                <msItem>
                   <locus from="147v">147v</locus>
                    <author ref="#bede">Bede</author>
-                   <note>Excerpt from<title ref="#DNR">De natura rerum</title> (cap. 15 'Quare mutent colores' - on the colours of the planets).</note>
+                   <note>Excerpt from <title ref="#DNR">De natura rerum</title> (cap. 15 'Quare mutent colores' - on the colours of the planets).</note>
                    <incipit>Suus quidem  cuique color est saturno candidus</incipit>
                    <explicit>orbitae<unclear>actram</unclear> in obscuritatem.</explicit>
                    <bibl>Bede.<title>Opera didascalica</title>. Ed. Charles Jones. CCSL, 123 A. Turnhout: Brepols, 1975 (here p. 207).</bibl>
                </msItem>
                <msItem>
                   <locus from="147v">147v</locus>                   
-                   <note>Section from<title ref="#arati_ea_quae">Arati ea que uidentur</title> on the constellations within the celestial circles (with minor changes).</note>
+                   <note>Section from <title ref="#arati_ea_quae">Arati ea que uidentur</title> on the constellations within the celestial circles (with minor changes).</note>
                    <incipit>In arctico circulo sunt signa IIII Arcturi duo cepheus a pectore draco</incipit>
                    <quote>In arctico circulo sunt signa IIII Arcturi duo cepheus a pectore draco. In aestiuus signa VIII bootes, corona, ingeniculo, lyra, cassiepia, agitator, cignus, perseus. In hiemali solstitio VI Heridanus, nauis, centaurus in quo bestia et sacrarium, piscis maior inuisibilis<unclear>australis</unclear>. In equinoctiali circulo XV Equus, serpentarius in quo sepens, ylidris in qua urceus et coruus, anticanis, <unclear>aquila</unclear>
                             <gap reason="illegible"/>, Orion, Telum, deltoton, andromeda, lepus, coetus, canis. Unde fieri omnia signa XXXI absque eorum illustrissima alterutrum constituta uti super bootem septentrio, super agitatorem sex hedi, super <unclear>taurum</unclear> uergilie, super uirginem spica, super canem sirius <gap reason="illegible"/>. Zodiacus autem habet signa XII Cancrum, leonem, uirginem, libram, scorpionem, sagittarium, capricornum, aquarium, pisces, arietem, Taurum, Gemines.</quote>
@@ -814,8 +816,8 @@
                </msItem>
                 <msItem>
                     <locus from="147v">147v</locus>                    
-                    <note>Section from<rs type="person" ref="#censorinus">(Ps.)Censorinus</rs> 
-                     <title>Fragmentum Censorini</title>: <title>De stellis fixis et stantibus</title>, §§ 3-6 on the influence of planets.</note>
+                    <note>Section from <rs type="person" ref="#censorinus">(Ps.)Censorinus</rs> 
+                        <title ref="#fragmenta_censorini">Fragmentum Censorini</title>: <title>De stellis fixis et stantibus</title>, §§ 3-6 on the influence of planets.</note>
                     <incipit>Saturni stella frigida et sterilis terris nascentibus non salutaris</incipit>
                     <explicit>Plurimum in originibus ualent quae in ortus languent in occasu.</explicit>
                     <bibl>
@@ -887,7 +889,7 @@
                        <decoNote>Many geometrical figures within the text-body.</decoNote>
                        <bibl>
                                 <abbr>Lachmann, I</abbr>, pp. 95,5–10, 96,21–97,13; 98,11–103,11; 103,17–104,6; 104,13–105,12, 105,16–106,8.</bibl>
-                       <filiation>The same sections and illustrations also in<ref type="altMs" target="http://www.e-codices.unifr.ch/de/bbb/0087/16v">Bern, Burgerbibliothek, Cod. 87, ff. 16v-17v.</ref>
+                       <filiation>The same sections and illustrations also in <ref type="altMs" target="http://www.e-codices.unifr.ch/de/bbb/0087/16v">Bern, Burgerbibliothek, Cod. 87, ff. 16v-17v.</ref>
                             </filiation>
                    </msItem>
                    <msItem>
@@ -952,7 +954,7 @@
             </physDesc>
             <history>
                <origin>
-                   <p>The manuscript was copied in several stages in the<origDate notBefore="0851" notAfter="0900">second half of the ninth century</origDate> in St. Peter's Abbey in <origPlace ref="#corbie">Corbie</origPlace> during the abbacy of <rs type="person" ref="#hadoard">Hadoard</rs>. According to B. Bischoff most of the manuscript was copied in the third quarter of the century, while ff. <locus from="46r" to="53v">46r-53v</locus> with Martianus Capella's text were later insertion to the mauscript presumably at the end of the century.</p>
+                   <p>The manuscript was copied in several stages in the <origDate notBefore="0851" notAfter="0900">second half of the ninth century</origDate> in St. Peter's Abbey in <origPlace ref="#corbie">Corbie</origPlace> during the abbacy of <rs type="person" ref="#hadoard">Hadoard</rs>. According to B. Bischoff most of the manuscript was copied in the third quarter of the century, while ff. <locus from="46r" to="53v">46r-53v</locus> with Martianus Capella's text were later insertion to the mauscript presumably at the end of the century.</p>
                    <p>Wesley Stevens ("Marginalia in the Latin Euclid" in<title>Scientia in Margine</title>, ed. D. Jacquart and Ch. Burnett, pp. 117-138, esp. p. 120, n. 6) suggested that ff. <locus from="114v" to="121v">114v-121v</locus> were copied by a hand with some Fulda characteristics 825-840.</p>
                    <p>Looking at the quire structure and the hands involved in the production of the manuscript it seems that Hand A played the leading role, as it was involved in the copying or later correction of all texts. The texts start only rarely at the beginning of a quire (the sole exeption being Boethius,<title>In isagogen</title>), and very often start middle of the folio right after the previous text ends. This inclines me to consider the codex not as a composite manuscript of separate booklets, but rather as a collection that grew in time, as Hand A and his colleagues added more and more texts producing an anthology of liberal arts.</p>
                    <p>Ullman (<bibl>
@@ -960,10 +962,10 @@
                    <!--<p>Bruce Eastwood (<bibl><title>Ordering the Heavens</title>, pp. 314-5, n. 7 and p. 254, n. 180</bibl>) reported the yet unpublished outcome of Wesley Stevens' palaeographical study of annotations in the geometrical and astronomical sections in the manuscript. He identified one of the hands transcribing part of Martianus Capella's text as a hand he described in detail in his article on bodleian manuscript Canonici Miscellaneous 353(<bibl>"Fulda Scribes at Work." In <title>Bibliothek und Wissenschaft</title> 8 (1972): 287-317</bibl>). The latter manuscript was copied in the period 825-840, hence Eastwood thought that the Paris lat. 13955 sections copied by this hand, named IId by Stevens, date from the 840s. Unfortunatelly I could not reinvestigate the study of the hands. In Stevens article Hand IId is illustrated merely by 8 lines of text, which in my opinion match no script in the Paris lat. 13955. Even if it does, however, I do not see why the scribe's activity should be limited to the 840s, especially since Stevens stated that in Canon. Misc. 353 the hand was "inexperienced and unsure" which might suggests that the scribe himself was yet a young monk in the second quarter of the ninth century.</p>-->
                </origin>
                <provenance>
-                   <p>The manuscript is mentioned in two abbey catalogues: in<ref type="altMs">Berlin, SB, Ms. Phill. 1865<ptr target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74C00000000"/>, f. 2ra</ref> datable to the end of the twelfth century and in <ref type="altMs">Vat. Reg. Lat. 520</ref>from around the year 1200 as <quote>Boetii commentum in isagogis et musica et geometria</quote> and <quote>commentum in isagogas Porfirii</quote> accordingly. Cf. <bibl>Catalogue général des manuscrits des bibliothèques publiques de France: Départements, Vol.  19, p. XV,  n° 80 and p. XLII, n° 303</bibl>, <bibl>
+                   <p>The manuscript is mentioned in two abbey catalogues: in <ref type="altMs">Berlin, SB, Ms. Phill. 1865<ptr target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74C00000000"/>, f. 2ra</ref> datable to the end of the twelfth century and in <ref type="altMs">Vat. Reg. Lat. 520</ref>from around the year 1200 as <quote>Boetii commentum in isagogis et musica et geometria</quote> and <quote>commentum in isagogas Porfirii</quote> accordingly. Cf. <bibl>Catalogue général des manuscrits des bibliothèques publiques de France: Départements, Vol.  19, p. XV,  n° 80 and p. XLII, n° 303</bibl>, <bibl>
                                 <abbr>Becker</abbr>, n° 79 and n° 136 pp. 185-192 (here p. 187, item n° 80) and pp. 277-298 (here p. 284, item n° 278</bibl>, <bibl>U. Winter,<title>Die mittelalterlichen Bibliothekskataloge aus Corbie</title>, Berlin, Univ., Phil. Diss., 1972, pp. 10-16, 91-137 and 354-74<ptr target="http://gso.gbv.de/DB=2.1/PPNSET?PPN=409426075"/>
                             </bibl> and <bibl>Ganz, p. 37.</bibl>.</p>
-                   <p>The manuscript was probably consulted in<rs type="place">Chartres</rs> in the 10th or 11th century by <persName>Fulbert</persName>. It is tempting to believe that during that time the two filling text on ff. 105v-106v were copied during that period. Later on the manuscript was the property of the monastery of <rs type="place" ref="#st_germain_des_pres">Saint-Germain-des-Prés</rs> (see note on f.<locus from="1r">1r</locus>.</p>
+                   <p>The manuscript was probably consulted in <rs type="place" ref="#chartres">Chartres</rs> in the 10th or 11th century by <persName>Fulbert</persName>. It is tempting to believe that during that time the two filling text on ff. 105v-106v were copied during that period. Later on the manuscript was the property of the monastery of <rs type="place" ref="#st_germain_des_pres">Saint-Germain-des-Prés</rs> (see note on f.<locus from="1r">1r</locus>.</p>
                </provenance>
                 <acquisition>
                     <p>Acquired by the Bibliothèque nationale during the French revolution (see f.<locus from="1r">1r</locus> 
