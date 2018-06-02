@@ -224,6 +224,9 @@
                         <tei:geo>49.75565 6.63935</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="wales">
+                    <placeName ref="http://www.geonames.org/2634895">Wales</placeName>
+                </place>
                 <place xml:id="winchester">
                     <placeName xml:id="gnd_4066250-0" ref="http://www.geonames.org/2633858">Winchester</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">

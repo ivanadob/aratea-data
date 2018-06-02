@@ -281,6 +281,9 @@
                         <persName>Ps. Priscianus</persName>
                         <persName>Priscianus Caesariensis</persName>
                     </person>
+                    <person xml:id="ptolemeus">
+                        <persName xml:id="gnd_118641786" ref="http://d-nb.info/gnd/118641786">Ptolemeus</persName>
+                    </person>
                     <person xml:id="remius_favinus">
                         <persName xml:id="gnd_102405026" ref="http://d-nb.info/gnd/102405026">Remius &lt;Favinus&gt;</persName>
                     </person>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Paris, Bibliothèque nationale de France, MS Nouv. acq. lat. 456</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-02"/>
+			</revisionDesc>
+     </teiHeader>
+   <facsimile>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f122.item" n="118v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f122.item" n="119r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f123.item" n="119v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f123.item" n="120r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f124.item" n="120v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f124.item" n="121r"/>
+   </facsimile>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="paris_nal_456">
+            <msIdentifier>
+               <settlement>Paris</settlement>
+               <repository>Bibliothèque nationale de France</repository>
+               <idno>Nouv. acq. lat. 456</idno>
+            </msIdentifier>
+            <head>
+               <title/>
+               <origDate>s. X<hi rend="sup">4/4</hi>
+                    </origDate>
+               <origPlace ref="#auch">St. Orient in Auch</origPlace>
+               <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b100335998">gallica.bnf.fr</ref>.</note>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus from="2v">2v</locus>
+                  <title>8 Verses</title>
+                  <incipit>Alma salus orbis fulgens crux inclyta christi</incipit>
+               </msItem>
+               <msItem>
+                  <locus from="3r">3r</locus>
+                  <note>List of names of the musa and nympe</note>
+                  <incipit>Nomina musarum Clio hystorias</incipit>
+               </msItem>
+               <msItem>               
+                  <locus from="3r" to="3v">3r-v</locus>
+                  <rubric>Presciani de sideribus</rubric>
+                  <incipit>Ad boree partes arctoe uertuntur et anguis post has</incipit>
+                  <explicit> simul eridaniq fluenta</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="3v" to="4r">3v-4r</locus>
+                  <incipit>DE VENTIS Quattuor a quadro consurgunt limite</incipit>
+                  <explicit>grai uocitant cognomina prisco</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="4r">4r</locus>
+                  <rubric>DE VIRTUTIBUS HERCULIS </rubric>
+                  <incipit>Prima dionei tolerate erumna leonis/ Proxima lernea ferro &amp; face contilit hydram</incipit>
+                  <explicit> Cerberus extremi supraema est meta laboris.</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="4r">4r</locus>
+                  <rubric>ITEM DE EADEM RE</rubric>
+                  <incipit>Oppressit nemee primo uirtute leonem/ Extincta est anguis que popula hydra secundo</incipit>
+                  <explicit> Postremo hespedidum uictor tulit aurea mala.</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="5r" to="10r">5r-10r</locus>
+                  <rubric>HOC CICLO AETAS LUNAE IN UNOQUOQUE DIE PER XVIIII ANNOS OSTENDITUR NICI SALTUS ... </rubric>
+               </msItem>
+               <msItem>
+                  <locus from="10r" to="115r"/>
+                  <title>7-book computus</title>
+                  <note>10r-11v – table of the books
+                     12v -13r – rota and then full 7 book computes (no Bede at the end)
+                     martirologium
+                     ff.26v- 19 year cycles – last original note on the margin to year 840
+                     Folio number: - 74v argumentum ad annos ab initio mundi inueniendos...
+                     last ch. XXVII of book IV De effectiua lunae potentia</note>
+               </msItem>
+               <msItem>               
+                  <locus from="115r" to="115v">115r-v</locus>
+                  <incipit>De horologio. Ianuarius et December hora prima  et undecima pedes XXXII hora secunda et decimal </incipit>
+                  <explicit> hora VI pedes III</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="115v" to="116">115v-116</locus>
+                  <note>chapter argumentum quot horas luna in una quaque nocte luceat. SI uis scire quot horas luna...
+                     Followed by ch. Expositio de eadem re for the first argumentum the text runs on r-v)</note>
+               </msItem>
+               <msItem>
+                  <locus from="116r" to="117v">116r-117v</locus>
+                  <rubric>De accensione lunae</rubric> 
+                  <incipit>Si quis nosse desiderat qua hora luna renouetur</incipit>
+                  <explicit>noctis primo puncto finem accipit.</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="117v" to="119v">117v-119v</locus>
+                  <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                  <rubric>Excerptum de <sic>strologia</sic>
+                        </rubric>
+                  <incipit> Duo sunt extremi uertices mundi quos appellant polos</incipit>
+                  <explicit> usque decurrit accipiens.</explicit>
+               </msItem>
+               <msItem>               
+                  <locus from="119v" to="120v">119v-120v</locus>
+                  <rubric>De difinitione astronomiae</rubric>
+                  <incipit>Pauca dedisci plina astronomica</incipit>
+                  <explicit>iam reliqua sunt ordinanda.</explicit>
+                  <quote>Pauca dedisci plina astronomica secundum sentencias philosophorum scriptori primo ponendum censuimus quid ipsa sit astronomia quatenus eius definitione agnita liberius cognoscantur quae in consequentibus sunt ordinanda. Astronomia itaque est disciplina quae cursus caelestium siderum et figuras contemplatur omnes et abitudines stellarum circa se et circa terram indagabili ratione percurrit. Quam si casta ac moderata mente perquirimus non ut magi aut matematici sensus quoque nostros ut et ueteres dicunt magna claritate perfundit. Dicta autem astronomia a nominibus simul et numero astrorum quorum rationem astrologia continet et manifestat. Quae ab inuicem ideo nequaquam separari possunt quia quod astronomia ut iam dicunt est numero et nominibus monstrat, hoc astrologia tarione discernit, quarum licet officia sint multiplicia et cognitione digna ne tamen monum susceptae breuitatis excedere uideamur, de ea tantum parte dicendum statuimus quae ordinem et situm demonstrat astrorum. Ad quod et illud oportune ponimus quibus proprietabus singula sint nucupanda. Differt enims ecundum rationis indaginem inter stellas et sidera atque astra. quod in astronomicorum pronuntiationibus est obseruandum. Stella namque est quaecumque singularis a stando dicta eo quod fixa stet caelo. Sidera uero pluralitate stellarum insignum quodcumque praescripta constat. Dicta autem sidera a proprio eorum et ab aliis differente situ, siue etiam quod a nautis sollicite considerentur. Astro uero sint stellae maiores ac limpidius lucentes ut bootes orion et ropulus erculis. His namque ab definitionem necessariarum proprietatum prae locutiua ratione praescriptis iam reliqua sunt ordinanda.</quote>
+               </msItem>
+               <msItem>               
+                  <locus from="120v" to="121r">120v-121r</locus>
+                  <rubric>Incipit de ordine et situ siderum</rubric>
+                  <incipit>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis</incipit>
+                  <explicit>cauda quidem maiorem cetero circuitu minorem.</explicit>
+               </msItem>
+               <msItem>                  
+                  <locus from="121r" to="134v">121r-134v</locus>
+                  <incipit>Maior arcturus habet in capite stellas VII</incipit>
+                  
+                  <!--<note> Minor... Relique autem duae choreunte dicuntur quod circa polum uersantur
+                  
+                  Lepus : fugiens infrs sinistrum ledem orimis positus habet stellas in utrisquae auribus singulas in corpore duas in pedibus prioribus singulas & unam in dorso quae ceteris nitidior est.</note>-->
+                    </msItem>
+               <msItem>                  
+                  <locus from="134v" to="136r">134v-136r</locus>
+                  <rubric>DE POSITIONE ET CURSU SEPTEM PLANETARUM</rubric>
+                  <incipit>Inter caelum et terram</incipit>
+                  <explicit> ad easdem uices exit</explicit>
+                  <note>left blank the rest of 136r for diagram, such not drawn a later text added ‘Incipit pmnu ul oracio conspicui patris amandi ... expl inreadable also on the verso.</note>
+                    </msItem>
+               <msItem>                  
+                  <locus from="137r">137r</locus>
+                  <rubric>IIII DE INTERVALLIS EARVM </rubric>
+                  <incipit>Interualla eorum a terra multi indaga</incipit>
+                  <explicit> quam diapason armonia uocant.</explicit>
+               </msItem>
+               <msItem>                  
+                  <locus from="137v">137v</locus>
+                  <incipit>Annos ab origine mundi debemus mutare</incipit>
+                  <explicit> et oculos imposite mirifice prodest.</explicit>
+                  <!-- Remarks: end of a quire here; this text written by a different hand – 12 thc. Again left space for a diagram?
+                  -->
+               </msItem>
+               <msItem>
+                  <locus>138r-148v</locus>
+                  <note>Tables.</note>
+               </msItem>
+               <msItem>                  
+                  <locus from="144r" to="161r">144r-161r</locus>
+                  <incipit>Incipit Prefacio heririci (sic) de racione compoti. Cum  quibusdam fribus nris adolescentulis queda</incipit>
+                  <explicit> ad huc penetrare nequent his primum quasi quibusdam alphabeti caracteribus inducti illa de inces facile assequantur.</explicit>
+                  <finalRubric>EXPLICIT LIBER ERIRICI.</finalRubric><!--later hand – 12th c.-->
+               </msItem>
+               <!--Some more computistical texts-->
+               <msItem>
+                  <locus from="161r" to="163r">161r-163r</locus>
+                  <incipit> In omni anno commune ubi post medium ianuarium fuerit</incipit>
+               </msItem>
+               <msItem>                  
+                  <locus from="163v" to="168r">163v-168r</locus>
+                  <rubric>ITEM DE LUNA PER DUODECIM SIGNA LUNA</rubric>
+                  <incipit> I &amp; II Signum arietis pri eo quod abraam ysaac filium suum obtulit in olocaustum</incipit>
+                  <explicit>ingreditur quod uacuus nimio est.</explicit>
+                  <!-- Some other : ff. 168r-vLuna enim qscdm grecos nomen ostenditur atrosina quando... incrastino aut I di tauero.
+                  f. 168v-169r – quibus modis dicuntur menses...dies Sestos romani istruer
+                  f. 169r-v Adannos dm add regular XII et indictionem in qua stas et partire… in maceront castello conceptio sci iohis baptiste et maritis.-->
+                    </msItem>
+               <msItem>                  
+                  <locus from="170r" to="171r">170r-171r</locus>
+                  <incipit>Ventus est aer comotus et agitates</incipit>
+                  <explicit> aut alitis autri.</explicit>
+                  <decoNote>Diagram rota with the winds lidona-malina in four sides.</decoNote>
+                    </msItem>
+               <msItem>                  
+                  <locus from="171r" to="172v">171r-172v</locus>
+                  <rubric>MACROBIUS ITEM DE SUBSEQUENTI ZONA</rubric>
+                  <incipit>Hoc quoque tractatu proprio sortito finem Nunc illud quod probandu</incipit>
+                  <explicit> quipped quem horientem obeuntes autem</explicit>
+                  <decoNote>diagram 172r – celestial circles</decoNote>
+               </msItem>
+               <msItem>                  
+                  <locus from="173r" to="175v">173r-175v</locus>
+                  <rubric>DE ABSIDIBVS EARVM</rubric>
+                  <incipit> Tres autem quas supra solem diximus</incipit>
+                  <explicit>ut subiecta fugura demonstrat.</explicit>
+                  <!--Remarks: the original 7 book continues; no figure at the end but left space which was later filled with text-->
+                    </msItem>
+               <msItem>                  
+                  <locus from="176">176</locus>
+                  <rubric>DE CURSUS EARUM PER ZODIACUM CIRCULUM</rubric>
+                  <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                  <!--Remarks: left blank space before new section on ‘Tres superiores’ to place the intervals diagram, but left blank; and so continues with the rest of the chapters – left again blank space after chapter on the eclipsis soliis; year for quando uisa est last one 812; praesagiis tempestatum – also the same T S markes on each line on the margin as in Strasbourg?
+                  -->
+               </msItem>
+               <msItem>
+                  <locus from="184v" to="189r">184v-189r</locus>
+                  <incipit>De ratione untiarum. Scripulus</incipit>
+                  <explicit> coniecture dimensione admittit.</explicit>
+                  <!--<note>on f. 197 the ‘old’ hand ends ch. III and the in my opinion 12th c one continues with ch. IIII Ambrosii macrobii theodosii de mensura et magnitudine terre...</note>-->
+               </msItem>             
+               <msItem>
+                  <locus from="189v" to="190v">189v-190v</locus>
+                  <incipit>Sciendum nob quon de compito solis sol in principalibus linguis uocatur ita</incipit>
+                  <explicit>formis annus etas saeculum mundis sed XIII s scdm que alios here another much tinier hand continued... atomos autentus pretus... fines quos ostendimus</explicit>
+               </msItem>
+               
+               <msItem>
+                  <locus from="191r" to="191v">191r-v</locus>
+                  <note>blank</note>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="191">191 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height/>
+                           <width/>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="999"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carol"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin>
+                        <rs type="corporate" ref="#st_oriens_auch">church Saint-Orens</rs>
+                    </origin>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl/>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +30,7 @@
         </fileDesc>           
         
             <revisionDesc status="draft">
-				     <change>work in progress</change>
+				     <change when="2018-06-02">work in progress</change>
 			   </revisionDesc>
 		
     </teiHeader>
@@ -46,25 +45,253 @@
                 </msIdentifier>
                 <head>
                     <title>Astronomical compilation</title>
-                    <note type="caption"><!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
                     <origPlace ref="#fleury">Northern France, Fleury (?)</origPlace>
                     <origDate notBefore="0976" notAfter="1000">X<hi rend="sup">4/4</hi>
                     </origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_2506">www.bl.uk</ref>.</note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat" otherLangs=""/>
                     <msItem>
-                        <locus from="" to=""/>
-                        <author ref="#"/>
-                        <title/>
+                        <locus from="1r" to="30r">1ra-30ra</locus>
+                        <author ref="#hyginus">Hyginus</author>
+                        <title ref="#de_astronomia">De astronomia</title>
                         <incipit/>
-                        <explicit/>
+                        <explicit>descendens CCCLXV dies suo cursu transigit.</explicit>
+                        <finalRubric>Explicit.</finalRubric>
                         <msItem>
-                            <locus from="" to=""/>
-                            <note/>
-                            <incipit/>
-                        </msItem>                     
-                    </msItem>					
+                            <locus from="30r">30ra-b</locus>
+                            <author ref="#abbo">Abbo of Fleury</author>
+                            <title>Verse ending of Hyginus</title>
+                            <incipit>Terminat hyginus uolumen doctus moderans et</incipit>
+                            <explicit>Tunc possim uisione dei g<hi rend="sup">iuari</hi> qui bene regnat.</explicit>
+                            
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="30r" to="30v">30rb-va</locus>
+                        <author ref="#priscianus">Ps. Priscianus</author>
+                        <title ref="#ad_boreae">De sideribus</title>
+                        <incipit>Ad boreae partes arcti uertuntur et anguis</incipit>
+                        <explicit>Celsior his saturnus tardior omnibus astris.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="30v" to="31r">30va-31r</locus>
+                        <author ref="#abbo">Abbo of Fleury</author>
+                        <title ref="#abbo_sentenia">Sententia Abbonis de differentia circuli et sperae</title>
+                        <incipit>Studiosis astrologiae primo sciendum est</incipit>
+                        <explicit>Si uero mota est aliquis planetarum est.</explicit>
+                    </msItem>	
+                    <msItem>
+                        <locus from="31r" to="32r">31ra-32rb</locus>
+                        <author ref="#abbo">Abbo of Fleury</author>
+                        <title ref="#abbo_denique_luna">Untitled</title>
+                        <incipit>Denique luna totius zodiaci signa partes studioso lectori manifestabit</incipit>
+                        <explicit>similiter de reliquis.</explicit>
+                        <decoNote><locus from="31v">31v</locus> diagram of the motion of the moon and its phases.</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="32v">32v</locus>
+                        <note>blank</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="33r">33ra</locus>
+                        <title ref="#oratio">Prayer</title>
+                        <incipit>Domine Deus omnipotens sancta trinitas</incipit>
+                        <explicit>et aliis ministrate ualeamus. Per.</explicit>
+                    </msItem>	
+                    <msItem>
+                        <locus from="33r">33ra</locus>
+                        <title ref="#sancta_scriptura">On the creation of the luminaries according to the bible</title>
+                        <incipit>Sancta scriptura nobis a deo per beatum moysen</incipit>
+                        <explicit>luminare minus ut praeesset nocti.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="33r" to="35r">33ra-35rb</locus>
+                        <title ref="#de_duodecim_signis">De duodecim signis</title>
+                        <rubric>De XII signis primitus de ariete</rubric>
+                        <incipit>Regionem XII caeli in quam sol cursum suum dirigit</incipit>
+                        <explicit>sed christus dominus saluator mundi euertit.</explicit>
+                    </msItem>	
+                    <msItem>
+                        <locus from="35v" to="35v*">35v-35v*</locus>
+                        <note>blank</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="36r" to="48v">36ra-48v</locus>
+                        <author ref="#cicero">Cicero</author>
+                        <title ref="#aratea_cicero">Aratea</title>
+                        <incipit>A quibus hinc subter possis cognoscere fultum</incipit>
+                        <explicit>Hanc autem totam properant depellere pisces.</explicit>
+                        <msItem>
+                            <locus from="36r" to="44v">36ra-44v</locus>
+                            <title ref="#de_signis_coeli">De signis caelis</title>
+                            <note>As scholia in the margin.</note>
+                            <incipit>Aries habet stellam in capite I</incipit>
+                            <explicit>Anticanis <gap reason="omitted"/> eo quod contraria sit cani.</explicit>
+                            <note>By Perseus placed the section about Hercules; </note>
+                        </msItem>
+                        <decoNote>Illustrations of the constellations; Triangulus left as draft, faintly marked; Virgiliae, Lyra and the Planets not executed. Stars marked with red dots.</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="49r">49ra</locus>
+                        <title></title>
+                        <rubric>De concordia solaris cursus et lunaris</rubric>
+                        <incipit>Nouem horis in luna pro quinque diebus in sole</incipit>
+                        <explicit>cum V diebus solaribus concordare.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="49r">49ra-b</locus>
+                        <title></title>
+                        <rubric>Item de eadem ratione</rubric>
+                        <incipit>Luna lucere dodrantis semuncias dicitur</incipit>
+                        <explicit>IIII horas lucet luna V.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="49r">49rb</locus>
+                        <title></title>
+                        <rubric>De concordia maris et lunae</rubric>
+                        <incipit>Unius semper horae dodrante et semuntia transmissa</incipit>
+                        <explicit>tardius ueniret, tardiusque recederet.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="49r" to="51r">49rb-51ra</locus>
+                        <author ref="#pliny">Pliny the Elder</author>
+                        <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum</title>
+                        <note>Possibly taken from <title ref="#libri_computi">Libri computi</title>, Lib. V, 12.</note>
+                        <rubric>De presagiis tempestatum presagia solis XXVII</rubric>
+                        <incipit>Purus oriens atque non feruens</incipit>
+                        <explicit>relinquentia diras tempestates pronuntiant.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="51r" to="51v">51ra-51va</locus>
+                        <title ref="#excerpt_libri_computi_vi4">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 4</title>
+                        <rubric>Ambrosii Macrobii Theodosii de mensura et magnitudine terrae et circuli per quem solis iter est</rubric>
+                        <incipit>In omni orbe uel sphera medietas centrum uocatur</incipit>
+                        <explicit>et insuper centum LXX milia.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="51v" to="52r">51va-52ra</locus>
+                        <title xml:id="excerpt_libri_computi_vi5">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 5</title>
+                        <rubric>Item eiusdem de mensura et magnitudine solis</rubric>
+                        <incipit>His dictis quibus mensura quam terrae uel ambitus</incipit>
+                        <explicit>Ergo ex his dicendum solem octies terra esse maiorem.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52r">52ra-b</locus>
+                        <title xml:id="excerpt_libri_computi_vi6">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
+                        <rubric>Felicis Capelle de mensura lunae</rubric>
+                        <incipit>Luna item circuli sui sex centesimam optinet portionem</incipit>
+                        <explicit>circulum cencies maiorem esse tellure.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52r" to="52v">52rb-52va</locus>
+                        <title xml:id="excerpt_libri_computi_vi7">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
+                        <rubric>Quo magnitudo terrae depraensa est</rubric>
+                        <incipit>Erathostenes philosophus idemque geometra subtilissimus</incipit>
+                        <explicit>humanę coniecturae dimensionem admittit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="52v" to="53r">52va-53ra</locus>
+                        <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 3)</title>
+                        <rubric>De positione et cursu septem planetarum</rubric> 
+                        <incipit>Inter caelum et terram certis discreta spatiis VII sidera pendent</incipit>
+                        <explicit>tum tardissime a trigesima luce ad easdem uices exit.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="53r">53ra</locus>
+                        <title ref="#pliny_excerpt_intervals">De intervallis earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 4)</title>
+                        <rubric>De intervallis earum</rubric> 
+                        <incipit>Interualla earum a terra multi indagare temptarunt</incipit>
+                        <explicit>ita VII tonis effici quam dyapason armoniam uocant.</explicit>
+                        <decoNote>On f.<locus from="53r">53rb</locus> a diagram of planetary intervals (<bibl>
+                            <abbr>Eastwood, Diagrams</abbr>, p. 26</bibl>).</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus from="53r" to="53v">53rb-53vb</locus>
+                        <title ref="#pliny_excerpt_absidibus">De absidibus earum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 5)</title>
+                        <rubric>De absidibus earum</rubric>
+                        <incipit>Tres autem quas supra solem diximus esse sitas occultantur</incipit>
+                        <explicit>sicut in rotis radios ut subiecta figura demonstrat.</explicit>
+                        <note>No accompanying drawing but space left for it.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="54r" to="54v">54ra-54va</locus>
+                        <title ref="#pliny_excerpt_latitudes">De cursu earum per zodiacum circulum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 6)</title>
+                        <incipit>Cur autem magnitudines suas et colores mutent</incipit>
+                        <explicit>sidera martis maxime inobseruabilis est cursus.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="54v">54va</locus>
+                        <title ref="#excerpt_libri_computi_v11">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 11</title>
+                        <rubric>Dimensio caelestium spatiorum secundum quosdam</rubric>
+                        <incipit>A terra ad lunam tonum esse adnuntiant quod C¯X¯X¯V¯ stadiorum</incipit>
+                        <explicit>Id est miliaria C¯V¯I¯I¯I¯I¯ et CCCLXXV.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="54v" to="55r">54va-55rb</locus>
+                        <author ref="#macrobius">Macrobius</author>
+                        <note>Excerpt from<title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis</title>, Lib. II, 11, 5-17.</note>
+                        <rubric>De mundano anno qui quindecim milibus solarium conficitur annorum Tullii Ciceronis somnium scipionis dictantis et Macrobii idem exponentis ac Senecae philosophorum auctoritas</rubric>
+                        <incipit>Annus non is solus quem nunc communis omnium usus apellat</incipit>
+                        <explicit>DLXXIII quisquis in digitos mittit inueniet.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="55v">55va</locus>
+                        <note>Short texts on the relation between the solar and lunar path in the zodiac.</note>
+                        <msItem>
+                            <rubric>Incipit liber prognosticorum Arati prognostica solis et lune</rubric>
+                            <incipit>Sol cum fuerit in ariete luna intrat (?) primam uidetur cum a sole disscenserit partibus x</incipit>
+                            <explicit>In piscibus totidem quot in ariete partibus X simul eisdem a sole recesserit tunc apparebit.</explicit>
+                        </msItem>
+                        <msItem>
+                            <rubric>Lune horarum transitus sic inuenitur</rubric>
+                            <incipit>Partes quot in die currit uerbi causa currit partes XII</incipit>
+                            <explicit>aut amplius et quod erit uidebis quid faciat in XXXI.</explicit>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="55v" to="73v">55va-73v</locus>
+                        <author ref="#ptolemeus">Ptolemy</author>
+                        <title ref="#preceptum">Preceptum canonis Ptolomei</title>
+                       <rubric>Preceptum ingrediendi canonis tholomei</rubric>
+                        <incipit>Intellectus climatum polisepiseme requires</incipit>
+                        <explicit>et addes aut deduces (<locus from="69r">69ra</locus>)</explicit>
+                        <msItem>
+                            <locus from="69v">69v</locus>
+                            <note>blank</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="70r" to="73v">70r-73v</locus> 
+                            <note>Tables</note>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="74r" to="83v">74ra-83v</locus>
+                        <title ref="#de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia</title>
+                        <author ref="#martianus_capella">Martianus Capella</author>
+                        <rubric>Incipit de astrologia liber VIII</rubric>
+                        <incipit>Quae dum geruntur et deorum sacer senatus</incipit>
+                        <explicit>Consecutus autem radius intra XII partes eas opprimit et occultat.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="84r" to="84v">84r-84va</locus>
+                        <note>blank</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="84v" to="85v">84va-85vb</locus>
+                        <note>Text on the abacus, added by a slightly later hand.</note>
+                        <rubric>Rationes abaci</rubric>
+                        <incipit>Numeri uidentur ratione formari et ex ipso naturaliter institui</incipit>
+                        <explicit>etiam causam ignorans prouenire mirabitur.</explicit>
+                        <bibl>Evans, G. R. "Schools and scholars: the study of the abacus in English schools c. 980–c. 1150." The English Historical Review 94 (1979): 71-89.</bibl>
+                    </msItem>
+                    <msItem>
+                        <locus from="86r" to="93v">86ra-93vb</locus>
+                        <rubric>Incipit commentum martiani</rubric>
+                        <incipit>Titulus istę quattuor nomina dat auctori suo</incipit>
+                        <explicit>idem mercurius intra XX momenta id est hoc supra solem intellege.</explicit>
+                    </msItem>
                 </msContents>
                 <physDesc>
                     <objectDesc form="codex">
@@ -75,10 +302,10 @@
                                 </p>
                             </support>
                             <extent>
-                                <measure type="leavesCount" quantity=""> </measure>
+                                <measure type="leavesCount" quantity="93">iii (modern paper) + 93 fols.</measure>
                                 <dimensions type="leaf" unit="mm">
-                                    <height/>
-                                    <width/>
+                                    <height>295</height>
+                                    <width>215</width>
                                 </dimensions>
                             </extent>
                             <foliation/>
@@ -90,8 +317,8 @@
                             </condition>
                         </supportDesc>
                         <layoutDesc>
-                            <layout columns="" ruledLines="">
-                                <p/>
+                            <layout columns="2" ruledLines="33">
+                                <p>Written for the most part in two columns, 33 lines.</p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
@@ -100,12 +327,7 @@
                         <scriptNote script="carolmin">
                             <p/>
                         </scriptNote>                     
-                    </scriptDesc>                                      
-                    <musicNotation/>
-                    <decoDesc>
-                        <decoNote/>
-                    </decoDesc>
-                    <additions/>
+                    </scriptDesc>
                     <bindingDesc>
                         <binding>
                             <p/>
@@ -131,17 +353,9 @@
                         <bibl>Moster The library of Fleury.</bibl>
                         <bibl>
                             <abbr>Leonardi</abbr>, pp. 73-75.</bibl>
+                        <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts, <ref target="http://ptolemaeus.badw.de/ms/289">http://ptolemaeus.badw.de/ms/289</ref>.</bibl>
                     </listBibl>
-                </additional>
-                <msPart>
-                    <msIdentifier>
-                        <idno/>
-                    </msIdentifier>
-                    <head/>
-                    <msContents/>
-                    <physDesc/>
-                    <history/>
-                </msPart>
+                </additional>                
             </msDesc>
         </body>
     </text>

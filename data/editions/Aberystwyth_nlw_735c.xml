@@ -158,7 +158,7 @@
                     <history>
                         <origin>
                             <p>Part 1 was copied around <origDate notBefore="0986" notAfter="1015">1000</origDate> in the <origPlace ref="#limoges">Limoges</origPlace> area (MsGurk) and came from the circle of <rs type="person" ref="#ademar_de_chabannes">Adémar de Chabannes</rs> (989-1034).</p>
-                            <p>Part 2 was copied possibly in <origPlace>Wels</origPlace> (McGurk/Bischoff) in the <origDate notBefore="1141" notAfter="1160">mid 12th c.</origDate>
+                            <p>Part 2 was copied possibly in <origPlace ref="#wales">Wales</origPlace> (McGurk/Bischoff) in the <origDate notBefore="1141" notAfter="1160">mid 12th c.</origDate>
                         </p>
                         </origin>
                     <provenance>
@@ -173,7 +173,7 @@
                         <head>Selected bibliography:</head>
                         <bibl>
                             <abbr>Sternbilder des Mittelalters</abbr>, pp. 179-184, plates 1-23.</bibl>
-                        <bibl>P. McGurk, "Germanici Caesaris Aratea cum scholiis; a new illustrated witness from Wales,"<title level="j">National Library of Wales Journal</title>, xviii (1973-4), 197-216.<ptr target="http://welshjournals.llgc.org.uk/browse/viewobject/llgc-id:1284625/article/000038144"/>
+                        <bibl>P. McGurk, "Germanici Caesaris Aratea cum scholiis; a new illustrated witness from Wales,"<title level="j">National Library of Wales Journal</title>, xviii (1973-4), 197-216.<ptr target="http://hdl.handle.net/10107/1284625"/>
                         </bibl>
                         <bibl>
                             <abbr>Munk Olsen, Catalogue 1</abbr>, pp. 404-5, 525.</bibl>
@@ -246,7 +246,7 @@
                         <msItem>
                             <locus from="5r">5r</locus>
                             <decoNote>Unfinished drawings of the two hemispheres with the constellations this time the two circles are joined not at the side like in the previous drawing on f. 3v-4r, but are positioned so that the upper circle has its south pole up and north pole down, while the lower circle its north pole up and south down.</decoNote>
-                            <note>Around the drawings short texts almost illegible<quote>Sub pedibus nostris <unclear>antarcticus iste iacebis</unclear>
+                            <note>Around the drawings short texts almost illegible <quote>Sub pedibus nostris <unclear>antarcticus iste iacebis</unclear>
                                     <gap reason="illegible"/> Circulus hic nostris iugit subiectus <unclear>ocellis</unclear>. Contrariet et <gap reason="illegible"/> et gentes frigora uentos.</quote>
                             </note>
                         </msItem>

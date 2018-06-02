@@ -28,7 +28,7 @@
     <work xml:id="abbo_denique_luna">
         <author ref="#abbo">Abbo of Fleury</author>
         <title>Untitled</title>
-        <incipit>Denique luna totius zodiaci signa puncta partes studiooso lectori manifestabit</incipit>
+        <incipit>Denique luna totius zodiaci signa puncta partes studioso lectori manifestabit</incipit>
         <explicit>similiter de reliquis.</explicit>
         <bibl>Thomson, Ron B. “Two Astronomical Tractates of Abbo of Fleury.” <title level="m">In The Light of Nature. Essays in the History and Philosophy of Science Presented to A.C. Crombie</title>, edited by J.D. North and J.J. Roche, 113–33. Dordrecht: Springer, 1985.</bibl>
     </work>
@@ -792,6 +792,11 @@
         <note>Excerpt from Pliny's <title>Historia naturalis</title>, Lib. XVIII, ch. 220-25, 275-77.</note>
         <bibl>
          <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1443">pp. 1443-</ref>.</bibl>
+    </work>
+    <work xml:id="preceptum">
+        <author ref="#ptolemeus">Ptolemy</author>
+        <title>Preceptum canonis Ptolomei</title>
+        <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts<ptr target="http://ptolemaeus.badw.de/ms/289"/>.</bibl>
     </work>
     <work xml:id="ral">
         <title>Revised Aratus Latinus</title>
