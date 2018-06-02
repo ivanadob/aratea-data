@@ -39,19 +39,18 @@
             <msDesc xml:id="klosterneuburg_685" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Klosterneuburg</settlement>
+                    <institution>Augustiner-Chorherrenstift</institution>
                     <repository>Stiftsbibliothek</repository>
-                    <collection/>
-                    <idno>685</idno>
+                    <idno>Cod. 685</idno>
                 </msIdentifier>
                 <head>
                     <title>Bede works on nature</title>
-                    <note type="caption"/>
-                    <origPlace ref="#corvey"/>
-                    <origDate notBefore="1201" notAfter="1250">s. XIII<hi rend="sup">1</hi>
+                    <origPlace ref="#klosterneuburg">Klosterneuburg (?)</origPlace>
+                    <origDate notBefore="1186" notAfter="1225">s. XII<hi rend="sup">4/4</hi>s. XIII<hi rend="sup">1/4</hi>
                     </origDate>
                 </head>
                 <msContents>
-                    <textLang mainLang="lat" otherLangs=""/>
+                    <textLang mainLang="lat"/>
                     <msItem>
                         <locus from="1v" to="8v">1v-8v</locus>
                         <author ref="#bede">Bede</author>
@@ -80,7 +79,6 @@
                             <locus from="15v">15v</locus>
                             <rubric>Incipit liber de temporibus. De computo uel loquela digitorum.</rubric>
                             <incipit>De temporum ratione domino adiuuante dicturi necessarium</incipit>
-                            <incipit/>
                         </msItem>
                     </msItem>
                     <msItem>
@@ -102,7 +100,7 @@
                                 </p>
                             </support>
                             <extent>
-                                <measure type="leavesCount"> </measure>
+                                <measure type="leavesCount">II + 88 fols. + I</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height/>
                                     <width/>
@@ -124,7 +122,7 @@
                     </objectDesc>
                     <scriptDesc>
                         <summary/>
-                        <scriptNote script="carolmin">
+                        <scriptNote script="carolgot">
                             <p/>
                         </scriptNote>                     
                     </scriptDesc>                                      

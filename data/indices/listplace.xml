@@ -37,6 +37,9 @@
                         <tei:geo>51.21989 4.40346</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="auch">
+                    <placeName ref="http://www.geonames.org/3036281">Auch</placeName>
+                </place>
                 <place xml:id="austria">
                     <placeName ref="http://www.geonames.org/2782113">Austria</placeName>
                 </place>
@@ -100,6 +103,9 @@
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <tei:geo>51.05 3.71667</tei:geo>
                     </tei:location>
+                </place>
+                <place xml:id="klosterneuburg">
+                    <placeName ref="http://www.geonames.org/2773913">Klosterneuburg</placeName>
                 </place>
                 <place xml:id="kues">
                     <placeName ref="http://www.geonames.org/2949998">Kues</placeName>

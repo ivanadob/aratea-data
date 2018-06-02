@@ -24,6 +24,9 @@
             <org xml:id="corvey">
                <orgName xml:id="gnd_2071959-0" ref="http://www.geonames.org/10942877">Corvey Abbey</orgName>
             </org>
+            <org xml:id="klosterneuburg">
+               <orgName xml:id="gnd_2078067-9" ref="http://www.geonames.org/2773913">Klosterneuburg Monastery</orgName>
+            </org>
             <org xml:id="melk">
                <orgName xml:id="gnd_82463-X" ref="http://www.geonames.org/2771682/">Abbey Melk</orgName>
             </org>
@@ -43,6 +46,9 @@
             </org>
             <org xml:id="st_lambrecht">
                <orgName xml:id="gnd_037112-5" ref="http://d-nb.info/gnd/5037112-5">Abbey St. Lambrecht</orgName>
+            </org>
+            <org xml:id="st_oriens_auch">
+               <orgName ref="http://www.geonames.org/3036281">Eglise Saint-Orens</orgName>
             </org>
             <org xml:id="hyde_abbey">
                <orgName xml:id="gnd_1092073159">Hyde Abbey</orgName>

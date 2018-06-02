@@ -62,7 +62,6 @@
                <label>MGH Gesta pontificum</label>
                <bibl>Monumenta Germaniae historica. Gesta pontificum romanorum.</bibl>
             </item>
-            <!-- <item><label>MG Scr. rer. merov.</label> -->
             <item xml:id="opac_03583188X">
                <label>PL</label>
                <bibl>Patrologia latina ed. J. P. Migne. - Paris 1844ff.<ptr type="opac" cRef="03583188X"/>
@@ -158,7 +157,8 @@
             </item>
             <item xml:id="gbv_515357618">
                <label>Borst, Schriften</label>
-               <bibl>Borst, Arno. <title>Schriften zur Komputistik im Frankenreich von 721 bis 818</title>. 3 Vols. (MGH: Quellen zur Geistesgeschichte des Mittelalters, 21, 1-3) Hannover: Hahn, 2006.</bibl>
+               <bibl>Borst, Arno. <title>Schriften zur Komputistik im Frankenreich von 721 bis 818</title>. 3 Vols. (MGH: Quellen zur Geistesgeschichte des Mittelalters, 21, 1-3) Hannover: Hahn, 2006.<ptr target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._II"/>
+                    </bibl>
             </item>
             <item xml:id="gbv_32976182X">
                <label>Borst, Reichskalender</label>
