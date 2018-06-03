@@ -27,13 +27,43 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        
-            <revisionDesc status="draft">
-				     <change when="2018-06-02">work in progress</change>
-			   </revisionDesc>
-		
+        </fileDesc>
+        <revisionDesc status="complete">
+            <change when="2018-06-03"></change>
+        </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f001r" n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f030r" n="30r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f030v" n="30v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f031r" n="31r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f031v" n="31v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f032r" n="32r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f032v" n="32v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f033r" n="33r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f035r" n="35r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f035v" n="35v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f036r" n="36r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f044v" n="44v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f048v" n="48v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f049r" n="49r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f051r" n="51r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f051v" n="51v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f052r" n="52r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f052v" n="52v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f053r" n="53r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f053v" n="53v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f054r" n="54r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f054v" n="54v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f055r" n="55r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f055v" n="55v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f073v" n="73v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f074r" n="74r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f083v" n="83v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f085v" n="85v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f086r" n="86r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_2506_f093v" n="93v"/>
+    </facsimile>
     <text>
         <body>
             <msDesc xml:id="harley_2506" xml:lang="eng">
@@ -65,7 +95,6 @@
                             <title>Verse ending of Hyginus</title>
                             <incipit>Terminat hyginus uolumen doctus moderans et</incipit>
                             <explicit>Tunc possim uisione dei g<hi rend="sup">iuari</hi> qui bene regnat.</explicit>
-                            
                         </msItem>
                     </msItem>
                     <msItem>
@@ -308,13 +337,6 @@
                                     <width>215</width>
                                 </dimensions>
                             </extent>
-                            <foliation/>
-                            <collation>
-                                <formula/>
-                            </collation>
-                            <condition>
-                                <p/>
-                            </condition>
                         </supportDesc>
                         <layoutDesc>
                             <layout columns="2" ruledLines="33">
@@ -328,32 +350,29 @@
                             <p/>
                         </scriptNote>                     
                     </scriptDesc>
-                    <bindingDesc>
-                        <binding>
-                            <p/>
-                        </binding>
-                    </bindingDesc>
                 </physDesc>
                 <history>
                     <summary/>
                     <origin>
-                        <p>The name of <rs type="person">Bern</rs> (abbot of Reichenau from 1008 to 1048, who stayed in Fleury in 994 is present in this manuscript where it replaces that of Abbo in the example where it should illustrate the gap between new moon and the sun (duodecim fratribus distet Berno a suo abbate) on fol. 31rb.
-                        </p>
+                        <p>The manuscript was written in the <origDate notBefore="0976" notAfter="1000">last quarter of the tenth century</origDate>, probably in the <rs type="corporate" ref="#fleury">Abbey of Fleury</rs>. Evidence for this hypothesis is the mentioning of a certain Berno in the text of Abbo's Sententia (f.<locus from="31r">31rb</locus>). In the example illustrating the gap between new moon and the sun: <quote>Ita intellige ac si XII fratribus distet berno a suo abbate</quote>, Berno's name replaced that of 'Abbo' from the original version. If this is <rs type="person" ref="#berno">Berno</rs>, the future abbot of Reichenau, who came to study by <rs type="person" ref="#abbo">Abbo</rs> in Fleury in <date when="0994">994</date>, this would give us a possible date of origin.</p>
+                        <p>The illustrations were made by the artist responsible also for the Ramsey Psalter (<ref type="altMs">British Library, Harley MS 2904</ref>), a volume of Gregory's Homilies on Ezekiel (<ref type="altMs">Orleans, Bibliothèque municipale, MS 175</ref>) and two Gospel books (<ref type="altMs">New York, Piermont Morgan Library, M.827</ref> and <ref type="altMs">Boulogne-sur-mer, Bibliothèque municipale, Ms 11</ref>). It is uncertain if the artist was visiting Fleury and illustrated our manuscript there or the book was brought unfinished to England. One theory suggests that it the computistical-astronomical manual was prepared by Abbo himself for his teaching in <rs type="corporate" ref="#ramsey">Ramsey</rs> in <date when="0985">985</date>. Since the connections between Fleury and England remained close, it is also possible that the manuscript was sent later over the Channel, after Abbo's return in Fleury in <date when="0987">987</date>.</p>
                     </origin>
-                    <provenance>
-                        <p/>
-                    </provenance>
-                    <acquisition>
-                        <p/>
-                    </acquisition>
                 </history>
                 <additional>
                     <listBibl>
-                        <bibl>Barbara Obrist, Les tables et figures abboniennes, p. 160.</bibl>
-                        <bibl>Moster The library of Fleury.</bibl>
+                        <head>Selected Bibliography:</head>
+                        <bibl><abbr>Saxl, Verzeichnis 3,1</abbr>, pp. 157-160.</bibl>
+                        <bibl><abbr>Borst, Schriften</abbr>. Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._243">243</ref>-244.</bibl>
+                        <bibl><abbr>Sternbilder des Mittelalters</abbr>, pp. 327-332.</bibl>
+                        <bibl>Obrist, B. "Les tables et figures abboniennes dans l'histoire de l'iconographie des recueils de comput." In Abbon de Fleury. Philosophie, science et comput autour de l'an mil. Paris, 2006, pp. 141-188, here p. 160.</bibl>
+                        <bibl>de Vyver, A. V. "Les œuvres inédites d’Abbon de Fleury." Revue Bénédictine 47 (1935): 125-169, here 142-144.</bibl>
+                        <bibl><abbr>Mostert (1989)</abbr>.</bibl>
                         <bibl>
                             <abbr>Leonardi</abbr>, pp. 73-75.</bibl>
-                        <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts, <ref target="http://ptolemaeus.badw.de/ms/289">http://ptolemaeus.badw.de/ms/289</ref>.</bibl>
+                        <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts, <ref target="http://ptolemaeus.badw.de/ms/289">ptolemaeus.badw.de/ms/289</ref>.</bibl>
+                        <bibl>Lippincott, K. <ref target="https://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Cicero-London-BL-Harley-2506-3-March-2012.pdf">Saxl Project</ref>.</bibl>
+                        <bibl>Noel, W. G. The Making of B. L. Harley Mss. 2506 and 603 (unpublished doctoral dissertation, Cambridge University, 1992).</bibl>
+                        <bibl>Holcomb, M. Pen and Parchment: Drawing in the Middle Ages. New York: Metropolitan Museum of Art, 2009, p. 67-68.</bibl>
                     </listBibl>
                 </additional>                
             </msDesc>

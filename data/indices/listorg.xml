@@ -24,6 +24,10 @@
             <org xml:id="corvey">
                <orgName xml:id="gnd_2071959-0" ref="http://www.geonames.org/10942877">Corvey Abbey</orgName>
             </org>
+            <org xml:id="fleury">
+               <orgName xml:id="gnd_1082342-6" ref="http://d-nb.info/gnd/1082342-6">Abbaye de Fleury (Saint-Benoît-sur-Loire)</orgName>
+               <orgName>Abbey of Fleury</orgName>
+            </org>
             <org xml:id="klosterneuburg">
                <orgName xml:id="gnd_2078067-9" ref="http://www.geonames.org/2773913">Klosterneuburg Monastery</orgName>
             </org>
@@ -34,6 +38,9 @@
                <orgName xml:id="gnd_4604518-1">New Minster</orgName>
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/New_Minster,_Winchester"/>
                </bibl>
+            </org>
+            <org xml:id="ramsey">
+               <orgName xml:id="gnd_801573-9" ref="http://d-nb.info/gnd/801573-9">Ramsey Abbey</orgName>
             </org>
             <org xml:id="saint-bertin">
                <orgName xml:id="gnd_1086389638" ref="http://www.geonames.org/2977845">Abbey of Saint-Omer-Saint-Bertin</orgName>
