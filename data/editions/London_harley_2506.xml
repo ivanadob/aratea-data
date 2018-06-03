@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -29,7 +30,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="complete">
-            <change when="2018-06-03"></change>
+            <change when="2018-06-03"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -117,7 +118,8 @@
                         <title ref="#abbo_denique_luna">Untitled</title>
                         <incipit>Denique luna totius zodiaci signa partes studioso lectori manifestabit</incipit>
                         <explicit>similiter de reliquis.</explicit>
-                        <decoNote><locus from="31v">31v</locus> diagram of the motion of the moon and its phases.</decoNote>
+                        <decoNote>
+                            <locus from="31v">31v</locus> diagram of the motion of the moon and its phases.</decoNote>
                     </msItem>
                     <msItem>
                         <locus from="32v">32v</locus>
@@ -164,21 +166,21 @@
                     </msItem>
                     <msItem>
                         <locus from="49r">49ra</locus>
-                        <title></title>
+                        <title/>
                         <rubric>De concordia solaris cursus et lunaris</rubric>
                         <incipit>Nouem horis in luna pro quinque diebus in sole</incipit>
                         <explicit>cum V diebus solaribus concordare.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="49r">49ra-b</locus>
-                        <title></title>
+                        <title/>
                         <rubric>Item de eadem ratione</rubric>
                         <incipit>Luna lucere dodrantis semuncias dicitur</incipit>
                         <explicit>IIII horas lucet luna V.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="49r">49rb</locus>
-                        <title></title>
+                        <title/>
                         <rubric>De concordia maris et lunae</rubric>
                         <incipit>Unius semper horae dodrante et semuntia transmissa</incipit>
                         <explicit>tardius ueniret, tardiusque recederet.</explicit>
@@ -361,12 +363,16 @@
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
-                        <bibl><abbr>Saxl, Verzeichnis 3,1</abbr>, pp. 157-160.</bibl>
-                        <bibl><abbr>Borst, Schriften</abbr>. Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._243">243</ref>-244.</bibl>
-                        <bibl><abbr>Sternbilder des Mittelalters</abbr>, pp. 327-332.</bibl>
+                        <bibl>
+                            <abbr>Saxl, Verzeichnis 3,1</abbr>, pp. 157-160.</bibl>
+                        <bibl>
+                            <abbr>Borst, Schriften</abbr>. Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._243">243</ref>-244.</bibl>
+                        <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 327-332.</bibl>
                         <bibl>Obrist, B. "Les tables et figures abboniennes dans l'histoire de l'iconographie des recueils de comput." In Abbon de Fleury. Philosophie, science et comput autour de l'an mil. Paris, 2006, pp. 141-188, here p. 160.</bibl>
                         <bibl>de Vyver, A. V. "Les œuvres inédites d’Abbon de Fleury." Revue Bénédictine 47 (1935): 125-169, here 142-144.</bibl>
-                        <bibl><abbr>Mostert (1989)</abbr>.</bibl>
+                        <bibl>
+                            <abbr>Mostert (1989)</abbr>.</bibl>
                         <bibl>
                             <abbr>Leonardi</abbr>, pp. 73-75.</bibl>
                         <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts, <ref target="http://ptolemaeus.badw.de/ms/289">ptolemaeus.badw.de/ms/289</ref>.</bibl>
