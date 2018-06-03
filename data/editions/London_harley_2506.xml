@@ -162,7 +162,9 @@
                             <explicit>Anticanis <gap reason="omitted"/> eo quod contraria sit cani.</explicit>
                             <note>By Perseus placed the section about Hercules; </note>
                         </msItem>
-                        <decoNote>Illustrations of the constellations; Triangulus left as draft, faintly marked; Virgiliae, Lyra and the Planets not executed. Stars marked with red dots.</decoNote>
+                        <decoNote>Illustrations of the constellations; Triangulus left as draft, faintly marked; Virgiliae, Lyra and the Planets not executed. Stars marked with red dots. For detailed iconographical discussion see <bibl>
+                                <abbr>Sternbilder des Mittelalters</abbr>
+                            </bibl>and the entry in the Saxl Project.</decoNote>
                     </msItem>
                     <msItem>
                         <locus from="49r">49ra</locus>
@@ -376,7 +378,7 @@
                         <bibl>
                             <abbr>Leonardi</abbr>, pp. 73-75.</bibl>
                         <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts, <ref target="http://ptolemaeus.badw.de/ms/289">ptolemaeus.badw.de/ms/289</ref>.</bibl>
-                        <bibl>Lippincott, K. <ref target="https://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Cicero-London-BL-Harley-2506-3-March-2012.pdf">Saxl Project</ref>.</bibl>
+                        <bibl>Lippincott, K. <ref target="https://www.kristenlippincott.com/the-saxl-project/">Saxl Project</ref>.</bibl>
                         <bibl>Noel, W. G. The Making of B. L. Harley Mss. 2506 and 603 (unpublished doctoral dissertation, Cambridge University, 1992).</bibl>
                         <bibl>Holcomb, M. Pen and Parchment: Drawing in the Middle Ages. New York: Metropolitan Museum of Art, 2009, p. 67-68.</bibl>
                     </listBibl>

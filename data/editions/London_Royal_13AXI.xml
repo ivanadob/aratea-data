@@ -29,12 +29,54 @@
                 <p/>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc status="draft">
+        <revisionDesc status="complete">
             <change when="2018-05-28"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f001r" n="1r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f001v" n="1v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f012v" n="12v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f013r" n="13r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f014r" n="14r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f014v" n="14v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f013v" n="13v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f022r" n="22r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f024r" n="24r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f028r" n="28r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f029v" n="29v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f030v" n="30v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f031v" n="31v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f032r" n="32r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f032v" n="32v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f033v" n="33v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f104r" n="104r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f105r" n="105r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f112v" n="112v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f113r" n="113r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f114r" n="114r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f114v" n="114v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f115v" n="115v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f118r" n="118r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f118v" n="118v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f119v" n="119v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f120r" n="120r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f122v" n="122v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f125r" n="125r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f126v" n="126v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f127r" n="127r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f132r" n="132r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f132v" n="132v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f139v" n="139v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f140v" n="140v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f141v" n="141v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f143r" n="143r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f145r" n="145r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f145v" n="145v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f146r" n="146r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f148v" n="148v"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f149r" n="149r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_13_a_xi_f149v" n="149v"/>
     </facsimile>
     <text>
         <body>
@@ -44,16 +86,14 @@
                     <repository>British Library</repository>
                     <collection>Royal</collection>
                     <idno>13 A XI</idno>
-                    <altIdentifier type="other">
-                        <idno/>
-                    </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title>Miscellany works on Computus and astrology</title>
-                    <note type="caption"/>
-                    <origPlace ref="#"/>
-                    <origDate notBefore="1051" notAfter="1200">s.XI<hi rend="sup">2</hi>-XII</origDate>
-                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">www.bl.uk.</ref>
+                    <origPlace ref="#n_france">N. France</origPlace> or <origPlace ref="#ramsey">Ramsey Abbey(?)</origPlace>
+                    <origDate notBefore="1051" notAfter="1200">s.XI<hi rend="sup">ex</hi>-XII<hi rend="sup">in</hi>
+                    </origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">www.bl.uk.</ref>
+                    </note>
                 </head>
             <msContents>
                 <msItem>
@@ -300,8 +340,8 @@
                   <supportDesc material="perg">
                           <support>
                               <p>
-                                    <material>Parchment</material>
-                                </p>
+                                  <material>Parchment</material>
+                              </p>
                           </support>
                           <extent>
                               <measure type="leavesCount" quantity="157">iiii + 150 + iii fols.</measure>
@@ -310,13 +350,6 @@
                                   <width>150</width>
                               </dimensions>
                           </extent>
-                          <foliation/>
-                          <collation>
-                                <formula/>
-                            </collation>
-                          <condition>
-                              <p/>
-                          </condition>
                   </supportDesc>
                    <layoutDesc>
                      <layout columns="1" writtenLines="28 41">(41 written lines on ff. 1-10, 21 on ff. 11-)
@@ -328,34 +361,31 @@
                   </layoutDesc>
                </objectDesc>
                 <decoDesc>
-                    <decoNote type="initial">Nine large initials in green, red and yellow colours with zoomorphic motifs (ff. 1r, 1v, 14v, 22r, 30v, 32v, 104r, 105r, 120r).</decoNote>
+                    <decoNote type="initial">Nine large initials in green, red and yellow colours with zoomorphic motifs (ff. <locus from="1r">1r</locus>, <locus from="1v">1v</locus>, <locus from="14v">14v</locus>, <locus from="22r">22r</locus>, <locus from="30v">30v</locus>, <locus from="32v">32v</locus>, <locus from="104r">104r</locus>, <locus from="105r">105r</locus>, <locus from="120r">120r</locus>).</decoNote>
                     <decoNote type="illustration">44 drawings of the constellations in braun and red ink(<locus from="105r" to="112v">105r-112v</locus>). The drawings had been made before the text was copied. They are placed on the side of the text-body, usually in the inner half of the page. The figures of the constellations have circles partly matching the place where according to the text stars are. It is possible that the artist misunderstood the model manuscript and mistook the star marking for clothes decoration.</decoNote>
-                    <decoNote type="diagram">One explanatory drawing of methods of calculation of the Computus (f. 33v). Ten diagrams and tables in brown and red ink (ff. 14r, 29v, 114v, 118r, 123r, 127v, 143v, 144r, 144v, 145v). Line-filler in red and/or green. Marginal drawings in ink of dragons, some attached to glosses (ff. 5v, 8r, 9r, 9v, 10v, 15v, 16r, 23v, 24v, 26v, 117v), of the moon and sun (f. 55v), the island Thule (f. 61v), human, animals heads and zodiac signs (ff. 14r, 36r, 43r, 43v, 47r, 49v, 59v, 72v, 81v, 107v, 110r, 111r, 112r, 112v), and initials (e.g., ff. 66v, 69v, 79v). Glosses in green and red frames (e.g., f. 39v) </decoNote>
+                    <decoNote type="diagram">One explanatory drawing of methods of calculation of the Computus (f. <locus from="33v">33v</locus>). Ten diagrams and tables in brown and red ink (ff. <locus from="14r">14r</locus>, <locus from="29v">29v</locus>, <locus from="114v">114v</locus>, <locus from="118r">118r</locus>, <locus from="123r">123r</locus>, <locus from="127v">127v</locus>, <locus from="143v">143v</locus>, <locus from="144r">144r</locus>, <locus from="144v">144v</locus>, <locus from="145v">145v</locus>).</decoNote>
                 </decoDesc>
             </physDesc>
             <history>
-               <origin>Northern or central France.</origin>
-                <provenance>Added leaf (trimmed) containing a fragment of a register of letters [Close Roll ?] of Edward I (b. 1239, d. 1307), king of England and lord of Ireland, and duke of Aquitaine, for March 1301 beginning on the verso and including: letters to the sheriffs of Oxford and Worcester concerning provisions for the royal household for the king's coming to Woodstock [and Evesham], written at Medborne, 8 March; a letter to the bishop of Lincoln, repeating a former request sent by Hue de Val-Laumosnier, signed at Ockham, 8 March; a letter to John de Tingewyke, keeper of Whittlewood forest, written at Medborne, 9 March; a letter to Gautier de Beauchamp, 'seneschal', perhaps to be identified with Guy de Beauchamp, 10th earl of Warwick (b. c. 1272, d. 1315), written at Harrington, 9 March; a letter to the 'Official deuerwike' [York], in favour of his chaplain Gilbert de Grim[esby] recommending him for the 'chancerye a Bercleye' resigned by William de Hameltone [date cut away]; a letter asking to prepare a manor of Woodstock for the king, signed on Friday, 17 March; a letter to Alice [widow of John] de Montfort concerning her case against the executors of William de Beauchamp, 9th earl of Warwick (b. 1238, d. 1298), written at Northampton, 10 March; a letter to the sheriff of Leicester concerning payments for goods supplied for the royal household, written at Northampton, 10 March; a letter to Edward his son, requesting him to give the church of Bangor in the diocese of Chester, vacant by the death of [Da]vid de la Poele, to William de la Poele, written at Northampton, 10 March; a letter to all sheriffs, etc., in favour of Wautier (Walter) de Canterbury, 'vadlet de nostre botillerie', ordered to procure wine and beer for the royal household [date excised], 14th century (ff. 150r-150v).Inscribed 'Ja. Bonin', 14th century (f. 145v).Inscribed 'De libris J. de Longolio', 15th century (f. 149v).Presented to the British Museum by George II in 1757 as part of the Old Royal Library.</provenance>
+                <origin>The manuscripts was written either in <rs type="corporate" ref="#ramsey">Ramsey Abbey</rs> or in <rs type="place" ref="#n_france">Northern France</rs> in end of the eleventh or beginning of the twelfth century.</origin>
+                <provenance>On the later hisstory and acquisition of the manuscript see the <ref target="https://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=7458&amp;CollID=16&amp;NStart=130111">catalogue of illuminated manuscripts </ref>.</provenance>
             </history>
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                   <bibl>George F. Warner and Julius P. Gilson, Catalogue of Western Manuscripts in the Old Royal and King’s Collections, 4 vols (London: British Museum, 1921), II, pp. 80-81.</bibl>
-                       <bibl>A. van de Vyver, 'Les oeuvres inédites d'Abbon de Fleury', Revue Bénédictine, 2 (1937), 125-69 (p. 145).</bibl>
-                       <bibl>Charles W. Jones, 'Manuscripts of Bede's De natura rerum', Isis, 127 (1937), 430-40 (p. 433).</bibl>
-                       <bibl>Charles W. Jones, Bedae opera de temporibus, Mediaval Academy of America Publication, 41 (Cambridge Mass., 1943), p. 153.</bibl>
-                       <bibl>Fritz Saxl and Hans Meier, Catalogue of Astrological and Mythological Illuminated Manuscripts of the Latin Middle Ages, 4 vols (London: The Warburg Institute, 1953), III: Manuscripts in English Libraries, pp. 197-98, figs. 159, 174.</bibl>
-                       <bibl>H. Bober, 'An Illustrated Medieval School Book of Bede's De Natura Rerum', Journal of the Walter Art Gallery, 19-20 (1956-57), 64-97 (p. 77).</bibl>
-                       <bibl>Patrick McGurk, 'Computus Helperici: Its Transmission in England in the Eleventh and Twelfth Centuries', Medium Aevum, 43 (1974), 1-4 (p. 2).</bibl>
-                       <bibl>John E. Murdoch, Album of Science: Antiquity and the Middle Ages, ed. by I. B. Cohen (New York: Scribner's Sons, 1984), no. 249.</bibl>
-                      <bibl> Ron B. Thomson, 'Two Astronomical Tractates of Abbo of Fleury' in The Light of Nature. Essays in the History and Philosophy of Science presented to A. C. Crombie, ed. by J. D. North and J. J. Roche (Dordrecht: Martinus Nijhoff Publishers, 1985), pp. 113-34.</bibl>
-                       <bibl>Helmut Gneuss, Handlist of Anglo-Saxon Manuscripts: A List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100, Medieval and Renaissance Texts and Studies, 241 (Tempe: Arizona Center for Medieval and Renaissance Studies, 2001), no. 483.</bibl>
-                       <bibl>Rembrandt Dutis, 'Celestial Transmissions: An Iconographical Classification of Constellation Cycles in Manuscripts (8th-15th Centuries)', in Scriptorium: Revue internationale des études relative aux manuscrits, 59 (2005), 147-202 (pp. 162, n. 85, 192, pls 40d-e).</bibl>
-                       <bibl>Roy Michael Liuzza, 'The Sphere of Life and Death: Time, Medicine and the Visual Imagination', in Latin Learning and English Lore, II: Studies in Anglo-Saxon Literature for Michael Lapidge, ed. by Katherine O'Brien O'Keeffe and Andy Orchard, Toronto Oldby English Series, 14 (Toronto: University of Toronto Press, 2005), 28-52, pp, 30, 34-35, 38-42, 48n.</bibl>
-                       <bibl>L. S. Chardonnens, Anglo-Saxon Prognostics 900-1100: Study and Texts (Boston: Brill, 2007), pp. 272, 547.</bibl>
-                       <bibl>Roy Michael Liuzza, Anglo-Saxon Prognostics: An Edition and Translation of Texts from London, British Library, MS Cotton Tiberius A.iii (Cambridge: D. S. Brewer, 2011), p. 73.</bibl>
+                   <bibl>
+                       <abbr>Borst, Schriften</abbr>. Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._245">245</ref>-246.</bibl>
                    <bibl>
                             <abbr>Sternbilder des Mittelalters</abbr>, pp. 333-339.</bibl>
+                   <bibl>Lippincott, K. <ref target="https://www.kristenlippincott.com/the-saxl-project/">Saxl Project</ref>.</bibl>
+                   <bibl>de Vyver, A. V. "Les œuvres inédites d’Abbon de Fleury." Revue Bénédictine 47 (1935): 125-169, here 145.</bibl>
+                   <bibl>
+                       <abbr>Saxl, Verzeichnis 3,1</abbr>, pp. 197-98-</bibl>
+                       <bibl>Gneuss, H. Handlist of Anglo-Saxon Manuscripts: A List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100. Tempe: Arizona Center for Medieval and Renaissance Studies, 2001, no. 483.</bibl>
+                       <bibl>Dutis, R. 'Celestial Transmissions: An Iconographical Classification of Constellation Cycles in Manuscripts (8th-15th Centuries).' Scriptorium 59 (2005): 147-202 (pp. 162, n. 85, 192, pls 40d-e).</bibl>
+                       <bibl>Liuzza, R. L. 'The Sphere of Life and Death: Time, Medicine and the Visual Imagination.' In Latin Learning and English Lore, II: Studies in Anglo-Saxon Literature for Michael Lapidge. Ed. by Katherine O'Brien O'Keeffe and Andy Orchard. Toronto: University of Toronto Press, 2005, pp. 28-52, here pp, 30, 34-35, 38-42, 48n.</bibl>
+                       <bibl>Chardonnens, L. Anglo-Saxon Prognostics 900-1100: Study and Texts. Boston: Brill, 2007, pp. 272, 547.</bibl>
+                       <bibl>Liuzza, R. L. Anglo-Saxon Prognostics: An Edition and Translation of Texts from London, British Library, MS Cotton Tiberius A.iii. Cambridge: D. S. Brewer, 2011, p. 73.</bibl>                   
                   </listBibl>
             </additional>
          </msDesc>
