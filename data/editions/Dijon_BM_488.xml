@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Dijon, Bibliothèque municipale, Ms 488</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-06">paste word document</change>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Dijon</settlement>
+               <repository>Bibliothèque municipale</repository>
+               <idno>MS 488</idno>
+            </msIdentifier>
+            <head>
+               <title>Astronomical-computistical compilation</title>
+               <origDate notBefore="1001" notAfter="1062">before 1062</origDate>
+               <origPlace>Abbaye Saint-Pierre et Saint-Paul de Bèze (Côte-d'Or)</origPlace>
+               <note type="facs">
+                        <ref target="http://patrimoine.bm-dijon.fr/pleade/ead.html?c=FR212316101_saintbenigne_D11011086">Bibliothèque municipale de Dijon</ref>
+                    </note>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus/>
+                  <title/>
+               </msItem>
+               <!--               Fol 1 - "Unciarum divisio", et "Ponderum vocaubla" 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 1v - Note astrologique relative a l'annee 1187. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 2 "Argumentum unde oriatur Embolismus." - Au bas, de premer main: "Anno quod est ab incarnatione Domini M LXII, impleti sunt anni a passione sancti Benigni DCCCXLV." 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol 2v - "Cyclus annalis." -  
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+fol 5."Argumentum ad regulares" 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 29 "Sententia sancti Augustini et Isidori in laude compoti. Augustinus de quattuor divisionibus... - ... recedendo videtur. Explicit." 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 37v Liber isidori, Ispaniensis episcopi, de diebus. Dum te prestantem ingenio... - ... aestimaverunt. C'est le De natura rerum 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 48 Annus magnus ab incarnatione Christi primus - Annales de Saint-Benigne, en marge, publiees par Pertz, Monumenta, SS., V, 38-48; cf. Archiv, VII, 447. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 63-64 Figures astronomiques - Fol. 64 Zodiaque - Fol 65 Cobstallations figuree, extraits d'Hygin. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 71v - Excerptio Arati de astrologia. Duo sunt extremi vertices mundi...; suivent d'autres figures astronomiques et (fol. 76) une mappemonde (0,17 m de diametre) - Puis d'autres tableaux: 
+
+Horologium Hieronimi de concordia mensiorum; - different small texts et figures/ diagrams for computus, among which also a diagrame of the winds (fol. 80): 
+
+Compotus hic alfabeto confectus habetur, 
+
+Currens non junctis rite caracteribus. 
+
+  
+
+Fol. 80v - Cycles divers, with excerpts from Bede. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 82v - une ligne droite, tracee a l'encre, de 116 mm de long, au-dessous, on lit: hec linea sedecies ducta longitudinem Dominici corporis ostendit, sumpta a Constantinopoli, ex aurea cruce ad longitudinem Dominici corporis facta. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 88 Calendrier with egyption days. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 93 Croix formee de lettres 
+
+SATOR 
+
+AREPO 
+
+TENET 
+
+OPERA  
+
+ROTAS 
+
+ 
+
+Fol. 94 - Helperic de Granfel. Ars calculatoria. "Prologus. Cum quibusdam e fratribus nostris..." table with 37 chapters. "Liber calculatoriae artis Alperici, nobilissimi calculatoris. Annus solaris ut majorum.... - .... facilius assequantur. Excipit" 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 107v Figura cornutationis apparens (sic) in facie Maysi. Ibid. Carmen ad maculam oculi 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 108 Liber de temporibus Bedae presbiteri. De natura rerum et ratione... (Table with 72 chapters); De computo vel loquela digitorum. De temporum ratione... - ... ad occidentem extenditur. Explicit primus." 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 176 v - "Incipit liber minor Bedae de temporibus" (22 chapters) "Tempora momentis, horis, diebus... - ... IV non. maii, Constantinus filius." 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 181 - "Ad febres carmen" 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 181v "Nomen Domini tetragrammaton in quibusdam grecis voluminibus..." with figures and at the bottom "Haec sun omnipotentis Dei nomina quibus ebraice, grece et latine nuncupatur." 
+
+Ibid. Argumentum ad inveniendam XIIII lunam paschalem 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 182v - Hi sunt pontifices sanctae Romanae ecclesiae sedis apostolicae (till XCVII adrianus sedit ann. XXIII, mens X dies XVII) addition from a mdoern hand - Leo, Stephanus... Sergius, Leo 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 184 - Haec sumpta sunt de tractatu Peregrini, Anathema, id est exclusus, separatus, segregatus..." - followed by different excerpts from Bede related to computus, among which on fol. 187 - De mensuris in liquidis - Item de mensuris - De ponderibus 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 188v - Versus Dionisii de annis Domini nostri J. C. 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 189v - De notis antiquioribus quae notant numeros antiquorum Latinorum - numerus Grecorum 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 191 - De Egyptiacis diebus - De digitis - De nominibus  
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 193 - Versus de singulis mensibus 
+
+Primus Romanas ordinis, Jane, kalendas... 
+
+Fol. 193v Versus de anno et mensibus 
+
+Bissena mensis vergine volvitur annus 
+
+..... 
+
+Nunc tibi cum Domino ludere verna licent 
+
+ 
+
+Fol. 194 Ymnus Bede presbiteri de ratione temporum, per rithmum 
+
+Annus solis continetur IIIIor temporibus... 
+
+After that comes the end of the first book of bede, which was interrupted before on fol. 176v, this time all the way till chapter 72, ending "... Accipere palmam. Explicit" 
+
+ 
+
+Fol. 201 Incipiunt duo libelli de natura rerum et ratione temporum Bede presbuteri, Naturas rerum... Operation divina... - Incomplete at the end. 
+
+ 
+
+Fol. 206v Argumentum ad XL inveniendam per epactam 
+
+Incipit: 
+
+Explicit: 
+
+ 
+
+Fol. 207 - list with years from 1064 - 1215 with notes chronological in the margin.  
+
+ 
+
+Fol. 210 Treatise on the roman calendar - inc. Quis invenit primus menses apud latinos? - Respond. Romani, auctore Romulo..." 
+
+ 
+
+Fo. 211 - Chronologie fabuleuse des rois de France (XIIe siecle) with a nore "A XVII anno Chilperici usque in presentem sunt transacti anni CCCCLXXVII." -->
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="211">211 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>280</height>
+                           <width>182</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl/>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

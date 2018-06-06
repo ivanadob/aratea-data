@@ -48,7 +48,8 @@
                     <origPlace>Southern Germany</origPlace>
                     <origDate notBefore="1001" notAfter="1050"> s. XI<hi rend="sup">1</hi>
                     </origDate> 
-                    Digital facsimile at <ref target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Harry Ranson Humanities Research Center</ref>                    
+                    <note type="facs">Digital facsimile at <ref target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Harry Ranson Humanities Research Center</ref>
+                    </note>                    
                 </head>
                 <msContents>
                     <msItem>
@@ -78,6 +79,7 @@
                                 <note>Glosses:</note>
                                 <incipit>Locus huius artis hurimuda uel exalrasse uel girum. Persona bridualt uel beda</incipit>
                                 <explicit>A septentrionibus triones uel teriones grece boues dicuntur eo quod vii<hi rend="sup">tem</hi> stellae in plaustro videntur septentrio dicitur.</explicit>
+                                <quote>(<locus from="6r">6r</locus> On the name of the zodiacal signs:) Annales docuntur libri in quibus hystorię describuntur. distat autem inter hystorias et annales; hystorie sunt earum rerum quas uidimus uel uidere potuimus; dictę apo tu hestorin. B. Ammonem iouem id est arenarium qui in arenis apparuit secundum alios hic est frixi aries cui insidens trans mare uectus est. C. Castor et pollux fratres elenę fuerunt fortissimi et sicut illi potentes fuerunt ita et <unclear>ec terra</unclear> eo mense confortata producit seminum folia et fructum siue quod eo mense plurimum bella fiant que grece diostori docuntur uel didimi.D. Cancer si in anterioribus tangatur retro agitur et si retro agitur ad anteriora dirigitur secundum fabula. E. Sicut enim omnia animalia leo conterit et uincit ita sol mense iulio cuncta excoquit et exsiccando maturescere facit; grece autem leon dicitur. F. Signa autem dicuntur secundum fabulas aut secundum naturam; aut secundum fabulas et naturam. Secundum fabulas ut aries mense martio taurus aprili designatur; secundum natural ut libra septembri, pisces februario esse dicuntur. Secundum fabulas et naturam ut sunt scorpius et sagittarius mense octobri et nouembri. G. Scorpius a posterioribus percutit et sagittarius cum spiculo pingitur; et quia in italia mense octobri et novembri crebra fiunt fulmina hisdem mensibus dantur. Sagittarius ipse est centaurus chiron filius saturni et filirę. Saturni concumbebat cum filira uolens quod latere aduentum opis uxoris suę aduenientis conuertit se in equm de quo natus est centaurus semi homo et semi equs. H. Aquarius dicitur ganimedes qui est pincerna deorum et in eius manibus aquam fundit unde et urnam tenet grece ydrocoos dicitur. K. Pisces grece UΘY dicuntur unde hoc signum UΘYNωC dicitur et ictiofagi populi crudis piscibus <unclear>tantes</unclear>.</quote>
                             </msItem>
                         </msItem>
                     </msItem>
@@ -85,7 +87,7 @@
                         <locus from="12v" to="25r">12v-25r</locus>
                         <author ref="#calcidius">Calcidius</author>
                         <title ref="#commentary_calcidius">Translation of Plato's Timeus</title>
-                        <rubric>Incipit timevs Platonis</rubric>
+                        <rubric>Incipit timeus Platonis</rubric>
                         <incipit>Socrates in exhortationibus suius uirtutem laudans</incipit>
                         <explicit>exaequatae nature temporis sotia natura nancisceretur imaginem.</explicit>
                     </msItem>
@@ -107,13 +109,13 @@
                         <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                         <incipit>
                             <supplied>E</supplied>st quidem hic ordo et positio siderum quae fixa caelo</incipit>
-                        <decoNote>Drawings of the constellations around and within the text. (The images seem to have been drawn before the text was written). The stars are marked with red dots but only on<locus from="27r" to="27v">f. 27r-v</locus>. Blank space left for initials at the beginning of sections.</decoNote>
+                        <decoNote>Drawings of the constellations around and within the text. (The images seem to have been drawn before the text was written). The stars are marked with red dots but only on <locus from="27r" to="27v">f. 27r-v</locus>. The rest of the rubrication, incl. initials at the beginning of sections, left unfinished.</decoNote>
                     </msItem>
                     <msItem>
                         <locus from="31v">31v</locus>
                         <author ref="#priscianus">Ps. Priscianus</author>
                         <title ref="#ad_boreae">Ad boreae partes</title>
-                        <note>With musical notation above the letters.</note>
+                        <note>With interlinear neumes.</note>
                     </msItem>
                     <msItem>
                         <locus from="32r" to="100v">32r-100v</locus>
@@ -134,15 +136,14 @@
                         <note>On the Roman rank system</note>
                         <incipit>Decanus sub centurione Sub tribune centurio</incipit>
                         <explicit>et super quem unum annum donat ne elation subripiat</explicit>
-                        <filiation>This just few lines long text follows Jerom’s letter also in<ref type="altMs">Florence MS Laurentiana Plut. XXIX Cod. 32</ref> from the 9th-10th c</filiation>
+                        <filiation>This short text follows Jerom’s letter also in <ref type="altMs">Florence MS Laurentiana Plut. XXIX Cod. 32</ref> (from the 9th-10th c.).</filiation>
                       </msItem>
                     <msItem>
                         <locus from="102r" to="103v">102r-103v</locus>
                         <author ref="#berno">Berno of Reichenau</author>
                         <title>Ratio generalis de initio adventus domini</title>
                         <incipit>Sciendum sane est et omnibus orthodoxis fidelibus memoriter retinendum</incipit>
-                        <explicit>unum batisma sit et una ęcclesię unanimitas. AMEN</explicit>
-                        <titlePart/>
+                        <explicit>unum batisma sit et una ęcclesię unanimitas. AMEN.</explicit>
                     </msItem>
                 </msContents>
                 <physDesc>
@@ -176,11 +177,11 @@
                     <additions/>
                     <bindingDesc>
                         <binding>
-                            <p>Binding with four bosses and a strap-and-pin mechanism with the pin on the upper board.</p>
+                            <p>Gothic binding with four bosses and a strap-and-pin mechanism with the pin on the upper board.</p>
                         </binding>
                     </bindingDesc>
                     <accMat type="fragment">
-                        <p>Paper sheet from the 15th c. content notebound in the MS between<locus from="1v" to="2r">first and second folio</locus>.</p>
+                        <p>Paper sheet from the 15th c. content notebound in the MS between <locus from="1v" to="2r">first and second folio</locus>.</p>
                     <p>Paste down<date notBefore="1200" notAfter="1300">13th c.</date> hymns attributed to Ambrose <quote>Hinc roma celsum uerticem<gap/>
                             </quote> and others.</p>
                         <p>
@@ -192,26 +193,21 @@
                 </physDesc>
                 <history>
                     <origin>
-                        <origDate notBefore="1001" notAfter="1050">XI<hi rend="sup">1</hi>
-                        </origDate>
-                        <origPlace>
-                            <geogName>Southern Germany</geogName>
-                         </origPlace>                        
+                        <p>The manuscript is supposed to be copied <origDate notBefore="1001" notAfter="1050">s. XI<hi rend="sup">1</hi>
+                    </origDate> in part by <rs type="person" ref="#ellinger">Abbot Ellinger</rs> (975/980-1056) of <rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> (<origPlace ref="#s_germany">Southern Germany</origPlace>). See note on <locus from="103v">fol. 103v</locus>: <quote>Abbas indignus ego Ellinger peccator istam glosam scripsi dum essem in Altahensi monasterio deo sanctoque quirino. Rogo uos omnes in ea legentes ut oretis pro me.</quote>. The note is an indication that he copied <title>De verborum significatione</title> and the following shorter texts, and not necessarily the whole manuscript.</p>
                     </origin>
                     <provenance>
-                        <p>The manuscript is supposed to be copied in part by<rs type="person" ref="#ellinger">Abbot Ellinger</rs> of <rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> (975/980-1056), as it is stated in a note on <locus from="103v">fol. 103v</locus> 
-                     <quote>Abbas indignus ego Ellinger peccator istam glosam scripsi dum essem in Altahensi monasterio deo sanctoque quirino. Rogo uos omnes in ea legentes ut oretis pro me.</quote> which however is an indication only that he copied <title>De verborum significatione</title> and the following shorter texts, and not necessarily the whole manuscript.</p>
                         <p>It belong to the<rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> as noted on the <locus from="Ir">first flyleaf</locus> 
-                     <quote>Istud volumen<unclear>attinet</unclear> venerabili monasterio sancti Quirini in Tegernsee<gap/> H̃ Abbas Ellingerus scripsit hunc librum</quote>. Additionally there is a note from the librarian of the monastery <rs type="person">Ambrosius Schwerzenbeck</rs> on the small paper leaf <locus from="1r">fol. 1-bis</locus> from the 15th c. This together with the notes and glosses written by <rs type="person" ref="#ellinger">Abbot Ellinger</rs> suggests that the manuscript in its current composition was procured by the Abbot for the use of his community around the <origDate notBefore="1001" notAfter="1050">first half of the 11th c.</origDate> in <rs type="corporate" ref="#tegernsee_abbey">Tegernsee</rs>. The manuscript is recorded in the 15th c. catalogue among Bede's works under the title <quote>Excerptum de naturalibus hystoriis Plinii philosophi</quote> with the signature <quote>l 44</quote>.</p>
+                            <quote>Istud volumen<unclear>attinet</unclear> venerabili monasterio sancti Quirini in Tegernsee<gap/> H̃ Abbas Ellingerus scripsit hunc librum</quote>. Additionally there is a note from the librarian of the monastery <rs type="person">Ambrosius Schwerzenbeck</rs> on the small paper leaf <locus from="1r">fol. 1-bis</locus> from the 15th c. The manuscript is recorded in the 15th c. catalogue among Bede's works under the title <quote>Excerptum de naturalibus hystoriis Plinii philosophi</quote> with the signature <quote>l 44</quote>.</p>
                     </provenance>
                 </history>
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
                         <bibl>Eastwood, Bruce Stansfield. "<title>Calcidius’s Commentary on Plato’s‘Timaeus’ in Latin Astronomy of the Ninth to Eleventh Centuries</title>." In Eastwood, The Revival of Planetary Astronomy in Carolingian and Post-Carolingian Europe, 171–209, 2002. p. 173.</bibl>
-                        <bibl>Eder, Christine Elisabeth.<title>Die Schule Des Klosters Tegernsee Im Frühen Mittelalter Im Spiegel der Tegernseer Handschriften</title>.  Munich: Universität München, 1972. pp. 78-9.</bibl>
-                        <bibl>Glauche, Günter, Hermann Knaus, and Bernhard Bischoff.<title>Mittelalterliche Bibliothekskataloge Deutschlands und Der Schweiz</title>. Bd. 4, 2: Bistum Freising. München, 1979.</bibl>
-                        <bibl>Bergmann, Rolf et al.,<title>Katalog der althochdeutschen und altsächsischen Glossenhandschriften</title>, Berlin/New York 2005, Vol. 1, pp. 158-. (Nr. 18).</bibl>
+                        <bibl>Eder, Christine Elisabeth. <title>Die Schule Des Klosters Tegernsee Im Frühen Mittelalter Im Spiegel der Tegernseer Handschriften</title>.  Munich: Universität München, 1972. pp. 78-9.</bibl>
+                        <bibl>Glauche, Günter, Hermann Knaus, and Bernhard Bischoff. <title>Mittelalterliche Bibliothekskataloge Deutschlands und Der Schweiz</title>. Bd. 4, 2: Bistum Freising. München, 1979.</bibl>
+                        <bibl>Bergmann, Rolf et al., <title>Katalog der althochdeutschen und altsächsischen Glossenhandschriften</title>, Berlin/New York 2005, Vol. 1, pp. 158-. (Nr. 18).</bibl>
                     </listBibl>
                 </additional>
             </msDesc>
