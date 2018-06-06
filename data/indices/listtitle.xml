@@ -64,6 +64,7 @@
         <title>Anonymus Sangallensis</title>
         <incipit>Herodius dicit helicem licaonis fuisse filiam</incipit>
         <explicit>absides eius ultima in capricorno est.</explicit>
+        <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
     </work>
     <work xml:id="apuleian_sphere">
         <title>Apuleian sphere</title>
@@ -302,7 +303,7 @@
         <title>De astronomia more christiano</title>
         <incipit>Hae fisicae partes quae astronomia et astrologia dicuntur, dum deest mathematica</incipit>
         <explicit>de ceteris astronomicis conscribere signis.</explicit>
-        <bibl/>
+        <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
     </work>
     <work xml:id="de_computo">
         <author ref="#hrabanus">Hrabanus Maurus</author>
