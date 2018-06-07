@@ -132,7 +132,8 @@
                     <origPlace ref="#reims">North-east France, Reims (?)</origPlace>
                     <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
                     </origDate>
-                    Digital facsimile as part of the project <ref target="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html">Kaiser-Heinrich-Bibliothek</ref>
+                    <note type="facs">Digital facsimile as part of the project <ref target="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html">Kaiser-Heinrich-Bibliothek</ref>
+                    </note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -223,7 +224,7 @@
                             <finalRubric rend="rustics">Explicit Anicii Manilii Seuerini Boethii liber V artis <sic>geumetriae</sic> de greco in latinum translatus ab euclide peritissimo <sic>geumetrico</sic>.</finalRubric>
                             <decoNote>Diagrams and geometrical figures.</decoNote>
                             <bibl>
-                                <note>There is no complete edition of the<title>Geometry I</title>; the partial editions are listed in </note>M. Folkerts. "Die Altercatio in der Geometrie I des Pseudo-Boethius. Ein Beitrag zur Geometrie im mittelalterlichen Quadrivium." In: <title>Fachprosa-Studien. Beiträge zur mittelalterlichen Wissenschafts- und Geistesgeschichte</title>, ed. G.Keil, 84-114 (esp. pp.88-89). Berlin: Erich Schmidt, 1982. Reprinted in Folkerts, <title>Essays on early medieval mathematics</title>, VII. Aldershot: Variorum, 2003.</bibl>
+                                <note>There is no complete edition of the <title>Geometry I</title>; the partial editions are listed in </note>M. Folkerts. "Die Altercatio in der Geometrie I des Pseudo-Boethius. Ein Beitrag zur Geometrie im mittelalterlichen Quadrivium." In: <title>Fachprosa-Studien. Beiträge zur mittelalterlichen Wissenschafts- und Geistesgeschichte</title>, ed. G.Keil, 84-114 (esp. pp.88-89). Berlin: Erich Schmidt, 1982. Reprinted in Folkerts, <title>Essays on early medieval mathematics</title>, VII. Aldershot: Variorum, 2003.</bibl>
                             <bibl>
                                 <note>See also</note>Stevens Wesley. "Marginalia in the Latin Euclid." In <title>Scientia in Margine</title>, ed. D. Jacquart and Ch. Burnett, 117-138, Geneva: Librairie Droz, 2005.</bibl>
                             <bibl>
@@ -261,7 +262,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="17v">In the outer margin of f. 17v</locus>
-                                <note>Excerpt from the<title ref="#libri_computi">Libri computi</title>, Lib. V, 11 added later by a younger hand.</note>
+                                <note>Excerpt from the <title ref="#libri_computi">Libri computi</title>, Lib. V, 11 added later by a younger hand.</note>
                                 <rubric>
                                     <supplied>D</supplied>imensio caelestium <supplied>s</supplied>patiorum secundum quosdam</rubric>
                                 <incipit>A terra ad lunam tonum<supplied>esse</supplied> pronuntiant</incipit>
@@ -289,7 +290,7 @@
                         <msItem>
                             <locus from="19v" to="21r">19v-21r</locus>
                             <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                            <note>Excerpted as part of the<title ref="#libri_computi">Libri computi</title>, Lib. V, 1.</note>
+                            <note>Excerpted as part of the <title ref="#libri_computi">Libri computi</title>, Lib. V, 1.</note>
                             <rubric>Excerptum de astrologia</rubric>
                             <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
                             <explicit>ad ipsum usque decurrit accipiens.</explicit>
@@ -305,7 +306,7 @@
                         </msItem>
                         <msItem>
                             <locus from="25r" to="29r">25r-29r</locus>
-                            <note>Excerpts from the<title ref="#libri_computi">Libri computi</title>, Lib. VI, 1-7:</note>
+                            <note>Excerpts from the <title ref="#libri_computi">Libri computi</title>, Lib. VI, 1-7:</note>
                             <msItem>
                                 <locus from="25r">25r</locus>
                                 <rubric>De ratione unciarum</rubric>
@@ -444,7 +445,7 @@
                         </msItem>
                         <msItem>
                             <locus from="39v" to="40v">39v-40v</locus>
-                            <note>Excerpt from the<title ref="#libri_computi">Libri computi</title>, Lib. IIII, 31a, 32a, 33a, and 28a:</note>
+                            <note>Excerpt from the <title ref="#libri_computi">Libri computi</title>, Lib. IIII, 31a, 32a, 33a, and 28a:</note>
                             <msItem>
                                 <locus from="39v">39v</locus>
                                 <rubric>Argumentum quot horis luna in unaquaue nocte luceat</rubric>

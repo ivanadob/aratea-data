@@ -6,7 +6,7 @@
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub"/>
+            <title type="sub">Zürich, Zentralbibliothek, Ms. C 62</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -30,8 +30,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-        <revisionDesc>
-				<change when=""/>
+        <revisionDesc status="draft">
+				<change when="2018-06-07"/>
 			</revisionDesc>
      </teiHeader>
    <text>
@@ -61,20 +61,17 @@
                      <extent>
                         <measure type="leaveCount" quantity="236">236 fols.</measure>
                         <dimensions type="leaf" unit="mm">
-                           <height/>
-                           <width/>
+                           <height>240</height>
+                           <width>192</width>
                         </dimensions>
                      </extent>
-                     <foliation/>
-                     <collation/>
-                     <condition/>
                   </supportDesc>
                   <layoutDesc>
-                     <layout columns="" ruledLines=""/>
+                     <layout columns="1" ruledLines="28 30">ff. 213v-217r written in one column, 28-30 lines per page.</layout>
                   </layoutDesc>
                </objectDesc>
                <scriptDesc>
-                  <scriptNote script=""/>
+                  <scriptNote script="carolmin"/>
                </scriptDesc>
             </physDesc>
             <history>
@@ -167,7 +164,7 @@
                         <explicit>absides eius ultima in capricorno est.</explicit>
                      </msItem>
                   <msItem>
-                     <locus from="215r" to="217r">215r-</locus>
+                     <locus from="215r" to="217r">215r-217r</locus>
                      <title ref="#de_astronomia_more_christiano">De astronomia more christiano</title>
                      <incipit>Hae fisicae partes quae astronomia et astrologia dicuntur dum deest mathematica</incipit>
                      <explicit>de ceteris astronomicis conscribere signis.</explicit>
@@ -201,6 +198,7 @@
                      </msItem>
                      <msItem>
                         <locus from="221r">221r</locus>
+                        <title ref="#bissena_mensum">Bissena mensium</title>
                         <rubric>Incipit martirologium de festiuitatibus singulorum mensium quod Beda heroico carmine composuit</rubric>
                         <incipit>Bissena mensium vertigine uoluitur annus</incipit>
                         <explicit>Siluestrem pridias celebramus ab orbe colendum.</explicit>
@@ -228,25 +226,27 @@
                            <explicit>In medio residens conplectitur omnia phoebus.</explicit>
                            <bibl>M. 19, 908</bibl>
                         </msItem>
-                     
                      <msItem>
                         <locus from="224v" to="232v">224v-232v</locus>
                         <author ref="#bede">Bede</author>
                         <title ref="#DNR">De natura rerum</title>
-                        <bibl>M. 90, 187-278</bibl>
                         <decoNote>Crude diagram of an eclipse in the margine of f.<locus from="228v">228v</locus>.</decoNote>
                      </msItem>
                      <msItem>
                         <locus from="232v" to="236r">232v-236r</locus>
-                        <title>De ratione temporum</title>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DT">De temporibus</title>
+                        <rubric>Incipit Beda de temporibus</rubric>
                         <note>[cap. I-XV]</note>
-                        <bibl>M. 277-287</bibl>
+                        <explicit>nostra quoque resurrectione nobis exoptabilis in memoriam reuocetur.</explicit>
+                        <finalRubric>Explicit liber bedae de natura rerum et de ratione temporum.</finalRubric>
                      </msItem>
                      <msItem>
-                        <locus from="236r" to="236v">(236r-236v)</locus>
-                        <incipit>
-                           De his quae a me ad humane vitae cautelam inventa sunt
-                        </incipit>
+                        <locus from="236r" to="236v">236r-236v</locus>
+                        <note>Prognostica for calculating the outcome of sickness, search for fugitive slaves, or gladiator fights according to the moon age. Similar to <title ref="#apuleian_sphere">Apuleian sphere</title>.</note>
+                        <incipit>De his quae a me ad humane vitae cautelam inventa sunt</incipit>
+                        <explicit>Ita si ambos infra orizontem esse confiterint aduersa omnia provenient.</explicit>
+                        <quote>Sume nomen uel decumbentis uel defuga lapsi uel depugnanturi uel alterius cuisulibet de quo inquiris et collige numerum eius deinde lunam considera quota fuerit ea die qua uel aeger decubuit uel fugitiuus elapsus est vel quota futura sit cum monomachus depugnaturus est et cetera huiusmodi numerumque regularem qui ei lunae asscriptus est <gap/> inspectaque figura quo in loco idem numerus sit positus inquire <gap/> quod si in eo loco fuerit ΘΑΝΑΤΟΣ ΜΕΓΑΣ inscriptus est aeger post longam infirmitatem morietur, fugitiuus diu quaesitus non inuenietur gladiator difficili tamen superabitur <gap/> ponatur exempli gratia pugna hectoris et achillis luna erat XVIII quae habet numerum regularem DCCCXCIII.</quote>
                      </msItem>
                   </msItem>
                </msContents>

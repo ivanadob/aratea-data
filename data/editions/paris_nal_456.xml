@@ -41,6 +41,25 @@
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f123.item" n="120r"/>
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f124.item" n="120v"/>
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f124.item" n="121r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f125.item" n="121v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f125.item" n="122r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f126.item" n="122v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f126.item" n="123r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f127.item" n="123v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f127.item" n="124r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f128.item" n="124v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f128.item" n="124bisr"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f129.item" n="124bisv"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f129.item" n="125r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f130.item" n="125v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f130.item" n="126r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f131.item" n="126v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f131.item" n="127r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f132.item" n="127v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f132.item" n="128r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f133.item" n="128v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f133.item" n="129r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f134.item" n="129v"/>
    </facsimile>
    <text>
       <body>
@@ -138,9 +157,14 @@
                </msItem>
                <msItem>               
                   <locus from="120v" to="121r">120v-121r</locus>
+                  <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum (redaction)</title>
                   <rubric>Incipit de ordine et situ siderum</rubric>
-                  <incipit>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis</incipit>
-                  <explicit>cauda quidem maiorem cetero circuitu minorem.</explicit>
+                  <msItem>
+                     <note>Prologue</note>
+                     <incipit>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis</incipit>
+                     <explicit>cauda quidem maiorem cetero circuitu minorem.</explicit>
+                     <quote>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis polis qui a philosophis caeli uertices uocantur; quorum unus septentrionalis est et uocatur boreas. Alter australis qui dicitur austronocius. Sed sicut borealis a nobis semper uideri potest ita australis numquam. Borealis uero polo tria haec uiciniora signa habentur: duo uidelicet arturi et serpens circum. Sed arcturus maior helice minor uero cinosura appellatur. Hos serpens </quote>
+                  </msItem>
                </msItem>
                <msItem>                  
                   <locus from="121r" to="134v">121r-134v</locus>
