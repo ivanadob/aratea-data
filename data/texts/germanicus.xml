@@ -18,6 +18,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
@@ -41,7 +42,75 @@
             <head>
                <title>Editions</title>
             </head>
-            <p/>
+            <listBibl>
+               <biblStruct type="book" xml:id="zoteroItem_HCJ9QKCM" corresp="http://zotero.org/users/1642161/items/HCJ9QKCM">
+                  <monogr>
+                     <title level="m">The Aratus ascribed to Germanicus Caesar</title>
+                     <idno type="ISBN">0-485-13708-9</idno>
+                     <idno type="callNumber">PA6121.A7</idno>
+                     <editor/>
+                     <author/>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Athlone Press</publisher>
+                        <date>1976</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_CEEH7PGR" corresp="http://zotero.org/users/1642161/items/CEEH7PGR">
+                  <monogr>
+                     <title level="m">Germanici Caesaris Aratea cum scholiis</title>
+                     <idno type="callNumber">AL 27-0450</idno>
+                     <author/>
+                     <editor>
+                        <forename>Alfred</forename>
+                        <surname>Breysig</surname>
+                     </editor>
+                     <edition>Reprograf. Nachdr. der Ausg. Berlin 1867.</edition>
+                     <imprint>
+                        <pubPlace>Hildesheim</pubPlace>
+                        <publisher>Olms</publisher>
+                        <date>1967</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_JVBHGFPD" corresp="http://zotero.org/users/1642161/items/JVBHGFPD">
+                  <monogr>
+                     <title level="m">Les phénomènes d'Aratos</title>
+                     <idno type="ISBN">2-251-01097-1</idno>
+                     <idno type="callNumber">53.3524</idno>
+                     <author/>
+                     <editor>
+                        <forename>André</forename>
+                        <surname>LeBœuffle</surname>
+                     </editor>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Les Belles Lettres</publisher>
+                        <date>2003</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Collection des universités de France</title>
+                  </series>
+               </biblStruct>
+               <biblStruct type="book" xml:id="zoteroItem_NCHZJUIQ" corresp="http://zotero.org/users/1642161/items/NCHZJUIQ">
+                  <monogr>
+                     <title level="m">Les phénomènes d'Aratos</title>
+                     <idno type="ISBN">2-251-01097-1 978-2-251-01097-7</idno>
+                     <author/>
+                     <editor>
+                        <forename>André</forename>
+                        <surname>LeBœuffle</surname>
+                     </editor>
+                     <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Les Belles Lettres</publisher>
+                        <date>1975</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
          </div>
          <div>
             <head>
@@ -171,59 +240,7 @@
                      </imprint>
                   </monogr>
                </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_CEEH7PGR" corresp="http://zotero.org/users/1642161/items/CEEH7PGR">
-                  <monogr>
-                     <title level="m">Germanici Caesaris Aratea cum scholiis</title>
-                     <idno type="callNumber">AL 27-0450</idno>
-                     <author/>
-                     <editor>
-                                <forename>Alfred</forename>
-                                <surname>Breysig</surname>
-                            </editor>
-                     <edition>Reprograf. Nachdr. der Ausg. Berlin 1867.</edition>
-                     <imprint>
-                        <pubPlace>Hildesheim</pubPlace>
-                        <publisher>Olms</publisher>
-                        <date>1967</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_JVBHGFPD" corresp="http://zotero.org/users/1642161/items/JVBHGFPD">
-                  <monogr>
-                     <title level="m">Les phénomènes d'Aratos</title>
-                     <idno type="ISBN">2-251-01097-1</idno>
-                     <idno type="callNumber">53.3524</idno>
-                     <author/>
-                     <editor>
-                                <forename>André</forename>
-                                <surname>LeBœuffle</surname>
-                            </editor>
-                     <imprint>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Les Belles Lettres</publisher>
-                        <date>2003</date>
-                     </imprint>
-                  </monogr>
-                  <series>
-                            <title level="s">Collection des universités de France</title>
-                        </series>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_NCHZJUIQ" corresp="http://zotero.org/users/1642161/items/NCHZJUIQ">
-                  <monogr>
-                     <title level="m">Les phénomènes d'Aratos</title>
-                     <idno type="ISBN">2-251-01097-1 978-2-251-01097-7</idno>
-                     <author/>
-                     <editor>
-                                <forename>André</forename>
-                                <surname>LeBœuffle</surname>
-                            </editor>
-                     <imprint>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Les Belles Lettres</publisher>
-                        <date>1975</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+              
                <biblStruct type="book" xml:id="DellEra1979b" corresp="http://zotero.org/users/1642161/items/T7WVQW4D">
                   <monogr>
                      <title level="m">Gli Scholia Basileensia a Germanico</title>
@@ -240,21 +257,7 @@
                             <title level="s">Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe
                      di Scienze morali, storiche e filologiche</title>
                         </series>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_HCJ9QKCM" corresp="http://zotero.org/users/1642161/items/HCJ9QKCM">
-                  <monogr>
-                     <title level="m">The Aratus ascribed to Germanicus Caesar</title>
-                     <idno type="ISBN">0-485-13708-9</idno>
-                     <idno type="callNumber">PA6121.A7</idno>
-                     <editor/>
-                     <author/>
-                     <imprint>
-                        <pubPlace>London</pubPlace>
-                        <publisher>Athlone Press</publisher>
-                        <date>1976</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               </biblStruct>              
                <biblStruct type="book" xml:id="Maurach1978" corresp="http://zotero.org/users/1642161/items/RFBNGKGT">
                   <monogr>
                      <title level="m">Germanicus und sein Arat : e. vergl. Auslegung von V.1 - 327 d.

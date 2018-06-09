@@ -34,6 +34,16 @@
 			</revisionDesc>
 		
     </teiHeader>
+    <facsimile>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f439.item" n="215r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f440.item" n="215v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f458.item" n="224v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f459.item" n="225r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f460.item" n="225v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f461.item" n="226r"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f462.item" n="226v"/>
+        <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b105419933/f472.item" n="231v"/>
+    </facsimile>
     <text>
         <body>
             <msDesc xml:id="bnf_5239" xml:lang="eng">
@@ -43,14 +53,14 @@
                     <idno>lat. 5239</idno>
                 </msIdentifier>
                 <head>
-                    <title/>
-                    <note type="caption"/>
-                    <origPlace ref="#"/>
+                    <title>Astronomical-computistical collection</title>
+                    <origPlace ref="#limoges">Limoges</origPlace> (St Martial Abbey)
                     <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
                     </origDate>
+                    <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105419933">gallica.bnf.fr</ref>.</note>
                 </head>                
-            <!--<msContents>
-               Excerpts from Isidore, Etym, XIII, 10-11 (De arcu et nubium effectibus; De ventis)
+            <msContents>
+<!--               Excerpts from Isidore, Etym, XIII, 10-11 (De arcu et nubium effectibus; De ventis)
 Folio number: 1r-2r
 Incipit: … dicta a greco u<o>cabulo quod terram inhebrient ad germinandum...
 Explicit: quam flumina (sic) alata figunt (sic) poetae ut alitis austris.
@@ -416,32 +426,43 @@ Folio number: 213r-
 Title:
 Remarks:
 
-f. 214v - blank
+f. 214v - blank-->
 
-Ps-Bede, De signis coelis
-Folio number: 215r-224v
-Title: no
-Incipit: Fenix arcturus maio habet autem stellas obscuras VII…
-Explicit:
-Remarks: starts on a new quire; images drawn before text was written (see f. 217 with Bootes)
-
-f. 225r – Drawing of the twelve winds
-Excerptum de astrologia
-Folio number: 225v-226r
-Title: no
-Incipit: Duo sunt extremi uertices mundi quos appellant polos...
-Explicit: ... urnae aquarii qui ad ipsum usque decurrit accipiens.
-Remarks: written by the same scribe of the De signis coelis; exactly filled the two folios of 30 lines leaving no space even for a single word, but also without squeezing the text. Coloured? Initials for the beginning of sentences
-
-Germanicus, Aratea
-Folio number: 226v-231v
-Title: no
-Incipit: Ab ioue principium magno deduxit aratus...
-Explicit: ...qui exoritur summam pestilentiam mortalibus portat uirgo figuratur stellis XVIIII.
-Drawings: no
-Remarks: followed by the scholia ‘Quaeritur quare ab oiue coepit et non a musis...’, the verses of Germanicus written on separate lines (visibly distinguished as verses), the scholia follow with initials; text taking the whole lines one column. See note on back of notes on Berlin 1832 for disposition of vv-sch on folios
-
-Capitulars ff. 231v-232r
+<msItem>
+    <locus from="215r" to="224v">215r-224v</locus>
+    <author ref="#bede">Ps-Bede</author>
+    <title ref="#de_signis_coeli">De signis coelis</title>
+    <incipit>Fenix arcturus maio habet autem stellas obscuras VII</incipit>
+    <note>starts on a new quire; images drawn before text was written (see f. 217 with Bootes).</note>
+    <decoNote>Illustrations of the constellations s. description in <bibl>
+                                <abbr>Sternbilder des Mittelalters</abbr>
+                            </bibl> and in <bibl>Lippincott, Saxl Project</bibl>.</decoNote>
+</msItem>
+    <msItem>
+        <locus from="225r">225r</locus>
+        <decoNote>Diagram of the twelve winds</decoNote>
+    </msItem>
+    <msItem>
+    <locus from="225v" to="226r">225v-226r</locus>
+    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+    <incipit>Duo sunt extremi uertices mundi quos appellant polos</incipit>
+    <explicit>urnae aquarii qui ad ipsum usque decurrit accipiens.</explicit>
+<note>Remarks: written by the same scribe of the De signis coelis; exactly filled the two folios of 30 lines leaving no space even for a single word, but also without squeezing the text. Initials for the beginning of sentences.</note>
+</msItem>
+    <msItem>
+        <locus from="226v" to="231v">226v-231v</locus>
+        <author ref="#germanicus">Germanicus</author>
+        <title ref="#germanicus_aratea">Aratea</title>
+        <incipit>Ab ioue principium magno deduxit aratus</incipit>
+        <explicit>qui exoritur summam pestilentiam mortalibus portat uirgo figuratur stellis XVIIII.</explicit>
+        <msItem>
+            <title ref="#scholia_basileensia">Scholia Basileensia</title>
+            <incipit>Quaeritur quare ab oiue coepit et non a musis</incipit>
+        </msItem>
+        <note>the verses of Germanicus written on separate lines (visibly distinguished as verses), the scholia follow visually marked up with initials; text taking the whole lines one column. <!--See note on back of notes on Berlin 1832 for disposition of vv-sch on folios--></note>
+</msItem>
+    
+<!--Capitulars ff. 231v-232r
 Folio number: 231v
 Incipit: Nouerint omnes tam praesentes quam future quod Wido uicecomes lemouic uolens ire ierosolimam ab abbe sci marciali quinque milia solidos accepit…
 Explicit: … debitores uero sunt isti Audoinus de nouila Wido de teulet Gerardus labrocza.
@@ -483,7 +504,7 @@ Remarks: at the end tables of the Greek numbers ( I Mia II Dia III Tris IIII Tes
 TEXT
 Folios number: 236v
 Title: Veteris qvestionis nova solvtio
-Incipit: <D>ominicę resurrectionis diem idcirco sollempniter celebramus quod…
+Incipit: Dominicę resurrectionis diem idcirco sollempniter celebramus quod…
 Explicit: …et ressurrectionem VI K sic et martirologus uniuersaliter annotatur.
 Remarks: later addition, end 11th c.
 
@@ -497,17 +518,17 @@ Remarks: later hand.
 
 Dies aegypti
 Folios number: 238r
-Incipit: <I>tem ubi habueris ian dies III et dies VI aut dies XXX et ubi habuere feb dies…
+Incipit: Item ubi habueris ian dies III et dies VI aut dies XXX et ubi habuere feb dies…
 Explicit: non nouember IIII K decemb II idibus deceb XVIII K ian
 Remarks: the same text as on ff. 162v-163r
 
 Isidore, Etym, IX, 5-6
 Folios number: 238r-239v
-Incipit: <H>eredis nomen inposuit census heris. Soluit enim tributem…
+Incipit: Heredis nomen inposuit census heris. Soluit enim tributem…
 Explicit: progenitors progenetrices germane germane.
-Remarks: check if the hands are the same as the text before 163r-164v
+Remarks: check if the hands are the same as the text before 163r-164v-->
             
-            </msContents>-->
+            </msContents>
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
@@ -517,10 +538,10 @@ Remarks: check if the hands are the same as the text before 163r-164v
                                 </p>
                           </support>
                           <extent>
-                              <measure type="leavesCount" quantity="00">239 (?) fols.</measure>
+                              <measure type="leavesCount" quantity="00">ii (parchment) + 239 fols. + ii (parchment) + ii (modern paper)</measure>
                               <dimensions type="leaf" unit="mm">
-                                  <height/>
-                                  <width/>
+                                  <height>335</height>
+                                  <width>250</width>
                               </dimensions>
                           </extent>
                           <foliation/>
@@ -536,17 +557,23 @@ Remarks: check if the hands are the same as the text before 163r-164v
                </objectDesc> 
             </physDesc>                
             <history>
-                <origin>has an obituary of monks and abbots of the monastery of St. Martial (Limoges) on f. 3r, as well as 2 capitulars for donations made to the same monastery</origin>
+                <origin>The manuscript includes an obituary of monks and abbots of the monastery of <rs type="corporate" ref="#st_martial">St. Martial</rs> (<rs type="place" ref="#limoges">Limoges</rs>) on f. 3r, as well as 2 capitulars for donations made to the same monastery, siggesting that it is a product of this monastic centre. Borst dated it to the <origDate notBefore="0901" notAfter="0933">s.X<hi rend="sup">1/3</hi>
+                        </origDate>. Most of the material was copied from <ref type="mss" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>.</origin>
                 <provenance>On f.2r note in the upper margin <quote>cod. Colb. 1020 Regius 3823</quote>.</provenance>
             </history>
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
                    <bibl>
+                            <abbr>Borst, Schriften</abbr>, pp. 269-270.</bibl>
+                   <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 415-421.</bibl>
+                   <bibl>
                             <abbr>Dell'Era, Baseleensia</abbr>, p. 304.</bibl>
                    <bibl>
                             <abbr>Juste, Observation</abbr>, p. 192.</bibl>
                    <bibl>Buescu, Victor. “Deux Nouveaux Francici de Germanicus César.” In <title>Problèmes de critique et d’histoire textuelle</title>, 229–37. Bucharest and Paris, 1942.</bibl>
+                   <bibl>Lippincott, K. <ref target="https://www.kristenlippincott.com/the-saxl-project">Saxl Project</ref>.</bibl>
                   </listBibl>
             </additional>
          </msDesc>

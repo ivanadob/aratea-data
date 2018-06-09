@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<register>
 <work xml:id="gerbert_letter">
   <author ref="#gerbert">Gerbert of Aurillac</author>
   <title>Letter to Constantine of Fleury on the abacus</title>
@@ -60,7 +60,7 @@
         <explicit>in annum umquam reliquimus continentem in coelo signum.</explicit>
         <bibl>Maass, pp. 102-306.</bibl>
     </work>
-    <work xml:id="anonymus_sangallensis">
+    <work type="al" xml:id="anonymus_sangallensis">
         <title>Anonymus Sangallensis</title>
         <incipit>Herodius dicit helicem licaonis fuisse filiam</incipit>
         <explicit>absides eius ultima in capricorno est.</explicit>
@@ -72,11 +72,11 @@
         <bibl>Chardonnens, S. Anglo-Saxon Prognostics, 900-1100: Study and Texts, pp. 181-222.</bibl>
         <bibl>Fuentes González, P. "Néchepso-Pétosiris." In R. Goulet (ed.), Dictionnaire des Philosophes Antiques, vol. IV. Paris: CNRS, 2005, p. 601-615.</bibl>
     </work>
-    <work xml:id="aratea_avienus" ref="http://d-nb.info/gnd/4122863-7">
+    <work type="al" xml:id="aratea_avienus" ref="http://d-nb.info/gnd/4122863-7">
         <title>Aratea</title>
         <author ref="#avienus">Avienus</author>
     </work>
-    <work xml:id="aratea_cicero" ref="http://d-nb.info/gnd/4340121-1">
+    <work type="al" xml:id="aratea_cicero" ref="http://d-nb.info/gnd/4340121-1">
         <title>Aratea</title>
         <author ref="#cicero">Cicero</author>
         <incipit>E quibus hunc subter possis cognoscere fultum</incipit>
@@ -291,7 +291,7 @@
         <explicit>iunge III minus et VII minus, fiunt X minus.</explicit>
         <bibl>Folkerts, Menso. “De Arithmeticis Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede.” In Essays on Early Medieval Mathematics, by Menso Folkerts, III. 1–30. Aldershot: Variorum, 2003.</bibl>
     </work>
-    <work xml:id="de_astronomia">
+    <work type="al" xml:id="de_astronomia">
         <title>De astronomia</title>
         <author ref="#hyginus">Hyginus</author>
         <incipit>Etsi te studio grammaticae artis inductum</incipit>
@@ -302,7 +302,7 @@
         <bibl>Online on PHI Latin Texts <ptr target="http://latin.packhum.org/loc/899/1/0#0"/>
       </bibl>
     </work>
-    <work xml:id="de_astronomia_more_christiano">
+    <work type="al" xml:id="de_astronomia_more_christiano">
         <title>De astronomia more christiano</title>
         <incipit>Hae fisicae partes quae astronomia et astrologia dicuntur, dum deest mathematica</incipit>
         <explicit>de ceteris astronomicis conscribere signis.</explicit>
@@ -410,7 +410,7 @@
         <bibl>Martianus Capella. De nuptiis philologiae et mercurii. Edited by James Willis. Leipzig: Teubner, 1983.</bibl>
         <bibl>Martianus Capella. <title>Martianus Capella and the Seven Liberal Arts</title>. Vol. 2, <title>The Marriage of Philology and Mercury</title>. Translated by William H. Stahl and Richard Johnson. New York: COlumbia University Press, 1977.</bibl>
     </work>
-    <work xml:id="de_ordine_ac_positione">
+    <work type="al" xml:id="de_ordine_ac_positione">
         <title>De ordine ac positione stellarum in signis</title>
         <incipit>Est quidem hic ordo et positio siderum, quae fixa caelo plurium coaceruatione stellarum</incipit>
         <explicit>Anticanis habet stellas III.</explicit>
@@ -439,7 +439,7 @@
         <bibl>
          <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 120.</bibl>
     </work>
-    <work xml:id="de_signis_coeli">
+    <work type="al" xml:id="de_signis_coeli">
         <title>De signis coeli</title>
         <author ref="#bede">Ps. Bede</author>
         <incipit>Helix, quae et Arcturus maior. Habet autem in capite stellas obscuras VII</incipit>
@@ -454,7 +454,7 @@
         <note>Often followed by the verses <title ref="#ad_boreae">De sideribus</title>.</note>
         <bibl>Jones, Charles W. <title>Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede</title>. Ithaca, New York: Cornell University Press, 1939. Pp. 102-3.</bibl>
     </work>
-    <work xml:id="de_signis_coeli_revision">
+    <work type="al" xml:id="de_signis_coeli_revision">
         <title>De signis (interpolated version)</title>
         <incipit>Quinam tamen multa dicunt et alii aliter narrasse celum diuersis proferentes uocabulis sed ipse magis axe continetur quam se continui indemetipso reuoluitur. Habet autem undique inponderata per medium terre in circuitum celi equalem deductum</incipit>
         <explicit/>
@@ -525,7 +525,7 @@
         <explicit>cuius et gubernaculum et rectam puppim secans ad octauam partem cancri redit.</explicit>
         <bibl>Hasper, L.W. (ed.) <title>Hyginus philosophus. De imaginibus coeli</title>. Leipzig, 1861.</bibl>
     </work>
-    <work xml:id="excerptum_de_astrologia">
+    <work type="al" xml:id="excerptum_de_astrologia">
         <title>Excerptum de astrologia</title>
         <incipit>Duo sunt extremi vertices mundi</incipit>
         <explicit>ad ipsum usque decurrit accipiens.</explicit>
@@ -543,7 +543,7 @@
         <bibl>Censorinus. De die natali liber. Accedit anonymi cuiusdam epitoma disciplinarum (fragmentum censorini). Ed. by Klaus Sallmann. Leipzig: Teubner, 1983.</bibl>
         <!--        Fragmenta pp. 61-86. II de caeli positione pp. 62-64; De stellis fixis et <vag>antibus pp. 64-67.-->
     </work>
-    <work xml:id="germanicus_aratea" ref="http://d-nb.info/gnd/4265735-0">
+    <work type="al" xml:id="germanicus_aratea" ref="http://d-nb.info/gnd/4265735-0">
         <author ref="#germanicus">Germanicus</author>
         <title>Aratea</title>
         <incipit>Ad ioue principium magno deduxit aratus</incipit>
@@ -559,7 +559,7 @@
         <incipit>Haec pictura docet quicquid recitauit Hyginus</incipit>
         <explicit/>
         <bibl>Ed. Riese, <title>Anthologia latina</title>, II, pp. 221-3, no. 761.</bibl>
-        <bibl>Leiden VLO 15</bibl>
+        <!--<bibl>Leiden VLO 15</bibl>-->
     </work>
     <work xml:id="historia_naturalis" ref="http://d-nb.info/gnd/4196444-5">
         <author ref="#pliny">Gaius Plinius Secundus</author>
@@ -802,7 +802,7 @@
         <title>Preceptum canonis Ptolomei</title>
         <bibl>David Juste, ‘MS London, British Library, Harley 2506’ (update: 08.12.2017), Ptolemaeus Arabus et Latinus. Manuscripts<ptr target="http://ptolemaeus.badw.de/ms/289"/>.</bibl>
     </work>
-    <work xml:id="ral">
+    <work xml:id="ral" type="al">
         <title>Revised Aratus Latinus</title>
     </work>
     <work xml:id="regulae_herigerus">
@@ -831,7 +831,7 @@
         <bibl>Dell’Era, Antonio. "Gli Scholia Basileensia a Germanico," in <title>Atti Della Accademia Nazionale Dei Lincei: Memorie, Classe di Scienze morali, storiche e filologiche</title>. Ser. VIII, vol. XXIII. Romе, 1979, pp. 301-379.
         </bibl>
     </work>
-    <work xml:id="scholia_strozziana">
+    <work type="al" xml:id="scholia_strozziana">
         <title>Scholia Strozziana</title>
         <incipit>Caelum circulis V distinguitur, quorum II extremi maxime frigide, australi humilimus et aquilonius excelsissimus</incipit>
         <explicit>Immo et ceteri pisces, sed hi tantum apparent, quia exiliunt, ceteri in imo gurgitis descendunt.</explicit>

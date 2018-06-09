@@ -54,6 +54,9 @@
             <org xml:id="st_lambrecht">
                <orgName xml:id="gnd_037112-5" ref="http://d-nb.info/gnd/5037112-5">Abbey St. Lambrecht</orgName>
             </org>
+            <org xml:id="st_martial">
+               <orgName xml:id="gnd_4133010-9" ref="http://d-nb.info/gnd/4133010-9">Abbey St. Martial</orgName>
+            </org>
             <org xml:id="st_oriens_auch">
                <orgName ref="http://www.geonames.org/3036281">Eglise Saint-Orens</orgName>
             </org>

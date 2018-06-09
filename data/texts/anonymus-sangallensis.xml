@@ -18,6 +18,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
@@ -33,11 +34,15 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p/>
+            <p>Maass first edited the text from the St. Gall Ms 250 (s. IX4/4), hence giving it the name Anonymus Sangallensis. In two of the manuscripts this text is immediately followed by the De astronomia more christiano. Le Bourdellès discovered the two texts in other manuscripts, the oldest being Valenciennes, BM, Ms 343, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
+            <p>Incipit: Herodius dicit helicem licaonis fuisse filiam ...</p>
+            <p>Explicit: ... absides eius ultima in capricorno est.</p>
          </div>
          <div>
             <head>
                <title>Editions</title>
+               <bibl>
+                        <abbr>Maass</abbr>, pp. 595-601.</bibl>
             </head>
             <p/>
          </div>
@@ -45,7 +50,11 @@
             <head>
                <title>Literature</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>
+                        <abbr>Le Bourdellès (1985)</abbr>, pp. 84-85.</bibl>
+               <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>
