@@ -113,6 +113,9 @@
                         <tei:geo>49.91602 7.07664</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="laon">
+                    <placeName ref="http://www.geonames.org/3007477">Laon</placeName>
+                </place>
                 <place xml:id="le_puy_en_velay">
                     <placeName ref="http://www.geonames.org/3002465">Le Puy-en-Velay</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">

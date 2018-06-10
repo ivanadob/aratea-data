@@ -41,9 +41,6 @@
                     <repository>British Library</repository>
                     <collection>Cotton</collection>
                     <idno>Tiberius C I</idno>
-                    <altIdentifier type="other">
-                        <idno/>
-                    </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title/>
@@ -85,7 +82,6 @@
                </msItem>              
             </msContents>
             <physDesc>
-               <!-- contains a full physical description of a manuscript or manuscript part, optionally subdivided using more specialized elements from the model.physDescPart class. -->
                <objectDesc form="codex">
                   <supportDesc material="perg">
                           <support>

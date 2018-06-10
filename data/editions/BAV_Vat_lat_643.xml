@@ -6,9 +6,7 @@
             <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">
-                    <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">Vatican, BAV, Vat. lat. 643</ref>
-                </title>
+            <title type="sub">Vatican, BAV, Vat. lat. 643</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -31,25 +29,25 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-06-08"/>
+      </revisionDesc>
    </teiHeader>
   <text>
       <body>
             <msDesc xml:id="Vat_lat_643" xml:lang="en">
                <msIdentifier>
                   <settlement>Vatican</settlement>
-                  <institution>Biblioteca Apostolica Vaticana</institution>
-                  <collection/>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
                   <idno>Vat. lat. 643</idno>
-                  <altIdentifier type="other">
-                     <idno/>
-                  </altIdentifier>
                </msIdentifier>
                <head>
                   <title>Bede works on nature</title>
                   <origPlace ref="#melk">Melk (?)</origPlace>                  
                   <origDate notBefore="1101" notAfter="1200">s. XII<hi rend="sup"/>
                     </origDate>
-                  Digital facsimile at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">DigiVatLib</ref>
+                  <note type="facs">Digital facsimile at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">DigiVatLib</ref>
+                    </note>
                </head>
                <msContents>
                   <msItem>
@@ -94,63 +92,50 @@
                      <quote>Hortum signorum XII qualibet diei uel noctis hora quisque liquido deprehensurus est si a KL octobris horas dierum ac noctium usque ad eam quam si proposuit colligens per XXIIII<hi rend="sup">or</hi> metiatur et quos excreuerit diuidat quem ad modum subiecta instruit formula. Si I aut duo remanserunt oritur libra. Si III aut IIII scorpio. Si V aut VI sagittarius. Si VIII aut VIII capricornus. Si VIIII aut X aquarius. Si XI aut XII pisces. Si XIII aut XIIII aries. Si XV aut XVI taurus. Si XVII aut XVIII gemini, Si XVIIII aut XX cancer. Si XXI aut XXII leo. Si XXIII aut XXIIII uirgo.</quote>
                   </msItem>
                   <msItem>
-                     <locus from="70v">70v</locus>
-                     <note>Computistical texts: on the eclipse, <quote>De incremento saltus lunae</quote>, <quote>De concordia solis et lunae</quote>, <quote>embolismi</quote> etc.</note>
-                     <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCC<hi rend="sup">o</hi>VIII Quicquid ergo inde aut abcessit</incipit>
-                  </msItem>
-                  <msItem>
                      <locus from="70v" to="71r">70v-71r</locus>
-                     <author/>
-                     <title>De solis et lunae defectus</title>
-                     <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCCVIII</incipit>
+                     <note>Short text on the eclypse</note>
+                     <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCC<hi rend="sup">o</hi>VIII Quicquid ergo inde aut abcessit</incipit>
                      <explicit>quod quotiens contigerit totiens eclypsin non defecturam.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="71r">71r</locus>
-                     <author/>
-                     <title>Argumentum ad inveniendum IQSVM</title>
-                     <incipit>Annis ab initio mundi per senarium diuisis...</incipit>
-                     <explicit>... memoratum semper inueniri planetam uirgo</explicit>
+                     <title ref="#iqsvm">In quo signo versetur mars</title>
+                     <incipit>Annis ab initio mundi per senarium diuisis</incipit>
+                     <explicit>memoratum semper inueniri planetam uirgo.</explicit>
+                     <note>Text begins without any visula mark separating it from the previous one. In the margin the planets are written in red next to their respective paragraph entries.</note>
                   </msItem>
                   <msItem>
                      <locus from="71r" to="71v">71r-71v</locus>
-                     <title>De incremento saltus lunae</title>
+                     <rubric>De incremento saltus lunae</rubric>
                      <incipit>Primo sciendum est quod in toto decennouenali circulo unus dies de saltu
                         lunae accrescat</incipit>
-                     <explicit>... et sextans id eset sexta pars momenti.</explicit>
+                     <explicit>et sextans id eset sexta pars momenti.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="71v">71v</locus>
-                     <author/>
-                     <title>De concordia soli et lunae</title>
-                     <incipit>Nouem horis in luna...</incipit>
-                     <explicit>...possunt VIIII hore lunares cum quinque diebus solaribus
-                        concordare</explicit>
+                     <rubric>De concordia soli et lunae</rubric>
+                     <incipit>Nouem horis in luna</incipit>
+                     <explicit>possunt VIIII hore lunares cum quinque diebus solaribus concordare.</explicit>
                   </msItem>
                   <msItem>
-                     <locus from="71v" to="71av"/>
-                     <author/>
-                     <title>De quibus embolismi menses et bissextiles dies adimplentur</title>
-                     <incipit>Luna igitur cotidie et cetera transit XIII partes et horas
-                        VIII...</incipit>
-                     <explicit>... Hec ratio subtilissima est et ualde necessatia et maxima labori
-                        undecumque ab auctoribus collecta et ad quam vernenda mentis acies
-                        purganda.</explicit>
+                     <locus from="71v" to="71av">71v-71av</locus>
+                     <rubric>De quibus embolismi menses et bissextiles dies adimplentur</rubric>
+                     <incipit>Luna igitur cotidie et cetera transit XIII partes et horas VIII</incipit>
+                     <explicit>Hec ratio subtilissima est et ualde necessatia et maxima labori undecumque ab auctoribus collecta et ad quam vernenda mentis acies purganda.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="71av" to="75r"/>
                      <note>Commentary on Bede: DTR</note>
+                     <rubric>De natura rerum et temporum ratione</rubric>
                      <incipit>Non est pretermittendum cum dixit de natura rerum cur non etiam de natura temporum uel de ratione rerum et ratione temporum dixit</incipit>
                      <explicit>idest CCma XXXV pars XLVII semis momentorum.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="75r">75r</locus>
                      <note>Computistical texts on the epacts and regulares solis.</note>
-                     <title>Quid est[or sint?] epacta solis et regulares solis</title>
-                     <incipit>Dum audis epactas lune aetates lune per singulos annos
-                        intellige...</incipit>
-                     <explicit>...uel quot dies usque ad Kalendas futuri mensis supersunt</explicit>
-                     <titlePart/>
+                     <rubric>Quid est[or sint?] epacta solis et regulares solis</rubric>
+                     <incipit>Dum audis epactas lune aetates lune per singulos annos intellige</incipit>
+                     <explicit>uel quot dies usque ad Kalendas futuri mensis supersunt.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="75r">75r</locus>
@@ -209,11 +194,11 @@
                <additional>
                   <listBibl>
                      <head>Selected Bibliography:</head>
-                     <bibl/>
+                     <bibl>
+                            <abbr>sternbilder des Mittelalters</abbr>, pp. 477-481.</bibl>
                   </listBibl>
                </additional>
-            </msDesc>
-         
+            </msDesc>       
       </body>
   </text>
 </TEI>

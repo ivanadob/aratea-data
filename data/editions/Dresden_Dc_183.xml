@@ -46,6 +46,8 @@
                     <origPlace ref="#nw_france">North-west France</origPlace>
                     <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                     </origDate>
+                    <note type="facs">Partially facsimile in <ref target="https://iconographic.warburg.sas.ac.uk">Warburg Institute, Photographic collection</ref>
+                    </note>
                 </head>                
             <msContents>
                 <msItem>
@@ -192,7 +194,7 @@
                       <collation>
                                 <formula/>On f. 97v – quire mark XIII;</collation>
                           <condition>
-                              <p>The manuscript suffered grate damage during World War II. This description is based therefore on Warburg Insitute photographs for ff. 8v, 13r, 14r-26r, 27v, 28v, 29v and 31r and on microfilm in IRHT for ff. 1r-2v, 7r-28r, and 94r-101v. For the rest of the content draws on the description of Maass.</p>
+                              <p>The manuscript suffered grate damage during World War II. This description is based therefore on <ref target="https://iconographic.warburg.sas.ac.uk">Warburg Insitute photographs</ref> for ff. 8v, 13r, 14r-26r, 27v, 28v, 29v and 31r and on microfilm in IRHT for ff. 1r-2v, 7r-28r, and 94r-101v. For the rest of the content draws on the description of Maass.</p>
                           </condition>
                   </supportDesc>
                    <layoutDesc>

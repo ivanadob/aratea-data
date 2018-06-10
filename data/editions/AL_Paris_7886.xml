@@ -1104,14 +1104,14 @@
                <lb/>calidis igne conbustis solis in missionibus
                <lb/>quę germinant terrę desuper crescunt hic amit
                <lb break="no"/>tens tempora accedit leo·</p>
-            <p> UIRGO
+            <p xml:id="involutio_spherae_virgo"> UIRGO
                <lb/>Proxime istius uirginis iac&amp; figura
                <lb/>primum enim in hac stella sol uix incorrup
                <lb break="no"/>ta terrę cuncta obseruantur genera
                <lb/>quęcumque finem acceptura corruptionis
                <lb/>denominatur omnibus uirginis uita</p>
             <lb/>
-            <p>LIBRA
+            <p xml:id="involutio_spherae_libra">LIBRA
                <lb/>Libra autem quod triticum in domibus brutorum
                <lb/>terrigenis manibus coaceruatum laboribus
                <lb/>terrenis tot collegitur tunc in opacis conditas
@@ -1285,7 +1285,7 @@
             <div xml:id="vv_19-42">
                <p>Quidam tamen multa dicunt &amp; alii aliter
                <lb/>narrasse cęlum diuersis proferentes
-               <lb/>uocabulis sed ipsem agis axe contin&amp;ur
+               <lb/>uocabulis sed ipse magis axe contin&amp;ur
                <lb/>qui se continuo in sem&amp;ipso reuoluitur hab&amp;
                <lb/>autem undique inponderatam per medio terrę
                <lb/>in circuitu cęli aequaliter deductum quem &amp;iam

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub"/>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-09"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Berlin</settlement>
+               <repository>Staatsbibliothek</repository>
+               <idno>Phill. 1832</idno>
+               <altIdentifier type="former">
+                  <idno>Meermannus 130</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title>De temporibus - Chronik</title>
+               <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
+                    </origDate>
+               <origPlace ref="#laon">Laon</origPlace> or <origPlace ref="#reims">Reims</origPlace>
+            </head>            
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="92">92 fols.</measure>
+                        <!--<dimensions type="leaf" unit="mm">
+                           <height>239</height>
+                           <width>272</width>
+                        </dimensions>-->
+                     </extent>
+                     <foliation/>
+                     <!--<collation>ff. 81-88 is a quaternio, ff. 89-92 a binio.</collation>-->
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="27"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin>Contreni has established that this manuscript was without question written in <origPlace ref="#laon">Laon</origPlace>. The hand of Laon's famous scholasticus <rs type="person">Martin of Laon</rs> can be seen in corrections to the text and glosses of Bede, De natura rerum. He further suggested that it was martin who prepared the commentary and glosses to the De temporum ratione for a successor teacher. The book itself was a master's own copy that would presumably pass to the hand of the next school master after Martin's death. In addition to Laon Borst also suggested <origPlace ref="#reims">Reims</origPlace> as a possible place of production. Both agree that the manuscript was written around the year 873 (the annus praesent is incorporated five times in the glosses for Bede, De temporum ratione).</origin>
+               <provenance>Previously owned by the Parisian Jesuits, as was also <ref type="mss">Berlin MS Phill. 1830</ref>. At that time they comprised a single codex (Jes. 633), which belong in s. XI to the <rs type="corporate">Abbey of St. Vincent</rs> in <rs type="place" ref="#metz">Metz</rs> [Rose, Verzeichniss der lateinischen Handschriften I, Berlin 1893, p. 287-293].</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl>
+                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 208-213.</bibl>
+                  <bibl>Contreni, J. "John Scottus, Martin Hiberniensis, the Liberal Arts, and Teaching." Insular Latin Studies: Papers on latin Text and Manuscripts of the British Isles 550-1066. Ed. M. W. Herren. Toronto, 1981, pp. 23-44, reprint in Contreni, Carolingian Learning, Masters and Manuscripts. Collected Studies Series, Variorum, 1992: VI, pp. 1-22,</bibl>
+                  <bibl>
+                            <abbr>Borst, Schriften</abbr>. Vol. 1, p. 215.</bibl>
+               </listBibl>
+            </additional>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part I</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r" to="9r">1r-9r</locus>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DNR">De natura rerum</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="9v" to="14v">9v-14v</locus>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DT">De temporibus</title>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part II</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="81r">81r</locus>
+                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                  </msItem>
+               <msItem>
+                  <locus from="81v" to="85v">81v-85v</locus>
+                  <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                  <decoNote>Illustrations of the constellation, see the iconographical analysis in <bibl>
+                                    <abbr>Sternbilder des Mittelalters</abbr>
+                                </bibl>.</decoNote>
+                  <note>Marginal annotations drawing from Servius.</note>
+               </msItem> 
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part III</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="86r" to="92v">86r-92v</locus>
+                     <author ref="#germanicus">Germanicus</author>
+                     <title ref="#germanicus_aratea">Aratea</title>
+                  </msItem>
+               </msContents>
+            </msPart>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
