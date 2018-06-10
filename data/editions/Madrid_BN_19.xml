@@ -6,7 +6,7 @@
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub"/>
+            <title type="sub">Madrid, Biblioteca national, Ms. 12</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -25,6 +25,9 @@
                <name type="org"/>
                <!--<ptr target=""/>-->
             </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p/>
@@ -38,9 +41,9 @@
       <body>
          <msDesc xml:lang="eng" xml:id="ab">
             <msIdentifier>
-               <settlement/>
-               <repository>repository</repository>
-               <idno>identifier</idno>
+               <settlement>Madrid</settlement>
+               <repository>Biblioteca national</repository>
+               <idno>Ms 12</idno>
             </msIdentifier>
             <head>
                <title>Astronomical-computistical collection</title>

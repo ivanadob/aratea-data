@@ -6,7 +6,7 @@
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub"/>
+            <title type="sub">Berlin, Staatsbibliothek, Phill. 1832</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -25,6 +25,9 @@
                <name type="org"/>
                <!--<ptr target=""/>-->
             </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p/>

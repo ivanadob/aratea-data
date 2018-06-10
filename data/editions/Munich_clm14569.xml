@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Munich, Bayerischen Staatsbibliothek, Clm. 14569</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-09"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Munich</settlement>
+               <repository>repository</repository>
+               <idno>identifier</idno>
+            </msIdentifier>
+            <head>
+               <title/>
+               <origDate notBefore="1051" notAfter="1150">s. XI<hi rend="sup">1</hi>-XII<hi rend="sup">2</hi>
+                    </origDate>
+               <origPlace ref="#st_emmeram">St. Emmeram</origPlace>
+               <note type="facs">Digital facsimile at <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00036886-4">Münchener DigitalisierungsZentrum</ref>
+                    </note>
+            </head>
+            <msContents>
+               <msItem>
+                  <note>Computus table, cycle for the years 1016-1055.</note>
+               </msItem>
+               <msItem>
+                  <locus from="4v"/>
+                  <note>Calendar</note>
+               </msItem>
+               <msItem>
+                  <title>Computus grecorum</title>
+               </msItem>
+               <msItem>
+                  <locus from="28r" to="29v">28r-v</locus>
+                  <note>Short text on the name of the twelve signs almost verbatim Isidore, Etym. III, 71.</note>
+                  <rubric>De XII signis</rubric>
+                  <incipit>Signa XII vel a causis annalibus vel a gentilium fabulis nomina sumserunt</incipit>
+                  <explicit>Aquarium ianuario februario pisces ob menses imbriferos tradunt.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="28v" to="32v">28v-32v</locus>
+                  <title ref="#de_astronomia_more_christiano">De astronomia more christiano</title>
+                  <note>(without the prologue)</note>
+                  <incipit>Primum igitur maximumque inter omnia sidera solem</incipit>
+                  <explicit>de ceteris astronomicis conscribere signis.</explicit>
+               </msItem>
+               <msItem>
+                  <note>computistica argumenta ... </note>
+               </msItem>
+               <msItem>
+                  <locus from="33r">33r-</locus>
+                  <author>Sedulius</author>
+                  <title>Carmen paschale</title>
+               </msItem>
+               <msItem>
+                  <locus from="72r">72r-</locus>
+                  <author>Prospeius Aquitanus</author>
+               </msItem>
+               <msItem>
+                  <locus from="99r-"/>
+                  <note>Theological work</note>
+                  <incipit>Deus principium et finis totius creaturae</incipit>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="142">142 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height/>
+                           <width/>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="20"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis, hrsg. von Karl Halm. - T. 4: Catalogus codicum latinorum. Pars 2: Clm 11001-15028. - Monachii 1876. <ref target=" http://daten.digitale-sammlungen.de/bsb00008253/image_198">194</ref>.</bibl>
+                  <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
