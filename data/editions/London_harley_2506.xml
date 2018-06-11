@@ -123,7 +123,7 @@
                     </msItem>
                     <msItem>
                         <locus from="32v">32v</locus>
-                        <note>blank</note>
+                        <note>Blank.</note>
                     </msItem>
                     <msItem>
                         <locus from="33r">33ra</locus>
@@ -146,7 +146,7 @@
                     </msItem>	
                     <msItem>
                         <locus from="35v" to="35v*">35v-35v*</locus>
-                        <note>blank</note>
+                        <note>Blank.</note>
                     </msItem>
                     <msItem>
                         <locus from="36r" to="48v">36ra-48v</locus>
@@ -168,21 +168,18 @@
                     </msItem>
                     <msItem>
                         <locus from="49r">49ra</locus>
-                        <title/>
                         <rubric>De concordia solaris cursus et lunaris</rubric>
                         <incipit>Nouem horis in luna pro quinque diebus in sole</incipit>
                         <explicit>cum V diebus solaribus concordare.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="49r">49ra-b</locus>
-                        <title/>
                         <rubric>Item de eadem ratione</rubric>
                         <incipit>Luna lucere dodrantis semuncias dicitur</incipit>
                         <explicit>IIII horas lucet luna V.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="49r">49rb</locus>
-                        <title/>
                         <rubric>De concordia maris et lunae</rubric>
                         <incipit>Unius semper horae dodrante et semuntia transmissa</incipit>
                         <explicit>tardius ueniret, tardiusque recederet.</explicit>

@@ -28,8 +28,11 @@
                <orgName ref="http://www.geonames.org/8378575">St. Emmeram</orgName>
             </org>
             <org xml:id="fleury">
-               <orgName xml:id="gnd_1082342-6" ref="http://d-nb.info/gnd/1082342-6">Abbaye de Fleury (Saint-Benoît-sur-Loire)</orgName>
+               <orgName xml:id="gnd_1082342-6" ref="http://www.geonames.org/2981393">Abbaye de Fleury (Saint-Benoît-sur-Loire)</orgName>
                <orgName>Abbey of Fleury</orgName>
+            </org>
+            <org xml:id="jumieges">
+               <orgName xml:id="gnd_7550884-9" ref="http://www.geonames.org/3012066">Saint-Pierre de Jumieges</orgName>
             </org>
             <org xml:id="klosterneuburg">
                <orgName xml:id="gnd_2078067-9" ref="http://www.geonames.org/2773913">Klosterneuburg Monastery</orgName>
@@ -64,7 +67,7 @@
                <orgName ref="http://www.geonames.org/3036281">Eglise Saint-Orens</orgName>
             </org>
             <org xml:id="hyde_abbey">
-               <orgName xml:id="gnd_1092073159">Hyde Abbey</orgName>
+               <orgName xml:id="gnd_1092073159" ref="http://www.geonames.org/2633858">Hyde Abbey</orgName>
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Hyde_Abbey"/>
                </bibl>
             </org>

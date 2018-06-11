@@ -6,7 +6,7 @@
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub">Madrid, Biblioteca national, Ms. 12</title>
+            <title type="sub">Madrid, Biblioteca national, Ms. 19</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -43,7 +43,7 @@
             <msIdentifier>
                <settlement>Madrid</settlement>
                <repository>Biblioteca national</repository>
-               <idno>Ms 12</idno>
+               <idno>Ms 19</idno>
             </msIdentifier>
             <head>
                <title>Astronomical-computistical collection</title>

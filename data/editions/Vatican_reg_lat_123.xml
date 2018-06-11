@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Vatican, Biblioteca apostolica vaticana, Reg.lat.123</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-10"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Vatican</settlement>
+               <repository>Biblioteca apostolica vaticana</repository>
+               <idno>Reg. lat. 123</idno>
+            </msIdentifier>
+            <head>
+               <title>Astronomical-computistical manual</title>
+               <origDate notBefore="1041" notAfter="1060">s. XI<hi rend="sup">med</hi> (1056)</origDate>
+               <origPlace>S. Maria de Ripoll</origPlace>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus from="152r">152r</locus>
+                  <note>Liber IV with excerpts from Bede, Calcidius, Fulgentius, Isidore, Macrobius, Plinius, Hyginus.</note>
+                  <rubric>Incipiunt capitula libri quarti de astronomia</rubric>
+                  <msItem>
+                     <locus from="152r" to="153r">152r-153r</locus>
+                     <note>Table of content listing 122 capitula.</note>
+                  </msItem>
+                  <msItem>
+                     <author ref="#hyginus">Hyginus</author>
+                     <title ref="#de_astronomia">De astronomia</title>
+                     <note>Excerpts from Lib. I (cap. 3, 5-8), Lib. II-III, end from Lib. IV.</note>
+                  <rubric>Hygini Fabula</rubric>
+                  <title/>
+               </msItem>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="223">ii + 223 fols. + ii</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>362</height>
+                           <width>280</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="35"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolgot"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl/>
+                  <bibl>
+                            <note>Bibliography at <ref target="https://digi.vatlib.it/mss/detail/Reg.lat.123">digivatlib</ref>.</note>
+                        </bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

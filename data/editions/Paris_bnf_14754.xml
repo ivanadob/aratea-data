@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Paris, Bibliothèque nationale de France, lat. 14754</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-10"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Paris</settlement>
+               <repository>Bibliothèque nationale de France</repository>
+               <idno>latin 14754</idno>
+            </msIdentifier>
+            <head>
+               <title/>
+               <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
+                    </origDate>
+               <origPlace ref="#n_france">N. France</origPlace> (<origPlace ref="#chartres">Chartres</origPlace>?)
+               <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9072645h">gallica.bnf.fr</ref>.</note>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus from="1r" to="92r">1r-92r</locus>
+                  <note>Commentary to Martianus Capella</note>
+               </msItem>
+               <msItem>
+                  <locus>92rb-94v</locus>
+                  <note>blank.</note>
+               </msItem>
+                     <msItem>
+                        <locus>95r-202v </locus>
+                        <title>De nuptiis Philologiae et Mercirii</title>
+                        <author ref="#martianus_capella">Martianus Capella</author>
+                        <note>with glosses especially the astronomy section</note> 
+                     </msItem>
+                     
+                     
+                     
+                     <msItem>
+                        <locus from="203r" to="229r">203r-229r</locus>
+                       <title> Nimrod Liber de astronomia</title>
+                     </msItem> 
+                     
+                     
+                     
+                     <msItem>
+                        <locus>229v-232v</locus>
+                        <title ref="#de_signis_coeli">De signis coelis</title>
+                        <!--(232v with quire mark XVII)-->
+                     </msItem> 
+               <msItem>
+                        <locus from="233r">233r-244</locus> 
+                  <title>Canones Ptolemaei</title>
+                  <msItem>
+                     <locus from="244v">244v-255r</locus>
+                     <note>Tables to Canones.</note>
+                  </msItem>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="256">256</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height/>
+                           <width/>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolgot"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance>1rv Provenance marks: St-Victor  (15th c.)</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>Kunitzsch. "Eine bilingue arabisch-lateinische Lostafel." Revue d'Histoire des Textes 6 (1976): 267-304.</bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

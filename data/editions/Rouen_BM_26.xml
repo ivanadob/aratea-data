@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub"/>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+               <!--<ptr target=""/>-->
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-10"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Rouen</settlement>
+               <repository>Bibliothèque municipale</repository>
+               <idno>26</idno>
+               <altIdentifier type="former">
+                  <idno>A 292</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title>Astronomical-computistical collection</title>
+               <origDate>s. IX<hi rend="sup">3/4</hi>(853-867)</origDate>
+               <origPlace/>
+            </head>
+            <msContents>
+               <msItem>
+                        <p>
+                            <locus from="1">1</locus> - Liber Proverbiorum, Ecclesiastes, Cantica cantincorum ; foliated !bis and 2 - this is now written in caroline minuscule -9- 10th c. (?) running titles written in uncial or rustic capitals, text in one column, ruled and visible pricking on the outher side of folios; initials and coloured first letters of phrases; 
+                  
+                  <locus from="19v">19v</locus> - has a marginal note from a later hand (humanistic cursive or bastarda) 
+                  
+                 <locus from="24r">24r</locus> ecclesiastes 'uanitas uanitatum dixit ecclesiastes... Sine bonu[m] siue malum sit. Explicit ecclesiastes id est coelet. Incipit cantica canticorum id est syrasirim" 
+                  
+                 <locus from="31r">31r</locus> cantica canticorum 'ocsuletur me osculo oris sui quia meliora sunt... 
+                  
+                  30r-v has a cut in a rectangular shape not affecting the text, foliation applyed after the damage next to it  
+                  
+                  Text has some correction interlinear; no scholia  
+                  
+                  Fol. <locus from="34v">34v</locus> Anonmymi "trac[ta]tus Cantica canticorum. Osculetur me osculo oris sui, tangat... - ... Falsa sonabit" 
+                  
+                  <locus from="47v">47v</locus> - "Hunc cecinit salomon mira dulcedine libru[m] qui tenet egregias sponsi sponsaeq[ue] camenas... Written in different hand Fragmen of the office, notes and neumes "Dominica III. De adventu Domini written in different hand. 
+                  
+                  <locus from="48r">48r</locus> - image of Christ on the cross - image in plume of Christ  on the cross, between Mary and John Ibid - Liber Sapientie 
+                  
+                  "arce cricis d[omi]ni summa prudentia sistit.. And in the lower part Inicpit liber sapientie. Seems to be written by the hand which wrote the Ps-bede.<locus from="48v">48v</locus> written by two different hand. Has long hast of the R pointed minuscule (anglo-saxon?) for the first half of the page then it changes into a regular caroline minuscule  folio expl. Qui sunt exparte illius . Next folio: dixerunt enim apud se cogitantes...  
+                  
+                  <locus from="62v">62v</locus> - another fragment - In die Natalis Domini Lux orta e[s]t super nos quia hodie natus e[s]t saluator .. 
+                  
+                  <locus from="63">63</locus> - In nomine dni hec sunt capitula en Laurentio scribens eius eruditionem delectatur cupiens illum e[ss]e sapientem ... Followed by chapter titles and numbers...S. Augustini enchiridion de fide "Dici non potest, dilectissime.." -&gt; only on <locus from="68r">68r</locus> after the chapters content ends. Written in capitals quadrata; text by a different hand ; initials sometimes modestly decorated  
+                  
+                  <locus from="110v">110v</locus> - Repons et versets divers: Hirusalem cito veniet salus tua... 
+                  
+                  <locus from="111">111</locus> v - S. Isidori Hispalensis "liber de homine et partibus ejus. I de homine et partibus eius. II De aetatibus hominis. De homine et partibus eius written as running title in rustic capitals.  Natura dicra at eo..." (Origin., XI, 1-2) Modern hand added in the margin reference to isidori hispalensis libro XI originum sive ethymolo. Cap. I et II. Interlinear annotations 'scilicet est' when there is a participle in the text: homo dictus quia...  Or to ease transition of the thought : unde (s. Dicunt[ur])...  Text written n o by the hand who wrote Ps-bede 
+                  
+                  <locus from="123">123</locus> "pro qualibus virtutibus cantatur cursus..." 
+                  
+                  <locus from="123v">123v</locus> - De temperantia 
+                  
+                  <locus from="124v">124v</locus> - De pollutionibus interrogatio Augustini. Responsio Gregorii (Greg. Epist. XI, 64) 
+                  
+                  <locus from="126">126</locus> - Anonymi rationale de divinis officiis: "Primum in ordine missae antiphona..." 
+                  
+                  <locus from="135r">135r</locus> - starts from the top: Anonymi rationale alterum (per interrog, et respons) "Domine, quid unusquisque homo..." ff. 135v-138r very hard to read, smudged and erased the ink faded;  
+                  
+                  
+                  
+                  <locus from="140">140</locus> - Tables des cycles lunaires, de 532 - 1063 from the top of the folio  {page ruled for a table, previous section had 29 lines per page} 
+                  
+                  
+                  
+                  <locus from="147r">147r</locus> "Cursus lunae per duodecim signa" - table with letters; below: Si scire uis ubi sit luna quando sol in capricornu et in kl ian moratur... Et ita semper ubi luna circulum fertut scire poteris. The folio was ruled for a table; on the verso: diagrams T-O map only  title od the 3 continent and another of the four elements and their qualities Isidorian with crossing arcs  
+                  
+                  <locus from="148r">148r</locus> DIAGRAMS - "Quattuor anni tempora" - a title writtenin the middle on both sides circles VER AESTAS HIEMS AUTUMNUS in the four corners of the written space and another 4 cicles in the inner part for the increase and diminish of day and night within the 12 months  with exact date exp: Ex VIII KL JANUAR solsticium dies crescente; 
+                  
+                  <locus from="148v">148v</locus> - Horologium per totum annum. Marcius et october table like text:  
+                  
+                  Hor I et XI pedes XXV 
+                  
+                  Hor II et X pedes XV... 
+                  
+                  <locus from="149">149</locus> - Ian[uaris] et DEC IIII nopnis] habent  XVIII KL post id[ibus] et dies XXXI - when are the nona ides in each month grouped by 2-3; this is inserted in the table at the beginning; written in rustic capitals 
+                  
+                  Tabula regularium "Terminum paschale. Terminum quadragesimale." different tahdn than that which wrote the lunar tables on ff. 140-146v 
+                  
+                  <locus from="150">150</locus> - Anonymi opusculum de computo. "XII. De ratione equinoctii. A. XII kl. Apr., quod est equinoctiu[m] vernale... - ... (LXXV. De ortu et obitu patrum. Adam pater generis humani...) missus ibidem requiescit in pace." (50 chapters.) starts with XII? Similar to the hand of Ps-Bede's hand; places running titles in capitalis rustica and initials coloured;  
+                  
+                  XII. De ratione equinoctii. A. XII kl. Apr 
+                  
+                  De accensis... Lunae; Illud enim sciendum est quia ratio lunaris et eius natura... 
+                  
+                  Quod modis solem annus nominari. Primus modus est de luna... 
+                  
+                  XVIII Argumentum qualiter anni ab incarnatione dn ... Si uis scire quoti sunt anni ab incarnatione... 
+                  
+                  XX Arg. Ad indictionem eiusdem anni Si nosse desideras quota sit indictio tene... 
+                  
+                  XXI Quotus sit ciclus decennouenalis Si ipsum cognoscere cupis tene annos ab incarnatione.. 
+                  
+                  Est etiam ratio qualiter terminus paschalis inueniri... 
+                  
+                  Sed et hoc sciendum est ut quot dies ante pridie idus aprelis... 
+                  
+                  XXIIII Item de eadem ratione Quantos dies ente KL apr habueris pascha tatntos dies... 
+                  
+                  XXV Quotus sit ciclus lunaris Si psum nosse desideras sume annos ab incarnatione... 
+                  
+                  XXVI Arg quot sint epacte Si autem cognoscere quod sint epacte sume annos... 
+                  
+                  XXVII Est et alia ratio Ut qualis fuerit luna in XI KL aprl tales erunt... 
+                  
+                  XXVIII Item alia regula Si fuerit luna in XI KL aprl XV erit paschalis 
+                  
+                  XXVIIII Item de eadem ratione Quota luna in kl ianr eodem anno fuerit tot dies... 
+                  
+                  XXX Est ... Scae memoriae theophilus alexandrinus eps datis epistolis... 
+                  
+                  XXXI Argumentu[m] quo... Si hoc nosse desideras sume annos dni quod/t fuerint... 
+                  
+                  XXXII Argumentum quos sint concurrentes ... Si ipsos inuenere... 
+                  
+                  Est et alia regula quota fuerit feria 
+                  
+                  Argumentum quo puncto ... Si hoc scire desideral sume dies a kl ian usq in die de quo inquiris 
+                  
+                  XXXIII Argumentum .. Luna.. Kl ianuare Si hoc scire desideras sume ciclum anni presentis 
+                  
+                  XXXIIII Item alium argumentum de qualidet feria Si ergo uis scire hoc uel illo die quota sit luna... 
+                  
+                  Et aliud argumentum .. Si uis scire quota sit feria de quo cumq/ die 
+                  
+                  XXXXVI Argumentum qua hora.. Si nosse uis quot horas luceat luna 
+                  
+                  XXXVII Argumentum de cursu ... Signa Si scire cupis luna prima quantas partes distat a sole multiplica... 
+                  
+                  XL Item.. Omnis paschalis luna cuiuscumq aetatis est.. 
+                  
+                  XLII Item ratio lunaris... Memento quod anno bissextili lune februaru mensis... 
+                  
+                  XLII De ratione saltus lunae Memento quod anno nouissimo circuli decennouenalis... Followed by a table calendar of the months lunar position... 
+                  
+                  XLIIII Item ratio de ... Saltus lune crescit singulis annis 
+                  
+                  XLV De ocdoade et endecade Ciclus grece circulus latine ogdoas... 
+                  
+                  XLVI Ratio de compoto,, Computus est a natale dni usq[ue] ad natalem&gt; id est lunę ciclus item alius computus est a pascha usq[ue] in pascha 
+                  
+                  XLVII Imen ratio lunarum Ubi prima luna erit in ianuario anno presenti... 
+                  
+                  XLVIII De nomine decennouenalis Decennouenalis ex tribus corruptis compositu est; De numero how are they called apud hebreos ..; De sole apud haebreos gamse uel semsia...; De luna Apud haebreos ierichon uel aclar apud grecos mene .. 
+                  
+                  Embolism... Initium primę lune perpere... 
+                  
+                  LI Concordia maris et lunae 
+                  
+                  LII Item ratio de quar.. Hi uero numeri praenotati in prima linea annalis... 
+                  
+                  Item ratio bissexti Ad complendum bissextum in uno mense...  
+                  
+                  De.. Diei uel noctis. Sciendum est quod unus quisque dies et una queque nox increscendo.... 
+                  
+                  LV De ince.. Epactarum Epactae lunares incipiun in kl septembris 
+                  
+                  LVI De inceptione concurrenrium Concurrentes incipiun in kl martias 
+                  
+                  ... Inter lunium lune est tempus illus inter deficiente et nascentem est autem ... 
+                  
+                  ... SOLIS Exlypsin solis est quotiens luna XXXma ad eandem lineam quae sol vehitur peruenit 
+                  
+                  LXIIII De eclypsin lunae Ecplypsin lune est quotiens in umbram terre luna incurrit... 
+                  
+                  
+                  
+                  <locus from="156r">156r</locus> - Incipit calculatio quomodo ... Possit quota per singulis annis ... Primo anno circuli decennouenalis XXX est luna in xi kl apl eodemque anno luna XIIII quinta die kalendarum apr... Et tum simul locum lunae aetatem citissime inuenies 
+                  
+                  .. MAGNITUDINE tante magnitudinis sunt signa singula ut non minusqua[m] duaru[m] horarum spatio uel oriri uel occidere uel de loco moueri possint. Sol unum quodqu signum trigenis diebus et decim semis horis peragrat totum uero amnitu[m] zodiaci CCCLXV diebus et VI horais perlustrat... 
+                  
+                  LONGISSME DIEI ET BREVISSIME... Xiii kl iul longissimus dies totius anni... 
+                  
+                  LXIII De ratione bisse.. Tanto minus est bosse ab integra hora quantum... 
+                  
+                  LXIIII De ratione quantum.. Expliciunt quattuor tempora anni duodecim menses... 
+                  
+                  LXX De ratione... Cardinales sunt numeri ut I II III... 
+                  
+                  
+                  
+                  LXVII Uersus de singulis mensis: before the last chapter are added six poems with 12 verses each on the calendar (some attributed to Bede):  marginal modern note about ' 1ere et la derniere de ces... retrouvint dans le missos anglo-saxon de Robert de Canterbury) 
+                  
+                  Primus Romanas ordinis, Jane, kalendas.. [suppose to be Ausonius
+                 
+                 LXVIII ITEM UERSUS DE NUMERO DIERU[M] SINGULORUM MENSIUM but actually about their characeristics and not on the number, uirgo brings fruits, leo hot... 
+                 
+                 Dira patet jani Romanis janua bellis... 
+                 
+                 anonymous, printed by Riese, no. 394, Bährens, i, p. 205. Beg.  
+                 
+                 
+                 
+                 LXVIIII - longer 
+                 
+                 His jani mensis sacer esr, en aspice, utaris... 
+                 
+                 
+                 
+                 <locus from="158v">158v</locus>-159r : Verses from Cicero's Aratea again: 
+                 
+                 LXX VERSUS DE DUODECIM SIGNIS... Marginal modern note reference to Cotton. 1612 ? f. 494? 
+                 
+                 twelve lines printed among the doubtful works of Bede (Migne, xciv. 637), but really from Cicero's Aratea, ll. 320-331 (Bährens, i, p. 21).  
+                 
+                 
+                 
+                 Primus adest Aries obscuro lumine labens 
+                 
+                 Infelixq[ue] genu proiecto corpore taurus 
+                 
+                 Et gemini clarum iactantes lucibus ignem 
+                 
+                 Aestifer est pandens feruentia sidera cancri 
+                 
+                 Nunc subter fulgens caedit uis torua leonis 
+                 
+                 Quem rutilo sequiteur conlucens corpore uirgo 
+                 
+                 Ex inproiectę claro cum lumine chelę 
+                 
+                 Ipsaq[ue] consequitur lucens uis magna nepai 
+                 
+                 Inde sadittipotens dextra flexum tenet arcu[m] 
+                 
+                 Post hunc carnifero capricornus uada repergit 
+                 
+                 Humidus inde locum conluceat aquarius orbem 
+                 
+                 Exiinis quam iferi serpentes ludere pisces 
+                 
+                 
+                 
+                 LXXI ITEM UERSUS DE DUODECIM SIGNIS 
+                 
+                 Respicis Apreles Aries frixa esse kalendas 
+                 
+                 Maius agenorei miratur cornua tauri 
+                 
+                 
+                 
+                 LXXII UERSUS SISLI ANNI... 
+                 
+                 Linea, Christe, tuos prima est quae continet annos 
+                 
+                 Atque secunda tenet ciclique indictio constet... 
+                 
+                 
+                 
+                 <locus from="159v">159v</locus>  inc. Annus solis habet quattuor tempora menses xii ebdomadas lii dies... Unum et dimidium. 
+                 
+                 Quattuor deferentie lune sunt uictorini oms XXX mas lunas faciunt...habet dies CCCLXXXIIII. 
+                 
+                 
+                 
+                 LXXV title. Adam pater generis humani di manib[us] ex terra creatus uixit annis nongentis triginta...ibide[m] requiescit in pace (exp. <locus from="162r">162r</locus>) 
+                 
+                 <locus from="162r">162r</locus> Anonymi "de compotu vel loquela digitorum (cf. Bede de indigitatione) has the same kind of table with how to show numbers with hands . Cum ergo dicisimum minimum in leua digitum inflectens ... 
+                 
+                 <locus from="163r">163r</locus> - modern title, perhaps no original one? Inc. Quaerenda est natiuitas lunę XIIII ab octauo idum martiarum usq[ue] in non aplsque... Si nihil sabbatum. 
+                 
+                 <locus from="163v">163v</locus> - inc. Anni ab incarnatione dni anno p[re]sente sunt dccxciii subtrahe ex his dcclxxx et remanent xiiii psis xiii ... Kl ian siuede ductionis an[]. 
+                 
+                <locus from="164r">164r</locus> Si uis scire quota sit indictio ad ipsos xiii annos adde III et...tantos habeas ad lunę cursuro.  
+                 
+                 <locus from="164r">164r</locus> - Bede de natura rerum liber. "versus bede presbuteri.. Naturas rerum... A meridie usq[ue] ad occidemnte[m] extendit[ur]" no scholia, no annotations, no corrections, but otherwise the same style as in Amiens 222 - running title in capitalis rustica, number of the chapters and coloured capitals fro beginning of phrases. Same scribe as Ps-Bede. 
+                 
+                 <locus from="173v">173v</locus> - Liber Bedae de temporibus. "Tempora momentis horis dieb[us]...sexte etatis dc soli patet FINIT" By the same scribe using the same style for the layout and no annotation. 
+                 
+                 
+                 
+                 <locus from="180">180</locus> - De planetis."Itaque stella Veneris et Mercurii hoc a superini tribus planetaru[m] stellis differunt q[uo]d nu[m]qua[m] nisi in solis uicinia horiq[ue] matutinis siue uespertinis cernuntur... Aliquando nouo et insolito ordine retrogradum conuertere aliquando in superiores inferiores uel signiferi...sed quod ulteriores et id cicrco longiores aetheris metas peragat." no title continues on the same line by the same scribe  
+                 
+                 <locus from="180v">180v</locus> - De hapsibus planetarum. Circulus zodiacus qui xii signis constat omni ex parte aeque uicinus est terre uerum sol cum e regionie signoru[m] terras circuit non omnibus in locis aeque...sed potius LXX dieru[m] numerum reddat." 
+                 
+                 <locus from="181">181</locus> - Argumentum ad inveniendam XIIII lunam. Sume regulares XXXVI..." 
+                 
+                 <locus from="181v">181v</locus> - Cycli decemnovennales (19 tables) Tabulae cursus uel aetas lunae .. 
+                 
+                 <locus from="184v">184v</locus> - si uis inuenire concurrentes natiuitati dni sume annos eiusdem natiuitatis quot fuerint... 
+                 
+                 <locus from="191">191</locus> - Incipiunt an[tiphona]s ad nocturnas. De S. Johanne antiphona. Priusquam te formarem in utero..." 
+                 
+                 <locus from="191v">191v</locus>  
+                 
+                 different hand added : INMATUTINIS LAUDIBUS AN[gelus] Elisabeth zacharie magnum ... 
+                 
+                 Another hand : "ordo qualiter Romana ecclesia libri catholici in ordine ad legendum ponuntur. Primitus in Septuagesima ponuntur Eptaticum...(<locus from="192r">192r</locus> - qui supra rectus dni in cena recubuit" 
+                 
+                 <locus from="192v">192v</locus> Isidore DNR with diagrams  isidori hispalensis de natura rerum fragmenta "Pro quid sint dictae kalendae. Kalendae a colendo dictae uera calo id est uoco. Astrologus uocabat populum ut uiderent accensum lunae id est initiu[m] primae lunae uel stellarum cursum quae ante aut quae retro currunt. NONAE PRO QUID DICABTUR.. Then for IDUS.. Grece meduim dicitur" 
+                 
+                 Change of the hand: "Dom III An de aduent dni. Veniet dns et non tardabit et inluminabit abscondita... Leprosi mundant[ur]" end with the end of the folio. Perhaps space was left for the diagram of the winds?! And later filled out with this text. 
+                 
+                 <locus from="193r">193r</locus> - De nominibus ventorum. Ventorum primus cardinalis septenrio... With a rose of the winds on f. 193v winged figures with two minor wind figures. 
+                 
+                 <locus from="194r">194r</locus> - De temporibus sin ait S. Ambrosius: Tempora sunt vices mutationu[m] ... -  
+                 
+                 <locus from="194v">194v</locus> - another figure of the winds with the columns the 3d looking from the vault.  
+                 
+                 <locus from="195">195</locus> r - another diagram rota of the elements and the and crossing arcs - to the right of it text: Hiems temporalis intelligit tribulatio quando tempestates et turbines scl incumbunt. Aestas est fidei persecutio quando doctrina perfidie ariditate siccatu[ur]. Uer autem... Quibusda[m] et mom[en]tis expletur. 
+                 
+                 followed by "De solsticia et aequinoctium, de mundo, de V circulis mundi, de partibus mundi."Solstitia duo sunt primum hiemale VIII KL IANR q[uo]d solstat et crescunt dies... 
+                 
+                 Mundus est uniuerssitas omnisque constat ex celo et terra de quo apostolus ait praeterit enim figura huius mundi... Eum non cognouit 
+                 
+                 Formatio mundi ita demonstratur Nam quemadmodum erigitur...que premunt hiemis 
+                 
+                 DE V CIRCULIS MUNDI In definitione aute[m] mundi circulos aiunt philosophi quinq[ue] quos grece palle.. Id est tonas uocant in quib[us] diuiditur orbis terre...distinguntur figur: 
+                 
+                 <locus from="196r">196r</locus> - rota of the 5 terrestrial circles one next to another; in the middle some figure of a man with a bow and arrow title 'diabolus'  very crude.  
+                 
+                 <locus from="196v">196v</locus> - Sed ideo aequinoctialis circulus inhab... 
+                 
+                 DE PARTIBUS MUNDI Partes mundi quattuor sunt ignis aer aqua terra quarum haec est natura...subiecta expressi pictura" but no picture, should be the odd cube. Left 3 lines at the bottom blank. 
+                 
+               </p>
+                    </msItem> 
+                 
+               <msItem>  
+                  <locus from="197" to="201v">197</locus>
+                  <title ref="de_signis_coeli">De signis coeli</title> 
+                  <incipit>Helix arcturus major habet autem in capite</incipit>
+                  <explicit>eo quod contraria sit cani.</explicit>
+                  <!--missing the last part about the five planets; with figures) Seems to be the same ruling as the previous pages - at the end the last three lines a bit more narrow than the rest - the same in the Ps-Bede. But the hand looks different not slanting as that of the previous text, more upright.   Judging by the illustration for uirgo the illustration were made after the text was written . Why only this section from the MS is so damaged?  -->
+                 
+                 <decoNote>The images placed in the outer margins are cut often - together with the demaged state of these folia compared to the previous one, this would suggest we are dealing with a separate codicological unit, used previously as a individual fascicle.
+                    
+                <locus from="197r">197r</locus> bears and drago; 
+                 
+                <locus from="197v">197v</locus> hercules, corona;
+                 
+                <locus from="198r">198r</locus> taurus; 
+                 
+                <locus from="198v">198v</locus> andromeda, equus; 
+                 
+                <locus from="199r">199r</locus> aquila, delphinus, orion, canicula; 
+                 
+                <locus from="199v">199v</locus> lepus, navis, coetus, eridanus; 
+                 
+                <locus from="200r">200r</locus> scropion; 
+                 
+                <locus from="200v">200v</locus> leo, agitator; 
+                 
+                <locus from="201r">201r</locus> piscis magnus, sacrarium, cenaturus; 
+                 
+                <locus from="201v">201v</locus>hydra anticanis; 
+                 
+                <locus from="202r">202r</locus> has a note on modern hand: 'fragmentus de spaera </decoNote>
+                 </msItem>
+               <msItem>
+                  <locus from="202r">202r</locus> 
+                  <note>Acephalus text on the celestial sphere, excerpt from Augustine, Hexameron (?)</note>
+                  <quote>Sicut argentum quod signis eminentibus refulgens caelatum uocatur huius enim esse subtilem naturam etiam scriptura demonstrat dicens quod firmauerit caelum sicut fumum partes autem eius cons axis cardines conuexa polihiemis feria cons est quod caelum continetur unde ennius ait uix solum complere ... . </quote>
+               </msItem>
+                 <msItem>
+                        <p>
+                 
+                 <locus from="201v">201v</locus> IN LETANIA MAIORE Petite et dabit[ur] uobis quartu.. In uoce tube . Again using the space left perhaps? [Luke 11:9; Psalm 46:6:  ascendit Deus in iubilo Dominus in voce tubae ?] 
+                 
+                 
+                 
+                 
+                 
+                 <locus from="202v">202v</locus> - .. Diuersa potentia cursu.. Misit herodes rex manus actenuitioh... Quia metuebat propter herodiaden... Fratri suo philippo uxore herodes enim et...  {hard to read} 
+                 
+                 <locus from="203">203</locus> - Two medical recepies. In humanistic hand together with pen trials, later protogpthic, gothic and humanistic.  
+                 
+                 <locus from="203v">203v</locus> - more pen trial drawing 'hex est scala iacob per qua ascendit in egyptum' written in humanistic and in gothic? Drawing of a human head and a dog head.  
+                 
+                 
+                 
+                 On the recto of one of the flyleaf at the begining of the ms : "Hymnus Marie Magdalene. I nocturno. Nunc Marie Magdalene Pandamus vota carmine..." 
+                 
+                 
+                 
+                 IX century. Parchment. I+203 ff. 272 x 185 mm 
+                 
+                 Rel. Mod (Jumieges, A. 12 - Ancien n. A. 128 
+              </p>
+                    </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="203">I + 203 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>272</height>
+                           <width>185</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition>Fol. 200 originally used to be after f. 197.</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1"/>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance>
+                        <rs type="corporate" ref="#jumieges">Saint-Pierre de Jumieges</rs>. <!--Monastery founded by saint Philibert in 654, cultural centre in Neustria from the 7th century onwards; in had a school, of which talks the author of the Life of saint Aycadre (the second abbot), and for sure a library, but not enough sources to specify what was its characteristics.--> The monastery was ravaged by the Vikings between 841 and 852, the monks had to flee carrying with them their precious possessions including books; returned in the half of 10th c. called by duke Guillaume I Longue-Epee, perhaps did not return the books. Six volumes datable to the 9th century are from uncertain origin, including the present Rouen 26 (A. 292).</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>
+                            <abbr>Borst, Schriften</abbr>. Vol. 1, pp. 
+                     <!--First part: Biblical, patristic, and liturgical texts, then liturgical and cosmological and astronomical texts, and last Ps-Bede De signis. 
+                     The second computistical part can be dated to 857; has both Bede's work Nat. And Temp. The Berechnung der Mondepakten fur das Inkarnationsjahr 811 -  can be taken from the Aachen encyclp. (Lib. comp. VII 1) 
+                     Neugeordnere bearbeitung des Veroneser jahrbuchlein (Liv. ann. c. 1-3, 5-52, 54-65, 69, 69 a-c) mixed together with parts from the Aachen encyclp. (Lib. Comp. I 2, 4, 6; II 14-15, 18-21; III 1, 10; IIII 1, 28a, V 13a) 
+                     Hier wurde also der kuhne Versuch unternommen, zwei enzyclopadien nich nur, wie inzwischen ublich, miteinander zu vermengen, sonder auch zu einer einzigen Uber-Enzyklopadie auszubauen und dabei zugleich auf den handlichen Umfang von 25 Blattern zuruckzuschneiden. So notig eine derartige Neugestaltung war, sie kam wohl zu spat, um Abschreiber und Nachahmer zu finden.--> </bibl>
+                  <bibl>Cordoliani, Alfred. Le plus ancien manuscrit de comput ecclesiastique du fonds de Jumieges, in: Jumieges. Congres scientifique du XIIIe centenaire, Bd. 2 (1955) p. 691-702.</bibl>
+                  <bibl>Catalogue des manuscrits en ecriture latine. Portant des indications de date de lieu ou de copiste Tome VII Ouest de la France et Pays de Loire. Editions du CNRS. Charles Samaran et Robert Marichal, Paris, 1984, p.  XVII.</bibl>
+                  <bibl>Catalogue générale des manuscrits des bibliothèques publiques de France, Départements I: Rouen. Paris, 1886, pp. 8-10. </bibl>
+                  <bibl>Sprigfeld, Alkuins Einfluss, pp. 100-2. <!--Note: Normandischen Abtei Jumieges mid 9th c. 853-867. Annalis libellus on f. 150r-164r vollstandig bis auf die Plinius-Excerpte in Kapitel 66-68 und 70. Allerdings ist die ursprungliche Reichenfolge stark verandert, wohl um eine Verbesserung der sachlichen Ordnung zu erzielen--> </bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -231,14 +231,14 @@
                     </msItem>
                     <msItem>
                         <locus from="30r">30ra</locus>
-                        <note>Prayer:</note>
+                        <title ref="#oratio">Prayer</title>
                         <rubric>Oratio ad sanctam trinitatem</rubric>
                         <incipit>Domine deus omnipotens sancta trinitas</incipit>
                         <explicit>et aliis ministrare ualeamus per eundem dominum.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="30r">30ra</locus>
-                        <note>On the creation of the luminaries according to the bible:</note>
+                        <title ref="#sancta_scriptura">On the creation of the luminaries according to the bible</title>
                         <incipit>
                             <supplied>S</supplied>ancta scriptura nobis a deo per beatum moysen tradita</incipit>
                         <explicit>et luminare minus ut preesset nocti.</explicit>
@@ -281,10 +281,12 @@
                     </msItem>
                     <msItem>
                         <locus from="49v" to="51r">49v-51r</locus>
-                        <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum (Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. V, 12)</title>
+                        <author ref="#pliny">Pliny the Elder</author>
+                        <title ref="#pliny_excerpt_presagiis">De presagiis tempestatum</title>
+                        <note>Possibly taken from <title ref="#libri_computi">Libri computi</title>, Lib. V, 12.</note>
                         <rubric>De presagiis tempestatum presagia solis XXVII</rubric>
                         <incipit>Purus oriens atque non feruens serenum diem nuntiat</incipit>
-                        <explicit>repositoriis relinquentia diras tempestates prenuntiant.</explicit>
+                        <explicit>relinquentia diras tempestates prenuntiant.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="51r">51r-52r</locus>
