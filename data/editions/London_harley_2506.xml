@@ -82,7 +82,7 @@
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_2506">www.bl.uk</ref>.</note>
                 </head>
                 <msContents>
-                    <textLang mainLang="lat" otherLangs=""/>
+                    <textLang mainLang="lat"/>
                     <msItem>
                         <locus from="1r" to="30r">1ra-30ra</locus>
                         <author ref="#hyginus">Hyginus</author>

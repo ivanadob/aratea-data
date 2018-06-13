@@ -27,11 +27,11 @@
             <p/>
          </sourceDesc>
       </fileDesc>           
-      <!--
-            <revisionDesc>
-				<change who="" date=""></change>
+      
+            <revisionDesc status="draft">
+				<change when="2018-06-12"/>
 			</revisionDesc>
-		-->
+		
    </teiHeader>
    <text>
       <body>
@@ -55,10 +55,258 @@
                <origPlace>Laon</origPlace>
                <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
-               <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8492138z">Digital facsimile at gallica.bnf.fr.</ref>
+               <note type="facs">Digital facsimile at: <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8492138z">gallica.bnf.fr.</ref>
+                    </note>
             </head>
             <msContents>
-               
+               <msItem>
+                  <locus from="1r">1r-22v</locus>
+                  <author ref="#isidore">Isidore of Seville</author>
+                  <title ref="#de_natura_rerum">De natura rerum</title>
+                  <rubric>Domino et filio sisebuto esydorus</rubric>
+                  <msItem>
+                     <note>Prologue</note>
+                     <incipit>Dum in te prestantem ingenio</incipit>
+                     <explicit>auctoritas dictorum fidem efficiat. Explicit prefatio.</explicit>
+                  </msItem>
+                  <msItem>
+                     <note>Liste of capitula</note>
+                     <rubric>Incipit capitulatio</rubric>
+                  </msItem>
+               </msItem>
+               <msItem>
+                  <locus from="22v">22v-</locus>
+                  <rubric> In nomine dei summi incipit de astronomia</rubric>
+                  <quote/>
+                  <msItem>
+                     <note>Prologue, partly based on Cassiodorus</note>
+                     
+                  </msItem>
+                  <msItem>
+                     <note>Capitula</note>
+                     <quote>CAPITULA DE ASTRONOMIA ET CONPOTI
+                        De astronomia Isidore, Etym. III, 27  
+                        
+                        De mundo Isidore, Etym., XIII, 1 
+                        
+                        De uaria altitudines celi. Bede, DNR, VI 
+                        
+                        De celo superiore (fol. 24r Bede, DNR, VII 
+                        
+                        De plagis mundi.Bede, DNR, X  
+                        
+                        De cursu planetarum Bede, DNR, XII  
+                        
+                        De ordine earum (fol. 24v) Bede, DNR, XIII  
+                        
+                        De absidibus earum Bede, DNR, XIV   
+                        
+                        Quare mutent colores (fol. 25r) Bede, DNR, XV  
+                        
+                        Ubi non sit et quare.  Bede, DNR, XXIII  
+                        
+                        De stella comete (fol. 25v) Bede, DNR, XXIV  
+                        
+                        De zodiaco circulo. Bede, DNR, XVI  
+                        
+                        De XII signis Bede, DNR, XVII  
+                        
+                        De lacteo circulo (fol. 26r) Bede, DNR, XVIII  
+                        
+                        De cursu luna p[er] signa. Bede, DNR, XXI  
+                        
+                        De figuris astronomię xli Ps.Bede De signis coelis (fol. 26v)  
+                        
+                        Versus de XII signis (fol. 31r)  
+                        
+                        It[em] alios uersus de XII signis.  
+                        
+                        De uocatione caeli (fol. 31v) Isidore, Etym., XIII, 4-5 (De caelo, De partibus caeli.  
+                        
+                        De eiusdem spere cursuIsidore, Etym., III, 34 
+                        
+                        De celeritate caeli. Isidore, Etym., III, 35 
+                        
+                        De axe caeli.(fol. 32r) Isidore, Etym., III, 36 
+                        
+                        De cęlestibus polis. Isidore, Etym., III, 37 
+                        
+                        De cardinib[us] caeli. Isidore, Etym., XIII, 1.8; Isidore, Etym., XIII, 5.4 
+                        
+                        De conuexis caeli.Isidore, Etym., III, 39. 
+                        
+                        De ianus cęli. Isidore, Etym., III, 40 
+                        
+                        De gemina facies caeli.  Isidore, Etym., III, 41 
+                        
+                        De septe[m] climatib[us] cęli. Isidore, Etym., III, 42 
+                        
+                        De emispheriis cęli. Isidore, Etym., III, 43  
+                        
+                        De die ubi apparuer[unt] sidera. Inc. Ut uictorius dicit quarta feria apparuerunt sidera VIII KL APL secundum grecos inuerno tempore... 
+                        
+                        De circulo signifero Bede, De ratione computi XII. 
+                        
+                        De ętimologia solis. Partly on Isidore, Etym., III, 35 
+                        
+                        De natura solis.  
+                        
+                        De forma signoru[m] p[er] que[m] ascend[i]t.  
+                        
+                        De auriga erectonii. Isidore, Etym., III, 71.  
+                        
+                        De VII spatiis. Isidore, Etym., XVIII, 36-9 de equibus quibus currimus next chapter 37 on de septem spatiis, de equitibus 
+                        
+                        De pedigibus.Isidore, Etym., XVIII, 40 
+                        
+                        De colorib[us] equorum.Isidore, Etym., XVIII, 41 
+                        
+                        De primo die scli.  
+                        
+                        De ascensione soli 
+                        
+                        De increm[en]to solis.  
+                        
+                        De athome.  
+                        
+                        De mom[en]to.  
+                        
+                        De minuto.  
+                        
+                        De puncto.  
+                        
+                        De ętimologia horę.  
+                        
+                        De differentia horaru[m 
+                        
+                        De horologio. Rota 
+                        
+                        De quadrantis., a diagram to follow on the verso: 
+                        
+                        de ethimologia die  
+                        
+                        De nocte   
+                        
+                        De sole gradibus et de eclipsin  
+                        
+                        De ebdomada.  
+                        
+                        De ethimologia mensibus.  
+                        
+                        De ethimologia kalendas.   
+                        
+                        De ethimologia nonis.  
+                        
+                        De ethimologia idus.  
+                        
+                        De temporum ethimologia.  
+                        
+                        De ethimologia anni.  
+                        
+                        De exordium concurrentes 
+                        
+                        De discensione lunę ad solem per menses duodecim 
+                        
+                        De sphere sole et lunae.  
+                        
+                        De cursu solis per signa.  
+                        
+                        De cursu lunę per signa.  
+                        
+                        De cursu solis per nocte[m].  
+                        
+                        De concordia solem et lunam.  
+                        
+                        De horis in quibus lucet sol.  
+                        
+                        De stellaru[m] cursu p[er] XII mensibus. Gregory De cursu stellarum 
+                        
+                        De IIII partes scripturę principales.  
+                        
+                        Dicta s[an]c[t]i Bedani de primo die.  
+                        
+                        De primo mense in exodo.  
+                        
+                        Datis epistolis ad synodu[m] nicenu[m]  
+                        
+                        De occursione paschę per X et VIIII annos 
+                        
+                        De annis domini inueniendum 
+                        
+                        De indictione per annos domini 
+                        
+                        De ciclo solari p[er] annos d[omi]ni.  
+                        
+                        De ciclo decinnouennali p[er] annos d[omi]ni 
+                        
+                        De cyclo lunari per annos d[omi]ni 
+                        
+                        De concurrentibus septimaneę 
+                        
+                        De anno a bissexto.  
+                        
+                        De ratione saltus lunę  
+                        
+                        De ępactis lunę p[er] annos domini 
+                        
+                        De k[a]l[en]dis ian[uari] p[er] singulos annos.  
+                        
+                        De luna in k[alendi] ian[uari] per singulos ann[os 
+                        
+                        De qualibet feria.  
+                        
+                        De accensionę lunę 
+                        
+                        De interlunium lunę 
+                        
+                        De puncto ubi accend[it] luna 
+                        
+                        De etate lunae 
+                        
+                        Quot horas lucet luna. 
+                        
+                        De cursu luna p[er] signa 
+                        
+                        De c[on]cordia maris et lun[ae]  
+                        
+                        Quota sit luna p[er] k[a]l[endas] XII mensis 
+                        
+                        De compoto romano 
+                        
+                        De anno solis 
+                        
+                        De termino paschali.  
+                        
+                        De luna in pascha 
+                        
+                        De regularibus ad solem 
+                        
+                        De regularibus ad lunam 
+                        
+                        De exordio terminorum.  
+                        
+                        De lun[a] monstranda per litteras 
+                        
+                        De cyclo lunę per alfabeta  
+                        
+                        Qui computure nescit 
+                        
+                        De diuisione terrae. Isidore, DNR, 48. </quote>
+                  </msItem>
+                  <msItem>
+                     <locus from="26v" to="30v">26v-30v</locus>
+                     <author ref="#bede">Ps. Bede</author>
+                     <title ref="#de_signis_coeli">De signis coelis</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="54v" to="56v">54v-56v</locus>
+                     <author ref="#gregorius_turonensis">Gregory of Tours</author>
+                     <title ref="#de_cursu_stellarum_ratio">De cursu stellarum ratio</title>
+                     <rubric>Stellarum cursus per XII mensibus et tempora et horis</rubric>
+                     <incipit>Stellarum cursus hoc modo obseruandus est</incipit>
+                     <explicit>sigibertus rex obiret crinnita multos apparuit.</explicit>
+                  </msItem>
+               </msItem>
             </msContents>
             <physDesc>
                <objectDesc form="codex">
@@ -114,27 +362,12 @@
                         </bibl>
                </listBibl>	                  
             </additional>
-            <msPart>
+            <!--<msPart>
                <msIdentifier>
                   <idno>Part 1</idno>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <locus from="1r">1r-72r</locus>
-                     <author ref="#isidore">Isidore of Seville</author>
-                     <title ref="#de_natura_rerum">De natura rerum</title>
-                     <rubric>Domino et filio sisebuto esydorus</rubric>
-                     <msItem>
-                        <note>Prologue</note>
-                        <incipit>Dum in te prestantem ingenio</incipit>
-                        <explicit>auctoritas dictorum fidem efficiat. Explicit prefatio.</explicit>
-                     </msItem>
-                     <msItem>
-                        <note>Liste of capitula</note>
-                        <rubric>Incipit capitulatio</rubric>
-                     </msItem>
-                     <note>with additions by another hand on ff. 72r-73v.</note>
-                  </msItem>
+                  
                </msContents>
             </msPart>
             <msPart>
@@ -158,7 +391,7 @@
                      <note>Missae Speciales added at the end of s. IX.</note>
                   </msItem>
                </msContents>
-            </msPart>
+            </msPart>-->
          </msDesc>
       </body>
    </text>

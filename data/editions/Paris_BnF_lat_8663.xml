@@ -148,7 +148,7 @@
                         <msItem>
                             <locus from="1r" to="19v">1r-19v</locus>
                             <author ref="#hyginus">Hyginus</author>
-                            <title>De astronomia</title>
+                            <title ref="#de_astronomia">De astronomia</title>
                             <incipit>Et si te studio gramaticae artis inductum non solum uersuum moderatione</incipit>
                             <explicit>annum uoluerunt esse cum sol a haestiuo circulore dieris CCCos LXVI dies suo cursu transigit.</explicit>
                             <decoNote>Large decorated initial E on f. 1r; drawing of Centaurus on f. 11v inside the text.</decoNote>

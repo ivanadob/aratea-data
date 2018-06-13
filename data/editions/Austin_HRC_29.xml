@@ -55,9 +55,7 @@
                     <msItem>
                         <locus from="1r" to="1v">1r-12r</locus>
                         <author ref="#bede">Bede</author>
-                        <title ref="#DNR">
-                            <abbr>DNR</abbr>
-                        </title>
+                        <title ref="#DNR">De natura rerum</title>
                         <msItem>
                             <note>Table of content</note>
                             <rubric>De naturis rerum</rubric>
@@ -98,7 +96,6 @@
                     </msItem>
                     <msItem>
                         <locus from="25v" to="26v">25v-26v</locus>
-                        <author/>
                         <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                         <incipit>Duo sunt extremi uertices mundi quos appelant polos septentrionis et austri</incipit>
                         <explicit>ad ipsum usque decurrit accipiens.</explicit>
