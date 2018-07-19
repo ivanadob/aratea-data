@@ -70,6 +70,13 @@
             <item xml:id="gbv_191634344">
                <label>Clavis</label>
                <bibl>Dekkers, Eligius, and Emil Gaar. Clavis Patrum Latinorum. 3rd ed. CCSL. Turnhout: Brepols, 1995.</bibl>
+               <bibl>
+                        <ref target="http://www.earlymedievalmonasticism.org/Corpus-Scriptorum-Ecclesiasticorum-Latinorum.html">List of online volumes.</ref>
+                    </bibl>
+            </item>
+            <item>
+               <label>CSEL</label>
+               <bibl>Corpus scriptorum ecclesiasticorum latinorum. Vienna, 1866-.</bibl>
             </item>
             <item xml:id="opac_129085561">
                <label>Rev. Bén.</label>

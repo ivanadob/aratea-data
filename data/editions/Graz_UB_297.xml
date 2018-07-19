@@ -46,7 +46,6 @@
                 </msIdentifier>
                 <head>
                     <title>Computistical collection</title>
-                    <note type="caption"/>
                     <origPlace ref="#st_lambrecht">Sankt Lambrecht</origPlace>
                     <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                     <note type="facs">Digital facsimile at <ref target="http://sosa2.uni-graz.at/sosa/katalog/katalogisate/297.html">ub.uni-graz.at</ref>.</note>
@@ -59,20 +58,19 @@
                         <rubric>Incipit liber Bede presbyteri de naturis rerum.</rubric>
                         <msItem>
                             <locus from="1r">1r</locus>
-                            <note>Verse.</note>
+                            <title type="supplied">Verse.</title>
                             <incipit>Naturas rerum uarias lanetis et aeui</incipit>
                             <explicit>Qui legis astra super mente tuere diem.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="1r" to="1v">1r-v</locus>
-                            <note>Capitula.</note>
+                            <title type="supplied">Capitula.</title>
                             <rubric>Capitula libri sequentis.</rubric>
                             <incipit>I. De quadrifario opere dei.</incipit>
                             <explicit>XLVIIII. Incendium ethne.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="1v" to="9v">1v-9v</locus>
-                            <note>Text.</note>
                             <rubric>Incipit liber de quadrifario opere dei.</rubric>
                             <incipit>Operatio diuina quae secula creauit et gubernat</incipit>
                             <explicit>usque ad meridiem atque inde africa a ameridie usque ad occidentem extenditur.</explicit>

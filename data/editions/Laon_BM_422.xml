@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -27,7 +28,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
-				<change when="2018-07-15"></change>
+				<change when="2018-07-15"/>
 			</revisionDesc>
    </teiHeader>
    <text>
@@ -125,11 +126,11 @@
                         <explicit>auctoritas dictorum fidem efficiat. Explicit prefatio.</explicit>
                      </msItem>
                      <msItem>
-                        <locus from=""></locus>
+                        <locus from=""/>
                         <title type="supplied">Liste of capitula</title>
                         <rubric>Incipit capitulatio</rubric>
                      </msItem>
-                     <incipit></incipit>
+                     <incipit/>
                      <explicit>Sic igitur ille ad crucianda corpora damnatorum finem numquam est habiturus.</explicit>
                      <finalRubric>Exlicit liber de natura rerum deo gratias.</finalRubric>
                      <decoNote>Diagrams.</decoNote>
@@ -163,7 +164,8 @@
                               <item n="13">De XII signis	(=Bede, DNR, XVII)</item>
                               <item n="14">De lacteo circulo (fol. 26r) (=Bede, DNR, XVIII)</item>
                               <item n="15">De cursu luna per signa (=Bede, DNR, XXI)</item>
-                              <item n="16">De figuris astronomię xli (fol. 26v) (=Ps.Bede <title ref="#de_signis_coelis">De signis coelis</title></item>
+                              <item n="16">De figuris astronomię xli (fol. 26v) (=Ps.Bede <title ref="#de_signis_coelis">De signis coelis</title>
+                                        </item>
                               <item n="17">Versus de XII signis (fol. 31r) </item>
                               <item n="18">Item alios uersus de XII signis.</item>
                               <item n="19">De uocatione caeli (fol. 31v) 	(=Isidore, Etym., XIII, 4-5)</item>
@@ -260,7 +262,7 @@
                         <locus from="23v" to="">23v-</locus>
                         <rubric>In nomine dei summi incipit astronomia et partes compotatio</rubric>
                         <incipit>Inter astronomiam autem et astrologiam aliquid differt</incipit>
-                        <explicit></explicit>
+                        <explicit/>
                         <note>Starts with an introduction based partly on Cassiodore, Institutiones II, 7 – on astronomy what it is, what are the topics covered by it. Added as first chapter to it Isidore’s rendering of the differences between astronomy and astrology and the phenomena which are treated.  For providing the general cosmological framework, the definition of ‘mundus’, the compiler preferred Isidore’s rendering instead of that of Bede. Bede placed more attention on the elements and the vertical possition with earth floating over water, covered by air and fire at the outmost layer. Isidore on the contrary provided a more geographical description of the world, pointing to the fact that it is always in motion and naming the four climata. 
                            Bede followed Genesis for his account of the world, its’s elements and parts. The fragments used by Pliny – that the world is in motion, as it hangs suspended</note>
                      </msItem>

@@ -18,6 +18,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
@@ -52,6 +53,52 @@
                <title>Manuscripts</title>
             </head>
             <p/>
+         </div>
+         <div>
+            <head>
+               <title>Later Manuscripts</title>
+            </head>
+            <list>
+               <item>
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Munich</settlement>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>Clm 4432</idno>
+                     </msIdentifier>
+                     <head>
+                        <title/>
+                        <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
+                        <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
+                                </note>
+                     </head>
+                     <msContents>
+                        <summary/>
+                        <msItem>
+                           <locus>165r-166r</locus>
+                           <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                        </msItem>
+                        <msItem>
+                           <locus>166r-168r</locus>
+                           <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                        </msItem>
+                        <msItem>
+                           <locus>168r</locus>
+                           <title ref="#ad_boreae">De sideribus</title>
+                        </msItem>
+                        <msItem>
+                           <locus>168r-v</locus>
+                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                        </msItem>
+                     </msContents>
+                     <additional>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </item>
+            </list>
          </div>
       </body>
    </text>

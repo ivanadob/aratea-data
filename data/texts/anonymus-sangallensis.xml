@@ -34,7 +34,7 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p>Maass first edited the text from the St. Gall Ms 250 (s. IX4/4), hence giving it the name Anonymus Sangallensis. In two of the manuscripts this text is immediately followed by the De astronomia more christiano. Le Bourdellès discovered the two texts in other manuscripts, the oldest being Valenciennes, BM, Ms 343, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
+            <p>Maass first edited the text from the <ref type="altMs" target="StGall_250.xml">St. Gall Ms 250</ref> (s. IX<hi rend="sup">4/4</hi>), hence giving it the name <title>Anonymus Sangallensis</title>. In two of the manuscripts this text is immediately followed by the <title>De astronomia more christiano</title>. Le Bourdellès discovered the two texts in other manuscripts, the oldest being <ref type="altMs" target="Valenciennes_BM_343.xml">Valenciennes, BM, Ms 343</ref>, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
             <p>Incipit: Herodius dicit helicem licaonis fuisse filiam ...</p>
             <p>Explicit: ... absides eius ultima in capricorno est.</p>
          </div>
@@ -43,6 +43,7 @@
                <title>Editions</title>
                <bibl>
                         <abbr>Maass</abbr>, pp. 595-601.</bibl>
+               <bibl>Hadravova, A. The Second Vatican Mythographer. The Newly Identified Manuscripts from the National Library in Prague. Prague, 2017, 323-331.</bibl>
             </head>
             <p/>
          </div>
@@ -61,6 +62,71 @@
                <title>Manuscripts</title>
             </head>
             <p/>
+         </div>
+         <div>
+            <head>
+               <title>Later Manuscripts</title>
+            </head>
+            <list>
+               <item>
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Munich</settlement>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>Clm 4432</idno>
+                     </msIdentifier>
+                     <head>
+                        <title/>
+                        <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
+                        <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
+                                </note>
+                     </head>
+                     <msContents>
+                        <summary/>
+                        <msItem>
+                           <locus>165r-166r</locus>
+                           <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                        </msItem>
+                        <msItem>
+                           <locus>166r-168r</locus>
+                           <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                        </msItem>
+                        <msItem>
+                           <locus>168r</locus>
+                           <title ref="#ad_boreae">De sideribus</title>
+                        </msItem>
+                        <msItem>
+                           <locus>168r-v</locus>
+                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                        </msItem>
+                     </msContents>
+                     <additional>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </item>
+               <item>
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Budapest</settlement>
+                        <repository>University Library</repository>
+                        <idno>Lat. 21</idno>
+                     </msIdentifier>
+                     <p>(according to <bibl>Hadravova (2017)</bibl> the text is on ff. 1r-75r)</p>
+                  </msDesc>
+               </item>
+               <item>
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>s</settlement>
+                        <repository/>
+                        <idno/>
+                     </msIdentifier>
+                  </msDesc>
+               </item>
+            </list>
          </div>
       </body>
    </text>

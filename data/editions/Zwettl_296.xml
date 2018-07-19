@@ -4,22 +4,22 @@
       <fileDesc>
          <titleStmt>
             <title type="main">
-            Aratea Digital
-        </title>
+               Aratea Digital
+            </title>
             <title type="sub">Zwettl, Stiftsbibliothek, Cod. 296</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
             </respStmt>
-            </titleStmt>
-            <editionStmt>
-               <edition>Digital edition according to TEI P5</edition>
-               <respStmt>
-                  <resp>TEI-P5 coded by</resp>
-                  <name type="person">Ivana Dobcheva</name>
-                  <name type="org"/>
-               </respStmt>
-            </editionStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
@@ -30,222 +30,236 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
-         <change when="2018-06-01"/>
+         <change when="2018-07-18"/>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-            <msDesc xml:id="Zwettl_296" xml:lang="en">
-               <msIdentifier>
+         <msDesc xml:id="Zwettl_296" xml:lang="en">
+            <msIdentifier>
+               <settlement>Zwettl</settlement>
+               <repository>Stiftsbibliothek</repository>
+               <idno>296</idno>
+            </msIdentifier>
+            <head>
+               <title>Computistical-astronomical collection</title>
+               <origPlace ref="#zwettl">Zwettl</origPlace> 
+               <origDate>s. XII<hi rend="sup">ex</hi>
+               </origDate>                  
+            </head>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>Parchment</support>
+                     <extent>
+                        <dimensions type="leaf" n=""/>
+                        <height/>
+                        <width/>
+                     </extent>
+                     <foliation/>
+                     <collation>
+                        <p/>
+                     </collation>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="0" writtenLines="0"/>
+                  </layoutDesc>
+               </objectDesc>
+            </physDesc>
+            <history>
+               <origin>
+                  The manuscript was written in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
+                  </origDate> (based on the palaeographical examination) in the <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>.
+                  <p>Ferner showed that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of  Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MSS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>.</p>
+               </origin>
+               <provenance>
+                  <persName/>
                   <settlement>Zwettl</settlement>
-                  <repository>Stiftsbibliothek</repository>
-                  <idno>296</idno>
-               </msIdentifier>
-               <head>
-                  <title>Computistical-astronomical collection</title>
-                  <origPlace ref="#zwettl">Zwettl</origPlace> 
-                  <origDate>s. XII<hi rend="sup">ex</hi>
-                    </origDate>                  
-               </head>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="perg">
-                        <support>Parchment</support>
-                        <extent>
-                           <dimensions type="leaf" n=""/>
-                              <height/>
-                              <width/>
-                        </extent>
-                        <foliation/>
-                        <collation>
-                           <p/>
-                        </collation>
-                        <condition/>
-                     </supportDesc>
-                     <layoutDesc>
-                        <layout columns="0" writtenLines="0"/>
-                     </layoutDesc>
-                  </objectDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     The manuscript was written in the <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
-                        </origDate> (based on the palaeographical examination) in the <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>.
-                     <p>Ferner showed that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of  Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of Paris, BnF lat. 5543.</p>
-                  </origin>
-                  <provenance>
-                     <persName/>
-                     <settlement>Zwettl</settlement>
-                     <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
-                  </provenance>
-               </history>
-               <msPart>
-                  <altIdentifier type="internal">
-                     <idno>Codicological unit 1</idno>
-                  </altIdentifier>
-                  <msContents>
-                     <msItem>
-                        <locus from="1r" to="2v">1r-2v</locus>
-                        <title type="supplied">Filling notes on astronomy, medicine (?)</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="3v" to="12v">3v-12v</locus>
-                        <author ref="#bede">Bede</author>
-                        <title ref="#DNR">De natura rerum</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="12v" to="19v">12v-19v</locus>
-                        <author ref="#bede">Bede</author>
-                        <title ref="#DT">De temporibus</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="19v" to="20r">19v-20r</locus>
-                        <title type="supplied">Poem De stella veneris et mercurii, Saturni, Iovis et Martis</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="20r" to="20v">20r-20v</locus>
-                        <title>De absidibus planetarum</title>
-                     </msItem>
-                     <msItem n="4">
-                        <locus from="20v" to="78r">20v-78r</locus>
-                        <author ref="#bede">Bede</author>
-                        <title ref="#DTR">De temporum ratione</title>
-                        <titlePart/>
-                     </msItem>
-                     <msItem n="5">
-                        <locus from="78r" to="78v">78r-78v</locus>
-                        <author ref="#bede">Ps-Bede</author>
-                        <title>De duodecim signis</title>
-                        <incipit>Ariete oriente duabus horis</incipit>
-                     </msItem>
-                     <msItem>
-                        <locus from="78v">78v</locus>
-                        <title>De ortu duodecim signorum</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="78v" to="79r">78v-79r</locus>
-                        <title>De solis et lunae defectus</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="79r">79r</locus>
-                        <title>Argumentum ad inveniendum in quo signo versetur Mars (IQSVM)</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="79r" to="79v">79r-79v</locus>
-                        <title>De incremento saltus lunae</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="79v">79v</locus>
-                        <title>De concordia solis et lunae</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="79v" to="80r">79v-80r</locus>
-                        <title>De quibus embolismi menses et bissextiles dies adimplentur</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="80r" to="84r">80r-84r</locus>
-                        <title>Commentarioli fragmentum in opus Bedae DTR</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="84r">84r</locus>
-                        <title>Quid est epacta solis et regulares solis</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="84v">84v</locus>
-                        <title>Versus de duodecim planetarum per duodecim signa</title>
-                     </msItem>
-                     <msItem>
-                        <locus from="85r">85r</locus>
-                        <decoNote>Diagram of celestial and terrestrial circles.</decoNote>
-                     </msItem>
-                     <msItem>
-                        <locus from="85v" to="101v">85v-101v</locus>
-                        <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
-                        <incipit>Quodam tamen multa dicunt et alii aliter narrasse</incipit>
-                        <note>unlike in the Vat. lat. 643 where on fol. 97r missing text from the AL, the scribe was aware and left blank space to be added later; in the two austrian MS no space is left (Blume, p. 563).</note>
-                     </msItem>
-                     <msItem>
-                        <locus from="102r">102r</locus>
-                        <title>Diagram of planetary absides</title>
-                        <note>not to be found in the sister MS Klosterneuburg or in the related Vat. lat. 643 (Blume, p. 563)</note>
-                     </msItem>
-                  </msContents>
-               </msPart>
-               <msPart>
-                  <altIdentifier type="internal">
-                     <idno>Codicological unit 2</idno>
-                  </altIdentifier>
-                  <msContents>
-                     <msItem>
-                        <locus>103r-122v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De opere monachorum</title>
-                        <bibl><abbr>PL</abbr> 40, 547-582.</bibl>
-                        <bibl><abbr>CSEL</abbr> 41, 531-595.</bibl>
-                        <bibl><abbr>Clavis</abbr> 305.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>122v-136v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De bono coniugali</title> 
-                        <bibl><abbr>Clavis</abbr> 299.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>136v-154r</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De sancta virginitate</title> 
-                        <bibl><abbr>Clavis</abbr> 300.</bibl></msItem>
-                     <msItem>
-                        <locus></locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De bono viduitatis </title>
-                        <bibl><abbr>Clavis</abbr> 301.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>164v-172r</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De orando Deo (= Epistola 130) </title>
-                        <bibl><abbr>Clavis</abbr> 262.130</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>172v-182v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De agone christiano </title>
-                        <bibl><abbr>CSEL</abbr> 41 [1900], 99-138.</bibl>
-                        <bibl><abbr>Clavis</abbr> 296.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>183r-v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De agone christiano</title>
-                        <note>Lib. I, cap. 1-2.</note>
-                        <bibl><abbr>Clavis</abbr> 266.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>184r-196v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>Epistolae ad Romanos inchoata expositio </title>
-                        <bibl><abbr>CSEL</abbr> 84 [1971] 143-181.</bibl>
-                        <bibl><abbr>Clavis</abbr> 281.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>197r</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>Epistola 37</title> 
-                        <bibl><abbr>Clavis</abbr> 262.37.</bibl>
-                     </msItem>
-                     <msItem>
-                        <locus>197v-215v</locus>
-                        <author ref="#augustinus_aurelius">Augustine</author>
-                        <title>De diversis quaestionibus ad Simplicianum</title> 
-                     </msItem>
-                  </msContents>
-               </msPart>
-            </msDesc>
+                  <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+               </provenance>
+            </history>
+            <msPart>
+               <altIdentifier type="internal">
+                  <idno>Codicological unit 1</idno>
+               </altIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Filling notes on astronomy, medicine (?)</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="3v" to="12v">3v-12v</locus>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DNR">De natura rerum</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="12v" to="19v">12v-19v</locus>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DT">De temporibus</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="19v" to="20r">19v-20r</locus>
+                     <title type="supplied">Poem De stella veneris et mercurii, Saturni, Iovis et Martis</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="20r" to="20v">20r-20v</locus>
+                     <title>De absidibus planetarum</title>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="20v" to="78r">20v-78r</locus>
+                     <author ref="#bede">Bede</author>
+                     <title ref="#DTR">De temporum ratione</title>
+                     <titlePart/>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="78r" to="78v">78r-78v</locus>
+                     <author ref="#bede">Ps-Bede</author>
+                     <title>De duodecim signis</title>
+                     <incipit>Ariete oriente duabus horis</incipit>
+                  </msItem>
+                  <msItem>
+                     <locus from="78v">78v</locus>
+                     <title>De ortu duodecim signorum</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="78v" to="79r">78v-79r</locus>
+                     <title>De solis et lunae defectus</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="79r">79r</locus>
+                     <title>Argumentum ad inveniendum in quo signo versetur Mars (IQSVM)</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="79r" to="79v">79r-79v</locus>
+                     <title>De incremento saltus lunae</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="79v">79v</locus>
+                     <title>De concordia solis et lunae</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="79v" to="80r">79v-80r</locus>
+                     <title>De quibus embolismi menses et bissextiles dies adimplentur</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="80r" to="84r">80r-84r</locus>
+                     <title>Commentarioli fragmentum in opus Bedae DTR</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="84r">84r</locus>
+                     <title>Quid est epacta solis et regulares solis</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="84v">84v</locus>
+                     <title>Versus de duodecim planetarum per duodecim signa</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="85r">85r</locus>
+                     <decoNote>Diagram of celestial and terrestrial circles.</decoNote>
+                  </msItem>
+                  <msItem>
+                     <locus from="85v" to="101v">85v-101v</locus>
+                     <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
+                     <incipit>Quodam tamen multa dicunt et alii aliter narrasse</incipit>
+                     <note>unlike in the Vat. lat. 643 where on fol. 97r missing text from the AL, the scribe was aware and left blank space to be added later; in the two austrian MS no space is left (Blume, p. 563).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="102r">102r</locus>
+                     <title>Diagram of planetary absides</title>
+                     <note>not to be found in the sister MS Klosterneuburg or in the related Vat. lat. 643 (Blume, p. 563)</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+               <altIdentifier type="internal">
+                  <idno>Codicological unit 2</idno>
+               </altIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus>103r-122v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De opere monachorum</title>
+                     <bibl>
+                                <abbr>PL</abbr> 40, 547-582.</bibl>
+                     <bibl>
+                                <abbr>CSEL</abbr> 41, 531-595.</bibl>
+                     <bibl>
+                                <abbr>Clavis</abbr> 305.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>122v-136v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De bono coniugali</title> 
+                     <bibl>
+                                <abbr>Clavis</abbr> 299.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>136v-154r</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De sancta virginitate</title> 
+                     <bibl>
+                                <abbr>Clavis</abbr> 300.</bibl>
+                        </msItem>
+                  <msItem>
+                     <locus/>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De bono viduitatis </title>
+                     <bibl>
+                                <abbr>Clavis</abbr> 301.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>164v-172r</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De orando Deo (= Epistola 130) </title>
+                     <bibl>
+                                <abbr>Clavis</abbr> 262.130</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>172v-182v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De agone christiano </title>
+                     <bibl>
+                                <abbr>CSEL</abbr> 41 [1900], 99-138.</bibl>
+                     <bibl>
+                                <abbr>Clavis</abbr> 296.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>183r-v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De agone christiano</title>
+                     <note>Lib. I, cap. 1-2.</note>
+                     <bibl>
+                                <abbr>Clavis</abbr> 266.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>184r-196v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>Epistolae ad Romanos inchoata expositio </title>
+                     <bibl>
+                                <abbr>CSEL</abbr> 84 [1971] 143-181.</bibl>
+                     <bibl>
+                                <abbr>Clavis</abbr> 281.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>197r</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>Epistola 37</title> 
+                     <bibl>
+                                <abbr>Clavis</abbr> 262.37.</bibl>
+                  </msItem>
+                  <msItem>
+                     <locus>197v-215v</locus>
+                     <author ref="#augustinus_aurelius">Augustine</author>
+                     <title>De diversis quaestionibus ad Simplicianum</title> 
+                  </msItem>
+               </msContents>
+            </msPart>
+         </msDesc>
          <listBibl>
             <bibl>Ziegler, Charlotte. <title>Zisterzienserstift Zwettl. Katalog der Handschriften des Mittelalters</title>, Teil III: Codex 201-300 (Scriptorium ordinis Cisterciensium). Wien-München, 1989.</bibl>
             <bibl>Entry at manuscripta.at with further bibliographical references<ptr target="http://manuscripta.at/?ID=31907"/>.</bibl>
          </listBibl>
       </body>
-  </text>
+   </text>
 </TEI>

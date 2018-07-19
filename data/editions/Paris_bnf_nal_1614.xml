@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -14,7 +15,7 @@
                 <respStmt>
                     <resp>TEI-P5 coded by </resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"></name>
+                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -22,10 +23,12 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc><p></p></sourceDesc>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-            <change when="2018-07-13"></change>
+            <change when="2018-07-13"/>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -37,54 +40,56 @@
                     <idno>NAL 1614</idno>
                 </msIdentifier>
                 <head>
-                    <title></title>
-                    <note type="caption"></note>
-                    <origPlace ref="#"></origPlace>
-                    <origDate notBefore="0800" notAfter="0850"></origDate>
+                    <title/>
+                    <note type="caption"/>
+                    <origPlace ref="#"/>
+                    <origDate notBefore="0800" notAfter="0850"/>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
                         <supportDesc material="perg">
                             <support>
-                                <p><material>Parchment</material></p>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
                             </support>
                             <extent>
                                 <measure type="leavesCount" quantity="99">99 fols.</measure>
                                 <dimensions type="leaf" unit="mm">
-                                    <height></height>
-                                    <width></width>
+                                    <height/>
+                                    <width/>
                                 </dimensions>
                             </extent>
-                            <foliation></foliation>
+                            <foliation/>
                             <collation>The manuscript constist of at least two codicological units as becomes clear by the different quire marks. In the first part O (f.8v), P (f.16v), Q (f.24v), R (f.32v), S (f.38v), T (f.46v) and V (f.54v); in the second part I (f.82v), II (f.88v), and III (f.96v). Consequently a tentative formula for the second part would look like as follows: I<hi rend="sup">6</hi> (ff.77-82), II<hi rend="sup">7-1</hi> (ff.82-88, missing one after f.83), III<hi rend="sup">8</hi> (ff.89-96), IV<hi rend="sup">4-1</hi> (ff.97-99, missing one after f. 99).</collation>
                             <condition>
                                 <p>Missing at least two folia (after f.83 and f.99). Damage by ff. 88, 94 and 97 (partially cut or torn).</p>
                             </condition>
                         </supportDesc>
                         <layoutDesc>
-                            <layout columns="1" writtenLines="27 28"></layout>
+                            <layout columns="1" writtenLines="27 28"/>
                         </layoutDesc>
                     </objectDesc>  
                     <handDesc>
-                        <handNote></handNote>
+                        <handNote/>
                     </handDesc>
                     <scriptDesc>
                         <scriptNote script="carolmin">Caroline minuscule.</scriptNote>
                     </scriptDesc>
                     <bindingDesc>
                         <binding>
-                            <p></p>
+                            <p/>
                         </binding>
                     </bindingDesc>
                 </physDesc>
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
-                        <bibl></bibl>
+                        <bibl/>
                     </listBibl>
                 </additional>
                 <msPart>
-                    <msIdentifier></msIdentifier>
+                    <msIdentifier/>
                     <msContents>
                         <msItem>
                             <locus from="1r" to="75r">1r-75r</locus>
@@ -102,7 +107,7 @@
                     </msContents>
                 </msPart>
                 <msPart>
-                    <msIdentifier></msIdentifier>
+                    <msIdentifier/>
                     <msContents>
                         <msItem>
                             <locus from="77r" to="93v">77r-93v</locus>
@@ -180,7 +185,8 @@
                                 <title>Invuolutio spherae</title>
                                 <rubric>Inuolutio spherae</rubric>
                                 <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplic</incipit>
-                                <explicit>uius heduli desuper obtinent locum Septentrio <gap reason="damage"/></explicit>
+                                <explicit>uius heduli desuper obtinent locum Septentrio <gap reason="damage"/>
+                                </explicit>
                                 <note>One folio was torn out after f. 83. It contained most probably the illustration usually attached to Involutio spherae of a globe on five columns. This was most probably a singleton, since there is no text missing between ff. 87 and 88, where one sees only the stub with which the folio was attached to the binding.</note>
                             </msItem>
                             <msItem>
@@ -189,7 +195,8 @@
                                 <incipit>Uertices circa quos spera caeli uoluitur polos antiq</incipit>
                                 <explicit>adeptos fuisse opinabantur uictoriam.</explicit>
                                 <finalRubric>Explicit liber astrologorum.</finalRubric>
-                                <decoNote>On ff. 92v-93r space left blank for illustrations: zodiacus circulus (f.<locus from="91r">91r</locus>), Luna (f.<locus from="91v">91v</locus>), Sol (f.<locus from="92v">92v</locus>) and the planets (f.<locus from="93r">93r</locus>). For description of the constellations see Lippincott and Sternbilder. <!--Constellations: space well defined in relation to text for Ursa maior (f. 84r) till serpentarius on 85r; but on <locus from="85v">85v</locus>– illustrations placed in the margin (as if scribe writing the text forgot to leave space), f. <locus from="86r">86r</locus>– again space left for twins, - auriga; <locus from="86v">86v</locus>– illustration placed in the margin although space is left blank; <locus from="87r">87r</locus>– illustration of Andromeda and Equus entering the text space -> drawn before the text?! <locus from="87v">87v</locus>– in the margin (Triangulus, Pisces, Perseus); f. <locus from="88r">88r</locus>– Pleiades, Lyra, Cignum, Aquarius, Capricornus the outer half of the page is torn out – perhaps images placed in the outer margin? The same goes for <locus from="88v">88v</locus>where text in some parts was drawn inside – left space for the (now missing) illustrations; f. <locus from="89r">89r</locus>– Syrius, lepus, nauis – and also <locus from="89v">89v</locus>and <locus from="90r">90r</locus>have illustration with defined space left for them.--></decoNote>
+                                <decoNote>On ff. 92v-93r space left blank for illustrations: zodiacus circulus (f.<locus from="91r">91r</locus>), Luna (f.<locus from="91v">91v</locus>), Sol (f.<locus from="92v">92v</locus>) and the planets (f.<locus from="93r">93r</locus>). For description of the constellations see Lippincott and Sternbilder. <!--Constellations: space well defined in relation to text for Ursa maior (f. 84r) till serpentarius on 85r; but on <locus from="85v">85v</locus>– illustrations placed in the margin (as if scribe writing the text forgot to leave space), f. <locus from="86r">86r</locus>– again space left for twins, - auriga; <locus from="86v">86v</locus>– illustration placed in the margin although space is left blank; <locus from="87r">87r</locus>– illustration of Andromeda and Equus entering the text space -> drawn before the text?! <locus from="87v">87v</locus>– in the margin (Triangulus, Pisces, Perseus); f. <locus from="88r">88r</locus>– Pleiades, Lyra, Cignum, Aquarius, Capricornus the outer half of the page is torn out – perhaps images placed in the outer margin? The same goes for <locus from="88v">88v</locus>where text in some parts was drawn inside – left space for the (now missing) illustrations; f. <locus from="89r">89r</locus>– Syrius, lepus, nauis – and also <locus from="89v">89v</locus>and <locus from="90r">90r</locus>have illustration with defined space left for them.-->
+                                </decoNote>
                                 <!--<note>Early modern gloss on <locus from="77v">77v</locus> next to a line with text ‘Ego quipped ea quae derelict sunt..’ reading <quote>Non fuit aratus scriptus huius libri</quote>.</note>-->
                             </msItem>
                         </msItem>
@@ -216,4 +223,3 @@
         </body>
     </text>
 </TEI>
-
