@@ -6,6 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Anonymus Sangallensis</title>
+            <author ref="#ivana_dobcheva">Ivana Dobcheva</author>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -24,9 +25,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital-born text.</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-07-20"/>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -114,16 +118,72 @@
                         <repository>University Library</repository>
                         <idno>Lat. 21</idno>
                      </msIdentifier>
-                     <p>(according to <bibl>Hadravova (2017)</bibl> the text is on ff. 1r-75r)</p>
+                     <msContents>
+                        <msItem>
+                           <locus>1r-75r</locus>
+                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                        </msItem>
+                     </msContents>
+                     <additional>
+                        <listBibl>
+                           <bibl>
+                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
+                        </listBibl>
+                     </additional>
                   </msDesc>
                </item>
                <item>
                   <msDesc>
                      <msIdentifier>
-                        <settlement>s</settlement>
-                        <repository/>
-                        <idno/>
+                        <settlement>Venice</settlement>
+                        <repository>Biblioteca Nazionale Marciana</repository>
+                        <idno>Lat. X, 119</idno>
+                        <altIdentifier>
+                           <idno>3762</idno>
+                        </altIdentifier>
                      </msIdentifier>
+                     <head>
+                        <title>Mytohlogical collection</title>
+                        <origDate notBefore="1401" notAfter="1500">s. XV</origDate>
+                     </head>
+                     <msContents>
+                        <msItem>
+                           <locus>62v-65r</locus>
+                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                        </msItem>
+                     </msContents>
+                     <additional>
+                        <listBibl>
+                           <bibl>
+                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
+                           <bibl>Valentinelli, vol. 6, p. 59.</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </item>
+               <item>
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bergamo</settlement>
+                        <repository>Biblioteca civica Angelo Mai</repository>
+                        <idno>MA 329</idno>
+                     </msIdentifier>
+                     <head>
+                        <origDate notBefore="1451" notAfter="1500">s. XV<hi rend="sup">2</hi>
+                                </origDate>
+                     </head>
+                     <msContents>
+                        <msItem>
+                           <locus>59r-62r</locus>
+                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
+                        </msItem>
+                     </msContents>
+                     <additional>
+                        <listBibl>
+                           <bibl>
+                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
+                        </listBibl>
+                     </additional>
                   </msDesc>
                </item>
             </list>
