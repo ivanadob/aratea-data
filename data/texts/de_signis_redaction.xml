@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De signis caelis (redaction)</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>ae, e-caudata and e all trascribed as ae according to Latin classical grammar; numbers in roman capitals; modern punctuation; u and v are kept as u; capital letter at the start of a sentence. </edition>
+            <respStmt>
+               <resp>Edition and TEI-P5 encoding by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc status="draft">
+        <change when="2018-07-22"/>
+     </revisionDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <listWit>
+            <witness xml:id="Z">Zwettl, Stiftsbibliothek, Cod. 296</witness>
+            <witness xml:id="Zw">Zwettl, Stiftsbibliothek, Cod. 296, corrections</witness>
+            <witness xml:id="K">Klosterneuburg, Stiftsbibliothek, Cod. 685</witness>
+            <witness xml:id="V">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</witness>
+         </listWit>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Maass first edited the text from the <ref type="altMs" target="StGall_250.xml">St. Gall Ms 250</ref> (s. IX<hi rend="sup">4/4</hi>), hence giving it the name <title>Anonymus Sangallensis</title>. In two of the manuscripts this text is immediately followed by the <title>De astronomia more christiano</title>. Le Bourdellès discovered the two texts in other manuscripts, the oldest being <ref type="altMs" target="Valenciennes_BM_343.xml">Valenciennes, BM, Ms 343</ref>, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
+            <p>Incipit: Herodius dicit helicem licaonis fuisse filiam ...</p>
+            <p>Explicit: ... absides eius ultima in capricorno est.</p>
+         </div>         
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <p/>
+         </div>
+         <div>
+            <head>Eidition:</head>
+         <div corresp="#vv_19-42">
+            <p>Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero e contra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes Arcturos simul cum rotis quem quidam Plaustrum uocant; quae etiam capita per summum <app>
+                            <rdg wit="#V #K">habent</rdg>
+                            <rdg wit="Z">habeant</rdg>
+                        </app>; alter utraque quidem in deorsum, altera uero sursum aspiciunt. Et arcturum quidem maiorem uocant Helicem, Arcturum autem minorem uocant canis caudam. Altera namque Helice quae apparet prima noctis, <app>
+                            <rdg wit="#V #Z">alia</rdg>
+                            <rdg wit="#K">altera</rdg>
+                        </app> uero pusilla quidem sed a nauigantibus obseruatur, maria enim conturbat.</p> 
+            <p>Habet <app>
+                            <rdg wit="#V">autem</rdg>
+                            <rdg wit="#Z #K">enim</rdg>
+                        </app> Helix Arcturus maior in capite stellas obscuras VII, in spatula <!--De signis: scapula--> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. sunt omnes XVI.</p>
+            <p>Fenix qui et Arctutus minor et a quibusdam canis cauda uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
+                </div>
+            <div>
+                    <p>Draco qui continet utrosque arcturos helicis superuoluit caput, phenicis circumcidit caudam. Habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</p>
+                </div>
+            <div>
+                    <p>Hercules qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in ropolo quem tenet in eadem manu I.</p>
+                </div>
+            <div>
+               <p>Corona uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis Arcturi.</p>
+            </div>
+            <div>
+               <p>Serpentarius qui et Asclepius uocatur. Stans uero supra scorpionem tenet serpentem in manibus. Habet autem in capite stellam splendidam I, in sinistra manu III, in dextera IIII, in utroque humero splendidam I, in utrisque lumbis I, in utroque genu I, in dextera tibia I, in utroque pede I. Sunt omnes XVII.</p>
+               <p>Serpens quem tenet in manu habet stellas in capite II, per reliquum corpus IIII. Fiunt insimul XXIII.</p>
+            </div>
+            <div>
+               <p>Scorpio habet stellas in utrisque labiis II, quarum priores sunt magnae secundae obscurae; <app>
+                            <rdg wit="#V #K #Zw">in fronte uero III</rdg>
+                            <rdg wit="#Z"/>
+                        </app>, media autem ex ipsis splendidior est caeteris, in spina III, in uentre II, in cauda V, super aculeum II. Sunt omnes XVIIII.</p>
+            </div>
+            <div>
+               <p>
+                        <app>
+                            <rdg wit="#V #Z">Arcades</rdg>
+                            <rdg wit="#K">Arcides</rdg>
+                        </app> qui et <app>
+                            <rdg wit="#K">bootes</rdg>
+                            <rdg wit="V Z">bootis</rdg>
+                        </app> fertur esse custos Plaustri. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.</p>
+            </div>
+            <div>
+               <p>Virgo quae et iusticia appellatur. Habet stellam in capite obscuram ualde I, in unaquaque ala II, in singulis humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. Sunt omnes XVIIII.</p>
+            </div>
+            <div corresp="#involutio_spherae_virgo">
+               <p>Proxime istius uirginis iacet figura. Primum enim in hac stella sol uix incorrupta terrae cuncta obseruantur genera. Quaecumque finem acceptura corruptionis denominatur omnibus uirginis uita.</p>
+            </div>
+            <div corresp="#involutio_spherae_libra">
+               <p>Libra autem quod triticum in domibus brutorum terrigenis manibus coaceruatur laboribus terrenis tot colligitur. Tunc in opacis conditas escas tribuit innumerabiles <app>
+                            <rdg wit="#Zw #V #K">nutrimenta</rdg>
+                            <rdg wit="#Z">detrimenta</rdg>
+                        </app>. Quando uergilae incolo continent sementem hic adcommodat semen terrae in ulnis et sine certamen adsummum introducitur.</p>
+            </div>
+            <div>
+               <p corresp="#involutio_spherae">Gemini autem iacent ordine manifesto eo quod fructus adcreuerit duplex. Uirides autem supra terra inchoant findi naturam et duplices folias addidit germinantes ad serenitatem sacrae disciplinae.</p>
+               <p>Ex geminis prior qui excedit a Cancro. Habet stellam in capite spelendidam I, in utroque humero splendidam I, in utroque genu splendidam I. Alter uero habet in capite stellam splendidam I, in humero sinistro I, per singula femora I, in dorso III. Sunt omnes VII. In <app>
+                            <rdg wit="#V #Z">utrosque</rdg>
+                            <rdg wit="#K">utroque</rdg>
+                        </app> uero XII.</p>
+               <p>Ysidorus dixit Castorem quoque et Pollucem post mortem inter <app>
+                            <rdg wit="#V">notissima</rdg>
+                            <rdg wit="#K #Z">nouissima</rdg>
+                        </app> sydera constituit quod signum gemini dicunt.</p>
+            </div>
+         <div>
+            <p>Cancer. Hic mutatio elementi recipienda est cancer existens temporibus canceris quod maximum fructum demonstret mortalibus aqua constituitur ordine manifesto.</p>
+            <p>Habet autem stellas splendidas in testa II, in dextris pedibus per singulos I, in sinistro primo I, et in sinistro tercio I, in quarto I, in ore I, in dextro labio III, in sinistro II. Sunt omnes XV.</p>
+         </div>
+         <div>
+            <p corresp="#al">Pedibus quidem retrosis Leo subsistens bene decet. Hic quoque aestu messores inici iubet. Hic autem ubi <app>
+                            <rdg wit="#K #V #Z">spicas</rdg>
+                            <rdg wit="#Zw">spices</rdg>
+                        </app> et uacuae cernuntur segetes aestatisque primae conuenit Leo; honorifice <app>
+                            <rdg wit="#V">decantantes</rdg>
+                            <rdg wit="#K #Z">decantantur</rdg>
+                        </app> annua dicere adinuenti repente incedunt. Nauigia uero non amplius remigis rectum cognoscere iter mihi placita sine uentis ad uentum quidem transcurrit <app>
+                            <rdg wit="#K #V #Z">gubernacula</rdg>
+                            <rdg wit="#Zw">gubernaculum</rdg>
+                        </app> tendens. Hic autem de illustrissimis astris. Putatur etiam a Ioue honorificatum animalis istud, pro eo quod quadrupedibus praeest. Quidam uero aiunt quam Hercules <app>
+                            <rdg wit="#K #V #Z">primis</rdg>
+                            <rdg wit="#Zw">primus</rdg>
+                        </app> dimicatur fuit memoratus. Laudabilem enim solum hunc inermis perimit sed apprehensum offocauit.</p>
+            <p>Habet stellas in capite III, in ceruice II, in pectore I, in dorso III, in summitate caudae spendidam I, sub pectore II, in anteriori pede splendidam I. Sunt omnes XIII.</p>
+            <p>Ysidorus dixit leonem in Grecia ingentem Hercules occidit et propter uirtutem suam hunc inter sydera XII constituit. Hoc signum sol cum attigerit nimium <app>
+                            <rdg wit="#V #Z">calore</rdg>
+                            <rdg wit="#K">calorem</rdg>
+                        </app> mundi <app>
+                            <rdg wit="#V #Z">reddet</rdg>
+                            <rdg wit="#K">reddit</rdg>
+                        </app> et aestas facit.</p>
+         </div>
+         <div>
+            <p>Agitator autem habet stellam in capite I, in utroque humero I, sed ea est clarior quae in sinistro humero est, in utroque cubito I, in dextra manu I, in summitatem manus sinistrae II, et super ipso brachio Hedulos duos et in utroque Hedulo stellam I. Sunt omnes X.</p>
+         </div>
+         <div>
+            <p>Taurus quidem iacet post ipsum quasi laboriosus figura similis illi tamquam in ceruice continentem qualem condecet iugum directis aratris sulcis diuidit terras, in stellarum ordo qui olim <app>
+                            <rdg wit="#V #Z">quondam</rdg>
+                            <rdg wit="#K"/>
+                        </app> dimicatur taurus. Sed et hic mortalis sic uocatur uniuersorum finium custos.</p>
+            <p>Habet <app>
+                            <rdg wit="#V">namque</rdg>
+                            <rdg wit="#K #Z">autem</rdg>
+                        </app> stellas in utroque cornu I, in fronte II, per singulos oculos I, in nare dextra I. Haec autem stellae Pliades et Uergiliae necnon et Subuculae dicuntur. In utroque genu I, in pallio II, in collo II, in dorso III, ex quibus nouissima spendidior est ceteris, in uentre I, in pectore I. Sunt omnes XVIII.</p>
+         </div>
+         <div>
+            <p>Cepheus accaron habet in capite stellas splendidas II et in dextra manu splendidam I, in utroque humero I, in zona III, in dextro latere ex transuerso super ilium VII, in sinistro genu II, in summitate pedu IIII. Sunt omnes XXI. Hic autem in septentrionis inasionem <note>for incisionem mistaken for open cc-a</note> constituitur.</p>
+         </div>
+         <div>
+            <p>Cassepia habet in capite stellam splendidam I, in utroque humero splendidam I, in dextra parte pectoris splendidam I, in dextro cubitu I, in utrisque manibus summitate splendidam I, in umbilico splendidam et magnam I, in sinistro femore <app>
+                            <rdg wit="#Z #V">II</rdg>
+                            <rdg wit="#K">III</rdg>
+                        </app> et per singulos angulos in summitate sellulae I. Sunt omnes XIII.</p>
+         </div>
+         <div>
+            <p>Andromeda habet stellam in capite splendidam I, in utroque uero humero I, in utrisque cubitis I, in summitate manus sinistrae splendidam I, <app>
+                            <rdg wit="#V #Z">in pedali in summitate manus</rdg>
+                            <rdg wit="#K">in summitate manus in pedali</rdg>
+                        </app> splendidas II, in zona III, super zonam IIII, in unoquoque genu splendidam I, in dextro pede II, in sinistro I. Sunt omnes XXI.</p>
+         </div>
+         <div>
+            <p>Equus qui et Bellorumfons dicitur. Habet stellas in rostro II obscuras, in capite splendidam I, in maxilla I, in utrisque auribus splendidam I, in ceruice IIII, in humero I, in pectore I, in spina I, in umbilico nitida I, in utroque genu I, per singulas ungulas anteriores I. Sunt omnes XVIII.</p>
+         </div>
+         <div>
+            <p>Aries habet stellam in capite I, in nare III, in collo II, in summitate anterioris <app>
+                            <rdg wit="#V #Z">pede</rdg>
+                            <rdg wit="#K">pedis</rdg>
+                        </app> I, in dorso IIII, in cauda I, in uentre III, in lumbo I, in summo pede I. Sunt omnes XVII.</p>
+         </div>
+         <div>
+            <p>Triangulus qui iacet super caput Arietis.</p>
+            <p>Habet per <app>
+                            <rdg wit="#V #Z">singula angula</rdg>
+                            <rdg wit="#K">singulos angulos</rdg>
+                        </app> stellam splendidam I, ex quibus una <app>
+                            <rdg wit="#V #Z">est</rdg>
+                            <rdg wit="#K"/>
+                        </app> splendidior ceteris.</p>
+         </div>
+         <div>
+            <p>Pisces. Aquilonius habet stellas XII, Austris XV. Linteum eorum in quo continentur habet stellas ad aquilonem III, ad occasum III, ad orientem III, in conexum III. Sunt omnes XXXVIIII.</p>
+         </div>
+         <div>
+            <p>Perseus qui fertur tenere caput Gorgonis. Habet stellas in utroque humero splendidam I, in summitate manus dextrae I, in eiusdem cubito I, in summitate manus sinistrae I, in uentre I, in dextro lumbo nitidam I, in dextro femore splendidam I, in utroque genu I, in tibia II. Sunt omnes XII.</p>
+            <p>Gorgonus autem dicitur habere in capite stellam I et in crinibus III.</p>
+         </div>
+         <div>
+            <p>
+                        <ref type="internal" cRef="al_pliades" corresp="al.xml">Coarte quidem pluresue conueniunt omnes Pliades uidentur quas equidem uniuersas <app>
+                                <rdg wit="#V">
+                                    <gap/>
+                                </rdg>
+                                <rdg wit="#K"/>
+                            </app> <app>
+                                <rdg wit="#V #Z">habentur</rdg>
+                                <rdg wit="#K">habent</rdg>
+                            </app> et ipsas quoque conspicere iugiter VII in personis hominum cognoscuntur. Sex quidem coram oculis uidentur ut Ioues ait. Una quippe perdidit claritatem stella, ex quo a generationibus audiuimus, ut ipse ait. Septem quidem illae assidue uocantur quae quidem pusillae et sine lumine uidentur; has et Uirgilias uocant. <app>
+                                <rdg wit="#V #Z">Ipparchus</rdg>
+                                <rdg wit="#K">Iparchus</rdg>
+                            </app> septem inquit stellas iuges bene iacentes triangulis speciem demonstrant. Et Aratus quidem VII infit esse, septima autem uix intueri potest. Haec et aestu et hieme incipiunt. Ideo et Uirgiliae quod uer <app>
+                                <rdg wit="#V #Z">oriantur</rdg>
+                                <rdg wit="#K">oriatur</rdg>
+                            </app>. Propter quod addidit dicens una quippe quomodo perdidit claritatem stella, et aliud quod Ioues ait eo quod esse cassa ut est VII quae esse aspectu oculis, quae VI ab hominibus coniunctae uidentur; alii uero quiram putant fudiens prae timore Orionis. Aratus autem in diuinis ait, primum persecuta a Sole Ilectra non sustinens uidere casos pro nepotum <app>
+                                <rdg wit="#V #Z">fugiit</rdg>
+                                <rdg wit="#K">fugit</rdg>
+                            </app>. Unde illam per quod tempora parere dissolutis crinibus propter luctum et ita cognominari eam <app>
+                                <rdg wit="#V #Z">stella</rdg>
+                                <rdg wit="#K">stellam</rdg>
+                            </app> comitem. Quidam autem illam quae non paret Meropen esse dicunt nupta a quodam uiro nominari <app>
+                                <rdg wit="#V #Z">Ippodamia</rdg>
+                                <rdg wit="#K">Ipodamia</rdg>
+                            </app>.</ref>
+                    </p>
+         </div>
+         <div>
+            <p>Lira habet stellas in utroqoue pectino I, per singulos pedales I, in modulo I, in iutroque humero I, in iugo I, in tymplano splendidam atque <app>
+                            <rdg wit="#Zw #V">canidam</rdg>
+                            <rdg wit="#Z">nitidam</rdg>
+                            <rdg wit="#K">candidam</rdg>
+                        </app> I. Sunt omnes VIIII.</p>
+         </div>
+         <div>
+            <p>Cignus habet stellam in capite splendidam I, in collo splendidam I, in dextra ala V, unam nitidam, quae est erga collum, in sinistra ala V, in corpore I, in genitale magnam I. Sunt omnes XIIII.</p>
+         </div>
+         <div>
+            <p>Aquarius habet in capite stellas II obscuras, in utroque humero I, in utroque cubito splendidam I, in summis manibus I, per singulas mamillas I, subtus mamillis ex utraque parte I, in <app>
+                            <rdg wit="#V #Z">sinistra</rdg>
+                            <rdg wit="#K">sinistro</rdg>
+                        </app> lumbo I, in utroque genu I, in dextra tibia I, in singulis pedibus I. Sunt omnes XX. Effusio autem aquae fit dextra leuaque in quo II splendidae sunt, ceterae uero obscurae.</p>
+         </div>
+         <div>
+            <p>Capricornus autem habet in utroque cornu stellas II, in naribus splendidam I, in capite II, in collo splendidam I, in pectore II, in anteriori pede I, in summitatem ipsius pedis I, in dorso VII, in uentre V, in cauda II. Sunt omnes XXVI.</p>
+         </div>
+         <div>
+            <p>Sagittarius habet stellas in capite II, in costis II, in dextro cubito I, in scapula nitidam I, in dorso II, in cauda II, in anteriori genu I, in utroque pede I, in arcu II et in iaculo IIII, una uero in summo et alia in medio obscura et II in pennis iaculi, ex quibus I est clarior. Sunt omnes XVIIII.</p>
+         </div>
+         <div>
+            <p>Aquila habet in pede stellam I, in medio corpore obscuram I, in rostro superiori I, in subteriori I. Sunt omnes IIII.</p>
+         </div>
+         <div>
+            <p>Delfinus non multum supercurrit Capricorno.</p>
+            <p>Habet in ore stellam I, in uertice II, in ala secus uentrem III, supra dorso I, in cauda II. Sunt omnes VIIII.</p>
+         </div>
+         <div>
+            <p>Orion oblicus <app>
+                            <rdg wit="#K #Z">quidem</rdg>
+                            <rdg wit="#V">quidam</rdg>
+                        </app> Tauro.</p> 
+            <p>Habet in capite stellas splendidas III, ex quibus I est splendidior ceteris, in utroque humero splendidam I, in dextro cubito I obscuram, in summitate manus I, in zona III, in mantile III obscuras, in utroque genu I, in utrisque pedibus I. Sunt omnes XVII.</p>
+         </div>
+         <div>
+            <p>Canicula quae oritur post Orionem. Habet stellam in lingua splendidam I, quam Syrium et Canum uocant rutilantem multum et per colores inmutantem; in utroque humero obscuram I, in pectore II, in anteriori pede sinistro I, in dextro I, supra <app>
+                            <rdg wit="#V #Z">dorsum</rdg>
+                            <rdg wit="#K">dorso</rdg>
+                        </app> III, in uentre II, in sinistro lumbo III, in posteriori pede sinistro I, in <app>
+                            <rdg wit="#V">summitatem</rdg>
+                            <rdg wit="#K #Z">summitate</rdg>
+                        </app> caudae IIII. Sunt omnes XX.</p>
+         </div>
+         <div>
+            <p>Lepus habet stellas in utrisque auribus I, in corpore II, in dorso nitidam I, in posterioribus pedibus per singulos I. Sunt omnes VII.</p>
+         </div>
+         <div>
+            <p>Nauis quae apud Argiuos Argo uocatur. Habet stellas in anteriori parte nauis IIII, in puppi IIII, in utroque temone V, in uelo III, in costa nauis V. Sunt omnes XXVI.</p>
+         </div>
+         <div>
+            <p>Cetus sub oriente et piscibus gradiens.</p> 
+            <p>Habet stellas in cauda II obscuras, a cauda usque ad <app>
+                            <rdg wit="#V">gibbum</rdg>
+                            <rdg wit="#K #Z">gippum</rdg>
+                        </app> VI, in uentre VI. Sunt omnes XIIII.</p>
+         </div>
+         <div>
+            <p>Eurus qui et Heyridanus et a quibusdam Nilus qui et Gion, a meridianis partibus habens initium ad <app>
+                            <rdg wit="#V #Z">Orionis</rdg>
+                            <rdg wit="#K">Orionem</rdg>
+                        </app> tendens. Iacet ei stella quae uocatur Canouos splendens quae tangit timonem posterioris spatium paruum paret, eo quod circa terram esse uidetur.</p> 
+            <p>Habet stellas in prima acie III, in secunda III, in tertia III usque ad nouissimas VII, quas dicunt in ore Nili fluuii esse. Sunt omnes XVI.</p>
+         </div>
+         <div>
+            <p>Piscis magnus qui et Auster dicitur a Capricorno usque ad Pisces eius longitudo protenditur et subiacet Aquario et suscipit eius effusionem.</p>
+            <p>Habet stellas XII ex quibus I fertur esse subtur pedes Aquarii et III in brancis eius. Ipse autem clariores esse noscuntur.</p>
+         </div>
+         <div>
+            <p>Sacrarius qui et Farum accipitur. Hoc signum sequitur caudam magnae Scorpioni, circumdat Septentrionem et quaedam pars obtonsior Arcturi, quaedam autem cito sub uespere deficit.</p>
+            <p>Habet autem stellas super craticula II, in uasine II. Sunt omnes IIII.</p>
+         </div>
+         </div>
+      </body>
+  </text>
+</TEI>
