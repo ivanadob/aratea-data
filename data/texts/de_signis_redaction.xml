@@ -59,7 +59,7 @@
             <p/>
          </div>
          <div>
-            <head>Eidition:</head>
+            <head>Edition:</head>
          <div corresp="#vv_19-42">
             <p>Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero e contra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes Arcturos simul cum rotis quem quidam Plaustrum uocant; quae etiam capita per summum <app>
                             <rdg wit="#V #K">habent</rdg>
@@ -349,10 +349,7 @@
              </div>
              <!--##########################from here to the end only V and Z collated.-->
              <div>
-                 <p>Signalem autem circulum ita <app>
-                            <rdg wit="#Z">appellauerunt</rdg>
-                            <rdg wit="#V">appellauerit</rdg>
-                        </app>, quod unus quidem Cancer est, Leo autem super ipsum, Uirgo in id ipso quidem Uergiliae et Scorpio, ipse autem Sagitator et Capricornus, super Capricornum uero Aquarius. Duo autem super ipsos Piscium stellas positas bis quippe Aries deinde Taurus, Gemini autem inter quibus Fidicula apponitur, duo et X omnibus totum annum inducunt et ex ipsis per <app>
+                 <p>Signalem autem circulum ita appellauerunt, quod unus quidem Cancer est, Leo autem super ipsum, Uirgo in id ipso quidem Uergiliae et Scorpio, ipse autem Sagitator et Capricornus, super Capricornum uero Aquarius. Duo autem super ipsos Piscium stellas positas bis quippe Aries deinde Taurus, Gemini autem inter quibus Fidicula apponitur, duo et X omnibus totum annum inducunt et ex ipsis per <app>
                             <rdg wit="#Z">circuitum</rdg>
                             <rdg wit="#V">circuitu</rdg>
                         </app> erunt omnes dinumeratae horae, unus quidem quantum circuit et ad oceanum occidit tantum super terram reducitur per <app>
@@ -392,11 +389,11 @@
                             <rdg wit="#Z">circuitu</rdg>
                             <rdg wit="#V">circuito</rdg>
                         </app> uideris undique pallidiorem magis et tunc tempestas erit. Maxima autem tempestas erit si rutilans apparuerit.</p>
-                 <!--##########################from here to the end only Z collated.-->
-                 <p>Considerandum autem multiplici modo et utrumque diuisam, si quando duerit aut in cornibus suis lucida et calore significans mensi uniuscuiusque; undique pura magis serenum significat, omnia autem pertractantes uidetur uentis iubere; alii autem aliter putant quod cum plena fuerit pluuiam significet. Sic omnibus signis omnia designat sed quanta intertia aut quarta computantes ad breuiauerunt ab ipsa diuisione donec ad ipsam significationem perueniat. Diuiso autem mense statim item diminutionem patitur suscipitur autem continente quarta mensis transacti. Si uero tertia transacta per circuitu totam aream se circumdederit aute tres uel duos horum iacentes in orbe eius significat uenti tranquillitatem putandam, aut disruptione uentorum deficiente tranquillitate, si duo non ad huc tempestas circumdat lunam maior autem tepestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit nos ita esse.</p>
+                 <p>Considerandum autem multiplici modo et utrumque diuisam, si quando fuerit aut in cornibus suis lucida et calore significans mensis uniuscuiusque; undique pura magis serenum significat, omnia autem pertractantes uidetur uentis iubere; alii autem aliter putant quod cum plena fuerit pluuiam significet. Sic omnibus signis omnia designat sed quanta in tertia aut quarta computantes ad breuiauerunt ab ipsa diuisione donec ad ipsam significationem perueniat. Diuiso autem mense statim item diminutionem patitur suscipitur autem continente quarta mensis transacti. Si uero tertia transacta per circuitu totam aream se circumdederit aut tres uel duos horum iacentes in orbe eius significat uenti tranquillitatem putandam, aut disruptione uentorum deficiente tranquillitate, si duo non ad huc tempestas circumdat lunam maior autem tepestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit nos ita esse.</p>
              </div>
              <div>
-                 <p>Sole autem ex utraque parte oriente solis magis assimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus obtunsum subdiuidens nitorem et surgens mane rutilus, serenitas erit. Nam si aliquotiens uario colore circumamiciter et neque radia fuerint, iam aquilonum diuisum inmittit, alia autem per medio lucent, tunc ubique pluuiales pertranseunt uenti. Sic enim oportet inspicere, si inuentus fuerit super currens multis adueninetibus nubibus.</p>
+                 <p>Sole autem ex utraque parte oriente solis magis adsimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus obtunsum subdiuidens nitorem et surgens mane rutilus, serenitas erit. Nam si aliquotiens uario colore circumamiciter et neque radia fuerint, iam aquilonum diuisum inmittit, alia autem per medio lucent, tunc ubique pluuiales pertranseunt uenti.</p> 
+                 <p>Considerandum autem si et aurora sub albidus fuerit sol ipse. Sic enim oportet inspicere, si inuentus fuerit supercurrens multis adueninetibus nubibus.</p>
              </div>
          </div>
       </body>
