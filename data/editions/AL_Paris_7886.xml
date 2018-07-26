@@ -21,6 +21,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher/>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
