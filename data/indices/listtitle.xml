@@ -721,6 +721,62 @@
         <incipit>Domino Otrio Wandalbertus salutem dicit. Veteri et perantiquo praecepto monemur</incipit>
         <incipit>Dies 1 Primum nunc Iani vocitatum nomine mensem </incipit>
     </work>
+    <work xml:id="micrologus" ref="http://d-nb.info/gnd/4483910-8">
+        <title>Micrologus de disciplina artis musicae</title>
+        <author ref="#guido_arezzo">Guido Aretinus</author>
+    </work>
+    <work xml:id="regulae_rhytmicae" ref="http://d-nb.info/gnd/1088048439">
+        <title>Regulae rhytmicae</title>
+        <author ref="#guido_arezzo">Guido Aretinus</author>
+        <bibl>
+            <ref target="http://www.chmtl.indiana.edu/tml/12th/ABGURAM">Text in: Thesaurus musicarum latinarum.</ref>
+        </bibl>
+    </work>
+    <work xml:id="henricus_augustanus_musica">
+        <title>Musica</title>
+        <author ref="#henricus_augustanus">Henricus Augustanus</author>
+        <bibl>
+            <ref target="http://www.chmtl.indiana.edu/tml/9th-11th/HEIMUS">Text in: Thesaurus musicarum latinarum.</ref>
+        </bibl>
+    </work>
+    <work xml:id="guilelmus_hirsaugiensis_musica">
+        <title>Musica</title>
+        <author ref="#guilelmus_hirsaugiensis">Guilelmus Hirsaugiensis</author>
+        <bibl>Scriptores ecclesiastici de musica sacra potissimum, 3 vols., ed. Martin Gerbert (St. Blaise: Typis San-Blasianis, 1784; reprint ed., Hildesheim: Olms, 1963), 2:154–82.</bibl>
+        <bibl>
+            <ref target="http://www.chmtl.indiana.edu/tml/9th-11th/WILMU">Text in: Thesaurus musicarum latinarum.</ref>
+        </bibl>
+    </work>
+    <work xml:id="johannes_cotto_musica">
+        <title>De musica cum tonario</title>
+        <author ref="#johannes_cotto">Johannes Cotto</author>
+        <bibl>
+            <ref target="http://boethius.music.indiana.edu/tml/9th-11th/JOHDEM">Text in: Thesaurus musicarum latinarum.</ref>
+        </bibl>
+    </work>
+    <work xml:id="hermannus_musica">
+        <author ref="#hermannus_contractus">Hermannus Contractus</author>
+        <title>Musica</title>
+        <bibl>
+            <ref target="http://boethius.music.indiana.edu/tml/9th-11th/HERMUSE">Text in: Thesaurus musicarum latinarum.</ref>
+        </bibl>
+    </work>
+    <work xml:id="cicero_de_inventione">
+        <title>De inventione</title>
+        <author ref="#cicero">Cicero</author>
+        <bibl>
+            <ref target="http://www.thelatinlibrary.com/cicero/inventione.shtml">Text from the Latin library</ref>.</bibl>
+    </work>
+    <work xml:id="dialogus_de_musica">
+        <title>Dialogus de musica</title>
+        <note>Often ascribed to <rs type="person" ref="#odo_cluniacensis">Odo Cluniacensis</rs>.</note>
+        <bibl>
+            <ref target="http://www.chmtl.indiana.edu/tml/9th-11th/ODODI">Text in: Thesaurus musicarum latinarum (PL, 133, 757–74).</ref>
+        </bibl>
+        <bibl>
+            <ref target="https://www.cengage.com/music/book_content/049557273X_wrightSimms/assets/ITOW/7273X_04a_ITOW_Pseudo_Odo.pdf">Pseudo-Odo of Cluny, Dialogue on Music (c1000 C.E.)</ref>
+        </bibl>
+    </work>
     <work xml:id="oratio">
         <title>Prayer</title>
         <quote>Domine deus omnipotens sancta trinitas et indiuisa unitas Domine pater qui per unigenitum filium tuum dominum nostrum ihesum christum totum coaeternum et aequalem in substantia diuinitatis, in unitate et uirtute spiritus sancti omnia condidisti, et tempore nouissimo per eundem incarnatum totum mundum reformasti, presta domine ut tua misericordia inspirante per apertionem illam qua sensus apostolorum post resurrectionem aperuisti de uolubilitate firmamenti et stellarum astrorumque cursu secundum modulum nostrae fragilitatis capere et aliis ministrare ualeamus. per eundem dominum.</quote>

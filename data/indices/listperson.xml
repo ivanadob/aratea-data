@@ -130,6 +130,9 @@
                     <person xml:id="germanicus">
                         <persName xml:id="gnd_118538748" ref="http://d-nb.info/gnd/118538748">Germanicus &lt;Caesar&gt;</persName>
                     </person>
+                    <person xml:id="guido_arezzo">
+                        <persName xml:id="gnd_118543431" ref="http://d-nb.info/gnd/118543431">Guido Aretinus</persName>
+                    </person>
                     <person xml:id="hadoard">
                         <persName xml:id="gnd_102501424" ref="http://d-nb.info/gnd/102501424">Hadoardus</persName>
                         <affiliation>
@@ -144,6 +147,9 @@
                         <note type="references">
                         <ref target="http://en.wikipedia.org/wiki/Heiric_of_Auxerre">Wikipedia</ref>
                     </note>
+                    </person>
+                    <person xml:id="henricus_augustanus">
+                        <persName xml:id="gnd_100945597" ref="http://d-nb.info/gnd/100945597">Henricus Augustanus</persName>
                     </person>
                     <person xml:id="henry_ii">
                         <persName xml:id="gnd_118548255" ref="http://d-nb.info/gnd/118548255">Henry II.</persName>
@@ -189,6 +195,9 @@
                         <persName xml:id="gnd_118697439" ref="http://d-nb.info/gnd/118697439">Gregorius &lt;Turonensis&gt;</persName>
                         <persName>Gregory of Tours</persName>
                     </person>
+                    <person xml:id="guilelmus_hirsaugiensis">
+                        <persName xml:id="gnd_118987216" ref="http://d-nb.info/gnd/118987216">Guilelmus Hirsaugiensis</persName>
+                    </person>
                     <person xml:id="hammer_purgstall">
                         <persName xml:id="gnd_118545426" ref="http://d-nb.info/gnd/118545426">Joseph &lt;von Hammer-Purgstall&gt;</persName>
                     </person>
@@ -228,6 +237,12 @@
                         <persName xml:id="gnd_118550853" ref="http://d-nb.info/gnd/118550853">Jerome</persName>
                         <persName>Ps. Jerome</persName>
                     </person>
+                    <person xml:id="johannes_cotto">
+                        <persName xml:id="gnd_100948286" ref="http://d-nb.info/gnd/100948286">Johannes Cotto</persName>
+                        <persName>Johannes Affligemensis</persName>
+                        <bibl>
+                        <ref target="http://www.musicologie.org/Biographies/j/johannes_Affligemensis.html">Entry in musicologie.org</ref>.</bibl>
+                    </person>
                     <person xml:id="judith">
                         <persName xml:id="gnd_104292210" ref="http://d-nb.info/gnd/104292210">Empress Judith</persName>
                     </person>
@@ -259,6 +274,9 @@
                         <affiliation>
                         <rs type="place" ref="http://www.geonames.org/2658822">St. Gall</rs>
                     </affiliation>
+                    </person>
+                    <person xml:id="odo_cluniacensis">
+                        <persName xml:id="gnd_100955916" ref="http://d-nb.info/gnd/100955916">Odo Cluniacensis</persName>
                     </person>
                     <person xml:id="odbert">
                         <persName ref="http://oxfordindex.oup.com/view/10.1093/gao/9781884446054.article.T063211">Odbert from Saint-Bertin</persName>

@@ -50,88 +50,105 @@
                <origDate/>
                <origPlace/>
             </head>
-            <msContents>
+            <msContents>               
                <msItem>
-                  <author>Guido Aretinus</author>
-                  <title>Monochordum</title>
+                  <locus from="" to=""/>
+                  <author ref="#guido_arezzo">Guido Aretinus</author>
+                  <title type="supplied">Guido's hand</title>
+               </msItem>
+               <msItem>
+                  <locus from="4r" to="34v">4r-34v</locus>
+                  <author ref="#boethius">Boethius</author>
+                  <title ref="#de_musica">De institutione musica</title>
+               </msItem>
+               <msItem>
+                  <locus from="35r">35r</locus>
+                  <author ref="#hucbaldus">Hucbaldus de Sancto Amando</author>
+                  <title>De musica (Fragment)</title>
+               </msItem>
+               <msItem>
+                  <locus from="36r" to="41v">36r-41v</locus>
+                  <author ref="#guido_arezzo">Guido Aretinus</author>
+                  <title ref="#micrologus">Micrologus de disciplina artis musicae</title>
+               </msItem>
+               <msItem>
+                  <locus from="41v" to="43r">41v-43r</locus>
+                  <author ref="#guido_arezzo">Guido Aretinus</author>
+                  <title ref="#regulae_rhytmicae">Regulae musicae rhythmicae</title>
+               </msItem>
+               <msItem>
+                  <locus from="43r" to="44r"/>
+                  <author ref="#guido_arezzo">Guido Aretinus</author>
+                  <title>Tractatus de ignoto cantu</title>                  
+               </msItem>
+               <msItem>
+                  <locus from="46r" to="48v">46r-48v</locus>
+                  <author ref="#odo_cluniacensis">(Ps.) Odo Cluniacensis</author>
+                  <title ref="#dialogus_de_musica">Dialogus de musica</title>
+               </msItem>
+               <msItem>
+                  <locus from="49r" to="52v"/>
+                  <author ref="#berno">Berno of Reichenau</author>
+                  <title>Musica seu Prologus in Tonarium</title>
+                  <!--                  see which vgl. with http://www.chmtl.indiana.edu-->
+               </msItem>
+               <msItem>
+                  <locus from="52v" to="55r"/>
+                  <author ref="#berno">Berno of Reichenau</author>
+                  <title>De monochordo mensurando</title>
+               </msItem>
+               <msItem>
+                  <note>De mensura oorganistri, De ponedribus cymbali</note>
+               </msItem>
+               <msItem>
+                  <locus from="56r" to="62r"/>
+                  <author ref="#berno">Berno of Reichenau</author>
+                  <title>Tonarius</title>
+                  <note>Previously ascribed to <rs type="person" ref="#odo_cluniacensis">Odo Cluniacensis</rs>.</note>
+               </msItem>
+               <msItem>
+                  <locus from="62v" to="72v"/>
+                  <author ref="#johannes_cotto">Johannes Cotto</author>
+                  <title ref="#johannes_cotto_musica">De musica cum tonario</title>
+               </msItem>
+               <msItem>
+                  <locus from="73r">73r</locus>
+                  <note>Blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="73v" to="81v"/>
+                  <author ref="#guilelmus_hirsaugiensis">Guilelmus Hirsaugiensis</author>
+                  <title ref="#guilelmus_hirsaugiensis_musica">Musica</title>
                </msItem>
                
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Boethius, Anicius Manlius Severinus: Regulare.
+                  <locus from="82r" to="90r"/>
+                  <author ref="#hermannus_contractus">Hermannus Contractus</author>
+                  <title ref="#hermannus_musica">Musica</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Odo Cluniacensis OSB: Monochordum.
+                  <locus from="90r" to="91ar"/>
+                  <author ref="#henricus_augustanus">Henricus Augustanus</author>
+                  <title ref="#henricus_augustanus_musica">Musica</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guilelmus Hirsaugiensis OSB: Monochordum.
+                  <locus from="91av"/>
+                  <note>Blank.</note>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guido Aretinus: Manus.
+                  <locus from="92r" to="117v"/>
+                  <author ref="#cicero">Cicero</author>
+                  <title ref="#cicero_de_inventione">De inventione</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Boethii icon.
+                  <locus from="118r" to="135v"/>
+                  <author ref="#cicero">Cicero</author>
+                  <title>Ad Herennium</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Ephororum Spartanorum 'probouleuma'.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Boethius, Anicius Manlius Severinus: De musica libri quinque.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Hugbaldus Elnonensis: De musica: Fragmentum.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guido Aretinus: Micrologus de disciplina artis musicae.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guido Aretinus: Regulae musicae rhythmicae.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guido Aretinus: Regulae de ignoto cantu.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guido Aretinus: Tractatus de ignoto cantu.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Ps. Odo Cluniacensis OSB: Dialogus de musica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Berno Augiensis OSB: Musica seu Prologus in Tonarium.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Berno Augiensis OSB: De monochordo mensurando.
-               </msItem>
-               <msItem>
+                  <locus/>
+                  <title type="supplied">Short texts on geometry including:</title>
+                   <msItem>
                   <locus from="" to=""/>
                   <author/>
                   <title/>De mensura fistularum.
@@ -141,91 +158,41 @@
                   <author/>
                   <title/>Gerlandus Bisuntinus CRSA: De fistulis: Fragmentum.
                </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>De mensura organistri.
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#martianus_capella">Martianus Capella</author>
+                     <title/>: Excerpta geometrica.
+                  </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#isidore">Isidorus Hispalensis</author>
+                     <title/>  : Excerpta geometrica.
+                  </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#cassiodorus">Cassiodorus</author>
+                     <title/>  : Excerpta geometrica.
+                  </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author/>
+                     <title/>Agrimensores, excerpta geometrica ex libris eorundem.
+                  </msItem>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>De ponderatione cymbali.
+                  <locus from="146r" to="162r">146r-162r</locus>
+                  <author ref="#cassiodorus">Hyginus</author>
+                  <title ref="#de_astronomia">De astronomia</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Berno Augiensis OSB: Tonarius.
+                  <locus from="162r" to="166r"/>
+                  <author ref="#martianus_capella">Martianus Capella</author>
+                  <title ref="de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia</title>
                </msItem>
                <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Iohannes Cotto Trevirensis: Musica.
+                  <locus/>
+                  <note>Blank.</note>
                </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Iohannes Cotto Trevirensis: Tonarius.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Guilelmus Hirsaugiensis OSB: Musica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Hermannus Augiensis: Musica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Henricus Augustensis: Institutio cathechetica musices.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Cicero, Marcus Tullius: De inventione libri II.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Cicero, Marcus Tullius: Rhetoricorum ad Herrenium libri IV.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Martianus Capella: Excerpta geometrica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Isidorus Hispalensis  : Excerpta geometrica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Cassiodorus  : Excerpta geometrica.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Agrimensores, excerpta geometrica ex libris eorundem.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Hyginus, Gaius Iulius: Astronomicon.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Martianus Capella: De nuptiis Mercurii et philosophiae.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Berno Augiensis OSB: Musica seu Prologus in Tonarium.
-            </msItem>
             </msContents>
             <physDesc>
                <objectDesc form="codex">
