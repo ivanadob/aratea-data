@@ -50,10 +50,10 @@
                <origDate/>
                <origPlace/>
             </head>
-            <msContents>               
+            <msContents>
                <msItem>
                   <locus from="" to=""/>
-                  <author ref="#guido_arezzo">Guido Aretinus</author>
+                  <author ref="#guido_arezzo">Guido Aretinus HANSI</author>
                   <title type="supplied">Guido's hand</title>
                </msItem>
                <msItem>
@@ -79,7 +79,7 @@
                <msItem>
                   <locus from="43r" to="44r"/>
                   <author ref="#guido_arezzo">Guido Aretinus</author>
-                  <title>Tractatus de ignoto cantu</title>                  
+                  <title>Tractatus de ignoto cantu</title>
                </msItem>
                <msItem>
                   <locus from="46r" to="48v">46r-48v</locus>
@@ -104,7 +104,8 @@
                   <locus from="56r" to="62r"/>
                   <author ref="#berno">Berno of Reichenau</author>
                   <title>Tonarius</title>
-                  <note>Previously ascribed to <rs type="person" ref="#odo_cluniacensis">Odo Cluniacensis</rs>.</note>
+                  <note>Previously ascribed to <rs type="person" ref="#odo_cluniacensis">Odo
+                        Cluniacensis</rs>.</note>
                </msItem>
                <msItem>
                   <locus from="62v" to="72v"/>
@@ -120,7 +121,6 @@
                   <author ref="#guilelmus_hirsaugiensis">Guilelmus Hirsaugiensis</author>
                   <title ref="#guilelmus_hirsaugiensis_musica">Musica</title>
                </msItem>
-               
                <msItem>
                   <locus from="82r" to="90r"/>
                   <author ref="#hermannus_contractus">Hermannus Contractus</author>
@@ -148,36 +148,30 @@
                <msItem>
                   <locus/>
                   <title type="supplied">Short texts on geometry including:</title>
-                   <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>De mensura fistularum.
-               </msItem>
-               <msItem>
-                  <locus from="" to=""/>
-                  <author/>
-                  <title/>Gerlandus Bisuntinus CRSA: De fistulis: Fragmentum.
-               </msItem>
-                  <msItem>
-                     <locus from="" to=""/>
-                     <author ref="#martianus_capella">Martianus Capella</author>
-                     <title/>: Excerpta geometrica.
-                  </msItem>
-                  <msItem>
-                     <locus from="" to=""/>
-                     <author ref="#isidore">Isidorus Hispalensis</author>
-                     <title/>  : Excerpta geometrica.
-                  </msItem>
-                  <msItem>
-                     <locus from="" to=""/>
-                     <author ref="#cassiodorus">Cassiodorus</author>
-                     <title/>  : Excerpta geometrica.
-                  </msItem>
                   <msItem>
                      <locus from="" to=""/>
                      <author/>
-                     <title/>Agrimensores, excerpta geometrica ex libris eorundem.
-                  </msItem>
+                     <title/>De mensura fistularum. </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author/>
+                     <title/>Gerlandus Bisuntinus CRSA: De fistulis: Fragmentum. </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#martianus_capella">Martianus Capella</author>
+                     <title/>: Excerpta geometrica. </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#isidore">Isidorus Hispalensis</author>
+                     <title/> : Excerpta geometrica. </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author ref="#cassiodorus">Cassiodorus</author>
+                     <title/> : Excerpta geometrica. </msItem>
+                  <msItem>
+                     <locus from="" to=""/>
+                     <author/>
+                     <title/>Agrimensores, excerpta geometrica ex libris eorundem. </msItem>
                </msItem>
                <msItem>
                   <locus from="146r" to="162r">146r-162r</locus>
@@ -187,7 +181,8 @@
                <msItem>
                   <locus from="162r" to="166r"/>
                   <author ref="#martianus_capella">Martianus Capella</author>
-                  <title ref="de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia</title>
+                  <title ref="de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De
+                     astronomia</title>
                </msItem>
                <msItem>
                   <locus/>
