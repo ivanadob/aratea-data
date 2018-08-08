@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vienna, Österreichische Nationalbibliothek, Cod. 2269</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc status="draft">
+        <change when="2018-07-20"/>
+     </revisionDesc>
+  </teiHeader>
+   
+  <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement>Vienna</settlement>
+               <repository>Österreichische Nationalbibliothek</repository>
+               <idno>Cod. 2269</idno>
+            </msIdentifier>
+            <msContents>
+               <msItem>
+                  <locus from="1r" to="3v">1ra-3vc</locus>
+                  <author ref="">Alcuin</author>
+                  <title ref="">De dialectica</title>
+                  <msItem>
+                     <title type="supplied">Carmen Alcuini</title>
+                     <incipit>O uos est aetat iuuenes quibus apta legendo</incipit>
+                     <explicit>Auctorumque memor dic miserere deus.</explicit>
+                  </msItem>
+                  <msItem>
+                     <incipit>Me lege qui ueterum cupias cognoscere sensus</incipit>
+                     <explicit>Nauita quas pelagi portat ab ore suo.</explicit>
+                  </msItem>
+                  <msItem>
+                     <rubric>Incipit dialectica</rubric>
+                     <incipit>K. Quia mentionem philosophiae</incipit>
+                     <explicit>Socrates non disputat. EPAIROTE.</explicit>
+                     <finalRubric>Disputatio de dialectica et de virtutibus eius sapientissimi regis Karoli et Albini magistri explicit.</finalRubric>
+                  </msItem>
+               </msItem>
+               <msItem>
+                  <locus from="3v" to="6v">3vc-6vc</locus>
+                  <author ref="">Alcuin</author>
+                  <title ref="">De rethorica</title>
+                  <msItem>
+                     <incipit>Qui rogo ciuiles cupiat cognoscere mores</incipit>
+                     <explicit>mel tibi portat apes.</explicit>
+                  </msItem>
+                  <rubric>Incipit rethorica Albini magistri</rubric>
+                  <incipit>K. Quia te uenerande magister</incipit>
+                  <explicit>macula liuoris legentem non corrumpit</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="6v" to="7r">6vc-7ra</locus>
+                  <author ref=""></author>
+                  <title type="supplied">Short text on the division of science with a schema</title>
+                  <incipit>Porro sapientiam phylosophiam ueteres uocauerunt id est omnium rerum diuinarum humanarumque scientiam</incipit>
+                  <explicit>VII. Medicina est scientia curationum ad temperamentum et salutem corporis inuenta.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="7r" to="7v">7ra-7va</locus>
+                  <author ref="">Isidore</author>
+                  <title ref="">Etymologiae (Lib. 3)</title>
+                  <incipit><supplied>M</supplied>athematica dicitur latine doctrinalis scientia</incipit>
+                  <explicit>et singuli quinque finiti sunt et omnes infiniti sunt.</explicit>
+                  <note>The work is attributed in the MS to Alcuin. See the running title on the upper margin: Arithmetica ALbini Magistri.</note>
+               </msItem>
+               <msItem>
+                  <locus from="7v">7vb</locus>
+                  <author ref=""></author>
+                  <title ref=""></title>
+                  <incipit><supplied>O</supplied>cto tonos in musica consistere musicus scire debet</incipit>
+                  <explicit>quia sonus eorum praessior est quam superorum.</explicit>
+                  <bibl>Folkerts</bibl>!
+               </msItem>
+               <msItem>
+                  <locus>7vb-8va</locus>
+                  <note>Rest of the, f. 7v, the whole 8r and the first column of 8v, left blank probably for a treatise on geometry (see the running title: Geometria Albini).</note>
+               </msItem>
+               <msItem>
+                  <locus from="8v">8vb-c</locus>
+                  <author ref=""></author>
+                  <title ref="">Excerptum de astrologia</title>
+                  <note>Attributed here also to Alcuin (see running title: Astrologia Albini).</note>
+                  <incipit><supplied>D</supplied>uo sunt extremi <del>sunt</del> uertices mundi</incipit>
+                  <explicit>usque decurrit accipiens.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="8v">8vc</locus>
+                  <author ref=""></author>
+                  <title ref=""></title>
+                  <rubric>Quem circulum unumquodque signorum tangat</rubric>
+                  <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
+                  <explicit>ultimam partem sagittae.</explicit>
+               </msItem>
+               <msItem>
+                  <note>The rest of f. 8v, the whole f. 9r and around one third of the first column of f. 9v, left blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="9v" to="16v">9va-16vc</locus>
+                  <author ref="">Boethius</author>
+                  <title ref="">In Porphyrium dialogi</title>
+                  <incipit><supplied>H</supplied>iemantis anni tempore in aureliae montibus</incipit>
+                  <explicit>postea consideratione tractabitur.</explicit>
+                  <bibl><abbr>PL</abbr> 64, 9A-70D</bibl>
+               </msItem>
+               <msItem>
+                  <locus>17r</locus>
+                  <note>left blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="17v" to="">17va-24vc</locus>
+                  <author ref=""></author>
+                  <title ref="">Commentaria in Porphyrium</title>
+                  <incipit><supplied>c</supplied>um sit necessarium crisarori eadem quae est apud aristotelem praedicamentorum doctrinam</incipit>
+                  <explicit>et ad praedicamenta seruant.</explicit>
+                  <bibl><abbr>PL</abbr> 64, 77A-158D.</bibl>
+               </msItem>
+               <msItem>
+                  <locus from="25r" to="">25ra-40va</locus>
+                  <author ref="">Boethius</author>
+                  <title ref="">In categorias Aristotelis</title>
+                  <incipit></incipit>
+                  <explicit></explicit>
+                  <bibl><abbr>PL</abbr> 64, 159A-294C.</bibl>
+               </msItem>
+               <msItem>
+                  <locus>40vb-41ra</locus>
+                  <note>left blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="41r" to="52v">41rb-52vc</locus>
+                  <author ref="">Boetius</author>
+                  <title ref="">In librum Aristotelis de interpretatione libri duo</title>
+                  <incipit></incipit>
+                  <explicit></explicit>
+                  <bibl><abbr>PL</abbr> 64, 296B-329D.</bibl>
+               </msItem>
+               <msItem>
+                  <locus from="53r" to="86r">53ra-86rb</locus>
+                  <author ref="">Boethius</author>
+                  <title ref="">In librum Aristotelis de interpretatione libri sex. Editio secunda seu maiora commentaria</title>
+                  <incipit></incipit>
+                  <explicit></explicit>
+                  <bibl><abbr>PL</abbr> 64, 393A-638D.</bibl>
+               </msItem>
+               <msItem>
+                  <locus from="86r" to="86v">86rc-vc</locus>
+                  <author ref=""></author>
+                  <rubric>Sententiae diversorum</rubric>
+                  <incipit>Cum quidam audiente pythagora diceret</incipit>
+                  <explicit>sed edero inquit ecce te et pecuniam perdo.</explicit>
+                  <note>Sententia attributed to ancient philoosophers. The sayings are ordered in topics, written in majuscul. Mentioned are the philosophers Socrates, Aristotel, Diogenes, Xenocrates, Aristippus and other.</note>
+               </msItem>
+               <msItem>
+                  <locus from="" to="">87ra-90vb</locus>
+                  <author ref="">Boethius</author>
+                  <title ref="">De differentiis topicis libri quatuor</title>
+                  <bibl><abbr>PL</abbr> 64, 1173B-1216D</bibl>
+               </msItem>
+               <msItem>
+                  <locus>90vb-92rb</locus>
+                  <author ref="">Boethius</author>
+                  <title>Liber de divisione</title>
+                  <bibl><abbr>PL</abbr> 64, 875D-892A</bibl>
+               </msItem>
+               <msItem>
+                  <locus>92rb-</locus>
+                  <author ref="">Boethius</author>
+                  <rubric>Incipit liber communis speculationis de rethorica cognitione</rubric>
+                  <title>Speculatio de rhetoricae cognatione</title>
+                  <bibl><abbr>PL</abbr> 64, </bibl>
+               </msItem>
+               <msItem>
+                  <locus></locus>
+                  <title></title>
+                  <bibl><abbr>PL</abbr> 64, </bibl>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <p>f. 138 is a double leaf foulded in two to fit the table of Abbo.</p>
+            </physDesc>
+         </msDesc>
+      </body>
+  </text>
+</TEI>
