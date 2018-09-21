@@ -4,29 +4,107 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Schaffhausen, Stadtbibliothek, Ministerialis 61</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-  </teiHeader>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-01"/>
+			</revisionDesc>
+		
+    </teiHeader>
   <text>
       <body>
+        <msDesc xml:id="schaffhausen_min_61" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Schaffhausen</settlement>
+                    <repository>Stadtbibliothek</repository>
+                    <idno>Min. 61</idno>
+                </msIdentifier>
+                <head>
+                    <title>Computistical-Astronomical Sammelhandschrift</title>
+                    <origPlace ref="#">Bodensee (?)</origPlace>
+                    <origDate notBefore="1001" notAfter="1100">s. X</origDate>                    
+                </head>           
+        <msContents>
+  <msItem>
+    <locus from="1r" to="9r">1r-9r</locus>
+    <author>Bede</author>
+    <title>De natura rerum</title>
+  </msItem>
+  <msItem>
+    <locus>9r-15r</locus>
+    <author>Bede</author>
+    <title>De temporibus</title>
+  </msItem>
+  <msItem>
+    <locus>15r-19v</locus>
+    <title>Excerptum de astronomia</title>
+    <incipit>Campester scribit comoedias OR COMETAS V esse id est ippon solis, lampadian lunae, zophiam martis, disceum martis, typhona saturni, sed quattuor stellas scriptas visas esse...visa feurit cuncta interitura. Helix arcturus maior</incipit>
+    </msItem>
+    <msItem>
+      <locus>19v</locus>
+      <title>Excerptum de astrologia</title>
+      <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
+      <explicit>et virginem leo<gap reason="lacuna"/></explicit>
+      </msItem>
+  <msItem>
+    <locus>20r-21r</locus>
+    <title>Dionysius Exiguus Epistola ad Bonifacium et Bonum</title>
+    </msItem>
+  <msItem>
+    <locus>21r-22r</locus>
+    <title>Varia computistica</title>
+    </msItem>
+  <msItem>
+    <locus>22r</locus>
+    <title>De ratione computi</title>
+    </msItem>
+  <msItem>
+    <locus>23r-26v</locus>
+    <note type="title">Computiscial tables and texts</note>
+    </msItem>
+  <msItem>
+    <locus>27r-104r</locus>
+    <author>Bede</author>
+    <title>De temporum ratione</title>
+    </msItem>
+  </msContents>
+          <history>
+            <origin>Szkiet compared the little book illumination there is (one initial on f. 42v), which, according to her, shows no similarities with the decoration from Schaffhauser. Unclear where it was produced. Borst noted as place of production (without argumentation) St. Gall or Reichenau.</origin>
+          <provenance>Cordoliani for the provenance - from the 13th c. attested in the library of Schaffhausen, based on a note on fol. 104 <quote>Anno domini MCCCLV in vigilia sancti Oswaldi regis accepi hunc librum de libraria nostra</quote>. Borst argued the manuscript was in Schaffhausen already around 1050, where it served as the "komputistische Grundausstattung". This, however, contradict with the note, unless the book left the monastery between 105 and 1355 and was brought once again 1355.</provenance>
+          </history>
          <listBibl>
-	           <msDesc>
-	              <msIdentifier>
-                  <settlement>where is it</settlement>
-	                 <repository>repository name</repository>
-	                 <idno>identifier</idno>
-               </msIdentifier>
-	           </msDesc>
-         </listBibl>
+           <bibl>Dell’Era, A. "Una rielaborazione dell’Arato latino." Studi medievali, ser. 3 20, Nr. 1 (1979): 269–302.</bibl>
+           <bibl>Borst, Schriften, p. 294.</bibl>
+           <bibl><ref target="http://www.persee.fr/doc/scrip_0036-9772_1958_num_12_2_2977">Cordoliani, A. "Un manuscrit de comput interessant: Schaffhouse, Ministerialbibliothek, 61." Scriptorium (1958): 247-253.</ref></bibl>
+	           <bibl>Szkiet, Christine. Reichenauer Codices in Schaffhausen: die frühen Handschriften des Schaffhauser Allerheiligenklosters und ihre Stellung in der südwestdeutschen Buchmalerei des 11. Jahrhunderts. 9. Kiel: Ludwig, 2005</bibl>
+           <bibl><ref target="http://www.urs-graf-verlag.com/pdf/SHMinK.pdf">Gamper R. et al. Die mittelalterlichen Handschriften der Ministerialbibliothek Schaffhausen. Zürich: Urs Graf Verlag, 1994, pp. 158-160</ref></bibl>
+         </listBibl></msDesc>
       </body>
   </text>
 </TEI>
