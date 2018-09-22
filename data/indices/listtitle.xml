@@ -410,6 +410,14 @@
         <bibl>Martianus Capella. De nuptiis philologiae et mercurii. Edited by James Willis. Leipzig: Teubner, 1983.</bibl>
         <bibl>Martianus Capella. <title>Martianus Capella and the Seven Liberal Arts</title>. Vol. 2, <title>The Marriage of Philology and Mercury</title>. Translated by William H. Stahl and Richard Johnson. New York: COlumbia University Press, 1977.</bibl>
     </work>
+    <work xml:id="de_Ratione_computi">
+        <title>De ratione computi</title>
+        <author ref="#bede">Ps. Bede</author>
+        <incipit>Cap. 1. De tempore. Unde dicta sunt tempora? Tempora sunt dicta a temperamento</incipit>
+        <explicit></explicit>
+        <bibl><abbr>PL</abbr>, 90, 579A-</bibl>
+        <note>Cap. XII. De signifero circulo et solis lunae cursu.</note>
+    </work>
     <work type="al" xml:id="de_ordine_ac_positione">
         <title>De ordine ac positione stellarum in signis</title>
         <incipit>Est quidem hic ordo et positio siderum, quae fixa caelo plurium coaceruatione stellarum</incipit>

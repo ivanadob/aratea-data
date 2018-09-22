@@ -48,6 +48,9 @@
             <org xml:id="ramsey">
                <orgName xml:id="gnd_801573-9" ref="http://d-nb.info/gnd/801573-9">Ramsey Abbey</orgName>
             </org>
+            <org xml:id="reichenau">
+               <orgName  xml:id="gnd_4193476-3" ref="http://www.geonames.org/11548421">Abbey of Reichenau</orgName>
+            </org>
             <org xml:id="saint-bertin">
                <orgName xml:id="gnd_1086389638" ref="http://www.geonames.org/2977845">Abbey of Saint-Omer-Saint-Bertin</orgName>
             </org>
@@ -56,6 +59,12 @@
             </org>
             <org xml:id="saint_augustine_abbey">
                <orgName xml:id="gnd_4399943-8" ref="http://www.geonames.org/6619924">St Augustine's Abbey</orgName>
+            </org>
+            <org xml:id="schaffhausen_kloster">
+               <orgName xml:id="gnd_809505-X" ref="http://www.geonames.org/10233311">Monastery Allerheiligen, Schaffhausen</orgName>
+            </org>
+            <org xml:id="st_gall">
+               <orgName xml:id="gnd_4131449-9" ref="http://www.geonames.org/11608490">Abbey of Saint Gall</orgName>
             </org>
             <org xml:id="st_lambrecht">
                <orgName xml:id="gnd_037112-5" ref="http://d-nb.info/gnd/5037112-5">Abbey St. Lambrecht</orgName>

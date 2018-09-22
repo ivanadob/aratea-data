@@ -52,6 +52,9 @@
                 <place xml:id="bobbio">
                     <placeName ref="http://www.geonames.org/3181970/">Bobbio</placeName>
                 </place>
+                <place xml:id="bodensee">
+                    <placeName ref="http://www.geonames.org/11919717">Lake Constance region</placeName>
+                </place>
                 <place xml:id="bretagne">
                     <placeName>Bretagne</placeName>
                 </place>
