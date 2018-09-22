@@ -109,6 +109,9 @@
                         <persName xml:id="gnd_118521675" ref="http://d-nb.info/gnd/118521675">Columella</persName>
                         <persName>Columella, Lucius Iunius Moderatus</persName>
                     </person>
+                    <person xml:id="dionysius_exiguus">
+                        <persName xml:id="gnd_118679724" ref="http://d-nb.info/gnd/118679724">Dionysius Exiguus</persName>
+                    </person>
                     <person xml:id="dungal">
                         <persName xml:id="gnd_100940145" ref=" http://d-nb.info/gnd/100940145">Dungalus</persName>
                     </person>

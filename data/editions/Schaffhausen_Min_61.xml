@@ -30,9 +30,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-06-01"/>
+				<change when="2018-09-22"/>
 			</revisionDesc>
-		
     </teiHeader>
   <text>
       <body>
@@ -69,10 +68,13 @@
                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                     <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
                     <explicit>et virginem leo<gap reason="lacuna"/></explicit>
+                    <note>The quire is missing the innermost bifolium, after f.19, hence the lacuna at the end of the text.</note>
                 </msItem>
                 <msItem>
                     <locus>20r-21r</locus>
-                    <title>Dionysius Exiguus Epistola ad Bonifacium et Bonum</title>
+                    <author ref="#dionysius_exiguus">Dionysius Exiguus</author>
+                    <title>Epistola ad Bonifacium et Bonum</title>
+                    <note>The text begins imperfectly due to the missing bifolium after f. 19.</note>
                 </msItem>
                 <msItem>
                     <locus>21r-22r</locus>
@@ -80,7 +82,8 @@
                 </msItem>
                 <msItem>
                     <locus>22r</locus>
-                    <title>De ratione computi</title>
+                    <author ref="#bede">Ps. Bede</author>
+                    <title ref="#de_ratione_computi">De ratione computi</title>
                 </msItem>
                 <msItem>
                     <locus>23r-26v</locus>
