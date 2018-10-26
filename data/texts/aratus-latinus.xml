@@ -6,6 +6,10 @@
       <fileDesc>
          <titleStmt>
             <title>Aratus Latinus</title>
+            <respStmt>
+               <resp>Introduction and edition to the text by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -24,7 +28,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital born</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -36,6 +40,171 @@
             </head>            
             <p>An interest in the Phaenomena is attested once more in the Latin West during the 8th century immediately before the Carolingian Renaissance. At that time a new translation from the Greek original appeared which is commonly called the Aratus Latinus. This version was characterized by its first editor Maass as barbarous and unintelligible in many cases (Maass, p. xxi). Hubert Le Bourdellès, on the other hand, paid much more detailed attention to this work and based on linguistic and codicological analysis suggested that it had been copied from an interlinear translation of the Greek Phaenomena. With the gradual decline of Greek, he proposed, scholars first needed glossaries to read Greek which led to this now lost ‘bilingual’ copy. Later, however, the Greek text was abandoned and thus in the first half of the 8th c. the literal translation, namely the Aratus Latinus, began to circulate separately. A revision of this text (producing the Revised Aratus Latinus) most probably took place in the second half of the 8th c., when the confusing parts were eliminated and the meaning of the text was clarified, but without being collated with a Greek manuscript.2 Le Bourdellès’ hypothesis states that there was a continuous interest in the text of the Phaenomena from Late Antiquity, when educated people could still read Greek, up to the beginning of the 8th c. when a Latin translation became necessary. The text of the Revised Aratus Latinus itself included numerous excerpts from Isidore, Hyginus, Fulgentius Mythographus and others, which to a large extent replaced the second part of the poem on weather signs that was initially translated in the Aratus Latinus.</p>
                <p>The text of the poem in the Aratus Latinus is preceded by various shorter texts, which were translated from an Alexandrine Aratean corpus that is now only partly extant. Jean Martin has noted the existence of two Greek manuscripts of the Phaenomena (MS Vatican, BAV Gr. 1087 from the 14th c. and MS Madrid El Escorial, Library of the Monastery of San Lorenzo Σ III 3), which are copies of the possible lost exemplar used for the translation of the Aratus Latinus. The bilingual edition of Mass shows the Greek and Latin versions side by side offering the possibility to compare the translation with what may possibly be the original text.3 It is interesting to observe that the second part of the ‘Arati ea quae videntur’, which included short texts describing the system of the cosmos, the movements of the sun and the moon, celestial circles and bodies, and finally the terrestrial zones, was either missing from the Greek original or intentionally left out from the translation. If the latter is true, the translator seems to have deliberately chosen not to follow the original composition of the body of texts, but to restructure it to his need. The study of the two Greek manuscripts, although they are later than the translation of the Aratus Latinus, might solve this problem.</p>
+         </div>
+         <div>
+            <head>
+               <title>Aratus Latinus (provisional edition)</title>
+            </head>
+            <div>
+               <head>
+                  <title>Part I: Arati ea quae videntur</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part II: Eratosthenes de circaexornatione stellarum et etymologia de quibus videntur</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part III: Alexandrian preface</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part IV: Descriptio duorum semipsheriorum</title>
+               </head>
+               <p>This text is a translation from Greek. For his edition Maass did not find the original text, although he himself publish it in the the Commentariaorum (pp. 341-342).</p>
+               <!--<text>
+                  <front>
+                     <div>
+                        <listWit>
+                           <witness xml:id="B">Brussels, BR, 10615-10729</witness>
+                           <witness xml:id="P">Paris, Bnf, lat. 7886</witness>
+                           <witness xml:id="Pa">Paris, Bnf, lat. 7887</witness>
+                        </listWit>
+                     </div>
+                  </front>
+                  <body>
+                     <div>
+                        <head>
+                           <title>
+                              <app>
+                                 <lem>Descriptio duorum semisspherium</lem>
+                                 <rdg wit="#P"/> 
+                              </app>
+                           </title>
+                        </head>
+                        <p>Habet autem pondere totum medio terrae terrenum. differt 
+                           <app>
+                              <lem>enim</lem>
+                              <rdg wit="#P">autem</rdg>
+                           </app> per totum caelum seu terram aculeo suo quod 
+                           <app>
+                              <lem>in</lem>
+                              <rdg wit="#Pa"/>
+                           </app> circuitu habet et diuidit 
+                           <app>
+                              <lem>mediam</lem>
+                              <rdg wit="#B">medium</rdg>
+                           </app> 
+                           quoniam
+                           <app>
+                              <lem>terram</lem>
+                              <rdg wit="#Pa">terra</rdg>
+                           </app> pertundit sicut per latera axis terrae aequaliter
+                           <app> 
+                              <lem>illam</lem>
+                              <rdg wit="#Pa">illa</rdg>
+                              <rdg wit="#B">illum</rdg>
+                           </app> habet et 
+                           <app>
+                              <lem></lem>
+                              <rdg wit="#B">aequaliter</rdg>
+                           </app> ab eo 
+                           <app>
+                              <lem>ponderatam</lem>
+                              <rdg wit="#Pa">ponderam</rdg>
+                           </app>. aequalem enim ex utraque parte illam facit ipse medio 
+                           <app>
+                              <lem/>
+                              <rdg wit="#Pa">loco</rdg>
+                           </app> constans et in duo
+                           <app>
+                              <lem>eam</lem>
+                              <rdg wit="#B">eum</rdg>
+                           </app> diuidens aut inponderatam ubique aequalem
+                           <app>
+                              <lem/>
+                              <rdg wit="#B">enim</rdg>
+                           </app> et similem et ipsa 
+                           <app>
+                              <lem>enim</lem>
+                              <rdg wit="#B"></rdg>
+                           </app> est in modum spherae  
+                           <app>
+                              <lem>seu</lem>
+                              <rdg wit="#Pa">ceu</rdg>
+                           </app> et caelum ita et terra sicuti primis quidem 
+                           <app>
+                              <lem>facta aequam eam</lem>
+                              <rdg wit="#B">facti quia meam</rdg>
+                           </app> caelo stellantia ut iam per omnia uel 
+                           <app>
+                              <lem>et</lem>
+                              <rdg wit="#P #Pa">ut</rdg>
+                           </app> per circuitum simili modo 
+                           <app>
+                              <lem/> 
+                              <rdg wit="#B">sperae</rdg>
+                           </app> pondere 
+                           <app>
+                              <lem>aequalem</lem>
+                              <rdg wit="#Pa">equale</rdg>
+                           </app> per spatium sicut semisspheriis. quantum enim a terra habet altitudinem hoc semispherium tantum habet quod subtus terra 
+                           <app>
+                              <lem>longitudinem</lem>
+                              <rdg wit="#Pa #B">longitudine</rdg>
+                           </app>. aliud semispherium ipsa enim in medio 
+                           <app>
+                              <lem>iacet</lem>
+                              <rdg wit="#B">ita et</rdg>
+                           </app> duobus semispheriis.
+                        </p></div>
+                  </body>
+               </text>-->
+            </div>
+            <div>
+               <head>
+                  <title>Part V: Arati genus</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part VI: Prefacio Arati</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part VII: Involutio spherae</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
+            <div>
+               <head>
+                  <title>Part VIII: Aratus latinus cum scholiis</title>
+               </head>
+               <div>
+                  <p></p>
+               </div>
+            </div>
          </div>
          <div>
             <head>
