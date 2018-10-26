@@ -999,7 +999,7 @@
          <lb/>
          <div type="section" xml:id="involutio_spherae">
             <head>
-               <title>Involvcio spere·</title>
+               <title>Involucio spere·</title>
             </head>
             <lb/>
             <p>Hic est stellarum ordo utrorumque circulorum septentriones duplices
@@ -1061,7 +1061,7 @@
          <lb/>deorum habet pro quo etiam iudicio et hunc nominauerunt dii arietem iudicium
          <lb/>enim pertransit equaliter admanet ad uesperum currens in circuitu per
          <lb break="no"/>agere omnem cursum·</p> 
-            <p>TAVRVS· 
+            <p>TAURUS· 
            <lb/>Iacet quidem post ipsum taurus quasi laboriosus figura similis illi 
            <lb/>tamquam in ceruice continentem qualem condecet iugum directis aratris 
            <lb/>sulcis diuidit terras in stellarum ordinem quidim quondam dimicatur 
@@ -1098,13 +1098,13 @@
           <lb/>a terra autem fructus uelud sagitae mittitur hic ostendit in uteris non ocul
           <lb break="no"/>ta nouasque desuper germinare in sertas hic ex duplici forma corp
           <lb break="no"/>oris uisibiliter membra</p> 
-            <p>CAPRICORNIVS
+            <p>CAPRICORNIUS
           <lb/>Monstruosum sidus capricornius nuncupatus bene sortitus nomine hoc inter morta
           <lb break="no"/>libus anteriora quippe capri aspicitur forma cauda posterior in maribus 
           <lb/>piscis quidam uero in terris ponitur uirentibus quedam autem in fluctibus natat 
           <lb/>itinere rubro in hoc enim aspicitur mortalis natura habet autem humeris 
           <lb/>spiritum et ariditatis escas</p>    
-            <p>AQUARIVS  
+            <p>AQUARIUS  
           <lb/>Pessimo autem ordine desuper minuens aquam nubem permitit arcus 
           <lb/>inducere cauernis quod conterit tempestatem unde gelidam ex humore 
           <lb/>autem fontibus subripet undas articulis distorquet habitum excurso 
@@ -1127,7 +1127,7 @@
          <lb/>numerum figuram indicunt circulorum</p>
             <lb/>
             <p>
-               <hi rend="caps">Involvcio spere·</hi>
+               <hi rend="caps">Involucio spere·</hi>
                <lb/>Septem circuli erratici quorum celestes stellas hec sunt uertuntur· per quas 
          <lb/>semper <unclear>uoluitur</unclear> seculus nocte ingens mensis tristes saturnus sol suauis 
          <lb/>nuptialis omnino hirsutus mars uelox <unclear>mercurius</unclear> iuppiter princeps 
@@ -1199,7 +1199,7 @@
             <div xml:id="ursa_maior">
                <lb/>
                <head>
-                  <title>helice arctvrvs maior·</title>
+                  <title>helice arcturus maior·</title>
                </head>
                <lb/>
                <p>Hanc quidem hesiodus dixit licaonis filiam in arcaida autem habitantem cum diana
@@ -1233,7 +1233,7 @@
             <lb/>
             <div xml:id="ursa_minor">
                <head>
-                  <title>Canis cavda arctvrvs minor</title>
+                  <title>Canis cauda arcturus minor</title>
                </head>
                <lb/>
                <p>Altera namque <unclear>pulilla</unclear> sed a nauigantibus obseruatur· Tota enim reuoluitur
@@ -1303,7 +1303,7 @@
             <div xml:id="hercules">
                <lb/>
                <head>
-                  <title>De eo qui in genicvlo est·</title>
+                  <title>De eo qui in geniculo est·</title>
                </head>
                <lb/>
                <p>Hic autem consternatus uir adsimulatus est simulacro quem nemo
@@ -2043,7 +2043,7 @@
             <div xml:id="nauis">
                <lb/>
                <head>
-                  <title>DE NAVICVLA</title>
+                  <title>DE NAVICULA</title>
                </head>
                <lb/>
                <p>Haec quidem canis magni post cauda trahitur nauis puppis· nundum
@@ -2315,7 +2315,7 @@
                <lb/>
                <milestone unit="section" xml:id="signalis"/>
                <p>
-                  <hi rend="smallcaps">circvlvs signalis·</hi>
+                  <hi rend="smallcaps">circulus signalis·</hi>
                   <lb/>Signalem autem circulum ita apellauerunt quod unus quidem cancer
            <lb/>est leo autem super ipsum uirgo in id ipso quidem uirgilie et scor
            <lb break="no"/>pio· ipse autem sagitator et capricornius super capricornium aquarius 
@@ -3077,16 +3077,15 @@
          </div>    
          <div xml:id="descriptio_duorum">
             <head>
-               <title>Descriptio dvorum semisperivm</title>
+               <title>Descriptio duorum semisperium</title>
             </head>
             <lb/>
             <p>Habet autem pondere totum medio terre terrenum Differt enim per totum caelum seu
          <lb/>terram aculeo suo quod in circuitu habet et diuidit medi<ex>um</ex> quoniam terram pertundit sicut
          <lb/>per latera axis terrae equaliter illum habet et equaliter ab eo ponderatum equalem enim ex utraque
-         <lb/>parte illam facit ipse medio constans et in <num value="2">ii<hi rend="sup">o</hi>
-               </num> eum diuidens aut inpondera
+         <lb/>parte illam facit ipse medio constans et in duo eum diuidens aut inpondera
          <lb break="no"/>tam ubique equalem <add place="margin">enim</add> et similem et ipsa est in modum sperae seu et caelum ita et terra
-         <lb/>sicuti primis quidem facti q<ex>ui</ex>a neam celo stellantia ut iam per omnia uel et per circuitum
+         <lb/>sicuti primis quidem facti q<ex>ui</ex>a meam celo stellantia ut iam per omnia uel et per circuitum
          <lb/>simili modo <del>sperae</del> pondere equalem per spatium sicut semisperiis quantum enim a terra habet
          <lb/>altitudinem hoc semisperium tantum habet quod subtus terra longitudine aliud semi
          <lb break="no"/>sperium ipsa enim in medio ita et duobus semisperiis·</p>

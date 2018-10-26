@@ -847,6 +847,9 @@
          </div>
          <lb/>
          <div xml:id="descriptio_duorum">
+            <head>
+               <title><gap reason="left_blank" extent="2" unit="lines"/></title>
+            </head>
             <p>Habet autem pondere totum medio terrae
             <lb/>terrenum· Differt autem per totum caelum seu terram
             <lb/>aculeo suo quod in circuitu habet et diuidit mediam
