@@ -9,11 +9,12 @@
         </title>
             <title type="sub">Aratus Latinus. Transcription from Brussels RB, MS 10615-10729</title>
          </titleStmt>
-         <publicationStmt>
-            <availability status="free">
-               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
-            </availability>
-         </publicationStmt>
+          <publicationStmt>
+              <publisher/>
+              <availability status="free">
+                  <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+              </availability>
+          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="brussels_10615-10729" xml:lang="eng">
                 <msIdentifier>
@@ -964,7 +965,7 @@
       <encodingDesc>
          <editorialDecl>
             <normalization>
-               <p> Original spelling and capitalization are preserved. Ligatured forms are not retained except &amp; which is encoded. Abbreviation are silently expanded. Punctuation has been for the most cases represented as in the source. Deletions and insertions are encoded.</p>
+               <p> Original spelling and capitalization are preserved. Ligatured forms are not retained. Abbreviation are silently expanded. Punctuation has been for the most cases represented as in the source. Deletions and insertions are encoded.</p>
             </normalization>
          </editorialDecl>
       </encodingDesc>
@@ -977,7 +978,7 @@
          <div xml:id="prefacio_arati">
             <p>
                <hi rend="caps">prefacio arati</hi> 
-               <lb/>Preclara ostensio sacri uoluminis namque cum michi cęlestem propera
+               <lb/>Preclara ostensio sacri uoluminis namque cum michi caelestem propera
       <lb break="no"/>ret adminiculum conditur saeculi auctor et custos mundi quanta
       <lb break="no"/>ne cum occidentali partibus constituta autem quanta a finibus 
       <lb/>reuoluta per signulos dies quantaue illustrantur et quorum nobilium 
@@ -986,12 +987,12 @@
       <lb/>paret septuplum cum decies cummulantur anni· Cuncta mihi solis 
       <lb/>locupletat quando mei memoriam carissimi filii honorificent 
       <lb/>pro eo an ex aliorum beatitudine qui olimpum habent nondum perierunt 
-      <lb/>cęli cultores qui signa et prodigia patris ad omnes tribuit et quanta 
+      <lb/>caeli cultores qui signa et prodigia patris ad omnes tribuit et quanta 
       <lb/>in mare seu in terra uel quanta circa ignem significantur· aut 
       <lb/>quanta quadrupedibus et quanta uolucribus natant hinc atque 
       <lb/>inde bruta animalia monstruosa hieme uel estate sacre conu
       <lb break="no"/>encionis atque cumque tonitrua et fulgura adferentes spiritum repleta 
-      <lb/>in etheria summitate omnia signa quę super terram fiunt a ioue fieri quod 
+      <lb/>in etheria summitate omnia signa quae super terram fiunt a ioue fieri quod 
       <lb/>per omnia facta fabulis disponam quasi optima· Tu autem cum sapientia 
       <lb/>hic intellegis;</p>
          </div>
@@ -1014,7 +1015,7 @@
          <lb break="no"/>listicus cancer gemini quoque item apud diuinis iacent pedibus· Caput autem
          <lb/>sub ipsa agitatoris pedes· tauri cornua dextera confirmantur·
          <lb/>Leo <add>autem</add> ab humero usque ad urnam <unclear>nutritor</unclear> quem ipse stellis collocauit
-         <lb/>bene solium tenens cęlestem uirga regia heduli autem huic desuper opti
+         <lb/>bene solium tenens caelestem uirga regia heduli autem huic desuper opti
          <lb break="no"/>nent locum fructus a principio manibus portant escam septentrionis autem
          <lb/>minoris in ultimum pedem cepheus trianguli ordinem continetur
          <lb/>cycinum manu dextera adprehendens alia autem sub ipsa equus extendit
@@ -1029,7 +1030,7 @@
          <lb/>caudam draconis duplicis manibus tenens serpentarius in proximo ha
          <lb break="no"/>bens tenaciter· membra coronam coniungens rursus inuestigabilem his
          <lb/>ergo aquilonius definit locus aut australem quippe ordinem properemus
-         <lb/>sub ipso· aculeum scoprionis sacrarium· tamen uergilięque sub ipsas scorpio
+         <lb/>sub ipso· aculeum scoprionis sacrarium· tamen uergiliaeque sub ipsas scorpio
          <lb break="no"/>nis corpus anteriora centauri uidentur membra de quo pessima bestia
          <lb/>incipit esse anteriori autem sagittarii pessimus sub australi circulo conuol
          <lb break="no"/>uitur· hinc iam gallus circulus nuncupatur australis piscis alter erit
@@ -1042,13 +1043,13 @@
          <lb/>membris contrectat et repletur· loci autem tauri pessimo ad pedem
          <lb/>protendit manus splendidus in astris splendidus orinor magnus geminis
          <lb/>protendens manu porrigens ante canis autem manu dextera est iuxta·
-         <lb/>aries uero sub ipso piscium corpora erga quibus iacet cętus in primis
+         <lb/>aries uero sub ipso piscium corpora erga quibus iacet caetus in primis
          <lb/>ecce connexio piscium communem habent stellam tantoque ordine fingi
          <lb break="no"/>tur natura deorum mortalium· partim autem uidentur namque sine
          <lb/>matre minerua decreuit mortalibus autem solis prodigiosam stellarum
          <lb/>posicionem per dei argumentum omnia breuiter dicere mortalium non adin
          <lb break="no"/>ueniet sensu ab inicio mundi a seculi cursus quem non pensauit
-         <lb/>suę facturę natura·</p> 
+         <lb/>suae facturae natura·</p> 
             <lb/>
             <p>
                <note place="margin">ARIES</note> Primum autem ordinem arietis praecedit circulus pro eo quod in iudicio omnia 
@@ -1081,7 +1082,7 @@
           <lb break="no"/>super crescunt hic amitens tempora accedit leo·</p> 
             <p>VIRGO·
           <lb/>Proxime istius uirginis iacet figura primum enim in hac stella
-          <lb/>sol uix incorrupta terrę cuncta obseruantur genera quęcumque fi
+          <lb/>sol uix incorrupta terrae cuncta obseruantur genera quaecumque fi
           <lb break="no"/>nem acceptura corruptionis denominatur omnibus uirginis uita·</p> 
             <p>
                <note place="margin">LIBRI</note> Libra autem quod triticum in domibus brutorum terrigenis manibus coa
@@ -1094,7 +1095,7 @@
           <lb/>maior fructus adorescat mortalibus· post quod circulum uidetur multis modis</p> 
             <lb/>
             <p>SAGITTARI Bonum signum non malum hic est sagittarius 
-          <lb/>a terra autem fructus uelud sagitę mittitur hic ostendit in uteris non ocul
+          <lb/>a terra autem fructus uelud sagitae mittitur hic ostendit in uteris non ocul
           <lb break="no"/>ta nouasque desuper germinare in sertas hic ex duplici forma corp
           <lb break="no"/>oris uisibiliter membra</p> 
             <p>CAPRICORNIVS
@@ -1107,16 +1108,16 @@
           <lb/>Pessimo autem ordine desuper minuens aquam nubem permitit arcus 
           <lb/>inducere cauernis quod conterit tempestatem unde gelidam ex humore 
           <lb/>autem fontibus subripet undas articulis distorquet habitum excurso 
-          <lb/>orbem tegit polumque cęli inhebrians naturalis iter per <unclear>longa</unclear> curricula propter
+          <lb/>orbem tegit polumque caeli inhebrians naturalis iter per <unclear>longa</unclear> curricula propter
           <lb/>quod bene sortitus nomine hoc aquarius pestifero ordine truculentus totum 
           <lb/>ether obliquam accepit nubem inducit multam tempestatem et spiramina 
-          <lb/>brutis ostendit quibus signis innoętescit circulus·</p>    
+          <lb/>brutis ostendit quibus signis innoaetescit circulus·</p>    
             <p>PISCIS
           <lb/>Postquam circuit circulum inuoluens spiramenta uentis inmuttas habitum
          <lb/>lucore duplum reuolutum domibus ostentat morem· Non enim pura
-         <lb/>quidem transuersa nec faciem rectam in ordine uoluitur cęlum quidam e<ex>st</ex> aquilo
+         <lb/>quidem transuersa nec faciem rectam in ordine uoluitur caelum quidam e<ex>st</ex> aquilo
          <lb break="no"/>nio latere innuit polo· Alius autem australis iubetur inicere uiolenti
-         <lb/>signa uidentur per circulum cęli eo quod spiramentis quę in profundo cęlantur
+         <lb/>signa uidentur per circulum caeli eo quod spiramentis quae in profundo caelantur
          <lb/>ostendit· piscis omnis enim in fundo cadens uentus concitat undam significans
          <lb/>brutis· hieme constitum conuertit in tempestatem inuolucio a terra aquarum
          <lb/>spargit de cursus demonstrant tempora· hiemis tempestatum natura
@@ -1132,7 +1133,7 @@
          <lb/>nuptialis omnino hirsutus mars uelox <unclear>mercurius</unclear> iuppiter princeps 
          <lb/>solempniorum a quo notiuitas germinauit hic quoque meropis sortitus
          <lb/>genere est in nobis uero mensis iupiter mars omnino saturnus sol iupiter
-         <lb/>mercurius pro eo quod ab ęthereo partim spiritus adducit lacrimis risus· 
+         <lb/>mercurius pro eo quod ab aethereo partim spiritus adducit lacrimis risus· 
          <lb/>clodos genere uerbum somni eructuacio ira mars mensis id est somnus
          <lb/>lectique pausatio solis risus hoc enim omnis iustus et mortalis consci
          <lb break="no"/>encia ridet et mundus imperitus·</p>
@@ -1147,25 +1148,25 @@
                   <cb n="a"/>
                   <lb/>hominibus dextra designat populosque ad opus erigit reminiscit uitam hoc dicit
          <lb/>quando glebas per sulcos bonumque laborem· Dicit autem quibus horis plantas et semina
-         <lb/>omnia mitte<ex>m</ex>· Ipse enim hec signa in cęlo adfirmauit stellas pertractans considerauit
+         <lb/>omnia mitte<ex>m</ex>· Ipse enim hec signa in caelo adfirmauit stellas pertractans considerauit
          <lb/>in annum stellas tibi maxime conpositam designauit uirorum horas q<ex>uae</ex> honoph rem puero
          <lb/>omnia creat ut maneat primum et postremo propicietur habe pater magnum gaud
-         <lb break="no"/>ium magnum hominibus uirtute prima generacio· Gaudete quoque camęne
-         <lb/>cętanęi· quippe omnes michi quidem stellas dixisse· Nunc autem incipiens por
+         <lb break="no"/>ium magnum hominibus uirtute prima generacio· Gaudete quoque camaene
+         <lb/>caetanaei· quippe omnes michi quidem stellas dixisse· Nunc autem incipiens por
          <lb break="no"/>tenta omnia dabo·<milestone unit="section"/>Querendum est qua racione inchoauit et non a chamenis sicut hom
-         <lb break="no"/>erus proprium exposuit principium· De quibus uidentur fieri a ioue· eo quod et camęnis
+         <lb break="no"/>erus proprium exposuit principium· De quibus uidentur fieri a ioue· eo quod et camaenis
          <lb/>id est musis princeps est ipse iuppiter· Non uidetur ergo aratus solus ista incipere
          <lb/>sed etiam socrates poeta ab ipsis sumpsit principium obsecrans diis ut sobrius per racionem
          <lb/>scribens inchoet et ergo per omnia ita incipiam· queritur autem quod ioues meminisse
          <lb/>de fabulacione seu natura et philoforum quidam conplures· De naturalium
-         <lb/>aiunt ipsum iouem meminisse crates uero diuidi cęlum cognominari autem
+         <lb/>aiunt ipsum iouem meminisse crates uero diuidi caelum cognominari autem
          <lb/>per racionem uera et ethera pro eo quod ibi cent<ex>um</ex> stelle et non putandum ubi
-         <lb/>ioues diceretur cęlum dixisse ut dat et arp<ex>ri</ex>e niphades iouem aliquociens
+         <lb/>ioues diceretur caelum dixisse ut dat et arp<ex>ri</ex>e niphades iouem aliquociens
          <lb/>et ipsum aratum dicentem autaroa equum ad iouem refert heroditus autem
-         <lb/>dianam ait dixisse aerem et tenet hęc istius habere cognicionem
+         <lb/>dianam ait dixisse aerem et tenet haec istius habere cognicionem
          <lb/>testante illi et philemonem poetam dicentem quem mullus oblitus est
          <lb/>neque in cuiusquam mali seu boni ita et ego ut siquis nominare uoluerit
-         <lb/>et propterea confitetur et ipsum aratum dicentem quę numquam uiri reinquimus
+         <lb/>et propterea confitetur et ipsum aratum dicentem quae numquam uiri reinquimus
          <lb/>in enarrabilem namque aliud nichil est uox aut aer concussus·
          <lb/>rursumque uidetur dixisse adtestatur· quidem ad huc magis dicens
          <lb/>plerique iouis omnes terre omnemque hominem forum nulla enim super terram
@@ -1173,8 +1174,8 @@
          <lb/>Omnes enim qui uiuimus manifestamus utiliter per inspiracionem et expira
          <lb break="no"/>cionem sed et illa alia in quibus uiuimus aerem opus habent quod dextra
          <lb/>significat· aduersum uolucribus uaticinacionis propter quod stoici digne
-         <lb/>diuum esse quod per aerem prestet spiritum et participem fieri nostre animę·
-         <lb/>Zynodatus autem ętolos et diodorus aiunt neque fabulis contendere
+         <lb/>diuum esse quod per aerem prestet spiritum et participem fieri nostre animae·
+         <lb/>Zynodatus autem aetolos et diodorus aiunt neque fabulis contendere
          <lb/>huiusce modi subministracione phit enim omnium rerum iouis· bene ergo
          <lb/>sicut et terras plenasse<ex>n</ex>t iouis qua ubi ait dixisse· quos et genus nos il
          <lb break="no"/>lius manifestat anime i<ex>m</ex>mortalitatem bene ergo et subiectum sciebat
@@ -1184,13 +1185,13 @@
             </div> 
             <lb/>
             <div xml:id="vv_19-42">
-               <p>Quidam tamen multa dicunt et alii Aliter narrasse cęlum diuer
+               <p>Quidam tamen multa dicunt et alii Aliter narrasse caelum diuer
          <lb break="no"/>sis proferentes uocabulis sed ipsem magis axe continetur qui se continuo
-         <lb/>in semet ipso reuoluitur· habet autem undique i<ex>n</ex>ponderatam per medio terrę
-         <lb/>in circuitum cęli ęqualiter deductum quem etiam diuidunt duo poli ab inuicem
+         <lb/>in semet ipso reuoluitur· habet autem undique i<ex>n</ex>ponderatam per medio terrae
+         <lb/>in circuitum caeli aequaliter deductum quem etiam diuidunt duo poli ab inuicem
          <lb/>sed unus non aspicitur· Alter uero econtra ab aquilone ex alto a parte oceani
          <lb/>duo quoque ab utrumque habentes arcturos simul cum rotis quem quidam plau
-         <lb break="no"/>strum uocant quę quidem in deorsum altera uero sursum aspiciunt et arcturum quidem
+         <lb break="no"/>strum uocant quae quidem in deorsum altera uero sursum aspiciunt et arcturum quidem
          <lb/>maiorem uocant helicem arcturum autem minorem uocant canis caudam altera
          <lb/>namque helice quae aparet prima noctis· altera uero pusilla quidem sed a nauigan
          <lb break="no"/>tibus obseratur maria enim conturbat·</p>
@@ -1245,17 +1246,17 @@
            <lb/>quidem que hoc nomine uocantur quam nicostrata condidit et q<ex>ue</ex> in ea sunt et de eius
            <lb/>locis canis caudam nuncupari· uenire autem cum theohines quos neraida
            <lb/>adstantes quasi quiritas digitis uocat aratus autem eam uocat helicem
-           <lb/>quod de cret<ex>em</ex> e<ex>st</ex> fuisset et fieri illam iouis altricem pro hoc in cęlo honorificari
+           <lb/>quod de cret<ex>em</ex> e<ex>st</ex> fuisset et fieri illam iouis altricem pro hoc in caelo honorificari
            <lb/>
                   <milestone unit="section"/>habet autem stellas per unumquemque angulum de humero <num value="1">unam</num> splendidam in cauda 
            <lb/>
                   <num value="3">tres</num> omnes <num value="7">uiitem</num> super autem alias <num value="10">x</num> que precedunt· minimissima <unclear>quidem</unclear>
-                  <lb/>altera stella quę uocatur polum ad quem putatur totus mundus reuolui <milestone unit="section"/>mi
+                  <lb/>altera stella quae uocatur polum ad quem putatur totus mundus reuolui <milestone unit="section"/>mi
            <lb break="no"/>nor· arcturus qui ad aquilonem adiacet·
            <lb/>In longitudine quidem quartam partem equinoctialis circuli et sortes 
            <lb/>
-                  <num value="7">septem</num>· a latere autem habet sortem una semis quę ab octo sortibus mi
-           <lb break="no"/>nus sunt· <num value="12">duodecim</num> pars et duo quinta sors antecedunt autem illa quę
+                  <num value="7">septem</num>· a latere autem habet sortem una semis quae ab octo sortibus mi
+           <lb break="no"/>nus sunt· <num value="12">duodecim</num> pars et duo quinta sors antecedunt autem illa quae
            <lb/>deducunt xii de quibus in umerum habent principatum de sagitario·
            <lb/>Nouissima ad orientes adiacet ad summum habet piscem sortes xv et vii·
            <lb/>inter aquiloniam duobus quibus in humero distat aquilonio polo sor
@@ -1275,7 +1276,7 @@
          <lb/>et os et temporis qui ad dextera sunt caude mouet ubique caput· sed ubi ad summum
          <lb/>miscuntur occasu erit et horientes alterutri <milestone unit="section"/>hic est magnus et inter ambas
          <lb/>arcturos iacet· Dicitur autem esse qui aurea mala custodit ab herculem
-         <lb/>quidem periturum pro quod et inter astra datus est propter iunam deam quę et consti
+         <lb/>quidem periturum pro quod et inter astra datus est propter iunam deam quae et consti
          <lb/>tuit eum ad uesperum custodem horti et aurei mali pherecydis enim enim
          <lb/>ait quando nubebatur dea iuna ioue adferentes ei dii munera·
          <lb/>terram uenire adducentem aurea mala cum ramis· Videntem autem mirari
@@ -1438,7 +1439,7 @@
                </head>
                <lb/>
                <p>Alterutris pedibus· subsistens bootes uirginem tulitin  manu ferentem
-           <lb/>spica dilucida quę astra non mouet genus uidetur inquid stellarum a priscis
+           <lb/>spica dilucida quae astra non mouet genus uidetur inquid stellarum a priscis
            <lb/>perseuerans parentibus de qua facile profertur uerbum quidem procedit sed
            <lb/>humanum quod denique terrigena cum existeret principatum tenebat hominibus 
            <cb n="b"/>
@@ -1456,9 +1457,9 @@
            <lb/>autem pessimiora parietis et quid ubique prelia et innocencium sanguina non erunt
            <lb/>in hominibus· malum uero non erit sed fructus et in montibus· ascensus populi
            <lb/>in ipsis amplius siluanus relinquitur uidendus sed quando quidem et illi
-           <lb/>obierint quidam autem effecti sunt ęnei genus omnium ceteri uiri qui priores
+           <lb/>obierint quidam autem effecti sunt aenei genus omnium ceteri uiri qui priores
            <lb/>uenefici fabri erunt mucronem pro eo quod primi boum ceciderunt arato
-           <lb break="no"/>res· Tunc autem odio habetur iusta cum genus uirorum septem sub cęlo mascu
+           <lb break="no"/>res· Tunc autem odio habetur iusta cum genus uirorum septem sub caelo mascu
            <lb break="no"/>los creat proptera personat nunc hominibus esse uirgo propinquior bootes <milestone unit="section"/>cui
            <lb/>super utraque humera inuoluitur stella tanta quidem magnitudine
            <lb/>tantoque subiacet splendore qui et minori arcturi cauda uidetur
@@ -1484,7 +1485,7 @@
          <lb/>quidem fraterna superabant omnes non enim propter principatum neque pro
          <lb/>aliud quicquam contendebant· sed cuncta simul agebant· ex quibus
          <lb/>unus cum incedisset in furore propter athineorum iurgiaque inter eos exerse
-         <lb break="no"/>rant sustinuit pacienter concedere illi inmortalitatem alter· In quo ęqum
+         <lb break="no"/>rant sustinuit pacienter concedere illi inmortalitatem alter· In quo aequm
          <lb/>inter eos conuenerat ut antea tempus· <milestone unit="section"/>habent autem stellas· unus quidem
          <lb/>qui excedit a cancero in capite splendidam <num value="1">unam</num> in singulis <del>membris</del>
                   <lb/>humeris <num value="1">unam</num> splendidam· in utroque genua <num value="1">unam</num>· omnes primus ·<num value="5">v</num>·
@@ -1534,7 +1535,7 @@
          <lb/>fecit· dicit autem et euripedes de eius nacione· quidam uero aiunt
          <lb/>mirtelum esse cuius nomine agitatori diamo fuit <milestone unit="section"/>habet autem <del>h</del>stellas
          <lb/>in capite <num value="1">unam</num>· in utroque humero <num value="1">unam</num> per singula cubita <num value="1">unam</num>· super
-         <lb/>dextra manu <num value="1">unam</num> in sinistra summitate <num value="2">duas</num> quę et uocantur
+         <lb/>dextra manu <num value="1">unam</num> in sinistra summitate <num value="2">duas</num> quae et uocantur
          <lb/>heduli Omnes <num value="8">octo</num>·</p>
             </div>
             <div xml:id="taurus">
@@ -1547,14 +1548,14 @@
                      <del>a</del>
                      <add>o</add>
                   </subst>ri una stella super eminet
-         <lb/>quę conprehendere fertur sed taurus preponitur agitatori in aliis desc
+         <lb/>quae conprehendere fertur sed taurus preponitur agitatori in aliis desc
          <lb break="no"/>endere fatur magis quam ascendisse <milestone unit="section"/>hic dicitur inter astra poni
          <lb/>pro eo quod europem adduxerit a fenice in cretem. certum est per
          <lb/>medio equore sicut euripides ait in fixo pro hac racione
          <lb/>inter illustrissimis est a ioue honorificatus· alii quoque aiunt
          <lb/>bouem esse imitatorem eius et inter astra pro hoc a ioue honoratum
-         <lb/>tauri quoque frons quę subucule nominantur id circo ait phere
-         <lb break="no"/>cydis athenensis mammas esse liberi patris quę dodoniade spon
+         <lb/>tauri quoque frons quae subucule nominantur id circo ait phere
+         <lb break="no"/>cydis athenensis mammas esse liberi patris quae dodoniade spon
          <lb break="no"/>se uocabantur· <milestone unit="section"/>habet quidem stellas taurus in cornua quippe ut
          <lb break="no"/>raque <num value="1">unam</num>· in fronte <num value="2">duas</num> per singulos occulos <add>unam</add> in nare <num value="1">i</num>
                   <lb/>hec <num value="7">septem</num> subucule dicuntur in geniculo anteriore <num value="1">unam</num>· in pa
@@ -1565,21 +1566,21 @@
             <lb/>
             <div xml:id="cepheus">
                <p>Nec non etiam cepheus medorum genus adest hisippe inter archa preponitur
-         <lb/>cęlumque penetrat eo quod quasi propinquus erat ipse quoque
+         <lb/>caelumque penetrat eo quod quasi propinquus erat ipse quoque
          <lb/>a dorsum ueniens canis cauda id est septentrionis minoris cep<add place="above">h</add>eus
          <lb/>utrumque manibus extensis simili modo equaliter deductas protenditur
          <lb/>arcturi pedibus alterutris pedem ad pedem p<ex>ro</ex>tendit· <milestone unit="section"/>hic est in ordine
          <lb/>quartus dartcticus circulus hunc recipit a pedibus usque ad pectore
          <lb/>reliquum autem intermediorum excedit ei ab artico et estiuo solisticio· 
          <lb/>
-                  <milestone unit="section"/>fuit ergo sicut euripedes ait ęthiopum rex· Andromede autem pater
-         <lb/>qui filiam suam ad cętum dicitur adposuisse quam perseus diuus saluauit
+                  <milestone unit="section"/>fuit ergo sicut euripedes ait aethiopum rex· Andromede autem pater
+         <lb/>qui filiam suam ad caetum dicitur adposuisse quam perseus diuus saluauit
          <lb/>per quem et ipse inter astra factus est athineorum sciencia· <milestone unit="section"/>habet quidem
          <lb/>stellas in capite splendidas <num value="2">duas</num> in dextra manu nitidam <num value="1">unam</num>·
          <lb/>in utraque humero <num value="1">unam</num> in zona <num value="3">tres</num>· ex transuerso in dextro
          <lb/>hilio <num value="7">septem</num>· in sinistro geniculo <num value="2">duas</num>· in summitate pedum supra
          <lb/>pedes <num value="4">iiii</num>· omnes <num value="19">xviiii</num>· <milestone unit="section"/>hec autem in septentrionis incisionem
-         <lb/>constituitur inter medio autem septentrionalis circuli et ęs
+         <lb/>constituitur inter medio autem septentrionalis circuli et aes
          <lb break="no"/>tiuo solsticio hic aquilonius uocatur sic·</p>
             </div>   
             <lb/>
@@ -1613,11 +1614,11 @@
                <p>Hoc enim et illud laudibus prouoluta statua andromede a m
            <lb break="no"/>atre tradita quam oportet nocte circumspicere quod statim
            <lb/>uidetur caput et utraque humera pedesque summi et cinctura
-           <lb/>omnia etiam distincta uinculis conexa cernitur et in cęlo re
+           <lb/>omnia etiam distincta uinculis conexa cernitur et in caelo re
            <lb break="no"/>ciuntur et id ipsum extense prodigia dant manus ille <milestone unit="section"/>hec autem
            <lb/>inter astra ponitur propter inmortalem persei certaminis memo
            <lb break="no"/>riam· extensa quidem habet manus qualiter et ipsa et apposita
-           <lb/>est cęto pro eo quod saluata a perseo· noluit patri comma
+           <lb/>est caeto pro eo quod saluata a perseo· noluit patri comma
            <lb break="no"/>nere neque matri sed spontanea uoluntate in templum abiit 
            <cb n="b"/>
                   <lb/>cum illo nobiliter agens· dicit quidem et euripedes ueraciter in quo de
@@ -1672,7 +1673,7 @@
                   <lb/>erga circula· Nichil hominum scelerit currit· canis caude arcturi
            <lb/>ipse quidem sollicitus et sine astra ueluti lune circumspicere zonam
            <lb/>et sine lege quidem prodigiosum andromede pauxillum enim sub ipsa
-           <lb/>adfirmatur medio autem tristis magnum cęlum perstrepit summe uergi
+           <lb/>adfirmatur medio autem tristis magnum caelum perstrepit summe uergi
            <lb break="no"/>liasque zona circumciditur orioni <milestone unit="section"/>hic dicitur esse qui ad prixum ministrauit
            <lb/>et ad ellam concessus a nubibus habebat quippe et auream pellem ut
            <lb/>ait hesiodus et pherecydis athenienses cum transfretaret eos <num value="1">unam</num>
@@ -1758,10 +1759,10 @@
          <lb break="no"/>gitur in <num value="7">septem</num> personis hominum cognuscuntur· sex quidem quorum occulis
          <lb/>uidentur ut ioues ait una quippe perdidit claritatem stella ex quo
          <lb/>a generacionibus audiuimus ut ipse quidem ait <num value="7">septem</num> quidem ille
-         <lb/>assidue uocantur quę quidem pusille et sine lumine uidentur·
+         <lb/>assidue uocantur quae quidem pusille et sine lumine uidentur·
          <lb/>has et uergilias uocant <milestone unit="section"/>ipparchus inquid septem stellas iugens
          <lb/>bene iacentes trianguli speciem demonstrant et actus quidem
-         <lb/>septem infit esse· Septima autem uix intueri potest· Heę et estu et
+         <lb/>septem infit esse· Septima autem uix intueri potest· Heae et estu et
          <lb/>hieme incipiunt ideo et uergilie quod uer oriatur propter quod addid<ex>ere</ex>
                   <lb/>dic<ex>en</ex>s ona quippe quomodo perdidit claritatem stella et aliud quod
          <lb/>ioues ait eo quod esse casta autem septemque esse aspectu occulisque sex
@@ -1811,12 +1812,12 @@
                <lb/>
                <p>Iam enim ad uitam precurrit heolus cignus sed heroes ita consequitur·
            <lb/>Astris quidem magnis ipsique obscuri sed hic serenum cum esset cycono
-           <lb/>adsimilatus sinister in aliam deducitur cęphei regionem pin<add place="above">n</add>is
+           <lb/>adsimilatus sinister in aliam deducitur caephei regionem pin<add place="above">n</add>is
            <lb/>euolans sceleris precellit equo <milestone unit="section"/>hic magnus uocatur quem cici
            <lb break="no"/>num putant· Dicitur autem quod iupiter huic cicino adsimilatus
            <lb/>euolare in ramnum attice regionis ibique nemesiam uiolare
            <lb/>illa autem peperit ouum ex quo nasceretur helena sicut in his
-           <lb break="no"/>toria refret crates poeta pro eo quod transfiguratus ita in cęlo
+           <lb break="no"/>toria refret crates poeta pro eo quod transfiguratus ita in caelo
            <lb/>uolitare figuram habens cicine quem et posuit inter astra uo
            <lb break="no"/>lantem <milestone unit="section"/>habet autem stellas in capite quidem splendidam <num value="1">unam</num> in
            <lb/>collo splendidam <num value="1">unam</num> in dextra ala <num value="5">V</num>· <num value="1">unam</num>nitidam erga collum
@@ -1849,7 +1850,7 @@
            <lb/>genu <num value="1">unam</num>· in dextra tibia <num value="1">unam</num>· in singulis pedibus <num value="1">unam</num>· omnes 
            <lb/>
                   <num value="18">XVIII</num>· Effusio autem aque fit dextra leuaque in quo <num value="2">due</num>splendi
-           <lb break="no"/>de sunt cętere uero planę·</p>
+           <lb break="no"/>de sunt caetere uero planae·</p>
             </div>       
             <div xml:id="capricornus">
                <lb/>
@@ -1893,7 +1894,7 @@
                   <lb/>in dextro cubitu <num value="1">unam</num> in scapula <num value="1">unam</num> nitidam in spino <num value="2">duas</num>·
            <lb/>in cauda <num value="2">duas</num> in anteriore geniculo <num value="1">unam</num> in pede <num value="2">duas</num>·
            <lb/>omnes <num value="16">xvi</num>· Relique uero <num value="7">septem</num> subtus crura similes quidem sunt
-           <lb/>posterioribus quę non manifestantur centaurus autem ut prediximus non est·</p>
+           <lb/>posterioribus quae non manifestantur centaurus autem ut prediximus non est·</p>
             </div> 
             <pb n="101v"/>
             <cb n="a"/>
@@ -1951,7 +1952,7 @@
             <div xml:id="orion">
                <lb/>
                <p>Obliquus quidem tauro sed non sub nomine uocatur ipse incollo por
-           <lb break="no"/>ro usque autem purificat nocte ab alto cadens dum pertransiet cęlum
+           <lb break="no"/>ro usque autem purificat nocte ab alto cadens dum pertransiet caelum
            <lb/>sed confidens quis intuat manifeste conspicere <milestone unit="section"/>hunc esiodus
            <lb/>dicit eurialem esse ex numine et neptunum darique ei donum eo quod
            <lb/>super undas ambularet quasi per terram· ueniente autem illo in chio re
@@ -1994,7 +1995,7 @@
            <lb/>cum orta fuerit ardore nimio caloris mundum incendit et fructus
            <lb/>exurit morboque corpora adfligitur <del>o</del> corrumpens· de hunc istorialiter
            <lb/>dicitur quod datus est ad europe custus cum dracone hec uero utraque
-           <lb/>minę accepit et postea sanata procride de infirmitate post tempora
+           <lb/>minae accepit et postea sanata procride de infirmitate post tempora
            <lb/>aliquot donauit ei capita utrumque eorum eo quod esset uir procride as
            <lb break="no"/>cendit autem in thedaidam propter uulpem ducens eum secum ducebatur
            <lb/>enim a nullo perituram non habens ergo de eam quid facere iupiter uul
@@ -2008,7 +2009,7 @@
            <lb/>iuniores qui fructum tradiderunt canibus et quod eorum flatibus
            <lb/>succendebantur masuefecerunt et si quidem uocati sunt postulaticii
            <lb/>Amoris autem memoria remansit in tempore fructuum fieri apparicio
-           <lb/>stellarum constante et significante potencia eius· quę autem in <add place="above">c</add>apite
+           <lb/>stellarum constante et significante potencia eius· quae autem in <add place="above">c</add>apite
            <lb/>eius est id est in ho<unclear>
                      <ex>mine</ex>
                   </unclear>s syrius stella uocatur· A quibusdam autem raro propter
@@ -2045,7 +2046,7 @@
                   <title>DE NAVICVLA</title>
                </head>
                <lb/>
-               <p>Hęc quidem canis magni post cauda trahitur nauis puppis· nundum
+               <p>Haec quidem canis magni post cauda trahitur nauis puppis· nundum
            <lb/>habet secundum ordinem equalis trait· sed posterior fertur instructa
            <lb/>ut hec nauis quandoquidem nauite conuertuntur ut classes ueni
            <lb break="no"/>entes hec statim totam incidit nauem· Vetusta quidem obtrectare
@@ -2066,16 +2067,16 @@
                <lb/>
                <p>hunc quidem paululum primitus lapsum andromede magnum caetus 
            <lb/>superueniens adpropinquabat ipsa enim exterrita flatans aquilonem uocat
-           <lb/>de quo dicitur auster contrarius esse cętus sub ariete et pisscibus 
+           <lb/>de quo dicitur auster contrarius esse caetus sub ariete et pisscibus 
            <lb/>alterutris gradiens super flumine positum stellis ornatur· hic est quem
-           <lb/>neptunus misit apud cępheum eo quod casiepia contendebat nera
+           <lb/>neptunus misit apud caepheum eo quod casiepia contendebat nera
            <lb break="no"/>hidis de pulchritudine perseus quidem illum interemit et propter hoc 
            <lb/>inter astra positus est memoriale de hac eius actione· Conpigit 
            <pb n="102r"/>
                   <cb n="a"/>
                   <lb/>autem hec sopodes carminum poeta ad andromedam· <milestone unit="section"/>habet autem stellas in 
            <lb/>cauda obscuras <num value="2">duas</num>· super caudam agimbo usque ad crines <num value="5">v</num>· sub uentri
-           <lb break="no"/>culo <num value="6">vi</num>· omnes habet cęthus in semet ipso stellas <num value="13">XIII</num>·</p>
+           <lb break="no"/>culo <num value="6">vi</num>· omnes habet caethus in semet ipso stellas <num value="13">XIII</num>·</p>
             </div> 
             <div xml:id="eridanus">
                <lb/>
@@ -2085,7 +2086,7 @@
            <lb break="no"/>tes iacent unus quidem retro crunibus permixti uagitant in uno comit
            <lb break="no"/>tentes· una autem stella directi et coeto illo prima spina quedam uero 
            <lb/>modica mensura paruo que habentes splendores medio pedalis et 
-           <lb/>cęti inuoluuntur pallore cadet quando sub latere lepus uniformes 
+           <lb/>caeti inuoluuntur pallore cadet quando sub latere lepus uniformes 
            <lb/>enim non positi figura sed membris inmittuntur adsimilantes ut alia 
            <lb/>multa ex quibus uersus est pertransiens <del>e</del> hec iubentes tamen etsi figu
            <lb break="no"/>ras conpositas· vides hominem transfiguratas non estimandum est quod 
@@ -2097,8 +2098,8 @@
            <lb/>posita <milestone unit="section"/>hic quoque de pede sinistro incolo principatum habet uocatur 
            <lb/>quidem secundum aratum iridanus nullam autem ostensionem facit de ea
            <lb/>alli uero dicunt iuste eum nominare nilum fluuium solus enim hic 
-           <lb/>a meridięis partibus inicium habet multisque astris exornatur sub
-           <lb break="no"/>iacet quippe ei stella quę uocatur canobus tangitque temonem nauis 
+           <lb/>a meridiaeis partibus inicium habet multisque astris exornatur sub
+           <lb break="no"/>iacet quippe ei stella quae uocatur canobus tangitque temonem nauis 
            <lb/>huic ergo nulla stella minima paret propterea et circa terra esse 
            <lb/>uidetur· <milestone unit="section"/>habet autem stellas in prima acie <num value="3">tres</num>· in secunda <num value="3">tres</num>· 
            <lb/>in tercia <num value="3">tres</num>· usque ad nouissimas <num value="7">septem</num> quas esse dicunt in ore 
@@ -2106,15 +2107,15 @@
             </div>
             <div xml:id="piscis_magnus">
                <lb/>
-               <p>Nuper quidem capricornius subflat ad austrum piscis unius cętus
+               <p>Nuper quidem capricornius subflat ad austrum piscis unius caetus
            <lb/>aduersus uidetur qualis a primordio austrum uocant quidam
-           <lb/>autem tempore sementis subsistunt capricornio cętus piscem quem
+           <lb/>autem tempore sementis subsistunt capricornio caetus piscem quem
            <lb/>ethereum dicunt· Modio autem uergilias iuxta sibimet dextra
            <lb/>leuaque manibus fulget aquarius qui et paulatim fundit aquam
-           <lb/>hinc atque hinc pariterque lęte et absque periculo conuolute
+           <lb/>hinc atque hinc pariterque laete et absque periculo conuolute
            <lb/>stelle· nec aliquot multum longe nec iuxta uno quippe ab
            <lb/>alterutris pedibus bonaque magnaque· Aquarius autem hic sub
-           <lb break="no"/>iacet canis caudeque quę omnes uocant aquam· parue quidem altere nuper
+           <lb break="no"/>iacet canis caudeque quae omnes uocant aquam· parue quidem altere nuper
            <lb/>capricornio sub anterioribus pedibus pessimo circuitu erga terra uolui
            <lb break="no"/>tatur· <milestone unit="section"/>hic ergo est magnus uocatus piscis quem dicunt declinare aquas
            <lb/>ab aquarii effusione conpingitur autem hic ut ait cusias primis in quo
@@ -2194,7 +2195,7 @@
             </div>    
             <div xml:id="hydra">
                <lb/>
-               <p>Et adhuc etiam mane trahitur stella quam aquariam uocant quę
+               <p>Et adhuc etiam mane trahitur stella quam aquariam uocant quae
            <lb/>ut coluber similis est a capite usque sub medio cancerum adorat
            <lb/>seminat autem sub corpore leonis caudam quidem tendit ad cen
            <lb break="no"/>taurum· medio autem seminatur na cuius figura subter posita·
@@ -2206,8 +2207,8 @@
            <lb/>crossos habentes mansit ibi donec perflorescerent· post
            <lb/>dies quidem plurimos perficiens hoc et uescens ficum sensit quod
            <lb/>peccaret abripiens et quod in crete aquarium ferebat cum
-           <lb/>urna estimans se bibere per singulos dies quę in crete fuerat
-           <lb/>aqua· Apollo autem dum cognouisset quę gesta erant· coruum
+           <lb/>urna estimans se bibere per singulos dies quae in crete fuerat
+           <lb/>aqua· Apollo autem dum cognouisset quae gesta erant· coruum
            <lb/>quidem hominibus ad increpandum posuit· satis tempore isto sitien
            <lb break="no"/>tem ut aristotiles aut de bestiis et archelaus quidem simili modo ait
            <lb/>in suis uoluminibus· <milestone unit="section"/>habet quidem stellas aquarius <num value="3">tres</num> in ceruice 
@@ -2216,7 +2217,7 @@
            <lb/>coruus aspiciens occasum· habet autem stellas <num value="4">quatuor</num>· in rostro 
            <lb/>
                   <num value="1">unam</num> in ala <num value="2">duas</num> in orthopigio <num value="1">unam</num>· ad hoc quidem satis distat
-           <lb/>usque ad urnam quę adiacet panda secus genua uirginis· habet
+           <lb/>usque ad urnam quae adiacet panda secus genua uirginis· habet
            <lb/>autem stellas urna in medio labiorum <num value="3">tres</num>· obscuras·
            <lb/>omnes <num value="10">decem</num>·</p>
             </div>     
@@ -2224,15 +2225,15 @@
                <lb/>
                <p>Quin etam et antecanis sub geminos bene paret· hec adposita pre
            <lb break="no"/>teritorum annorum erunt quorum iterum uidentur omnia magis
-           <lb/>ipse in cęlo bene conpositas figuras noctis aduenientis <milestone unit="section"/>hic est
+           <lb/>ipse in caelo bene conpositas figuras noctis aduenientis <milestone unit="section"/>hic est
            <lb/>qui ante magno cane fit· uocatur autem canis orioni dicitur enim
            <lb/>deo quod amatur ueneracionis esset hunc ipso orione commendare
-           <lb/>nam et ipse lepus uidetur comprehensus et alię feruscule ab ipso 
+           <lb/>nam et ipse lepus uidetur comprehensus et aliae feruscule ab ipso 
            <lb/>
                   <milestone unit="section"/>habet quidem stellas <num value="3">tres</num> quarum <num value="1">una</num> oritur splendidissima et
            <lb/>facit similitudinem canis propter quod et circa orionem orietur
            <lb/>et occidit et anticanis uocatur pro eo quod primus de illo oritur
-           <lb/>stelle autem quę positę sunt in signali circulo quem sol pro duodecim
+           <lb/>stelle autem quae positae sunt in signali circulo quem sol pro duodecim
            <lb/>menses perambulat inueniuntur pro eo quod et signa <unclear>hec</unclear> coequa
            <lb break="no"/>li numero sunt·</p>
             </div>       
@@ -2243,9 +2244,9 @@
          <pb n="102v"/>
                   <cb n="a"/>
                   <lb/>in semet ipso conuoluitur annus longa quippe signa iacent a prin
-         <lb break="no"/>cipio simul conueniencię· Neque adhuc considens illis ego suffi
+         <lb break="no"/>cipio simul conuenienciae· Neque adhuc considens illis ego suffi
          <lb break="no"/>cio narrare eo quod sunt narratice et per circuitum menses sig
-         <lb break="no"/>nificant menses autem annum <milestone unit="section"/>de stellas ergo quę uocantur planete
+         <lb break="no"/>nificant menses autem annum <milestone unit="section"/>de stellas ergo quae uocantur planete
          <lb/>id est erratice pro eo quod proprium motum habeant· ipse dicuntur
          <lb/>quidem deorum nomina esse quinque prima quidem iouis magna
          <lb/>paret· secunda uero uocata est pheton sic uocata est a sole·
@@ -2254,7 +2255,7 @@
          <lb/>stellarum maxima est quam et luciferum uocant eo quod mane
          <lb/>orietur· Quinta uero mercurius rucilans atque splendida
          <lb/>et minor mercurio autem data est eo quod primum ipse fecit
-         <lb/>exornacionem cęli et ceterorum ordines et horas dinumerauit
+         <lb/>exornacionem caeli et ceterorum ordines et horas dinumerauit
          <lb/>et significaciones temporum demonstrauit· Rutilus autem
          <lb/>uocatur eo quod tantam claritatem ostenderit·</p>
             </div>       
@@ -2266,11 +2267,11 @@
            <lb/>manifesta esse quibus multa quidem continuo ubique conferta
            <lb/>omnia ipsa uero sine errore manifestantur· alterutram omnia
            <lb/>itaque metra duplicia proferuntur <milestone unit="section" xml:id="lacteus"/>si quidem nocte mundo
-           <lb/>aere quando omnes splendide stellę hominibus ostendit preclara
+           <lb/>aere quando omnes splendide stellae hominibus ostendit preclara
            <lb/>nox neque aliqua crassitudine aeris cernitur bipertita luna
            <lb/>sed sic sine nubilo uidentur accuta omnia sidera si quidem
            <lb/>ob honore ergo sapientes ueniet miraculum cogitantibus
-           <lb/>ubique considerandum inuenire circulum cęli aut quis sub
+           <lb/>ubique considerandum inuenire circulum caeli aut quis sub
            <lb break="no"/>sistens aliter ostendat quod illi pre tanto nitore fulgentem
            <lb/>galam inuocant quem pro calore greci galaxian circulum app
            <lb break="no"/>ellant <milestone unit="section" xml:id="tropici_aequator"/>mensura autem tanta est de quibus duo magna lu
@@ -2292,7 +2293,7 @@
            <lb/>super terram tres quoque tempore estaque sol estiuales sunt sed
            <lb/>unus quidem ad aquilonem circa cancrum est collocatus· Alter
            <lb/>uero contra ad austrum per medium capricornium diuidit autem
-           <lb/>et pedes aquarii et cęti caudam· ibi est autem et lepus et canis mag
+           <lb/>et pedes aquarii et caeti caudam· ibi est autem et lepus et canis mag
            <lb break="no"/>nus quod pedibus habeat nauem et magni centauri scapu
            <lb break="no"/>las ibi et aculeum scorpionis et circum leuiorem sagitarios qui
            <lb/>purus transit ad aquilonem ad austrum uero fidicula ponitur
@@ -2307,7 +2308,7 @@
            <lb/>hinc uero et zona dilucida orionis· caupes autem et aquarius
            <lb/>diuagiet leuiores sunt· urna autem et coruus stelle non multum
            <lb/>densiores uergilie quidem secus serpentarii genibus iacent
-           <lb/>quę non longe adiacent sed iuxta cui adiacet uelocissimus
+           <lb/>quae non longe adiacent sed iuxta cui adiacet uelocissimus
            <lb/>angelus apud ipsum autem et qui caput et subceruical inuol
            <lb break="no"/>uuntur unde quidem sine modum recte circumspicitur axis
            <lb/>in medio habens quartus autem reuincitur obliquus·</p> 
@@ -2326,16 +2327,16 @@
            <lb/>occidit tantum super terram reducitur· per totam noctem· ex his occidunt
            <lb/>duodecim circirculi tot uero et oriuntur tantumque in longitudinem
            <lb/>uniuersa nox extenditur quantum ad medietatem circuli incipiens
-           <lb/>a nocte et erigitur ab altitudine terrę· <!--<note resp="#id">Begins Part Paranatellonta</note>-->quod non est abiectum sed probatum
+           <lb/>a nocte et erigitur ab altitudine terrae· <!--<note resp="#id">Begins Part Paranatellonta</note>-->quod non est abiectum sed probatum
            <lb/>et dena milibus pertractatum quando oriuntur uniuersa· Semper enim cum ipsis
            <lb/>consurgit ipsa fidicula quodque pertractum magis ad mane recte
            <lb/>si non fuerunt nubes nigre fiunt aut montibus absconse dum ori
            <lb break="no"/>untur signa superuenientes inestimabiles fieri· Ipse autem magis
            <lb/>signa utrumque dat occeano· Tunc quoque multum circumuertitur
            <lb/>ipse super uiculos portatur singulariter cuius obscuritas quando cancer
-           <lb/>oritur stellę utrumque conuolute circumiacent· quedam autem occidunt
-           <lb/>alię uero oriuntur· occidit quidem corona occidit autem ab spino piscis
-           <lb/>medius ab sublimitate dimidię partis· Nouissime autem mittit de
+           <lb/>oritur stellae utrumque conuolute circumiacent· quedam autem occidunt
+           <lb/>aliae uero oriuntur· occidit quidem corona occidit autem ab spino piscis
+           <lb/>medius ab sublimitate dimidiae partis· Nouissime autem mittit de
            <lb break="no"/>clinante corona· Ipsa quoque a retro conuersa sed nondum precedit super
            <lb break="no"/>iore nocte ferenda unde quidem et in humeros laboriosum
            <lb/>serpentarium· cancer uero a geniculis deponitur iuxta autem serpen
@@ -2351,7 +2352,7 @@
            <lb/>feruntur· cancer quando occidit et aquila statim et nox uoluitur
            <lb/>alia quidem remanent per ordinem splendida nondum fluctibus reuertitur
            <lb/>occeanus oritur autem aquarii caput et lepusculus et antecanis
-           <lb/>priores pedes consequentes non autem paululum terrę subposita mit
+           <lb/>priores pedes consequentes non autem paululum terrae subposita mit
            <lb break="no"/>tit uirgine oriente lyra tunc reuoluitur et delphinus oc
            <lb break="no"/>cidit et iaculus cum ipso autem et cigni priores alas simul cum
            <lb/>ipso et cauda et fluminis terminos adiacentes occidit autem equi
@@ -2362,9 +2363,9 @@
            <lb/>et subtilius lucentes inenarrabilem autem magnum bootis signum
            <lb/>subito exoritur conuolutus septentrioni nauis autem tranquilla
            <lb/>tota sublimis adsistens sed aquarius funditur multum ueniens
-           <lb/>in cęlum· Caudam quidem tantam modo apud uergilies adducit dextra
+           <lb/>in caelum· Caudam quidem tantam modo apud uergilies adducit dextra
            <lb/>leuaque tibias eius usque ad genibus semper nox ubique· sic autem lira recedit
-           <lb/>hanc autem iaculum quem signum sub cęlo utraque· occidencia et rursus ori
+           <lb/>hanc autem iaculum quem signum sub caelo utraque· occidencia et rursus ori
            <lb break="no"/>encia multociens ea ad mane aspiciens in aere·
            <lb/>Tibie autem cum uergilias uidentur utraque ipse <gap reason="lacuna"/> a capite con
            <lb break="no"/>uertitur alter scorpionem exspectans et spiculam sagitte ipse enim
@@ -2374,10 +2375,10 @@
            <lb/>centauri uidentur ascendere ad huc uergilie distantes·
            <lb/>a capite equi donec occidant et prioris auis adducitur ultima
            <lb/>cauda·
-           <lb/>Occidit autem andromede caput quod in maius adnixum cętum in
-           <lb break="no"/>ducit et austrum e contrario ei cępheum magnum ab aquilone
+           <lb/>Occidit autem andromede caput quod in maius adnixum caetum in
+           <lb break="no"/>ducit et austrum e contrario ei caepheum magnum ab aquilone
            <lb/>adtrectare iubet et partem lumborum eius ex aduerso usque ad eam
-           <lb/>occidit quę cęphei caput et humeri et manus dedinat autem flu
+           <lb/>occidit quae caephei caput et humeri et manus dedinat autem flu
            <lb break="no"/>uius superueniente ei scorpioni accidens ab euro occeanus
            <lb/>atque superueniens terret magnum orionem diana helicen primo
            <lb/>sermone locuta ducere plurimos himbres super bestias
@@ -2385,7 +2386,7 @@
            <lb break="no"/>nida ferociter abnuens ei pro uino deditum iam ex ipso sur
            <lb break="no"/>gens uestigia alia dissipante insulas per medias utrum regiones
            <lb/>persequens scorpionem et extendens multum ueniens pluri
-           <lb break="no"/>mę inlustras super dianam incolo propter castitatem qua racione
+           <lb break="no"/>mae inlustras super dianam incolo propter castitatem qua racione
            <lb/>dicunt superueniente scorpione incolo circa terras nouissi
            <lb break="no"/>me fugientem necnon andromede et cetus derelicti ipsi quoque
            <lb/>oriente continuo alia simul omnia confugiunt· Tunc autem 
@@ -2397,7 +2398,7 @@
            <lb/>ornamentum uidentur de sellula pedes et manus desuper sed a capite ui
            <lb break="no"/>detur obseruare a femoribus et genibus nam non utiquo uentura et
            <lb/>equotua fieri rerum magnitudo alia autem pars in altera fertur
-           <lb/>altera uero pars ad altera cęlum refert quando coronam <del>incipit</del>
+           <lb/>altera uero pars ad altera caelum refert quando coronam <del>incipit</del>
                   <lb/>circuit secundus ordo aquarius autem ultimam adducit centauri par
            <lb break="no"/>tem corpus quidem et caput et bestiam quam manu dextera centaurus alia quippe
            <lb/>remanent arcum autem superuenientem primi pedes equi sepultoris et in arcum
@@ -2526,7 +2527,7 @@
            <lb/>autem per medio lucent tunc ubique pluuiales pertrans<unclear>eunt uenti</unclear>
                   <lb/>Considerandum autem si ad auroram sub albidus fuerit sol ipse·
            <lb/>sic enim oportet conspicere si inuentus fuerit supercurrens
-           <lb/>multis aduenientibus nubibus· Venientes aliunde alię nigrę
+           <lb/>multis aduenientibus nubibus· Venientes aliunde aliae nigrae
            <lb/>et tunc aque erunt signa uentura <unclear>haec inueniuntur omnia</unclear> uentis·
            <lb/>Si autem utraque similiter usus fuerit et tunc demum aquam adducit
            <lb/>et a uentibus extenditur· Si autem orienti aut occidenti radia
@@ -2572,13 +2573,13 @@
             <div xml:id="praesepe">
                <lb/>
                <p>Pertractandum est quod et presepe quidem paruum ueniet sed aligat
-           <lb/>ab aquilone sub cancro propinquans ambe duę quidem subtiles
+           <lb/>ab aquilone sub cancro propinquans ambe duae quidem subtiles
            <lb/>uidentur stelle· Neque adhunc multum a se distant· neque autem iuxta
            <lb/>sed quando quidem maxime ab inuice ueniente una ab aqui
            <lb break="no"/>lone alia uero ab austro uocantur quorum quidem asini sunt
            <lb/>medio autem praesepe positum quod repente ubique serenitatem facit
-           <lb/>et est inuisibilis totus quod autem ab inuice uidentur stellę utrumque
-           <lb/>sibimet iuncte in paruulo hieme abluuntur segetes· stellę
+           <lb/>et est inuisibilis totus quod autem ab inuice uidentur stellae utrumque
+           <lb/>sibimet iuncte in paruulo hieme abluuntur segetes· stellae
            <lb/>utraque aquarius sonitum significant en quippe unus ab aquilone prese
            <lb break="no"/>pis manet inuisibilis subtilitate caligans auster <gap reason="erasure" extent="3" unit="chars"/> splendidus est· 
            <lb/>
@@ -2597,14 +2598,14 @@
            <lb break="no"/>tes ex lege ueniencia pro uictum uespere ad terras neque ergo a foris
            <lb/>ueniunt nisi magnam hiemem sentiant· sed et fuluide apes ceram
            <lb/>gignunt ipsius mellis opus se inuoluuntur nec praecelse grues
-           <lb/>longis tibiis sese extendunt ad escas neque quando <unclear>haraneę</unclear> per pa
+           <lb/>longis tibiis sese extendunt ad escas neque quando <unclear>haraneae</unclear> per pa
            <lb break="no"/>rietes subtilitate feruntur· aut flammis se lucernas nigris 
            <lb/>
                   <unclear>extinguent</unclear> aut ignis uix subsereno lucet credendum hiemem
            <lb/>magnum propinquo uenturam signum super hominibus eo oportet enim semper
            <lb/>et cinis in idipso conficta esse prodigiosa et lucerne signum habetur igne
            <lb/>lucente iuxta mucco prunas autem uiuos grandinis nequaquam lucen
-           <lb break="no"/>tes ipsi tamen medio luce subtili uidetur quę nobis signa de
+           <lb break="no"/>tes ipsi tamen medio luce subtili uidetur quae nobis signa de
            <lb break="no"/>intus propulsant·</p>
             </div>
             <div xml:id="vv_1044-1063">
@@ -2631,7 +2632,7 @@
             </div>
             <div xml:id="vv_1068-1074">
                <lb/>
-               <p>Feminę quidem sues· femineque oues atque capree si quando conuerse
+               <p>Feminae quidem sues· femineque oues atque capree si quando conuerse
            <lb/>fuerint adfectos masculos omnes conceperint Item eas reunti ad 
            <cb n="b"/>
                   <lb/>fectum ita ut uespas magnum hiemem dicitur uenturum· uespere autem cunctis
@@ -2641,7 +2642,7 @@
             <div xml:id="vv_909-993">
                <lb/>
                <p>Signa quoque uentorum elacione maris fieri a longe ad litora clamans et ripe ut
-           <lb/>plane aliquociens perstrepi fiuntque quasi cacumina montis summę unda autem
+           <lb/>plane aliquociens perstrepi fiuntque quasi cacumina montis summae unda autem
            <lb/>et fluctus clamant a uesto sinistro et arida quidem quando fulica tunc per
            <lb/>orbem quidem tunc a latere ueniet uox prae multitudine clamans commota
            <lb/>maria ob superbiam uentorum et quando serena uidentur contraria uentis
@@ -2656,10 +2657,10 @@
            <lb/>quando inpares sunt contrarii quippe spirant ut uiri mirentur·
            <lb/>Tunc autem quando ab euro et austro coruscant aliter quando zefirus et alter
            <lb/>ab aquilone· Tunc qui in equore uidentur nauigare uiri imitatorem
-           <lb/>quidem habent iouem per aquas aquę enim tante uertiginis feruntur
+           <lb/>quidem habent iouem per aquas aquae enim tante uertiginis feruntur
            <lb/>quociens autem <del rend="underlined">quociens autem</del> uenientibus pluuiis nubes recedunt que
            <lb/>magis inuice ueniencia inruent pari Aut gemina cingere magnitu
-           <lb break="no"/>dinem cęlestis iris aut qualis stella nigerrimam habet aram multe enim pro
+           <lb break="no"/>dinem caelestis iris aut qualis stella nigerrimam habet aram multe enim pro
            <lb/>stagnis inescantur aues insauiabili relabantur reuolute aquis aut
            <lb/>stagnum circumueniunt hirundines multe uentriculis conlisis sese
            <lb/>commiscent aquis seu quidem manifeste gentes aquis tempore uerde inde
@@ -2667,10 +2668,10 @@
            <lb/>solaciis aut sic ubi pertransiens ululat bubo tempestate ueniente agres
            <lb break="no"/>tis conluditur cornicla Sic ubi et flumina in undauerunt usque ad
            <lb/>summum humeris super capite multo amplius natat aut multo uertitur
-           <lb/>secus aqua crasa clamitans et boues namque per aquam deficientes cęlum
+           <lb/>secus aqua crasa clamitans et boues namque per aquam deficientes caelum
            <lb/>intuere habet hera olfacti sunt uentrisque formiculis repleri ex
            <lb break="no"/>trinsecus omnes cito ascenderunt et subito uiderunt in agris muribus reptante
-           <lb/>secertatici uermes sic illi uocant ingerrima intrinsecus terrę et
+           <lb/>secertatici uermes sic illi uocant ingerrima intrinsecus terrae et
            <lb/>pullis gallinarum quae gallo efficere sex bene peduculati et clamare max
            <lb break="no"/>ima uoce ut quando se inuice perstrepit aqua super aquam· tunc et
            <lb/>genus coruorum et fulica cedunt ad aquam uenientes iouis signum
@@ -2682,7 +2683,7 @@
            <lb/>tegmine domum uenientes ad terram que concuciunt alas aut super
            <lb/>undam sectatur fulica acute secuta quorum nichil expellere
            <lb/>obseruancia aquas fiat uti non amplius deserere dictum mordere
-           <lb/>muscum et sanguine mitescunt aut lucernę extinte <gap reason="erasure" extent="8" unit="chars"/> 
+           <lb/>muscum et sanguine mitescunt aut lucernae extinte <gap reason="erasure" extent="8" unit="chars"/> 
                   <lb/>
                   <gap reason="erasure" extent="11" unit="chars"/> aura nocte ad austrum nulla sub tempestatis ora
            <lb/>lucerne aliud quando compositum lumen uideris et bullas aque feruen
@@ -2712,17 +2713,17 @@
                   <lb/>uenientes· Hic autem sine dubio statim magis laborat sic enim hieme superue
            <lb break="no"/>niunte grues· Mane quippe et uespere magis clamitantes ueniunt an
            <lb break="no"/>ticipantes alterutre non ut greges uidentur plurime proferri ad tempus non
-           <lb/>magis multę. Inundatio vmbrium erit quod posttremo prodificat labore·</p>
+           <lb/>magis multae. Inundatio vmbrium erit quod posttremo prodificat labore·</p>
             </div>
             <div xml:id="vv_1082-1093">
                <lb/>
-               <p>En uobis pecudes quę postquam recessere poma terram effodiunt capita quippe aquilo
+               <p>En uobis pecudes quae postquam recessere poma terram effodiunt capita quippe aquilo
            <lb/>uento contra tendent. Magis tunc hiemis ipse vergiliae descendunt· imbremque demonstrant· 
            <pb n="104r"/>
                   <cb n="a"/>
                   <lb/>qui maxime per orbe factus nec plantaginis hiemps amicus neque aranti· sed
            <lb/>imbribus multis <unclear>magnum</unclear> in segetis nondum uocat neque crescere facit tum letus gau
-           <lb break="no"/>det inrigatus uir· Quedam similis stellę semper non una nec <num value="2">duas</num> neque plures fruc
+           <lb break="no"/>det inrigatus uir· Quedam similis stellae semper non una nec <num value="2">duas</num> neque plures fruc
            <lb break="no"/>tuantes· Multum enim fructum afferent per madido anno·</p>
             </div>
             <div xml:id="vv_1094-1103">
@@ -2741,7 +2742,7 @@
            <lb/>superuenientes recurrit· Alii quippe ex grege arietes· Alii uero· et agni
            <lb/>simul exultant collisis cornibus seu aliquotiens alterutris percutientes
            <lb/>quaternis pedibus hi cesis cornuis inuice· quando de grege uolunptarie
-           <lb/>mouentur· egredere pascuis· Hec autem omnia faciunt· quę ab ipsis uidentur
+           <lb/>mouentur· egredere pascuis· Hec autem omnia faciunt· quae ab ipsis uidentur
            <lb/>uera esse·</p>
             </div>
             <div xml:id="vv_1113-1123">
@@ -2751,8 +2752,8 @@
            <lb break="no"/>lantes uenient erga latere dextra leuaque distenti aratro senisque
            <lb/>hortatur arator· Neque quando mugitus quod plurimum emittunt ueni
            <lb break="no"/>entes ad stabula aspicere tristes· hiemis inundatio est et bonum statim
-           <lb/>designat sine periculo satiari· Neque capreę properantes sub ilice<del>s</del>
-                  <lb/>spinosa tranquilli· neque sues deficiunt <gap reason="erasure" extent="7" unit="chars"/> fecundę·</p>
+           <lb/>designat sine periculo satiari· Neque capreae properantes sub ilice<del>s</del>
+                  <lb/>spinosa tranquilli· neque sues deficiunt <gap reason="erasure" extent="7" unit="chars"/> fecundae·</p>
             </div> 
             <gap extent="1" unit="lines"/>
             <div xml:id="vv_1124-1131">
@@ -2798,7 +2799,7 @@
          <subst>
                   <del>fere</del>
                   <add place="margin">spere</add>
-               </subst> hec est Quod sit medio cęlo cancer super solistitionem solis estate orientales partes su
+               </subst> hec est Quod sit medio caelo cancer super solistitionem solis estate orientales partes su
          <lb break="no"/>per equinotialem occidentalem arietem draconis caput deorsum in id quod terminat· circuit
          <lb/>autem sub quo terminatur ipsa quoque secundum narrationem positio de quibus arati uident talis est
          <lb/>quod habeat in medio celi capricornium super hiemalem solstitium orientalem arietem
@@ -2810,17 +2811,17 @@
                </num>
                <lb/>araticum totum sublimem in qua adornantur signa <num value="4">iiii<hi rend="sup">or</hi>
                </num> arturi <num value="2">ii<hi rend="sup">o</hi>
-               </num> cępheus a pec
+               </num> caepheus a pec
          <lb break="no"/>tore draco estiuus solstitius plus habens desuper terra quam autem quod subtus terra in quo ador
          <lb/>nantur signa <num value="8">octo</num> bootem corona <subst>
                   <del>uirginiculo</del>
                   <add place="above">in geniculo</add>
-               </subst> lira <unclear>casiępia</unclear> agitator cicnus perseus hie
+               </subst> lira <unclear>casiaepia</unclear> agitator cicnus perseus hie
          <lb break="no"/>male solistitium plus habens quod subtus terra Equum autem quod super terra in quo adfirmantur signa 
          <lb/>
                <num value="8">viii<hi rend="sup">o</hi>
                </num> bootem corona ingeniculo lyra casiapie agitator cignus perseus hiemale <del>superstitio</del>
-               <lb/>solistitium plus habens quod sit super terram Ęquum autem sub aust<del>e</del>ro in quo affirmantur signa
+               <lb/>solistitium plus habens quod sit super terram aequum autem sub aust<del>e</del>ro in quo affirmantur signa
          <lb/>australes <num value="6">vi</num> de her<subst>
                   <del>o</del>
                   <add place="above">i</add>
@@ -2830,11 +2831,11 @@
          <lb/>urceus coruus <del>aquila</del> antea canis aquila delphinus orion celat deltoto nan
          <lb break="no"/>ndromeda <unclear>lepus</unclear> cetus canis Vnde fieri omnia signa numero <num value="31">xxxi</num> queque eorum inlustris
          <lb break="no"/>simos alterutrum constitutos quomodo super botem septentrio Super actatorem <num value="6">vi</num> cathedos
-         <lb/>super taurum uergilię super uirginem spica praeuindemia super canem sirius et si quarum
+         <lb/>super taurum uergiliae super uirginem spica praeuindemia super canem sirius et si quarum
          <cb n="b"/>
                <lb/>horum similia· Zodiacus autem circulus habet signa <num value="12">xii</num> cancer leonem uirginem
          <lb/>libr<ex>em</ex> scorpionem sagittarium capricornium aquarium pisces arietem taurum geminos
-         <lb/>unde fieri omnia signa <num value="42">xlii</num> et erratice stellę extra solem et lunam <num value="5">v</num> satur
+         <lb/>unde fieri omnia signa <num value="42">xlii</num> et erratice stellae extra solem et lunam <num value="5">v</num> satur
          <lb break="no"/>nus mars uenerem mercurius horum quidem narrationem fecit aratus incipiens a sep
          <lb break="no"/>tentrione sed pertransiens omnes orientales in circuitu usque ad signalem itaque transiens·
          <lb/>et inchoans ab orionem eo quod splendidus hic eaquae a signale fauonias omnes percurrit
@@ -2856,16 +2857,16 @@
                   </del>
                   <add>intuere</add>
                </subst> igitur araticus circulus incidit signa <num value="2">ii<hi rend="sup">o</hi>
-               </num> bootis cubitum cę
+               </num> bootis cubitum cae
          <lb break="no"/>phei pectus sicut refert de his aratus Estiuum solstitium incidit signa <num value="10">X</num> agitato
          <lb break="no"/>ris genua· serpentarii humeros serpentem collum cicni caput et subceruical equi terga per
-         <lb break="no"/>sei humerum sinistrum et tibia andromedę manus sinistra· Geminum capita
+         <lb break="no"/>sei humerum sinistrum et tibia andromedae manus sinistra· Geminum capita
          <lb/>Cancer medius leonem simulque sertarii humeros serpentis ceruicem Equinoctialis
          <lb/>circulus incidit signa <num value="15">xv</num> equi caput et ceruicem serpentarii genua ylidris collum urceum
-         <lb/>coruum orionem medium ante canis caput andromedę pectus Aquilam mediam sinis
+         <lb/>coruum orionem medium ante canis caput andromedae pectus Aquilam mediam sinis
          <lb break="no"/>tri piscis caudam arietem medium tauri genua uirginis pedem librem mediam scorpii pars <add place="margin">simulque piscis· cauda cancri pes scorpioni pars</add>
                <lb/>andromede pectus sinistrum ante canis hiemalis circulus incidit signa <num value="10">x</num> herida
-         <lb break="no"/>num nauis puppę centauri scapulas canis maiori retrorsus pedes <unclear>sotiat</unclear> cau
+         <lb break="no"/>num nauis puppae centauri scapulas canis maiori retrorsus pedes <unclear>sotiat</unclear> cau
          <lb break="no"/>da lepus medium scorpii aculeum sagittarii arcum capricornium medium aquarii pedes
          <lb/>inde fieri incedentia signa <num value="4">IIII<hi rend="sup">or</hi>
                </num> que autem inciduntur ab eis signa <num value="37">XXXVII</num> Iamque de
@@ -2873,13 +2874,13 @@
          <lb/>totus orion fluuius Occidit autem coronam piscis mediam assp<ex>er</ex>at<ex>ur</ex> serpentarius
          <lb/>usque humeros serpens usque ad collum· septentrioni custos absque modico leone ori
          <lb break="no"/>ente oritur antecanis totus lepus aquarii caput canis anteriores pedes occidunt residua
-         <lb/>cum cancro pecora occidit bootes reliquum coronę serpentarius serpens piscis aquila
+         <lb/>cum cancro pecora occidit bootes reliquum coronae serpentarius serpens piscis aquila
          <lb/>totus ingenua absque tibia sinistra usque geniculo uirginis <add place="margin">orientis</add> oritur ylidris usque ad urce
          <lb break="no"/>um canis maiori post pedes nauis puppe Occidit autem fidicula delphinus tela cicni
-         <lb/>cauda fluuii prior pars ęqui principium libri orientis oritur Sagittarius totus nauis
+         <lb/>cauda fluuii prior pars aequi principium libri orientis oritur Sagittarius totus nauis
          <lb/>tota· ylidris urceus coruus dextera tibia in genu usque ad geniculum semis
-         <lb/>coronę extremum caudę centauri simulque coruus occidit autem equi reliquum cicni
-         <lb/>magni caudam <add place="above">an</add>dromedę caput cetus usque ad crura cephei uero caput humeri manu scorpione
+         <lb/>coronae extremum caudae centauri simulque coruus occidit autem equi reliquum cicni
+         <lb/>magni caudam <add place="above">an</add>dromedae caput cetus usque ad crura cephei uero caput humeri manu scorpione
          <lb/>oriente oritur corone residuum semis ylidri centauri corpus et capud et bestia quam tenet
          <lb/>in dextra manu serpentarii caput et prima cum pes ingenu totus absque caput et sinistra
          <lb/>manu Occidit autem <subst>
@@ -2888,17 +2889,17 @@
                </subst> fluuius incolo absque modic<subst>
                   <del>o</del>
                   <add>um</add>
-               </subst> ceti lumbos Andromedę
-         <lb/>deltoton cassiępia cepheus a capite usque ad lumbos absque deltoton· Sagit
+               </subst> ceti lumbos Andromedae
+         <lb/>deltoton cassiaepia cepheus a capite usque ad lumbos absque deltoton· Sagit
          <lb break="no"/>tarius oriente oritur serpentarius colubre residuum ingeniculo sinistrum caput sinis
          <lb break="no"/>tra manu· fidicula cetheus occidit autem incolo lepus agitator <del>me</del> absque tibia et
          <lb/>sinistra manu in qua <num value="6">vi</num> hedos· Capricorne orientem oritur perseus uerumtamen an
          <lb break="no"/>tecanis nauis tota ylidris usque ad urceum centauri retrorsi pedes Aquario ori
          <lb break="no"/>ente oritur equi caput et pedes <del rend="underlined">et pedes</del> anteriores· Cassiepia simulque occidit etiam cen
          <lb break="no"/>tauri posteriora ylidris autem et urceus usque simulque urceus pisces oriente
-         <lb/>oritur fauonius piscis non totus andromedę dextra pars Occidit autem <add place="above">cen</add>taurus totus y
+         <lb/>oritur fauonius piscis non totus andromedae dextra pars Occidit autem <add place="above">cen</add>taurus totus y
          <lb break="no"/>lidris coruus simulque coruus arietem oriente oritur caput et humeros persei· an
-         <lb/>dromedę sinistra pars <del>and</del> deltoton simulque occidit autem sacrarium thauro <add place="margin">oriente</add> oritur
+         <lb/>dromedae sinistra pars <del>and</del> deltoton simulque occidit autem sacrarium thauro <add place="margin">oriente</add> oritur
          <lb/>perseus agitatoris perseus sinistri summitas sinistra manu in qua <num value="6">vi</num> hedos ceti femora
          <lb/>et cauda occidit autem arcturi custos cum i sua porcio aries <unclear>gemines</unclear> oriente oritur
          <lb/>fluuius cetus incolo Occidit autem <add place="margin">sag<ex>ittarius</ex>
@@ -2907,21 +2908,21 @@
          <lb/>qui continet eam inmobilem habens fines <add place="above">in</add>diuisos quam in aquilonio polo et fauonio habet autem
          <lb/>zonas <num value="5">v</num> aquilum totum spatiosum inhabitabilem siccum saturnus estiuus plus habens
          <lb/>super terram· Equum autem quod subtus terra in circuitu habens uilem temperatum iouis equi
-         <lb break="no"/>noctialis ęquum habens quod super terram quod subtus terra inhabitabilem adustum Mars
-         <lb/>hiemalis plus habens quod subtus terra Ęquum uero quod subtus terra in circuitu habitabilem
+         <lb break="no"/>noctialis aequum habens quod super terram quod subtus terra inhabitabilem adustum Mars
+         <lb/>hiemalis plus habens quod subtus terra aequum uero quod subtus terra in circuitu habitabilem
          <lb/>temperat ut munere fauonium inuisibilem siccum inhabitabilem Mercurii qui ergo in ip
          <lb/>sa spera habitantes aquilonii et fauoniis quibusdam· hi sunt hiemales Qui uero in utraque
          <lb/>semispera habitant super terra et subtus terra Ipsi sunt angui<del>s</del> pedes igitur septentriona
          <lb break="no"/>lis zona habet <num value="66">lxvi</num> estiuus autem <num value="65">lxv</num>· equinoctialis <num value="66">lvi</num>· ex utraque parte equi
          <lb break="no"/>noctialis circuli circulos <num value="4">IIII<hi rend="sup">or</hi>
                </num> Hic enim mediam illam incidit et totam speram hiemalis au
-         <lb break="no"/>tem <num value="66">LXVI</num> unde fieri terrę quod super terra est Sexagesimum quam fieri totam terram
+         <lb break="no"/>tem <num value="66">LXVI</num> unde fieri terrae quod super terra est Sexagesimum quam fieri totam terram
          <lb/>in circuitu <num value="66">sexagiis vi</num> potest autem sexagesimum hoc studiis <num value="5">v</num> colligere ergo in ip
          <lb break="no"/>sum totam terram studiorum <num value="10025">x xx<del>x</del> v</num> et hoc uerbum a patribus terminantur secundum alaicum
-         <lb/>et ita habere constat Quę ergo demonstra sunt mihi de quibus uidentur mei collectio 
+         <lb/>et ita habere constat Quae ergo demonstra sunt mihi de quibus uidentur mei collectio 
          <pb n="104v"/>
                <cb n="a"/>
-               <lb/>i d<ex/>atio<!--<note resp="#id">something for εἰσαγωγῆς</note>--> hec est si autem constiterit ratio et ceterorum huius facturę adimplebo uerbum
+               <lb/>i d<ex/>atio<!--<note resp="#id">something for εἰσαγωγῆς</note>--> hec est si autem constiterit ratio et ceterorum huius facturae adimplebo uerbum
          <lb/>ut dixi secundum factoris fundamentum ut nihil te latere possit quorum ab eo dicta sunt 
          <lb/>
                <!--<note resp="#id">Begins Part II</note>-->eratostenes de circa exornatione stellarum ethimologia de quibus uidentur hec au
@@ -2930,7 +2931,7 @@
          <lb break="no"/>rona arcturi custos agitatator deltoton· equs aquila serpentarius ante
          <lb break="no"/>canis cancer leo virgo libram S<add place="above">c</add>orpio sagittarius capricornius aquarius pisces
          <lb/>thaurus· gemini fauonius incolo cetus delphinus ylidris in qua urceus et cor
-         <lb break="no"/>uus canis bestia centaurus lepus nauis fluuius pisces <num value="5">v</num> stellę erraticę in
+         <lb break="no"/>uus canis bestia centaurus lepus nauis fluuius pisces <num value="5">v</num> stellae erraticae in
          <lb break="no"/>par<add place="above">c</add>has de magnitudine et positione errantium stellarum· Constat autem in aquilo
          <lb break="no"/>nio semisperio hec septentrio maior septentrio minor coluber inter ambas septentrio
          <lb break="no"/>nes bootes corona ingenu serpentarius ambabus semis sperus cepheus cassi
@@ -2941,20 +2942,20 @@
          <lb break="no"/>dentur Quaedam sunt secundum celi stellarum Ecce sicut uidentur dicta sunt De sub celo autem
          <lb/>et quibus olim dicta sunt transgrediamur Item uidentur secundum astronomicum poni locum de quibus
          <lb/>et recensere consideraui quum mathematicis constat in <num value="2">ii</num> conditoris scriptio quaedam in qui
-         <lb break="no"/>bus uidentur et in stellarum ratione exposita quaedam in alia mittere tibi proueni haec quę
+         <lb break="no"/>bus uidentur et in stellarum ratione exposita quaedam in alia mittere tibi proueni haec quae
          <lb/>uidentur arathi dirigere et mecum conscientiam usque de hac directione tradita· exem
          <lb break="no"/>plum autem utens me signis quoque et indicus de vi<hi rend="sup">o</hi> c<hi rend="sup">o</hi> et duplo et utrum et stel
          <lb break="no"/>lantium pauimentum scriptum autem si uideris uersum minus positum aliquid de quibus scriptum est
-         <lb/>signorum et sub pagine hoc infronte scire oportet quia secundum signum scriptę scrip
-         <lb break="no"/>turę ad alias quasque creditas Horum autem expositio in memoria ueniunt et tamquam
-         <lb/>non in peccato in quo autem secundum pauimento intuenda atque narranda hiemalium quę
+         <lb/>signorum et sub pagine hoc infronte scire oportet quia secundum signum scriptae scrip
+         <lb break="no"/>turae ad alias quasque creditas Horum autem expositio in memoria ueniunt et tamquam
+         <lb/>non in peccato in quo autem secundum pauimento intuenda atque narranda hiemalium quae
          <lb/>quidem melius secus pauimento feruntur· hoc adducitur inpraefatione illius ipso inchoante
          <lb/>ad andidem unum de socio suo qui uerbum fecerat quidam autem putauerunt sic quidam uero non
          <lb/>estimant hec arati esse prouerbium quod principium iouem inchoamus sed afferentes prouer
          <lb break="no"/>bia alia praecipiunt Ista sunt autem andidim ostensio sacrum propositum itaque celestem uitam
          <lb/>peragens· et ceteta quidam autem sic et alii aliter proferunt hi quidem ut aptius faciant per totam cre
          <lb break="no"/>aturam ad quedam locum depinxerunt hos uersiculos ut cognuscitur ad quem eorum sugestio hoc
-         <lb/>quidem est bene conpositum facturę consuetudo etenim homerus ubi dicit nuncupare hos a
+         <lb/>quidem est bene conpositum facturae consuetudo etenim homerus ubi dicit nuncupare hos a
          <lb break="no"/>pices alterutris hoc est uocare et in aliis inquibus non est manifestum scire <add place="above">pro</add>ut scias quisnam Quan
          <lb break="no"/>tum enim potest nunc hec scire quisquam et rursus nuncupare zazintum extensum decorum
          <lb/>esse prout nuncupatur quisnam absque nisi homerum nuncupare quidem clamare aliquem quia
@@ -2978,7 +2979,7 @@
          <lb/>ab eo factam alia quippe aliqua quae odorus dicit Amplius quidem nos artificiose exposuimus
          <lb/>anni creationem Dicitur autem simili modo quod quasi prefatus antigonus hanc expositionem
          <lb/>arati traditam nondum esset astrologus refert dare eudoxii scriptum et iubet hoc per
-         <lb/>carmina nuntiare quasi factorem manentem inperitum autem astrologię hanc excepit
+         <lb/>carmina nuntiare quasi factorem manentem inperitum autem astrologiae hanc excepit
          <lb/>gloriam in parthus quoque bithineus apud ara<subst>
                   <del>thum</del>
                   <add place="above">ti</add>
@@ -2986,7 +2987,7 @@
          <lb break="no"/>te quidem potius quidem thrax et possidonius in praedicatione homeri et arati de ma
          <lb break="no"/>thematicis Sunt quidem omnes beniuoli efficeret quidem aratum demonstrare perfec
          <lb break="no"/>tum astrologum etsi nihil differri dixisse eudoxum qui ea ipse communicanti per
-         <lb/>cummentum dianę nihil aratione excessisse· Inpossibile est enim quemquam hoc facere non praeceptorem
+         <lb/>cummentum dianae nihil aratione excessisse· Inpossibile est enim quemquam hoc facere non praeceptorem
          <lb/>esse tanti quide apud eos qui sine praefatione conantur facturam declarare Quidam autem
          <lb/>aiunt et hoc postea repositum ab eodem praenominato antigono inperatori amico arati
          <lb/>De praefatione autem quod esset arati et quoniam in macedoniam est inuentum in anti
@@ -3002,7 +3003,7 @@
             <p>Subtur terra ubi adornantur <num value="7">vii</num>
                <lb/>nauis centaurus in quo bestia sacrarium pis<add place="above">c</add>is grandis inuisibilis fauonius equinocti
          <lb/>alis autem circulus equum habet quod super terram et sub terra in quo adornantur signa <num value="15">xv</num> 
-               <lb/>Ęqus serpentarius in quo serpens ylidris in qua urceus coruus ante canis aquila del
+               <lb/>aequs serpentarius in quo serpens ylidris in qua urceus coruus ante canis aquila del
          <lb break="no"/>phinus nandromeda lepus cetus canis unde fieri tota signa numero <num value="30">xxx</num> absque
          <lb/>eorum inlustrissimis exhornatis stellis quomodo super bootem septentrionem super agitatorem 
          <lb/>
@@ -3010,7 +3011,7 @@
          <lb/>sirius et si qua horum similia Signalis uero circulus habet signa <num value="12">xii</num> leonem et uirginem 
          <cb n="b"/>
                <lb/>librem scorpionem sagittarium capricornium aquarium pisces arietem thaurum gemi
-         <lb break="no"/>nes unde fieri omnia signa <num value="12">xii</num> Sunt· autem et erraticę stellę absque sole et
+         <lb break="no"/>nes unde fieri omnia signa <num value="12">xii</num> Sunt· autem et erraticae stellae absque sole et
          <lb/>luna <num value="5">V</num> saturnus iouis mars uenus mercurius horum autem narrationem a
          <lb break="no"/>ratus fecit incipiens a septentrione et percircuiens totum orientem in circu
          <lb break="no"/>itu usque ad signalem Inde quoque transiens et incipiens ab oriente pro
@@ -3019,10 +3020,10 @@
          <lb break="no"/>culos Incidimus ab eis signa similiter Septentrionalis circulus incidit signa 
          <lb/>
                <num value="2">ii<hi rend="o"/>
-               </num> bootis cubitos cephei pectus sicut ait de istis aratus Ęstiuus solsti
+               </num> bootis cubitos cephei pectus sicut ait de istis aratus aestiuus solsti
          <lb break="no"/>tialis incidit signa <num value="10">x</num>· agitatoris genua serpentarii humeros serpentis
          <lb/>collum· equinoctialis circulus incidit signa <num value="5">v</num>· Equi capud et collum serpentarii
-         <lb/>genua aquarii collum urceum genua orionem medium andromedę quod
+         <lb/>genua aquarii collum urceum genua orionem medium andromedae quod
          <lb/>sinistrum piscis summitatem mediam thauri· genua uirginis pedem uergili
          <lb break="no"/>as medias scorpionis pars simul piscis caudam uirginis pes ante canis
          <lb/>Hiemalis circulus incidit signa <num value="10">x</num>· heridanum nauis puppe centauri sca
@@ -3033,15 +3034,15 @@
          <lb/>de his nobis cancero oriente totus orion lepus occidit corona piscis medius sub
          <lb/>spino serpentarius usque humeris serpens usque ad collum Arcturi custos paulo
          <lb/>minus leone oriente oritur ante canis totus aquarii capud canis anteriores pe
-         <lb break="no"/>des occidit autem residua quae cum cancro praeoccidentia bootes reliquum coronę
+         <lb break="no"/>des occidit autem residua quae cum cancro praeoccidentia bootes reliquum coronae
          <lb/>serpentarius serpens eius piscis aquila cetus ingeniculo totus absque tibia sinistra
          <lb/>usque ad genuculum uirgine oriente oritur ante canis totus lepus aquarii capud
          <lb/>canis anteriores pedes Occidunt autem residua quae cum cancro praeoccidentia boo
          <lb break="no"/>tes reliquum corona serpentarius serpens aquarius usque ad urceum canis maio
-         <lb break="no"/>ri retrorsi pedes Nauis puppę Occidit autem fidicula delphinus la cicnus usque ad
+         <lb break="no"/>ri retrorsi pedes Nauis puppae Occidit autem fidicula delphinus la cicnus usque ad
          <lb/>caudam fluuii priores partes equi collum uergilias oritur bootes totus capricor
-         <lb break="no"/>nius totus aquarius coruus dextra tibia ingenu coronę summum caudę centau
-         <lb break="no"/>ri simul urceus coruus Occidit equi residuum <add place="margin">cicni</add> maioris cauda andromedę ce
+         <lb break="no"/>nius totus aquarius coruus dextra tibia ingenu coronae summum caudae centau
+         <lb break="no"/>ri simul urceus coruus Occidit equi residuum <add place="margin">cicni</add> maioris cauda andromedae ce
          <lb break="no"/>tus usque ad lumbos cephei capud humeri manus scorpione oriente oritur corone
          <lb/>residuum medium aquarii cauda centauri corpus et capud et bestiam tenet
          <lb/>in propria manu serpentarii capud frons ingenu totus absque capite sinistra
@@ -3056,7 +3057,7 @@
          <lb/>manu sinistra in qua <num value="6">vi</num> hedos nauis tota aqaurium usque ad urceum centau
          <lb break="no"/>ri retrorsi pedes aquario oriente oritur equi capud anteriores pedes cassiepia simul
          <lb/>occidunt autem centauri posterior aquarius et urceus usque ad coruum piscium
-         <lb/>oriencium oritur fauonius piscis non totus andromedę dextra pars Occidit autem
+         <lb/>oriencium oritur fauonius piscis non totus andromedae dextra pars Occidit autem
          <lb/>totus centaurus serpens aquarius urceus simul coruus oriente oritur capud et
          <lb/>humeri persei andromede sinistra pars deltoton simul Occidit autem sacrarium
          <lb/>arcturi custos oriente oritur perseus totus agitatoris pedem sinistr<subst>
@@ -3072,21 +3073,21 @@
          <lb/>ingeniculo serpentarius inter amba semispheria cepheus cassiepia andromeda
          <lb/>triangulum perseus agitatorem in fauonio signale aquarius inter ambobus semisperiis
          <lb/>urceus coruus Nauis centaurus et bestia quam tenet in dextra sacrarium necnon
-         <lb/>sagittarium pisces cętus orionem·</p>
+         <lb/>sagittarium pisces caetus orionem·</p>
          </div>    
          <div xml:id="descriptio_duorum">
             <head>
                <title>Descriptio dvorum semisperivm</title>
             </head>
             <lb/>
-            <p>Habet autem pondere totum medio terre terrenum Differt enim per totum cęlum seu
+            <p>Habet autem pondere totum medio terre terrenum Differt enim per totum caelum seu
          <lb/>terram aculeo suo quod in circuitu habet et diuidit medi<ex>um</ex> quoniam terram pertundit sicut
-         <lb/>per latera axis terrę equaliter illum habet et equaliter ab eo ponderatum equalem enim ex utraque
+         <lb/>per latera axis terrae equaliter illum habet et equaliter ab eo ponderatum equalem enim ex utraque
          <lb/>parte illam facit ipse medio constans et in <num value="2">ii<hi rend="sup">o</hi>
                </num> eum diuidens aut inpondera
-         <lb break="no"/>tam ubique equalem <add place="margin">enim</add> et similem et ipsa est in modum sperę seu et cęlum ita et terra
+         <lb break="no"/>tam ubique equalem <add place="margin">enim</add> et similem et ipsa est in modum sperae seu et caelum ita et terra
          <lb/>sicuti primis quidem facti q<ex>ui</ex>a neam celo stellantia ut iam per omnia uel et per circuitum
-         <lb/>simili modo <del>sperę</del> pondere equalem per spatium sicut semisperiis quantum enim a terra habet
+         <lb/>simili modo <del>sperae</del> pondere equalem per spatium sicut semisperiis quantum enim a terra habet
          <lb/>altitudinem hoc semisperium tantum habet quod subtus terra longitudine aliud semi
          <lb break="no"/>sperium ipsa enim in medio ita et duobus semisperiis·</p>
          </div>    
@@ -3095,8 +3096,8 @@
                <title>Arati genus</title>
             </head>
             <lb/>
-            <p>Aratus <del>genus</del> patris quidem est athinodori matris autem dolitophilę· genere
-         <lb/>u<ex>ero</ex> erode solo in licię nominatur autem <del>
+            <p>Aratus <del>genus</del> patris quidem est athinodori matris autem dolitophilae· genere
+         <lb/>u<ex>ero</ex> erode solo in liciae nominatur autem <del>
                   <unclear/>
                </del> ciuitas tesolonem lindium· Fratres autem
          <lb/>habuit lirem quoque et calliodam et athinodorum quem ait euphranor in descriptione
@@ -3125,7 +3126,7 @@
          <lb/>ministrationem accepit ei antigonus dans illud eudoxi conscriptum et iubens adhe
          <lb break="no"/>rere illi· unde quidam de mollibus recensionum putauerunt non mathematicum esse
          <lb/>aratum suscepit enim nihil aliud quorum eudoxi uidentur facere illum in conscriptum repo
-         <lb break="no"/>ni· huic autem conscientię habetur et hiparchus bithineus in quibus enim apud eudox
+         <lb break="no"/>ni· huic autem conscientiae habetur et hiparchus bithineus in quibus enim apud eudox
          <lb break="no"/>um et arathum probat hoc declarasse· Consentit autem ei et dionisius arati et
          <lb/>homeri de mathematicis sicut ait Non ponimus illum medicum esse quod scriberet
          <lb/>medicinales uirtutes neque mathematicum ponamus nihil mirum dixisse

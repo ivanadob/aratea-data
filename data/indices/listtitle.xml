@@ -415,8 +415,9 @@
         <author ref="#bede">Ps. Bede</author>
         <incipit>Cap. 1. De tempore. Unde dicta sunt tempora? Tempora sunt dicta a temperamento</incipit>
         <explicit></explicit>
-        <bibl><abbr>PL</abbr>, 90, 579A-</bibl>
-        <note>Cap. XII. De signifero circulo et solis lunae cursu.</note>
+        <bibl><abbr>PL</abbr>, 90, 579A-600</bibl>
+        <note>PL 90, 590B-D, Cap. XII De signifero circulo et solis lunaeque cursu:
+            Zodiacus circulus constat ex duodecim signis, per quem septem sidera errantia curuunt, id est Sol, Luna, Mars, Mercurius, Jupiter, Venus, Saturnus. Quae quidem signa simul habent partes trecentas sexaginta, singulatim vero triginta. Partes autem zodiaci quotidianos solis in coelo debemus sentire progressus. Signa tantae sunt magnitudinis, ut non minore quam duarum spatia horarum, vel oriri, vel occidere, vel de loco possint moveri. Singulis tricenae partes, ob trecenos dies, quibus a sole lustrantur, ascribuntur decem et semis horae, plus sunt quam plenam partem viginti quatuor horarum, non reddunt simul, et computari negliguntur. Attamen ex ipsae duodecies circumactae, ubi dies quinque, et quadrantem consummaverint. Iam quantum ad tricenas partes addiderint, patebit, completusque solis annus non trecentis solum et quadraginta diebus, sed additis quinque diebus, et quadraginta perficitur. Unde signifer est, trecentis quidem sexaginta quinque partibus latis. Harum duas medias sol et luna viginti septem diebus et octo horis lustrant. Singula autem signa sol triginta diebus, et denis horis ac semisse. Luna autem in binis diebus et semis horis ac besse unius horae perlabitur. Si quaeris quid besse significet, tanto minus abesse ab integra hora, quanto octava ab duodecima, decima a decima quinta, vigesima a trigesima. Tertia parte subtracta, quoties duae solae remanent, ipsae duae partes besse, tertia triens nuncupatur. Errant ergo qui lunam trecentis diebus tantum spatii coelestis, quantum trecentis sexaginta solem percurrere dicunt. Cum manifeste veritas prodat quae supra perstrinximus, lunam viginti septem diebus, et tertia diei parte constat conficere solem: et quantum spatii in uno suo mense lunam, tantum in tredecim sui sol excedere circuitum.</note>
     </work>
     <work type="al" xml:id="de_ordine_ac_positione">
         <title>De ordine ac positione stellarum in signis</title>
