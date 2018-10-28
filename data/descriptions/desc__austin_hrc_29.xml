@@ -13,19 +13,20 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>Digital catalogue using the TEI P5 metadata schema</edition>
+                <edition>Digital edition according to TEI P5</edition>
                 <respStmt>
-                    <resp>TEI-P5 coded by</resp>
+                    <resp>TEI-P5 coding by </resp>
                     <name type="person">Ivana Dobcheva</name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-            <availability status="free">
-               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
-            </availability>
-         </publicationStmt>
+                <publisher/>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
               </sourceDesc>
         </fileDesc>   
         <revisionDesc status="complete">
@@ -34,7 +35,7 @@
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:id="Austin_HRC_29" xml:lang="eng">
+            <msDesc xml:id="austin_hrc_29" xml:lang="eng">
                 <msIdentifier>
                     <country>United States of America</country>
                     <settlement>Austin</settlement>
@@ -57,7 +58,7 @@
                         <author ref="#bede">Bede</author>
                         <title ref="#DNR">De natura rerum</title>
                         <msItem>
-                            <note>Table of content</note>
+                            <note type="title">Table of content</note>
                             <rubric>De naturis rerum</rubric>
                             <incipit>I De quadrifario dei opere<lb/>II De mundi formatione</incipit>
                             <explicit>li<sic>Diuiso</sic> terre</explicit>
@@ -65,16 +66,16 @@
                         </msItem>
                         <msItem>
                             <locus from="2r">2r</locus>
-                            <note>Initially left blank. Later filling texts: short medical recipes.</note>
+                            <note type="title">Initially left blank. Later filling texts: short medical recipes.</note>
                         </msItem>
                         <msItem>
                             <locus from="2v" to="12r">2v-12r</locus>
-                            <note>Text:</note>
+                            <note type="title">Text:</note>
                             <incipit>Naturas rerum uarias labentis et aeui</incipit>
                             <explicit>atque inde affrica a meridie usque ad occidentem extenditur.</explicit>
                             <note>Full text with ample glosses on the outer and upper margine.</note>
                             <msItem>
-                                <note>Glosses:</note>
+                                <note type="title">Glosses:</note>
                                 <incipit>Locus huius artis hurimuda uel exalrasse uel girum. Persona bridualt uel beda</incipit>
                                 <explicit>A septentrionibus triones uel teriones grece boues dicuntur eo quod vii<hi rend="sup">tem</hi> stellae in plaustro videntur septentrio dicitur.</explicit>
                                 <quote>(<locus from="6r">6r</locus> On the name of the zodiacal signs:) Annales docuntur libri in quibus hystorię describuntur. distat autem inter hystorias et annales; hystorie sunt earum rerum quas uidimus uel uidere potuimus; dictę apo tu hestorin. B. Ammonem iouem id est arenarium qui in arenis apparuit secundum alios hic est frixi aries cui insidens trans mare uectus est. C. Castor et pollux fratres elenę fuerunt fortissimi et sicut illi potentes fuerunt ita et <unclear>ec terra</unclear> eo mense confortata producit seminum folia et fructum siue quod eo mense plurimum bella fiant que grece diostori docuntur uel didimi.D. Cancer si in anterioribus tangatur retro agitur et si retro agitur ad anteriora dirigitur secundum fabula. E. Sicut enim omnia animalia leo conterit et uincit ita sol mense iulio cuncta excoquit et exsiccando maturescere facit; grece autem leon dicitur. F. Signa autem dicuntur secundum fabulas aut secundum naturam; aut secundum fabulas et naturam. Secundum fabulas ut aries mense martio taurus aprili designatur; secundum natural ut libra septembri, pisces februario esse dicuntur. Secundum fabulas et naturam ut sunt scorpius et sagittarius mense octobri et nouembri. G. Scorpius a posterioribus percutit et sagittarius cum spiculo pingitur; et quia in italia mense octobri et novembri crebra fiunt fulmina hisdem mensibus dantur. Sagittarius ipse est centaurus chiron filius saturni et filirę. Saturni concumbebat cum filira uolens quod latere aduentum opis uxoris suę aduenientis conuertit se in equm de quo natus est centaurus semi homo et semi equs. H. Aquarius dicitur ganimedes qui est pincerna deorum et in eius manibus aquam fundit unde et urnam tenet grece ydrocoos dicitur. K. Pisces grece UΘY dicuntur unde hoc signum UΘYNωC dicitur et ictiofagi populi crudis piscibus <unclear>tantes</unclear>.</quote>
@@ -91,7 +92,7 @@
                     </msItem>
                     <msItem>
                         <locus from="25r">25r</locus>  
-                        <note>Later filling text: short medical recipes.</note>
+                        <note type="title">Later filling text: short medical recipes.</note>
                         <incipit>Antidatum quod stomacho prodest et uentrem sine conturbatione soluet</incipit>
                     </msItem>
                     <msItem>
@@ -130,7 +131,7 @@
                     </msItem>
                     <msItem>
                         <locus from="101v">101v</locus>
-                        <note>On the Roman rank system</note>
+                        <note type="title">On the Roman rank system</note>
                         <incipit>Decanus sub centurione Sub tribune centurio</incipit>
                         <explicit>et super quem unum annum donat ne elation subripiat</explicit>
                         <filiation>This short text follows Jerom’s letter also in <ref type="altMs">Florence MS Laurentiana Plut. XXIX Cod. 32</ref> (from the 9th-10th c.).</filiation>

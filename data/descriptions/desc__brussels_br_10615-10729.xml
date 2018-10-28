@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="deu">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Brussels RB, MS 10615-10729</title>
+         </titleStmt>
+          <publicationStmt>
+              <publisher/>
+              <availability status="free">
+                  <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+              </availability>
+          </publicationStmt>
+          <sourceDesc>
+              <p>Born digital.</p>
+          </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+          <change when="2018-10-24">draft</change>
+      </revisionDesc>
+  </teiHeader>
+   <text> 
+      <body>
+          <msDesc xml:id="brussels_10615-10729" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Brussels</settlement>
+                    <repository>Bibliothèque royale de Belgique</repository>
+                    <idno>10615-10729</idno>
+                </msIdentifier>
+                <head>
+                    <title>Aratus Latinus in a hotchpotch of texts </title> 
+                  <!--(classical poetry, patristic texts, liberal arts texts, agrimensores, hagiography, satirical and morelizing poems, epigrams, aenigmata, poetry on medieval topics - invesitture controversy, first crusade)-->
+                    <note type="caption">work in progress!<!-- für eine vorformulierte Schlagzeile, die genauso abge"druckt" werden soll --></note>
+                    <origPlace ref="#trier">St. Matthias Abbey in Trier</origPlace>
+                    <origDate notBefore="1101" notAfter="1150">XII<hi rend="sup">1</hi>
+                  </origDate>
+                </head>                
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                              <material>Parchment</material>
+                           </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="233">233</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>280</height>
+                                    <width>190</width>
+                                </dimensions>
+                            </extent>
+                            <foliation/>
+                            <collation>Based on the description made by L. J. Engels "composite (17 codicilli), gatherings (mostly quaternions) often incomplete and showing various prickings and quire signatures (regularly pared off)". These 17 codicilli should include: ff. 1-21, ff. 22-35, ff. 36-57, ff. 58-65, ff. 66-73, ff. 79-92, ff. 93-98, ff. 99-106, ff. 107-22, ff. 123-37, ff. 138-56, ff. 157-64, ff. 165-72, ff. 179-86, ff. 187-200, ff. 201-23. ff. 224-31. </collation>
+                            <condition>
+                                <p/>
+                            </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="2" ruledLines="70 72">
+                                <p>Two columns with 70-72 lines.</p>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <handDesc>
+                        <handNote>Written from many hands. In the gathering of Aratus Latinus at least three hands changing on fols. 103vb, 104ra and 104va.</handNote>
+                    </handDesc>
+                    <scriptDesc>
+                        <scriptNote script="carolgot">
+                            <p>Praegothica</p>
+                        </scriptNote>                     
+                    </scriptDesc> 
+                </physDesc>
+                <history>
+                    <origin>
+                        <p>Accoring to Horst Schlechte (1934) and Karl Manitius (1955) the manuscript was written at St. Eucharius-Matthias in <origPlace ref="#trier">Trier</origPlace> about the middle or even at the end of the 12th c.</p>
+                    </origin>
+                    <provenance>
+                        <p>Van de Vyver recognised the hand of Nicholas of Cues on the margins (see bibliography). Hence the manuscript was probably at the <rs type="place" ref="#kues" role="provenance">St. Nikolaus-Hospital</rs> (Cusanusstift) in the 15<hi rend="sup">th</hi> c. Between 1657 and 1778 it was in the possession of the Bollandists in <rs type="place" ref="#antwerp" role="provenance">Antwerp</rs>. Afterwards it was transfered in the Bibliothèque de Bourgogne. In the years 1794-1815 was at the Bibliothèque National in Paris before it was returned to Belgium.</p>
+                    </provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Grocock, C. W. and E. Siberry ed. The Historia Vie Hierosolimitane of Gilo of Paris. Oxford: Clarendon Press, 1997, p. xl.</bibl>
+                        <bibl>Sedulius Scottus, Sedulii Scotti Carmina, ed. Jean Meyers. (Corpus Christianorum, Continuatio Mediaeualis, 117.) Turnhout: Brepols, 1991.</bibl>
+                        <bibl>Vansteenberghe, Edmond. Le cardinal Nicolas de Cues: (1401 - 1464); l’action - la pensée. Geneve: Slatkine reprints, 1974, p. 22.</bibl>
+                        <bibl>Paniagua, D. "El Glossarium Bruxellense (Bruxelles, Bibl. Roy. 10615-10729, ff. 95v-96r). Edición y comentario glosográfico," Voces 17 (2006): 41-108.</bibl>
+                        <bibl>Calcoen, R.  Inventaire des manuscrits scientifiques de la Bibliothèque Royale Albert Ier, t. III, Bruxelles:  Centre National d'histoire des sciences, 1975, p. 37.</bibl>
+                        <bibl>Davis, R. H., L. J. Engels et al."The Carmen de Hestingae Proleio: a discussion," in R. Allen Brown ed. Proceedings of the Battle Conference on Anglo-Norman Studies II, Suffolk: Boydell Press, 1980, pp. 1-20.</bibl>
+                        <bibl>Manitius, M. "Zur poetischen Literatur aus bruxell. 10615-729," Neues Archiv 39 (1914): 155-75.</bibl>
+                        <bibl>Manitius, K. "Eine Gruppe von Handschriften des 12. Jahrhunderts aus dem Trierer Kloster St. Eucharius-matthias," Forschungen und Fortschritte 29 (1955): 317-19.</bibl>
+                        <bibl>de Rijk, L. M. "On the Curriculum of the Arts f the Trivium at St. gall from c. 850-c. 1000," Vivarium 1 (1963): 35-86.</bibl>
+                        <bibl>Schlechte, H. Erzbischof Bruno von Trier. Ein Beitrag zur Geschichte der geistigen Strömungen im Investiturstreit. Leipzig: Vogel, 1934 (esp. pp. 71-78).</bibl>
+                        <bibl>Olsen, M. L'étude des auteurs classiques latins aux xie et xiie siècles, IV. 2, p. 366. gives this manuscript as an example that not every composite manuscript was assembled becaue there its texts are related. According to Olsen it coms from Trèves s.xii<hi rend="sup">2</hi>: a large volume of 231 ff. divided in 21 elements, 27,5 x 19 cm two colums 70 lines, "on s'est proposé apparemment de créer un vaste corpus de tout les textes qu'on pu trouver dans les bibliothèques de la région</bibl>
+                        <bibl>Van de Vyver, E. 'Marginalia van Nicolaus van Cusa in Bata-codex 271 en andere codices van de Koninklijke Bibliotheek te Brussel', Tijdschrift voor Philosophie, 18 (1956), p. 439-456.</bibl> 
+                        <!--<bibl>Van de Vyver, E. 'Annotations de Nicolas de Cues dans plusieurs manuscrits de la Bibliothèque royale de Bruxelles', Nicolò da Cusa. Relazioni tenute al Convegno interuniversitario di Bressanone nel 1960, Pubblicazioni della Facoltà di Magistero dell'Università di Padova, 4, Padova, 1962, p. 3-17.</bibl> 
+                        <bibl>Van de Vyver, E. 'Die Brüsseler Handschriften aus dem Besitz des Nikolaus von Kues', Mitteilungen und Forschungen der Cusanus-Gesellschaft, 4 (1964): Das Cusanus-Jubiläum 1964, p. 323-335.</bibl>--> 
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 1 - items 10615-10627 (ff. 1-21)</idno>
+                    </msIdentifier>
+                    <head>Homiletic texts</head>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="13r">1ra-13ra</locus>
+                            <note>Collection of sermons and excerpts from patristic texts</note>
+                            <!--<msItem n="10615">
+                                <author>Fratris Hortis</author>
+                                <title>Sermon de diversitate timoris</title>
+                                <incipit>Incipit de seminatore uerbi</incipit>
+                            </msItem>
+                            <msItem>
+                                <locus from="1r" to="1v">1ra-1va</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <note>Sermon 65</note>
+                                <incipit></incipit>
+                                <bibl>Ed. Coppieters et al.Sancti  Aurelii  Augustini  Sermones  in  Matthaeum  I,  id  est  sermones  LI-LXX  secundum  ordinem  vulgatum insertis  etiam  novem  sermonibus post  Maurinos  repertis  (CCL  41Aa),  Turnhout  2008, 375-384.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="1v" to="2v">1va-2va</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Ennarationes in psalmos, Psalm 83</title>
+                                <rubric>Incipit de seminatore verbi sermo</rubric>
+                                <incipit>Advertit nobiscum caritas</incipit>
+                                <bibl>Ed. Dekkers et al. Sancti Auustini Enarrationes in psalmos 51-100 (CCL 41), Turnhout 1961, 1146-1161.</bibl>
+                            </msItem>
+                            <msItem n="10616">
+                                <locus from="2v" to="3r">2va-3rb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermon De luctatione Iacon cum angelo</title>
+                                <incipit>De luctatione Jacob</incipit>
+                                <bibl>Ed. Lambot CCL 41, 50-60.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="3r" to="3v">3rb-3vb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermon De eo quod apparuit dominus Moysi in robo ardenti</title>
+                                <bibl>Ed. Lambot CCL 41, 62-67.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="3v" to="4v">3vb-4vb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermon De eo quod in Esaia scriptum est</title>
+                                <rubric>De Esaia et Apostolo</rubric>
+                                <bibl>Ed. Lambot CCL 41, 515-526.</bibl>
+                            </msItem>
+                            <msItem n="10617">
+                                <locus from="4v" to="6r">4vb-6rb</locus>
+                                <title>Sermo. De poenitentia Ninivitarum</title>
+                                <incipit>Ninivitis jonas a deo missus advenit</incipit>
+                                <explicit>scelerorum amen. Explicit</explicit>
+                            </msItem>
+                            <msItem n="10618">
+                                <locus from="6r" to="7v">6rb-7vb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermo 227. De basilica in vallis gloriosi martzris Vincentii restituta</title>
+                                <incipit>O curis fidei certante</incipit>
+                                <bibl>PL 38, 1257-1268.</bibl>
+                            </msItem>
+                            <msItem n="10619">
+                                <locus from="7v" to="8r">7vb-8rb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermo 130. De verbis evangelii Ioannis, ubi narratur miraculum de quinque panibus et duobus piscibus</title>
+                                <incipit>Miraculum grande</incipit>
+                                <bibl>PL 38, 725-728.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="8r">8rb</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Letter 60</title>
+                                <bibl>CCL 31A, 11.</bibl>
+                            </msItem>
+                            <msItem n="10620">
+                                <title>Sermones monachis ad clericatum ambitiosis</title>
+                                <incipit>Domino beatissimo debita</incipit>
+                            </msItem>
+                            <msItem n="10621">
+                                <title>De beatitudinibus secundum matheum</title>
+                                <incipit>Solemnitate sanctae uirginis</incipit>
+                            </msItem>
+                            <msItem n="10622">
+                                <locus from="8r" to="9v">8rb-8vb</locus>
+                                <author>Nicetа of Remesiana</author>
+                                <title>De uirgiliis seruorum dei</title>
+                                <incipit>Bona et digne</incipit>
+                                <bibl>Ed. C.H. Turner, Niceta of Remesiana, De vigiliis and De psalmodiae bono, in:  JThS 22 (1921):306-312.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="8v" to="9v">8vb-9va</locus>
+                                <author>Nicetа of Remesiana</author>
+                                <title>De psalmodiae bono</title>
+                                <incipit></incipit>
+                                <bibl>Ed. C.H. Turner, Niceta of Remesiana, De vigiliis and De psalmodiae bono, in:  JThS 22 (1921):306-312.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="9v" to="10v">9va-10va</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <title>Sermon 53</title>
+                                <bibl>Ed. Verbraken, CCL 41Aa, 88-104.</bibl>
+                            </msItem>
+                            <msItem n="10623">
+                                <locus from="10v" to="11r">10va-11rb</locus>
+                                <author ref="#augustinus_aurelius">(Ps.) Augustin</author>
+                                <title>Sermo de Ada et ligno innocentiae</title>
+                                <rubric>Incipit sermo beati Augustini episcopi de Adam et de ligno dinoscentiae boni et mali</rubric>
+                                <incipit>Legimus in genesi dixisse dominum ad Adam</incipit>
+                                <explicit>Ergo sic non est indicandus filii reactus <gap/> sic agitamus ut ad indulgentiam domini veniamus amen, Explicit.</explicit>
+                            </msItem>
+                            <msItem n="10626">
+                                <locus from="11r" to="11v">11rb-11va</locus>
+                                <author>Nilus monachus</author>
+                                <title>Sermo de discipulis et magistris</title>
+                                <rubric>Incipit de discipulis et magistria sermo Nili monachi</rubric>
+                                <incipit>Imperitiis magister</incipit>
+                                <bibl>Ed.: Paul van de Ven, Un opuscule inédit attribué à S. Nil, in: Mélanges Godefroy Kurth, II: Mémoires littéraires, philologiques et archéologiques, Liège-Paris 1906, 77-81.</bibl>
+                            </msItem>  
+                            <msItem n="10624">
+                                <locus from="11v" to="12r">11va-12ra</locus>
+                                <author ref="#augustinus_aurelius">Augustin</author>
+                                <rubric>Incipit omelia s. Augustini episcopi de laeticia et gratia</rubric>
+                                <incipit>Sic se fratres</incipit>                                
+                            </msItem>                            
+                            <msItem n="10625">
+                                <locus from="12r" to="13r">12ra-13ra</locus>
+                                <author>Gregorius Nazianzenus</author>
+                                <title>Sermo de arrianis</title>
+                                <incipit>Eos qui in sermone calent</incipit>
+                            </msItem>-->
+                        </msItem>	
+                        <msItem n="10627">
+                            <locus from="13r" to="21r">13ra-21rb</locus>
+                            <author ref="#theofridus_epternacensis">Thiofridus Epternacensis</author>   
+                            <title ref="#flores_epitaphii">(Liber florum epitaphiorum sanctorum) Flores epitaphii sanctorum</title>                     
+                            <incipit>Olivae uberi pulchrae</incipit>
+                        </msItem>          
+                        <msItem>
+                            <locus from="21v">21v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 2 (ff. 22-35)</idno>
+                    </msIdentifier>
+                    <head>Salvianus, De gubernatione dei libri VIII</head>
+                    <msContents>
+                        <msItem n="10628">
+                            <locus from="22r" to="35r">25ra-35ra</locus>
+                            <author ref="#salvianus_massiliensis">Salvianus Massiliensis</author>
+                            <title ref="#de_gubernatione_dei">De gubernatione dei</title>
+                            <incipit>Omnes admodum homines</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus from="35r">35rb</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 3 items 10629-10660 (ff. 36-57)</idno>
+                    </msIdentifier>
+                    <head>Agrimensores</head>
+                    <msContents>
+                        <msItem>
+                            <locus from="36r" to="55v">36ra-55va</locus>
+                            <note>Excerpts from the Agrimensores</note>
+                            <bibl>Jordanus</bibl>
+                            <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52).</bibl>
+                            <!--<msItem n="10629">
+                                <author>Frontinus</author>
+                                <title>De stratagematibus</title>
+                                <incipit>Notum est omnibus</incipit>
+                            </msItem>
+                            <msItem n="10630">
+                                <author>Theodosius et Archadius</author>
+                                <title>De mensuris agrorum</title>
+                                <incipit>Cunctus motionibus</incipit>
+                            </msItem>
+                            <msItem n="10631">
+                                <author>Julius Frontinus</author>
+                                <title>De agrorum avalisatione</title>
+                                <incipit>Agrorum qualitate</incipit>
+                            </msItem>
+                            <msItem n="10632">
+                                <author>Tiberius</author>
+                                <title>De sepulchris</title>
+                                <incipit>Imperator Tiberius Caesar</incipit>
+                            </msItem>
+                            <msItem n="10633">
+                                <title>Leges de finibus agrorum</title>
+                                <incipit>Si quis super</incipit>
+                            </msItem>
+                            <msItem n="10634">
+                                <title>De fine, lex Manilia</title>
+                                <incipit>Quamquam autem sex pedum</incipit>
+                            </msItem>
+                            <msItem n="10635">
+                                <locus from="39v" to="42v">39va-42va</locus>
+                                <author>Saeculus Flaccus</author>
+                                <title>De conditionibus agrorum</title>
+                                <incipit>Conditiones agrorum</incipit>
+                                <explicit>et leges respiciende.</explicit>
+                                <finalRubric>Explicit saeculi flacci liber.</finalRubric>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 134-165.</bibl>
+                            </msItem>
+                            <msItem n="10636">
+                                <author>Dolabella</author>
+                                <title>De limitibus, de sepulturis</title>
+                                <rubric>Ex libris Dollabelle</rubric>
+                                <incipit>Omnis terminus</incipit>
+                                <explicit>antica et postica.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 302-304.</bibl>
+                            </msItem>
+                            <msItem n="10637">
+                                <author>Nicetas</author>
+                                <title>De psalmodia et bono eius</title>
+                                <incipit>Dicamus</incipit>
+                            </msItem>
+                            <msItem n="">
+                                <locus from="42v">42vb</locus>
+                                <incipit>Sin argo assignato veneris</incipit>
+                                <explicit>in re praesenti</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 290-292.</bibl>
+                            </msItem>
+                            <msItem n="10638">
+                                <locus from="42v" to="43r">42vb-43ra</locus>
+                                <author>Vitalis</author>
+                                <title>De terminis</title>
+                                <rubric>Ex libris latini de terminibus</rubric>
+                                <incipit>Terminus si capud Terminus si fuerit</incipit>
+                                <explicit>trifinum faciunt</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 305-308.</bibl>
+                            </msItem>
+                            <msItem n="10639">
+                                <locus from="43r">43ra-b</locus>
+                                <author>Frontinus</author>
+                                <rubric>Ex libro frontini secundo</rubric>
+                                <incipit>Si termini desint Si terminum desinit</incipit>
+                                <explicit>trifinum ostendunt.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 42-43.</bibl>
+                            </msItem>
+                            <msItem n="">
+                                <locus from="43r">43rb</locus>
+                                <rubric>Latinus  togatus</rubric>
+                                <incipit>Terminus sive petra anturalis</incipit>
+                                <explicit>trifinum facit.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 309.</bibl>
+                            </msItem>
+                            <msItem n="10640">
+                                <locus from="43r" to="44v">43rb-44vb</locus>
+                                <author>Innocentius</author>
+                                <title>De limitibus</title>
+                                <rubric>Ex libro XII innocentius u p auctor de licieris notis iuris exponendis.</rubric>
+                                <incipit>Casa per A nomen habens Habens fines</incipit>
+                                <explicit>et territoria dividet.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 310-325.</bibl>
+                            </msItem>
+                            <msItem n="">
+                                <locus from="44v" to="45r">44vb-45ra</locus>
+                                <incipit>Monticellum habet</incipit>
+                                <explicit>et flumen inferius.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 325-6.</bibl>
+                            </msItem>
+                            <msItem n="10641">
+                                <locus from="45r">45ra</locus>
+                                <title>De XII generibus mensurarum</title>
+                                <incipit>Mensurarum genera sunt XII</incipit>
+                                <explicit>as duodecim untie.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 339-340.</bibl>
+                            </msItem>
+                            <msItem n="">
+                                <locus from="45r">45ra</locus>
+                                <title>Nomina agrorum</title>
+                                <incipit>Nomina agrorum</incipit>
+                                <explicit>ager cineribus deputatus.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 246-247.</bibl>
+                            </msItem>
+                            <msItem n="10642">
+                                <locus from="45r">45ra</locus>
+                                <author>Claudius Caesar</author>
+                                <rubric>Ex commentario claudii caesaris</rubric>
+                                <incipit>Lex agris limitandis metiundis</incipit>
+                                <explicit>arbitratu.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 211-213.</bibl>
+                            </msItem>
+                            <msItem n="10643">
+                                <locus from="45r" to="45v">45ra-45va</locus>
+                                <rubric>Claudii Caesaris et M. Antonii et M. Lepidi</rubric>
+                                <incipit>Colonia Florentina</incipit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 213-225.</bibl>
+                            </msItem>
+                            <msItem n="">
+                                <locus from="45v">45va-45vb</locus>
+                                <rubric>Ex libro balbi prouincia piceni</rubric>
+                                <incipit>Ager spolitinus</incipit>
+                                <explicit>quorum cursus in piceno fines terminatur.</explicit>
+                                <bibl>Blume et al., Die Schriften der römischen Feldmesser, 2 Bde. (Berlin 1848-52), 225-228.</bibl>
+                            </msItem>
+                            -->
+                        </msItem>
+                        <msItem>
+                            <locus from="56r" to="57v"/>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 4, items 10661- (ff. 58-65)</idno>
+                    </msIdentifier>
+                    <head>On grammar. Notker Labeo</head>
+                    <msContents>
+                        <msItem n="10661">
+                            <locus from="58r">58ra</locus>
+                            <author ref="#notker_labeo">Notker Labeo</author>
+                            <note>Letter of Notker about his works. <!--<quote>nec solum hec sed et nouam rhetoricam et computum nouum et alia quaedam opuscula latine conscripsi</quote>--></note>
+                            <incipit>Valde laetatus sum</incipit>
+                            <explicit>(erit uobis dominus meus episcopus in eternum ualeat)</explicit>
+                            <bibl>Ed. P. Piper Die Schriften Notkers <gap/> I, 1882, S. 859-861</bibl>
+                        </msItem>
+                        <msItem n="10662">
+                            <locus from="58r" to="60r">58ra-60rb</locus>
+                            <author ref="#notker_labeo">Notker Labeo (?)</author>
+                            <title>De arte rhetorica</title>
+                            <incipit>(Olim disparuit cuius faciens depingenda est et que nostram memoriam eam qualis erat)</incipit>
+                            <explicit>(et ingrediens ad eam materia atque de ea egrediens oratio)</explicit>
+                            <bibl>Ed. P. Piper Die Schriften Notkers I, 1882, S. 643-684. <ptr target="https://archive.org/details/dieschriftennot00capegoog"/>
+                        </bibl>
+                            <bibl>
+                                    <title level="m">Die kleineren Schriften</title>
+                                    <author>
+                              <surname>Notker Labeo</surname>
+                           </author>
+                                    <editor>
+                              <forename>James C.</forename>
+                              <surname>King</surname>
+                           </editor>
+                                    <editor>
+                              <forename>Edward H.</forename>
+                              <surname>Sehrt</surname>
+                           </editor>
+                                    <editor>
+                              <forename>Taylor</forename>
+                              <surname>Starck</surname>
+                           </editor>
+                                    <editor>
+                              <forename>Petrus W.</forename>
+                              <surname>Tax</surname>
+                           </editor>
+                                    <edition>Neue Ausg.</edition>                                    
+                                        <pubPlace>Tübingen</pubPlace>
+                                        <publisher>Niemeyer</publisher>
+                                        <date>1996</date>
+                            </bibl>
+                            <bibl>Ed. P. Piper, Zu Notkers Rhetorik, in: Zeitschr. für deutsche Phil. 22, 1890, S. 278-286</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="60r" to="64v">60rb-62vb</locus>
+                            <rubric>Incipit quomodo septem circumstantie rerum in legendo ordinande sint</rubric>
+                            <incipit>(Sciendum quod .v. principales sunt orationes ut boetius in commentariis periermeniarum docet)</incipit>
+                            <explicit>(filius uel nepos apparet ex hac diffinitione omnia patronomica ad aliquid)</explicit>
+                            <bibl>Ed. P. Piper Die Schriften Notkers I, 1882, S. XIII-</bibl>
+                            <bibl>King and Tax, 48-104.</bibl>
+                        </msItem>
+                        <msItem n="10663">
+                            <locus from="62v">62vb</locus>
+                            <author ref="#notker_labeo">Notker Labeo</author> 
+                            <title>De natura</title>
+                            <incipit>Natura generale nomen est</incipit>
+                            <explicit>quod uero immensum est bonitate pater est uirtute conditor.</explicit>
+                            <bibl>Ed. P. Piper Die Schriften Notkers I, 1882, S. XLIX-L</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="62v">62vb</locus>
+                            <incipit>Quomodo quid sit</incipit>
+                            <explicit>(non illa in aliis et de aliis).</explicit>
+                            <note>Identified by A. Kaffarnik (Querela magistri Treverensis, p. 328) as Dicta V (Quomodo quidquid sit) and VI (Quid sit substantia) from <title>Dicta Candidi de imagine Dei</title> of Candidus from Fulda. These are followed by three lines of unidentified addition: <quote>Omnis res significat substantiam aut acidens <gap/> si dico albus aut niger qualitatem significo</quote>. These lines are transcribed by Piper.</note>
+                            <bibl>Ed. P. Piper Die Schriften Notkers I, 1882, S. L-LI.</bibl>
+                            <bibl>
+                           <note>On Candidus and the <title>Dicta</title>see </note>J. Marenbon, From the Circle of Alcuin to the School of Auxerre: Logic, Theology and Philosophy in the Early Middle Ages (Cambridge: Cambridge University Press, 2006), 43. <!--<quote>.. probable origin.. before 791.. Alcuin wrote his <q>dicta</q>. Candidus then wrote his dicta as an extension of his master's thought; and the other passages were composed at roughly the same time, in the same milieu, probably by Candidus himself..</quote>-->
+                                </bibl>
+                            <bibl>B. (Barthélemy) Hauréau, Histoire de la philosophie scolastique, (Paris, Durand et Pedone-Lauriel, 1872), 135-6. <ptr target="https://archive.org/details/histoiredelaphi01haurgoog"/>
+                        </bibl>
+                            <bibl>C. E. Ineichen-Eder, Theologisches und philosophisches Lehrmaterial aus dem Alkuinkreise, in: Deutsches Archiv für Erforschung des Mittelalters 34 (1978): 192-201. <ptr target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858735_0034%7Clog17"/>
+                        </bibl>
+                        </msItem>
+                        <msItem n="10664">
+                            <author ref="#notker_labeo">Notker Labeo</author>
+                            <title>De dialectica</title>
+                            <incipit>Dialectica est bene disputandi</incipit>
+                            <bibl>Ed. P. Piper Die Schriften Notkers I, 8. LVI-LXXV</bibl>
+                        </msItem>
+                        <msItem n="10665">
+                            <author>Aristoteles</author>
+                            <title>Dissertatio nominum inter categorias</title>
+                            <incipit>Octo partes orationis</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus from="66r" to="68r">66ra-68ra</locus>
+                            <author>Seneca</author>
+                            <title>Senecae patris excerpta e controversiis</title>
+                            <incipit>Nihil tibi opus est potestas</incipit>
+                            <explicit>non adicit: ne amplius quam semel.</explicit>
+                            <finalRubric>Explicit liber VII. Incipit VIII. orbata post laqueum <gap/>
+                        </finalRubric>
+                        </msItem>
+                        <msItem n="10666">
+                            <author>Malesticus</author>
+                            <title>De actionibus iudiciariis</title>
+                            <incipit>Quidam naufragio fracto</incipit>
+                        </msItem>
+                        <msItem n="10667">
+                            <title>Versus Virginis Vestalis</title>
+                            <incipit>Virgo</incipit>
+                        </msItem>
+                        <msItem n="10668">
+                            <title>De popilio Ciceronis interfectore</title>
+                            <incipit>De moribus sic actio</incipit>
+                        </msItem>
+                        <msItem n="10669">
+                            <author ref="#isidore">Isidore</author>
+                            <title>De natura angelorum</title>
+                            <incipit>Natura angelorum immutabilis</incipit>
+                        </msItem>
+                        <msItem n="10670">
+                            <title>Contra Berengarium de corpore Domini</title>
+                            <incipit>Salomo uel inuenisti comede</incipit>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 5 (ff. 66-74)</idno>
+                    </msIdentifier>
+                    <head>Varia poetica</head>
+                  <!--                    write down locus, explicit, number of verses-->
+                    <msContents>
+                        <msItem n="10671">
+                            <note>Satirical verse against the Pope</note>
+                            <incipit>Annulus et baculus duo sunt</incipit>
+                        </msItem>
+                        <msItem n="10672">
+                            <note>Satirical dialogue against the Pope</note>
+                            <incipit>Certamen regis cum papa</incipit>
+                        </msItem>
+                        <msItem n="10673">
+                            <note>Verse about religion</note>
+                            <incipit>Hactenus ex vetito peccata</incipit>
+                        </msItem>
+                        <msItem n="10674">
+                            <note>Satirical verse against the Pope and the Roman court</note>
+                            <incipit>Gens romanorum subdola</incipit>
+                        </msItem>
+                        <msItem n="10675">
+                            <locus from="71v">71va-b</locus>
+                            <title>Appendix Vergiliana: Ciris (vv. 448-541)</title>
+                            <incipit>
+                           <gap/>iam tandem casus hominum</incipit>
+                            <explicit>secat ethera pennis.</explicit>
+                            <bibl>http://www.forumromanum.org/literature/ciris.html</bibl>
+                        </msItem>
+                        <msItem n="10676">
+                            <locus from="71v">71vb</locus>
+                            <title>Appendix Vergiliana: Priapea. De hieme</title>
+                            <incipit>Vere rosa autumno pomis</incipit>
+                            <explicit>vos feret ipsa.</explicit>
+                            <bibl>http://www.forumromanum.org/literature/priapea.html</bibl>
+                        </msItem>
+                        <msItem n="">
+                            <locus from="71v" to="72v">71vb-72vb</locus>
+                            <title>Appendix Vergiliana: Catalepton</title>
+                            <incipit>De qua sepe tibi</incipit>
+                            <explicit>littoris ara uocat.</explicit>
+                            <bibl>http://www.forumromanum.org/literature/catalepton.html</bibl>
+                        </msItem>
+                        <msItem n="">
+                            <locus from="72v">72vb</locus>
+                            <note>Verse</note>
+                            <incipit>Vates sira scosio</incipit>
+                            <explicit>carmine Calliope.</explicit>
+                        </msItem>
+                        <msItem n="">
+                            <locus from="72v">72vb</locus>
+                            <title>Appendix Vergiliana: Quid hoc novi est</title>
+                            <incipit>Quid hoc noui est</incipit>
+                            <explicit>molle ruperit latus.</explicit>
+                            <bibl>http://www.hs-augsburg.de/~harsch/Chronologia/Lsante01/Vergilius/ver_appq.html</bibl>
+                        </msItem>
+                        <msItem n="">
+                            <locus from="72v" to="73v">72vb-73va</locus>
+                            <title>Appendix Vergiliana: Elegiae in Maecenatem</title>
+                            <incipit>Defleram iuvenis</incipit>
+                            <explicit>collocet ipsa sinu.</explicit>
+                            <bibl>https://www.hs-augsburg.de/~harsch/Chronologia/Lsante01/Vergilius/ver_apem.html</bibl>
+                        </msItem>                        
+                        <msItem n="10677">
+                            <locus from="73v">73va-b</locus>
+                            <author>Annius Florus</author>
+                            <title>Vergilius orator an poeta</title>
+                            <rubric>Panii flori virgilius orator an poeta incipit.</rubric>
+                            <incipit>Capienti mihi in templo</incipit>
+                            <explicit>iam exempli ro<gap/>
+                        </explicit>
+                            <!--<note><ptr target="http://mlat.uzh.ch/?c=16&w=Florus.VeOrAnP"/></note>-->
+                        </msItem>
+                        <msItem n="10678">
+                            <note>On grammar</note>
+                            <incipit>Possesiva diversis habent</incipit>
+                        </msItem>
+                        <msItem n="10679">
+                            <author>Paulinus Aquileiensis</author>
+                            <incipit>
+                           <gap/> et urbe facultas</incipit>
+                        </msItem>
+                        <msItem n="10680">
+                            <author>Sidonius Apollinaris</author>
+                            <title>Epistula Book V, 5</title>
+                            <incipit>S. Siagrio suo salutem (cum sis consulis pronepos)</incipit>
+                            <bibl>http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:stoa0261.stoa0002.perseus-lat1</bibl>
+                        </msItem>
+                    </msContents>
+                </msPart>                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 6 (ff. 79-92)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <msItem>
+                            <author ref="#wandalbert_von_pruem">Wandalbert von Prüm</author>
+                            <title ref="#martyrologium">Martyrologium</title>
+                            <msItem n="10681">
+                                <locus from="79r">79ra-b</locus>
+                                <note>Praefatio:</note>
+                                <incipit>Veteri et perantiquo praecepto</incipit>
+                                <explicit/>
+                                <!--<bibl>(PL 121 0577A) <ptr target="http://mlat.uzh.ch/?c=2&w=WanPru.Praefa138"/></bibl>-->
+                            </msItem>
+                            <msItem n="10682">
+                                <locus from="79r" to="83v">79rb-83va</locus>
+                                <note>Invocatio:</note>
+                                <rubric>Incipit feliciter invocatio</rubric>
+                                <incipit>(Celsi cuncta paraus)</incipit>
+                                <explicit/>
+                                <bibl>(PL 0579D)</bibl>
+                            </msItem>
+                            <msItem>
+                                <note>Text:</note>
+                                <incipit>(Dies 1. Primum nunc Iani vocitatum nomine mensem)</incipit>
+                                <explicit/>
+                            </msItem>
+                        </msItem>
+                        <msItem n="10683">
+                            <locus from="83v" to="84v">83va-84vb</locus>
+                            <author ref="#wandalbert_von_pruem">Wandalbert von Prüm</author>
+                            <title ref="#de_nominibus_mensium">De nominibus duodecim mensium</title>
+                            <rubric>De mensium XII nominibus, signis culturis aerisque qualitatibus</rubric>
+                            <msItem n="10683">
+                                <note>Prolog:</note>
+                                <incipit>Si quis culturis, aerisque</incipit>
+                            </msItem>
+                            <incipit>Nominibus mensium que sit rationis origo</incipit>
+                            <explicit/>
+                            <!--<bibl>(PL 121 0625A) <ptr target="http://mlat.uzh.ch/?c=2&w=WanPru.DeNoDuM"/></bibl>-->
+                        </msItem>                     
+                        <msItem>
+                            <locus from="84v" to="5r">84vb-85ra</locus>
+                            <author ref="#wandalbert_von_pruem">Wandalbert von Prüm</author>
+                            <title ref="#horologium">Horologium</title>
+                            <rubric>Incipit horologium metro editum per XII mensium punctos</rubric>                            
+                            <!--<bibl>(PL 0631D) <ptr target="http://mlat.uzh.ch/?c=2&w=WanPru.Horolo"/></bibl>-->
+                            <msItem n="10684">
+                                <locus from="84v" to="85r">84vb-85ra</locus>
+                                <note>Opening:</note>
+                                <incipit>Quos cursu solis iungant sua tempore</incipit>
+                                <incipit>Cursi cuncti parens editos</incipit>
+                            </msItem>
+                            <msItem n="10685">
+                                <locus from="85r">85ra</locus>
+                                <note>Text:</note>
+                                <incipit>Linea quae iani prima est parit</incipit>
+                                <incipit>Si quis culturis aerisque</incipit>
+                            </msItem>                            
+                        </msItem>                               
+                        <msItem n="10686">
+                            <locus from="85r" to="85v">85ra-85vb</locus>
+                            <author ref="#wandalbert_von_pruem">Wandalbert von Prüm</author>
+                            <title ref="#de_creatione_mundi">De creatione mundi per ordinem dierum VI descriptio brevis</title>
+                            <incipit>De uno trino dei. Simplex purus et unus eterni pater atque</incipit>
+                            <note>Marginal later hand:<quote> Metrum feretrtacium trimetrum</quote>
+                        </note>
+                            <bibl>PL 121, 635A-640C.</bibl>
+                        </msItem>
+                        <msItem n="10687">
+                            <locus from="85v" to="87r">85vb-87rb</locus>
+                            <author ref="#haito">Haito</author>                            
+                            <title ref="#visio_wettini">Visio Wettini</title>
+                            <rubric>Prefationem in visionem wettini.</rubric>
+                            <incipit>In prouincia alamannorum et sueborum in monasterio</incipit>
+                            <explicit/>
+                            <bibl>MGH, Poeta 2, 267<ptr target="http://www.mgh.de/dmgh/resolving/MGH_Poetae_2_S._267"/>
+                        </bibl>                            
+                        </msItem> 
+                        <msItem n="10688">
+                            <locus from="87r" to="90v">87rb-90vb</locus> 
+                            <author ref="#walafrid_strabo0">Walafrid Strabo</author>
+                            <title ref="#visio_wettini_walafridi">Visio Wettini</title>
+                            <!--<incipit>Christi novumque pascha mihi</incipit>
+                            <note>from f. 87r another hand finished the remaining chapter from the <title>Visio</title> added another visio and the <title>Oratio strabi wahlafridi</title>; <title> Versus eiusdem de .. Asteru[m] patribus</title>.</note>-->
+                            <finalRubric>explicit visio wettini versibus conposita exametribis a <rs type="person" role="author">strabo wahlafrido</rs> deo gratias amen.</finalRubric>
+                        </msItem>
+                        <msItem n="10689">
+                            <locus from="90v" to="91r">90vb-91rb</locus>
+                            <author ref="#fulgerntius">Fulgentius</author>
+                            <title>Homelia de natalicis domini</title>
+                            <rubric>Omelia fulgentii episcopi de natale domini.</rubric>
+                            <incipit>Cupientes aliquid de huius diei</incipit>
+                            <explicit>Refurgens de sepulchro<gap/>
+                        </explicit>
+                            <bibl>PL 65, 0726A-729B.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="91v">91va-b</locus>
+                            <note>Poem: De sancto Dyonisio (CCH. I.2 (1889), 395, Nr. 5)</note>
+                            <incipit>Speciales francorum protectores sunt dyonisius martyr</incipit>
+                            <explicit>Oculo ad oculum vivit</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="92r" to="92v">92r-v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 7 (ff. 93-98)</idno>
+                    </msIdentifier>
+                    <head>Calendar</head>
+                    <msContents>
+                        <msItem n="10691">
+                            <locus from="93r" to="96r">93ra-96rb</locus>
+                            <author ref="#polemius_silvius">Polemius Silvius</author>
+                            <title ref="#laterculus">Laterculus</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="96v" to="98v">96v-98v</locus>
+                            <note>blank</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 8 (ff. 99-106)</idno>
+                    </msIdentifier>
+                    <head>Aratus Latinus</head>
+                    <msContents>
+                        <msItem n="10698">  
+                            <title>Aratus Latinus</title>
+                            <msItem>
+                                <locus from="99r">99ra</locus>
+                                <rubric>Prefacio arati</rubric>
+                                <note>AL, VI Prefacio Arati:</note>
+                                <incipit>Preclara ostensio sacri uoluminis</incipit>
+                                <explicit>sapientia hic intellegis</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="99r">99ra</locus>
+                                <note>AL, VII.1 Involutio sphaerae:</note>
+                                <rubric>Involucio spere</rubric>
+                                <incipit>Hic est stellarum ordo utrorumque circulorum</incipit>
+                                <explicit>figuram indicunt circulorum.</explicit>
+                                <note>with section titles in the margin or in line for each zodiacal sign.</note>
+                                <msItem>
+                                    <locus from="99r">99rb</locus>
+                                    <note>AL, VII, 2:</note>
+                                    <rubric>Involvcio spere</rubric>
+                                    <incipit>Septem circuli eratici</incipit>
+                                    <explicit>et mundus imperitus.</explicit>
+                                </msItem>
+                            </msItem>
+                            <msItem>
+                                <locus from="99r" to="104r">99rb-104r</locus>
+                                <note>AL, VIII Aratus cum scholiis:</note>
+                                <incipit>A ioue incipimus quem numquam uiri relinquimus</incipit>
+                                <explicit>continentem in celo signum.</explicit>
+                                <note>With rubrics for sections devoted to some of the constellations (<quote>Helice arctvrvs maior</quote>, <quote>De dracone</quote>, <quote>De eo qui in geniculo est</quote> etc.) with the exception for sections from Leo to Cassiopeia. Left blank spaces in the middle of the lines on a few occasions. Like Paris, BnF MS lat. 7887 has the text corresponding to vv. 909-1002 after the section corresponding to vv. 1068-1074, here written by a different hand.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="104r" to="104v">104rb-104va</locus>
+                                <note>AL, I Arati ea quae videntur:</note>
+                                <rubric>Arati ea qve videntvr</rubric>
+                                <incipit>
+                              <supplied>O</supplied>stensionem quoque de quibus uidentur oportet fieri</incipit>
+                                <explicit>quorum ab eo dicta sunt.</explicit>
+                                <note>Some corrections in the names of constellations, as well as insertion in the margin in f. 104rb of a missed out phrase <quote>simulque piscis cauda cancri pes scorpioni pars</quote>.</note>
+                                <msItem>
+                                    <locus from="104v">104va</locus>
+                                    <note>Al, II Eratosthenis de circa exornatione:</note>
+                                    <incipit>Eratostenes de circa exornatione stellarum ethumologia de quibus uidentur haec autem sunt ad aquilonem  septentrio maior</incipit>
+                                    <explicit>pisces cetus incolo in manu utraque semisphera aquilo aries thaurus gemini.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <locus from="104v">104va</locus>
+                                    <note>AL, III Preface:</note>
+                                    <incipit>quibus arathi uidentur quaedam sunt secundum celi stellatum</incipit>
+                                    <explicit>simili modo id ipsa suggerunt.</explicit>
+                                </msItem>
+                            </msItem>                            
+                            <msItem>
+                                <locus from="104v">104vb</locus>
+                                <note>AL, IV Descriptio duorum semispheriorum:</note>
+                                <rubric>Descriptio dvorum semispherivm</rubric>
+                                <incipit>Habet autem pondere totum medio terre</incipit>
+                                <explicit>iacet duobus semisperus.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="104v" to="105r">104vb-105ra</locus>
+                                <note>AL, V Arati genus:</note>
+                                <rubric>Arati genvs</rubric>
+                                <incipit>Aratus genus patris quidem est athinodori</incipit>
+                                <explicit>autem illum et <sic>illum et</sic> super</explicit>
+                                <note>Rest of f. 105r blank.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="105v" to="106v">105v-106v</locus>
+                                <note>blank.</note>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 9 (ff. 107-122)</idno>
+                    </msIdentifier>
+                    <head>Manilius, Astronomica</head>
+                    <msContents>
+                        <msItem>
+                            <locus from="107r" to="122r">107r-122r</locus>
+                            <author ref="http://d-nb.info/gnd/118577077">Manilius</author>
+                            <title>Astronomica</title>
+                            <rubric>Arati philosophi astronomiorum liber primus incipit prelibatia</rubric>
+                            <incipit>Carmine diuinas artes</incipit>
+                            <explicit>totius et accenso mundus flagraret olimpo.</explicit>
+                            <note>With initials standing out in front of the lines; with marginal explanatory annotations and marginal headings to particular sections.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="122v">122v</locus>
+                            <note>blank.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 10 (ff. 123-137)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <p/>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 11 (ff. 138-156)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <p/>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 12 (ff. 157-164)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <p/>
+                    </msContents>
+                </msPart>
+                
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 13 (ff. 165-172)</idno>
+                    </msIdentifier>
+                    <msContents>
+                       <msItem>
+                           <locus from="165r" to="172v">165r-172v</locus>
+                           <author>Gilo of Paris</author>
+                          <title>Historia vie hierosolimitane</title>
+                           <bibl>Grocock, C. W. and E. Siberry ed. The Historia Vie Hierosolimitane of Gilo of Paris. Oxford: Clarendon Press, 1997, p. xl.</bibl>
+                       </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier/>
+                    <msContents>
+                        <msItem>
+                            <locus from="173r" to="174v">173r-174v</locus>
+                            <title>Querela magistri Paulini</title>
+                            <bibl>Dräger, P. "Klage des Magister Paulinus (Querela magistri Paulini)," 65-148</bibl>
+                        <!--                            poem of 468 verses, a magister who came from Rome to Trier was punished to go work in the Kitchen; addresses the archbishop of Trier, Gerlandus of Metz (who was there 1111-1127) and Petrus and the brother Winrich from St. Simeon for help; WInrich ... Draeger concludes that the poem was written end of 11th or begin of the 12th c.-->
+                            <bibl>Kaffarnik, Annastina. Querela magistri Treverensis. neuedition, Übersetzung und Kommentar. Bern: Peter Lang, 2011.</bibl>
+                        <!--                            mit Beschreibung von der HS Bruxell. auf S. 315-356-->
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 14 (ff. 179-186)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <p/>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 15 (ff. 187-200)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <!--<p></p>-->
+                        <msItem>
+                            <locus>187-191</locus>
+                            <title>Ecbasis captivi</title>
+                            <bibl>Thomas, Heinz. "Die Ecbasis Cuiusdam Captivi, eine Trierer Dichtung aus der Zeit Heinrichs IV." in Deutsches Archiv für Erforschung des Mittelalters 20 (1964): 130-154.<ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=GDZPPN000353523"/>
+                        </bibl>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 16 (ff. 201-223)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <p/>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Booklet 17 (ff. 224-231)</idno>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                       <msItem>
+                           <locus from="224r" to="227v">224r-227v</locus>
+                           <title>Novus Avianus</title>
+                           <bibl>Bisanti, Armando. Le favole di Aviano e la loro fortuna nel Medioevo. Sismel, 2010.</bibl>
+                       </msItem>
+                        <msItem>
+                            <locus from="227v" to="230v">227v-230v</locus>
+                            <title>Carmen de Hastingae Proelio</title>
+                            <bibl/>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                
+            </msDesc>
+      </body>
+   </text>
+</TEI>

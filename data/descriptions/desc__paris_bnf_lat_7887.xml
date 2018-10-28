@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Paris BnF, MS lat. 7887</title>
+            <respStmt>
+               <resp>Catalogued by: </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc status="complete">
+        <change when="2018-10-24">complete</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <msDesc xml:id="paris_bnf_lat_7887" xml:lang="eng">
+           <msIdentifier>
+              <settlement>Paris</settlement>
+              <repository>Bibliothèque nationale de France</repository>
+              <collection>latin</collection>
+              <idno sortKey="07887">7887</idno>
+              <altIdentifier type="former">
+                 <idno>Colbertinus 5514</idno>
+              </altIdentifier>
+              <altIdentifier type="former">
+                 <idno>Regius 5451 33</idno>
+              </altIdentifier>
+           </msIdentifier>
+           <head>
+              <title>Aratus Latinus</title>
+              <origPlace ref="#">Francia</origPlace>
+              <origDate notBefore="0881" notAfter="0900">s. IX<hi rend="sup">ex</hi>
+              </origDate>
+              <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721144c">gallica.bnf.fr</ref></note>
+           </head>
+           <msContents>
+              <textLang mainLang="lat"/>
+              <msItem>
+                 <locus from="1v" to="50v">1v-50v</locus>
+                 <title>Aratus Latinus</title>
+                 <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>
+                 <explicit/>
+                 <msItem>
+                    <locus from="1v" to="3v">1v-3v</locus>
+                    <note type="title">AL, I Arati ea quae uidentur</note>
+                    <rubric>Arati quae uidentur</rubric>
+                    <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>
+                    <explicit>ut nihil te latere posit quorum ab eo dicta sunt</explicit>
+                    <note>frequent change by a more experienced hand who wrote each time one or two lines.</note>
+                 </msItem>  
+                 <msItem>
+                    <locus from="3v" to="4r">3v-4r</locus>
+                    <note type="title">AL, II Eratosthenes de circa exornatione stellarum</note>
+                    <incipit>eratostenis de circa exornatione stellarum et ethimologia de quibus uidentur <pb/>Haec autem sunt ad aquilonem serpentrio maior</incipit>
+                    <explicit>pisces Uque stelle erratice.</explicit>
+                 </msItem>      
+                 <msItem>
+                    <locus from="4r">4r</locus>
+                    <note type="title">AL, II A Hipparchus de magnitudine et positione errantium stellarum </note>
+                    <incipit>ipparcus de magnitudine et posicione errantium stellarum. Constat autem in aquilonio semis sperio haec septentrio moior</incipit>
+                    <explicit>aries taurus gemini.</explicit>
+                 </msItem>      
+                 <msItem>
+                    <locus from="4r" to="5v">4r-5v</locus>
+                    <note type="title">AL, III</note>
+                    <incipit>quibus sarati <lb/>uidentur, quedam sunt secundum celi stellarum ordinem</incipit>
+                    <explicit>quia simili modo in id ipsum suggerunt.</explicit>
+                 </msItem> 
+                 <msItem>
+                    <locus from="5v" to="7r">5v-7r</locus>
+                    <note type="title">AL, Alia descriptio praefationis</note>
+                    <rubric>Alia descrio prefationis</rubric>
+                    <incipit>Subtus terra hubi adornantur signa uii</incipit>
+                    <explicit>in dextera sacrarium necnon sagittarius piscis cetus orion.</explicit>
+                 </msItem> 
+                 <msItem>
+                    <locus from="7r">7r</locus>
+                    <note type="title">AL, IV Descriptio duorum semispherium </note>
+                    <rubric>Descriptio duorum semisspherium</rubric>
+                    <incipit>Habet autem pondere totum medio terre terrenum</incipit>
+                    <explicit>ipsa enim in medio iacet duobus semispheriis.</explicit>
+                 </msItem>                     
+                 <msItem>
+                    <locus from="7r" to="8r">7r-8r</locus>
+                    <note type="title">AL, V Arati genus</note>
+                    <rubric>Arati genus</rubric>
+                    <incipit>Aratus patris quidem est athinodori matris autem</incipit>
+                    <explicit>scire magnum loqui pericie mathematice reperimus autem illum et super<gap/>
+                    </explicit>
+                    <finalRubric>Explicit.</finalRubric>
+                 </msItem>
+                 <msItem>
+                    <locus from="8r" to="8v">8r-v</locus>
+                    <note type="title">AL, VI Praefatio Arati</note>
+                    <rubric>Prefacio arati</rubric>
+                    <incipit>Preclara ostensio sacri uoluminis Namquet cum mihi</incipit>
+                    <explicit>fabulis disponam quasi optima tu autem sum sapientia hec intelle<gap/>
+                    </explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="9r">9r</locus>
+                    <note type="title">blank.</note>
+                 </msItem>
+                 <msItem>
+                    <locus from="9v" to="12r">9v-12r</locus>
+                    <note type="title">AL, VII Involutio sphaerae</note>
+                    <rubric>Inuolutio sphere</rubric>
+                    <incipit>Hic est stellarum ordo utrotumque circulorum septentriones</incipit>
+                    <explicit>constientia ridet et mundus imperitus.</explicit>
+                    <note>Lower half of f. 12r left blank.</note>
+                 </msItem>
+                 <msItem>
+                    <locus from="12v" to="50v">12v-50v</locus>
+                    <note type="title">AL, VIII Aratea cum scholiis</note>
+                    <incipit>A ioue incipimus quem umquam uiri relinquimus archanum</incipit>
+                    <explicit>in utraque genu <gap reason="damage"/> pedibus v omnes <gap reason="gutter"/>
+                    </explicit>
+                 </msItem>
+              </msItem> 
+              
+              <msItem>
+                 <locus from="51r" to="59v">51r-59v</locus>
+                 <author ref="#bede">Bede</author>
+                 <title ref="#dnr">DNR</title>
+                 <incipit>Naturas rerum uarias labentis</incipit>
+                 <explicit>usque ad occidentem extenditur.</explicit>
+              </msItem>
+              <msItem>
+                 <locus from="59v" to="60v"/>
+                 <note type="title">Later filling text:</note>
+                 <incipit>Quod sunt quetum mendant ueritatem uniuscuiusque conscripcionis</incipit>
+                 <explicit>tertio ut ignorantes doceret et ad ueritatis indaginem reduceret et quia<gap/>
+                 </explicit>
+              </msItem>    
+           </msContents>
+           <physDesc>
+              <objectDesc form="codex">
+                 <supportDesc material="perg">
+                    <support>
+                       <p>
+                          <material>Parchment</material>
+                       </p>
+                    </support>
+                    <extent>
+                       <measure type="leavesCount" quantity="60">60 ff.</measure>
+                       <dimensions type="leaf" unit="mm">
+                          <height/>
+                          <width/>
+                       </dimensions>
+                    </extent>
+                    <foliation>The folio between ff. 15v and 16r (with sections on Corona and Serpentarius) is now f. 50.</foliation>
+                    <collation>
+                       <formula>I<hi rend="sup">8</hi> (ff. 1-8), II<hi rend="sup">8(-1)</hi> (ff.9-15 lost one after f. 15, now f.50), III<hi rend="sup">4</hi> (ff. 16-19), IV<hi rend="sup">8</hi> (ff. 20-27), V<hi rend="sup">8</hi> (ff. 28-35), VI<hi rend="sup">8</hi> (ff. 36-43), VII<hi rend="sup">6</hi> (ff. 44-49)</formula>. Quire marks:
+                       <locus from="8v">8v</locus> - <quote>Q.I.</quote>
+                       <locus from="19v">19v</locus> - <quote>III</quote>
+                       <locus from="27v">27v</locus> - <quote>IIII</quote>
+                       <locus from="35v">35v</locus> - <quote>V</quote>
+                       <locus from="43v">43v</locus> - <quote>VI</quote>
+                       <locus from="49v">49v</locus> - <quote>VIII</quote>
+                    </collation>
+                    <condition>
+                       <p>On several folios the lower half which was left blank (presumably for illustrations), was later cut off.</p>
+                       <!--<p>Between fol. 12 and 13 - two folios are cut out - one of them was used as paste down to the same MS.</p>-->
+                    </condition>
+                 </supportDesc>
+                 <layoutDesc>
+                    <layout columns="1" ruledLines="30">
+                       <p/>
+                    </layout>
+                 </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                 <handNote>word division although inconsistent at times; ligatures: or, ri, st, et, open a alongside carolingian a; abbreviations.</handNote>
+              </handDesc>
+              <scriptDesc>
+                 <summary/>
+                 <scriptNote script="carolmin">
+                    <p/>
+                 </scriptNote>                     
+              </scriptDesc>
+           </physDesc>
+           <history>
+              <provenance>
+                 <p>
+                    <rs type="place" ref="#fleury" role="provenance">Fleury</rs> (?); Cathedral of <rs type="place" ref="#le_puy_en_velay" role="provenance">Le Puy-en-Velay</rs>.</p>
+                 <p>At least from the 10th c. onwards lat. 7887 and lat. 7581 formed one book, listed in the 10th c. catalogue: <quote>Aratus, cum quo est liber de quadrifario opere Dei.</quote>. The catalogue found in the later MS is entitled <quote>haec retinet scedula Navilelmi <supplied>or Wilelmi</supplied> nomina certat Librorum qui sint et quo simul ordine pendit</quote>. (See discussion and edition of the catalogue in <bibl>P. Riche "Un catalogue de la bibliothèque du Puy au début du XIe siècle", Finances, pouvoirs et mémoire. Mélanges offerts à Jean Favier. S. d. de J. Kerhervé - A. Rigaudière, Paris, Fayard, 1999, p. 700-713</bibl>.) It was Baluze who divided the two in 1681. Both manuscripts have, however, independent quire signatures, which suggests that they did not form one book originally.</p>
+              </provenance>
+              <acquisition>
+                 <p>According to Delisle (<bibl>
+                    <title>Cabinet des manuscrits</title>, pp. 511-14</bibl>) the MS was one of the ca. fifty books which Colbert in 1681 acquired  from the library of Notre-Dame du Puy and later sent to Paris. The list of books is found today in Paris Bnf, MS lat. 9364.  From the 49 items which Baluze reports, 38 are still in the BnF with the same shelf mark.</p>
+              </acquisition>
+           </history>
+           <additional>
+              <listBibl>
+                 <head>Selected bibliography:</head>
+                 <bibl>M. B. Olsen, L'etude des auteurs classiques latins, II, p.435.</bibl>
+                 <bibl>P. Riche, "Un catalogue de la bibliothèque du Puy au début du XIe siècle", Finances, pouvoirs et mémoire. Mélanges offerts à Jean Favier. S. d. de J. Kerhervé - A. Rigaudière, Paris, Fayard, 1999, p. 700-713.</bibl>
+              </listBibl>
+           </additional>
+        </msDesc>
+     </body>
+  </text>
+</TEI>

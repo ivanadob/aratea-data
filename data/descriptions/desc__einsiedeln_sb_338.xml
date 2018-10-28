@@ -29,7 +29,7 @@
                 <p/>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc status="draft">
 				<change when="2018-06-01"/>
 			</revisionDesc>
 		
@@ -41,9 +41,6 @@
                     <settlement>Einsiedeln</settlement>
                     <repository>Stiftsbibliothek</repository>
                     <idno>338</idno>
-                    <altIdentifier type="other">
-                        <idno/>
-                   </altIdentifier>
                 </msIdentifier>
                 <head>
                     <title>Composite manuscript</title>
@@ -117,7 +114,7 @@
                     <msContents>
                         <msItem>
                             <locus from="1">1</locus>
-                            <note>Three lines with the Greek alphabet with the corresponding Roman numerals placed above the letters.</note>
+                            <note type="title">Three lines with the Greek alphabet with the corresponding Roman numerals placed above the letters.</note>
                         </msItem>
                         <msItem>
                             <locus from="1bis" to="272">1*-272</locus>
@@ -169,7 +166,7 @@
                         </msItem>
                         <msItem>
                             <locus from="411">411</locus>
-                            <note>left blank.</note>
+                            <note type="title">left blank.</note>
                             <decoNote>Underlines of an image of a human figure with drapery (roman style?), holding in the left hand something like a rotulus, while the right hand is bended in front of the chest; note on the upper most page<quote>abauus</quote>.</decoNote> 
                         </msItem>
                     </msContents>
@@ -179,7 +176,7 @@
                     <msContents>                        
                         <msItem>
                             <locus from="412">412</locus>
-                            <note>is a recto left blank.</note>
+                            <note type="title">is a recto left blank.</note>
                         </msItem>
                         <msItem>
                             <locus from="412bis" to="455">412*-455</locus>

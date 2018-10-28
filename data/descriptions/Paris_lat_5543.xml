@@ -28,18 +28,15 @@
             <sourceDesc>
                 <p/>
             </sourceDesc>
-        </fileDesc>           
-        
+        </fileDesc>
         <revisionDesc status="draft">
 				<change when="2018-06-01"/>
 			</revisionDesc>
-		
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:id="bnf_5543" xml:lang="eng">
+            <msDesc xml:id="paris_bnf_5543" xml:lang="eng">
                 <msIdentifier>
-                    <!-- contains the information required to identify the manuscript being described MANDATORY -->
                     <settlement>Paris</settlement>
                     <repository>Bibliothèque nationale de France</repository>
                     <idno>lat. 5543</idno>
@@ -227,7 +224,6 @@
                </objectDesc>   
             </physDesc>
             <history>
-               <!-- groups elements describing the full history of a manuscript or manuscript part. -->
                <origin/>
                <provenance/>
             </history>

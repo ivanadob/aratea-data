@@ -18,7 +18,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -27,7 +26,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -152,7 +151,7 @@
                         <msItem>
                             <locus from="1r" to="6v">1r-6v</locus>
                             <title>Annales ratisponenses</title>
-                            <note>Annals of Regensburg and Prüfening from AD 1 to 1167.</note>
+                            <note type="title">Annals of Regensburg and Prüfening from AD 1 to 1167.</note>
                             <incipit>Ihesus christus uiui dei filius et omnium conditor temporum</incipit>
                             <explicit>Eberhardus ratisponensis episcopus inibi etiam obiit. Chuno successit.</explicit>
                             <bibl>
@@ -172,7 +171,7 @@
                         <textLang mainLang="lat"/>
                         <msItem>
                             <locus from="7r">7r</locus>
-                            <note>Astrological table for finding the planets within the zodiac.</note>
+                            <note type="title">Astrological table for finding the planets within the zodiac.</note>
                             <incipit>Hec pagina adeo utilitatem sui commendat ut sine ea nullam sibi quisque astrologiae noticiam promittat</incipit>
                             <explicit>per ordinem signis horae binae et bine substituuntur.</explicit>
                             <decoNote>Three-dimensional meander decoration in the inner margin.</decoNote>
@@ -180,7 +179,7 @@
                         <msItem>
                             <locus from="7v" to="14r">7v-14r</locus>
                             <title>Cycli decemnovennales</title>
-                            <note>Paschal tables for the 19-year cicle with annals in the margin.</note>
+                            <note type="title">Paschal tables for the 19-year cicle with annals in the margin.</note>
                             <rubric>Incipiunt annales dominicae incarnationis</rubric>
                             <msItem>
                                 <locus from="7v" to="10v">7v-10v</locus>
@@ -195,7 +194,7 @@
                         </msItem>
                         <msItem>
                             <locus from="14v" to="16v">14v-16v</locus>
-                            <note>Excerpts from<title ref="#libri_computi">Libri computi</title> (III.2-9, 14; IV.10)</note>
+                            <note type="title">Excerpts from<title ref="#libri_computi">Libri computi</title> (III.2-9, 14; IV.10)</note>
                             <rubric>De anno et partibus eius</rubric>
                             <rubric>Quot athomos habet annus vel partes eius</rubric>
                             <rubric>Quot modis soleat annus nominari</rubric>
@@ -220,10 +219,10 @@
                         </msItem>
                         <msItem>
                             <locus from="18r" to="18v">18r-v</locus>                            
-                            <note>Text on geometry and on the distances between planets. Excerpt from<rs type="person" ref="#cassiodorus">Cassiodor</rs>'s <title ref="#institutiones">Institutiones</title>, followed by an excerpts from <rs type="person" ref="#censorinus">Censorinus</rs>' <title ref="#de_die_natali">De die natali</title>.</note>
+                            <note type="title">Text on geometry and on the distances between planets. Excerpt from<rs type="person" ref="#cassiodorus">Cassiodor</rs>'s <title ref="#institutiones">Institutiones</title>, followed by an excerpts from <rs type="person" ref="#censorinus">Censorinus</rs>' <title ref="#de_die_natali">De die natali</title>.</note>
                             <msItem>
                                 <author ref="#cassiodorus">Cassiodor</author>
-                                <title ref="#institutiones">Institutiones<note>Lib. II,6</note>
+                                <title ref="#institutiones">Institutiones<note> Lib. II,6</note>
                                 </title>
                                 <incipit>Nunc de geometricam uideamus in his que sunt que ad VII planetas et reliqua sidera pertinent. Geometria namque est disciplina magnitudinis inmobilis et formarum</incipit>
                                 <explicit>Unde censorinus in libro quem scripsit ad cerellium quintum spatia ipsium celi terrae ambitum per numerum stadiorum disctincta curiositate descripsit dicens</explicit>
@@ -232,7 +231,7 @@
                             </msItem>
                             <msItem>
                                 <author ref="#censorinus">Censorinus</author>
-                                <title ref="#de_die_natali">De die natali<note>cap. 13</note>
+                                <title ref="#de_die_natali">De die natali<note> cap. 13</note>
                                 </title>
                                 <incipit>Pytagoras prodidit hunc totum mundum musica factum ratione septemque stellas inter celum et terram uagas</incipit>
                                 <explicit>quia si uellem in unum librum separatim congerere tantum tamen in angustiis uersarer.</explicit>
@@ -240,13 +239,13 @@
                                     <ptr target="http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Censorinus/text*.html#13.1"/>
                                 </bibl>
                             </msItem>
-                            <note>Apparently the reader of Cassiodorus followed his recommendation to read Censorinus for the one who would read it<quote>multa philosophorum mysteria brevi lectione cognoscit.</quote>
+                            <note>Apparently the reader of Cassiodorus followed his recommendation to read Censorinus for the one who would read it <quote>multa philosophorum mysteria brevi lectione cognoscit.</quote>
                             </note>
                         </msItem>
                         <msItem>
                             <locus from="19r" to="21r"/>
                             <author ref="#hermannus_contractus">Hermannus Contractus</author>
-                            <title>De mensura astrolabii<note>(ch. 1-9)</note>
+                            <title>De mensura astrolabii<note> (ch. 1-9)</note>
                             </title>
                             <rubric>De tribus circulis astrolabii inveniendis</rubric>
                             <incipit>In metienda igitur subtilissime inuentionis Ptholomei wazzalchora id est plana spera</incipit>
@@ -256,15 +255,15 @@
                         </msItem>
                         <msItem>
                             <locus from="21v">21v</locus>
-                            <note>blank.</note>
+                            <note type="title">blank.</note>
                         </msItem>
                         <msItem>
                             <locus from="22r" to="23r">22r-23r</locus>
                             <author ref="#bede">Bede</author>
-                            <note>Excerpt from<title ref="#DTR">De temporum ratione</title> (I.1 De computo vel loquela digitorum) on finger reckoning preceded by:</note>
+                            <note type="title">Excerpt from <title ref="#DTR">De temporum ratione</title> (I.1 De computo vel loquela digitorum) on finger reckoning preceded by:</note>
                             <msItem>
                                 <author ref="#isidore">Isidore</author>
-                                <note>Excerpt from 's<title ref="#etymologiae">Etymologiae (XI, 1, 70-71)</title>.</note>
+                                <note>Excerpt from 's <title ref="#etymologiae">Etymologiae (XI, 1, 70-71)</title>.</note>
                                 <incipit>Digiti nuncupati quod decem sunt uel quia decenter iuncti existunt</incipit>
                                 <explicit>Ungulas ex greco uocamus. Illi namque has unicem dicunt.</explicit>
                             </msItem>
@@ -274,7 +273,7 @@
                             <decoNote>On f.<locus from="22r">22r</locus> drawings of hands beside the three columns of text. On ff. <locus from="22v" to="23r">22v-23r</locus> medallion with human figures from the waist up making the hand signs. On f.<locus from="23r">23r</locus> the last illustration is in colour representing an entire human figure of a man.</decoNote>
                         </msItem>
                         <msItem>
-                            <note>Excerpts from<title ref="#libri_computi">Libri computi</title> (V.)</note>
+                            <note type="title">Excerpts from <title ref="#libri_computi">Libri computi</title> (V.)</note>
                             <bibl>
                                 <abbr>Borst, Schriften</abbr>, Vol. 3, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1251">1251</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1273">1273</ref>.</bibl>
                         <msItem>
@@ -330,11 +329,11 @@
                         </msItem>
                         <msItem>
                             <locus from="30v">30v</locus>
-                            <note>Cumputistical table for the<quote>cyclus decemnovenalis</quote> (?)</note>
+                            <note type="title">Cumputistical table for the <quote>cyclus decemnovenalis</quote> (?)</note>
                         </msItem>
                         <msItem>
                             <locus from="31r">31r</locus>
-                            <note>Excerpt from<title>Geometria incerti auctoris</title> (cap. 60). Part of the text taken also in <title ref="#libri_computi">Libri computi</title> (VI.7)</note>
+                            <note type="title">Excerpt from <title>Geometria incerti auctoris</title> (cap. 60). Part of the text taken also in <title ref="#libri_computi">Libri computi</title> (VI.7)</note>
                             <rubric>De magnitudine terreni orbis per umbram solis depraehensa</rubric>
                             <incipit>Eratosthenes philosophus itemque geometria subtilissimus</incipit>
                             <explicit>nunc puncto a interuallo e circulum scribimus.</explicit> 
@@ -346,7 +345,7 @@
                         <msItem>
                             <locus from="31v">31v</locus>
                             <author ref="#abbo">Abbo Floriacensis</author>
-                            <note>Excerpt from<title ref="#computus_vulgaris">Computus vulgaris</title>.</note>
+                            <note type="title">Excerpt from <title ref="#computus_vulgaris">Computus vulgaris</title>.</note>
                             <incipit>Efemeris uel ephemerida est subputatio singularum dierum<gap reason="omitted"/> mensibus signis terminis annis cicli decennovenalis. Quadratus hic equilater<ex>alis</ex> qui dicitur tetragonus</incipit>
                             <explicit>Terminos quoque seper inuenies si obseruaueris lunam. Febr. X. Martis II. Aprilis XIIII. Maii XX. Iunii IIII.</explicit>
                             <decoNote>Table</decoNote>
@@ -355,19 +354,19 @@
                         </msItem>
                         <msItem>
                             <locus from="32r" to="37v">32r-37v</locus>
-                            <note>Calendar with later added necrology of abbots from Prüningen.</note>
+                            <note type="title">Calendar with later added necrology of abbots from Prüningen.</note>
                             <bibl>
                                 <abbr>MGH, SS</abbr> 7, p. <ref target="http://www.mgh.de/dmgh/resolving/MGH_SS_17_S._609">609</ref>.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="38r" to="40r">38r-40r</locus>
-                            <note>Computistical tables.<locus from="38r">38r</locus> 
+                            <note type="title">Computistical tables.<locus from="38r">38r</locus> 
                         <quote>Cursus lunae per duodecim signa</quote>; On <locus from="39r">39r</locus> a marginal note: <quote>Hii omnes eximii conputiste fuere  Nestor capuarius episcopus<add place="above">uel victor obscure scriptum</add>, Anatolius laodicie episcopus <gap reason="omitted"/> Beda in testimonium computi sui sumpsit. Beda ipse, Rabanus, Elbericus. Hii duo imitatores bedae fuerunt. <rs type="person" ref="#hermannus_contractus">Herimannus sueui</rs> gena phylosophus quamuis ultima in computatione sua est subtilissimus. Hic multa et ammirabili et hactenus inaudita regula composuit</quote>. <locus from="39v">39v</locus> 
                         <quote>In quo signo sit luna cottidie</quote>. In the upper margine a later 14th-century note dividing the zodiac in three groups: aries, libra, aquarius and sagittarius - <quote>bona</quote>; cancer, capricornus, pisces and virgo <quote>media</quote>; and <sic>thaurus</sic>, gemini, leo and scorpio <quote>mala</quote>. <locus from="40r">40r</locus> unfinished rota diagram.</note>
                         </msItem>
                         <msItem>
                             <locus from="40v" to="41v">40v-41v</locus>
-                            <note>blank.</note>
+                            <note type="title">blank.</note>
                         </msItem>
                     </msContents>
                 </msPart>

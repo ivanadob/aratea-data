@@ -18,7 +18,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -27,7 +26,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -46,7 +45,7 @@
                     <title>Composite manuscript: Hincmar of Reims (letters and texts); Isidore's Chronica; astronomical miscellany with parts from the RAL</title>
                     <origPlace ref="#reims">Reims (?)</origPlace>, <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> and <origDate notBefore="0951" notAfter="1000">s. X</origDate>
-                    Digital facsimile at <ref target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">belgica.kbr.be</ref>
+                    <note type="facs">Digital facsimile at <ref target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">belgica.kbr.be</ref></note>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">

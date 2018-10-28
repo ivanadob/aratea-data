@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Paris BnF, MS lat. 7886</title>
+            <respStmt>
+               <resp>Catalogued by: </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>     
+     <revisionDesc status="complete">
+         <change when="2018-05-31"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <msDesc xml:id="paris_bnf_lat_7886" xml:lang="eng">
+           <msIdentifier>
+              <settlement>Paris</settlement>
+              <repository>Bibliothèque nationale de France</repository>
+              <collection>latin</collection>
+              <idno>7886</idno>
+              <altIdentifier type="former">
+                 <idno>Regius 5451</idno>
+              </altIdentifier>
+              <msName/>
+           </msIdentifier>
+           <head>
+              <title>Germanicus: Aratea; Aratus Latinus</title>
+              <origPlace ref="#corbie">Corbie</origPlace>
+              <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
+              </origDate>
+              <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721142g">gallica.bnf.fr</ref></note>
+           </head>
+           <msContents>
+              <textLang mainLang="lat" otherLangs=""/>
+              <msItem>
+                 <locus from="1r" to="14r">1ra-14ra</locus>
+                 <author ref="#germanicus">Germanicus</author>
+                 <title ref="#germanicus_aratea">Aratea</title>
+                 <rubric>Claudii caesatis arati phoenomena</rubric>
+                 <msItem>
+                    <locus from="1r-12v">1ra-12vb</locus>
+                    <note type="title">vv. 1-583</note>
+                    <incipit>Ad ioue principium magno deduxit aratus</incipit>
+                    <explicit>quodsi<corr>
+                       <del>ne</del>
+                    </corr> nube caua solis uia forte latebit.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="1r" to="11v">1r-11v</locus>
+                    <title>Scholia Basileensia</title>
+                    <incipit>Queritur quare ab ioue coepit et non a musis ut homerus</incipit>
+                    <explicit>et ostendisse lacte mirate effusum est circuli albi species.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="12v" to="14r">12vb-14ra</locus>
+                    <note type="title">Fragment IV</note>
+                    <incipit>Iuppiter est illo leto magis hic ubi solis</incipit>
+                    <explicit>Haec eadem tibi signa dabunt non inrita pisces.</explicit>
+                    <finalRubric>Claudii caesaris arati phomena explicit. Arati genus</finalRubric>
+                 </msItem>
+              </msItem>
+              <msItem>
+                 <locus from="14r">14ra</locus>
+                 <note type="title">Calendar/ computus verse</note>
+                 <incipit>Bissena mensium uertigine uoluitur annis</incipit>
+                 <explicit>Per nonas idus decurrens atque kalendas.</explicit>
+                 <bibl>Ed. Baker and Lapidge 1995, p. 384.</bibl>
+              </msItem>
+              <msItem>
+                 <locus from="14r" to="14v">14ra-14vb</locus>
+                 <title ref="#collatio_alexandri">Collatio Alexandri et Dindimi</title>
+                 <msItem>
+                    <locus from="14r">14ra</locus>
+                    <author ref="#alcuinus_flaccus">Alcuin</author>
+                    <note type="title">Dedicatory poem to Charlemagne</note>
+                    <incipit>Gens bragmanna quidem miris quae moribus extit</incipit>
+                    <explicit>Albinus misit munera parua tuus.</explicit>
+                    <bibl>Munk Olsen, Auteurs classiques II, p. 377.</bibl>
+                 </msItem>
+                 <msItem>
+                    <locus from="14r" to="14v">14ra-14vb</locus>
+                    <note type="title">Two letters between Alexander and Dindimi, the latter unfinished:</note>
+                    <rubric>Alexandri regis macedonum et Dindimi regis bracmanorum de philosophia per litteras facta conlatio</rubric>
+                    <incipit>Sepe ad aur<corr>
+                       <del>a</del>
+                       <add>e</add>
+                    </corr>s meas fando peruenit rationem uitae</incipit>
+                    <explicit>Nec gelidos aquarum cursus<gap/>
+                    </explicit>
+                 </msItem>
+                 <bibl>D. J. A. Ross, "A Check-list of MSS of Three Alexander Texts: The Julius Valerius Epitome, the Epistola ad Aristotelem and the Collatio cum Dindimo" Scriptorium 10 (1956): 127-132.</bibl>
+                 <bibl>G. Cary "A Note on the Medieval History of the Collatio Alexandri cum Dindimo," Classica et Mediaevalia, 15 (1954): 124-9.</bibl>
+                 <bibl>T. Pritchard, "The Collatio Alexandri et Dindimi: A Revised Text," Classica et Mediaevalia 46 (1995): 255-283 <note>(not using this manuscript)</note>.</bibl>
+                 <bibl>M- Steinmann, "Die Collatio Alexandri et Dindimi – eine annotierte Arbeitsbibliographie," Göttinger Forum für Altertumswissenschaft 4 (2001) 51-84<ref target="https://www.academia.edu/5469687/ARTIKEL_Die_Collatio_Alexandri_et_Dindimi_-_eine_annotierte_Arbeitsbibliographie"/>
+                 </bibl>
+              </msItem>
+              <msItem>
+                 <locus from="15r" to="36r">15ra-36rb</locus>
+                 <title ref="#al">Aratus Latinus</title>
+                 <msItem>
+                    <locus from="15r" to="16r">15ra-16rb</locus>
+                    <note type="title">AL, I Arati ea quae uidentur</note>
+                    <rubric>Arati ea quae uidentur</rubric>
+                    <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>
+                    <explicit>ut nihil te latere possit quorum ab eo dicta sunt.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="16r">16rb</locus>
+                    <note type="title">AL, II (Eratosthenis "De circa exornatione stellarum et ethymologia de quibus videntur", no division from the previous text)</note>
+                    <incipit>eratostenis de circa exornatione stellarum ethimologia de quibus uidentur. Haec autem sunt ad aquilonem septentrio maior</incipit>
+                    <explicit>laepus nauis fluuius pisces V stellae.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="16r" to="16v">16rb-16va</locus>
+                    <note type="title">AL, II A (Ipparchus "De magnitudine et positione &lt;in&gt;errantium stellarum", no division from the previous text)</note>
+                    <incipit>ipparcus de magnitudine et positione errantium stellarum. Constat autem in aquilonio semisphaerio haec</incipit>
+                    <explicit>aquilo a<corr>
+                       <del>c</del>
+                    </corr>ries taurus gemini.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="16v" to="17r">16va-17rb</locus>
+                    <note type="title">AL, III (no division from the previous text)</note>
+                    <incipit>quibus arati uidentur, quedam sunt secundum caeli stellarum</incipit>
+                    <explicit>aliud quia simili modo in id ipsum suggerunt.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="17r" to="18r">17rb-18ra</locus>
+                    <note type="title">AL, Alia descriptio praefationis</note>
+                    <incipit>Subtus terra ubi adornantur VII nauis centaurus</incipit>
+                    <explicit>occidit uero et serpentarius usque ad genua.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="18r">18ra</locus>
+                    <note type="title">AL, II B (Eratosthenes de exornatione et proprietate sermonum quibus uidentur et Ipparchi de magnitudine <gap/>
+                    </note>
+                    <incipit>
+                       <corr>
+                          <del>A</del>
+                          <add>E</add>
+                       </corr>ratosthenes de exornatione et proprietate sermonum quibus uidentur et ipparchi de magnitudine de inerrrantium stellarum secundum qualiter sunt circumuenientia secundum ipparchum et eratosthenen septentrio maior</incipit>
+                    <explicit>nec non sagittarium pisces cetus orionem.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="18r">18ra-b</locus>
+                    <note type="title">AL, IV Descriptio duorum semispheriorum</note>
+                    <incipit>Habet autem ponderetotum medio terrae terranum</incipit>
+                    <explicit>ipsa enim in medio iacet duobus semispheriis.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="18r" to="18v">18rb-18va</locus>
+                    <note type="title">AL, V Arati genus</note>
+                    <rubric>Arati genus</rubric>
+                    <incipit>Aratus patris quidem est athinodori matris autem dolithophile</incipit>
+                    <explicit>Repperimus autem illum et super.</explicit>
+                    <finalRubric>Explicit</finalRubric>
+                    <note>Rest of the folio left blank.</note>
+                 </msItem>
+                 <msItem>
+                    <locus from="19r">19ra</locus>
+                    <note type="title">AL, VI Prefacio Arati</note>
+                    <rubric>Preclara ostensio sacri uoluminis</rubric>
+                    <incipit>Nam quecum mihi caelestem propinaret ad miniculum</incipit>
+                    <explicit>Tu autem cum sapia<corr>
+                       <add>enti</add>
+                    </corr> hic intelliges.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="19r" to="20v">19ra-20va</locus>
+                    <note type="title">AL, VII Involutio sphaerae</note>
+                    <msItem>
+                       <locus from="19r" to="20v">19ra-20va</locus>
+                       <note type="title">AL, VII.1</note>
+                       <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplices</incipit>
+                       <explicit>per septenarium numerum siguram indicant circulorum.</explicit>
+                    </msItem>
+                    <msItem>
+                       <locus from="20v">20va</locus>
+                       <note type="title">AL, VII.2</note>
+                       <incipit>Septem circuli erratici quorum caelestes stellas haec sunt</incipit>
+                       <explicit>et mortalis conscientia ridet et mundus inperitus.</explicit>
+                    </msItem>
+                    <finalRubric>Explicit.</finalRubric>
+                 </msItem>
+                 <msItem>
+                    <locus from="20v" to="36r">20va-36rb</locus>
+                    <note type="title">AL, VIII</note>
+                    <rubric>Incipit</rubric>
+                    <incipit>An ioue incipimus quem umquam uiri relinqui</incipit>
+                    <explicit>in annum umquam reliquimus continentem in caelos signum.</explicit>
+                    <finalRubric>Arati quae uidentur.</finalRubric>
+                 </msItem>
+              </msItem>
+              <msItem>
+                 <locus from="36r" to="36v">36rb-36vb</locus>
+                 <note type="title">Three calendar/ computus verses</note>
+                 <filiation>Appear in many Mss including in <ref type="altMs" cRef="http://www.ceec.uni-koeln.de/projekte/CEEC/manuscripts/indiv/kn28%2d0186/kn28%2d0186%5f237%2ejpg">Cologne Dombibliothek, MS 186, ff. 119r-v</ref> (the last poem has a different ending).</filiation>
+                 <msItem>
+                    <locus from="36r">36rb</locus>
+                    <incipit>Primus romanas ordinis iane kalendas</incipit>
+                    <explicit>mensis tumque december ad est.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="36r">36rb</locus>
+                    <rubric>Iterum uersus de dierum singulorum mensium</rubric>
+                    <incipit>Dira patet iani romanis ianua bellis</incipit>
+                    <explicit>Vnde <corr>
+                       <add>de</add>
+                    </corr>cember amat te genialis hiems.</explicit>
+                 </msItem>
+                 <msItem>
+                    <locus from="36v">36va</locus>
+                    <rubric>Tetrasticon autenticum de singulis mensibus</rubric>
+                    <incipit>Hic iani mensis sacer est</incipit>
+                    <explicit defective="true">quem medio cancri sydera letauiret.</explicit>
+                    <note>Unfinished originally the remaining verses added by a later (18th c. hand?) exp. <quote>Nunc tibi cum domino ludere verna licet</quote>.</note>
+                 </msItem>
+              </msItem>
+           </msContents>
+           <physDesc>
+              <objectDesc form="codex">
+                 <supportDesc material="perg">
+                    <support>
+                       <p>
+                          <material>Parchment</material>
+                       </p>
+                    </support>
+                    <extent>
+                       <measure type="leavesCount" quantity="36">iii + 36 + i(?) ff.</measure>
+                       <dimensions type="leaf" unit="mm">
+                          <height>250</height>
+                          <width>206</width>
+                       </dimensions>
+                    </extent>
+                    <foliation>Previous foliation on ff. 15-35 in arabic numerals (1-21)</foliation>
+                    <collation>
+                       <p>I<hi rend="sup">8</hi> (ff. 1-8), II<hi rend="sup">6</hi> (ff. 9-14), III<hi rend="sup">2</hi> (ff. 15-16), IV<hi rend="sup">8</hi> (ff. 17-24), V<hi rend="sup">8</hi> (ff. 25-32), VI<hi>4</hi> (ff. 33-36).</p>
+                       <p>Quire marks, <locus from="8v">8v</locus>-I, <locus from="16v">16v</locus>-<quote>II</quote>,<locus from="24v">24v</locus>-<quote>III</quote>, <locus from="32v">32v</locus>-<quote>IIII</quote>.</p>
+                    </collation>
+                 </supportDesc>
+                 <layoutDesc>
+                    <layout columns="2" ruledLines="35">
+                       <p/>
+                    </layout>
+                 </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                 <p>Several similar hands working, changing oft withing the first folios (Sessions by a more experienced scribe giving the lead for less elegant hands (?). The most of the Aratus Latinus written by one hand.</p>
+                 <p>Initial at the beginning of paragraphs. Greek words kept in greek characters; OR ligature; e-caudata; final m usually abbreviated; oms for omnes; quod - qd; et for et, but not exclusively; RT ligarute; t[ur] abbreviation; p[ro] abbreviation; sometimes an open A.</p>
+                 <p>
+                    <bibl>Bishop (Script of Corbie, p. 11)</bibl> notes that the same scribe who wrote leading sections in Paris lat. 7886, took part also in writing atleast eleven more Corbie MS, and in six of them was again the scribe who gave a lead.</p>
+              </handDesc>
+              <scriptDesc>
+                 <scriptNote script="carolmin">
+                    <p>Caroline minuscule</p>
+                 </scriptNote>
+              </scriptDesc>
+              <bindingDesc>
+                 <binding>
+                    <p>Modern 19th c. binding.</p>
+                 </binding>
+              </bindingDesc>
+           </physDesc>
+           <history>
+              <origin>
+                 <p>Supposed to be from <origPlace ref="#corbie">Corbie</origPlace> by Bischoff based on codicological features. See <bibl>Bischoff "Hadoard und die Klassiker-Handschriften aus Corbie", in Mittelalterliche Studien I (Stuttgart, 1966), p. 49.</bibl>
+                 </p>
+              </origin>
+              <provenance>
+                 <p>The manuscript was most probably in the <date notBefore="1001" notAfter="1100">11th c.</date> in the vicinity of <rs type="place" ref="#strasbourg" role="provenance">Strasbourg</rs> as it was used to correct  <ref type="altMs">Bern, Bürgerbibliothek MS 88</ref>. Sees <bibl>E. S. Lott, The textual Tradition of the Aratea, RHT 11 (1981): 147-158, (p. 150).</bibl>
+                 </p>
+              </provenance>
+              <acquisition>
+                 <p>Before arriving in the BnF belonged to the collection of <rs type="person" role="provenance">Claude Dupuy</rs> - note on the <locus from="1r">f.1r</locus>: <quote>Claudii Puteani</quote>.</p>
+              </acquisition>
+           </history>
+           <additional>
+              <listBibl>
+                 <head>Selected bibliography:</head>
+                 <bibl>B. Bischoff, Hadoardus and the Manuscripts of Classical Authors from Corbie, in Didaskaliae. Studies in Honor of Anselm M. Albareda, ed. by S. Prete, New York 1961, pp. 41-57 [ = id., Hadoard und die Klassikerhandschriften aus Corbie, in id., Mittelalterliche Studien, vol. I, Stuttgart 1966, pp. 49-63]</bibl>
+                 <bibl>T. A. M. Bishop, The script of Corbie: a Criterion. Amsterdam 1972, in: Varia Codicologica, Essays presented to G. I. Lieftinck, pp. 9-16.</bibl>
+                 <bibl>D. Ganz, Corbie in the Carolingian Renaissance, Sigmaringen: Thorbecke, 1990, pp. 153-4.</bibl>
+                 <bibl>M. B. Olsen, "Chronique des manuscrits classiques latins (IXe-XIIe s.), II," Revue d'Histoire des Textes, 24 (1994): 199-249 (p. 215).</bibl>
+                 <bibl>M. Haffner, Ein antiker Sternbilderzyklus und seine Tradierung in Handschriften vom frühen Mittelalter bis zum Humanismus, Hildesheim: Olms, 1997.</bibl>
+              </listBibl>
+           </additional>
+        </msDesc>
+     </body>
+  </text>
+</TEI>

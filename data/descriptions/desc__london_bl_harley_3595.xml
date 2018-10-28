@@ -27,7 +27,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="complete">
@@ -68,7 +68,7 @@
                     <title>Boethius, De arithmetica, De musica, RAL and Agrimensores</title>
                     <origPlace ref="#w_germany">West Germany</origPlace>, <origPlace ref="#cologne">Cologne (?)</origPlace>
                     <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
-                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">

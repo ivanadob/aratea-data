@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+            Aratea Digital
+        </title>
+            <title type="sub">Basel, Universitätsbibliothek, AN IV 18</title>
+            <respStmt>
+               <resp>Catalogued by: </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc status="complete">
+        <change when="2018-10-24">complete</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <msDesc xml:id="basle_aniv18" xml:lang="eng">
+            <msIdentifier>
+               <settlement>Basle</settlement>
+               <repository>Universitätsbibliothek</repository>
+               <idno>AN IV 18</idno>
+               <altIdentifier type="former">
+                  <idno> K III 34a</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title>Aratus Latinus and Germanicus' Aratea</title>
+               <origPlace ref="#fulda">Fulda (?)</origPlace>
+               <origDate notBefore="0801" notAfter="0833">s. IX, first third.</origDate>
+               <note type="facs">Digital facsimile at <ref target="http://www.e-codices.unifr.ch/en/list/one/ubb/AN-IV-0018">e-codices</ref>.</note>
+            </head>
+            <msContents>
+               <textLang mainLang="lat"/>
+               <msItem>
+                  <locus from="Ar">Ar</locus>
+                  <note>Title: <quote>Liber astronomie cladii cesaris</quote> and a  shelf mark <quote>XLVI. or.</quote>
+                  </note>
+               </msItem>
+               <msItem>
+                  <locus from="Av" to="1r">Av-1r</locus>
+                  <note>blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="1v">1v</locus>
+                  <note type="title">Celestial map, planipshere.</note>
+                  <note> (the folio was removed from the manuscript when the binding was restored in 1987 and is now stored separately.)
+                  </note>
+               </msItem>
+               <msItem>
+                  <locus from="2r" to="9v">2r-9v</locus>
+                  <title ref="#al">Aratus Latinus</title>
+                  <msItem>
+                     <locus from="2r" to="3r"/>
+                     <rubric>AL, Alia descriptio praefationis</rubric>
+                     <incipit>Subtus terra ubi adorantur signa vii nauis centaurus in qua bestia</incipit>
+                     <explicit>necnon sagittarium pisces caetus orionem.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="3v" to="6r">3v-6r</locus>
+                     <note type="title">AL, I Arati ea quae videntur</note>
+                     <rubric>Ostensionem quoque de quibus uidentur oportet fieri</rubric>
+                     <incipit>Ad austrum ex aduerso habens septentrionem</incipit>
+                     <explicit>ut nihil te latere possit quorum ab ei dicta sunt.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="6r">6r</locus>
+                     <note type="title">AL, II (Eratosthenis "De circa exornatione stellarum et ethymologia de quibus videntur", no division from the previous text)</note>
+                     <incipit>erat ost<add>h</add>enis de circa exornacione stellarum et ethymologia de quibus uidentur. haec autem sunt ad aquilonem septentrione maior</incipit>
+                     <explicit>in amba semispheria aquilo aries taurus gemini.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="6r" to="7v">6r-7v</locus>
+                     <note type="title">AL, III (no division from the previous text)</note>
+                     <incipit>quibus aratis uidentur quedam sunt secundum caeli stellarum ecce sicut uidentur dicta sunt</incipit>
+                     <explicit>ubi et illud aliud quia simili modo in ipsum suggerunt.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="8r" to="9v">8r-9v</locus>
+                     <note type="title">AL, VII.1</note>
+                     <rubric>Inuolutio spherae</rubric>
+                     <incipit>Hic est stellarum ordo utrorum que circulorum septentriones duplices</incipit>
+                     <explicit>mars uero et honorifica uenus deorum <lb/>mercurius quoque et saturnis exigent <lb/>circuli uias per septenarium numerum <lb/>figuram indicant <lb/>circulorum.</explicit>
+                     <note>The last four lines written by a different contemporary hand with a pailer ink.</note>
+                  </msItem>
+               </msItem>
+               <msItem>
+                  <locus from="10r" to="10v">10r-v</locus>
+                  <note>blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="11r" to="45v">11r-45v</locus>
+                  <author ref="#germanicus">Germanics</author>
+                  <title ref="#germanicus_aratea">Aratea<note>, with Scholia Basileensia</note></title>
+                  <msItem>
+                     <locus from="11r" to="43r">11r-43r</locus>
+                     <note type="title">vv. 1- 582 :</note>
+                     <incipit>Ab ioue principium magno deduxit aratus</incipit>
+                     <explicit>quod sine n<subst>
+                        <del>o</del>
+                        <add>u</add>
+                     </subst>be caua solis uia forte latebit.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="11r" to="40v">11r-40v</locus>
+                     <title ref="#scholia_basileensia">Scholia Basillensia</title>
+                     <incipit>Quaeritur quare ab<del>uio</del> ioue coepit et non a musis ut homerus</incipit>
+                     <explicit>Ostenditur autem unus inter circulos caeli lacteus uocatur <gap/> effusum est lacte facta est circuli albi species.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="43r" to="45v">43r-45v</locus>
+                     <note type="title">Fragment IV:</note>
+                     <incipit>Iuppiter est illo laeto magis hic ubique solus</incipit>
+                     <explicit>haec eadem tibi signa dabunt non inrita pisces.</explicit>
+                  </msItem>
+                  <finalRubric>Clavdi caesaris arati phenomena explicit feliciter. Deo gratias.</finalRubric>
+               </msItem>
+               <msItem>
+                  <locus from="46r" to="46v">46r-v</locus>
+                  <note type="title">Pen trials and provenance evidence (see provenance).</note>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>
+                        <p>
+                           <material>Parchment</material>
+                        </p>
+                     </support>
+                     <extent>
+                        <measure type="leavesCount" quantity="45">iii + 45 + iii</measure>
+                        <note/>
+                        <dimensions type="leaf" unit="mm">
+                           <height>225</height>
+                           <width>145</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>Modern foliation 2-46.</foliation>
+                     <collation>The old parchment binding is now Ar-v (title on Ar); the originally first folio with the planisphere is now stored separately; I<hi rend="sup">10(-1)</hi> (ff. 2-10), II <hi rend="sup">6(+1)</hi> (ff. 8-17), III<hi rend="sup">6</hi> (ff. 18-23), IV<hi rend="sup">8</hi> (ff. 24-31), V<hi rend="sup">6</hi> (ff. 32-37), VI<hi rend="sup">8</hi> (ff. 38-45). Tere are quiremarks marking the quire with which begins the text of Germanicus (ff. 10-17) as <quote>I</quote> (further quiremarks on f. 23v <quote>II</quote>, f. 31v <quote>III</quote> and on f. 37v <quote>IIII</quote>. This strongly suggests that the two Aratean texts were transmitted separately at least at the beginning.</collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="33">
+                        <p/>
+                     </layout>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <summary/>
+                  <scriptNote script="carolmin">
+                     <p>Most of the text is written in carolingian manuscule from several hands (2r-9v, 14v-45v) with insular features such as pointed shafts, 11v-13r (f. 12r blank) written in a narrow pointed anglo-saxon minuscule; ff. 11r, partly 12v and 13v, and 14r written in a hybride carolingian script showing insular features (insular f, r, s, and con- and et abbreviation).</p>
+                  </scriptNote>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin>
+                  <p>Judging by the characteristics of the script Bischoff (<bibl>Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>) supposed the manuscript was produced in a German centre under insular influence in the <origDate notBefore="0801" notAfter="0833">first third of the ninth century</origDate>. The attributon to Fulda is suggested also by the authors of <bibl>Sternbilder des Mittelalters, pp. 202-207</bibl> who compare the iconography of the illustration with those in other manuscripts produced in the centre in the third decade of the ninth century. According to them resposible for the production was Hrabanus Maurus, who had seen an exemplar of Germanicus in the royal court (perhaps <ref type="altMs">Leiden MS VLQ 79</ref> or its exemplar) and procured a copy for his students. According to the authors he did this shortly after completing his book on computus, i.e. after 820, as an aid for the study of computus. Although this idea is very tempting and probable, I see no real evidence for the personal connection of Hrabanus with the manuscript. Based on textual comparison between his works and Aratea texts, reveals only that he used the "De signis coeli" for producing the section on constellation in his "De computo".</p>
+               </origin>
+               <provenance>
+                  <p>On f. <locus from="45v">45v</locus> opening of a letter: <quote>Honorabili domino ac patri suo Q dei gratia fuldensis ecclesie abbati H decanus totusque eiusdam ecclesiam conuentus paratam ac duotam obedienia.</quote> On f. <locus from="46r">46r</locus> again almost the same text: <quote>Honorabili domino ac Patri suo N. dei gratia suus Fuldensis ecclesie abbati <gap/> decanus totusque eiusdem ecclesiae conuentus paratam et devotam obedientiam</quote>. Both notes suggest that the manuscript was at <rs type="place" ref="#fulda" role="provenance">Fulda</rs> by the <date notBefore="1101" notAfter="1300">12th-13th c.</date>
+                  </p>
+               </provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>B. Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>
+                  <bibl>M. Haffner, pp. 121-124.</bibl>
+                  <bibl>F. Mütherich, "Die Fuldaer Buchmalerei in der Zeit des Hrabanus Maurus," in  Studies in Carolingain Manuscript Illumination, London: The Pindar Press, 2004, pp. 374-416, esp. p. 390.</bibl>
+                  <bibl>Escher, Die Miniaturen in den Basler Bibliotheken, Museen und Archiven, Basel 1917, p. 32-34.</bibl>
+                  <bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 202-207. <note>Present the hypothesis that the manuscript was copied under the initiative of Hrabanus Maurus, who was head master in the school of Fulda. He had seen an exemplar of Germanicus in the royal court (perhaps Leiden MS VLQ79 or its exemplar) and ordered or made a copy for the use of his students. According to the authors he did this shortly after completing his book on computus, as an aid Hilfsmittel for the computus (?) Although this idea is very tempting, I see no real evidences to support the attribution to Fulda and to Hrabanus. It is likely but in no way can this be proved.</note>
+                  </bibl>
+                  <bibl>Lippincott, online description <ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Germanicus-Basel-Univ-AN-IV-15-Nov-2012.pdf"/>
+                  </bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+  </text>
+</TEI>

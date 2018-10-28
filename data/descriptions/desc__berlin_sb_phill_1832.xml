@@ -22,15 +22,13 @@
          </editionStmt>
          <publicationStmt>
             <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
             </publisher>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">

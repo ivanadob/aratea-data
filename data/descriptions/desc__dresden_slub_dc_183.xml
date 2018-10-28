@@ -17,7 +17,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +25,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="complete">
@@ -35,7 +34,7 @@
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:id="dresden_Dc_183" xml:lang="eng">
+            <msDesc xml:id="dresden_dc_183" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Dresden</settlement>
                     <repository>Sächsische Landesbibliothek</repository>
@@ -46,7 +45,7 @@
                     <origPlace ref="#nw_france">North-west France</origPlace>
                     <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                     </origDate>
-                    <note type="facs">Partially facsimile in <ref target="https://iconographic.warburg.sas.ac.uk">Warburg Institute, Photographic collection</ref>
+                    <note type="facs">Partial facsimile available online thanks to the <ref target="https://iconographic.warburg.sas.ac.uk">Warburg Institute, Photographic collection</ref>
                     </note>
                 </head>                
             <msContents>
@@ -218,6 +217,7 @@
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
+                   <bibl>Schnorr von Carolsfeld, Franz. Katalog der Handschriften der Sächsischen Landesbibliothek zu Dresden. vol. 1. Dresden, 1979, <ref target="http://digital.slub-dresden.de/werkansicht/dlf/9945/354/">pp. 334-335</ref>.</bibl>
                    <bibl>
                             <abbr>Maass</abbr>, pp. XXI-XXII.</bibl>
                    <bibl>

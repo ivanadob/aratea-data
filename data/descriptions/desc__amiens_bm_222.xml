@@ -6,9 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">
-                    <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">Amiens, BM, MS 222</ref>
-                </title>
+            <title type="sub">Amiens, BM, MS 222</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -107,14 +105,13 @@
                     <settlement>Amiens</settlement>
                     <repository>BM</repository>
                     <idno>222</idno>
-                    <msName/>
                 </msIdentifier>
                 <head>
                     <title>Composite manual with texts by Bede</title>
                     <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
-                    Digital facsimile at <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.
+                    <note type="facs">Digital facsimile at <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.</note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
