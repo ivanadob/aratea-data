@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Descriptio duorum semispherium</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>Transcription of the witnesses and TEI-P5 coding by </resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="parallel-segmentation"/>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="B">Brussels, BR, 10615-10729</witness>
+                    <witness xml:id="P">Paris, Bnf, lat. 7886</witness>
+                    <witness xml:id="Pa">Paris, Bnf, lat. 7887</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <div xml:id="ed__aratus_latinus__al_4">
+                <head>
+                    <title>
+                        <app>
+                            <lem>Descriptio duorum semisspherium</lem>
+                            <rdg wit="#P"> </rdg>
+                        </app>
+                    </title>
+                </head>
+                <p>Habet autem pondere totum medio terrae terrenum. differt 
+                    <app>
+                        <lem>enim</lem>
+                        <rdg wit="#P">autem</rdg>
+                    </app> per totum caelum seu terram aculeo suo quod 
+                    <app>
+                        <lem>in</lem>
+                        <rdg wit="#Pa"></rdg>
+                    </app> circuitu habet et diuidit 
+                    <app>
+                        <lem>mediam</lem>
+                        <rdg wit="#B">medium</rdg>
+                    </app> 
+                    quoniam
+                    <app>
+                        <lem>terram</lem>
+                        <rdg wit="#Pa">terra</rdg>
+                    </app> pertundit sicut per latera axis terrae aequaliter
+                    <app> 
+                        <lem>illam</lem>
+                        <rdg wit="#Pa">illa</rdg>
+                        <rdg wit="#B">illum</rdg>
+                    </app> habet et 
+                    <app>
+                        <lem></lem>
+                        <rdg wit="#B">aequaliter</rdg>
+                    </app> ab eo 
+                    <app>
+                        <lem>ponderatam</lem>
+                        <rdg wit="#Pa">ponderam</rdg>
+                    </app>. aequalem enim ex utraque parte illam facit ipse medio 
+                    <app>
+                        <lem></lem>
+                        <rdg wit="#Pa">loco</rdg>
+                    </app> constans et in duo
+                    <app>
+                        <lem>eam</lem>
+                        <rdg wit="#B">eum</rdg>
+                    </app> diuidens aut inponderatam ubique aequalem
+                    <app>
+                        <lem></lem>
+                        <rdg wit="#B">enim</rdg>
+                    </app> et similem et ipsa 
+                    <app>
+                        <lem>enim</lem>
+                        <rdg wit="#B"></rdg>
+                    </app> est in modum spherae  
+                    <app>
+                        <lem>seu</lem>
+                        <rdg wit="#Pa">ceu</rdg>
+                    </app> et caelum ita et terra sicuti primis quidem 
+                    <app>
+                        <lem>facta aequam eam</lem>
+                        <rdg wit="#B">facti quia meam</rdg>
+                    </app> caelo stellantia ut iam per omnia uel 
+                    <app>
+                        <lem>et</lem>
+                        <rdg wit="#P #Pa">ut</rdg>
+                    </app> per circuitum simili modo 
+                    <app>
+                        <lem> </lem>
+                        <rdg wit="#B">sperae</rdg>
+                    </app> pondere 
+                    <app>
+                        <lem>aequalem</lem>
+                        <rdg wit="#Pa">equale</rdg>
+                    </app> per spatium sicut semisspheriis. quantum enim a terra habet altitudinem hoc semispherium tantum habet quod subtus terra 
+                    <app>
+                        <lem>longitudinem</lem>
+                        <rdg wit="#Pa #B">longitudine</rdg>
+                    </app>. aliud semispherium ipsa enim in medio 
+                    <app>
+                        <lem>iacet</lem>
+                        <rdg wit="#B">ita et</rdg>
+                    </app> duobus semispheriis.
+                </p></div>
+        </body>
+    </text>
+</TEI>
