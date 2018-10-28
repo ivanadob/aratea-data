@@ -25,7 +25,7 @@
         <encodingDesc>
             <editorialDecl>
                 <normalization>
-                    <p> Original spelling and capitalization are preserved. Ligatured forms are not retained. Abbreviation are silently expanded. Punctuation has been for the most cases represented as in the source. Deletions and insertions are encoded.</p>
+                    <p>Original spelling and capitalization are preserved. This refers also for Latin words written in different ways throuhout the text (by incosistent use of i and y, ci and ti etc.). Ligatured forms are not retained. Common palaeographical abbreviations (such as -em, -que, -bus etc.) are silently expanded. Punctuation has been for the most cases represented as in the source. Deletions and insertions are encoded.</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>

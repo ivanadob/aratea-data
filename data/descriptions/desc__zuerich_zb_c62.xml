@@ -21,15 +21,14 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
-            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p/>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc>        
         <revisionDesc status="draft">
 				<change when="2018-06-07"/>
 			</revisionDesc>
@@ -95,7 +94,6 @@
                      <locus from="1v" to="194r">1v-194r</locus>
                      <author>Statius</author>
                      <title>Thebais</title>
-                     <title/>
                   </msItem>
                </msContents>
             </msPart>
@@ -130,10 +128,10 @@
                <msContents>
                   <msItem>
                      <locus from="206r" to="211r">206r-211r</locus>
-                     <note>Computistica</note>
+                     <note type="title">Computistica</note>
                      <msItem>
                         <locus from="208v">208v</locus>
-                        <note>On the solar path throughout the zodiac</note>
+                        <note type="title">On the solar path throughout the zodiac</note>
                         <incipit>Intrat sol in arietem inchoante prima hora noctis quae praecedit diem qui est XV KL aprilis</incipit>
                         <explicit>et exit de piscibus hora noctis VI plena quae praecedit XV KL aprilis.</explicit>
                      </msItem>
@@ -177,7 +175,7 @@
                      </msItem>
                      <msItem>
                         <locus from="218r" to="219r">218ra-219rb</locus>
-                        <note>Computistical poem</note>
+                        <note type="title">Computistical poem</note>
                         <incipit>Anni domini notantur</incipit>
                         <explicit>sic restat vacua.</explicit>
                         <bibl>
@@ -185,7 +183,7 @@
                      </msItem>
                      <msItem>
                         <locus from="219v">219v</locus>
-                        <note>Computistical tables</note>
+                        <note type="title">Computistical tables</note>
                         <rubric>Ciclus solaris XXVIII annorum in KL mensium</rubric>
                      </msItem>
                   <msItem>
@@ -210,11 +208,11 @@
                         </msItem>
                         <msItem>
                            <locus from="223v">223v</locus>
-                           <note>Two computistical tables.</note>
+                           <note type="title">Two computistical tables.</note>
                         </msItem>
                         <msItem>
                            <locus from="224r">224r</locus>
-                           <note>Short text on the four rivers in Paradies</note>
+                           <note type="title">Short text on the four rivers in Paradies</note>
                            <incipit>Geon interpretatur terrae gratia significans evangelium mathei</incipit>
                            <explicit>et lucidius in parabolis exposuit.</explicit>
                         </msItem>
@@ -243,7 +241,7 @@
                      </msItem>
                      <msItem>
                         <locus from="236r" to="236v">236r-236v</locus>
-                        <note>Prognostica for calculating the outcome of sickness, search for fugitive slaves, or gladiator fights according to the moon age. Similar to <title ref="#apuleian_sphere">Apuleian sphere</title>.</note>
+                        <note type="title">Prognostica for calculating the outcome of sickness, search for fugitive slaves, or gladiator fights according to the moon age. Similar to <title ref="#apuleian_sphere">Apuleian sphere</title>.</note>
                         <incipit>De his quae a me ad humane vitae cautelam inventa sunt</incipit>
                         <explicit>Ita si ambos infra orizontem esse confiterint aduersa omnia provenient.</explicit>
                         <quote>Sume nomen uel decumbentis uel defuga lapsi uel depugnanturi uel alterius cuisulibet de quo inquiris et collige numerum eius deinde lunam considera quota fuerit ea die qua uel aeger decubuit uel fugitiuus elapsus est vel quota futura sit cum monomachus depugnaturus est et cetera huiusmodi numerumque regularem qui ei lunae asscriptus est <gap/> inspectaque figura quo in loco idem numerus sit positus inquire <gap/> quod si in eo loco fuerit ΘΑΝΑΤΟΣ ΜΕΓΑΣ inscriptus est aeger post longam infirmitatem morietur, fugitiuus diu quaesitus non inuenietur gladiator difficili tamen superabitur <gap/> ponatur exempli gratia pugna hectoris et achillis luna erat XVIII quae habet numerum regularem DCCCXCIII.</quote>

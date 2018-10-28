@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub"/>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -24,18 +20,14 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
-            </publisher>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>Digital born.</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc>        
       <revisionDesc status="draft">
          <change when="2018-07-26"/>
       </revisionDesc>
@@ -204,7 +196,7 @@
                         </list>
                      </p>
                   </msItem>
-                  <msItem>
+                 <!-- <msItem>
                      <locus from="" to=""/>
                      <author/>
                      <title/>De mensura fistularum.
@@ -234,7 +226,7 @@
                      <title>Agrimensores</title>
                      <explicit>totidem doctos gnomicae supputationis homines quot uasa fuerant singulis.</explicit>
                      <bibl>Bubniv, pp. -362.</bibl>
-                  </msItem>
+                  </msItem>-->
                </msItem>
                <msItem>
                   <locus from="146r" to="162r">146ra-162ra</locus>
@@ -258,7 +250,7 @@
                   <note>Blank.</note>
                </msItem>
             </msContents>
-            <physDesc>
+            <!--<physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
                      <support/>
@@ -280,7 +272,7 @@
                <scriptDesc>
                   <scriptNote script=""/>
                </scriptDesc>
-            </physDesc>
+            </physDesc>-->
             <history>
                <origin/>
                <provenance/>
