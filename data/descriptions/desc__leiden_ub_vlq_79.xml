@@ -17,7 +17,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +25,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Digital born.</p>
             </sourceDesc>
         </fileDesc>
 				<revisionDesc status="complete">
@@ -45,7 +44,6 @@
                 </msIdentifier>
                 <head>
                     <title>Leiden Aratea</title>
-                    <note type="caption"/>
                     <origPlace ref="#lotharingia">Lotharingia</origPlace>
                     <origDate notBefore="0826" notAfter="0850">IX<hi rend="sup">2/4</hi>
                     </origDate>
@@ -54,7 +52,7 @@
                     <textLang mainLang="lat"/>
                         <msItem>
                             <locus from="Ir" to="Iv">Ir-v</locus>
-                            <note>blank with the exception of a later exlibris note.</note>
+                            <note>Blank with the exception of a later exlibris note.</note>
                         </msItem>
                         <msItem>
                           <locus from="2r" to="97v"/>
@@ -72,23 +70,23 @@
                         </msItem>
                         <msItem>
                             <locus from="92v" to="93r"/>
-                            <note>blank</note>
+                            <note>Blank.</note>
                         </msItem>
                         <msItem>
                             <locus from="93v">93v</locus>
                             <decoNote>Planisphere of the planetary orbits.</decoNote>
-                            <note>Text to each planet, as for example: <quote>sol peragit circulum suum in CCLXV diebus et VI horis cuius pars altissima gemini, humillima sagittarius est.</quote>; <quote>Circulus signifer qui a grecis zodiacus appelatur habet in circulo pariter CCCLXV in latitudine XII per quem planete uario motu feruntur <gap reason="omitted"/>
+                            <note type="title">Text to each planet, as for example: <quote>sol peragit circulum suum in CCLXV diebus et VI horis cuius pars altissima gemini, humillima sagittarius est.</quote>; <quote>Circulus signifer qui a grecis zodiacus appelatur habet in circulo pariter CCCLXV in latitudine XII per quem planete uario motu feruntur <gap reason="omitted"/>
                                 </quote>.</note>
                         </msItem>
                         <msItem>
                             <locus from="94r" to="94v">94r-94v</locus>
-                            <note>Fragments III:</note>
+                            <note type="title">Fragments III:</note>
                             <incipit>Grandine permixtus aries niuibusque caducis</incipit>
                             <explicit>Et rigor accedit uentis mitissimus ille.</explicit>
                         </msItem>
                             <msItem>
                                 <locus from="96r" to="96v">96r-v</locus>
-                                <note>Fragment II:</note>
+                                <note type="title">Fragment II:</note>
                                 <incipit>Una uia est solis bissenis lucida signis</incipit>
                                 <explicit>Mercurius binos gradiuus perficit orbis.</explicit>
                             </msItem>
@@ -103,7 +101,7 @@
                         <colophon>Vale fidens in d<am>omi</am>no xpi uestitus amore.</colophon>
                         <msItem>
                             <locus from="98r" to="99v"/>
-                            <note>blank</note>
+                            <note>Blank.</note>
                         </msItem>
                         <decoNote>Illustrations of the constellations  on fols. 3v, 6v, 8v, 10v, 12v, 16v, 18v, 20v, 22v, 23v, 24v, 26v, 28v, 30v, 32v, 34v, 36v, 38v, 40v, 42v, 44v, 46v, 48v, 50v, 52v, 54v, 56v, 58v, 60v, 62v, 64v, 66v, 68v, 70v, 72v, 76v, 78v, 80v, 82v and 93v. See the iconographical analysis in<bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>, pp. 295-97</bibl> and <bibl>

@@ -17,20 +17,17 @@
             <respStmt>
                <resp>TEI-P5 coded by</resp>
                <name type="person">Ivana Dobcheva</name>
-               <name type="org"/>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
             </publisher>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
@@ -39,7 +36,7 @@
      </teiHeader>
    <text>
       <body>
-         <msDesc xml:lang="eng" xml:id="ab">
+         <msDesc xml:lang="eng" xml:id="vat_reg_lat_123">
             <msIdentifier>
                <settlement>Vatican</settlement>
                <repository>Biblioteca apostolica vaticana</repository>
@@ -98,7 +95,7 @@
             <additional>
                <listBibl>
                   <head>Selected bibliography:</head>
-                  <bibl/>
+                  <bibl><abbr>Sternbilder des Mittelalters</abbr>, pp. 488-495.</bibl>
                   <bibl>
                             <note>Bibliography at <ref target="https://digi.vatlib.it/mss/detail/Reg.lat.123">digivatlib</ref>.</note>
                         </bibl>

@@ -17,7 +17,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +25,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Digital born.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -147,14 +146,14 @@
                     <textLang mainLang="lat" otherLangs="ang"/>
                     <msItem> 
                         <locus>2r–19r</locus>
-                        <note>Computistical, historical and astronomical miscellany with a metrical calendar</note>
+                        <note type="title">Computistical, historical and astronomical miscellany with a metrical calendar</note>
                         <msItem>
                             <locus from="2r">2r</locus>
-                            <note>Three<term>rotae</term> illustrating the path of the sun throughout the year; upper right rota with a title: <quote>Hoc modo solis circulus hiemalis et equinoctialis et estiuus designat</quote>. The rota on the lower half of the page is left unfinished.</note>
+                            <note type="title">Three<term>rotae</term> illustrating the path of the sun throughout the year; upper right rota with a title: <quote>Hoc modo solis circulus hiemalis et equinoctialis et estiuus designat</quote>. The rota on the lower half of the page is left unfinished.</note>
                         </msItem>
                         <msItem>
                             <locus from="2v">2v</locus>
-                            <note>Short texts on the months, and the <term>regulares</term>.</note>
+                            <note type="title">Short texts on the months, and the <term>regulares</term>.</note>
                             <msItem>
                                 <incipit>Coniunge regulares singulorum mensium et epactas</incipit>
                             <explicit>quot remanent ipsa est ętas lunae.</explicit>
@@ -167,12 +166,12 @@
                         </msItem>
                         <msItem>
                             <locus from="3r" to="8v">3r-8v</locus>
-                            <note>Calendar</note>
+                            <note type="title">Calendar</note>
                             <decoNote>(Source British Library) 12 medallions in colours with zodiac signs, one at the foot of each page, and 12 full page-width framed miniatures with colours, depicting plowing and sowing (f.<locus from="3r">3r</locus>), pruning vines (f. <locus from="3v">3v</locus>), digging, raking and sowing (f. <locus from="4r">4r</locus>), feasting (f. <locus from="4v">4v</locus>), tending sheep (f. <locus from="5r">5r</locus>), reaping (f. <locus from="5v">5v</locus>), cutting wood (f. <locus from="6r">6r</locus>), mowing (f. <locus from="6v">6v</locus>), feeding hogs (f. <locus from="7r">7r</locus>), hunting with falcon (f. <locus from="7v">7v</locus>), making a fire and smithying (f. <locus from="8r">8r</locus>), threshing (f. <locus from="8v">8v</locus>).</decoNote>
                         </msItem>
                         <msItem>
                             <locus from="9r" to="10r">9r-10r</locus>
-                            <note>Tables for the age of the moon.</note>
+                            <note type="title">Tables for the age of the moon.</note>
                         </msItem>
                         <msItem>
                             <locus from="10v">10v</locus>
@@ -180,25 +179,25 @@
                         </msItem>
                         <msItem>
                             <locus from="11r">11r</locus>
-                            <note>Feria table.</note>
+                            <note type="title">Feria table.</note>
                         </msItem>
                         <msItem>
                             <locus from="11v">11v</locus>
-                            <note>Table for<term>pagina regularis</term>.</note>
+                            <note type="title">Table for <term>pagina regularis</term>.</note>
                         </msItem>
                         <msItem>
                             <locus from="12r" to="12v">12r-12v</locus>
-                            <note>Lunar-zodiac table.</note>
+                            <note type="title">Lunar-zodiac table.</note>
                             <incipit>Luna ianuarii in media nocte accenditur</incipit>
                             <explicit>Luna decembris inter uesperum et medium noctis accenditur.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="13r" to="13v">13r-v</locus>
-                            <note>Table for lunar letters A-K and lunar letters AEIOV.</note>
+                            <note type="title">Table for lunar letters A-K and lunar letters AEIOV.</note>
                         </msItem>
                         <msItem>
                             <locus from="14r" to="19r">14r-19r</locus>
-                            <note>
+                            <note type="title">
                                 <term>Computus</term> tables: table of termini of movable feasts (ff.14r-15r), Paschal table for AD 969-1006 (f.16r): <term>computus</term> argumenta (ff. 17r-19r) and poetry (ff. 15v, 16v). For a detail description see <bibl>
                                     <abbr>McGurk, Miscellany</abbr>, pp. 18-20</bibl>.</note>
                                 <incipit>His supra positis regularibus per singulos annos singuli addantur concurrentes</incipit>                          
@@ -206,7 +205,7 @@
                     </msItem>
                         <msItem>
                             <locus from="19v" to="23v">19v-23v</locus>
-                            <note>List of popes (f.19v), roman emperors (f.20r), bishops of different part of the christian world (ff.20r-22r) and a genealogy of the Anglo-Saxon kings (ff.22v-23r).</note>
+                            <note type="title">List of popes (f.19v), roman emperors (f.20r), bishops of different part of the christian world (ff.20r-22r) and a genealogy of the Anglo-Saxon kings (ff.22v-23r).</note>
                             <rubric>Incipiunt nomina pontificum romane urbis per ordinem</rubric>
                         </msItem>
                     <msItem>
@@ -223,7 +222,7 @@
                     </msItem>
                     <msItem>
                         <locus from="29r">29r</locus>
-                        <note>Macrobian Zonal Map</note>
+                        <note type="title">Macrobian Zonal Map</note>
                     </msItem>
                     <msItem>
                         <locus from="29v">29v</locus>
@@ -260,7 +259,7 @@
                             <supplied>H</supplied>anc autem totam properant depellere pisces.</explicit>
                         <msItem>
                             <locus from="32v" to="44r">32v-44r</locus>
-                            <note>as scholia<title ref="#ral">Revised Aratus Latinus</title>:</note>
+                            <title ref="#ral">Revised Aratus Latinus<note> as scholia</note></title> 
                             <incipit>Aries hic existimatur esse qui fryxum</incipit>
                             <explicit>Habet quidem stellas III.</explicit>
                         </msItem>
@@ -349,14 +348,14 @@
                     <msItem>
                         <locus from="54r" to="54v">54r-v</locus>
                         <author ref="#macrobius">Macrobius</author>
-                        <note>Excerpt from<title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis</title>, Lib. II, 11, 5-17.</note>
+                        <title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis<note> (excerpt from Lib. II, 11, 5-17)</note></title>
                         <rubric>De mundano anno qui quindecim milibus solarium conficitur annorum Tullii Ciceronis Somnium Scipionis dictantis et Macrobii exponentis ac Senece philosophorum auctoritas</rubric>
                         <incipit>Annus non is solus quem nunc communis omnium usus apellat</incipit>
                         <explicit>septuaginta tres Quisquis in digitos mittit inueniet.</explicit>
                     </msItem>                    
                     <msItem>
                         <locus from="56v">56v</locus>
-                        <note>A map of the world</note>
+                        <note type="title">A map of the world</note>
                     </msItem>
                     <msItem>
                         <locus from="57r" to="73r">57r-73r</locus>
@@ -439,7 +438,7 @@
                                 <locus from="55r" to="56r">55r-56r</locus>
                                 <locus from="77r">77r</locus>
                             </locusGrp>
-                            <note>Poem on the miracles of St. Nicolaus (later addition, s. XII).</note>
+                            <note type="title">Poem on the miracles of St. Nicolaus (later addition, s. XII).</note>
                             <incipit>In licię prouintia fuit quidam christicola</incipit>
                             <explicit>simus bonorum omnium participes euntium. Amen.</explicit>
                             <listBibl>
@@ -450,7 +449,7 @@
                         </msItem>
                         <msItem>
                             <locus from="77v">77v</locus>
-                            <note>Blank. Two lines added later:<quote>Qui plus exspendit quam<gap/>
+                            <note>Blank. Two lines added later: <quote>Qui plus exspendit quam<gap/>
                                 </quote>.</note>
                         </msItem>
                         <msItem>
@@ -469,15 +468,15 @@
                     <msContents>
                         <msItem>
                             <locus from="74r" to="74v">74r-v</locus>
-                            <note>Fragment of Gospel-book containing documents relating to Ely Abbey.</note>
+                            <note type="title">Fragment of Gospel-book containing documents relating to Ely Abbey.</note>
                         </msItem>
                         <msItem>
                             <locus from="75r" to="75v">75r-v</locus>
-                            <note>Leaf of a gospel-book in Latin, containing Old English manumissions.</note>
+                            <note type="title">Leaf of a gospel-book in Latin, containing Old English manumissions.</note>
                         </msItem>
                         <msItem>
                             <locus from="76r" to="76v">76r-v</locus>
-                            <note>Leaf of a gospel-book in Latin containing a record in Old English.</note>
+                            <note type="title">Leaf of a gospel-book in Latin containing a record in Old English.</note>
                         </msItem>
                        <msItem xml:lang="ang">
                             <locus from="78v" to="86v">78v–86v</locus>
@@ -487,11 +486,11 @@
                         </msItem>
                             <msItem>
                                 <locus from="87r" to="87v">87r-v</locus>
-                                <note>Apocryphal legend of Mambres and Jannes.</note>
+                                <note type="title">Apocryphal legend of Mambres and Jannes.</note>
                             </msItem>
                             <msItem>
                                 <locus from="88r" to="88v">88r–v</locus>
-                                <note>Notes relating to Battle Abbey, added in the 3rd quarter of the 12th century.</note>
+                                <note type="title">Notes relating to Battle Abbey, added in the 3rd quarter of the 12th century.</note>
                             </msItem>
                     </msContents>
                 </msPart>

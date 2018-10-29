@@ -3,9 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
+                <title type="main">Aratea Digital</title>
             <title type="sub">Graz, Universitätsbibliothek, Ms 297</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -17,7 +15,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +23,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc> 
         <revisionDesc status="complete">
@@ -64,7 +61,7 @@
                         </msItem>
                         <msItem>
                             <locus from="1r" to="1v">1r-v</locus>
-                            <title type="supplied">Capitula.</title>
+                            <note type="title">Capitula.</note>
                             <rubric>Capitula libri sequentis.</rubric>
                             <incipit>I. De quadrifario opere dei.</incipit>
                             <explicit>XLVIIII. Incendium ethne.</explicit>
@@ -126,8 +123,7 @@
                                 </dimensions>
                             </extent>
                             <foliation>Modern foliation with pencil at the top right corner of every folium.</foliation>
-                            <collation>
-                                <formula/>Quire mark (?) on f. 112v in the lower margin.</collation>
+                            <collation>Quire mark (?) on f. 112v in the lower margin.</collation>
                             <condition>
                                 <p>Holes in the parchment partly sewed up.</p>
                             </condition>

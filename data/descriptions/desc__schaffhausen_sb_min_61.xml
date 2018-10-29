@@ -3,12 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-            <title type="sub">Schaffhausen, Stadtbibliothek, Ministerialis 61</title>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Schaffhausen, Stadtbibliothek, Ministerialis 61</title>
                 <respStmt>
-                    <resp>(no in situ examination, description based on secondary literature)</resp>
+                    <resp>Catalogue-description based on secondary literature:</resp>
                     <name type="person">Ivana Dobcheva</name>
                 </respStmt>
             </titleStmt>
@@ -17,14 +15,13 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-            <availability status="free">
-               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
-            </availability>
-         </publicationStmt>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -59,7 +56,7 @@
                 </msItem>
                 <msItem>
                     <locus>15r-19v</locus>
-                    <note>Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title> (missing cap. XLI and the end of cap. XXXIX) as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
+                    <note type="title">Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title> (missing cap. XLI and the end of cap. XXXIX) as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
                     <title>Excerptum de astronomia</title>
                     <quote>Campester scribit comoedias <note>OR COMETAS</note> V esse id est ippon solis, lampadian lunae, zophiam <note>OR ZIPHIAN</note> martis, disceum martis, typhona saturni, sed quattuor stellas scriptas visas esse...visa feurit cuncta interitura. Helix arcturus maior. habet autem in capite stellas VII obscuras ... quod contraria sit cani.</quote>
                 </msItem>

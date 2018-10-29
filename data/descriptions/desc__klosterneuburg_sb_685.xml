@@ -3,9 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
+                <title type="main">Aratea Digital</title>
                 <title type="sub">Klosterneuburg, Stiftsbibliothek, Cod. 685</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -17,7 +15,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by </resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +23,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>digital born.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -65,7 +62,7 @@
                     </msItem>
                     <msItem>
                         <locus from="14r">14r</locus>
-                        <note>two chapters on the planets and on the zodiac excerpted from???</note>
+                        <note type="title">two chapters on the planets and on the zodiac excerpted from???</note>
                     </msItem>
                     <msItem>
                         <locus from="14v" to="64v">14v-64v</locus>
@@ -73,7 +70,7 @@
                         <title ref="#DTR">De temporum ratione</title>
                         <msItem>
                             <locus from="14v" to="15v">14v-15v</locus>
-                            <note>Capitula.</note>
+                            <note type="title">Capitula.</note>
                         </msItem>
                         <msItem>
                             <locus from="15v">15v</locus>
@@ -83,7 +80,6 @@
                     </msItem>
                     <msItem>
                         <locus from="64v" to="88r">64v-88r</locus>
-                        
                         <msItem>
                             <locus from="71r">71r</locus>
                             <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>

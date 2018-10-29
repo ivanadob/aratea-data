@@ -5,9 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
+                <title type="main">Aratea Digital</title>
             <title type="sub">Valenciennes, Bibliothèque municipale, Ms. 343</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -19,7 +17,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -28,7 +25,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Digital born.</p>
             </sourceDesc>
         </fileDesc>           
         <revisionDesc status="draft">
@@ -167,7 +164,7 @@
                     <msContents>
                         <msItem>
                             <locus from="1r">1r</locus>
-                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia<note>(acephalus)</note>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia<note> (acephalus)</note>
                             </title>
                             <incipit>ad australe<supplied>p</supplied>lagam centaurum bestiam manu quasi ad aram ferentem</incipit>
                             <bibl>Dell'Era pp. 45, line 68-</bibl>
@@ -197,7 +194,7 @@
                         </msItem>
                         <msItem>
                             <locus from="6v" to="7v">6v-7v</locus>
-                            <note>Three computistical tables for lunar letters A-T (ff.6v-7r) and AEIOV (f.<locus from="7v">7v</locus>) for finding the age of the moon.</note>
+                            <note type="title">Three computistical tables for lunar letters A-T (ff.6v-7r) and AEIOV (f.<locus from="7v">7v</locus>) for finding the age of the moon.</note>
                         </msItem>
                     </msContents>
                 </msPart>
@@ -221,7 +218,7 @@
                                 <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
                                 <incipit>Itaque stella ueneris et mercurii hoc a superioribus tribus planetarum stellis differunt</incipit>
                                 <explicit>et idcirco longiores aetheris metas peragat.</explicit>
-                                <note>Also found in<title ref="#Libri computi">Libri computi</title> V.13a.</note>
+                                <note>Also found in <title ref="#Libri computi">Libri computi</title> V.13a.</note>
                             </msItem>
                             <msItem>
                                 <locus from="13r" to="13v">13r-v</locus>
@@ -237,11 +234,11 @@
                                 <rubric>Argumentum ad inveniendam XIIII lunam</rubric>
                                 <incipit>Sume regulares XXXVI quas mensi martio apponere debebis</incipit>
                                 <explicit>debes reliquum per septenos multiplicari.</explicit>                        
-                                <note>Also found in<title ref="#Libri computi">Libri computi</title> V.13a.</note>
+                                <note>Also found in <title ref="#Libri computi">Libri computi</title> V.13a.</note>
                             </msItem>
                             <msItem>
                                 <locus from="13v">13v</locus>
-                                <note>Add additional text:</note>
+                                <note type="title">Add additional text:</note>
                                 <incipit>secundum eusebium ad abracham usque ad christum anni ĪĪXV, ad salomone autem et prima edificatione templi<gap reason="omitted"/> a moyse autem et egressione ex aegypto anni ĪDXXVIIII. Si autem uis cognoscere per annos singulos quot sind epactae sume annos domini quot fuerint ut putam prseneti quarta indictione <date when="0811">DCCCXI</date>
                                 </incipit>
                                 <explicit>fiunt CXLIII tolle CXX et remanent XXIII. istae sunf epactae lunares.</explicit>
@@ -276,12 +273,12 @@
                         </msItem>
                         <msItem>
                             <locus from="22v" to="65v">22v-65v</locus>
-                            <note>Computistical compendium with excerpts from <title ref="#libri_computi">Libri computi</title> and <title ref="#libellus_annalis">Annalis libellus</title> cap. 1-65, 69 in different order (keeping its <foreign>annus praesens</foreign> 80r: <quote>Anni ab incarnatione domini anno praesente sunt<date when="0793">DCCXCIII</date>
+                            <note type="title">Computistical compendium with excerpts from <title ref="#libri_computi">Libri computi</title> and <title ref="#libellus_annalis">Annalis libellus</title> cap. 1-65, 69 in different order (keeping its <foreign>annus praesens</foreign> 80r: <quote>Anni ab incarnatione domini anno praesente sunt<date when="0793">DCCXCIII</date>
                                 </quote>, but also adding the modernised years 877 and 972).</note>
                             <msItem>
                                 <locus from="22v" to="23v">22v-23v</locus>
                                 <rubric>Incipiunt capitula libri eiusdem de numero</rubric>
-                                <note>table of content with 86 chapters</note>
+                                <note type="title">table of content with 86 chapters</note>
                                 <incipit>I. Rota quae continet diuersa sollemnia sanctorum in KL Nonibus uel Idibus per singulos menses</incipit>
                                 <explicit>LXXXVI. Ratio de astronomia.</explicit>
                                 <finalRubric>Expliciunt capitula.</finalRubric>
@@ -293,38 +290,38 @@
                             </msItem>
                             <msItem>
                                 <locus from="24r" to="24v">24r-v</locus>
-                                <note>Rota diagram left unfinished.</note>
+                                <note type="title">Rota diagram left unfinished.</note>
                             </msItem>
                             <msItem>
                                 <locus from="25r">25r</locus>
-                                <note>Table for the 28-year solar cycle for finding the day of the week.</note>
+                                <note type="title">Table for the 28-year solar cycle for finding the day of the week.</note>
                                 <rubric>Cyclus solaris uiginti octo annorum per XII kalendas.</rubric>
                             </msItem>
                             <msItem>
                                 <locus from="25v">25v</locus>
-                                <note>Table for the 19-year lunar cycle; short text at the bottom .</note>
+                                <note type="title">Table for the 19-year lunar cycle; short text at the bottom .</note>
                                 <rubric>Cyclus lunaris decem et nouem annorum per XII kalendas.</rubric>
                                 <incipit>Primo decennouenalis anno in quo nullae sunt epaciae sic inuenies luna per kalendas quasque</incipit>
                                 <explicit>in kl mai XXVIIIa cum XXVIIII per argumentum computatur.</explicit>
                             </msItem>
                             <msItem>
                                 <locus from="26r" to="26v">26r-v</locus>
-                                <note>Rota named from Borst <title>Aachener Radkalender</title> showing the <quote>natalicia sanctorum in Kalendis, Nonis et Idibus per unumquemque mensem</quote>.</note>
+                                <note type="title">Rota named from Borst <title>Aachener Radkalender</title> showing the <quote>natalicia sanctorum in Kalendis, Nonis et Idibus per unumquemque mensem</quote>.</note>
                                 <bibl>
                                     <abbr>Borst, Kalenderreform</abbr>, p. 314-15.</bibl>
                             </msItem>
                             <msItem>
                                 <locus from="27r">27r</locus>
-                                <note>blank.</note>
+                                <note>Blank.</note>
                             </msItem>
                             <msItem>
                                 <locus from="27v">27v</locus>
-                                <note>Computistical table <foreign>Pagina regularis</foreign>.</note>
+                                <note type="title">Computistical table <foreign>Pagina regularis</foreign>.</note>
                                 <rubric>Cursus lunae per XII signa XVIIII annorum</rubric>
                             </msItem>
                             <msItem>
                                 <locus from="28r" to="35r">28r-35r</locus>
-                                <note>Calendar / Martyrologium</note>
+                                <note type="title">Calendar / Martyrologium</note>
                                 <rubric>Incipit ordo solaris anni cum litteris a sancto ieronimo superpositis ad exploranda VIImanae diem et ad lunae aetatem inuestigandam in unoquoque die per XVIIII annos.</rubric>
                                 <finalRubric>Explicunt IIIIa tempora anni menses XII ebdomade LII et una dies, dies CCCLXV et VI horae, horae V¯ĪĪĪDCCLX, momenta C¯C¯C¯L¯DCLX.</finalRubric>
                                 <note>Several contemporary hands adding calendrical information discussed in<bibl>
@@ -343,8 +340,8 @@
                             </msItem>
                             <msItem>
                                 <locus from="35v" to="57v">35v-57v</locus>
-                                <title>Cycli decennovenali</title>
-                                <note>for the years 532-1367.</note>
+                                <title>Cycli decennovenali<note> (for the years 532-1367)</note></title>
+                                
                                 <msItem>
                                     <locus from="35v" to="53v">35v-53v</locus>
                                     <title>Annales Elnonenses</title>
@@ -366,20 +363,20 @@
                             </msItem>
                             <msItem>
                                 <locus from="58r" to="65v">58r-65v</locus>
-                                <note>19-year cycle tables.</note>
+                                <note type="title">19-year cycle tables</note>
                                 <rubric>Anno primo cicli decennouenalis. Cursus uel aetas lunae hoc argume<unclear>nto</unclear> cognoscitur.</rubric>
                                 <note>On f. 65v after the end of the table a smudged note <quote>O<gap reason="damage"/>s martis cepit lex quinque librorum</quote>. The rest of the page (ca. 14 lines) left blank.</note>
                             </msItem>
                             <msItem>
                                 <locus from="66r">66r</locus>
-                                <note>List of the abbots in Saint Amand from<quote>Sanctus Amandus episcopus</quote> (633-678) to <quote>Leo potier de gesvres cardinal et archiepiscpus</quote> (1720-1722). The list was started probably in the <date notBefore="1201" notAfter="1250">s. XIII<hi rend="sup">1</hi>
+                                <note type="title">List of the abbots in Saint Amand from<quote>Sanctus Amandus episcopus</quote> (633-678) to <quote>Leo potier de gesvres cardinal et archiepiscpus</quote> (1720-1722). The list was started probably in the <date notBefore="1201" notAfter="1250">s. XIII<hi rend="sup">1</hi>
                                     </date> on originally blank page and continued till <date notBefore="1701" notAfter="1800">s. XVIII</date>
                                 </note>
                                 <rubric>Nomina abbatum elnonensis</rubric>
                             </msItem>
                             <msItem>
                                 <locus from="66v" to="67r">66v-67r</locus>
-                                <note>Computus table and regula</note>
+                                <note type="title">Computus table and regula</note>
                                 <msItem>
                                     <rubric>De concurrentibus unde acceperunt exordium</rubric>
                                     <incipit>Interrogandum est de concurrentibus septimanae diei unde acceperunt exordium</incipit>
@@ -401,7 +398,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="67v">67v</locus>
-                                <note>Prayer (later addition)</note>
+                                <note type="title">Prayer (later addition)</note>
                                 <incipit>In nomine patris et filii et spiritu sancti aius aius aius sanctus sanctus sanctus dominus deus sabaoth qui erat et qui est</incipit>
                                 <explicit>et pax tibi fiat in diebus. Per signum sancte<gap reason="damage"/> 
                            <unclear>crucis</unclear> tuis liberet te deus alleluia alleluia alleluia a <gap reason="damage"/> sanctus sanctus sanctus <unclear>iskarus</unclear> 
@@ -410,7 +407,7 @@
                             </msItem>                 
                             <msItem>
                                 <locus from="68r" to="69v">68r-69v</locus>
-                                <note>Computistical tables.</note>
+                                <note type="title">Computistical tables.</note>
                                 <msItem>
                                     <locus from="69r">69r</locus>
                                     <rubric>De singulis mensibus <unclear>quae</unclear> kalendas Nones uel ides <gap reason="illegible"/> De nonis idibus et kalendis singulorum mensium</rubric>
@@ -419,7 +416,7 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="69r">69r</locus>
-                                    <rubric>De ciclo solis. De singulis mensis<gap reason="illegible"/> kalendis nonis uel idibus <gap reason="illegible"/>
+                                    <rubric>De ciclo solis. De singulis mensis <gap reason="illegible"/> kalendis nonis uel idibus <gap reason="illegible"/>
                                     </rubric>
                                     <note>Table with Termini for the major moveable feasts.</note>
                                 </msItem>
@@ -430,7 +427,7 @@
                             </msItem>       
                             <msItem>
                                 <locus from="70r" to="80v">70r-80v</locus>
-                                <note>Argumenta and regula.</note>
+                                <note type="title">Argumenta and regula</note>
                                 <incipit>
                                     <note>(f.70r) </note>XV. De ratione aequinoctii. A XII kalendis aprelis quod aequinoctium uernale usque in XIII kalendis iulii sunt dies XC et I<note>(= Lib. ann. LIII)</note>
                                 </incipit>
@@ -493,14 +490,14 @@
                         </msItem>
                         <msItem>
                             <locus from="83v">83v</locus>
-                            <note>List of Greek numerals, their value and name in Greek with latin characters and their equivalent in Roman numerals.</note>
+                            <note type="title">List of Greek numerals, their value and name in Greek with latin characters and their equivalent in Roman numerals.</note>
                             <rubric>De compotu litterarum grecorum</rubric>
                             <incipit>A mia i alpha<lb/> B dia ii beta</incipit>
                             <explicit>Θ̅ enaschile VIIII̅</explicit>
                         </msItem>
                         <msItem>
                             <locus from="84r">84r</locus>
-                            <note>Another list of Greek numerals and their Roman equivalent.</note>
+                            <note type="title">Another list of Greek numerals and their Roman equivalent.</note>
                         </msItem>
                         <msItem>
                             <locus from="84r" to="179v">84r-179v</locus>

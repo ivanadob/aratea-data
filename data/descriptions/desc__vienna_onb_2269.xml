@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Vienna, Österreichische Nationalbibliothek, Cod. 2269</title>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Vienna, Österreichische Nationalbibliothek, Cod. 2269</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital born.</p>
          </sourceDesc>
-      </fileDesc>
-     <revisionDesc status="draft">
-        <change when="2018-07-20"/>
-     </revisionDesc>
-  </teiHeader>
-   
-  <text>
+      </fileDesc>        
+      <revisionDesc status="draft">
+         <change when="2018-07-20"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
          <msDesc>
             <msIdentifier>
@@ -31,7 +41,7 @@
             <msContents>
                <msItem>
                   <locus from="1r" to="3v">1ra-3vc</locus>
-                  <author ref="">Alcuin</author>
+                  <author ref="#alcuin">Alcuin</author>
                   <title ref="">De dialectica</title>
                   <msItem>
                      <title type="supplied">Carmen Alcuini</title>
