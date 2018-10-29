@@ -104,17 +104,17 @@
                         </rubric>
                     <msItem>
                         <locus from="1r">1r</locus>
-                        <note>Prologue:</note>
+                        <note type="title">Prologue:</note>
                         <incipit>Cum quibus <gap reason="illegible"/> fratribus nostris adolescentioribus quedam calculatoriae artis</incipit>
                         <explicit>doctorum sublimiora rimetur.</explicit>
                     </msItem>
                     <msItem>
                         <locus from="1v">1v</locus>
-                        <note>Capitula.</note>
+                        <note type="title">Capitula.</note>
                     </msItem>
                     <msItem>
                         <locus from="1v" to="12v">1v-12v</locus>
-                        <note>Text:</note>
+                        <note type="title">Text:</note>
                         <incipit>Annus solaris ut maiorum constat sollertia inuestigatum</incipit>
                         <explicit>illa deinceps facilius assequantur.</explicit>
                         <finalRubric>Explicit liber alperici</finalRubric>
@@ -130,12 +130,12 @@
                     </msItem>
                <msItem>
                   <locus from="13r" to="14r">13r-14r</locus>
-                  <note>Computus material including Ciclus annalis, De horis mensium and De singulis horis in die quomodo mensurantur cum pedibus with a table of moveable feasts (f. 13r) and an orologium diagram.</note>
+                  <note type="title">Computus material including Ciclus annalis, De horis mensium and De singulis horis in die quomodo mensurantur cum pedibus with a table of moveable feasts (f. 13r) and an orologium diagram.</note>
                   <msItem>
                      <locus from="13r">13r</locus>
                      <rubric>Incipit ciclus annalis</rubric>
                      <incipit>Arsista apud hebreos siros et chaldeos nimiam uocatur</incipit>
-                     <note>Computistical table for the moveable feasts.</note>
+                     <note type="title">Computistical table for the moveable feasts.</note>
                   </msItem>
                   <msItem>
                      <locus from="13v">13v</locus>
@@ -193,7 +193,7 @@
                     <title ref="#DTR">De temporum ratione</title>
                     <msItem>
                         <locus from="30v" to="31v">30v-31v</locus>
-                        <note>Prologue:</note>
+                        <note type="title">Prologue:</note>
                         <rubric>Incipit prologus in libro Bede de temporibus III.</rubric>
                         <incipit>De natura rerum et ratione temporum duos quondam</incipit>
                         <explicit>fraternitatis intemerata iura custodiat.</explicit>
@@ -260,22 +260,21 @@
                    <note>The middle section of Dunagl's text is replaced with an excerpt from Macrobius' Commentary. According to <bibl>Stansfield, Alcuins achievement</bibl>, the text of the letter is closely related to but at some points superior to the copy in Berlin, SB Cod. 1831, ff. 116-117. Additions starting from, f. 122v-123 from Macrobius with diagram.</note>
                    <msItem>
                        <locus from="120r" to="122v">120r-122v</locus>
-                       <note>Dungal's letter (MGH Epp. IV, pp. 570-573 line 29)</note>
+                       <note type="title">Dungal's letter (MGH Epp. IV, pp. 570-573 line 29)</note>
                        <incipit>In nomine patris et filii et spiritus sancti. Domino gloriosissimo Karolo serenissimo augusto</incipit>
                        <explicit>mox oritur aries in quo sol ante.</explicit>
                    </msItem>
                    <msItem>
                        <locus from="122v" to="125r">122v-125r</locus>
                        <author ref="#macrobius">Macrobius</author>
-                       <title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis<note> (excerpts from Lib. II, cap. 7, § 5-21 and cap. 8, § 1-8)</note>
-                            </title>
+                       <title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis<note> (excerpts from Lib. II, cap. 7, § 5-21 and cap. 8, § 1-8)</note></title>
                        <incipit>his depictis sine dificultate constabit singulas terre partes</incipit>
                        <explicit>quid possit amplius pro absoluenda hac questione conferri.</explicit>
                        <decoNote>Diagram of the celestial and terrestrial sphere, divided by five circles and the zodiac.</decoNote>
                    </msItem>
                    <msItem>
                        <locus from="125r" to="126v">125r-126v</locus>
-                       <note>Continuation of Dungal's letter (MGH Epp. IV, from p. 576 line 27 until the end).</note>
+                       <note type="title">Continuation of Dungal's letter (MGH Epp. IV, from p. 576 line 27 until the end).</note>
                        <incipit>Igitur sicut annum solis non solum a kalendis</incipit>
                        <explicit>sed et piissime adque amantissime pater.</explicit>
                    </msItem>
@@ -283,17 +282,17 @@
                     <msItem>
                         <locus from="126v" to="127r">126v-127r</locus>
                         <author ref="#isidore">Isidore of Seville</author>
-                        <note>Extracts from <title>Etymologiae</title>, book 3, De eclipse, chapters 58 and 59.</note>
+                        <title ref="#etymologiae">Etymologiae <note>(excerpts from book 3, De eclipse, chapters 58 and 59)</note></title>
                         <incipit>Eclipsis solis est quotiens luna trigesima ad eandem lineam</incipit>
                     </msItem>
                <msItem>
                   <locus from="127r" to="132r">127r-132r</locus>
                   <author ref="#macrobius">Macrobius</author>
-                   <note>Extracts on astronomical subjects from <title ref="#commentarium_somnium">Commentarii in Ciceronis Somnium Scipionis</title>.</note>
+                   <title ref="#commentarium_somnium">Commentarii in Ciceronis Somnium Scipionis<note> (excerpts on astronomical subjects)</note></title>
                </msItem>
                     <msItem>
                         <locus from="132v" to="139v">132v-139v</locus>
-                        <note>Anonymous, treatise on the method of computation with examples.</note>
+                        <note type="title">Anonymous, treatise on the method of computation with examples.</note>
                         <incipit>Si vis scire quot sint anni ab incarnatione</incipit>
                         </msItem>
                     <msItem>
@@ -302,13 +301,14 @@
                     </msItem>
                     <msItem>
                         <locus from="140v" to="141v">140v-141v</locus>
-                        <rubric>De notis antiquioribus que notant numerus</rubric>
-                        <note>extract from Rabanus Maurus, De computo, chapter 6: </note>
+                        <author ref="#hrabanus">Hrabanus Maurus</author>
+                        <title ref="#de_computo">De computo<note> (excerpt from chapter 6)</note></title>
+                        <rubric>De notis antiquioribus que notant numerus</rubric>                        
                         <incipit>Tres digiti in sinistra manu, id est auricularis</incipit>
                     </msItem>
                     <msItem>
                         <locus from="141v" to="143r">141v-143r</locus>
-                        <author>De mensuris et ponderibus</author>
+                        <rubric>De mensuris et ponderibus</rubric>
                         <incipit>Mensurarum in liquidis coclear est pars minima</incipit>
                     </msItem>
                     <msItem>
@@ -318,13 +318,13 @@
                     </msItem>
                     <msItem>
                         <locus from="145v">145v</locus>
-                        <note>A short text on the moveable feasts followed by a diagram on the epacts allowing to find the date in the lunar calendar from the solar calendar; it is used in the calculation of the date of Easter.</note>
+                        <note type="title">A short text on the moveable feasts followed by a diagram on the epacts allowing to find the date in the lunar calendar from the solar calendar; it is used in the calculation of the date of Easter.</note>
                     </msItem>
                <msItem>
                   <locus from="146r" to="148v">146r-148v</locus>
                   <author ref="#bede">Bede</author>
-                  <title>Epistola ad Wicthedum de aequinoctio vel de paschae celebratione</title>
-                  <note>imperfect at the beginning and at the end</note>
+                   <title ref="#letter_wicthede">Epistola ad Wicthedum de aequinoctio vel de paschae celebratione</title>
+                  <note>(imperfect at the beginning and at the end)</note>
                   <incipit>
                             <supplied>equi</supplied>noctialem sui cursus locum in signifero circulo</incipit>
                   <explicit>aut nona kalendarum aprilium die non fuisse, aut ante equinoctium fuisse confirmet</explicit>
@@ -332,7 +332,7 @@
                </msItem>
                <msItem>
                   <locus from="149r" to="v">149r-v</locus>
-                  <note>verses on the seven liberal arts. The last verses have been copied by two different 15th-century hands (f. 149v).</note>
+                  <note type="title">Verses on the seven liberal arts. The last verses have been copied by two different 15th-century hands (f. 149v).</note>
                </msItem>
             </msContents>
             <physDesc>

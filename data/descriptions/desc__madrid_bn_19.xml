@@ -3,9 +3,7 @@
      <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-               Aratea Digital
-            </title>
+            <title type="main">Aratea Digital</title>
             <title type="sub">Madrid, Biblioteca national, Ms. 19</title>
             <respStmt>
                <resp>Catalogued by:</resp>
@@ -22,15 +20,13 @@
          </editionStmt>
          <publicationStmt>
             <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
             </publisher>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
@@ -53,11 +49,19 @@
             </head>
             <msContents>
                               <msItem>
-                                 <locus from="1r" to="48r">1-48r </locus>
+                                 <locus from="1r" to="48r">1ra-48ra</locus>
                                  <author ref="#bede">Bede</author>
                                  <title ref="#DTR">DTR </title>
+                                 <rubric>In nomine domini nostri ihesu christi incipit liber de temporibus expositus et ordinatus a uenerabili beda presbytero. Incipit prologus eiusdem libri</rubric>
+                                 <incipit>De natura rerum et ratione temporum duos quondam stricto sermone</incipit>
+                                 <explicit>praemiorum mereamur accipere palmam.</explicit>
+                                 <decoNote>On ff. 2v-4v illustrations of 55 manly figures referring to the first chapter <quote>De loquela digitorum</quote>.</decoNote>
                                  <note>chronicals continue till year IIII DCLXXX - pope Leon.</note>
                               </msItem> 
+               <msItem>
+                  <locus from="48r">48ra-48v</locus>
+                  <rubric>Item martirologium de presbiteri bede heroico compositum metro et aduerte prudens lector quia hi uersus quos obelo et chrunons in capite prenotatos inueneris ab erchenperto monacho monasterii sancti benedicti de castro casino editi sunt.</rubric>
+               </msItem>
                <msItem>
                   <note>
                      
@@ -93,7 +97,7 @@
                   </note>
                </msItem>
 <!--
-ff. 2v-4v Have illustrations of 55 figures for the finger reckoning - usually it is only the hand as seen through a magnifying glass) 
+
 
 Inc. (notebook) 
 
@@ -352,7 +356,7 @@ Diagrams
                   <supportDesc material="perg">
                      <support/>
                      <extent>
-                        <measure type="leaveCount" quantity="203">203 fols.</measure>
+                        <measure type="leaveCount" quantity="203">ii (paper) + 203 fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>394</height>
                            <width>262</width>

@@ -3,9 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-            Aratea Digital
-        </title>
+            <title type="main">Aratea Digital</title>
             <title type="sub">Melk, Benediktinerstiftes, Cod. 412</title>
             <respStmt>
                <resp>Catalogued by:</resp>
@@ -17,7 +15,6 @@
             <respStmt>
                <resp>TEI-P5 coded by</resp>
                <name type="person">Ivana Dobcheva</name>
-               <name type="org"/>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -26,16 +23,17 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-10-29"></change>
+      </revisionDesc>
    </teiHeader>
   <text>
       <body>
-	           <msDesc xml:id="Melk_412" xml:lang="en">
-            <!-- according to the catalogue description -->
+	           <msDesc xml:id="melk_412" xml:lang="en">
             <msIdentifier>
-               <!-- contains the information required to identify the manuscript being described MANDATORY -->
                <settlement>Melk</settlement>
                <institution>Benediktinerstiftes</institution>
                <collection/>
@@ -48,12 +46,8 @@
                </altIdentifier>
             </msIdentifier>
             <head>Bede manual <lb/>
-               <region>St. Germain d'Auxerre </region>, <origDate>s. IX<hi rend="sup">1</hi>
-                    </origDate>
-               <lb/>
-                    <note type="Aratea"/>
-               <!-- e.g. Composite MS region, century, Aratea texts next URL to digital-->
-               <locus/>
+               <origPlace>St. Germain d'Auxerre </origPlace>
+               <origDate>s. IX<hi rend="sup">1</hi></origDate>
             </head>
             <physDesc>
                <objectDesc form="codex">
@@ -115,25 +109,16 @@
                <altIdentifier type="internal">
                   <idno>Codicological unit 1</idno>
                </altIdentifier>
-               <!--  <head>
-                            <title>
-                                <persName role="author"></persName>
-                                , WORK
-                            </title>
-                            <origDate notBefore="0000" notAfter="0099">s. </origDate>
-                        </head> -->
                <msContents>
                   <msItem n="1">
                      <locus from="1" to="16">1-16</locus>
                      <author ref="#bede">Bede</author>
                      <title ref="#DNR">De natura rerum</title>
-                     
                   </msItem>
                   <msItem n="2">
                      <locus from="16" to="26">16-26</locus>
                      <author ref="#bede">Bede</author>
                      <title ref="#DT">De temporibus</title>
-                     
                   </msItem>
                   <msItem n="3">
                      <locus from="26" to="27">26-27</locus>
@@ -160,21 +145,13 @@
                <altIdentifier type="internal">
                   <idno>Codicological unit 1</idno>
                </altIdentifier>
-               <!--  <head>
-                            <title>
-                                <persName role="author"></persName>
-                                , WORK
-                            </title>
-                            <origDate notBefore="0000" notAfter="0099">s. </origDate>
-                        </head> -->
                <msContents>
                   <msItem n="6">
                      <locus from="29">29</locus>
-                     
-                     <title>On the zodiac</title>
-                     <titlePart>De duodecim signis</titlePart>
-                     <incipit>Ariete oriente duabus horis occidit libra...</incipit>
-                     <explicit>... obtinent gemini.</explicit>
+                     <note type="title">On the zodiac</note>
+                     <rubric>De duodecim signis</rubric>
+                     <incipit>Ariete oriente duabus horis occidit libra</incipit>
+                     <explicit>obtinent gemini.</explicit>
                      <listBibl>
                         <bibl>
                                     <abbr>Thorndike-Kibre</abbr> 134.7</bibl>
@@ -182,60 +159,47 @@
                   </msItem>
                   <msItem n="6">
                      <locus from="29">29</locus>
-                     
-                     <title>On the zodiac</title>
-                     <titlePart>De ortu duodecim signis</titlePart>
+                     <note type="title">On the zodiac</note>
+                     <rubric>De ortu duodecim signis</rubric>
                      <incipit>Ortum signorum dudoecim qualibet diei vel noctis hora quisque liquido
-                        deprehensurus est...</incipit>
-                     <explicit>... Si XXIII aut XXIIII virgo.</explicit>
+                        deprehensurus est</incipit>
+                     <explicit>Si XXIII aut XXIIII virgo.</explicit>
                      <listBibl>
                         <bibl>Thorndike-Kibre 134.7</bibl>
                      </listBibl>
                   </msItem>
                   <msItem n="7">
                      <locus from="29">29</locus>
-                     
-                     <title>On eclipses</title>
-                     <titlePart>De solis et lunae defectu</titlePart>
-                     <incipit>Deliquium solis contigisse fertur anno ab incarnatione domini
-                        808...</incipit>
-                     <explicit>...quod quotiens contigerit totiens eclipsim non
-                        defecturam</explicit>
+                     <note type="title">On eclipses</note>
+                     <rubric>De solis et lunae defectu</rubric>
+                     <incipit>Deliquium solis contigisse fertur anno ab incarnatione domini 808</incipit>
+                     <explicit>quod quotiens contigerit totiens eclipsim non defecturam</explicit>
                      <listBibl>
                         <bibl>Thorndike-Kibre 399.12</bibl>
                      </listBibl>
                   </msItem>
                   <msItem n="8">
                      <locus from="29" to="30">29-30</locus>
-                     
-                     <title>IQSVM</title>
-                     
-                     <incipit>Annis ab inicio mundi per senarium divisis...</incipit>
-                     <explicit>... memoratum semper inveniri planetam virgo.</explicit>
+                     <title ref="#iqsvm">IQSVM</title>
+                     <incipit>Annis ab inicio mundi per senarium divisis</incipit>
+                     <explicit>memoratum semper inveniri planetam virgo.</explicit>
                   </msItem>
                   <msItem n="9">
                      <locus from="29" to="34">29-34</locus>
-                     
-                     <title>Medical receipts</title>
-                     
-                     <note>later addition on the blank lower margin</note>
+                     <note type="title">Medical receipts, later addition on the blank lower margin</note>
                   </msItem>
                   <msItem n="10">
                      <locus from="30" to="31">30-31</locus>
-                     
-                     <title/>
-                     <titlePart>De incremento saltus lunae</titlePart>
+                     <rubric>De incremento saltus lunae</rubric>
                      <incipit>Primus sciendum est quod in toto decemnovennali circulo unus dies de
-                        saltu lunae accrescat...</incipit>
-                     <explicit>... et sextans, id est sexta pars momenti.</explicit>
+                        saltu lunae accrescat</incipit>
+                     <explicit>et sextans, id est sexta pars momenti.</explicit>
                   </msItem>
                   <msItem n="11">
                      <locus from="31">31</locus>
-                     
-                     <title/>
-                     <titlePart>De concordia solis et lunae</titlePart>
-                     <incipit>Novem horis in luna pro V diebus in sole computatis...</incipit>
-                     <explicit>... possunt VIIII horae lunares cum quinque diebus solaribus
+                     <rubric>De concordia solis et lunae</rubric>
+                     <incipit>Novem horis in luna pro V diebus in sole computatis</incipit>
+                     <explicit>possunt VIIII horae lunares cum quinque diebus solaribus
                         concordare.</explicit>
                      <listBibl>
                         <bibl>Thorndike-Kibre 955.6</bibl>
@@ -243,42 +207,37 @@
                   </msItem>
                   <msItem n="12">
                      <locus from="31" to="32">31-32</locus>
-                     
-                     <title/>
-                     <titlePart>De quibus embolismi menses et bissextiles dies
-                        adimplentur</titlePart>
+                     <rubric>De quibus embolismi menses et bissextiles dies
+                        adimplentur</rubric>
                      <incipit>Luna igitur cottidie et cetera transit XIII partes et horas
-                        VIII...</incipit>
+                        VIII</incipit>
                      <explicit>Haec ratio subtilissima est. Et valde necessaria et maximo labore
                         undecumque ab auctoribus collecta et ad quam cernendam mentis acies
                         purganda.</explicit>
                   </msItem>
                   <msItem n="13">
                      <locus from="32" to="38">32-38</locus>
-                     
                      <title>Commentary to Bede's DTR</title>
-                     <titlePart>De natura rerum et temporum ratione</titlePart>
+                     <rubric>De natura rerum et temporum ratione</rubric>
                      <incipit>Non est praetermittendum cum dixit de natura rerum, cur non etiam de
-                        natura temporum vel de ratione rerum et ratione temporum dixit...</incipit>
-                     <explicit>... id est CCma XXXVma pars XLta septem semis momentorum.</explicit>
+                        natura temporum vel de ratione rerum et ratione temporum dixit</incipit>
+                     <explicit>id est CCma XXXVma pars XLta septem semis momentorum.</explicit>
                      <listBibl>
                         <bibl>Jones 1939, 95-102</bibl>
                      </listBibl>
                   </msItem>
                   <msItem n="14">
                      <locus from="38">38</locus>
-                     
                      <title>On the epacts and regulars</title>
                      <titlePart>Quid sit epacta et regulares solis</titlePart>
                      <incipit>Dum audis epactas lunae, aetates lunae per singulos annos
-                        intellege...</incipit>
-                     <explicit>... vel quot dies usque ad Kalendas futuri mensis
+                        intellege</incipit>
+                     <explicit>vel quot dies usque ad Kalendas futuri mensis
                         supersunt.</explicit>
                   </msItem>
                   <msItem n="15">
                      <locus from="38">38</locus>
-                     
-                     <title>Verse on the planets</title>
+                     <note type="title">Verse on the planets</note>
                      <titlePart>Versus de cursu planetarum per duodecim signa</titlePart>
                      <note>Later addition</note>
                      <listBibl>
@@ -288,57 +247,40 @@
                   </msItem>
                   <msItem n="16">
                      <locus from="38">38</locus>
-                     
-                     <title/>
-                     
-                     <incipit>M. Luna VIII et XX diebus totius zodiaci ambitum conficit...</incipit>
-                     <explicit>... rursus dicitur nasci</explicit>
+                     <incipit>M. Luna VIII et XX diebus totius zodiaci ambitum conficit</incipit>
+                     <explicit>rursus dicitur nasci</explicit>
                      <note>Later addition</note>
                   </msItem>
                   <msItem n="17">
                      <locus from="38">38</locus>
-                     
-                     <title>Medical recipies</title>
-                     
+                     <note type="title">Medical recipies</note>
                   </msItem>
                   <msItem n="18">
                      <locus from="39" to="42">39-42</locus>
-                     
-                     <title>Easter table</title>
-                     
-                     <note>for the years 836-890 and 944-999, lost a folio inbetween</note>
+                     <note type="title">Easter table</note>
+                     <note>for the years 836-890 and 944-999, lost a folio inbetween.</note>
                   </msItem>
                   <msItem n="19">
                      <locus from="43">43</locus>
-                     
-                     <title>Easter table lunar</title>
-                     
+                     <note type="title">Easter table lunar</note>
                      <incipit>Quot sit luna per singulas Kalnedas decem et nouem annos</incipit>
                   </msItem>
                   <msItem n="20">
                      <locus from="43">43</locus>
-                     
-                     <title>Verse for the computus cycle</title>
-                     
-                     <incipit>Me legat annales vult qui cognoscere cyclos...</incipit>
+                     <note type="title">Verse for the computus cycle</note>
+                     <incipit>Me legat annales vult qui cognoscere cyclos</incipit>
                   </msItem>
                   <msItem n="21">
                      <locus from="44" to="55">44-55</locus>
-                     
-                     <title>Calendar</title>
-                     
+                     <note type="title">Calendar</note>
                   </msItem>
                   <msItem n="22">
                      <locus from="56" to="58">56-58</locus>
-                     
-                     <title>Lunar tables</title>
-                     
+                     <note type="title">Lunar tables</note>
                   </msItem>
                   <msItem n="23">
                      <locus from="58">58</locus>
-                     
-                     <title>Geomemtrical drawings</title>
-                     
+                     <note type="title">Geomemtrical drawings</note>
                   </msItem>
                </msContents>
             </msPart>

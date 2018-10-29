@@ -22,15 +22,13 @@
          </editionStmt>
          <publicationStmt>
             <publisher>
-               <name type="org"/>
-               <!--<ptr target=""/>-->
             </publisher>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
@@ -39,14 +37,14 @@
      </teiHeader>
    <text>
       <body>
-         <msDesc xml:lang="eng" xml:id="ab">
+         <msDesc xml:lang="eng" xml:id="paris_lat_14754">
             <msIdentifier>
                <settlement>Paris</settlement>
                <repository>Bibliothèque nationale de France</repository>
                <idno>latin 14754</idno>
             </msIdentifier>
             <head>
-               <title/>
+               <title>Martianus Capella; Nimrod; De signis caelis; Canones Ptolemei</title>
                <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
                     </origDate>
                <origPlace ref="#n_france">N. France</origPlace> (<origPlace ref="#chartres">Chartres</origPlace>?)
@@ -121,6 +119,7 @@
             <additional>
                <listBibl>
                   <head>Selected bibliography:</head>
+                  <bibl>Entry in <ref target="https://ptolemaeus.badw.de/ms/139">Ptolemaeus arabus et latinus</ref> (with further literature).</bibl>
                   <bibl>Kunitzsch. "Eine bilingue arabisch-lateinische Lostafel." Revue d'Histoire des Textes 6 (1976): 267-304.</bibl>
                </listBibl>
             </additional>
