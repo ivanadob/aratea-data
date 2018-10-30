@@ -3,10 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 8663</title>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 8663</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>

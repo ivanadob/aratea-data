@@ -3,10 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 5239</title>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 5239</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -17,7 +15,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by </resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +23,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>TEI encoded text-document description by Ivana Dobcheva.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">

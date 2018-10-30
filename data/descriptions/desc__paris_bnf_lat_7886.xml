@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Paris BnF, MS lat. 7886</title>
+            <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 7886</title>
             <respStmt>
                <resp>Catalogued by: </resp>
                <name type="person">Ivana Dobcheva</name>

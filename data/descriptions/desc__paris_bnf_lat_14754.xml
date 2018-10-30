@@ -6,7 +6,7 @@
             <title type="main">
                Aratea Digital
             </title>
-            <title type="sub">Paris, Bibliothèque nationale de France, lat. 14754</title>
+            <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 14754</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -120,7 +120,10 @@
                <listBibl>
                   <head>Selected bibliography:</head>
                   <bibl>Entry in <ref target="https://ptolemaeus.badw.de/ms/139">Ptolemaeus arabus et latinus</ref> (with further literature).</bibl>
+                  <bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 449-453.</bibl>
                   <bibl>Kunitzsch. "Eine bilingue arabisch-lateinische Lostafel." Revue d'Histoire des Textes 6 (1976): 267-304.</bibl>
+                  <bibl>Dell'Era (1979) <note>used in his edition of "De signis coelis" - siglum Q.</note></bibl>
                </listBibl>
             </additional>
          </msDesc>

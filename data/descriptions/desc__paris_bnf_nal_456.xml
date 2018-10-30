@@ -3,10 +3,8 @@
      <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-               Aratea Digital
-            </title>
-            <title type="sub">Paris, Bibliothèque nationale de France, MS Nouv. acq. lat. 456</title>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Paris, Bibliothèque nationale de France, MS NAL 456</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -65,10 +63,10 @@
             <msIdentifier>
                <settlement>Paris</settlement>
                <repository>Bibliothèque nationale de France</repository>
-               <idno>Nouv. acq. lat. 456</idno>
+               <idno>NAL 456</idno>
             </msIdentifier>
             <head>
-               <title/>
+               <title>Astronomical-computistical compendium</title>
                <origDate>s. X<hi rend="sup">4/4</hi>
                     </origDate>
                <origPlace ref="#auch">St. Orient in Auch</origPlace>

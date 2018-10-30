@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 12117</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 12117</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -17,7 +17,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by </resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +25,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Digital born.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -118,8 +117,7 @@
                     <title>Computistical collection</title>
                     <origPlace ref="#st_germain_des_pres">Saint-Germain-des-Prés (?)</origPlace>
                     <origDate notBefore="1051" notAfter="1100">s. XI<hi rend="sup">2</hi> (ca. 1063)</origDate>
-                    <note type="facs">Digital facsimile at <ref type="altMs" target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">gallica.bnf.fr</ref>
-                    </note>
+                    <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">gallica.bnf.fr</ref>.</note>
                 </head>                
             <msContents>
                 <msItem>
@@ -133,7 +131,7 @@
                 </msItem>
                 <msItem>
                     <locus from="2r">2r</locus>			
-                    <note>Text on the measures</note>
+                    <note type="title">Text on the measures</note>
                     <rubric>De olearia mensura</rubric>
                     <incipit>Mensura centum sextarii</incipit>
                     <explicit>libra grece lx librę atticę talentum.</explicit>
@@ -173,7 +171,7 @@
                 </msItem>
                 <msItem>
                     <locus from="3r" to="3v">3r-3v</locus>		
-                    <note>Mnemonic verses for the months of the year</note>
+                    <note type="title">Mnemonic verses for the months of the year</note>
                     <incipit>
                             <supplied>P</supplied>rocedunt februe quinta sub sorte KL</incipit>
                     <explicit>
@@ -185,7 +183,7 @@
                     <title>Recognitionum libri X</title>    
                     <msItem>
                         <locus from="4r">4r</locus>
-                        <note>Table of content presenting the ten books.</note>
+                        <note type="title">Table of content presenting the ten books.</note>
                         <rubric>In hoc corpore continentur libri clementis numero decem</rubric>
                         <incipit>
                                 <hi rend="rubric">P</hi>rimus liber ex his quae misit ad eum continent de uero propheta</incipit>
@@ -193,7 +191,7 @@
                     </msItem>
                     <msItem>
                         <locus from="4v" to="5r">4v-5r</locus>
-                        <note>Praefatio ad Gaudentium episcopum:</note>
+                        <note type="title">Praefatio ad Gaudentium episcopum:</note>
                         <rubric>In hoc codice habentur sancti clementis libri numero X</rubric>
                         <incipit>
                                 <hi rend="rubric">T</hi>ibi quidem papa Gaudenti nostrorum decus</incipit>
@@ -202,7 +200,7 @@
                     </msItem>
                     <msItem>
                         <locus from="5r" to="99v">5r-99v</locus>
-                        <note>Text of the ten books:</note>
+                        <note type="title">Text of the ten books:</note>
                         <incipit>Ego clemens in urbo roma natus ex prima aetate</incipit>
                         <explicit>ei gratiam quam apostolo exhiberet.</explicit>
                         <finalRubric>Explicit liber decimus.</finalRubric>
@@ -219,7 +217,7 @@
                 <msItem>
                     <locus from="99v" to="104v">99v-103v</locus>	
                     <author>Ps-Clemens</author>
-                    <note>Spurious Decretal Epistle of Clemens to Jacob translated by Rufinus</note>
+                    <note type="title">Spurious Decretal Epistle of Clemens to Jacob translated by Rufinus</note>
                     <rubric>Incipit epistola Clementis ad Iacobum fratrem domini</rubric>
                     <incipit>
                             <supplied>C</supplied>lemens jacobo domino episcopo episcoporum recenti hebreorum</incipit>
@@ -229,7 +227,7 @@
                 </msItem>
                 <msItem>
                     <locus from="103v" to="104v">103v-104v</locus>
-                    <note>Another letter:</note>
+                    <note type="title">Another letter:</note>
                     <rubric>Item alia eiusdem clementis epistola ad eundem Iacobum</rubric>
                     <incipit>
                             <supplied>C</supplied>lemens Jacobo carissimo. Quam sicut a petro accepimus</incipit>
@@ -240,7 +238,7 @@
                 
                 <msItem>
                     <locus from="104v">104v</locus> 		
-                    <note>Two mathematical mnemonic verses (written by the same hand but in a fainter ink):</note> 
+                    <note type="title">Two mathematical mnemonic verses (written by the same hand but in a fainter ink):</note> 
                     <msItem>
                         <incipit>Adsistunt domino seniors bis duodem</incipit>
                         <explicit>Tercia namque tribus super pars unica solus.</explicit>
@@ -256,7 +254,7 @@
                 <msItem>
                     <locus from="105r" to="108r">105r-108r</locus>
                     <title ref="#chronica_807">Series annorum mundi nova</title>
-                    <note>World chronicle of the six ages (from Adam to Charlemagne)</note>
+                    <note type="title">World chronicle of the six ages (from Adam to Charlemagne)</note>
                     <incipit>
                             <supplied>A</supplied>dam cum esset annorum CXXX genuit seth</incipit>
                     <explicit>ab origine mundi usque in praesentem annum I¯I¯I¯I¯ DCCLXI.</explicit>    
@@ -264,7 +262,7 @@
                         </decoNote>
                     <msItem>
                         <locus from="108v">108v</locus> 	
-                        <note>Continuation with a list of Roman emperors and kings:</note>
+                        <note type="title">Continuation with a list of Roman emperors and kings:</note>
                         <incipit>
                                 <supplied>A</supplied>nte ęneam isti reges fuerunt in italia Ianus Saturnus Picus</incipit>
                         <explicit>Carlomannus atque Carolus item et Carlomannus et <rs type="person" ref="#louis_pious">hludouicus</rs>.</explicit>
@@ -274,21 +272,21 @@
                 </msItem>
                 <msItem>
                     <locus from="109r" to="110r">109r-110r</locus>
-                    <note>Chronica based on <rs ref="#isidore">Isidore</rs>'s <title ref="#etymologiae">Etymologiae</title>, Lib. V, 39.</note>
+                    <note type="title">Chronica based on <rs ref="#isidore">Isidore</rs>'s <title ref="#etymologiae">Etymologiae</title>, Lib. V, 39.</note>
                     <rubric>Item alia chronica. Prima aetas seculi</rubric>
                     <incipit>Primo die condidit deus lucem. Secundo firmamentum caeli</incipit>
                     <explicit>Hludouicus reganuit annis XXVII. Et inde domnus Karolus et deo protegente gubernauit annis XXX et uno.</explicit>
                 </msItem>
                 <msItem>
                     <locus from="110v">110v</locus>		
-                    <note>List of Frankish kings from Merovech to Henry I.</note>
+                    <note type="title">List of Frankish kings from Merovech to Henry I.</note>
                     <rubric>Genealogia regum francorum</rubric>
                     <incipit>Ex genere priami fuit Merouens qui genuit Childericum</incipit>
                     <explicit>heynricus rex frater eius pro eo.</explicit>
                 </msItem>
                 <msItem>
                     <locus from="111r" to="126v">111r-126v</locus> 	
-                    <note>Cycli decemnovenales with the annals of Saint-Germain-des-Pres (till year 1063)</note>
+                    <note type="title">Cycli decemnovenales with the annals of Saint-Germain-des-Pres (till year 1063)</note>
                 </msItem>
                 <msItem>
                     
@@ -300,11 +298,11 @@
                 </msItem>
                 <msItem>
                     <locus from="127v">127v</locus> 		
-                    <note>Cycli decemnovenales for the years 1064 – 1196 (later addition)</note>
+                    <note type="title">Cycli decemnovenales for the years 1064 – 1196 (later addition)</note>
                 </msItem>
                 <msItem>
                     <locus from="128r" to="128v">128r-128v</locus> 	
-                    <note>Computistical argumenta</note>
+                    <note type="title">Computistical argumenta</note>
                     <rubric>Ad terminus septuagesimę inveniendum</rubric>
                     <incipit/>
                     <explicit>Sed quintus decimus bis denaque bina habet annus XXII.</explicit>
@@ -316,7 +314,7 @@
                 <msItem>
                     <locus from="129v" to="130r">129v-130r</locus> 	
                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                    <note>The text is preceded by a short note also found in <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref> 
+                    <note type="title">The text is preceded by a short note also found in <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref> 
                      <quote>Discite de iuvenes cum Abraham caeli et cursus syderum cognoscere non cum epicureo uoluptatum adsertore ventre desevire et luxuriare</quote>.</note>
                     <rubric>Excerptum de astrologia</rubric>
                     <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
@@ -330,7 +328,7 @@
                 </msItem>
                 <msItem>
                     <locus from="130v">130v</locus> 	
-                    <note>Horologium viatorum</note>
+                    <note type="title">Horologium viatorum</note>
                     <incipit>Spera caeli quater senis horis dum reuoluitur omnes stele fixe celo</incipit>
                     <explicit>qui erectus ad superna ducitur radius ad ima mersus hiemalis dicitur.</explicit>
                 </msItem>
@@ -349,13 +347,13 @@
                 </msItem>
                 <msItem>
                     <locus from="138r" to="139r">138r-139r</locus> 	
-                    <note>Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. III, 9</note>
+                    <note type="title">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. III, 9</note>
                     <incipit>Primo igitur anno praeparationis bissexti prima hora noctis</incipit>
                     <explicit>XV kalendas martias arietem posit ingredi.</explicit>
                 </msItem>
                 <msItem>
                     <locus from="139r">139r</locus> 		
-                    <note>Anonymous text on calculating the current year</note>
+                    <note type="title">Anonymous text on calculating the current year</note>
                     <incipit>Hrabanus Secundum computationem eusebii et <sic>iheronimi</sic> sunt anni ab adam usque ad diluuium II CC XLII</incipit>
                     <explicit>ad passionem dominus uenit fiunt anni V CC XXXI.</explicit>
                 </msItem>
@@ -370,7 +368,7 @@
                 </msItem>
                 <msItem>
                     <locus from="146v">146v</locus> 		
-                    <note>Anonymous mnemonic text on the alphabet</note>
+                    <note type="title">Anonymous mnemonic text on the alphabet</note>
                     <incipit>Omnes litere ad similitudinem uocis caracteres accepterunt A sub hiatu oris congruo solo spiritu nominamus</incipit>
                     <explicit>Z uero idcirco appius Claudius detestatur que dentes mortui dum exprimitur imitator.</explicit>
                 </msItem>
@@ -389,14 +387,14 @@
                     <incipit>Computus vulgaris qui dicitur ephemerida de luna</incipit>
                 </msItem>
                 <msItem>
-                    <note>Collection of computistical tables, argumenta and verses.</note>
+                    <note type="title">Collection of computistical tables, argumenta and verses.</note>
                     <msItem>
                         <locus from="160v" to="171r">160v-174r</locus> 	
-                        <note>Computistical tables.</note>
+                        <note type="title">Computistical tables.</note>
                     </msItem>
                     <msItem>
                         <locus from="171v">171va-b</locus>
-                        <note>Verse accompaning the table on f.<locus from="172r">172r</locus>
+                        <note type="title">Verse accompaning the table on f.<locus from="172r">172r</locus>
                             </note>
                         <incipit>Quid subiecta ferat cognosces pagina lector</incipit>
                         <explicit>Paschalem dehinc indicat esse diem.</explicit>
@@ -411,13 +409,13 @@
                     </msItem>
                     <msItem>
                         <locus from="174r">174r</locus>
-                        <note>19-line verse on the dates of the paschal full moon.</note>
+                        <note type="title">19-line verse on the dates of the paschal full moon.</note>
                         <incipit>None aprilis norunt quinos. V</incipit>
                         <explicit>quindenę constant	tribus adeptis.	III</explicit>
                     </msItem>
                     <msItem>
                         <locus from="174v" to="177r">174v-177r</locus> 	
-                        <note>Computistical argumenta and regula.</note>
+                        <note type="title">Computistical argumenta and regula.</note>
                         <incipit>Anni domini notantur in psenti linea cum</incipit>
                         <explicit>Aug XIIII. Quatrenis regularibus at letatur augustus.</explicit>
                     </msItem>
@@ -425,7 +423,7 @@
                 <msItem>
                     <locus from="177r" to="179r">177r-179r</locus>
                     <author ref="#isidore">Isidore of Seville</author>
-                    <note>Excerpt from <title ref="#etymologiae">Etymologies</title> (V, 28-39)</note>
+                    <note type="title">Excerpt from <title ref="#etymologiae">Etymologies</title> (V, 28-39)</note>
                     <incipit>Cronica grece dicitur quae latine temporum series appelatur</incipit>
                     <explicit>sexto animantia ex terra et hominem quem appelauit adam.</explicit>
                 </msItem>
@@ -435,7 +433,7 @@
                 </msItem>
                 <msItem>
                     <locus from="180r" to="181v">180r-181v</locus>	
-                    <note>Excerpts from <title ref="#libri_computi">Libri computi</title>, Lib. V-VI:</note>
+                    <note type="title">Excerpts from <title ref="#libri_computi">Libri computi</title>, Lib. V-VI:</note>
                     <msItem>
                         <locus from="180r">180r</locus>
                         <title ref="#pliny_excerpt_order">De positione et cursu septem planetarum</title>
@@ -614,6 +612,8 @@
                             <abbr>Borst, Schriften</abbr>, Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._277">277</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._278">278</ref>.</bibl>
                    <bibl>
                             <abbr>Borst, Reichskalender</abbr>, Vol. 1, p. 218.</bibl>
+                   <bibl>
+                       <abbr>Sternbilder des Mittelalters</abbr>, pp. 436-441.</bibl>
                   </listBibl>
             </additional>
          </msDesc>

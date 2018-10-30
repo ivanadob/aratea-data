@@ -3,10 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS latin 13955</title>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 13955</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -17,7 +15,6 @@
                 <respStmt>
                     <resp>TEI-P5 coded by</resp>
                     <name type="person">Ivana Dobcheva</name>
-                    <name type="org"/>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -26,7 +23,7 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Digital born.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -395,7 +392,7 @@
                     <title>Paris Compend</title>
                     <origPlace ref="#corbie">Corbie</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> (with additions till the <date notBefore="1001" notAfter="1100">s. XI</date>)
-                    Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9066978w">gallica.bnf.fr</ref>
+                    <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9066978w">gallica.bnf.fr</ref></note>
                 </head>                
             <msContents>
                <msItem>
@@ -976,21 +973,21 @@
                   <head>Selected Bibliography:</head>
                    <bibl>
                             <abbr>Munk Olsen</abbr>, Vol. 2, p. 268.</bibl>
-                  <bibl>Beccaria, Augusto.<title>I codici di medicina del periodo presalernitano: (secoli IX, X E XI)</title>. Roma: Ed. di storia e letteratura, 1956. p. 176</bibl>
-                  <bibl>Boethius.<title>Geometrie II: Ein Mathematisches Lehrbuch des Mittelalters</title>. Edited by Menso Folkerts. Wiesbaden: Steiner, 1970.</bibl>
+                  <bibl>Beccaria, Augusto. <title>I codici di medicina del periodo presalernitano: (secoli IX, X E XI)</title>. Roma: Ed. di storia e letteratura, 1956. p. 176</bibl>
+                  <bibl>Boethius. <title>Geometrie II: Ein Mathematisches Lehrbuch des Mittelalters</title>. Edited by Menso Folkerts. Wiesbaden: Steiner, 1970.</bibl>
                    <bibl>Bischoff, Bernhard. “Hadoard und die Klassikerhandschriften aus Corbie.” In Bischoff,<title level="m">Mittelalterliche Studien I</title>, 49–63. Stuttgart: Hiersemann, 1966.</bibl>
                   <bibl>Corsetti, Pierre-Paul. “Note sur les excerpta médiévaux de Columelle.”<title level="j">Revue d’histoire des textes</title> 7 (1977): 109–32 (esp. 113-4).</bibl>
-                  <bibl>Léopold Delisle,<title>Inventaire des manuscrits latins conservés à la Bibliothèque impériale sous les nos 11504-14231 du fonds latin</title>. Paris 1868 (reprint Hildesheim 1974), p. 123.</bibl>
-                  <bibl>Eastwood, Bruce Stansfield. “Calcidius’s Commentary on Plato’s ‘Timaeus’ in Latin Astronomy of the Ninth to Eleventh Centuries.” In Eastwood,<title>The Revival of Planetary Astronomy in Carolingian and Post-Carolingian Europe</title>, 171–209, 2002.</bibl>
-                   <bibl>Eastwood, Bruce Stansfield.<title>Ordering the Heavens: Roman Astronomy and Cosmology in the Carolingian Renaissance</title>. Leiden, 2007 (esp. pp. 68-72, 242, 253, ).</bibl>
-                  <bibl>Ganz, David.<title>Corbie in the Carolingian Renaissance</title>. Sigmaringen: Thorbecke, 1990 (esp. pp. 94, 152-3, 159-60).</bibl>
+                  <bibl>Léopold Delisle, <title>Inventaire des manuscrits latins conservés à la Bibliothèque impériale sous les nos 11504-14231 du fonds latin</title>. Paris 1868 (reprint Hildesheim 1974), p. 123.</bibl>
+                  <bibl>Eastwood, Bruce Stansfield. “Calcidius’s Commentary on Plato’s ‘Timaeus’ in Latin Astronomy of the Ninth to Eleventh Centuries.” In Eastwood, <title>The Revival of Planetary Astronomy in Carolingian and Post-Carolingian Europe</title>, 171–209, 2002.</bibl>
+                   <bibl>Eastwood, Bruce Stansfield. <title>Ordering the Heavens: Roman Astronomy and Cosmology in the Carolingian Renaissance</title>. Leiden, 2007 (esp. pp. 68-72, 242, 253, ).</bibl>
+                  <bibl>Ganz, David. <title>Corbie in the Carolingian Renaissance</title>. Sigmaringen: Thorbecke, 1990 (esp. pp. 94, 152-3, 159-60).</bibl>
                   <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: I. The Library.”<title type="j">Speculum</title> 22 (1947): 191–204.</bibl>
-                   <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: II. The Script and the Problems.”<title type="j">Speculum</title> 22 (1947): 375–94.</bibl>
+                   <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: II. The Script and the Problems.” <title type="j">Speculum</title> 22 (1947): 375–94.</bibl>
                   <bibl>Leonardi, Claudio. “I codici di Marziano Capella.”<title type="j">Aevum</title> 34 (1960): 1–99, 411–524.</bibl>
-                  <bibl>Toneatto, Lucio.<title>Codices artis mensoriae: I manoscritti degli antichi opuscoli latini d’agrimensura (V - XIX Sec.)</title>. Vol. 1. 3 vols. Centro Italiano di Studi sull’Alto Medioevo, 1994.</bibl>
-                   <bibl>Thulin, Carl Olof.<title>Zur Überlieferungsgeschichte des Corpus agrimensorum: Exzerptenhandschriften und Kompendien</title>. Göteborg: Zachrisson, 1911 (here p. 17-18).</bibl>
+                  <bibl>Toneatto, Lucio. <title>Codices artis mensoriae: I manoscritti degli antichi opuscoli latini d’agrimensura (V - XIX Sec.)</title>. Vol. 1. 3 vols. Centro Italiano di Studi sull’Alto Medioevo, 1994.</bibl>
+                   <bibl>Thulin, Carl Olof. <title>Zur Überlieferungsgeschichte des Corpus agrimensorum: Exzerptenhandschriften und Kompendien</title>. Göteborg: Zachrisson, 1911 (here p. 17-18).</bibl>
                    <bibl>Smits van Waesberghe, Joseph.<title>Répertoire international des sources musicales</title>. Vol. 3. <title>The theory of Music: From the Carolingian Era up to 1400</title>. Munich: Henle, 1961.</bibl>
-                   <bibl>Ullman, Berthold L.<title>Geometry in the Mediaeval Quadrivium</title>. Verona, 1964.</bibl>
+                   <bibl>Ullman, Berthold L. <title>Geometry in the Mediaeval Quadrivium</title>. Verona, 1964.</bibl>
                </listBibl>
             </additional>
          </msDesc>

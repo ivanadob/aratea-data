@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-                <title type="sub">Paris, Bibliothèque nationale de France, MS n.a.l. 176</title>
+                <title type="sub">Paris, Bibliothèque nationale de France, MS NAL 176</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -39,15 +39,14 @@
                 <msIdentifier>
                     <settlement>Paris</settlement>
                     <repository>Bibliothèque nationale de France, MS latin</repository>
-                    <collection>n.a.l.</collection>
+                    <collection>NAL</collection>
                     <idno>176</idno>
                 </msIdentifier>
                 <head>
                     <title>Aratus Latinus. Theorica planetarum</title>
-                    <!--<origPlace ref="#"/>
-                    <origDate notBefore="" notAfter="">
-                        <hi rend="sup"/>
-                    </origDate>-->
+                    <origPlace>France (?)</origPlace>
+                    <origDate notBefore="1301" notAfter="1400">s. XIV</origDate>
+                    <note type="facs">Digitised microfilm available at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100342892/f1.item">gallica.bnf.fr</ref>.</note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -85,13 +84,13 @@
                         </msItem>                     
                     </msItem>
                     <msItem>
-                        <locus from="50v">50v</locus>
+                        <locus from="50v" to="64v">50v-64v</locus>
                         <note>blank</note>
                     </msItem>
                     <msItem>
                         <locus from="65r" to="66r">65ra-66ra</locus>
                         <author ref="#" rend="attributet">Aratus</author>
-                        <title>Excerptum de astrologia Arati</title>
+                        <title ref="#excerptum_de_Astrologia">Excerptum de astrologia Arati</title>
                         <rubric>Incipit liber Arati de ymaginibus celi et ordine earum constellatione</rubric>
                         <incipit>
                             <add>D</add>uo sunt extremi uertices mundi</incipit>
