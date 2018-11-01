@@ -34,8 +34,7 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p/>
-            <p>Quidam tamen multa dicunt et alii aliter narrasse celum diuersis proferentes uocabulis sed ipse magis axe continetur quam se continetur quasi continuo in semetipso reuoluitur. habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ad inuicem sed unus quidem non aspicitur aliter uero e contra ab aquilone ex alto a parte oceani. duo quoque ab utroque habentes arcturos simul cum rotis quem quidam plaustrum uocant; quae etiam capita per summum habent alter utraque quidem in deorsum altera uero sursum aspiciunt. et arcturum quidem maiorem uocant helicem arcturum autem minorem uocant canis caudam. Altera namque helice quae apparet prima noctis alia uero pusilla quidem sed a nauigantibus obseruatur maria enim conturbat.</p> 
+            <p/>             
             <p>habet autem helix arcturus maior in capite stellas obscuras VII, in spatula unam, super pectus unam, in pede unam, in dorso unam, in tibia anteriore duas, super caudam tres. sunt omnes XVI.</p>
             <p>Fenix qui et arctutus minor et aq uibusdam canis cauda uocatur habet autem per unumquemque angulum in humero splendidam stellam unam, in cauda III, sunt autem intra ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
             <p>Draco qio continet utrosque arcturos helicis superuoluit caput phenicis circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. sunt omnes XV.</p>
@@ -45,7 +44,8 @@
             <head>
                <title>Editions</title>
             </head>
-            <p/>
+            <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In <title>Studi Medievali</title> ser. 3, 20:1 (1979): 269-302.</bibl>
+            <p>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</p>
          </div>
          <div>
             <head>
@@ -57,7 +57,27 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <p>
+               <list>
+                  <item><ref target="desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
+                  <item><ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (1v-7v)</item>
+                  <item><ref target="desc__dijon_bm_488">Dijon, Bibliothèque municipale, Ms 488</ref></item>
+                  <item>Durham, The Dean and Chapter Library Hunter Ms. 100</item>
+                  <item><ref target="desc__laon_bm_422">Laon, Bibliothèque municipale, Ms. 422</ref></item>
+                  <item><ref target="desc__london_bl_harley_2506">London, British library, Harley 2506</ref> (as scholia ff. 36ra-44v)</item>
+                  <item><ref target="desc__montecassino_archivo_3">Montecassino, Archivo della Badia 3</ref></item>
+                  <item>Oxford, Bodleian Library Laud. Misc. 644</item>
+                  <item>Padova, Biblioteca Antoniana 27</item>
+                  <item><ref target="desc__paris_bnf_lat_5239">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+                  <item><ref target="desc__paris_bnf_lat_5543">Paris, Bibliothèque nationale de France, MS lat. 5543</ref></item>
+                  <item><ref target="desc__paris_bnf_lat_14754">Paris, Bibliothèque nationale de France, MS lat. 14754</ref></item>
+                  <item><ref target="desc__rouen_bm_26">Rouen, Bibliothèque municipale, Ms 26</ref></item>
+                  <item><ref target="desc__schaffhausen_sb_min_61">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref></item>
+                  <item><ref target="desc__bav_reg_lat_598">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 598</ref></item>
+                  <item>Venezia, Biblioteca Marciana Lat. VIII 22</item>
+                  <item><ref target="desc__wolfenbuettel_hab_gud_lat_132">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
+               </list>
+            </p>
          </div>
       </body>
    </text>

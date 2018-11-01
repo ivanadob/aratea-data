@@ -3,9 +3,7 @@
      <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-               Aratea Digital
-            </title>
+            <title type="main">Aratea Digital</title>
             <title type="sub">Dijon, Bibliothèque municipale, Ms 488</title>
             <respStmt>
                <resp>Catalogued by:</resp>
@@ -35,7 +33,7 @@
      </teiHeader>
    <text>
       <body>
-         <msDesc xml:lang="eng" xml:id="ab">
+         <msDesc xml:lang="eng" xml:id="dijon_bm_488">
             <msIdentifier>
                <settlement>Dijon</settlement>
                <repository>Bibliothèque municipale</repository>

@@ -39,10 +39,7 @@
          <div>
             <head>
                <title>Introduction</title>
-            </head>            
-            <p>Maass first edited the text from the <ref type="altMs" target="StGall_250.xml">St. Gall Ms 250</ref> (s. IX<hi rend="sup">4/4</hi>), hence giving it the name <title>Anonymus Sangallensis</title>. In two of the manuscripts this text is immediately followed by the <title>De astronomia more christiano</title>. Le Bourdellès discovered the two texts in other manuscripts, the oldest being <ref type="altMs" target="Valenciennes_BM_343.xml">Valenciennes, BM, Ms 343</ref>, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
-            <p>Incipit: Herodius dicit helicem licaonis fuisse filiam ...</p>
-            <p>Explicit: ... absides eius ultima in capricorno est.</p>
+            </head>  
          </div>         
          <div>
             <head>
@@ -56,11 +53,15 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list>
+                <item><ref target="desc__zwettl_sb_296">Zwettl, Stiftsbibliothek, Cod. 29</ref>6</item>
+                <item><ref target="desc__klosterneuburg_sb_685">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></item>
+                <item><ref target="desc__bav_vat_lat_643">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></item>
+            </list>
          </div>
          <div>
             <head>Edition:</head>
-         <div corresp="#vv_19-42">
+             <div corresp="#vv_19-42">
             <p>Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero e contra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes Arcturos simul cum rotis quem quidam Plaustrum uocant; quae etiam capita per summum <app>
                             <rdg wit="#V #K">habent</rdg>
                             <rdg wit="Z">habeant</rdg>

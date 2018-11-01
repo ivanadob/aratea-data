@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Descriptio duorum semispherium</title>
+                <title>Aratus Latinus</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition according to TEI P5</edition>
@@ -23,8 +23,11 @@
         <encodingDesc>
             <variantEncoding location="internal" method="parallel-segmentation"/>
         </encodingDesc>
+        <revisionDesc status="draft">
+            <change when="2018-11-01"/>
+        </revisionDesc>
     </teiHeader>
-    
+<!--    ############################ WORK IN PROGRESS : collate the 4 MSS using Juxta common, choose <lem> and use the telma xslt to make a parallel segmantation edition (extra get LaTeX files and pdf)-->
     <text>
         <front>
             <div>

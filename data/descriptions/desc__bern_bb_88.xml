@@ -3,11 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-            <title type="sub">Bern, Burgerbibliothek, MS 88
-                </title>
+                <title type="main">Aratea Digital</title>
+            <title type="sub">Bern, Burgerbibliothek, Cod. 88</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>

@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Amiens, BM, MS 222</title>
+                <title type="sub">Amiens, Bibliothèque municipale, Ms 222</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -103,7 +103,7 @@
             <msDesc xml:id="amiens_222" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Amiens</settlement>
-                    <repository>BM</repository>
+                    <repository>Bibliothèque municipale</repository>
                     <idno>222</idno>
                 </msIdentifier>
                 <head>

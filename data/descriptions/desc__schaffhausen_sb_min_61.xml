@@ -23,7 +23,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
@@ -53,41 +53,60 @@
                     <locus>9r-15r</locus>
                     <author ref="#bede">Bede</author>
                     <title ref="#DT">De temporibus</title>
+                    <explicit>Tiberius dehinc quintum agit annum in die prima. Reliquum sextae aetatis deo soli patet</explicit>
                 </msItem>
                 <msItem>
-                    <locus>15r-19v</locus>
-                    <note type="title">Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title> (missing cap. XLI and the end of cap. XXXIX) as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
+                    <locus from="15r">15r</locus>
+                    <note type="title">Short text on the planets:</note>
+                    <quote>Campester scribit cometas quinque esse id est ippon solis, lampadian lunae, ziphian martis, disceum martis, typhona saturni; sed quattuor stellas suprascriptas uisas esse aliquando cum regna mutuantur; typhonam numquam uisam esse, aut si quando uisa fuerit cuncta interitura.</quote>
+                </msItem>
+                <msItem>
+                    <locus from="15r" to="19v">15r-19v</locus>
+                    <title ref="#de_signis_coeli">De signis coeli<note> (missing cap. XLI)</note></title>
+                    <incipit>Helix arcturus maior habet autem in capite</incipit>
+                    <explicit>et ideo anticanis uocatur eo quod contraria sit cani.</explicit>
+                    <decoNote>Left blank space on the outer side of the pages.</decoNote>
+                    <msItem>
+                        <locus from="19r">19r</locus>
+                        <note type="title">Interpolation by cap. XXXIX with sections from <title ref="#de_ordine_ac_positione">De ordine ac positione</title>, cap. XL (Serpens, Corvus, Crater)</note>
+                        <quote>Serpens quae hydrum nominant habet stellas in capite III claras, in prima flexura VI, in secunda III, in quarta II, in quinta usque ad caudam VIII claras; fiunt XXVI <note>(= De ordine, cap. XL)</note>. Super cuius caudam coruum sedere dicunt ad occasum spectantem qui habet in oculo stellam I, in pennis II, in cauda II, in pedibus singulas. fiunt VII <note>(= De ordine, cap. XLI)</note>; et in medio crater siue urna posita ultra prima flexuram serpentis, habet in labio stellas II obscuras, in uentre III, in fundo II; fiunt VII <note>(= De ordine, cap. XLII)</note>.</quote>
+                    </msItem>
+                </msItem>
+                <msItem>
+                    <locus from="15r" to="19v">15r-19v</locus>
+                    <note type="title">Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title>  as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
                     <title>Excerptum de astronomia</title>
-                    <quote>Campester scribit comoedias <note>OR COMETAS</note> V esse id est ippon solis, lampadian lunae, zophiam <note>OR ZIPHIAN</note> martis, disceum martis, typhona saturni, sed quattuor stellas scriptas visas esse...visa feurit cuncta interitura. Helix arcturus maior. habet autem in capite stellas VII obscuras ... quod contraria sit cani.</quote>
+                    
                 </msItem>
                 <msItem>
-                    <locus>19v</locus>
+                    <locus from="19v">19v</locus>
                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                    <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
-                    <explicit>et virginem leo<gap reason="lacuna"/></explicit>
+                    <incipit>Duo sunt extremi uertices mundi quos appellant polos</incipit>
+                    <explicit>et virginem leo<gap reason="illegible"/></explicit>
                     <note>The quire is missing the innermost bifolium, after f.19, hence the lacuna at the end of the text.</note>
                 </msItem>
                 <msItem>
-                    <locus>20r-21r</locus>
+                    <locus from="20r" to="21r">20r-21r</locus>
                     <author ref="#dionysius_exiguus">Dionysius Exiguus</author>
                     <title>Epistola ad Bonifacium et Bonum</title>
+                    <incipit>septimum communem, octauum embolismum</incipit>
                     <note>The text begins imperfectly due to the missing bifolium after f. 19.</note>
                 </msItem>
                 <msItem>
-                    <locus>21r-22r</locus>
+                    <locus from="21r" to="22r">21r-22r</locus>
                     <title>Varia computistica</title>
                 </msItem>
                 <msItem>
-                    <locus>22r</locus>
+                    <locus from="22r">22r</locus>
                     <author ref="#bede">Ps. Bede</author>
                     <title ref="#de_ratione_computi">De ratione computi</title>
                 </msItem>
                 <msItem>
-                    <locus>23r-26v</locus>
+                    <locus from="23r" to="26v">23r-26v</locus>
                     <note type="title">Computiscial tables and texts</note>
                 </msItem>
                 <msItem>
-                    <locus>27r-104r</locus>
+                    <locus from="27r" to="104r">27r-104r</locus>
                     <author ref="#bede">Bede</author>
                     <title ref="#DTR">De temporum ratione</title>
                 </msItem>
