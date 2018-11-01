@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Aratea Digital</title>
-            <title type="sub">Berlin, Staatsbibliothek, Phill. 1832</title>
+            <title type="sub">Berlin, Staatsbibliothek, Ms. Phill. 1832</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -30,7 +30,7 @@
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-06-09"/>
+				<change when="2018-11-01"/>
 			</revisionDesc>
      </teiHeader>
    <text>
@@ -132,6 +132,9 @@
                      <locus from="86r" to="92v">86r-92v</locus>
                      <author ref="#germanicus">Germanicus</author>
                      <title ref="#germanicus_aratea">Aratea</title>
+                     <msItem>
+                        <title ref="#scholia_basileensia">Scholia Basillensia</title>
+                     </msItem>
                   </msItem>
                </msContents>
             </msPart>

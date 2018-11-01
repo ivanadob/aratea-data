@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Aratea Digital</title>
-                <title type="sub">Berlin, Staatsbibliothek, Phill. 1830</title>
+                <title type="sub">Berlin, Staatsbibliothek, Ms. Phill. 1830</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -92,26 +92,35 @@
                         <locus from="3v">3v</locus>
                         <note type="title">Wind diagram</note>
                         <rubric>Hic quoque potest uideri quo ordine spirant uenti ex uariis partibus plagarum</rubric>
+                    </msItem>
+                    <msItem>
+                        <note type="title">Versus de duodecim ventis</note>
+                        <rubric>Incipiunt uersus uentorum tam greco conscripti uocabulo quam et latino</rubric>
+                        <incipit>Quattuor a quadro consurgunt limite uenti</incipit>
+                        <explicit>Argescenque grai uocitant cognomine prisco.</explicit>
+                        <note>For parallel transmission see <ref target="http://www.mirabileweb.it/title/carmen-de-ventis-title/170376">Mirabile</ref>.</note>
+                        <bibl>Meyer, H. ed. Anthologia Veterum Latinorum Epigammatum et Poematum. Vol. 2. Leipzig, 1835, p. 59.</bibl>
+                    </msItem>
+                    <msItem>
+                        <locus from="4r" to="10v">4r-10v</locus>
+                        <note type="title">Paschal tables (years 532-1063)</note>
                         <msItem>
-                            <note type="title">Verse on the winds</note>
-                            <rubric>Incipiunt uersus uentorum tam greco conscripti uocabulo quam et latino</rubric>
-                            <incipit>Quattuor a quadro consurgunt limite uenti</incipit>
-                            <explicit>Argescenque grai uocitant cognomine prisco.</explicit>
-                            <bibl><note>For parallel transmission see </note><ref target="http://www.mirabileweb.it/title/carmen-de-ventis-title/170376">Mirabile</ref>.</bibl>
-                        </msItem>
-                        <msItem>
-                            <note type="title"></note>
-                            <incipit></incipit>
-                            <explicit></explicit>
+                            <title>Annales Mettensis breves</title>
+                            <bibl>Holder-Egger ed. Annales Laudunenses et S. Vincentii Mettensis breves. In MGH, SS, 15,2, pp.<ref target="http://www.mgh.de/dmgh/resolving/MGH_SS_15,2_S._1293">1293-1295</ref>.</bibl>
                         </msItem>
                     </msItem>
                     <msItem>
-                        <locus from=""></locus>
-                        <title></title>
+                        <locus from="11r">11r</locus>
+                        <note type="title">Lunar table</note>
+                        <rubric>Cursus lunae per duodecim signa</rubric>
                     </msItem>
                     <msItem>
-                        <locus from=""></locus>
-                        <title></title>
+                        <locus from="11v" to="12r">11v-12r</locus>
+                        <note type="title">Planisphere depicting the constellations</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="12v">12v</locus>
+                        <note type="title">Blank.</note>
                     </msItem>
                 </msContents>
                 <physDesc>
@@ -119,19 +128,16 @@
                         <supportDesc material="perg">
                             <support></support>
                             <extent>
-                                <measure type="leaveCount" quantity="12">iii (paper) + 12 fols.</measure>
+                                <measure type="leaveCount" quantity="12">iii (paper) + 12 fols. + iii (paper)</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height></height>
                                     <width></width>
                                 </dimensions>
                             </extent>
                             <foliation></foliation>
-                            <collation>Quiremark 'I' (2v); </collation>
+                            <collation>Fols. 1-2 are a bifolium (dimensions 233x285 mm); Fols. 3-10 is a regular quarto (size 235x300 mm); Fols. 11-12 are bifolium (size 214-224 x 296-300 mm); Quiremark 'I' (2v). To judge by the note on f. 1v, the current fols. 3-10 with the easter tables were originally placed within the bifolium fols. 1-2, forming one quire. Fols. 11-12 was probably part of Germanicus' Aratea, now preserved as <ref target="desc__berlin_sb_phill_1832">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref> (see there for history of both manuscripts).</collation>
                             <condition></condition>
                         </supportDesc>
-                        <layoutDesc>
-                            <layout columns="" ruledLines=""></layout>
-                        </layoutDesc>
                     </objectDesc>
                     <scriptDesc>
                         <scriptNote script="carolmin"></scriptNote>

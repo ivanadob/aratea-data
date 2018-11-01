@@ -3,9 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-               Aratea Digital
-            </title>
+            <title type="main">Aratea Digital</title>
+            <title type="sub"></title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
