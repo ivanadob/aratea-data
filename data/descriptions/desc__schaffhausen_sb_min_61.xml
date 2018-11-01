@@ -76,7 +76,6 @@
                     <locus from="15r" to="19v">15r-19v</locus>
                     <note type="title">Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title>  as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
                     <title>Excerptum de astronomia</title>
-                    
                 </msItem>
                 <msItem>
                     <locus from="19v">19v</locus>
@@ -137,11 +136,12 @@
           </history>
             <additional>
                 <listBibl>
+                    <head>Selected bibliography:</head>
                     <bibl>Dell’Era, A. "Una rielaborazione dell’Arato latino." Studi medievali, ser. 3 20, Nr. 1 (1979): 269–302.</bibl>
                     <bibl>Borst, Schriften, p. 294.</bibl>
                     <bibl><ref target="http://www.persee.fr/doc/scrip_0036-9772_1958_num_12_2_2977">Cordoliani, A. "Un manuscrit de comput interessant: Schaffhouse, Ministerialbibliothek, 61." Scriptorium (1958): 247-253.</ref></bibl>
-                    <bibl>Szkiet, Christine. Reichenauer Codices in Schaffhausen: die frühen Handschriften des Schaffhauser Allerheiligenklosters und ihre Stellung in der südwestdeutschen Buchmalerei des 11. Jahrhunderts. 9. Kiel: Ludwig, 2005</bibl>
-                    <bibl><ref target="http://www.urs-graf-verlag.com/pdf/SHMinK.pdf">Gamper R. et al. Die mittelalterlichen Handschriften der Ministerialbibliothek Schaffhausen. Zürich: Urs Graf Verlag, 1994, pp. 158-160</ref></bibl>
+                    <bibl>Szkiet, Christine. Reichenauer Codices in Schaffhausen: die frühen Handschriften des Schaffhauser Allerheiligenklosters und ihre Stellung in der südwestdeutschen Buchmalerei des 11. Jahrhunderts. 9. Kiel: Ludwig, 2005.</bibl>
+                    <bibl><ref target="http://www.urs-graf-verlag.com/pdf/SHMinK.pdf">Gamper R. et al. Die mittelalterlichen Handschriften der Ministerialbibliothek Schaffhausen. Zürich: Urs Graf Verlag, 1994, pp. 158-160</ref>.</bibl>
                 </listBibl>
             </additional>
          </msDesc>

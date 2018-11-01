@@ -31,7 +31,8 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p/>
+            <p>Incipit: Quaeritur quare ab Ioue coepit et non a musis ut Homerus</p>
+            <p>Explicit: et ostendisse lacte mirate effusum est circuli albi species.</p>
          </div>
          <div>
             <head>
@@ -49,7 +50,12 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list>
+               <item><ref target="desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
+               <item><ref target="desc__basle_bb_an_iv_18">Basel, Universitätsbibliothek, AN IV 18</ref></item>
+               <item><ref target="desc__paris_bnf_lat_5239">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+               <item><ref target="desc__strasbourg_bnu_326">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
+            </list>
          </div>
       </body>
    </text>

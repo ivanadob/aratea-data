@@ -90,7 +90,7 @@
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
-                        <bibl>BL <reftarget="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">digital catalogue entry</ref>.</bibl>
+                        <bibl>BL <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">digital catalogue entry</ref>.</bibl>
                         <bibl>Ker, Neil R., ‘Membra disiecta’, British Museum Quarterly, 12
                             (1937–38), 130-35 (p. 132).</bibl>
                     </listBibl>

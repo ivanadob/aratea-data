@@ -3,9 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
+                <title type="main">Aratea Digital</title>
             <title type="sub">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -474,7 +472,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="130v">130v</locus>
-                                <note type="title">Excerpt from<rs type="person" role="author" ref="#eucherius_lugdunensis">Eucherius of Lyon</rs>'s <title ref="#instructionum_liber">Instructionum Liber</title>, Book 2, chapter 13-15:</note>
+                                <note type="title">Excerpt from <rs type="person" role="author" ref="#eucherius_lugdunensis">Eucherius of Lyon</rs>'s <title ref="#instructionum_liber">Instructionum Liber</title>, Book 2, chapter 13-15:</note>
                                 <rubric>De ponderibus</rubric>
                                 <incipit>Talentum est pondo LXII semis quod faciunt LXX libras arrice libra</incipit>
                                 <explicit>quae ecclesiae ora celebra in sermonem nostrum uertuntur ex greco.</explicit>
@@ -652,7 +650,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="168v" to="171v">168v-171v</locus>
-                                <note type="title">Scholia:</note>
+                                <title ref="#scholia_basileensia">Scholia Basileensia</title>
                                 <incipit>Quaeritur quare ab ioue coepit et non a musis</incipit>
                                 <explicit>mortalibus portat uirgo figuratur stellis XVIIII.</explicit>
                             </msItem>
@@ -719,7 +717,7 @@
                                     <explicit>Nunc tibi cum domino ludere uerna licent</explicit>
                                 </msItem>
                                 <msItem>
-                                    <note type="title">Verse on the zodiac taken from<rs type="person" ref="#cicero">Cicero</rs>'s <title ref="#aratea_cicero">Aratea</title> (vv.329-331, 320-328):</note>
+                                    <note type="title">Verse on the zodiac taken from <rs type="person" ref="#cicero">Cicero</rs>'s <title ref="#aratea_cicero">Aratea</title> (vv.329-331, 320-328):</note>
                                     <rubric>Versus de duodecim signis</rubric>
                                     <incipit>Primus adest aries obscuro lumine labens</incipit>
                                     <explicit>Exin squamiferi serpentes ludere pisces.</explicit>
@@ -735,7 +733,7 @@
                                     <incipit>Dira patet iani romanis ianua bellis</incipit>
                                     <explicit>Unde december amat te genealis hiemps.</explicit>
                                 </msItem>
-                                <note>Written in two columns, 44 lines  as the Aratea; on<locus from="185v">185v</locus> – only two lines written the rest left blank.</note>
+                                <note>Written in two columns, 44 lines  as the Aratea; on <locus from="185v">185v</locus> – only two lines written the rest left blank.</note>
                             </msItem>
                             <msItem>
                                 <locus from="186r" to="190v">186r–190v</locus>

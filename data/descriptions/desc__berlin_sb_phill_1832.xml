@@ -3,9 +3,7 @@
      <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">
-               Aratea Digital
-            </title>
+            <title type="main">Aratea Digital</title>
             <title type="sub">Berlin, Staatsbibliothek, Phill. 1832</title>
             <respStmt>
                <resp>Catalogued by:</resp>
@@ -51,6 +49,7 @@
                <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
                     </origDate>
                <origPlace ref="#laon">Laon</origPlace> or <origPlace ref="#reims">Reims</origPlace>
+               <note type="facs">Digital facsimile available at <ref target="http://resolver.staatsbibliothek-berlin.de/SBB000104AA00000000">StaBi Digitalisierte Sammlungen</ref></note>
             </head>            
             <physDesc>
                <objectDesc form="codex">
@@ -76,7 +75,7 @@
                </scriptDesc>
             </physDesc>
             <history>
-               <origin>Contreni has established that this manuscript was without question written in <origPlace ref="#laon">Laon</origPlace>. The hand of Laon's famous scholasticus <rs type="person">Martin of Laon</rs> can be seen in corrections to the text and glosses of Bede, De natura rerum. He further suggested that it was martin who prepared the commentary and glosses to the De temporum ratione for a successor teacher. The book itself was a master's own copy that would presumably pass to the hand of the next school master after Martin's death. In addition to Laon Borst also suggested <origPlace ref="#reims">Reims</origPlace> as a possible place of production. Both agree that the manuscript was written around the year 873 (the annus praesent is incorporated five times in the glosses for Bede, De temporum ratione).</origin>
+               <origin>Contreni has established that this manuscript was written in <origPlace ref="#laon">Laon</origPlace>. The hand of Laon's famous scholasticus <rs type="person">Martin of Laon</rs> can be seen in corrections to the text and glosses of Bede, De natura rerum. He further suggested that it was Martin who prepared the commentary and glosses to the De temporum ratione for a successor teacher. The book itself was a master's own copy that would presumably pass to the hand of the next school master after Martin's death. In addition to Laon Borst also suggested <origPlace ref="#reims">Reims</origPlace> as a possible place of production. Both agree that the manuscript was written around the year 873 (the annus praesent is incorporated five times in the glosses for Bede, De temporum ratione).</origin>
                <provenance>Previously owned by the Parisian Jesuits, as was also <ref type="mss">Berlin MS Phill. 1830</ref>. At that time they comprised a single codex (Jes. 633), which belong in s. XI to the <rs type="corporate">Abbey of St. Vincent</rs> in <rs type="place" ref="#metz">Metz</rs> [Rose, Verzeichniss der lateinischen Handschriften I, Berlin 1893, p. 287-293].</provenance>
             </history>
             <additional>

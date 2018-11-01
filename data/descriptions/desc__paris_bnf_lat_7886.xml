@@ -70,7 +70,7 @@
                  </msItem>
                  <msItem>
                     <locus from="1r" to="11v">1r-11v</locus>
-                    <title>Scholia Basileensia</title>
+                    <title ref="#scholia_basileensia">Scholia Basileensia</title>
                     <incipit>Queritur quare ab ioue coepit et non a musis ut homerus</incipit>
                     <explicit>et ostendisse lacte mirate effusum est circuli albi species.</explicit>
                  </msItem>
