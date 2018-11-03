@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Milano, Biblioteca Ambrosiana, Manoscritti, D 52 inf.</title>
+                <respStmt>
+                    <resp>Catalogued (based on secondary lit.) by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2018-11-03"></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="ambrosiana_d52">
+                <msIdentifier>
+                    <settlement>Milano</settlement>
+                    <repository>Biblioteca Ambrosiana</repository>
+                    <idno>D 52 inf.</idno>
+                </msIdentifier>
+                <head>
+                    <title>Collection of Aratea poems</title>
+                    <origDate notBefore="1451" notAfter="1500">s. XV<hi rend="sup">2</hi></origDate>
+                    <origPlace ref="#italy">Italy</origPlace>
+                    <note type="aratea"><rs type="text" ref="#text__avienus.xml">Avienus' Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus">Cicero's Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__cicero">Germanicus' Aratea</rs></note>
+                </head>
+                <msContents>
+                    <msItem class="aratea">
+                        <locus>1r-31r</locus>
+                        <author ref="#avienus">Avienus</author>
+                        <title ref="#aratea_avienus">Aratea</title>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus>31r-57v</locus>
+                        <author ref="#avienus">Avienus</author>
+                        <title>Orbis Terrae descriptio<note> (vv. 1-1369)</note></title>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus>58r-66v</locus>
+                        <author ref="#germanicus">Germanicus</author>
+                        <title ref="#germanicus_aratea">Aratea</title>
+                    </msItem>
+                    <msItem n="04">
+                        <locus>cc. 67r-75r</locus>
+                        <author ref="#cicero">Cicero</author>
+                        <title ref="#aratea_cicero">Aratea</title>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="chart">
+                            <support>Paper</support>
+                            <extent>
+                                <measure type="leaveCount" quantity="82">82 fols.</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>290</height>
+                                    <width>210</width>
+                                </dimensions>
+                            </extent>
+                            <foliation></foliation>
+                            <collation></collation>
+                            <condition></condition>
+                        </supportDesc>
+                    </objectDesc>
+                </physDesc>
+                <history>
+                    <origin>Both this MS and <ref type="altMs">Montpellier, Ecole de Medicine 452</ref> derive from a now lost exemplar, referred to as <foreign>liber antiquissimus</foreign>. It was discover at Vercelli in 1442 by Cyriac of Ancona. In both copies the text of Cicero has neither scholia nor illustrations, but the exemplar had scholia derived from Hyginus and the Revised Aratus Latinus (the so called Scholia Sangermanensia. The exemplar was discussed by Kauffmann (who did not know the MSS in the Ambrosiana, Montpellier and Göttweig); Kauffmann's conclusions were summarised and re-confurmed by Reeve.</origin>
+                    <provenance></provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <listBibl>
+                            <bibl>Entry in <ref target="https://manus.iccu.sbn.it//opac_SchedaScheda.php?ID=31835">Manus online</ref>.</bibl>
+                            <bibl>Ceruti, A. Inventari dei manoscritti della Biblioteca Ambrosiana, 5.</bibl>
+                            <bibl>Reeve, Michael D. “Some Astronomical Manuscripts.” Classical Quarterly, 1980, 508–22.</bibl>
+                            <bibl>Kauffmann. "De Hygini memria scholiis in Ciceronis Aratum Herleianis servata." Breslauer philologische Abbandlungen 3.4 1888, 24-36. </bibl>
+                        </listBibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

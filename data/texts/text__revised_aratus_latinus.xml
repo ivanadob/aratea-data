@@ -18,6 +18,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher></publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
@@ -45,13 +46,31 @@
             <head>
                <title>Literature</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Dell'Era, Antonio. "Recentiores non deteriores nella tradizione dell'Arato latino interpolato." in Revista di cultura classica e medioevale 21-22 (1979-1980): 199-201.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list xml:id="revised_aratus_latinus__msslist">
+               <item><ref target="desc__brussels_br_5413-22.xml">Brussels, Bibliothèque royale, MS 5413-22</ref></item>
+               <item>Cologne, Dimbibliothek, Cod. 83 II</item>
+               <item><ref target="desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
+               <item>Göttweig, Stiftsbibliothek, Cod. 7 (olim 146) (s. XV)</item>
+               <item><ref target="desc__london_bl_harley_3595">London, British Library, Harley 3595</ref></item>
+               <item><ref target="desc__london_bl_cotton_tib_b_v.xml">London, BL, Cotton Tiberius B.V.</ref> (as scholia)</item>
+               <item>Munich, Bayerische Staatsbibliothek, Clm 560</item>
+               <item>Paris, Bibliothèque nationale de France, MS lat. 12957</item>
+               <item><ref target="desc__paris_bnf_nal_1614.xml">Paris, Bibliothèque nationale de France, MS NAL 1614</ref></item>
+               <item>Prague, Národní knihovna, IX.C.6 (olim 1717)</item>
+               <item>St Gall, Stiftsbibliothek, Cod. 250</item>
+               <item>St Gall, Stiftsbibliothek, Cod. 902</item>
+               <item><ref target="desc__siena_communale_liv25.xml">Siena, Biblioteca comunale, L IV 25</ref> (s. XIV<hi rend="sup">2</hi> / s. XV)</item>
+               
+               <item><ref>Vatican, BAV, Reg. lat. 1324</ref> (s. XV)</item>
+            </list>
          </div>
       </body>
    </text>

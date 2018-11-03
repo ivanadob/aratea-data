@@ -48,9 +48,7 @@
                     <title>Cicero, Aratea with scholiae; Germano-Roman Pontifical</title>
                     <origPlace ref="#peterborough">Peterborough</origPlace>
                     <origDate notBefore="1120" notAfter="1135">1120-1135</origDate>
-                    <note type="facs">Digital facsimile at <ref
-                            target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I"
-                            >www.bl.uk</ref>.</note>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">BL Digitised Manuscripts</ref>.</note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -91,6 +89,9 @@
                     <listBibl>
                         <head>Selected Bibliography:</head>
                         <bibl>BL <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">digital catalogue entry</ref>.</bibl>
+                        <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters. Berlin: Akademie Verlag, 2012, pp. 314-320.</bibl>
+                        <bibl>Reeve, Michael D. “Some Astronomical Manuscripts.” Classical Quarterly, 1980, 508–22.</bibl>
+                        <bibl>Lippincott, K. Entry in <ref target="https://www.kristenlippincott.com/the-saxl-project/">Saxl Project</ref>.</bibl>
                         <bibl>Ker, Neil R., ‘Membra disiecta’, British Museum Quarterly, 12
                             (1937–38), 130-35 (p. 132).</bibl>
                     </listBibl>

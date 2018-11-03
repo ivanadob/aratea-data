@@ -438,30 +438,32 @@
                                 <bibl>Kästner, H. F. "Pseudo-Dioscoridis de herbis femininis,"<title level="j">Hermes</title> 31 (1896): <ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN509862098_0031|LOG_0060">578</ref>-636 (here pp. 624-25).</bibl>
                             </listBibl>
                         </msItem>                            
-                        <msItem>                            
-                            <locus from="117r" to="117v">117r-v</locus>                            
-                            <title ref="#involutio_spherae">Involutio spherae</title>
-                            <rubric>Inuolutio spherae</rubric>
-                            <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplices</incipit>
-                            <explicit>Conexio uero piscium commune habet stellam.</explicit>
-                        </msItem>
-                        <msItem>
-                            <locus from="117v" to="118r">117v-118r</locus>
-                            <note>On the zodiac</note>
-                            <incipit>Porro xii signorum ordo hic est</incipit>
-                            <explicit>Id est  saturnus iouis mars sol uenus mercurius luna.</explicit>
-                        </msItem>
-                        <msItem>
-                            <locus from="118r">118r-122r</locus>
-                            <note>Sections from<title ref="#ral">RAL</title> on the planets.</note>
-                            <incipit>Cum sole et luna septem astra numerantur quae non sunt fixa in caelo ut caetera</incipit>
-                            <explicit>quod ora nona procliuior uergens ab occasu pronus incubat.</explicit>
-                            <bibl>
-                                <abbr>Maass</abbr>, pp. 272-77, 285-87, 290-95.</bibl>
-                        </msItem>
+                        <msItem class="aratea">
+                            <title ref="#ral">Revised Aratus latinus</title>
+                            <msItem>                            
+                                <locus from="117r" to="117v">117r-v</locus>                            
+                                <title ref="#involutio_spherae">Involutio spherae</title>
+                                <rubric>Inuolutio spherae</rubric>
+                                <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplices</incipit>
+                                <explicit>Conexio uero piscium commune habet stellam.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="117v" to="118r">117v-118r</locus>
+                                <note>On the zodiac</note>
+                                <incipit>Porro xii signorum ordo hic est</incipit>
+                                <explicit>Id est  saturnus iouis mars sol uenus mercurius luna.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="118r">118r-122r</locus>
+                                <note>Sections on the planets.</note>
+                                <incipit>Cum sole et luna septem astra numerantur quae non sunt fixa in caelo ut caetera</incipit>
+                                <explicit>quod ora nona procliuior uergens ab occasu pronus incubat.</explicit>
+                                <bibl>
+                                    <abbr>Maass</abbr>, pp. 272-77, 285-87, 290-95.</bibl>
+                            </msItem>
                             <msItem>
                                 <locus from="122r" to="122v">122r-122v</locus>
-                                <note>Three short texts: 1) on the zodiacal signs within the calendar:<quote>Aries taurus geminus cancer<gap/> XV Kalnedis aprilis ingreditur sol in signum arietis sic et ceteri mensis in medio suo inuius cuiusque ingreditur et in alio medio finitur</quote>; followed by 2) a verse on each of the months: <quote>Respicis aprilis aries frixe Kalendas<gap/> procedunt duplices in marcia tempora pisces</quote>; and 3) on the motion of the sun and the moon: <quote>sol CCCLXV. Luna uero XXVII diebus et octo oras. Zodiacum ambitum lustrant. SIngula uero signa sol tricenis diebus et denis horis ac semisse, luna autem binis dienus et senis horis ac bisse unius hore perlabitur, quod facit sol in una die facit luna in XII dies; quod facit sol in una hora facit luna in XIII horas. Luna cotidie quatuor punctas elongabitur a sole crescens IIIIor adpropinquans decrescens</quote>.</note>
+                                <note>Three short texts: 1) on the zodiacal signs within the calendar: <quote>Aries taurus geminus cancer<gap/> XV Kalnedis aprilis ingreditur sol in signum arietis sic et ceteri mensis in medio suo inuius cuiusque ingreditur et in alio medio finitur</quote>; followed by 2) a verse on each of the months: <quote>Respicis aprilis aries frixe Kalendas<gap/> procedunt duplices in marcia tempora pisces</quote>; and 3) on the motion of the sun and the moon: <quote>sol CCCLXV. Luna uero XXVII diebus et octo oras. Zodiacum ambitum lustrant. SIngula uero signa sol tricenis diebus et denis horis ac semisse, luna autem binis dienus et senis horis ac bisse unius hore perlabitur, quod facit sol in una die facit luna in XII dies; quod facit sol in una hora facit luna in XIII horas. Luna cotidie quatuor punctas elongabitur a sole crescens IIIIor adpropinquans decrescens</quote>.</note>
                             </msItem>
                             <msItem>
                                 <locus from="122v" to="123v">122v-123v</locus>
@@ -476,6 +478,7 @@
                                 <note>List of the constellations:</note>
                                 <quote>Semispheria. Inuolutio sphere arcturus maior arcturus minor Serpens inter ambas arcturus hercules corona<gap/> anticanis quinque planete. Lacteus circulus. Presepe et asini.</quote>
                             </msItem>
+                        </msItem>
                             <msItem>
                                 <locus from="124r" to="124v">124r-v</locus>
                                 <note>Later addition: On the clothes proper for a priest.</note>

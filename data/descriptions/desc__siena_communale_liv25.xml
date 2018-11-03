@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Siena, Biblioteca comunale, L IV 25</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2018-11-03"></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="siena_liv25">
+                <msIdentifier>
+                    <settlement>Siena</settlement>
+                    <repository>Biblioteca comunale</repository>
+                    <idno>L IV 25</idno>
+                </msIdentifier>
+                <head>
+                    <title>Revised Aratus Latinus</title>
+                    <origDate notBefore="1401" notAfter="1500">s. XV</origDate>
+                    <origPlace ref="#italy">Italy</origPlace>
+                    <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus">RAL</rs></note>
+                </head>
+                <msContents>
+                    <msItem class="aratea">
+                        <locus from="1r">1r-8v</locus>
+                        <title ref="#ral">Revised Aratus Latinus<note> (fragments)</note></title>
+                        <incipit>Serpentem a iunonem ad custodienda aurea mala</incipit>
+                        <explicit><note>(8v) Pisces: </note>sunt omnes quadraginta unam<note> (6v) Aquarius: </note>de qua prefati sumus habet stellas. Capricornus.</explicit>
+                        <decoNote>Illustrations of 25 constellations, drawn in brown pen and the highly-coloured. For detailed descriptions and an analysis of the iconographic tradition see Lippincott and Blume.</decoNote>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="chart">
+                            <support>Paper</support>
+                            <extent>
+                                <measure type="leaveCount">8 fols.</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>367</height>
+                                    <width>260</width>
+                                </dimensions>
+                            </extent>
+                            <collation>The four bifolia are now in the wrong textual order. They should be read as follows: ff. 1, 2, 7, 3, 4, 8, 5, 6, containing thus the sections on Hercules to Capricornus.</collation>
+                            <condition></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout></layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <scriptNote script="textualis"></scriptNote>
+                    </scriptDesc>
+                </physDesc>
+                <history>
+                    <origin></origin>
+                    <provenance></provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters und der Renaissance. Berlin: De Gruyter, 2016, pp. 732-734.</bibl>
+                        <bibl>Photographs in the <ref target="https://iconographic.warburg.sas.ac.uk">Warburg, Iconographic Database</ref>.</bibl>
+                        <bibl>Lippincott, K. Entry in <ref target="https://www.kristenlippincott.com/the-saxl-project">Saxl Project</ref>.</bibl>
+                        <bibl>McGurk, Patrick. Astrological Manuscripts in Italian Libraries (Other than Rome). London, 1966.</bibl>
+                        <bibl>Reeve, Michael D. “Some Astronomical Manuscripts.” Classical Quarterly, 1980, 508–22.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

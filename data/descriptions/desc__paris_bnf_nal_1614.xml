@@ -44,6 +44,9 @@
                     <origPlace ref="#"/>
                     <origDate notBefore="0800" notAfter="0850"/>
                     <note type="facs">Digital facsimile available at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100325759">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -110,9 +113,10 @@
                 <msPart>
                     <msIdentifier/>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="77r" to="93v">77r-93v</locus>
                             <title ref="#ral">RAL</title>
+                            <decoNote></decoNote>
                             <msItem>
                                 <locus from="77r" to="78v">77r-78v</locus>
                                 <incipit>Arati ea quae uidentur ostensionem quoque de quibus uidentur</incipit>
@@ -201,7 +205,7 @@
                                 <!--<note>Early modern gloss on <locus from="77v">77v</locus> next to a line with text ‘Ego quipped ea quae derelict sunt..’ reading <quote>Non fuit aratus scriptus huius libri</quote>.</note>-->
                             </msItem>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="93v" to="94r">93v-94r</locus>
                             <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                             <rubric>Excerptum de astrologia</rubric>
@@ -209,7 +213,7 @@
                             <explicit>quia ad ipsum usque decurrit accipiens.</explicit>
                             <note>The text was probably accompanied by a depiction of the planisphere on <locus from="94v">94v</locus>, which was later cut out, leaving a large circular hole in the middle of the folio. This caused also text damage on the recto.</note>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="95r" to="99">95r-99</locus>
                             <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                             <rubric>De ordine ac positione stellarum per signa</rubric>

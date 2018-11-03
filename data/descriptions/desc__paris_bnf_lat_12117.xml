@@ -118,6 +118,8 @@
                     <origPlace ref="#st_germain_des_pres">Saint-Germain-des-Prés (?)</origPlace>
                     <origDate notBefore="1051" notAfter="1100">s. XI<hi rend="sup">2</hi> (ca. 1063)</origDate>
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9076834n">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                 </head>                
             <msContents>
                 <msItem>
@@ -311,7 +313,7 @@
                     <locus from="129r">129r</locus> 	
                     <note>blank.</note>
                 </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="129v" to="130r">129v-130r</locus> 	
                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                     <note type="title">The text is preceded by a short note also found in <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref> 
@@ -332,7 +334,7 @@
                     <incipit>Spera caeli quater senis horis dum reuoluitur omnes stele fixe celo</incipit>
                     <explicit>qui erectus ad superna ducitur radius ad ima mersus hiemalis dicitur.</explicit>
                 </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="131r" to="137v">131r-137v</locus> 	
                     <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
                     <incipit>Est quidem hic ordo et positio syderum</incipit>

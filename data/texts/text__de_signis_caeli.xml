@@ -6,6 +6,10 @@
       <fileDesc>
          <titleStmt>
             <title>De signis caeli</title>
+            <respStmt>
+               <resp>Author:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -24,7 +28,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,10 +39,10 @@
                <title>Introduction</title>
             </head>            
             <p/>             
-            <p>habet autem helix arcturus maior in capite stellas obscuras VII, in spatula unam, super pectus unam, in pede unam, in dorso unam, in tibia anteriore duas, super caudam tres. sunt omnes XVI.</p>
+            <!--<p>habet autem helix arcturus maior in capite stellas obscuras VII, in spatula unam, super pectus unam, in pede unam, in dorso unam, in tibia anteriore duas, super caudam tres. sunt omnes XVI.</p>
             <p>Fenix qui et arctutus minor et aq uibusdam canis cauda uocatur habet autem per unumquemque angulum in humero splendidam stellam unam, in cauda III, sunt autem intra ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
             <p>Draco qio continet utrosque arcturos helicis superuoluit caput phenicis circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. sunt omnes XV.</p>
-            <p>Hercules qui stans genu flexu. Habet aautem in capite stellam unam, in utroque humero stellam unam, in cubito sinistro unam, in dextro femore duas, in genu dextro I, in eadem tibia unam, in dextra manu I, et in ropolo quem tenet in eadem manu unam.</p>
+            <p>Hercules qui stans genu flexu. Habet aautem in capite stellam unam, in utroque humero stellam unam, in cubito sinistro unam, in dextro femore duas, in genu dextro I, in eadem tibia unam, in dextra manu I, et in ropolo quem tenet in eadem manu unam.</p>-->
          </div>
          <div>
             <head>
@@ -57,12 +61,12 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p>
-               <list>
+               <list xml:id="de_signis_caeli__msslist">
                   <item><ref target="desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
-                  <item><ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (1v-7v)</item>
+                  <item><ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>
                   <item><ref target="desc__dijon_bm_488">Dijon, Bibliothèque municipale, Ms 488</ref></item>
                   <item>Durham, The Dean and Chapter Library Hunter Ms. 100</item>
+                  <item>Freiburg-im-Breisgau, Archiv des erzbischöflichen-Ordinariats, Ms 35</item>
                   <item><ref target="desc__laon_bm_422">Laon, Bibliothèque municipale, Ms. 422</ref></item>
                   <item><ref target="desc__london_bl_harley_2506">London, British library, Harley 2506</ref> (as scholia ff. 36ra-44v)</item>
                   <item><ref target="desc__montecassino_archivo_3">Montecassino, Archivo della Badia 3</ref></item>
@@ -77,7 +81,6 @@
                   <item>Venezia, Biblioteca Marciana Lat. VIII 22</item>
                   <item><ref target="desc__wolfenbuettel_hab_gud_lat_132">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
                </list>
-            </p>
          </div>
       </body>
    </text>

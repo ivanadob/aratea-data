@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cicero: Aratea</title>
+            <respStmt>
+               <resp>Author:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                        <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+                    </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher></publisher>
+            <availability>               
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Generally admired for his prosaic works, <rs type="person" ref="#cicero">Cicero</rs> is less now-a-days popular and admired as a poet. Nevertheless even this lesser popularity results in an extensive amount of scholarship devoted to it. The aim of this study, however, is not Cicero’s poetic language, his style, or meter, about which there have been extensive studies. The main goal of the current research is to study the manuscript tradition of the text. In this respect it should be worth noting any characteristics of Cicero's translation, characteristics that might have delineated its (peculiar) medieval transmission and reception.</p>
+               <p>On the first place let us observe the general information about the creation of the translation. <rs type="person" ref="#aratus">Aratus</rs>’ Phaenomena constitutes of 1154 verses divided in two main part preceded by a proemium. The first part examined the constellations, their relative position in respect to each other, the celestial circles, the simultaneous rising and setting of constellations, while the second part is devoted to the signs used for weather forecast. From this translation today we posses one verse from the premium, 480 verses from the first part, and another six fragment or 27 verses from the second part. In the modern edition of the Aratea these sections are conveniently placed together, but the medieval tradition of it incorporated solely the 480 verses from the first part. As it is found in all manuscripts, the text starts with the end of the description of the constellation Aries and continues till the end of the first part. The obvious conjecture is that during its early life the poem suffered a serious physical damage resulting in the lost of the first 229 verses which included the proemium and the text describing the first eighteen constellations from the northern hemisphere.</p>
+               <list>
+                  <item>Proemium (only one verse fragment from DND, Aratus vv.1-18)</item>
+                  <item>I. Phaenomena, map of the heavenly sphere</item>
+                  <item>1) Northern constellations (starting from Aries Cicero’s vv.1-101 = Aratus vv.19 (Aries:229-)320)</item>
+                  <item>2) Southern constellations (Cicero vv.102-222 = Aratus’ vv. 320-453)</item>
+                  <item>3) Planets (Cicero vv.223-236, Aratus vv.454-461)</item>
+                  <item>4) Circles (Cicero vv.237-340 = Aratus vv.462-558)</item>
+                  <item>5) Simultaneous rising and setting of constellations (Cicero vv.341-480 = Aratus vv.559-757)</item>
+                  <item>II. Diosemeia, (Cicero’s Prognostics), signs of good and bad weather (only 6 fragments, Aratus vv.758-1154)</item>
+               </list>
+               <p>Although today only fragments of the second part, the Prognostics have survived, it is very likely that Cicero translated this part in whole. Evidences for that are his own words in a letter addressed to Atticus, where one reads “expect very soon my Prognostics and some short speeches.”3 This letter, however, was written in June 60 BC, which poses a problem for the general chronology of translating the Phaenomena. Jean Soubiran, who edited the text, suggested three hypotheses: a) that the whole poem was translated in 89 BC b) that the whole poem was translated in 89 BC but in 60 BC the second part was revised c) that in 89 BC only the first part was translated, while the second part, the Diosemeia, was rendered only thirty years later in 60 BC.4 Whatever the case it is evident that by the year 60 BC Cicero was able to send a copy of his Prognostics and by the year 44 BC he incorporated fragment from it in his De divinatione.</p> 
+               <p>Of greater importance for the current study on the <term>Nachleben</term> of the work, however, is the way Cicero and later readers treated the two parts. Soubiran gave notice to the citations by Priscian, the Latin grammarian from the sixth century. In the latter Institutiones grammaticae he used verses from Cicero’s Aratea strictly distinguishing between the first part, referred to as “ad Arato”, and the second part referred to as “in Prognosticis”. As mentioned above, in some of the manuscripts of the Phaenomena there is a division between the two parts after v. 731. There is than the possibility that Cicero also possessed two scrolls of the poem, one for each part. It is possible then that also Cicero’s translation took the shape of two separate parts, if not even separate works, the transmission and survival of which was also individual. Consequently, the Prognostics of Cicero was lost some time after the sixth century. The six fragments from it to have survived are quotations from the already mentioned Institutiones grammaticae of Priscian and from Cicero’s De divinatione.</p> 
+               <p>In addition to that there are also 33 fragments covering 63 whole or partial verses from the first part of the poem. These are found in Cicero’s De natura deorum. </p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>Cicéron, Les Aratea. Edited by Victor Buescu. Paris: Les Belles Lettres, 1941.</bibl>
+                  <bibl>Marci Tullii Ciceronis Poetica Fragmenta. Edited by Antonio Traglia. (Cicero: [Werke] Opera Omia Quae Extant). Milan: Mondadori, 1963.</bibl>
+                  <bibl>Marcus Tullius Cicero. Aratea. Fragments Poétiques. Edited by Jean Soubiran. Les belles lettres, 1972.</bibl>
+                  <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <bibl>Bing, Peter. “Aratus and His Audiences.” Materiali e Discussioni 31 (1993): 99–109.</bibl>
+               <bibl>Büchner, Karl. “M. Tullius Cicero (Fragmente).” In Realencyclopädie der classischen Altertumswissenschaft, VII A. I:1236–74. Stuttgart: Druchenmüller, 1939.</bibl>
+               <bibl>Ferrari, Walter. “Cicerone e Arato.” Studi Italiani di Filologia Classica 17 (1940): 77–96.</bibl>
+               <bibl>Gee, Emma. “Cicero’s Astronomy.” Classical Quarterly 51, no. 2 (2001): 520–36.</bibl>
+               <bibl>———. “Quintus Cicero’s Astronomy.” Classical Quarterly 57, no. 2 (2007): 565–85.</bibl>
+               <bibl>Hübner, Wolfgang. “Die Rezeption Der Phainomena Arats in Der Lateinischen Literatur.” In Wissensvermittlung in Dichterischer Gestalt, edited by Marietta Horster and Christiane Reitz, Steiner., 133–54. Stuttgart, 2005.</bibl>
+               <bibl>Hurka, Florian. “Arat Und Aratea.” In Der Neue Pauly - Supplemente, Vol. 7, n.d.</bibl>
+               <bibl>Kauffmann. "De Hygini memria scholiis in Ciceronis Aratum Herleianis servata." Breslauer philologische Abbandlungen 3.4 1888, 24-36. </bibl>
+               <bibl>Knox, Peter E. “Cicero as a Hellenistic Poet.” Classical Quarterly 61, no. 1 (2011): 192–204.</bibl>
+               <bibl>Landolfi, Luciano. “Cicerone, Arato E Il Mito Delle Età.” Quaderni Urbinati Di Cultura Classica 34, no. 1 (1990): 87–98.</bibl>
+               <bibl>Leuthold, Werner. Die Übersetzung der Phaenomena durch Cicero und Germanicus. Zürich: Leemann, 1942.</bibl>
+               <bibl>Lewis, Anne-Marie. “Aratus, Phaenomena 443-49: Sound and Meaning in a Greek Model and Its Translations.” Latomus 44 (1985): 805–10.</bibl>
+               <bibl>———. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983.</bibl>
+               <bibl>———. “Rearrangement of Motif in Latin Translation. The Emergence of a Roman Phaenomena.” In Studies in Latin Literature and Roman History 4, edited by Carl Deroux, 210–33. Brussels: Latomus, 1986.</bibl>
+               <bibl>Mantovanelli, Paolo. Gli Aratea di Cicerone. Per un commento al proemio (frr. 1-2) e alla mappa delle costellazioni (frr. 3-34,222). Padova Digital University Archive, 2013. http://paduaresearch.cab.unipd.it/6062/.</bibl>
+               <bibl>Reeve, Michael D. “Some Astronomical Manuscripts.” Classical Quarterly, 1980, 508–22.</bibl>
+               <bibl>Siebengartner, Andrew. “Stoically Seeing and Being Seen in Cicero’s Aratea.” In Greek into Latin from Antiquity until the Nineteenth Century. Warburg Institute Colloquia, 18, 97–116. London, Turin: Nino Aragno Editore, 2012.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+               <list xml:id="cicero__msslist">
+                  <item><ref target="desc__cambridge_15_32.xml">Cambridge, Trinity College, MS R 15.32</ref></item>
+                  <item><ref target="desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
+                  <item>Göttweig, Stiftsbibliothek, Cod. 146 (s. XV)</item>
+                  <item>Leiden, Bibliotheek der Rijksuniversiteit, MS VLQ 121</item>
+                  <item><ref target="desc__london_bl_cotton_tib_b_v.xml">London, BL, Cotton Tiberius B.V.</ref></item>
+                  <item><ref target="desc__london_bl_cotton_tib_c_i.xml">London, BL, Cotton Tiberius C.I.</ref></item>
+                  <item><ref target="desc__london_bl_harley_645.xml">London, BL, Harley 647</ref></item>
+                  <item><ref target="desc__london_bl_harley_2506.xml">London, BL, Harley 2506</ref></item>
+                  <item><ref target="desc__milano_ambrosiana_d52.xml">Milano, Biblioteca Ambrosiana, Ms D 52</ref></item>
+                  <item>Montpellier,Bibliothèque interuniversitaire, Faculté de Médecine, MS H. 452 (s. XV)</item>                  
+                  <item>Vatican, BAV, Reg. lat. 1324 (s. XV)</item>
+               </list>
+            </head>
+            
+         </div>
+      </body>
+  </text>
+</TEI>

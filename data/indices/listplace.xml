@@ -107,6 +107,9 @@
                         <tei:geo>51.05 3.71667</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="italy">
+                    <placeName ref="https://www.geonames.org/3175395">Italy</placeName>
+                </place>
                 <place xml:id="klosterneuburg">
                     <placeName ref="http://www.geonames.org/2773913">Klosterneuburg</placeName>
                 </place>
