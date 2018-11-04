@@ -65,128 +65,17 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
-         </div>
-         <div>
-            <head>
-               <title>Later Manuscripts</title>
-            </head>
             <list>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Munich</settlement>
-                        <repository>Bayerische Staatsbibliothek</repository>
-                        <idno>Clm 4432</idno>
-                     </msIdentifier>
-                     <head>
-                        <title/>
-                        <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
-                        <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
-                                </note>
-                     </head>
-                     <msContents>
-                        <summary/>
-                        <msItem>
-                           <locus>165r-166r</locus>
-                           <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                        </msItem>
-                        <msItem>
-                           <locus>166r-168r</locus>
-                           <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r</locus>
-                           <title ref="#ad_boreae">De sideribus</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r-v</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl/>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Budapest</settlement>
-                        <repository>University Library</repository>
-                        <idno>Lat. 21</idno>
-                     </msIdentifier>
-                     <msContents>
-                        <msItem>
-                           <locus>1r-75r</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl>
-                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Venice</settlement>
-                        <repository>Biblioteca Nazionale Marciana</repository>
-                        <idno>Lat. X, 119</idno>
-                        <altIdentifier>
-                           <idno>3762</idno>
-                        </altIdentifier>
-                     </msIdentifier>
-                     <head>
-                        <title>Mytohlogical collection</title>
-                        <origDate notBefore="1401" notAfter="1500">s. XV</origDate>
-                     </head>
-                     <msContents>
-                        <msItem>
-                           <locus>62v-65r</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl>
-                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
-                           <bibl>Valentinelli, vol. 6, p. 59.</bibl>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Bergamo</settlement>
-                        <repository>Biblioteca civica Angelo Mai</repository>
-                        <idno>MA 329</idno>
-                     </msIdentifier>
-                     <head>
-                        <origDate notBefore="1451" notAfter="1500">s. XV<hi rend="sup">2</hi>
-                                </origDate>
-                     </head>
-                     <msContents>
-                        <msItem>
-                           <locus>59r-62r</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl>
-                                        <note>Indormation based on </note>Hadravova (2017), 321-322.</bibl>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
+               <item><ref target="desc__st_gall_sb_250.xml">St. Gall, Stiftsbibliothek, Cod. 250</ref></item>
+               <item><ref target="desc__valenciennes_bm_343.xml">Valenciennes, BM, 343</ref></item>
+               <item><ref target="desc__zuerich_zb_c62.xml">Zürich, Zentralbibliothek, C 62</ref></item>
+               <item>Zürich, Zentralbibliothek, Car. C 176</item>
+               <item><ref target="desc__munich_bsb_clm4432.xml">Munich, Bayerische Staatsbibliothek, Clm 4432</ref></item>
+               <item>Budapest, University Library, Lat. 21 (ff. 1r-75r)</item>
+               <item>Venice, Biblioteca Nazionale Marciana, Lat. X, 119 (ff. 62v-65r)</item>
+               <item>Bergamo, Biblioteca civica Angelo Mai, MA 329 (s. XV) (ff. 59r-62r</item>
             </list>
+            <p>In Leiden, UB, VLQ 75 and Munich, BSB, Clm 14569 (ff. 29r-32v) only More christiano.</p>
          </div>
       </body>
    </text>

@@ -27,7 +27,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-            <change when="2018-07-13"/>
+            <change when="2018-11-04"/>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -41,8 +41,8 @@
                 <head>
                     <title>Boethius: De arithmetica; RAL; Excerptum de astrologia; De ordine ac positione</title>
                     <note type="caption"/>
-                    <origPlace ref="#"/>
-                    <origDate notBefore="0800" notAfter="0850"/>
+                    <origPlace ref="#st_martin_tours">Abbey Saint-Martin Tours (?)</origPlace>
+                    <origDate notBefore="0800" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                     <note type="facs">Digital facsimile available at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100325759">gallica.bnf.fr</ref>.</note>
                     <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
@@ -59,12 +59,12 @@
                             <extent>
                                 <measure type="leavesCount" quantity="99">99 fols.</measure>
                                 <dimensions type="leaf" unit="mm">
-                                    <height/>
-                                    <width/>
+                                    <height>350</height>
+                                    <width>235</width>
                                 </dimensions>
                             </extent>
                             <foliation/>
-                            <collation>The manuscript constist of at least two codicological units as becomes clear by the different quire marks. In the first part O (f.8v), P (f.16v), Q (f.24v), R (f.32v), S (f.38v), T (f.46v) and V (f.54v); in the second part I (f.82v), II (f.88v), and III (f.96v). Consequently a tentative formula for the second part would look like as follows: I<hi rend="sup">6</hi> (ff.77-82), II<hi rend="sup">7-1</hi> (ff.82-88, missing one after f.83), III<hi rend="sup">8</hi> (ff.89-96), IV<hi rend="sup">4-1</hi> (ff.97-99, missing one after f. 99).</collation>
+                            <collation>The manuscript constist of at least two codicological units as becomes clear by the different quire marks. In the first part O (f.8v), P (f.16v), Q (f.24v), R (f.32v), S (f.38v), T (f.46v) and V (f.54v); in the second part I (f.82v), II (f.88v), and III (f.96v). Consequently a tentative formula for the second part (with the Aratea texts) would look like as follows: I<hi rend="sup">6</hi> (ff.77-82), II<hi rend="sup">7-1</hi> (ff.82-88, missing one after f.83), III<hi rend="sup">8</hi> (ff.89-96), IV<hi rend="sup">4-1</hi> (ff.97-99, missing one after f. 99).</collation>
                             <condition>
                                 <p>Missing at least two folia (after f.83 and f.99). Damage by ff. 88, 94 and 97 (partially cut or torn).</p>
                             </condition>
@@ -84,12 +84,12 @@
                             <p/>
                         </binding>
                     </bindingDesc>
-                </physDesc>
+                </physDesc>                
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
-                        <bibl>
-                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 454-460.</bibl>
+                        <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters: der gemalte Himmel zwischen Wissenschaft und Phantasie. Berlin: Akademie Verlag, 2012, pp. 454-460.</bibl>
+                        <bibl>McGurk, Patrick, and J. Nelson. “Carolingian Astrological Manuscripts.” In Charles the Bald. Court and Kingdom, edited by M. Gibson, 317–32. Oxford, 1981.</bibl>
                     </listBibl>
                 </additional>
                 <msPart>
@@ -101,14 +101,25 @@
                             <author ref="#boethius">Boethius</author>
                             <incipit>Domino Patri Symmacho Boethius In dandis accipiendisque muneribus ita recte.</incipit>
                             <explicit>differentia eius autem disciptionis subter exemplar abiecimus.</explicit>
-                            <note>Interlinear glosses and marginal; glosses diminish in quantity after the first 6 folios and disappear completely.<!--
+                            <note>Interlinear and marginal glosses with <term>signes de renvoi</term>; diminish in quantity after the first six folios and then disappear completely.<!--
                 Remarks: 28-9 lines, legible, ample interliner space;<locus from="2r">2r</locus>ends prologue expl: auctor merito quam probator. <locus from="2v" to="4v">2v-4v</locus> table of the chapters in the two books; <locus from="5r">5r</locus>– inc. <quote>inter omnes priscae auctoritatis uiros qui pythagora duce puriore mentis...</quote>; diagrams in the text body, rarely in the margin--></note>
+                            <bibl>Illo Humphrey, “Boethi De institutione arithmetica libri duo: Étude proto-philologique”, in Carmina Philosophiae (Journal of the International Boethius Society, USA), n° 14, 2005, pp. 57–158.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="75v" to="76r">75v-76r</locus>
-                            <note>Diagrams: f.<locus from="75v">75v</locus> tree diagram  about arithmetic; f.<locus from="76r">76r</locus> diagrams on the division of science <!--sapientia – essentia in two branches magnitudo (with astronomia and geometria as sub-branches) and multitudo (musica and arithmetica) arithmetica in two par/ impar-…; -->: f.<locus from="76v">76v</locus> Title <quote>in ulterior pagina description incipit geometria</quote> followed by four diagramatic tables.</note>
+                            <note type="title">Diagrams: f.<locus from="75v">75v</locus> tree diagram  about arithmetic; f.<locus from="76r">76r</locus> diagrams on the division of science <!--sapientia – essentia in two branches magnitudo (with astronomia and geometria as sub-branches) and multitudo (musica and arithmetica) arithmetica in two par/ impar-…; -->: f.<locus from="76v">76v</locus> Title <quote>in ulterior pagina description incipit geometria</quote> followed by four diagramatic tables.</note>
                         </msItem>
                     </msContents>
+                    <history>
+                        <origin>This manuscript was once part of a larger MS produced in <origPlace>Tours</origPlace>. In its original form it consisted of 20 mostly quarto-quires of parchment, with quire-marks on the verso of the last folio - A to V. This MS is currently divided into 4 parts: 
+                            <list>
+                                <item n="1">Paris, BnF, nouv. acq. lat. 1612 (22 fols.): Quires A, B and C incl. Bede, DNR and varia on the computus;</item>
+                                <item n="2">Tours, Saint-Martin, 334 (49 fols.): Quires D, E, F and the first 6 folios from quires G and 7 last folios from quire H, quire I, and 4 folios signed K;</item>
+                                <item n="3">Paris, BnF, nouv. acq. lat. 1613 (23 fols.): The last two folios of quire G and the first folium of quire H, quires L, M and N. Melange about the computus, the chronology, astronomy, the weights and measures.</item>
+                                <item n="4">Paris, BnF, nouv. acq. lat. 1614 (99 fols.): Quires O to V ; 99 fols. Arithmetic of Boethius, followed (in a separate codicological unit) by Aratea.</item>
+                            </list></origin>
+                        <provenance></provenance>
+                    </history>
                 </msPart>
                 <msPart>
                     <msIdentifier/>
@@ -121,6 +132,7 @@
                                 <locus from="77r" to="78v">77r-78v</locus>
                                 <incipit>Arati ea quae uidentur ostensionem quoque de quibus uidentur</incipit>
                                 <explicit>quo ab eo dicta sunt.</explicit>
+                                <note>Marginal note on f. 77v <quote>Non fiut aratus scriptor huius libri</quote>.</note>
                             </msItem>
                             <msItem>
                                 <locus from="78v">78v</locus>

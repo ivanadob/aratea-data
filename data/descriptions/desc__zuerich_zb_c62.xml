@@ -35,7 +35,7 @@
      </teiHeader>
    <text>
       <body>
-         <msDesc xml:lang="eng" xml:id="ab">
+         <msDesc xml:lang="eng" xml:id="zurich_zb_c62">
             <msIdentifier>
                <settlement>Zürich</settlement>
                <repository>Zentralbibliothek</repository>
@@ -50,8 +50,9 @@
             <head>
                <title>Coomposite manuscript</title>
                <origDate notBefore="0901" notAfter="1200">s. X-XII</origDate>
-               <origPlace/>
+               <origPlace ref="#st_gall">St. Gall</origPlace>
                <note type="facs">Digital facsimile at <ref target="https://www.e-codices.unifr.ch/de/list/one/zbz/C0062">e-codices</ref>.</note>
+               <note type="aratea"><rs type="text" ref="#text__anonymus_sangallensis.xml">Anonymus Sangallensis</rs></note>
             </head>
             <physDesc>
                <objectDesc form="codex">
@@ -124,6 +125,7 @@
                <head>
                   <title>Computistical-astronomical collection</title>
                   <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                  <origPlace ref="#st_gall">St. Gall</origPlace>
                </head>
                <msContents>
                   <msItem>
@@ -155,9 +157,9 @@
                         </incipit>
                      </msItem>
                   </msItem>
-                     <msItem>
+                     <msItem class="aratea">
                         <locus from="213v" to="215r">213v-215r</locus>
-                        <title ref="#anonymus_sangallensis"/>
+                        <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
                         <incipit>Herodius dicit elicem licaonis fuisse filiam</incipit>
                         <explicit>absides eius ultima in capricorno est.</explicit>
                      </msItem>
@@ -248,6 +250,21 @@
                      </msItem>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="fascicle">
+                     <supportDesc material="perg">
+                        <support>Parchment</support>
+                        <extent>
+                           <measure type="leaveCount" quantity="31">31 fols.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <height>240</height>
+                              <width>192</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               
             </msPart>
          </msDesc>
       </body>

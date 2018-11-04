@@ -41,9 +41,8 @@
                <idno>Clm 14569</idno>
             </msIdentifier>
             <head>
-               <title/>
-               <origDate notBefore="1051" notAfter="1150">s. XI<hi rend="sup">1</hi>-XII<hi rend="sup">2</hi>
-                    </origDate>
+               <title>Astronomical-computistical collection</title>
+               <origDate notBefore="1051" notAfter="1150">s. XI<hi rend="sup">1</hi>-XII<hi rend="sup">2</hi></origDate>
                <origPlace ref="#st_emmeram">St. Emmeram</origPlace>
                <note type="facs">Digital facsimile at <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00036886-4">Münchener DigitalisierungsZentrum</ref>
                     </note>

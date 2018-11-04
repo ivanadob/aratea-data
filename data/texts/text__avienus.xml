@@ -38,19 +38,36 @@
             <head>
                <title>Editions</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Avienus, Rufius Festus. Les Phénomènes d’Aratos. Edited by Jean Soubiran. 2. tirage. Paris: Les Belles Lettres, 2003.</bibl>
+               <bibl><ref target="https://archive.org/details/rufifestiavieni00aviegoog">Rufi Festi Avieni Aratea</ref>. Edited by Alfred Breysig. Leipzig, 1882.</bibl>
+               <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>
-               <title>Literature</title>
+               <title>Literature (selection)</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Bellandi, Franco, Emanuele Berti, and Maurizio Ciappi. Iustissima Virgo: il mito della Vergine in Germanico e in Avieno. Pisa: Giardini, 2001.</bibl>
+                  <bibl>Daigl, Nikolaus. Avienus: Studien Über Seine Sprache, Seine Metrik Und Sein Verhältnis Zu Vergil. Erlangen: Junge &amp; Sohn, 1903.</bibl>
+                  <bibl>Fiedler, Martin. Kommentar zu V. 367-746 von Aviens Neugestaltung der Phainomena Arats. Walter de Gruyter, 2004.</bibl>
+                  <bibl>Jean Soubiran. “Sur Les Deux Manuscrits d’Aviénus.” Revue de Philologie, de Littérature et d’Histoire Anciennes 49 (1975): 217–26.</bibl>
+                  <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. http://hdl.handle.net/11375/14244.</bibl>
+                  <bibl>Martin Friedler. “Postumius Rufinus Festus Signo Avienus 1900-2011.” Lustrum 53 (2011): 233–93.</bibl>
+                  <bibl>Sieg, Gustavus. De Cicerone Germanico Avieno Arati Interpretibus (Dissertatio Inauguralis). Halle, 1886.</bibl>
+                  <bibl>Weber, Dorothea. Aviens Phaenomena, eine Arat-Bearbeitung aus der lateinischen Spätantike. Wien: VWGÖ, 1986.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list>
+               <item><ref target="desc__milano_ambrosiana_d52.xml">Milano, Biblioteca Ambrosiana, Manoscritti, D 52 inf.</ref></item>
+               <item><ref target="desc__vienna_onb_107.xml">Vienna, Österreichische Nationalbibliothek, Cod. 107</ref></item>
+               <item>Editio princeps: <ref target="https://data.cerl.org/istc/ia01432000">Avienus, Varia</ref> (Venice: Antonius de Strata, 1488)</item>
+            </list>
          </div>
       </body>
    </text>

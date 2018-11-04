@@ -43,6 +43,7 @@
                     <origPlace ref="#bobbio">Bobbio</origPlace>
                     <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
                     </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__avienus.xml">Avienus, Aratea</rs></note>
                 </head>                
             <msContents>
                 <msItem>
@@ -213,7 +214,7 @@
                             <abbr>Munk Olsen, Catalogue 2</abbr>, p. 88.</bibl>
                    <bibl>
                             <abbr>Munk Olsen, L’ étude 4,2</abbr>, p. 20-1, 119, 120.</bibl>
-                   <bibl>Trenkler, Ernst. "Wolfgang Lazius, Humanist und Büchersammler." <title type="journal">Biblos</title> 27 (1978): 186-203.</bibl>
+                   <bibl>Trenkler, Ernst. "Wolfgang Lazius, Humanist und Büchersammler." Biblos 27 (1978): 186-203.</bibl>
                   </listBibl>
             </additional>
          </msDesc>
