@@ -43,7 +43,7 @@
                     <title>Miscellany on music, geometry and astronomy</title>
                     <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi></origDate>
                     <origPlace>Southern Germany or Austria</origPlace>
-                    <note type="aratea"><rs type="text" ref="#text__hyginus">Hyginus, De astronomia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia">Hyginus, De astronomia</rs></note>
                 </head>
                 <msContents> 
                     <msItem>
@@ -357,6 +357,7 @@
                     <listBibl>
                         <head>Selected bibliography:</head>
                         <bibl>Saxl, see in Archive reference. pp. 69-75.</bibl>
+                        <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters. Vol. I, 1: Text und Katalog der Handschriften. Berlin: Akademie Verlag, 2012, pp. 536-540.</bibl>
                         <bibl>Hermann, H. J. Die illuminierte Handschriften und Inkunabeln der Nationalbibliothek in Wien. Vol. 2: Die deutschen romanischen Handschriften (Leipzig, 1926), pp. 261-270.</bibl>
                         <bibl>The Musica of Hermannus Contractus. Translated and edited by Leonard Ellinwood. Revised with a new introduction by John L. Snyder. University of Rochester Press,2015, pp. 47-51.</bibl>
                     </listBibl>
