@@ -46,6 +46,8 @@
                     <origPlace ref="#st_lambrecht">Sankt Lambrecht</origPlace>
                     <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                     <note type="facs">Digital facsimile at <ref target="http://sosa2.uni-graz.at/sosa/katalog/katalogisate/297.html">ub.uni-graz.at</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                 </head>
                 <msContents>
                     <msItem>
@@ -55,7 +57,7 @@
                         <rubric>Incipit liber Bede presbyteri de naturis rerum.</rubric>
                         <msItem>
                             <locus from="1r">1r</locus>
-                            <title type="supplied">Verse.</title>
+                            <note type="title">Verse.</note>
                             <incipit>Naturas rerum uarias lanetis et aeui</incipit>
                             <explicit>Qui legis astra super mente tuere diem.</explicit>
                         </msItem>
@@ -86,13 +88,13 @@
                         <note>Many contemporary interlienar glosses to the first chapters (untill f.29r).</note>
                         <decoNote>Decorated initials on ff. 9v, 11v. Diagram on f. 18v illustrating the shadow cast onto the moon during night.</decoNote>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="112r" to="113r">112r-113r</locus>
                         <title ref="#excerptum_de_astrologia">Excerptum de astronomia</title>
                         <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
                         <explicit>ad ipsum usque decurrit accipiens.</explicit>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="113r" to="115r">113r-115r</locus>
                         <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
                         <incipit>E<ex>st</ex> quidem hic ordo posicioque syderum quae caelo plurium coaceruatione stellarum insignum</incipit>

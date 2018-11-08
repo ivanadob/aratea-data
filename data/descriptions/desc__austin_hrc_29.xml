@@ -95,14 +95,14 @@
                         <note type="title">Later filling text: short medical recipes.</note>
                         <incipit>Antidatum quod stomacho prodest et uentrem sine conturbatione soluet</incipit>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="25v" to="26v">25v-26v</locus>
                         <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                         <incipit>Duo sunt extremi uertices mundi quos appelant polos septentrionis et austri</incipit>
                         <explicit>ad ipsum usque decurrit accipiens.</explicit>
                         <decoNote>An unfinished drawing of a planisphere at the top left of<locus from="25v">f. 25v</locus>.</decoNote>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="26v" to="31r">26v-31r</locus>
                         <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                         <incipit>

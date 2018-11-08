@@ -47,6 +47,9 @@
                     <origPlace>France (?)</origPlace>
                     <origDate notBefore="1301" notAfter="1400">s. XIV</origDate>
                     <note type="facs">Digitised microfilm available at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100342892/f1.item">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -87,18 +90,17 @@
                         <locus from="50v" to="64v">50v-64v</locus>
                         <note>blank</note>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="65r" to="66r">65ra-66ra</locus>
-                        <author ref="#" rend="attributet">Aratus</author>
-                        <title ref="#excerptum_de_Astrologia">Excerptum de astrologia Arati</title>
+                        <title ref="#excerptum_de_astrologia">Excerptum de astrologia Arati</title>
                         <rubric>Incipit liber Arati de ymaginibus celi et ordine earum constellatione</rubric>
                         <incipit>
                             <add>D</add>uo sunt extremi uertices mundi</incipit>
                         <explicit>Usque decurrit accipiens.</explicit>                                          
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="66r" to="72r">66ra-72ra</locus>
-                        <title>De ordine ac positione stellarum in <unclear>sisius</unclear> signis</title>
+                        <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in <unclear>sisius</unclear> signis</title>
                         <incipit>
                             <add>E</add>st quidem hic ordo et posicio syderum</incipit>
                         <explicit>Anticanus habet stellas iii.</explicit>
@@ -110,7 +112,7 @@
                     </msItem>
                     <msItem>
                         <locus from="73r" to="75v">73ra-75v</locus>
-                        <title>Excerpt from RAL on <rs ref="#planetae">planets</rs>, <rs ref="#lacteus_circulus">milky way</rs> and on the <rs ref="#zodiacus_circulus">zodiac</rs>
+                        <title ref="#ral">Excerpt from RAL on <rs ref="#planetae">planets</rs>, <rs ref="#lacteus_circulus">milky way</rs> and on the <rs ref="#zodiacus_circulus">zodiac</rs>
                         </title>
                         <rubric>Quedam dicta Ysidori de planetis</rubric>
                         <incipit>

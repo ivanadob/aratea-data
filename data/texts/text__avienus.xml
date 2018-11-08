@@ -63,7 +63,7 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <list>
+            <list xml:id="avienus__msslist">
                <item><ref target="desc__milano_ambrosiana_d52.xml">Milano, Biblioteca Ambrosiana, Manoscritti, D 52 inf.</ref></item>
                <item><ref target="desc__vienna_onb_107.xml">Vienna, Österreichische Nationalbibliothek, Cod. 107</ref></item>
                <item>Editio princeps: <ref target="https://data.cerl.org/istc/ia01432000">Avienus, Varia</ref> (Venice: Antonius de Strata, 1488)</item>

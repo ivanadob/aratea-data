@@ -66,7 +66,9 @@
                     <origPlace ref="#luxeuil">Luxeuil</origPlace> (?) or <origPlace ref="#saint_bertin">Saint-Bertin(?)</origPlace>
                     <origDate notBefore="0986" notAfter="1015">s. X<hi rend="sup">ex</hi>-XI<hi rend="sup">in</hi>
                     </origDate>
-                    Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0088">e-codices - Virtual Manuscript Library of Switzerland</ref>
+                    <note type="facs">Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0088">e-codices - Virtual Manuscript Library of Switzerland</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli">De signis caeli (as scholia)</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>

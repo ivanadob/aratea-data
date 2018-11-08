@@ -48,6 +48,8 @@
                     <origDate notBefore="0950" notAfter="1050">s. X<hi rend="sup">2</hi>
                     </origDate> (with later additions)
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10224563x">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea with Scholia Basileensia</rs></note>
                 </head> 
             <physDesc>
                <objectDesc form="codex">
@@ -631,13 +633,13 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="168r" to="168v">168r-v</locus>
                             <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                             <incipit>Duo sunt extremi uertices mundi</incipit>
                             <explicit>ad ipsum usque currit accipiens.</explicit>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="168v" to="171v">168v-171v</locus>
                             <author ref="#germanicus">Germanicus</author>
                             <title ref="#germanicus_aratea">Aratea<note> (O family vv. 1-146)</note>
@@ -648,7 +650,7 @@
                                 <incipit>Ab ioue principium magno deduxit aratus</incipit>
                                 <explicit>Vatibus ignotis priscis sine honore feruntur.</explicit>
                             </msItem>
-                            <msItem>
+                            <msItem class="aratea">
                                 <locus from="168v" to="171v">168v-171v</locus>
                                 <title ref="#scholia_basileensia">Scholia Basileensia</title>
                                 <incipit>Quaeritur quare ab ioue coepit et non a musis</incipit>

@@ -278,7 +278,7 @@
                             <note type="title">Excerpts from <title ref="#libri_computi">Libri computi</title> (V.)</note>
                             <bibl>
                                 <abbr>Borst, Schriften</abbr>, Vol. 3, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1251">1251</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1273">1273</ref>.</bibl>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="23r" to="26r">23r-26r</locus>
                             <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
                             <incipit>Est quidem hic ordo et positio syderum que fixa celo plurium coaceruatione stellarum</incipit>

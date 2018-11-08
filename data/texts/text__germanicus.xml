@@ -43,262 +43,41 @@
                <title>Editions</title>
             </head>
             <listBibl>
-               <biblStruct type="book" xml:id="zoteroItem_HCJ9QKCM" corresp="http://zotero.org/users/1642161/items/HCJ9QKCM">
-                  <monogr>
-                     <title level="m">The Aratus ascribed to Germanicus Caesar</title>
-                     <idno type="ISBN">0-485-13708-9</idno>
-                     <idno type="callNumber">PA6121.A7</idno>
-                     <editor/>
-                     <author/>
-                     <imprint>
-                        <pubPlace>London</pubPlace>
-                        <publisher>Athlone Press</publisher>
-                        <date>1976</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_CEEH7PGR" corresp="http://zotero.org/users/1642161/items/CEEH7PGR">
-                  <monogr>
-                     <title level="m">Germanici Caesaris Aratea cum scholiis</title>
-                     <idno type="callNumber">AL 27-0450</idno>
-                     <author/>
-                     <editor>
-                        <forename>Alfred</forename>
-                        <surname>Breysig</surname>
-                     </editor>
-                     <edition>Reprograf. Nachdr. der Ausg. Berlin 1867.</edition>
-                     <imprint>
-                        <pubPlace>Hildesheim</pubPlace>
-                        <publisher>Olms</publisher>
-                        <date>1967</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_JVBHGFPD" corresp="http://zotero.org/users/1642161/items/JVBHGFPD">
-                  <monogr>
-                     <title level="m">Les phénomènes d'Aratos</title>
-                     <idno type="ISBN">2-251-01097-1</idno>
-                     <idno type="callNumber">53.3524</idno>
-                     <author/>
-                     <editor>
-                        <forename>André</forename>
-                        <surname>LeBœuffle</surname>
-                     </editor>
-                     <imprint>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Les Belles Lettres</publisher>
-                        <date>2003</date>
-                     </imprint>
-                  </monogr>
-                  <series>
-                     <title level="s">Collection des universités de France</title>
-                  </series>
-               </biblStruct>
-               <biblStruct type="book" xml:id="zoteroItem_NCHZJUIQ" corresp="http://zotero.org/users/1642161/items/NCHZJUIQ">
-                  <monogr>
-                     <title level="m">Les phénomènes d'Aratos</title>
-                     <idno type="ISBN">2-251-01097-1 978-2-251-01097-7</idno>
-                     <author/>
-                     <editor>
-                        <forename>André</forename>
-                        <surname>LeBœuffle</surname>
-                     </editor>
-                     <imprint>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Les Belles Lettres</publisher>
-                        <date>1975</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
+               <bibl><ref target="https://archive.org/details/germanicicaesar01breygoog">Germanici Caesaris Aratea cum scholiis</ref>. Edited by Alfred Breysig. Reprograf. Nachdr. der Ausg. Berlin 1867. Hildesheim: Olms, 1967.</bibl>
+               <bibl>Germanicus. Les phénomènes d’Aratos. Edited by André LeBœuffle. Paris: Les Belles Lettres, 1975.</bibl>
+               <bibl>The Aratus Ascribed to Germanicus Caesar. Edited by David Bruce Gain. London: Athlone Press, 1976.</bibl>
+               <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.
+</bibl>            </listBibl>
          </div>
          <div>
             <head>
                <title>Literature</title>
             </head>
             <listBibl>
-               <biblStruct type="bookSection" xml:id="Montanari_Caldini1987" corresp="http://zotero.org/users/1642161/items/8DBTRU6P">
-                  <analytic>
-                     <title level="a">Aspetti dell'astrologia in Germanico</title>
-                     <author>
-                                <forename>R.</forename>
-                                <surname>Montanari Caldini</surname>
-                            </author>
-                  </analytic>
-                  <monogr>
-                     <title level="m">Germanico. La persona, la personalità, il personaggio</title>
-                     <imprint>
-                        <biblScope unit="page">153-171</biblScope>
-                        <date>1987</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="book" xml:id="Possanza2004" corresp="http://zotero.org/users/1642161/items/VBP7B2I4">
-                  <monogr>
-                     <title level="m">Translating the heavens: Aratus, Germanicus, and the poetics of Latin
-                        translation</title>
-                     <title type="short">Translating the heavens</title>
-                     <idno type="ISBN">0-8204-6939-4</idno>
-                     <author>
-                                <forename>D. Mark</forename>
-                                <surname>Possanza</surname>
-                            </author>
-                     <imprint>
-                        <pubPlace>New York u.a.</pubPlace>
-                        <publisher>Peter Lang</publisher>
-                        <date>2004</date>
-                     </imprint>
-                  </monogr>
-                  <series>
-                            <title level="s">Lang classical studies , ISSN 0891-4087</title>
-                            <biblScope unit="volume">14</biblScope>
-                        </series>
-               </biblStruct>
-               <biblStruct type="book" xml:id="Montanari_Caldini1973" corresp="http://zotero.org/users/1642161/items/UHNMG9MT">
-                  <monogr>
-                     <title level="m">L'astrologia nei Prognostica di Germanico</title>
-                     <author>
-                                <forename>Roberta</forename>
-                                <surname>Montanari Caldini</surname>
-                            </author>
-                     <imprint>
-                        <pubPlace>Firenze</pubPlace>
-                        <publisher>Le Monnier</publisher>
-                        <date>1973</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="journalArticle" xml:id="zoteroItem_V9AFE5JM" corresp="http://zotero.org/users/1642161/items/V9AFE5JM">
-                  <analytic>
-                     <title level="a">Germanici Aratea cum scholiis: A new illustrated Witness from
-                        Wales</title>
-                     <author/>
-                  </analytic>
-                  <monogr>
-                     <title level="j">The National Library of Wales Journal</title>
-                     <imprint>
-                        <biblScope unit="volume">18</biblScope>
-                        <biblScope unit="issue">2</biblScope>
-                        <biblScope unit="page">197-216</biblScope>
-                        <date>1973</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="book" xml:id="DellEra1979a" corresp="http://zotero.org/users/1642161/items/4MC6GESV">
-                  <monogr>
-                     <title level="m">Una miscellanea astronomica medievale: gli Scholia Strozziana a
-                        Germanico</title>
-                     <title type="short">Una miscellanea astronomica medievale</title>
-                     <author>
-                                <forename>Antonio</forename>
-                                <surname>Dell'Era</surname>
-                            </author>
-                     <imprint>
-                        <pubPlace>Roma, 1979</pubPlace>
-                        <date>1979</date>
-                     </imprint>
-                  </monogr>
-                  <series>
-                            <title level="s">Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe
-                     di Scienze morali, storiche e filologiche</title>
-                        </series>
-               </biblStruct>
-               <biblStruct type="journalArticle" xml:id="Lott1982" corresp="http://zotero.org/users/1642161/items/FHGQJU99">
-                  <analytic>
-                     <title level="a">Paris B.N. lat. 7418 and the Italian tradition of the Aratea of
-                        Germanicus Caesar</title>
-                     <author>
-                                <forename>Elizabeth S.</forename>
-                                <surname>Lott</surname>
-                            </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j">Manuscripta</title>
-                     <imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">8</biblScope>
-                        <date>1982</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="journalArticle" xml:id="Lott1981" corresp="http://zotero.org/users/1642161/items/EU44N4RI">
-                  <analytic>
-                     <title level="a">The textual tradition of the Aratea of Germanicus Caesar: missing links
-                        in the "m"</title>
-                     <title type="short">The textual tradition of the Aratea of Germanicus Caesar</title>
-                     <author>
-                                <forename>Elizabeth S.</forename>
-                                <surname>Lott</surname>
-                            </author>
-                  </analytic>
-                  <monogr>
-                     <title level="j">Revue d'histoire des textes</title>
-                     <imprint>
-                        <biblScope unit="volume">11</biblScope>
-                        <biblScope unit="page">147-158</biblScope>
-                        <date>1981</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-              
-               <biblStruct type="book" xml:id="DellEra1979b" corresp="http://zotero.org/users/1642161/items/T7WVQW4D">
-                  <monogr>
-                     <title level="m">Gli Scholia Basileensia a Germanico</title>
-                     <author>
-                                <forename>Antonio</forename>
-                                <surname>Dell'Era</surname>
-                            </author>
-                     <imprint>
-                        <pubPlace>Romе</pubPlace>
-                        <date>1979</date>
-                     </imprint>
-                  </monogr>
-                  <series>
-                            <title level="s">Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe
-                     di Scienze morali, storiche e filologiche</title>
-                        </series>
-               </biblStruct>              
-               <biblStruct type="book" xml:id="Maurach1978" corresp="http://zotero.org/users/1642161/items/RFBNGKGT">
-                  <monogr>
-                     <title level="m">Germanicus und sein Arat : e. vergl. Auslegung von V.1 - 327 d.
-                        Phaenomena</title>
-                     <title type="short">Germanicus und sein Arat</title>
-                     <idno type="ISBN">3-533-02651-5</idno>
-                     <author>
-                                <forename>Gregor</forename>
-                                <surname>Maurach</surname>
-                            </author>
-                     <imprint>
-                        <pubPlace>Heidelberg</pubPlace>
-                        <publisher>Winter</publisher>
-                        <date>1978</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-               <biblStruct type="bookSection" xml:id="zoteroItem_SFGRAMCD" corresp="http://zotero.org/users/1642161/items/SFGRAMCD">
-                  <analytic>
-                     <title level="a">Germanico e il suo poema astronomico</title>
-                     <author/>
-                  </analytic>
-                  <monogr>
-                     <title level="m">Aufstieg und Niedergang der romischen Welt</title>
-                     <idno type="ISBN">978-3-11-010363-2</idno>
-                     <imprint>
-                        <pubPlace>Berlin</pubPlace>
-                        <biblScope unit="volume">II. 32. 1</biblScope>
-                        <biblScope unit="page">321-343</biblScope>
-                        <publisher>Walter de Gruyter</publisher>
-                        <date>1984</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
+               <bibl>Antonio Traglia. “Germanico e il suo poema astronomico.” In Aufstieg und Niedergang der romischen Welt, II. 32. 1:321–43. Berlin: Walter de Gruyter, 1984.</bibl>
+               <bibl>Germanicus. The Aratus Ascribed to Germanicus Caesar. Edited by David Bruce Gain. London: Athlone Press, 1976.</bibl>
+               <bibl>Leuthold, Werner. Die Übersetzung der Phaenomena durch Cicero und Germanicus. Zürich: Leemann, 1942.</bibl>
+               <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. http://hdl.handle.net/11375/14244.</bibl>
+               <bibl>Lott, Elizabeth S. “Paris B.N. Lat. 7418 and the Italian Tradition of the Aratea of Germanicus Caesar.” Manuscripta 26 (1982): 8.</bibl>
+               <bibl>Lott, Elizabeth S. “The Textual Tradition of the Aratea of Germanicus Caesar: Missing Links in the ‘M.’” Revue d’histoire Des Textes 11 (1981): 147–58.</bibl>
+               <bibl>Maurach, Gregor. Germanicus und sein Arat: eine vergleichende Auslegung von V. 1 - 327 der Phaenomena. Wissenschaftliche Kommentare zu griechischen und lateinischen Schriftstellern. Heidelberg: Winter, 1978.</bibl>
+               <bibl>Montanari Caldini, Roberta. “Aspetti Dell’astrologia in Germanico.” In Germanico. La Persona, La Personalità, Il Personaggio, 153–71, 1987.</bibl>
+               <bibl>Montanari Caldini, Roberta. L’astrologia nei Prognostica di Germanico. Firenze: Le Monnier, 1973.</bibl>
+               <bibl>Peter Steinmetz. “Germanicus, Der Römische Arat.” Hermes 94, no. 4 (1966): 450–81.</bibl>
+               <bibl>Possanza, D. Mark. Translating the Heavens: Aratus, Germanicus, and the Poetics of Latin Translation. Lang Classical Studies. New York u.a.: Peter Lang, 2004.</bibl>
             </listBibl>
+            
          </div>
          <div>
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list xml:id="germanicus__msslist">
+               <item><ref target="#desc__boulogne-sur-mer_bm_188.xml">Boulogne-sur-mer, Bibliothèque municipale, MS 188</ref></item>
+               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
+               <item><ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref></item>
+               <item><ref target="#"></ref></item>
+            </list>
          </div>
       </body>
    </text>
