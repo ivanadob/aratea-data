@@ -50,6 +50,9 @@
                     </origDate>
                <origPlace ref="#laon">Laon</origPlace> or <origPlace ref="#reims">Reims</origPlace>
                <note type="facs">Digital facsimile available at <ref target="http://resolver.staatsbibliothek-berlin.de/SBB000104AA00000000">StaBi Digitalisierte Sammlungen</ref></note>
+               <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
             </head>            
             <physDesc>
                <objectDesc form="codex">

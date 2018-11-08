@@ -52,54 +52,29 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
-         </div>
-         <div>
-            <head>
-               <title>Later Manuscripts</title>
-            </head>
             <list>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Munich</settlement>
-                        <repository>Bayerische Staatsbibliothek</repository>
-                        <idno>Clm 4432</idno>
-                     </msIdentifier>
-                     <head>
-                        <title/>
-                        <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
-                        <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
-                                </note>
-                     </head>
-                     <msContents>
-                        <summary/>
-                        <msItem>
-                           <locus>165r-166r</locus>
-                           <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                        </msItem>
-                        <msItem>
-                           <locus>166r-168r</locus>
-                           <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r</locus>
-                           <title ref="#ad_boreae">De sideribus</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r-v</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl/>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
+               <item>Berlin, Staatsbibliothek, Ms. Phill. 1869</item>
+               <item>Munich, Bayerische Staatsbibliothek, Clm 210</item>
+               <item>Vienna, Österreichische Nationalbibliothek, Cod. 387</item>
+               <item><ref target="#desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
+               <item><ref target="#desc__munich_bsb_clm4432.xml">Munich, Bayerische Staatsbibliothek, Clm 4432</ref></item>
+               <item>Madrid, Biblioteca national, Ms. 3307</item>
+               <item>Vatican, Bibliotheca Apostolica Vaticana, Vat. lat. 645</item>
+               <item>Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 309</item>
+               <item><ref target="#desc__paris_bnf_nal_1614.xml">Paris, Bibliothèque nationale de France, MS NAL 1614</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_8663.xml">Paris, Bibliothèque nationale de France, MS lat. 8663</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref></item>
+               <item>St. Petersburg, NLR Q. v. IX. 2 </item>
+               <item>Montpellier, Bibliothèque de la Faculté de Médicine, MS H 334</item>
+               <item><ref target="#desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
+               <item>Einsiedeln, Stiftsbibliothek, Cod. 178 </item>
+               <item><ref target="#desc__austin_hrc_29.xml">Austin, Harry Ranson Humanities Research Center MS 29</ref></item>
+               <item><ref target="#desc__bamberg_sb_class_55.xml">Bamberg, Staatsbibliothek, MS Class. 55</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_13955.xml">Paris, Bibliothèque nationale de France, MS lat. 13955</ref></item>
+               <item>Monza, Biblioteca Capitolare 6B-117 (olim f-9/ 176)</item>
             </list>
          </div>
+         
       </body>
    </text>
 </TEI>
