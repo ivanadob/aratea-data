@@ -39,7 +39,7 @@
                     <settlement>Leiden</settlement>
                     <repository>Bibliotheek der Rijksuniversiteit Leiden</repository>
                     <collection>VLQ</collection>
-                    <idno sortKey="leiden_vlq79">79</idno>
+                    <idno>79</idno>
                     <msName>Leiden Aratea</msName>
                 </msIdentifier>
                 <head>
@@ -47,6 +47,7 @@
                     <origPlace ref="#lotharingia">Lotharingia</origPlace>
                     <origDate notBefore="0826" notAfter="0850">IX<hi rend="sup">2/4</hi>
                     </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>

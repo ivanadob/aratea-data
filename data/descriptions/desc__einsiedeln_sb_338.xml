@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Einsiedeln, Stiftsbibliothek, Codex 338</title>
+            <title type="sub">Einsiedeln, Stiftsbibliothek, Cod. 338</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -46,6 +46,7 @@
                     <title>Composite manuscript</title>
                     <origPlace ref="#trier">Trier</origPlace> (Part 1), <origPlace ref="#wuerzburg">Würzburg</origPlace>
                     <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
                 </head>
             <physDesc>
                <objectDesc form="codex">
@@ -75,7 +76,7 @@
                              <width>70</width>
                          </dimensions>
                      </layout>
-                       <layout>In the<title>Aratea</title> each verse is written on a separate line starting with versals. Some initials for section were left unexecuted; the sections on constellations are divided by empty line inserted after the corresponding verses or alternatively by marginal note as in the case for Cassiepia and Andromeda, Deltoton.</layout>
+                       <layout>In the <title>Aratea</title> each verse is written on a separate line starting with versals. Some initials for section were left unexecuted; the sections on constellations are divided by empty line inserted after the corresponding verses or alternatively by marginal note as in the case for Cassiepia and Andromeda, Deltoton.</layout>
                   </layoutDesc>
                </objectDesc>
                 <handDesc>

@@ -125,10 +125,10 @@
                <title>Manuscripts</title>
             </head>
             <list>
-               <item ref="desc__basle_bb_an_iv_18">Basel, Universitätsbibliothek, AN IV 18</item>
-               <item ref="desc__brussels_br_10615-10729">Brussels, Bibliothèque royale de Belgique, MS 10615-10729</item>
-               <item ref="desc__paris_bnf_lat_7886">Paris, Bibliothèque nationale de France, MS lat. 7886</item>
-               <item ref="desc__paris_bnf_lat_7887">Paris, Bibliothèque nationale de France, MS lat. 7887</item>
+               <item> <ref target="#desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref></item>
+               <item> <ref target="#desc__brussels_br_10615-10729.xml">Brussels, Bibliothèque royale de Belgique, MS 10615-10729</ref></item>
+               <item> <ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
+               <item> <ref target="#desc__paris_bnf_lat_7887.xml">Paris, Bibliothèque nationale de France, MS lat. 7887</ref></item>
             </list>
          </div>
       </body>

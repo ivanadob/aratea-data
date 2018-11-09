@@ -46,6 +46,7 @@
                <origDate/>
                <origPlace/>
                <note type="facs">Digital facsimile at <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000011786">Biblioteca digital hispanica</ref>.</note>
+               <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
             </head>
             <msContents>
                               <msItem>
@@ -177,24 +178,24 @@ Versus cycli anni versalis (= Carmen de cyclo paschali) - mnemotichnical verse -
 -->
  
 
-<msItem>
+<msItem class="aratea">
    <locus>55r-74v </locus>
+   <title ref="#ral">Excerpts from the Revised Aratus Latinus</title>
    <rubric>Incipit liber arati philosophi de astronomia</rubric>
    <msItem>
       <locus>55ra-rb</locus>
       <title ref="#ral">Arati Genus</title>
    </msItem>  
-   <msItem>
-      <locus from="55r">55rb-</locus>
-      <author ref="#germanicus">Germanicus</author>
-      <title ref="#germanicus_aratea">Aratea</title>
-   </msItem>
-   <msItem>
-      <title ref="#scholia_strozziana">Scholia Strozziana</title>
-   </msItem>
-   <msItem>
-      <title/>
-   </msItem>
+</msItem>
+               <msItem class="aratea">
+                  <locus from="55r">55rb-</locus>
+                  <author ref="#germanicus">Germanicus</author>
+                  <title ref="#germanicus_aratea">Aratea</title>
+               </msItem>
+               <msItem>
+                  <title ref="#scholia_strozziana">Scholia Strozziana</title>
+               </msItem>
+  
 
 <!--Inc. Incip[it] lib[er] arati philosophi de astronomia. Aratus patris quidem est athinodori fili[us] 
 
@@ -349,7 +350,7 @@ Diagrams
 134-195 - Florilegium extracts from the Fathers - not really distinguished from the previous - only that it does not have the numbers. - reads more like a manual what to do what not to. Important notions etc. 
 
 195-203 - notes diverses et recettes -->
-</msItem>
+
             </msContents>
             <physDesc>
                <objectDesc form="codex">
