@@ -73,27 +73,31 @@
                <title>Manuscripts</title>
             </head>
             <list xml:id="germanicus__msslist">
-               <item><ref target="#desc__boulogne-sur-mer_bm_188.xml">Boulogne-sur-mer, Bibliothèque municipale, MS 188</ref></item>
-               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
-               <item><ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref></item>
-               <item><ref target="#desc__leiden_ub_vlq_79.xml">Leiden, Bibliotheek der Rijksuniversiteit, MS VLQ 79</ref></item>
-               <item><ref target="#desc__einsiedeln_sb_338.xml">Einsiedeln, Stiftsbibliothek, Cod. 338</ref></item>
-               <item><ref target="#desc__madrid_bn_19.xml">Madrid, Biblioteca national, Ms. 19</ref></item>
-               <item><ref target="#desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref></item>
-               <item><ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
-               <item><ref target="#desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
-               <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
                <item><ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
-               <item>Florence, Biblioteca Medicea Laurenziana, Strozzianus 46</item>
+               <item><ref target="#desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref></item>
+               <item><ref target="#desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
+               <item><ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref></item>
+               <item><ref target="#desc__boulogne-sur-mer_bm_188.xml">Boulogne-sur-mer, Bibliothèque municipale, MS 188</ref></item>
                <item>Cologny, Bibliotheca Bodmeriana, lat. 7</item>
-               <item>Florence, Biblioteca Laurenziana, Plut. 89 sup. 43</item>
-               <item>London, BL Add. 15819</item>
-               <item>London, BL Egerton 1050</item>
+               <item><ref target="#desc__einsiedeln_sb_338.xml">Einsiedeln, Stiftsbibliothek, Cod. 338</ref></item>
+               <item>Florence, Biblioteca Medicea Laurenziana, Strozzianus 46</item>
+               <item>Florence, Biblioteca Medicea Laurenziana, Plut. 89 sup. 43</item>
+               <item><ref target="#desc__leiden_ub_vlq_79.xml">Leiden, Bibliotheek der Rijksuniversiteit, MS VLQ 79</ref></item>
+               <item>London, British Library, Add. Ms 15819</item>
+               <item>London, British Library, Arundel Ms 268 (s. XIII-XIV) <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_268">online</ref></item>
+               <item>London, British Library, Egerton Ms 1050</item>
+               <item><ref target="#desc__madrid_bn_19.xml">Madrid, Biblioteca national, Ms 19</ref></item>
                <item>Madrid, Biblioteca national, Ms 8282</item>
-               <item>New York, Pierpont Morgan Library, 389</item>
+               <item>Montpellier Bibliothèque de l’Ecole de Médecine, Ms H 452</item>
+               <item>Naples, Biblioteca nazionale, Ms XIV. D. 37</item>
+               <item>New York, Pierpont Morgan Library, Ms 389</item>
+               <item><ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 76</item>
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 77</item>
                <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358</item>
+               <item>Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521 (Italy, s. XV)</item>
             </list>
          </div>
       </body>

@@ -50,6 +50,7 @@
                <origDate notBefore="0801" notAfter="0833">s. IX, first third.</origDate>
                <note type="facs">Digital facsimile at <ref target="http://www.e-codices.unifr.ch/en/list/one/ubb/AN-IV-0018">e-codices</ref>.</note>
                <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
             </head>
             <msContents>
                <textLang mainLang="lat"/>

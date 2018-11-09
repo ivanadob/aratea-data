@@ -105,6 +105,8 @@
                     <origPlace ref="#limoges">Limoges area</origPlace>
                     <origDate notBefore="0986" notAfter="1160">ca. 1000; ca. 1150</origDate>
                     <note type="facs">Digital facsimile at <ref type="mss" target="http://hdl.handle.net/10107/4387889">The National Library of Wales</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -213,7 +215,7 @@
                         </msItem>
                         <msItem>
                             <locus from="3r">3r</locus>
-                            <note>Verse from the so called <title>Appendix Vergiliana</title>, <title>De est et non</title>.</note>
+                            <note type="title">Verse from the so called <title>Appendix Vergiliana</title>, <title>De est et non</title>.</note>
                             <rubric>Versus prisciani eloquentissimi viri de est et non incipiunt</rubric>
                             <incipit>Est et non cuncti monosyllaba nota frequentant</incipit>
                             <explicit>Qualis uita hominum duo quam monosyllaba uersant.</explicit>
@@ -232,7 +234,7 @@
                         </msItem>
                         <msItem>
                             <locus from="4v">4v</locus>
-                            <note>Verses with heading <quote>De circulo superiori</quote>, <quote>De circulo saturni</quote>, <quote>De circulo phetontis id est iovis</quote>, <quote>De circulo<unclear>maultis</unclear> id est martis</quote>, <quote>De circulo elyos id est solis</quote>, <quote>De circulo veneris id est luciferi</quote>, <quote>De circulo stilbontis id est mercurii</quote>, and <quote>De circulo lunae</quote>.</note>
+                            <note type="title">Verses with heading <quote>De circulo superiori</quote>, <quote>De circulo saturni</quote>, <quote>De circulo phetontis id est iovis</quote>, <quote>De circulo<unclear>maultis</unclear> id est martis</quote>, <quote>De circulo elyos id est solis</quote>, <quote>De circulo veneris id est luciferi</quote>, <quote>De circulo stilbontis id est mercurii</quote>, and <quote>De circulo lunae</quote>.</note>
                             <incipit>De cirylo superiori. Aplanes supera<ex>m</ex> centron dixere priores</incipit>
                             <explicit>De circulo lunae. Primo luna gradu terrae confinialisque (?)</explicit>
                             <filiation>Rheims MS. 1263, 98v-99 (based on P. McGurk's description).</filiation>

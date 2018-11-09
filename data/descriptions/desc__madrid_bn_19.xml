@@ -47,6 +47,7 @@
                <origPlace/>
                <note type="facs">Digital facsimile at <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000011786">Biblioteca digital hispanica</ref>.</note>
                <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__scholia_strozziana.xml">Scholia Strozziana</rs></note>
             </head>
             <msContents>
                               <msItem>

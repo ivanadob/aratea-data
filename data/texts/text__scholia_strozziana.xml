@@ -18,6 +18,7 @@
             </respStmt>
          </editionStmt>
          <publicationStmt>
+            <publisher></publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
@@ -32,8 +33,9 @@
          <div>
             <head>
                <title>Introduction</title>
-            </head>            
-            <p/>
+            </head> 
+            <p></p>
+            <p>Illustrated are only Urb. lat. 1358 and Madrid 12. By the manuscripts Palermo and Reg. lat. 1801 there are blank places left for the illustrations..</p>
          </div>
          <div>
             <head>
@@ -51,7 +53,15 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p/>
+            <list xml:id="scholia_strozziana__msslist">
+               <item>Florence, Biblioteca Medicea Laurenziana, Strozzianus 46 (s. XV, fols. 12v-62r)</item>
+               <item>London, British Library, Arundel Ms 268 (s. XIII-XIV, fols. 85r-92r) <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_268">online</ref></item>
+               <item><ref target="#desc__madrid_bn_19.xml">Madrid, Biblioteca national, Ms 19 (s. XII, fols. 54r-74v)</ref></item>
+               <item>Palermo, Biblioteca Comunale, 2 Qq. E. 11 (s. XV, fols. 3r-49v)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358 (s. XV, fols. 2v-47v)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Reg. lat. 1801 (s. XV, fols. 1v-47r)</item>
+               <item>Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521 (s. XV)</item>
+            </list>
          </div>
       </body>
    </text>

@@ -55,6 +55,9 @@
                     <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
                     </origDate>
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105419933">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coelis</rs></note>
                 </head>                
             <msContents>
 <!--               Excerpts from Isidore, Etym, XIII, 10-11 (De arcu et nubium effectibus; De ventis)
@@ -425,13 +428,13 @@ Remarks:
 
 f. 214v - blank-->
 
-<msItem>
+<msItem class="aratea">
     <locus from="215r" to="224v">215r-224v</locus>
     <author ref="#bede">Ps-Bede</author>
     <title ref="#de_signis_coeli">De signis coelis</title>
     <incipit>Fenix arcturus maio habet autem stellas obscuras VII</incipit>
     <note>starts on a new quire; images drawn before text was written (see f. 217 with Bootes).</note>
-    <decoNote>Illustrations of the constellations s. description in <bibl>
+    <decoNote>Illustrations of the constellations see description in <bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>
                             </bibl> and in <bibl>Lippincott, Saxl Project</bibl>.</decoNote>
 </msItem>
@@ -446,7 +449,7 @@ f. 214v - blank-->
     <explicit>urnae aquarii qui ad ipsum usque decurrit accipiens.</explicit>
 <note>Remarks: written by the same scribe of the De signis coelis; exactly filled the two folios of 30 lines leaving no space even for a single word, but also without squeezing the text. Initials for the beginning of sentences.</note>
 </msItem>
-    <msItem>
+    <msItem class="aratea">
         <locus from="226v" to="231v">226v-231v</locus>
         <author ref="#germanicus">Germanicus</author>
         <title ref="#germanicus_aratea">Aratea</title>

@@ -49,7 +49,8 @@
                     </origDate> (with later additions)
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10224563x">gallica.bnf.fr</ref>.</note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
-                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea with Scholia Basileensia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
                 </head> 
             <physDesc>
                <objectDesc form="codex">

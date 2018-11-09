@@ -52,6 +52,9 @@
               <origDate notBefore="0851" notAfter="0900">s. IX<hi rend="sup">2</hi>
               </origDate>
               <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721142g">gallica.bnf.fr</ref></note>
+              <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
+              <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
+              <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml"></rs></note>
            </head>
            <msContents>
               <textLang mainLang="lat" otherLangs=""/>
