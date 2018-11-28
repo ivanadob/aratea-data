@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Baltimore, The Walter Art Museum, MS 734</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>        
+      <revisionDesc status="draft">
+         <change when="2018-11-06"/>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement>Baltimore</settlement>
+               <repository>The Walter Art Museum</repository>
+               <idno>734</idno>
+            </msIdentifier>
+            <msContents>
+               <msItem class="aratea">
+                  <locus from="1r" to="18r">1r-18r</locus>
+                  <author ref="#hyginus">Hyginus</author>
+                  <title ref="#de_astronomia">De astronomia</title>
+                  <msItem>
+                     <locus from="1r" to="4v">1r-4v</locus>
+                     <note type="title">Lib. 1</note>
+                     <incipit>Etsi te studio gramatice artis inductum</incipit>
+                     <explicit>eodem perueniant casus.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="4v" to="5r">4v-5r</locus>
+                     <note type="title">Lib. 2 (openning)</note>
+                     <incipit>Sed quoniam quae nobis de terrae positione dicenda fuerunt</incipit>
+                     <explicit>cum pisce qui notius uocatur.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="5r" to="14r">5r-14r</locus>
+                     <note type="title">Lib. 3</note>
+                     <incipit>Igitur incipiamus a polo boreo protinus discere</incipit>
+                     <explicit>exoritur cum piscibus et est omnino stellarum XII.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="14r" to="18r">14r-18r</locus>
+                     <note type="title">Lib. 4 wihtout the openning and sections 8-11, 13 to the end</note>
+                     <incipit>In estiuo circulo de quo primum dicere instituimus</incipit>
+                     <explicit>sic igitur orientibus XII signis reliqua corpora occidere et exoriri uidentur.</explicit>
+                     <note>Skip sections 8-11 on the rotaion of the world together with the fixed stars around the poles, the zodiacal band cut in half by the horizon etc. moving straight to the paranatellonta section 12 (17r-18r).</note>
+                  </msItem>
+                  <decoNote>39 Illustrations of the constellations on ff. 5v-14r.</decoNote>
+                  <!--<note>Interest in the cosmology and astronomy, not in the mythological stories. From lib. 2 took only the opening which is a list of the constellation in spacial order: first the northern, then his enumeratis ad duodecim signa ... his enumeratis the southern.</note>-->
+               </msItem>
+               <msItem class="aratea">
+                  <locus from="18r" to="19r">18r-19r</locus>
+                  <title ref="#exceprtum_de_astrologia">Exceprtum de astrologia</title>
+                  <incipit>Duo sunt extremi vertices mundi quos appellant polos</incipit>
+                  <explicit>usque decurrit accipies.</explicit>
+                  <finalRubric>Explicit.</finalRubric>
+               </msItem>
+               <msItem class="aratea">
+                  <locus from="19r" to="">19r</locus>
+                  <note type="title">Excerpts from Germanicus, Cicero</note>
+                  <title>Aratea vv. 434, 435-436</title>
+                  <quote>Sub geminis prochion fulgentia lumina pandit. Sors sua cuique data semel assignata tuentur. Imoti loca nec longo mutatuntur in euo.</quote>
+                  <quote>Ante canem graio prochion qui nomine fertur. Hec sunt quae transes nocturno tempore signa. Legitumo cernes celi substacium. Eternumque uolens mundi pernoscere motum. Namque per bissex signorum labier orbem.</quote>
+                  <note>Possibly meant to complete the Excerptum.</note>
+                  <quote>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton de quo heraclit scribit ait phetontem solis filium quo tempore patet nos curr</quote>
+                  <note>On the lower margin of f. 19r: hic celo ornatur trahitur noctemque diemque.</note>
+               </msItem>
+               <msItem>
+                  <locus from="" to=""></locus>
+                  <author></author>
+                  <title></title>
+                  <incipit></incipit>
+                  <explicit></explicit>
+               </msItem>
+               <msItem>
+                  <locus from="" to=""></locus>
+                  <author></author>
+                  <title></title>
+                  <incipit></incipit>
+                  <explicit></explicit>
+               </msItem>
+            </msContents>
+         </msDesc>
+         
+      </body>
+  </text>
+</TEI>
