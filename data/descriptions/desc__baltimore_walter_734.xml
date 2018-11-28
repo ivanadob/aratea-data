@@ -41,6 +41,7 @@
                <settlement>Baltimore</settlement>
                <repository>The Walter Art Museum</repository>
                <idno>734</idno>
+		 <note type="facs">Digital facsimile at <ref target="http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W734/">Digital Walters</ref></note>   
             </msIdentifier>
             <msContents>
                <msItem class="aratea">
