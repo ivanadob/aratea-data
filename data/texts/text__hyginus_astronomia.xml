@@ -40,7 +40,10 @@
             <head>
                <title>Editions</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Text online at <ref target="http://latin.packhum.org/loc/899/1/0#0">Classical Latin Texts (The Packard Humanities Institute)</ref></bibl>
+               <bibl>Text online at <ref target="http://www.thelatinlibrary.com/hyginus.html">The Latin Library</ref></bibl>
+            </listBibl>
          </div>
          <div>
             <head>

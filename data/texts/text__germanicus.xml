@@ -46,11 +46,14 @@
                <bibl>Germanicus. Les phénomènes d’Aratos. Edited by André LeBœuffle. Paris: Les Belles Lettres, 1975.</bibl>
                <bibl>The Aratus Ascribed to Germanicus Caesar. Edited by David Bruce Gain. London: Athlone Press, 1976.</bibl>
                <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.
-</bibl>            </listBibl>
+</bibl>
+               <bibl>Text ed. A. Breysig (1899) online at <ref target="http://www.thelatinlibrary.com/germanicus.html">The Latin Library</ref></bibl>
+               <bibl>Text online at <ref target="http://latin.packhum.org/author/881">Classical Latin Texts (The Packard Humanities Institute)</ref></bibl>
+            </listBibl>
          </div>
          <div>
             <head>
-               <title>Literature</title>
+               <title>Selected Biblioigraphy</title>
             </head>
             <listBibl>
                <bibl>Antonio Traglia. “Germanico e il suo poema astronomico.” In Aufstieg und Niedergang der romischen Welt, II. 32. 1:321–43. Berlin: Walter de Gruyter, 1984.</bibl>
@@ -96,7 +99,7 @@
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 76</item>
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 77</item>
                <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358</item>
-               <item>Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521 (Italy, s. XV)</item>
+               <item><ref target="http://manuscripta.at/?ID=28862">Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521</ref> (Italy, s. XV)</item>
             </list>
          </div>
       </body>

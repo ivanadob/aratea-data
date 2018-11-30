@@ -83,7 +83,7 @@
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="1r" to="30r">1ra-30ra</locus>
                         <author ref="#hyginus">Hyginus</author>
                         <title ref="#de_astronomia">De astronomia</title>
@@ -148,13 +148,13 @@
                         <locus from="35v" to="35v*">35v-35v*</locus>
                         <note>Blank.</note>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="36r" to="48v">36ra-48v</locus>
                         <author ref="#cicero">Cicero</author>
                         <title ref="#aratea_cicero">Aratea</title>
                         <incipit>A quibus hinc subter possis cognoscere fultum</incipit>
                         <explicit>Hanc autem totam properant depellere pisces.</explicit>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="36r" to="44v">36ra-44v</locus>
                             <title ref="#de_signis_coeli">De signis caelis</title>
                             <note>As scholia in the margin.</note>
@@ -268,7 +268,7 @@
                     </msItem>
                     <msItem>
                         <locus from="55v">55va</locus>
-                        <note>Short texts on the relation between the solar and lunar path in the zodiac.</note>
+                        <note type="title">Short texts on the relation between the solar and lunar path in the zodiac.</note>
                         <msItem>
                             <rubric>Incipit liber prognosticorum Arati prognostica solis et lune</rubric>
                             <incipit>Sol cum fuerit in ariete luna intrat (?) primam uidetur cum a sole disscenserit partibus x</incipit>
@@ -310,7 +310,7 @@
                     </msItem>
                     <msItem>
                         <locus from="84v" to="85v">84va-85vb</locus>
-                        <note>Text on the abacus, added by a slightly later hand.</note>
+                        <note type="title">Text on the abacus, added by a slightly later hand.</note>
                         <rubric>Rationes abaci</rubric>
                         <incipit>Numeri uidentur ratione formari et ex ipso naturaliter institui</incipit>
                         <explicit>etiam causam ignorans prouenire mirabitur.</explicit>
