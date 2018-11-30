@@ -29,7 +29,7 @@
                 <p/>
             </sourceDesc>
         </fileDesc> 
-        <revisionDesc status="comoplete">
+        <revisionDesc status="complete">
 				<change when="2018-06-01"/>
 			</revisionDesc>
 		
@@ -103,7 +103,7 @@
                     <title ref="#sancta_scriptura">On the creation of the luminaries according to the bible</title>
                     <quote>Sancta scriptura nobis a deo per beatum moysen tradita docet<gap reason="damage"/> in quarto die luminaria duo solem uidelicet lunamque per uerbum sicut omnia  creauit fecisse luminare maius ut preesset et diei et luminare minus nocti ut preesset nocti.</quote>
                 </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="2v" to="17v">2v-17v</locus>
                     <author ref="#cicero">Cicero</author>
                     <title ref="#aratea_cicero">Aratea</title>
@@ -111,20 +111,21 @@
                     <incipit>E quibus hinc subter possis cognoscere fultum</incipit>
                     <explicit>Hanc autem totam properant depellere pisces.</explicit>
                     <note>The text is lacking vv. 55-71 (section on Equus and Capricornus) and vv. 341-371 in the two missing folios after f. 5 and 15 (see condition). The scribe left the lower half of f. 15 blank finishing the section on the zodiac. This suggest that on the next page there was a drawing thereof, later cut out. This would explain why there are only 30 verses missing, probably occupying once the verso of the folium.</note>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="2v" to="13v">2v-13v</locus>
                         <author ref="#hyginus">Hyginus</author>
-                        <note>Excerpts from<title ref="#de_astronomia">De astronomia</title>, Lib. 2 and 3 written as <term>scholia figurata</term>. The scribe often repeated some of the text to fill up the boundaries of the figures.</note>
+                        <title>Scholia Harleiana</title>
+                        <note>Excerpts from <title ref="#de_astronomia">De astronomia</title>, Lib. 2 and 3 written as <term>scholia figurata</term>. The scribe often repeated some of the text to fill up the boundaries of the figures.</note>
                         <incipit>Aries hic existimatur esse qui phryxum et hellen</incipit>
                         <explicit>quae stellae planetae dictae sunt.</explicit>
-                        <bibl>Kauffmann, Georg.<title>De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</title>. Breslau, 1888.</bibl>
+                        <bibl>Kauffmann, Georg.<ref target="https://archive.org/details/dehyginimemoria00kaufgoog/page/n93">De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</ref>. Breslau, 1888.</bibl>
                     </msItem>
                     <decoNote>22 drawings of the constellations in colours, filled with text from the scholia within the shapes (<term>scholia figurata</term>). For description see <bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>, pp. 325-26</bibl> and K. Lippincott's description in the <ref target="http://www.kristenlippincott.com">Saxl Project</ref>.</decoNote>
                 </msItem>
                     <msItem>
                         <locus from="16r" to="16v">16r-v</locus>
-                        <note>Excerpt from<rs type="person" role="author" ref="#pliny">Pliny</rs>'s <title>Naturalis historia</title>, Lib. XVIII, 80-89 (§§ 351-365) placed in the margin of the <title>Aratea</title>
+                        <note>Excerpt from <rs type="person" role="author" ref="#pliny">Pliny</rs>'s <title>Naturalis historia</title>, Lib. XVIII, 80-89 (§§ 351-365) placed in the margin of the <title>Aratea</title>
                         </note>
                         <incipit>
                             <gap reason="lacuna"/> splendidum articuli temporum quos proposuimus autumnum serenum</incipit>

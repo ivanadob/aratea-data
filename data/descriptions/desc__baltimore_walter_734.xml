@@ -44,6 +44,9 @@
                <title></title>
                <origDate notBefore="1151" notAfter="1225">s. XII<hi rend="sup">2</hi> / s. XIII<hi rend="sup">1/4</hi></origDate>
                <origPlace></origPlace>
+               <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia">Hyginus, De astronomia</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__germanicus">Germanicus (excerpts)</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__cicero">Cicero (excerpts)</rs></note>
                <note type="facs">Digital facsimile at <ref target="http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W734/">Digital Walters</ref></note>
             </head>
             <msContents>
@@ -97,14 +100,15 @@
                   <author ref="#cicero">Cicero</author>
                   <title ref="#aratea_cicero">Aratea<note> (vv. 222-226)</note></title>
                   <quote>Antecanem graio prochion qui nomine fertur. Hec sunt quae transes nocturno tempore signa. Legitumo cernes celi substancium. Eternumque uolens mundi pernoscere motum. Namque per bis sex signorum labier orbem.</quote>
-                  <!--<note>Possibly meant to complete the Excerptum, adding information for the last constellation missing because of the abrupt end of the Excerptum.</note>-->
+                  <!--<note>Possibly meant to complete the Excerptum. Taken probably from the so-called Scholia Harleiana, the excerpts from Hyginus used as scholia figurata in London BL, MS Harley 647 and MS Cotton Tib. C. I.</note>-->
                </msItem>
                <msItem>
                   <locus from="19r" to="19v">19r-19v</locus>
                   <quote>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton de quo heraclit scribit ait phetontem solis filium quo tempore patet nos curr</quote>
                   <note>On the lower margin of f. 19r: hic celo ornatur trahitur noctemque diemque.</note>
+                  <bibl><ref target="https://archive.org/details/dehyginimemoria00kaufgoog/page/n119"></ref></bibl>
                </msItem>
-               <msItem>
+               <!--<msItem>
                   <locus from="19v" to=""></locus>
                   <author></author>
                   <title></title>
@@ -117,7 +121,7 @@
                   <title></title>
                   <incipit></incipit>
                   <explicit></explicit>
-               </msItem>
+               </msItem>-->
             </msContents>
             <physDesc>
                <accMat>Binding waste (fragments): two double leaves used as pastedowns on the front and back boards with flyleaves. Text: Julianus Toletanus, Prognosticon futuri saeculi. Origin: Italy (?), s. XI.</accMat>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excerptum de astrologia</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name></name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Duo sunt extremi uertices mundi, quos appelant polos, septentrionis et austri, quorum alter a nobis semper uidetur, alter nunquam. In eo, qui a nobis cernitur, tria sunt signa constituta, duo scilicet Arcturi et Serpens circum atque inter illos in morem fluminis means. Helice Arcturus maior, Cynosura minor appelatur, quae diuersum quidem aspiciunt; nam dorsa earum sibimet mutuo obuertuntur auersis huc atque illus pedibus. Serpens uero cauda cingit Helicen, cetero circuitu Cynosuram, ita tamen, ut easdem medius interlabens separet. Cuius caput ad dextrum pedem eius, qui in geniculo stat, quem Herculem dicunt, dextro pede caput premit Serpentis capite ad austrum conuerso, umeris suis Coronae tangit confinia. Ipsa autem Corona post tergum Herculis sita, capiti Serpentis, quem Serpentarius tenet, adproprinquat. Serpentarius uero, qui a Graeci Ophiuchus uocatur, sub Hercule positus ad austrum uersis pedibus Scorpionem calcat, Serpente praecinctus, quem utraque manu tenet. Qui plurima longitudine protentus usque ad Coronam extenditur. Iuxta huius Serpentis flexuosa uolumina nullo alio interueniente signo Bootes post tergum Arcturi maioris uidetur pedibus ad Virginem uersis; nam Virgo sub pedibus anteriores Ursae maioris, in commissura zodiaci atque lactei circulorum Gemini sunt locati, habentes a laeuo latere Agitatorem cum Haedulis duobus, qui contra caput Helicis capite uerso pede dextro sinistrum Tauri cornu tangere uidetur. Iuxta Geminos, qua zodiacus altissime erigitur, contra uentrem Ursae maioris Cancer situs est, habens in dorso Asellos albicante inter eos nubecula, quae Praesepium appellatur. At contra pedes eiusdem Ursae posteriores inter Cancrum et Virginem Leo dicitur constitutus, Booten habens iuxta se. Sub pedibus uero Agitatoris Taurus iacet uno pede protento ad Orionem, qui sub illo est constitutus; Cepheus inter Lyram et Cassiepiam medius expansis brachiis pedibus ad terga minoris Ursae porrectis. Cassiepia contra uolumen maximum septentrionalis Serpentis inter Agitatorem Perseum Andromendam Cepheumque constitis in lacteo circulo. Inter Pisces Cassiepiam atque Arietem Andromeda est locata cum Triangulo, quem post tergum habere dicitur, caput uersum habens ad aluum Equi; qui Equus supra est positus. Aries in commissura zodiaci atque aequinoctialis circuli sub Triangulo situs est, habens sub se Cetum ad australem partem. At proximum ei signum Pisces duo, quorum alter in aquilonem erectus, alter in austrum pronus, caudis tamen uinculo quodam conexis conligati sunt. Aquilonius ad Andromedam extenditur, austrinum ad Aquarium. Iuxta pedes autem Andromedae a latere Cassiepiae Perseus ostenditur, Gorgonis caput manu sinistra tenens. Cuius sub femore sinistro iuxta caudam Tauri Pleiades uidentur constitutae. Lyra uero inter laeuum crus Herculis et inter Cignum posita est. Sed Cignus expansis alis uolanti similis ad dexteram Cephei manum dextram alam, sinistram ad pedes Equi porrigit. Inter Pisces et Equum caudamque Capricorni Aquarius eest conlocatus, aquam urna fundens, quae effusio ad magnum Piscem usque decurrit. In parte autem humillima zodiaci iuxta Saittarium atque Aquilam Capricornus in commissura hiemalis circuli ac signiferi situs est, habens post se Sagittarium in commissura circulorum zodiaci atque lactei sub Delphino constitutum. Est et Sagitta quaedam sola sub Cigno iuxta Aquilam iacens. Supra Capricorni uero caput Delphinus est positus post caudam Serpentis, qui a Serpentaario tenetur. Sub ipso autem Serpentario Scorpionem dicunt esst locatum, ita ut pedibus Serpentarii tangatur, et habere sub se ad australem plagam Cntaurum, Bestiam manu quasi ad Aram ferentem. Haec Ara a quibusdam Sacrarium uocatur, et est contra summitatem caudae Scorpionis ad austrum posita. Brachia uero Scorpionis locum obtinent, quem Libram dicunt, eo quod in eo Sol aequinoctium faciat autumnale. Hydra quoque iacet in circulo aequinoctiali nimia longitudine protenta, capite Cancro, medietate Leoni, cauda Virgini subiecta, Coruum atque Urnam in dorso gestans. At sub pectore Tauri Orion gladio accinctus conspicitur, Lepori, qui sub pedibus eius est, superpositur. habet enim post uestigia sua Canem, quem Sirium quemque Caniculam appellant, conlocatum, Cancri signo subiectum, ante quem sub Geminis Anticanem cognoscere potes. Post caudam uero Sirii ad austrum Nauis, quam Argo dicunt, quem Eridanum uocant. Ar sub pede sinistro Orionis Fluuius, quem Eridanum uocant, flexuoso cursi perlabitur usque ad Cetum. Cetus autem subiacet Arieti ac Piscibus longissimo tractu porrectus. Post cuius caudam longo quidem interuallo sub Aquario et Capricorno in austrum proiectus Piscis magnus conspicitur, ultimum eorum, quae uideri possint, signorum, effusionem urnae Aquarii, quem ad ipsum usque decurrit, accipiens.</p>
+      </body>
+  </text>
+</TEI>

@@ -46,7 +46,12 @@
             <head>
                <title>Literature</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Hasper, Ludwig Wilhelm, ed. <ref target=" http://archive.org/details/hyginusphilosop00haspgoog.">Hyginus Philosophus: De imaginibus coeli. Leipzig, 1861, 11-15</ref></bibl>
+               <bibl>Kauffmann, Georg. <ref target="https://archive.org/details/dehyginimemoria00kaufgoog/page/n5">De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</ref>. Vol. 3. Breslauer Philologische Abhandlungen. Breslau, 1888.</bibl>
+               <bibl>Maass, Ernst. <ref target="https://archive.org/details/Maass1898/page/n385">Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, 309-12</ref></bibl>
+               <bibl>Manitius, Max. Das sogenannte Fragment Hygins, in: Rheinisches Museum für Philologie, Neue Folge 53 (1898): 392-8.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>

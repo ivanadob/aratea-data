@@ -529,7 +529,7 @@
     </work>
     <work xml:id="excerptio_abbonis">
         <author ref="#abbo">Abbo of Fleury</author>
-        <title>Excerptio Abbonis ex higino de figuratione signorum</title>
+        <title>Excerptio Abbonis ex Higino de figuratione signorum</title>
         <incipit>Denique ut dicit plinius inter omnia sunt LXXII signa</incipit>
         <explicit>cuius et gubernaculum et rectam puppim secans ad octauam partem cancri redit.</explicit>
         <bibl>Hasper, L.W. (ed.) <title>Hyginus philosophus. De imaginibus coeli</title>. Leipzig, 1861.</bibl>

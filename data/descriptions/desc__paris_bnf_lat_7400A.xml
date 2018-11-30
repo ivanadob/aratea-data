@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 7400A</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-11-30"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="paris_bnf_lat7400a">
+            <msIdentifier>
+               <settlement>Paris</settlement>
+               <repository>Bibliothèque nationale de France</repository>
+               <idno>latin 7400 A</idno>
+            </msIdentifier>
+            <head>
+               <title></title>
+               <origDate notBefore="1276" notAfter="1325">s. XIII<hi rend="sup">4/4</hi> / s. XIV<hi rend="sup">1/4</hi></origDate>
+               <origPlace></origPlace>
+               <note type="aratea"><rs type="text" ref="#text__abbo_hyginus">Abbo</rs></note>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus from="1r">1ra-2ra</locus>
+                  <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                  <rubric>Iginus philosophus de imaginibus celi</rubric>
+                  <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
+                  <explicit>usque decurrit aspiciens.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="2r">2ra-</locus>
+                  <title ref="#excerptio_abbonis">Excerptio Abbonis ex Higino de figuratione signorum</title>
+                  <incipit>Denique dicit plinius in omnia sunt LXXII signa</incipit>
+               </msItem>
+            </msContents>
+            <!--<physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support></support>
+                     <extent>
+                        <measure type="leaveCount" quantity=""></measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height></height>
+                           <width></width>
+                        </dimensions>
+                     </extent>
+                     <foliation></foliation>
+                     <collation></collation>
+                     <condition></condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="" ruledLines=""></layout>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script=""></scriptNote>
+               </scriptDesc>
+            </physDesc>-->
+            <history>
+               <origin></origin>
+               <provenance></provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl></bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
