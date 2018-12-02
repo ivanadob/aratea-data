@@ -46,6 +46,7 @@
                     <origPlace ref="#reims">Reims (?)</origPlace>, <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> and <origDate notBefore="0951" notAfter="1000">s. X</origDate>
                     <note type="facs">Digital facsimile at <ref target="http://belgica.kbr.be/fr/coll/ms/ms5413_22_fr.html">belgica.kbr.be</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">
