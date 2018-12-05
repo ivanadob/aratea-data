@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">London, BL, Royal MS 13 A XI</title>
+            <title type="sub">London, British Library, Royal MS 13 A XI</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -94,6 +94,8 @@
                     </origDate>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_13_A_XI">www.bl.uk.</ref>
                     </note>
+                    <note type="aratea"><rs type="text" ref="#text__abbo_hyginus.xml">Excerptio Abbonis ex Higino de figuratione signorum</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                 </head>
             <msContents>
                 <msItem>
@@ -210,13 +212,13 @@
                         <finalRubric>Explicit liber Bede resbiteri de temporibus tertius</finalRubric>
                     </msItem>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="104r" to="105r">104r-105r</locus>
                    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                   <incipit>Duo sunt vertices mundi quos appelant polos</incipit>
                    <explicit>ad ipsum usque decurrit accipiens.</explicit>
                </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="105r" to="113r">105r-113r</locus>
                     <title ref="#excerptio_abbonis">Excerptio Abbonis ex higino de figuratione signorum</title>
                     <author ref="#abbo">Abbo of Fleury</author>

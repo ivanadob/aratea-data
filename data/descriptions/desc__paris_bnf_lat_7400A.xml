@@ -29,7 +29,7 @@
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-11-30"/>
+				<change when="2018-12-05"/>
 			</revisionDesc>
      </teiHeader>
    <text>
@@ -44,45 +44,90 @@
                <title></title>
                <origDate notBefore="1276" notAfter="1325">s. XIII<hi rend="sup">4/4</hi> / s. XIV<hi rend="sup">1/4</hi></origDate>
                <origPlace></origPlace>
-               <note type="aratea"><rs type="text" ref="#text__abbo_hyginus">Abbo</rs></note>
+               <note type="facs">Digitised microfilm at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b9072622h">gallica.bnf.fr</ref>.</note>
+               <note type="aratea"><rs type="text" ref="#text__abbo_hyginus.xml">Excerptio Abbonis ex Higino de figuratione signorum</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
             </head>
             <msContents>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="1r">1ra-2ra</locus>
                   <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                   <rubric>Iginus philosophus de imaginibus celi</rubric>
                   <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
                   <explicit>usque decurrit aspiciens.</explicit>
                </msItem>
-               <msItem>
-                  <locus from="2r">2ra-</locus>
+               <msItem class="aratea">
+                  <locus from="2r" to="6r">2ra-6rb</locus>
                   <title ref="#excerptio_abbonis">Excerptio Abbonis ex Higino de figuratione signorum</title>
                   <incipit>Denique dicit plinius in omnia sunt LXXII signa</incipit>
+                  <explicit>ad VIIIam partem cancri redit</explicit>
+                  <finalRubric>Explicit.</finalRubric>
+               </msItem>
+               <msItem>
+                  <locus from="6v" to="21r">6va-21rb</locus>
+                  <rubric>Incipit prologus cuiusdam doctoris clarissimi anselmi super librum quod dicitur ymago mundi</rubric>
+                  <note>On ff. 15vb-17vb chapter "de coelo" (on the zones, zodiac, and the other constellations, circles)</note>
+                  
+               </msItem>
+               <msItem>
+                  <locus from="21v" to="24v">21va-24vb</locus>
+                  <title>liber de consummatione saeculi</title>
+                  <rubric>In nomine christi incipit liber methodii episcopi et martyris quem de ebreo et greo sermone in latinum transferre curauit de principio seculi et fine seculorum quem beatus jeronimus in pusculis suis collaudauit</rubric>
+                  <incipit>Sciendum itaque fratres est carissimi quod in principio creauit deus celum</incipit>
+               </msItem>
+               <msItem>
+                  <locus from="24v">24vb-26va</locus>
+                  <rubric>Qualiter debeant fieri organa</rubric>
+                  <incipit>Si quis concordiam organorum scire uoluit ita inchoare studeat</incipit>
+                  <decoNote>Diagram of the intervals.</decoNote>
+               </msItem>
+               <msItem>
+                  <locus from="27r" to="27v">27r-v</locus>
+                  <note>Blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="28r">28ra-32va</locus>
+                  <rubric>Modus agendi colores et distemperandi</rubric>
+                  <incipit>De synopide. Sinopidem hoc modo conficies</incipit>
+               </msItem>
+               <msItem>
+                  <locus>33r-34v</locus>
+                  <note>Blank.</note>
+               </msItem>
+               <msItem>
+                  <locus from="35r">35ra-49vb</locus>
+                  <note type="title">Varia experimenta chymica</note>
+                  <rubric>Liber quintus de extrauagantibus nouis experimentis. Auri nouitas occultanda leuissima</rubric>
+                  <incipit>Post antiquorum studia nimium approbanda</incipit>
+                  <note>Second part ot the text in French.</note>
+               </msItem>
+               <msItem>
+                  <locus>50va-</locus>
+                  <rubric>Compositio et ars nobilis ad arma facienda, ad incidendum omnem lapidem, vitrum et ferrum</rubric>
+                  <incipit>Antiqui philosophi temperamentum ferri sic faciebant</incipit>
+               </msItem>
+               <msItem>
+                  <locus>51va-56ra</locus>
+                  <note type="title">Alia experimenta chymica</note>
+                  <incipit>Quo modo fiat album hypanitum</incipit>
                </msItem>
             </msContents>
-            <!--<physDesc>
+            <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
-                     <support></support>
+                     <support>Parchment</support>
                      <extent>
-                        <measure type="leaveCount" quantity=""></measure>
-                        <dimensions type="leaf" unit="mm">
-                           <height></height>
-                           <width></width>
-                        </dimensions>
+                        <measure type="leaveCount" quantity="56">56 fols.</measure>
                      </extent>
-                     <foliation></foliation>
-                     <collation></collation>
-                     <condition></condition>
                   </supportDesc>
                   <layoutDesc>
-                     <layout columns="" ruledLines=""></layout>
+                     <layout columns="2" ruledLines="34">Written in two columns, 34 lines</layout>
                   </layoutDesc>
                </objectDesc>
                <scriptDesc>
-                  <scriptNote script=""></scriptNote>
+                  <scriptNote script="textualis">Northern textualis.</scriptNote>
                </scriptDesc>
-            </physDesc>-->
+            </physDesc>
             <history>
                <origin></origin>
                <provenance></provenance>
@@ -90,7 +135,7 @@
             <additional>
                <listBibl>
                   <head>Selected bibliography:</head>
-                  <bibl></bibl>
+                  <bibl>See <ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc666168">Archives et manuscrits.</ref></bibl>
                </listBibl>
             </additional>
          </msDesc>

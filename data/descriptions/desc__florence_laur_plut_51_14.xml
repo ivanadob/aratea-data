@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
-         <change when="2018-06-10">Still need to add ref to authors and works. Info on history.</change>
+         <change when="2018-06-10">Still need to add info on history.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,19 +49,21 @@
                <origDate>s. XI</origDate>
                <origPlace/>
                <note type="facs">Digital facsimile at <ref target="http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000626450">teca.bmlonline.it</ref>.</note>
+               <note type="aratea"><rs type="text" ref="#text__abbo_hyginus.xml">Excerptio Abbonis ex Higino de figuratione signorum</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
             </head>
             <msContents>
                <msItem>
                   <locus from="1v" to="10v">1v-10v</locus>
-                  <title>De nuptiis Philologiae et Mercurii. Book VIII. De astronomia</title>
+                  <title ref="#de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia</title>
                   <author ref="#martianus_capella">Martianus Capella</author>
                   <rubric>MARTIANI MINEI FELICIS CAPELAE INCIPIT DE ASTROLOGIA LIBER VIII de nupciis
                      philologie</rubric>
-                  <incipit> Que dum geruntur et deorum sacer senatus</incipit>
-                  <explicit> qui eas percutiens aut in sublime tollit aut in profundum deprimit aut
+                  <incipit>Que dum geruntur et deorum sacer senatus</incipit>
+                  <explicit>qui eas percutiens aut in sublime tollit aut in profundum deprimit aut
                      in latitudinem declinare aut retrogradari facit.</explicit>
-                  <finalRubric>FINIT DE ASTROLOGIA deo gratia </finalRubric>
-                  <note>interlinear glosses by the same hand, and marginal by a different
+                  <finalRubric>FINIT DE ASTROLOGIA deo gratia.</finalRubric>
+                  <note>Interlinear glosses by the same hand, and marginal by a different
                      one.</note>
                </msItem>
                <msItem>
@@ -73,8 +75,8 @@
                </msItem>
                <msItem>
                   <locus from="11v" to="65r">11v-65r</locus>
-                  <author>Macrobius</author>
-                  <title>Commentary</title>
+                  <author ref="#macrobius">Macrobius</author>
+                  <title ref="#commentarium_somnium">Commentarium in Ciceronis somnium Scipionis</title>
                   <incipit> INTER PLATONIS ET CICERONIS libros quos de re publica utrumque
                      constituisse constat</incipit>
                   <explicit>quo universa philosophię continetur integritas. </explicit>
@@ -82,19 +84,19 @@
                </msItem>
                <msItem>
                   <locus from="65r" to="67v">65r-67v</locus>
-                  <author>Cicero</author>
-                  <title>Somnium Scipionis</title>
+                  <author ref="#cicero">Cicero</author>
+                  <title ref="#somnium_scipionis">Somnium Scipionis</title>
                   <incipit>TESTUS SONNII. CUM IN AFRICAM UENISSEM A MANLIO CONSULE AD quartam
                      legionm tribunus</incipit>
                   <explicit>Ille discessit. ego somno solutes sum. </explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="67v">67v</locus>
                   <title ref="#excerptum_de_astrologia">Excerptum de astronomia </title>
                   <incipit>DVO SUNT extremi uertices mundi quos appellant polos</incipit>
                   <explicit> quę ad ipsum usque decurrit accipiens. </explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="68v" to="72r">68v-72r</locus>
                   <title ref="#excerptio_abbonis">Excerptio Abbonis ex higino de figuratione
                      signorum</title>
@@ -131,7 +133,7 @@
                </msItem>
                <msItem>
                   <locus from="76r">76r</locus>
-                  <note> Adelbodus, Epistola ad Gerbertum (Adalbold, bishop of Utrecht, d. 1026) </note>
+                  <note type="title">Adelbodus, Epistola ad Gerbertum (Adalbold, bishop of Utrecht, d. 1026) </note>
                   <incipit> Domino Silvestro summo pontifici et philosopho uite felicitatem et
                      felicitates perpetuitatem Macrobius super somnium scipionis ubi
                      loquitur</incipit>
@@ -141,14 +143,14 @@
                </msItem>
                <msItem>
                   <locus from="78r" to="86v">78r-86v</locus>
-                  <note>Anonymous, Commentary to the arithmetica of Boethius (?) </note>
+                  <note type="title">Anonymous, Commentary to the arithmetica of Boethius (?) </note>
                   <incipit>Sicut et in aliis in primis uidere debemus quę sit materia huius operis.
                      Materia igitur est numerus per se</incipit>
                   <explicit>postquam dixit unitatem esse eiusdem substantie ideo repetit ea que tunc
                      dixit. </explicit>
                </msItem>
                <msItem>
-                  <locus>87r</locus>
+                  <locus from="87r">87r</locus>
                   <note>blank</note>
                </msItem>
                <msItem>

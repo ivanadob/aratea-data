@@ -44,9 +44,9 @@
                <title></title>
                <origDate notBefore="1151" notAfter="1225">s. XII<hi rend="sup">2</hi> / s. XIII<hi rend="sup">1/4</hi></origDate>
                <origPlace></origPlace>
-               <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia">Hyginus, De astronomia</rs></note>
-               <note type="aratea"><rs type="text" ref="#text__germanicus">Germanicus (excerpts)</rs></note>
-               <note type="aratea"><rs type="text" ref="#text__cicero">Cicero (excerpts)</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus (excerpts)</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero (excerpts)</rs></note>
                <note type="facs">Digital facsimile at <ref target="http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W734/">Digital Walters</ref></note>
             </head>
             <msContents>

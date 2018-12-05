@@ -5,7 +5,7 @@
             <title type="main">Aratea Digital</title>
             <title type="sub">Brussels, Bibliothèque royale, MS 2194-95</title>
             <respStmt>
-               <resp>Catalogued by:</resp>
+               <resp>Catalogued based on secondary literature by:</resp>
                <name type="person">Ivana Dobcheva</name>
             </respStmt>
          </titleStmt>
@@ -25,7 +25,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Digital born based on secondary literature (no autopsy!).</p>
+            <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
@@ -41,6 +41,7 @@
                <idno>2194-95</idno>
             </msIdentifier>
             <head>
+               <note type="aratea"><rs type="text" ref="#text__abbo_hyginus.xml">Excerptio Abbonis ex Higino de figuratione signorum</rs></note>
                <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
             </head>
             <physDesc>
@@ -122,12 +123,12 @@
                   <origPlace>England (?)</origPlace>                  
                </head>
                <msContents>
-                  <msItem>
+                  <msItem class="aratea">
                      <locus from="49r" to="49v">49r-49v</locus>
                      <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                      <incipit>Duo sunt extremi vertices mundi</incipit>
                   </msItem>
-                  <msItem>
+                  <msItem class="aratea">
                      <locus from="49v">49v-52v</locus>
                      <author ref="#abbo">Abbo of Fleury</author>
                      <title ref="#excerptio_abbonis">Excerptio Abbonis ex Higino de figuratione signorum</title>
@@ -140,7 +141,7 @@
                   </msItem>
                   <msItem>
                      <locus from="54v" to="56r">54v-56r</locus>
-                     <note type="title">Astronomical ompilation (?)</note>
+                     <note type="title">Astronomical compilation (?)</note>
                   </msItem>
                </msContents>
             </msPart>

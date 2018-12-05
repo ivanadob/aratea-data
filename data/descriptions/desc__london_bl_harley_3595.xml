@@ -3,11 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-            <title type="sub">London, British Library, Harley MS 3595
-                </title>
+                <title type="main">Aratea Digital</title>
+            <title type="sub">London, British Library, Harley MS 3595</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>

@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">London, British library, Harley 2506</title>
+            <title type="sub">London, British library, Harley MS 2506</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -77,9 +77,11 @@
                 <head>
                     <title>Astronomical compilation</title>
                     <origPlace ref="#fleury">Northern France, Fleury (?)</origPlace>
-                    <origDate notBefore="0976" notAfter="1000">X<hi rend="sup">4/4</hi>
-                    </origDate>
+                    <origDate notBefore="0976" notAfter="1000">X<hi rend="sup">4/4</hi></origDate>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_2506">www.bl.uk</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
