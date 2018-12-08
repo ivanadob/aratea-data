@@ -29,13 +29,33 @@
          </sourceDesc>
       </fileDesc>        
       <revisionDesc status="draft">
-         <change when="2018-11-28"/>
+         <change when="2018-12-08"/>
       </revisionDesc>
    </teiHeader>
    <facsimile>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000005_sap.jpg" n="1r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000011_sap.jpg" n="4r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000012_sap.jpg" n="4v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000013_sap.jpg" n="5r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000014_sap.jpg" n="5v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000031_sap.jpg" n="14r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000032_sap.jpg" n="14v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000033_sap.jpg" n="15r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000034_sap.jpg" n="15v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000035_sap.jpg" n="16r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000036_sap.jpg" n="16v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000037_sap.jpg" n="17r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000038_sap.jpg" n="17v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000039_sap.jpg" n="18r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000040_sap.jpg" n="18v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000041_sap.jpg" n="19r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000042_sap.jpg" n="19v"/>
       <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000043_sap.jpg" n="20r"/>
       <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000044_sap.jpg" n="20v"/>
       <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000045_sap.jpg" n="21r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000046_sap.jpg" n="21v"></graphic>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000047_sap.jpg" n="22r"></graphic>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000048_sap.jpg" n="22v"></graphic>
    </facsimile>
   <text>
       <body>
@@ -52,7 +72,8 @@
                <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus (excerpts)</rs></note>
                <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero (excerpts)</rs></note>
-               <note type="facs">Digital facsimile at <ref target="http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W734/">Digital Walters</ref></note>
+               <note type="aratea"><rs type="text" ref="#text__ral.xml">Revised Aratus Latinus (excerpts)</rs></note>
+               <note type="facs">Digital facsimile at <ref target="http://purl.thewalters.org/art/W.734/browse">Digital Walters</ref></note>
             </head>
             <msContents>
                <msItem class="aratea">
@@ -79,7 +100,7 @@
                   </msItem>
                   <msItem>
                      <locus from="14r" to="18r">14r-18r</locus>
-                     <note type="title">Lib. 4 wihtout the openning and sections 8-11, 13 to the end</note>
+                     <note type="title">Lib. 4 wihtout the openning and sections 8-11, 13 to the end.</note>
                      <incipit>In estiuo circulo de quo primum dicere instituimus</incipit>
                      <explicit>sic igitur orientibus XII signis reliqua corpora occidere et exoriri uidentur.</explicit>
                      <note>Skip sections 8-11 on the rotaion of the world together with the fixed stars around the poles, the zodiacal band cut in half by the horizon etc. moving straight to the paranatellonta section 12 (17r-18r).</note>
@@ -109,7 +130,8 @@
                </msItem>
                <msItem>
                   <locus from="19r" to="19v">19r-20r</locus>
-                  <note type="title">On the planets based partly on Hyginus, De astronomia, Lib. 2, cap. XLII.</note>
+                  <author ref="#hyginus">Hyginus</author>
+                  <title ref="#de_astronomia">On the planets based partly on De astronomia, Lib. 2, cap. XLII.</title>
                   <incipit>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton</incipit>
                   <explicit>absides altissima in capricorno.</explicit>
                   <note>On the lower margin of f. 19r: hic celo ornatur trahitur noctemque diemque.</note>
@@ -131,7 +153,7 @@
                </msItem>
                <msItem>
                   <locus from="20v">20v</locus>
-                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Praesepis signa)</title>
+                  <title ref="#ral">Excerpt on Praesepis signa, probably taken from the Revised Aratus Latinus</title>
                   <incipit>Sidera quae gentiles presepe et asinos uocauerunt</incipit>
                   <explicit>una cum presepi suo inter astra collocauerint.</explicit>
                   <decoNote>Preceding the text an illustration of Presepe on the lower margin of f. 20r.</decoNote>
@@ -160,14 +182,54 @@
                </msItem>
                <msItem>
                   <locus from="21v">21v</locus>
-                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Sol)</title>
-                  <incipit>Sol dum per trecentos sexaginta et V dies et quadrantem zodiaci ambitum</incipit>
+                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Sol) with omissions</title>
+                  <incipit>Sol dum per trecentos sexaginta et V dies et quadrantem zodiaci ambitum lustret</incipit>
+                  <explicit>si pallidus in nigras nubes occidat aquilonem significat.</explicit>
                   <decoNote>On f. 21r space left on the lower text field probably for illustration of the Sol.</decoNote>
+               </msItem>
+               <msItem>
+                  <locus from="21v" to="22r">21v-22r</locus>
+                  <author ref="#hyginus">Hyginus</author>
+                  <title ref="#de_astronomia">Excerpt from De astronomia, Lib. 4, cap. 3 (on the path of the sun on the zodiac, as on f. 15v)</title>
+                  <incipit>Sol transiens ab ariete ad chelas efficit sex mensium</incipit>
+                  <explicit>alter per lucem exigat.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="22r">22r</locus>
+                  <author ref="#cicero">Cicero</author>
+                  <title>Excerpt from De inventione (definitions of virtus, prudentia, memoria, intelligentia etc.)</title>
+                  <incipit>Virtus est animi habius naturae</incipit>
+                  <explicit>Amicitia est uoluntas erga aliquem rerum bonarum illius ipsius causa, quem diligit, cum eius pari voluntate.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="22v">22v</locus>
+                  <note>Pen trials.</note>
                </msItem>
             </msContents>
             <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>Parchment</support>
+                     <extent>
+                        <measure type="leavesCount" quantity="24">i + 22 fols. + i</measure>
+                     </extent>
+                  </supportDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote>Praegothica.</scriptNote>
+               </scriptDesc>
                <accMat>Binding waste (fragments): two double leaves used as pastedowns on the front and back boards with flyleaves. Text: Julianus Toletanus, Prognosticon futuri saeculi. Origin: Italy (?), s. XI.</accMat>
             </physDesc>
+            <history>
+               <origin>For an Italian origin or at least provenance speak the fragments written in a 15th-century Italian Rotunda, and the fact that the sequence of texts (and extracts) is reproduced in 15th-century manuscript, Vienna ÖNB, Cod. 3394, which is North Italian, probably Paduan,</origin>
+               <provenance></provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters: der gemalte Himmel zwischen Wissenschaft und Phantasie. Vol. I, 1: Text und Katalog der Handschriften. Berlin: Akademie Verlag, 2012, 193-198.</bibl>
+                  <bibl>Lippincott, K. Entry in the <ref target="https://www.thesaxlproject.com">Saxl Project</ref>.</bibl>
+               </listBibl>
+            </additional>
          </msDesc>
          
       </body>
