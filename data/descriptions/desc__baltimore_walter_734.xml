@@ -32,6 +32,11 @@
          <change when="2018-11-28"/>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000043_sap.jpg" n="20r"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000044_sap.jpg" n="20v"/>
+      <graphic url="http://www.thedigitalwalters.org/Data/WaltersManuscripts/W734/data/W.734/sap/W734_000045_sap.jpg" n="21r"/>
+   </facsimile>
   <text>
       <body>
          <msDesc xml:id="baltimore_walters_734" xml:lang="eng">
@@ -95,7 +100,7 @@
                   <title ref="#germanicus_aratea">Aratea<note> (vv. 434, 435-436)</note></title>
                   <quote>Sub geminis prochion fulgentia lumina pandit. Sors sua cuique data semel assignata tuentur. Imoti loca nec longo mutatuntur in euo.</quote>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="19r">19r</locus>
                   <author ref="#cicero">Cicero</author>
                   <title ref="#aratea_cicero">Aratea<note> (vv. 222-226)</note></title>
@@ -103,25 +108,62 @@
                   <!--<note>Possibly meant to complete the Excerptum. Taken probably from the so-called Scholia Harleiana, the excerpts from Hyginus used as scholia figurata in London BL, MS Harley 647 and MS Cotton Tib. C. I.</note>-->
                </msItem>
                <msItem>
-                  <locus from="19r" to="19v">19r-19v</locus>
-                  <quote>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton de quo heraclit scribit ait phetontem solis filium quo tempore patet nos curr</quote>
+                  <locus from="19r" to="19v">19r-20r</locus>
+                  <note type="title">On the planets based partly on Hyginus, De astronomia, Lib. 2, cap. XLII.</note>
+                  <incipit>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton</incipit>
+                  <explicit>absides altissima in capricorno.</explicit>
                   <note>On the lower margin of f. 19r: hic celo ornatur trahitur noctemque diemque.</note>
-                  <bibl><ref target="https://archive.org/details/dehyginimemoria00kaufgoog/page/n119"></ref></bibl>
-               </msItem>
-               <!--<msItem>
-                  <locus from="19v" to=""></locus>
-                  <author></author>
-                  <title></title>
-                  <incipit></incipit>
-                  <explicit></explicit>
                </msItem>
                <msItem>
-                  <locus from="" to=""></locus>
-                  <author></author>
-                  <title></title>
-                  <incipit></incipit>
-                  <explicit></explicit>
-               </msItem>-->
+                  <locus from="20r">20r</locus>
+                  <author ref="#cicero">Cicero</author>
+                  <title ref="#aratea_cicero">Aratea<note> (vv. 227-232)</note></title>
+                  <incipit>Quinque solent stelle simili ratione notari</incipit>
+                  <explicit>He faciunt magnos longinqui temporis annos.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="20r">20r</locus>
+                  <author ref="#germanicus">Germanicus</author>
+                  <title ref="#germanicus_aratea">Aratea<note> (vv. 437-445)</note></title>
+                  <rubric>Aratus</rubric>
+                  <incipit><supplied>E</supplied>t stellae via diuersa lege feruntur</incipit>
+                  <explicit>tempus et ipse labor, patiantur <sic>facta</sic> docebit.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="20v">20v</locus>
+                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Praesepis signa)</title>
+                  <incipit>Sidera quae gentiles presepe et asinos uocauerunt</incipit>
+                  <explicit>una cum presepi suo inter astra collocauerint.</explicit>
+                  <decoNote>Preceding the text an illustration of Presepe on the lower margin of f. 20r.</decoNote>
+               </msItem>
+               <msItem>
+                  <locus from="20v">20v</locus>
+                  <incipit>Si uis scire in quo anno cicli stella saturni sit fac hos modo</incipit>
+                  <explicit>et quodcumque signum est in illo est saturnus.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="20v">20v</locus>
+                  <incipit>Si uis scire quo signo stella uiuis sit fac hoc modo</incipit>
+                  <explicit>quando conputes et in eo signo iupiter erit.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="21r">21r</locus>
+                  <incipit>Si uis scire quod stella mercurii sit fac hoc modo</incipit>
+                  <explicit>et inuenies signum in quo ille est positus.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="21r">21r</locus>
+                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Luna)</title>
+                  <incipit>Luna bigam habere dicitur siue propter uelocitatem</incipit>
+                  <explicit>certissima habetur aurarum.</explicit>
+                  <decoNote>Preceding the text an illustration of Luna, personificated as a woman on a biga carrage on the lower margin of f. 20v.</decoNote>
+               </msItem>
+               <msItem>
+                  <locus from="21v">21v</locus>
+                  <title ref="#ral">Excerpt from the Revised Aratus Latinus (Sol)</title>
+                  <incipit>Sol dum per trecentos sexaginta et V dies et quadrantem zodiaci ambitum</incipit>
+                  <decoNote>On f. 21r space left on the lower text field probably for illustration of the Sol.</decoNote>
+               </msItem>
             </msContents>
             <physDesc>
                <accMat>Binding waste (fragments): two double leaves used as pastedowns on the front and back boards with flyleaves. Text: Julianus Toletanus, Prognosticon futuri saeculi. Origin: Italy (?), s. XI.</accMat>

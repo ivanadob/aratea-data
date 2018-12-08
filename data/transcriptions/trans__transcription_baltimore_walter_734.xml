@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription from Baltimore, Walters Art gallery, MS Walter 734</title>
+            <respStmt>
+               <resp>Transcribed by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+         </fileDesc>
+     <revisionDesc status="draft">
+        <change when="2018-12-08"></change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <p>Septem sunt quae uocantur erratice quorum prima est saturni nomine pheton de quo heraclitus scribit ait phetontem solis filium <note>(f. 19v) </note>quo tempore paternos currus affectans sibi mundoque concrimationis detrimenta confauit <note>for 'quo facto'</note> a ioue fulmnine percussum et a patre suo sole inter astra collocatum. De hoc sidere tarditatem hominius prouenire putabant phisici. Huius absidis altissima est in scorpione.</p>
+         </div>
+         <div>
+            <p>Secunda iouis est stella a qua se homines temperantiam accipere putabant de quo talis est opinio. Prometheus quondam hominem cunctis forma prestantiorem fecit quem cum ioui uero ceteros nollet reddere, Mercurius missus a ioue ei persuasit uero ad iouem uadens immortalem fieret. Cuius adsidis altissima est in uirgine duodecim signiferum peragit.</p>
+         </div>
+         <div>
+            <p>Tercia est martis stella, quam alii herculis, alii ueneris esse dixerunt. Hac uero eratostenes ait de causa. Vulcanus cum uenerem uxorem duxisset et propter eius diligentem obseruantiam marti copiam accedendi ad eam non fieret mars uero stella saltem sua ueneris sequeretur inpetrauit stellam. Et quia uehementer amore illius accensus arserat. Pyrous est appellatus huius absides altissima est in leonem, duobus annis zodiacum lustrat.</p>
+         </div>
+         <div>
+            <p>Quarta est stella ueneris lucifer nomine; quam non nulli iunonis esse dixerunt. esperumque <unclear></unclear> appellari isque omni syderum maximus uidetur; quam nonnulli aurore cephalique filium dixerunt pulchritudine multum praestantie a deo uero <unclear>aprephaphum</unclear> cum uenere litigare sicut eratostenes refert. Quare in sydera collocatus ueneris appellatus est sydera. Quod cum sole precedit lucifer est, consequitur uesper. Ab hac stela uoluptatem homines conduntur accipere CCCC quadraginta octo diebus ambitum zodiaci percurrit.</p>
+         </div>
+         <div>
+            <p>Stella mercurii quinta est nomine stilbos; a qua se sapinetiam <note>(f. 20r)</note> percipere antiqui <del>an</del> arbitrabant. Sed haec est breuis et clara quae <unclear>uero</unclear> mercurio data existimatur; quod primum mensis instituerit et syderum cursus. Euhemerus autem uenerem primum dicit sidera constituisse ac mercurio demonstrasse; huius absides altissima in capricorno est.</p>
+         </div>
+         <div>
+            <head>cicero</head>
+            <p>
+               <l>quinque solent stellae, simili ratione notari</l>	
+               <l>non possunt, quia quae faciunt uestigia cursu</l>	
+               <l>non eadem semper spatio protrita teruntur.</l>	
+               <l>Sic malunt errare uagae per nubila caeli</l>
+               <l>atque suos uario motu metirier orbes.</l>	
+               <l>Hae faciunt magnos longinqui temporis annos</l>
+            </p>
+         </div>
+         <div>
+            <head>Aratus</head>
+            <p>
+               <l><supplied>E</supplied>t stellae via diuersa lege feruntur</l>
+               <l>et proprio motu mundo contraria volvunt</l>
+               <l>curricula exceduntque loco et vestigia mutant.</l>
+               <l>haud equidem possis alio contingere signo,</l>
+               <l>quae divis sedes. hinc atque hinc saepe videntur</l>
+               <l>occasus ortusque. neque anfractus brevis illis</l>
+               <l>annosasque vias tardus vix perficit orbis.</l>
+               <l>hoc opus arcanis si credam postmodo Musis,</l>
+               <l>tempus et ipse labor, patiantur fata, docebit.</l>  
+            </p>
+         </div>
+         <div>
+            <p>Sidera quae gentiles presepe et asinos uocauerunt sub cancro sunt constituta. sunt autem non multi splendoris stelle neque plurimum distantes in <sic>aquarum</sic> medio in modum presepis stellarum <sic>abitus</sic> est, cui ille preminent, una ab aquilone altera ab austro. Autumabant eosdem asinos gentiles deorum suorum dionisii uidelicet et uilcani siue saturni uehiculos fuisse. Quibus ascensis cum contra gygantes ad bellum procederent et illi naturali zelo accensi uiso tumulto diro rugisset cum magno murmure. gygantes eorum rugitu perterriti fugerint et statum dii de gygantibus triumphauerint a circulo <note>foro 'idcirco'</note> eos una cum presepi suo inter astra collocauerint.</p>
+         </div>
+         <div>
+            <p>Si uis scire in quo anno cicli stella saturni sit fac hoc modo. nummera quod anni sint ex quo alexander potitus regno est adde XXVIIII quos per triginta dissoluens quot numeri intra occurant tene. si V s.V. V. Si VI, VI. sicque usque ad XXX. Si uis scire quo signo sit fac hoc modo. Vide quo anno ciclis is sit de prehendere et quotus ille fuerit annus uel I, uel V totidem infra lineas conputa in quibus signa sunt descripta et quod cumque signum est in illo est saturnus.</p>
+         </div>
+         <div>
+            <p>Si uis scire quo signo stella uiuis sit fac hoc modo adde annis ex quo alexandro regnare cepit XIII et diuidit eos in duodecim et deprehende quod intra XII remaneant. Eosdemque modo lineas et annos infra mensem, in quo tunc es et quando conputes et in eo signo iupiter erit.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

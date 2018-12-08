@@ -29,11 +29,22 @@
   </teiHeader>
   <text>
       <body>
-         <p>Denique dicit Plinius in omnia sunt LXXII signa, in quibus continentur stellae ordinatim dispositae MDC (1600): Unde si plus invenias vitio scriptorum deputa.</p>
-            <p>Siquidem intra circulum arcticum clausae sunt duae arcturi, una resupinate, altera caput alterius tegere videtur, verso semper capite majoris ad caudam minoris. Quarum major habet in capite stellas VII omnes obscuras in utrisque auribus unam, in humero claram unam, in pede novissimo II, inter scapulas unam, in crure posteriore I, in pede priore II, in cauda tres, et ita sunt XIX. Minor ursa in stationis loco stellas singulas claras et super caudam tres. In ipsa vero cauda unam, qui polus appellatur, ad quam mundus revolvitur. Ita sunt omnes VI.</p>
-           <p>Draco.
-            Inter ipsas autem duas arcturos est draco ingens post trinam revolutionem sui respiciens ad caudam ursae mar joris id est helicis, qui anterioribus pedibus innititur cau
-         </p>
+         <div>
+            <p>Denique dicit Plinius in omnia sunt LXXII signa, in quibus continentur stellae ordinatim dispositae MDC (1600): Unde si plus invenias vitio scriptorum deputa.</p>
+         </div>
+         <div>
+            <head>Arcti</head>
+            <p>Siquidem intra circulum arcticum clausae sunt duae arcturi, una resupinate, altera caput alterius tegere videtur, verso semper capite majoris ad caudam minoris. Quarum major habet in capite stellas VII omnes obscuras in utrisque auribus unam, in humero claram unam, in pede novissimo II, inter scapulas unam, in crure posteriore I, in pede priore II, in cauda tres, et ita sunt XIX. Minor ursa in stationis loco stellas singulas claras et super caudam tres. In ipsa vero cauda unam, qui polus appellatur, ad quam mundus revolvitur. Ita sunt omnes VI.</p></div>
+           <div>
+              <head>Draco</head>
+              <p>
+                 Inter ipsas autem duas arcturos est draco ingens post trinam revolutionem sui respiciens ad caudam ursae mar joris id est helicis, qui anterioribus pedibus innititur caudae eius extremitati. Infera revolutione deprimit pedibus humeros eius minor ursa, id est cinosura, et sic capit rursus revolvit ad suum pectus, et habet in utroque tempore stellas singulas, in oculis singulas, in mento unam, in reliquo corpore X, ita sunt omnes XV. Super cinosuram sunt X stellae, quae ludentes dicuntur.
+              </p>
+           </div>
+         <div>
+            <head>Bootes sive Arctophylax</head>
+            <p>Arctophylacis sive Bootis manum sinistram arcticus includit et in aestivo finitur, inclinatus in longitudinem,</p>
+         </div>
       </body>
   </text>
 </TEI>
