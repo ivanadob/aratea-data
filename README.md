@@ -1,4 +1,8 @@
 # aratea data
 
-This repo contains (xml) data. Included are descriptions of medieval manuscripts of the Aratea texts, transcription of the Aratus Latinus.
-For more information about the texts and the project see: https://aratea-digital.acdh.oeaw.ac.at/.
+This repo contains (xml) data. Included are:
+1) short documents on the Aratea texts, including brief introduction, list of editions (if available), secondary literature and existing manuscripts;
+2) descriptions of medieval manuscripts of the Aratea texts;
+3) transcriptions of the four manuscripts of the Aratus Latinus, as well as diplomatic transcriptions of smaller unedited treatises drawing on the Aratea;
+4) OCR of older Aratea editions, which are already in the public domain.
+The results of this on-going project are also available at: https://aratea-digital.acdh.oeaw.ac.at/.
