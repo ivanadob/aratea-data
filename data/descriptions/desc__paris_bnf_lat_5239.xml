@@ -60,94 +60,104 @@
                     <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coelis</rs></note>
                 </head>                
             <msContents>
-<!--               Excerpts from Isidore, Etym, XIII, 10-11 (De arcu et nubium effectibus; De ventis)
-Folio number: 1r-2r
-Incipit: … dicta a greco u<o>cabulo quod terram inhebrient ad germinandum...
-Explicit: quam flumina (sic) alata figunt (sic) poetae ut alitis austris.
-Remarks: f. 1r – hard to read, warn out parchment perhaps it was for a long time at the beginning of the volume; 30 lines per page, one column, Carolingian minuscule; Begins in the middle of a phrase; Greek words written in Latin characters.
+               <msItem>
+                   <locus from="1r" to="2r">1r-2r</locus>
+                   <author>Isidore</author>
+                   <title>Etymologiae Excerpts: XIII, 10-11 (De arcu et nubium effectibus; De ventis)</title>
+                   <incipit>dicta a greco uocabulo quod terram inhebrient ad germinandum</incipit>
+                   <explicit>quam flumina (sic) alata figunt (sic) poetae ut alitis austris.</explicit>
+                   <note>f. 1r – hard to read, warn out parchment used probably for a long time as fly-leaf; 30 lines per page, one column, Carolingian minuscule; begins in the middle of a phrase; Greek words written in Latin characters.</note>
+               </msItem>
+                <msItem>
+                    <locus from="2r">2r</locus>
+                    <note>Note in Greek and Latin on the celestial circles; different hand, added later to use the blank space; perhaps taken from Isidore, Etym. XIII, 6 (although it has terms not used in Isidore).</note>
+                </msItem>
+                <msItem>
+                    <locus from="2v"></locus>
+                    <title>Dies aegyptiaci (Favourable and unfavourable days)</title>
+                    <incipit>Mense ianuario intrante die primo secundo exiente die ... si quis in his diebus in lecto inciderit non cito euadet et nec nullum genus pecculium dimittetur</incipit>
+                    <explicit>Istis dies per omniam observandi sunt.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="2v">2v</locus>
+                    <note type="title">Prognostics</note>
+                    <incipit>Mense ian die ii et vi et xvi sanguine noli minuare. Mense feb die ii et xxiii uenam non incidas</incipit>
+                    <explicit>Mense decembris die vii et xxii ab illo studium declinare memento.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="3r">3r</locus>
+                    <note type="title">Obituaries List with monks their day of death and profession</note>
+                    <incipit>ii nona jan obit Isembertus hic fecit scrinium sancti valerici et duas cruces; vii idus jan Galtetius hi fecit signum quod uocatur uox domini et unum pallium leoninem</incipit>
+                    <explicit>et fecit ii-a candelabra magna ante altare.</explicit>
+                    <note>Addition at the end by a slightly later unsteady hand.</note>
+                </msItem>
+                <msItem>
+                    <locus from="3v">3v</locus>
+                    <note type="title">2 capitulars, donations made to the monastery of St Martial</note>
+                    <msItem>
+                        <incipit>Hec sunt ornamenta quae A. de brucia subprior dedit deo et beato marciali casulam de purpura</incipit>
+                        <explicit>et sedilia tam ligne quam lapidea ibidem fecit fieri.</explicit>
+                    </msItem>
+                    <msItem>
+                        <incipit>Notum sit omnibus tam praesentibus quam futuris quod ego fulco de riora et Wmus (?) frater meus dedimus monisterio sancti marciali et fratribus</incipit>
+                        <explicit>testes fuerunt Ai capellanus de molio Ai de monte et Johanus Guitbertus.</explicit>
+                    </msItem>
+                </msItem>
+                <msItem>
+                    <locus from="4r" to="6r">4r-6r</locus>
+                    <author>Dionisius Exiguus</author>
+                    <rubric>Incipit Liber Dionisii Exigui</rubric>
+                    <incipit>Domino beatissimo et nimium desiderantissimo Patri petronio episcopo Dionisius exiguus</incipit>
+                    <explicit>Orantem pro nobis beatitudinem uram diuina gratia custodire dignetur.</explicit>
+                    <finalRubric>Explicit praefatio.</finalRubric>
+                </msItem>
+                <msItem>
+                    <locus from="6r" to="20r">6r-20r</locus>
+                    <note type="title">19-year cycles (28 cycles: years 532-1063)</note>
+                    <incipit>Incipit cyclus decennovenalis quem greci enneacaidecaderica vocant. Constitutus a sanctis patribus in quo xiiii d paschales omni tempore sine ulla repperies falsitate</incipit>
+                    <!--<note>from 6v- on one page one cycle : primus cyclus decennovenalis; secundus cyclus etc. Begins with year 532 DXXXII anni dni nostril ihu xri. Notes on emperors deaths and succession; no note about the death of Bede, but kept the one for Alcuin; notes on the dedication of the basilica St. Columba in 853 (DCCLIII but should be DCCCLIII) XI Kl Aug; et ipsius mensis translation corporum scorum Columne uirginis; On the margin : Canonicalis habitus in monachalem habitum et sce religionis uitam mutauit in monasterium sci marcialis II k Aprl DCCCXLVIII (848) (on f. 18v);
+                        Another note on the monastery: fol. 18v 952 – monasterium sci marcialis igne erematum est;
+                        f. 19r – last note from the original hand for year 1010 MX solar eclipse and the consecration of a sepulcrum dni apaganis ii kl octr; 
+                        then follow notes by different hands for years MXVIIII 1019 – Hic ob Gaurfredus abba ii; 1025 – Ob Ugo abbas Rotgerius cantor Hildeberdus monachi -> abbots of Monastery of St. Martial in Limoges.
+                        Another note on fire in Monasterium sci marcial in 1053, and iterum in 1060 xi kl mai
+                        Notes for solar eclipse: 
+                        -	Fol. 6v year 538 – Eclypsis solis facta est xiiii k mar ab hora prima usque ad tertiam
+                        -	Fol. 6v year 540 – Eclypsis solis facta est xii k iul et apparuerunt stellę pene hora dimidia ab hora diei tertia.
+                        -	Fol. 13v the same note about signum crucis mirabili modo as in MS Paris BnF lat. 5543 f. 16v.
+                        -	Fol. 15r – 861 id mar igneę acies apparuerunt in cęlo circa gallicinium et obit Abbo abbas. the second abbot of St. Martial
+                        -	Fol. 15v – 886:‘Hugo abb inclitus obiit. Karolus imperator pei suis contra nortmannos uenit; 887: ‘Monasterium sci germani a nortmannis incensus est’
+                        -	Fol. 19v – 1037 – xii id mai eclipsis sol facta est ab hora iiii usque pine vi non ut mos est sed ita sole pius apparent  (added a full circle) deinde ita (mostly black with one little part white circle) pira ita (mostly white with little balck)</note>-->
+                </msItem>
+                <msItem>
+                    <locus from="20v" to="21r">20v-21r</locus>
+                    <note type="title">Chronicle</note>
+                    <incipit>Anno dominicę incarnationis DCCCXXX Herio innsula a generali monachorum habitatione destituitur mense iunio</incipit>
+                    <explicit>anno DCCCCXXX Ademarius comes emenonis filius iiii nonas aprilis obit apud scm hylarium pictauis sepultus.</explicit>
+                    <!--Remarks: years 830-930; then a later hand added a note to year 1025 (death of certain Wido uicomes apud scm marcialem limouicas sepultus; eodem anno Enricus impr obit .. eodem anno basilius impr grecorum ob et constantinus fr eius imperium suscepit; additions by a later cursive hand.
+                    Folios are ruled for tables (the same quire as the tables before)-->
+                </msItem>
+                <msItem>
+                    <locus from="21v">21v</locus>
+                    <note>Blank.</note>
+                </msItem>
+                <msItem>
+                    <locus from="22r">22r</locus>
+                    <note type="title">Excerpt from Servius Comm. in Vergil’s Aeneid 10.272</note>
+                    <rubric>De Differentia Cometarum</rubric>
+                    <incipit>Hanc stellam electram dicunt cum qua iuppiter concubuit</incipit> 
+                    <explicit>orbi terarum cędes rapinas bella et cetera mala significat.</explicit>
+                    <note>Catalogue of comets. Sane auienorum cometarum has differentias dicit. Stella quae oblicam facem post se trahens quasi crinem facit yppius uocatur. Ita si ab occasu in ortum ueniat mala perfide et syriae ostendit. Si ad meridiem adtenderit africam et egyptum amalis releuat solis peccoribus pestem denuntians. Si septemntrionem respexerit aegyptum bellis et miserus premit. Another kind : alter cometes est cui ex gladio nomen est Nam grece siphas appellatur cuius tractus est longior et pallidus color neque comas habere dr et hebetior eius flamma est. Again different significations if comes from S N E W
+                        Alter cometes est qui lampas appellatur et quasi fax lucet
+                        Est et cometes qui uere cometes appellatur…
+                        Est alter cometes intympani modum qui nec ualde lucet et electri colorem habet quem disceum uocant</note>
+                   </msItem>
+                <msItem>
+                    <locus from="22v" to="23v">22v-23v</locus>
+                    <note>Blank, ruled for a table. End of quire IV.</note>
+                </msItem>
 
-Additional note (see brown notebook)
-Folio number: 3r
-Incipit:
-Explicit:
-Gloss:
-Drawings:
-Remarks: note in Greek and Latin on the celestial circles; different hand, perhaps added later to use the blank space; perhaps taken from Isidore, Etym. XIII, 6 (although it has terms not used in Isidore).
 
-Dies aegyptiaci (Favourable and unfavourable days)
-Folio number: 2v
-Incipit: Mense ianuario intranet die primo secundo exiente die vii februario intranet die viiii exeunte ... si quis in his diebus in lecto inciderit non citp euadet et nec nullum genus pecculium dimittetur...
-Explicit: Istis dies per omnia observandi sunt
-Remarks: missing the initial M at the beginning
-
-Incipit: Mense ian die ii et vi et xvi sanguine noli minuare. Mense feb die ii et xxiii uenam non incidas…
-Explicit : Mense decembris die vii et xxii ab illo studium declinare memento.
-Remarks: missing the initial M at the beginning; different hand from the previous and following sections. Still 30 lines per page, but the scribe placed the last two words in the lower margin (in order not to go to next folio?).
-
-Obituaries List with monks their day of death and profession.
-Folio number: 3r
-Author:
-Title:
-Incipit: ii nona jan obit Isembertus hic fecit scrinium sancti valerici et duas cruces; vii idus jan Galtetius hi fecit signum quod uocatur uox chii et unum pallium leoninem ...
-Explicit: ... et fecit ii-a candelabra magna qnte altare.
-Then added in a later protogothis hand additional note about Bnardus thesaurarius et armarius.
-Remarks: mention names: Wido add; petrus abba; abb Amblardus; Odolricus abba; Gaufred abb; different hand later 11th c.? Ordered not chronologically, but by months starting from January ending in December - it mentions only the month of dead, not the year.
-
-2 capitulars
-Folio number: 3v
-Incipit: Hes sit ornamenta quod A. de brucia sub pior dedit deo et bo marciali casulam …
-Explicit: ... et sedilia tam ligne quam lapidea ibidem fecit fieri.
-
-Incipit: Notum sit omnibus tam praesentibus quam futuris quod ego fulco de riora et Wmus frater meus dedimus monisterio sancti marciali et fratribus...
-Explicit: ... de iam dicto monasterio huius concessionis testes fuerunt Ai capellanus de niolio Ai demote et Johanus Guitbertus.
-Remarks: two capitulars stating a donation made to the monastery of St Martial; different later hand. No clues about their date.
-
-Dionisius Exiguus
-Folio number: 4r-6r
-Incipit: Incipit Liber Dionisii Exigui. Domino beatissimo et nimium desiderantissimo Patri petronio episcopo Dionisius exiguus. Paschalis festi rationem quam…
-Explicit: Orantem pro nobis beatitudinem uram diuina gratia custodire dignetur. Explicit praefatio. 
-Remarks: same layout, 30 lines, one column; initial D, title in roman capitals; text in caroline minuscule;
-
-Tables 19-year cycles (28 cycles: years 532-1063)
-Folio number: 6r-20r
-Author:
-Title:
-Incipit: Incipit cyclus decennovenalis Qvem greci enneacaideca derica vocant. Constitutus a sanctis patribus in quo xiiii d paschales omni tempore sine ulla…
-Explicit: with the vicesimus VIII cyclus decennovenalis and year MLXIII
-Remarks: from 6v- on one page one cycle : primus cyclus decennovenalis; secundus cyclus etc. Begins with year 532 DXXXII anni dni nostril ihu xri. Notes on emperors deaths and succession; no note about the death of Bede, but kept the one for Alcuin; notes on the dedication of the basilica St. Columba in 853 (DCCLIII but should be DCCCLIII) XI Kl Aug; et ipsius mensis translation corporum scorum Columne uirginis; On the margin : Canonicalis habitus in monachalem habitum et sce religionis uitam mutauit in monasterium sci marcialis II k Aprl DCCCXLVIII (848) (on f. 18v);
-Another note on the monastery: fol. 18v 952 – monasterium sci marcialis igne erematum est;
-f. 19r – last note from the original hand for year 1010 MX solar eclipse and the consecration of a sepulcrum dni apaganis ii kl octr; 
-then follow notes by different hands for years MXVIIII 1019 – Hic ob Gaurfredus abba ii; 1025 – Ob Ugo abbas Rotgerius cantor Hildeberdus monachi -> abbots of Monastery of St. Martial in Limoges.
-Another note on fire in Monasterium sci marcial in 1053, and iterum in 1060 xi kl mai
-Notes for solar eclipse: 
--	Fol. 6v year 538 – Eclypsis solis facta est xiiii k mar ab hora prima usque ad tertiam
--	Fol. 6v year 540 – Eclypsis solis facta est xii k iul et apparuerunt stellę pene hora dimidia ab hora diei tertia.
--	Fol. 13v the same note about signum crucis mirabili modo as in MS Paris BnF lat. 5543 f. 16v.
--	Fol. 15r – 861 id mar igneę acies apparuerunt in cęlo circa gallicinium et obit Abbo abbas. the second abbot of St. Martial
--	Fol. 15v – 886:‘Hugo abb inclitus obiit. Karolus imperator pei suis contra nortmannos uenit; 887: ‘Monasterium sci germani a nortmannis incensus est’
--	Fol. 19v – 1037 – xii id mai eclipsis sol facta est ab hora iiii usque pine vi non ut mos est sed ita sole pius apparent  (added a full circle) deinde ita (mostly black with one little part white circle) pira ita (mostly white with little balck)
-
-Chronicle 
-Folio number: 20v-21r
-Incipit: Anno dominicę incarnationis DCCCXXX Herio innsula a generali monachorum habitatione destituitur mense iunio
-Explicit: anno DCCCCXXX Ademarius comes emenonis filius iiii nonas aprilis obit apud scm hylarium pictauis sepultus.
-Remarks: years 830-930; then a later hand added a note to year 1025 (death of certain Wido uicomes apud scm marcialem limouicas sepultus; eodem anno Enricus impr obit .. eodem anno basilius impr grecorum ob et constantinus fr eius imperium suscepit; additions by a later cursive hand.
-Folios are ruled for tables (the same quire as the tables before)
-
-Fol. 21v - blank
-
-Excerpt from Servius Comm. In Vergil’s Aeneid 10.272
-Folio number: 22r
-Title: De Differentia Cometarum
-Incipit: Hanc stellam electram dicunt cumqua iuppiter concubuit quęcum troiam ardentem uideret capillum lacerabat atque in astra est recepta. Sane auienorum cometarum has differentias dicit. Stella quae oblicam facem post se trahens quasi crinem facit yppius uocatur Ita si ab occasu in ortum ueniat mala perfide et syriae ostendit. Si ad meridiem adtenderit africam et egyptum amalis releuat solis peccoribus pestem denuntians. Si septemntrionem respexerit aegyptum bellis et miserus premit. 
-Another kind : alter cometes est cui ex gladio nomen est Nam grece siphas appellatur cuius tractus est longior et pallidus color neque comas habere dr et hebetior eius flamma est. Again different significations if comes from S N E W
-Alter cometes est qui lampas appellatur et quasi fax lucet
-Est et cometes qui uere cometes appellatur…
-Est alter cometes intympani modum qui nec ualde lucet et electri colorem habet quem disceum uocant
-Explicit: ... orbi terarum cędes rapinas bella et cetera mala significat.
-Remarks: ruled for tables also; large initial H, title in rustic capitals.
-
-Fol. 22v-23v – blank ruled as for table, end of quire IIII here;
+<!--
 
 Bede, De natura rerum
 Folio number: 24r-32r
@@ -426,9 +436,9 @@ Folio number: 213r-
 Title:
 Remarks:
 
-f. 214v - blank-->
+f. 214v - blank
 
-<msItem class="aratea">
+--><msItem class="aratea">
     <locus from="215r" to="224v">215r-224v</locus>
     <author ref="#bede">Ps-Bede</author>
     <title ref="#de_signis_coeli">De signis coelis</title>
