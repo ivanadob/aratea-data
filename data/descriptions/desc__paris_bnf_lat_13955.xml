@@ -393,18 +393,21 @@
                     <origPlace ref="#corbie">Corbie</origPlace>
                     <origDate notBefore="0801" notAfter="0900">s. IX</origDate> (with additions till the <date notBefore="1001" notAfter="1100">s. XI</date>)
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9066978w">gallica.bnf.fr</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__ral.xml">Exceprt from RAL (Arati ea quae videntur)</rs></note>
                 </head>                
             <msContents>
                <msItem>
                   <locus from="1r">1r</locus>
-                   <note>Collection of words and their meaning. Excerpts from<rs type="person" ref="#priscianus" role="author">Priscian</rs>: <title>Institutiones</title>, <rs type="person" ref="#macrobius" role="author">Macrobius</rs>: <title>Saturnalia</title> (lib. 2, cap. 8) and others.</note>
+                   <note type="title">Collection of words and their meaning. Excerpts from<rs type="person" ref="#priscianus" role="author">Priscian</rs>: <title>Institutiones</title>, <rs type="person" ref="#macrobius" role="author">Macrobius</rs>: <title>Saturnalia</title> (lib. 2, cap. 8) and others.</note>
                   <incipit>Somnium tegitur figuris et uelatur ambagibus</incipit>
                    <explicit>hec uocabulo dicta que ea liberi bella<unclear>ria</unclear>.</explicit>
                </msItem>
                <msItem>
                   <locus from="1v">1v</locus>
                    <author ref="#iulius_vistor">Iulius Victor</author>
-                   <note>Excerpts from<title>Ars rhetorica</title>, cap. 22, 23, 25.</note>
+                   <note type="title">Excerpts from <title>Ars rhetorica</title>, cap. 22, 23, 25.</note>
                    <rubric rend="rustics">Iulii uictoris</rubric>
                   <incipit>In his autem quae cogitamus, et in his quae scribimus retinendis proderit</incipit>
                    <explicit>et in ipsa oratione quasi quendam numerum uersumque conficere.</explicit>
@@ -412,7 +415,7 @@
                 <msItem>
                     <locus from="1v" to="2v">1v-2v</locus>
                     <author ref="#boethius">Boethius</author>
-                    <note>Excerpt from<title>Liber de persona et duabus naturis contra Eutychen et Nestorium</title> (cap. 3-4).</note>
+                    <note type="title">Excerpt from <title>Liber de persona et duabus naturis contra Eutychen et Nestorium</title> (cap. 3-4)</note>
                     <incipit>P<gap reason="illegible"/> nabilis indiuidua sub <gap reason="illegible"/> sed nos haec definitione <gap reason="illegible"/>
                         </incipit>
                     <explicit>duplicem quoque personam esse confessus est.</explicit>
@@ -428,7 +431,7 @@
                </msItem>
                 <msItem>
                     <locus from="3r">3r</locus>
-                    <note>Later addition from <date notBefore="0901" notAfter="1100">s. X-XI</date>: <term>Hymn</term> with Corbie interlinear <term>neumes</term>.</note>
+                    <note type="title">Later addition from <date notBefore="0901" notAfter="1100">s. X-XI</date>: <term>Hymn</term> with Corbie interlinear <term>neumes</term></note>
                     <incipit>Laudes tibi mens et lingua</incipit>
                     <explicit>Cunctis monstrant inunda.</explicit>
                     <bibl>published online<ptr target="http://saprat.ephe.sorbonne.fr/media/d97c99a8d103ab85b9068ece37915554/latin-13955.pdf"/>
@@ -436,7 +439,7 @@
                 </msItem>
                <msItem>
                   <locus from="3v">3v</locus>
-                  <note>Anonymous poem.</note>
+                   <note type="title">Anonymous poem</note>
                    <incipit>Curre poema meum metaforice curre<subst>
                                 <del>poema</del>
                                 <add>camena</add>
@@ -450,7 +453,7 @@
                <msItem>
                   <locus from="3v" to="4r">3v-4r</locus>
                    <author ref="#hucbaldus">Hucbaldus</author>
-                  <note>Excerpt from<title>Musica enchiriadis</title>, cap. 3-4, cap. 1-2.</note>
+                   <note type="title">Excerpt from <title>Musica enchiriadis</title>, cap. 3-4, cap. 1-2</note>
                    <incipit>terminales siue finales dicuntur quia in unum aliquem ex his IIII<hi rend="sup">or</hi> melos</incipit>
                    <explicit>post dicetur. Sunt etiam plura alia plurium<gap reason="damage"/>
                         </explicit>
@@ -460,8 +463,8 @@
                </msItem>   
                 <msItem>
                     <locus from="4v">4v</locus>
-                    <note>Originally left blank. Modern hand added a title<quote>Boetii Commentaria In Porphirium<gap reason="omitted"/>
-                            </quote>.</note>
+                    <note>Originally left blank. Modern hand added a title <quote>Boetii Commentaria In Porphirium <gap reason="omitted"/>
+                            </quote></note>
                 </msItem>
                <msItem>
                    <locus from="5r" to="46v">5r-46v</locus>                                     
@@ -477,8 +480,7 @@
                <msItem>
                   <locus from="46v" to="53v">46v-53v</locus>
                    <author ref="#martianus_capella">Martianus Capella</author>
-                   <note>Excerpt from<title ref="#de_nuptiis_VIII">De nuptiis</title> lib. VIII <title type="sub">De astronomia</title>
-                        </note>
+                   <title ref="#de_nuptiis_VIII">De nuptiis lib. VIII De astronomia</title>
                    <rubric>Marciani Minnei Felicis Capelle de astronomia</rubric>
                    <incipit>Quae dum geruntur sacer senatur illos numerarum concinentium</incipit>
                    <explicit>percutiens aut in sublime tollit aut in profundum deprimit aut in latitudinem declinare aut retrogradare facit.</explicit>
@@ -489,20 +491,19 @@
                <msItem>
                   <locus from="53v" to="54r">53v-54r</locus>
                    <author ref="#martianus_capella">Martianus Capella</author>
-                   <note>Excerpt from<title ref="#de_nuptiis">De nuptiis</title> lib. IX <title type="sub">De harmonia</title>
-                        </note>
+                   <title ref="#de_nuptiis">De nuptiislib. IX De harmonia</title>
                   <incipit>Aurea flammigerum cum luna subegerit orbem</incipit>
                    <explicit>Fecunda redde pignora.</explicit>
                    <note>Text begins on the same new line without any rubrication.</note>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="54r" to="54v">54r-54v</locus>
                    <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                    <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
                    <explicit>ad ipsum usque decurrit accipiens.</explicit>
                    <note>No rubrication, a three-line high initial<quote>D</quote>.</note>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="54v" to="56r">54v-56r</locus>
                    <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                   <incipit>Helice arcturus maior habet stellas in capite VII</incipit>
@@ -511,47 +512,47 @@
                </msItem>
                <msItem>
                   <locus from="56r" to="60r">56r-60r</locus>
-                   <note>Compendium of excerpts on astronomy:</note>
+                   <note type="title">Compendium of excerpts on astronomy:</note>
                    <msItem>
                        <locus from="56r" to="56v">56r-v</locus>
                        <rubric>De caelestibus circulis</rubric>
                        <msItem>
                            <locus from="56r" to="56v">56r-v</locus>
                            <author ref="#macrobius">Macrobius</author>
-                           <note>Excerpt from<title ref="#commentarium_somnium">Commentarium in Somnium Scipionis</title> lib. I, cap. 15.</note>
+                           <note type="title">Excerpt from <title ref="#commentarium_somnium">Commentarium in Somnium Scipionis</title> lib. I, cap. 15.</note>
                            <incipit>Sunt praeter lacteum orbes uel circuli caelo subiecti numero X. Ex quibus hic solus</incipit>
                            <explicit>hos vii circuli uelpotius globi dicant qui uersantur retro contrario motu atque celum. sed illorum longe alia ratio est.</explicit>
                        </msItem>
                        <msItem>
                            <locus from="56v">56v</locus>
                            <author ref="#calcidius">Calcidius</author>
-                           <note>Excerpt from<title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 69.</note>
+                           <note type="title">Excerpt from <title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 69.</note>
                            <incipit>Igitur fixae stellae nec errantes id est omnia signa quae superius descripta sunt</incipit>
                            <explicit>haec uaga sidera collocata sunt quorum primum ordo deinde cursus et euagatio referatur.</explicit>
                        </msItem>
                    </msItem>
                    <msItem>
                        <locus from="56v" to="59r">56v-59r</locus>
-                       <rubric>De ordine planetarum<note>added in the margin</note>
+                       <rubric>De ordine planetarum <note>added in the margin</note>
                             </rubric>
                        <msItem>
                            <locus from="56v" to="57r">56v-57r</locus>
                            <author ref="#macrobius">Macrobius</author>
-                           <note>Excerpt from<title ref="#commentarium_somnium">Commentarium</title> lib. I, cap. 19.</note>
+                           <note type="title">Excerpt from <title ref="#commentarium_somnium">Commentarium</title> lib. I, cap. 19.</note>
                            <incipit>M. tullius cicero et plinius secundus quibus archimedes et chaldeorum ratio consentit ordinem planetarum talem posuerunt</incipit>
                            <explicit>solam refundit claritudinem non calorem.</explicit>
                        </msItem>
                        <msItem>
                            <locus from="57r" to="57v">57r-v</locus>
                            <author ref="#pliny">Pliny the Elder</author>
-                           <note>Excerpts from<title ref="#historia_naturalis">Historia Naturalis</title> lib. II, cap. 45-46, 58-61, and 63-67.</note>
+                           <note type="title">Excerpts from <title ref="#historia_naturalis">Historia Naturalis</title> lib. II, cap. 45-46, 58-61, and 63-67.</note>
                            <incipit>Quapropter molliore et imperfecta ui soluere tantum humorem</incipit>
                            <explicit>ad austrum descendentium aut aquilonem subeuntium.</explicit>
                        </msItem>
                        <msItem>
                            <locus from="57v" to="59r">57v-59r</locus>
                            <author ref="#calcidius">Calcidius</author>
-                           <note>Excerpt from<title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 74, 85, 77-80.</note>
+                           <note type="title">Excerpt from <title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 74, 85, 77-80.</note>
                            <incipit>Illud quoque addendum de stellis errantibus quasdam earum sequaces esse quas appelant hypolipticas</incipit>
                            <explicit>Mediae uero stature quam uelocitatis cum aut pisces aut uirginem transiet.</explicit>
                        </msItem>
@@ -563,14 +564,14 @@
                        <msItem>
                            <locus from="59r" to="59v">59r-v</locus>
                            <author ref="#calcidius">Calcidius</author>
-                           <note>Excerpt from<title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 71 and 70.</note>
+                           <note type="title">Excerpt from <title ref="#commentary_calcidius">Timaeus a Calcidio translatus commentarioque instructus</title>, cap. 71 and 70.</note>
                            <incipit>Ortus autem uarie dicitur proprie quidem prima stellarum et solis effulsio</incipit>
                            <explicit>Uenus uero prope<unclear>L</unclear> ad orientem occidentemque discedens.</explicit>
                        </msItem>
                        <msItem>
                            <locus from="59v" to="60r">59v-60r</locus>
                            <author ref="#pliny">Pliny the Elder</author>
-                           <note>Excerpts from<title ref="#historia_naturalis">Historia Naturalis</title> lib. II, cap. 74-78.</note>
+                           <note type="title">Excerpts from <title ref="#historia_naturalis">Historia Naturalis</title> lib. II, cap. 74-78.</note>
                            <incipit>Hinc motuum ratio conuersa intellegitur</incipit>
                            <explicit>nullo alio in signo quam ariete conspici.</explicit>
                        </msItem>
@@ -596,7 +597,7 @@
                    <explicit>nihil caeli sed terra tantum per utrasque fitulas intuenti occurrit.</explicit>
                    <bibl>
                             <abbr>Bubnov 1899</abbr>, pp. 25-28.</bibl>
-                   <bibl>Gerbert of Aurillac.<title>The Letters of Gerbert with His Papal Privileges as Sylvester II</title>. Tr. Harriet Pratt Lattin. New York: Columbia Univ. Press, 1961 (here pp. 36-39).</bibl>
+                   <bibl>Gerbert of Aurillac.The Letters of Gerbert with His Papal Privileges as Sylvester II. Tr. Harriet Pratt Lattin. New York: Columbia Univ. Press, 1961 (here pp. 36-39).</bibl>
                </msItem>
                <msItem>
                   <locus from="106r" to="106v">106r-106v</locus>
@@ -607,7 +608,7 @@
                        <rubric>De libra et partibus eius</rubric>
                        <incipit>Libra uel a sex untiolis constat duodeni</incipit>
                        <explicit>Dimidium stater ac semuncia dicitur eius.</explicit>
-                       <note>Above the text from a later hand:<quote>Libra uel a sex untiolis constat duodeni Uncia</quote>. Later erasure and additions.</note>
+                       <note>Above the text from a later hand: <quote>Libra uel a sex untiolis constat duodeni Uncia</quote>. Later erasure and additions.</note>
                    </msItem>
                    <msItem>
                        <note>8 verses:</note>
@@ -642,7 +643,7 @@
                </msItem>
                 <msItem>
                    <locus from="123v" to="130v">123v-130v</locus>
-                   <note>Excerpta Agrimensorum Romanorum.</note>
+                    <note type="title">Excerpta Agrimensorum Romanorum.</note>
                     <rubric rend="rustics">Item de arte <sic>geumetriae</sic>
                         </rubric>
                     <bibl>
@@ -676,7 +677,7 @@
                     </msItem>
                     <msItem>
                         <locus from="126r" to="129r">126r-129r</locus>
-                        <title>Excerpta ex opusculo Epaphroditi<note>further excerpta</note>
+                        <title>Excerpta ex opusculo Epaphroditi <note>further excerpta</note>
                             </title>
                         <incipit>Sunt autem trigoni hoc genere et his uocabulis numero</incipit>
                         <explicit>Deme hypotenusam erit diametron circuli.</explicit>
@@ -727,7 +728,7 @@
                    </msItem>
                     <msItem>
                         <locus from="130v">130v</locus>
-                        <note>Three short regula how to draw octagonal, and an octagon from a square.</note>
+                        <note type="title">Three short regula how to draw octagonal, and an octagon from a square.</note>
                         <msItem>
                             <incipit>Si quis uoluerit per unum latus octogonum designare ita ut</incipit>
                             <explicit>et VIII emicirculos octogonum designes.</explicit>
@@ -757,7 +758,7 @@
                     <locus from="131r" to="137r">131r-137r</locus>
                     <author ref="#columella">Columella</author>
                     <rubric rend="margine">Lucii Iunii moderati columellae</rubric>
-                    <note>Excerpt from<title>De re rustica</title> lib. V, cap. 1-3 (ff. <locus from="131r" to="133r">131r-133r</locus>; VI, 29-35, 38 (ff. <locus from="133r" to="134v">133r-134v</locus> introduced by <quote>Aliud ex eodem</quote>); XII, 6-7, 10, 12, 16, 19-20, 26-27, 30, 37, 21, 23, 5, 28(§3)-29, 32, 35, 39, 45, 57, 59, 25 (ff. <locus from="134v" to="137r">134v-137r</locus> between this group and the previous four blank lines). <!--on measuring land, care of big animals, preparation of brine, wine etc.-->
+                    <note type="title">Excerpt from <title>De re rustica</title> lib. V, cap. 1-3 (ff. <locus from="131r" to="133r">131r-133r</locus>; VI, 29-35, 38 (ff. <locus from="133r" to="134v">133r-134v</locus> introduced by <quote>Aliud ex eodem</quote>); XII, 6-7, 10, 12, 16, 19-20, 26-27, 30, 37, 21, 23, 5, 28(§3)-29, 32, 35, 39, 45, 57, 59, 25 (ff. <locus from="134v" to="137r">134v-137r</locus> between this group and the previous four blank lines). <!--on measuring land, care of big animals, preparation of brine, wine etc.-->
                         </note>
                     <incipit>Quoniam familiariter a nobis precepta mensurarum desideras</incipit>
                     <explicit>deinde cum refrixerit pro libito tantum portionis in amphoram musti adici.</explicit>
@@ -771,7 +772,7 @@
                 <msItem>
                   <locus from="137r">137r</locus>
                    <author ref="#isidore">Isidore</author>
-                    <note>Excerpt from <title ref="#etymologiae">Etymologiae</title>, lib. XII, cap. 1, §§ 41 and 48-54.</note>
+                    <note type="title">Excerpt from <title ref="#etymologiae">Etymologiae</title>, lib. XII, cap. 1, §§ 41 and 48-54.</note>
                    <rubric rend="rustics">De equis</rubric>
                    <incipit>Equi ab aquando dicti quia in quadrigis similes forma et pares</incipit>
                    <explicit>Qui color est medius inter nigrum et album et ab albo elbum diriuatum.</explicit>
@@ -780,14 +781,14 @@
                </msItem>
                <msItem>
                    <locus from="137v" to="146r" facs="http://gallica.bnf.fr/ark:/12148/btv1b9066978w/f149.item">137v-146r</locus>
-                  <note>Herbarium</note>
+                   <note type="title">Herbarium</note>
                    <incipit>Bettonica a grecis dicitur cestros alii adanton</incipit>
                    <explicit>ad quartanas autem quattuor.</explicit>
                    <bibl>A. Ferraces Rodríguez, "El Herbario del manuscrito de París, Bibliothèque Nationale, lat. 13955, ff. 137v-146r. Editio princeps."<title type="j">Inicio</title> 27 (2012): 197-257.</bibl>
                </msItem>
                 <msItem>
                     <locus from="146r" to="147v">146r-147v</locus>
-                    <note>Collection of excerpts from <rs type="person" ref="#theodorus_priscianus">Theodorus Priscianus</rs> (begins on the same line with an Initial and a marginal note "Aliud").</note>
+                    <note type="title">Collection of excerpts from <rs type="person" ref="#theodorus_priscianus">Theodorus Priscianus</rs> (begins on the same line with an Initial and a marginal note "Aliud").</note>
                     <incipit>Vt pili ENR canis lac<add>te</add> si tetigeris non rescrescunt</incipit>
                     <explicit>folia imposita continui curant.</explicit>
                     <bibl>A. Ferraces Rodríguez, "El recetario Ut pili euulsi non recrescant (Paris, BNF, lat. 13955, ff. 146r-147v): extractos de Teodoro Prisciano y otras fuentes tardoantiguas en un manuscrito del s. IX."<title type="j">Galenos</title> 5 (2011): 71-90.</bibl>
@@ -795,16 +796,16 @@
                <msItem>
                   <locus from="147v">147v</locus>
                    <author ref="#bede">Bede</author>
-                   <note>Excerpt from <title ref="#DNR">De natura rerum</title> (cap. 15 'Quare mutent colores' - on the colours of the planets).</note>
+                   <note type="title">Excerpt from <title ref="#DNR">De natura rerum</title> (cap. 15 'Quare mutent colores' - on the colours of the planets).</note>
                    <incipit>Suus quidem  cuique color est saturno candidus</incipit>
                    <explicit>orbitae<unclear>actram</unclear> in obscuritatem.</explicit>
                    <bibl>Bede.<title>Opera didascalica</title>. Ed. Charles Jones. CCSL, 123 A. Turnhout: Brepols, 1975 (here p. 207).</bibl>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="147v">147v</locus>                   
-                   <note>Section from <title ref="#arati_ea_quae">Arati ea que uidentur</title> on the constellations within the celestial circles (with minor changes).</note>
+                   <note type="title">Section from <title ref="#arati_ea_quae">Arati ea que uidentur</title> on the constellations within the celestial circles (with minor changes).</note>
                    <incipit>In arctico circulo sunt signa IIII Arcturi duo cepheus a pectore draco</incipit>
-                   <quote>In arctico circulo sunt signa IIII Arcturi duo cepheus a pectore draco. In aestiuus signa VIII bootes, corona, ingeniculo, lyra, cassiepia, agitator, cignus, perseus. In hiemali solstitio VI Heridanus, nauis, centaurus in quo bestia et sacrarium, piscis maior inuisibilis<unclear>australis</unclear>. In equinoctiali circulo XV Equus, serpentarius in quo sepens, ylidris in qua urceus et coruus, anticanis, <unclear>aquila</unclear>
+                   <quote>In arctico circulo sunt signa IIII Arcturi duo cepheus a pectore draco. In aestiuus signa VIII bootes, corona, ingeniculo, lyra, cassiepia, agitator, cignus, perseus. In hiemali solstitio VI Heridanus, nauis, centaurus in quo bestia et sacrarium, piscis maior inuisibilis <unclear>australis</unclear>. In equinoctiali circulo XV Equus, serpentarius in quo sepens, ylidris in qua urceus et coruus, anticanis, <unclear>aquila</unclear>
                             <gap reason="illegible"/>, Orion, Telum, deltoton, andromeda, lepus, coetus, canis. Unde fieri omnia signa XXXI absque eorum illustrissima alterutrum constituta uti super bootem septentrio, super agitatorem sex hedi, super <unclear>taurum</unclear> uergilie, super uirginem spica, super canem sirius <gap reason="illegible"/>. Zodiacus autem habet signa XII Cancrum, leonem, uirginem, libram, scorpionem, sagittarium, capricornum, aquarium, pisces, arietem, Taurum, Gemines.</quote>
                    <explicit>Zodiacus autem habet signa XII Cancrum, leonem, uirginem, libram, scorpionem, sagittarium, capricornum, aquarium, pisces, arietem, Taurum, Gemines.</explicit>
                    <bibl>
@@ -866,8 +867,6 @@
                    <note>Gromatic texts:</note>
                    <msItem>
                        <locus from="165v" to="168v">165v-166v</locus>
-                     <!--
-                       <title>De iugeribus metiundis</title>           -->            
                        <rubric rend="rustics">De iugeribus metiundis</rubric>
                        <incipit>Castrensis iugerus quadratus habet perticas CCLXXXVIII Pedes autem quaadratos XXVIIIDCCC</incipit>
                        <explicit>hoc duco per latitudinem fiunt pedes IIICL sic quero pedaturam.</explicit>
@@ -877,7 +876,7 @@
                    <msItem>
                        <locus from="166v" to="168v">166v-168v</locus>
                        <author ref="#balbus">Balbus</author>
-                       <note>Section from<title ref="http://d-nb.info/gnd/4489141-6">Expositio et ratio mensurarum</title>
+                       <note type="title">Section from <title ref="http://d-nb.info/gnd/4489141-6">Expositio et ratio mensurarum</title>
                             </note>
                        <rubric rend="rustics">Genera lineamentorum</rubric>
                        <incipit>Gradus habet pedes IIs, passus habet pedes V</incipit>
@@ -885,13 +884,13 @@
                        <decoNote>Many geometrical figures within the text-body.</decoNote>
                        <bibl>
                                 <abbr>Lachmann, I</abbr>, pp. 95,5–10, 96,21–97,13; 98,11–103,11; 103,17–104,6; 104,13–105,12, 105,16–106,8.</bibl>
-                       <filiation>The same sections and illustrations also in <ref type="altMs" target="http://www.e-codices.unifr.ch/de/bbb/0087/16v">Bern, Burgerbibliothek, Cod. 87, ff. 16v-17v.</ref>
+                       <filiation>The same sections and illustrations also present in <ref type="altMs" target="http://www.e-codices.unifr.ch/de/bbb/0087/16v">Bern, Burgerbibliothek, Cod. 87, ff. 16v-17v.</ref>
                             </filiation>
                    </msItem>
                    <msItem>
                        <locus from="168v" to="169v">168v-169v</locus>
                        <author>Hyginus Gromaticus</author>
-                       <title>Constitutio limitum<note>(sections)</note>
+                       <title>Constitutio limitum <note>(sections)</note>
                             </title>
                        <rubric rend="rustics">Kygeni augusti liberti</rubric>
                        <incipit>Querenda est primum que sit<gap reason="damage"/> quae ratio oriundi aut occidendi</incipit>
@@ -926,7 +925,7 @@
                               Quire marks with roman numerals on the lower margins on verso - 4v "I", 12v - "II" and so on.
                           </collation>
                           <condition>
-                              <p>As is visible from marginal annotations (e.g. on f. 105v) the manuscript was cut on the sides during rebinding, so that some marginal notes were lost. A librarian note from<date when="1884-05-07">7. May 1884</date> on the front pastedown states that already at that time ff. 52-55, 59-63, 79-81, 167-169 are mutilated. Folios 49-88 are smudged on the upper outer edge due probably to water damage. More seriously damaged were ff. 52-64, and 76-81 were the upper outer corner is either smudged or missing (on f. 76v and 78v a later hand rewrote the blemished texts in the corners); ff. 168-9 have two large holes, f. 167 have smaller damages, but still misses sections of the text.</p>
+                              <p>As is visible from marginal annotations (e.g. on f. 105v) the manuscript was cut on the sides during rebinding, so that some marginal notes were lost. A librarian note from <date when="1884-05-07">7. May 1884</date> on the front pastedown states that already at that time ff. 52-55, 59-63, 79-81, 167-169 are mutilated. Folios 49-88 are smudged on the upper outer edge due probably to water damage. More seriously damaged were ff. 52-64, and 76-81 were the upper outer corner is either smudged or missing (on f. 76v and 78v a later hand rewrote the blemished texts in the corners); ff. 168-9 have two large holes, f. 167 have smaller damages, but still misses sections of the text.</p>
                           </condition>
                   </supportDesc>
                    <layoutDesc>
@@ -935,7 +934,7 @@
                </objectDesc>
                 <handDesc>
                     <handNote>
-                            <p>Written by one main hand, Hand A (characterised above all by a<quote>g</quote> with an open lower lobe extended to the left and an upright script) and several secondary hands. Hand A copied the astronomical texts (ff. 46v-60r).</p>
+                            <p>Written by one main hand, Hand A (characterised above all by a <quote>g</quote> with an open lower lobe extended to the left and an upright script) and several secondary hands. Hand A copied the astronomical texts (ff. 46v-60r).</p>
                         <!--<p>Hand A copied most of Boethius' <title>De musica</title> (ff. 60r-105v), taking turns with at least two less experienced hands (change for instance on ff. 72r, 73r-v, 75r-76r, from f. 78r and further till end of text a hand slanting to the right); Hand A wrote again sections from the text on geometry (ff. 107r-) as on f. 112r-v, 113v, 114v, 116v, the most of the text however was written by at least three different hand (see for example ff. 118v-119r). Hand A took turns with a less experienced similar hand in the text of Columella (ff. 131r-134v).</p>
                         <p>Text of Boethius, <title>In isagogen</title> (ff. 5r-46r) is written by a different hand, Hand B, writing a more narrow and more angular script. Hand A added corrections, as in the bottom of f. 42r, and wrote the last ten lines of the text on f. 46v.</p> 
                         <p>The text of Isidore (f. 137r) was copied by a hand which wrote <quote>g</quote> with an open upper lobe.</p>-->
@@ -944,24 +943,24 @@
                     <handNote>Later additions by another hand on f. 3r-v.</handNote>
                     <handNote>Later additions of Gerbert's letter and Fulbert's poem by an 11<hi rend="sup">th</hi>-century hand (?).</handNote>
                 </handDesc>
-                <additions>On the first folio labelled<quote>A</quote> a 19<hi rend="sup">th</hi> century hand added a table of content. On f. <locus from="1r">1r</locus> possesion note mentioned below and <term>
+                <additions>On the first folio labelled <quote>A</quote> a 19<hi rend="sup">th</hi> century hand added a table of content. On f. <locus from="1r">1r</locus> possesion note mentioned below and <term>
                             <foreign>probatio pennae</foreign>
                         </term>.</additions>
             </physDesc>
             <history>
                <origin>
                    <p>The manuscript was copied in several stages in the <origDate notBefore="0851" notAfter="0900">second half of the ninth century</origDate> in St. Peter's Abbey in <origPlace ref="#corbie">Corbie</origPlace> during the abbacy of <rs type="person" ref="#hadoard">Hadoard</rs>. According to B. Bischoff most of the manuscript was copied in the third quarter of the century, while ff. <locus from="46r" to="53v">46r-53v</locus> with Martianus Capella's text were later insertion to the mauscript presumably at the end of the century.</p>
-                   <p>Wesley Stevens ("Marginalia in the Latin Euclid" in<title>Scientia in Margine</title>, ed. D. Jacquart and Ch. Burnett, pp. 117-138, esp. p. 120, n. 6) suggested that ff. <locus from="114v" to="121v">114v-121v</locus> were copied by a hand with some Fulda characteristics 825-840.</p>
+                   <p>Wesley Stevens ("Marginalia in the Latin Euclid" in Scientia in Margine, ed. D. Jacquart and Ch. Burnett, pp. 117-138, esp. p. 120, n. 6) suggested that ff. <locus from="114v" to="121v">114v-121v</locus> were copied by a hand with some Fulda characteristics 825-840.</p>
                    <p>Looking at the quire structure and the hands involved in the production of the manuscript it seems that Hand A played the leading role, as it was involved in the copying or later correction of all texts. The texts start only rarely at the beginning of a quire (the sole exeption being Boethius,<title>In isagogen</title>), and very often start middle of the folio right after the previous text ends. This inclines me to consider the codex not as a composite manuscript of separate booklets, but rather as a collection that grew in time, as Hand A and his colleagues added more and more texts producing an anthology of liberal arts.</p>
                    <p>Ullman (<bibl>
                                 <title>Geometry in the Mediaeval Quadrivium</title>. Verona, 1964, p. 282</bibl>) suggested that the manuscript was produce for teaching the liberal arts.</p>
                    <!--<p>Bruce Eastwood (<bibl><title>Ordering the Heavens</title>, pp. 314-5, n. 7 and p. 254, n. 180</bibl>) reported the yet unpublished outcome of Wesley Stevens' palaeographical study of annotations in the geometrical and astronomical sections in the manuscript. He identified one of the hands transcribing part of Martianus Capella's text as a hand he described in detail in his article on bodleian manuscript Canonici Miscellaneous 353(<bibl>"Fulda Scribes at Work." In <title>Bibliothek und Wissenschaft</title> 8 (1972): 287-317</bibl>). The latter manuscript was copied in the period 825-840, hence Eastwood thought that the Paris lat. 13955 sections copied by this hand, named IId by Stevens, date from the 840s. Unfortunatelly I could not reinvestigate the study of the hands. In Stevens article Hand IId is illustrated merely by 8 lines of text, which in my opinion match no script in the Paris lat. 13955. Even if it does, however, I do not see why the scribe's activity should be limited to the 840s, especially since Stevens stated that in Canon. Misc. 353 the hand was "inexperienced and unsure" which might suggests that the scribe himself was yet a young monk in the second quarter of the ninth century.</p>-->
                </origin>
                <provenance>
-                   <p>The manuscript is mentioned in two abbey catalogues: in <ref type="altMs">Berlin, SB, Ms. Phill. 1865<ptr target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74C00000000"/>, f. 2ra</ref> datable to the end of the twelfth century and in <ref type="altMs">Vat. Reg. Lat. 520</ref>from around the year 1200 as <quote>Boetii commentum in isagogis et musica et geometria</quote> and <quote>commentum in isagogas Porfirii</quote> accordingly. Cf. <bibl>Catalogue général des manuscrits des bibliothèques publiques de France: Départements, Vol.  19, p. XV,  n° 80 and p. XLII, n° 303</bibl>, <bibl>
+                   <p>The manuscript is mentioned in two abbey catalogues: in <ref type="altMs">Berlin, SB, Ms. Phill. 1865<ptr target="http://resolver.staatsbibliothek-berlin.de/SBB0001A74C00000000"/>, f. 2ra</ref> datable to the end of the twelfth century and in <ref type="altMs">Vat. Reg. Lat. 520</ref> from around the year 1200 as <quote>Boetii commentum in isagogis et musica et geometria</quote> and <quote>commentum in isagogas Porfirii</quote> accordingly. Cf. <bibl>Catalogue général des manuscrits des bibliothèques publiques de France: Départements, Vol.  19, p. XV,  n° 80 and p. XLII, n° 303</bibl>, <bibl>
                                 <abbr>Becker</abbr>, n° 79 and n° 136 pp. 185-192 (here p. 187, item n° 80) and pp. 277-298 (here p. 284, item n° 278</bibl>, <bibl>U. Winter,<title>Die mittelalterlichen Bibliothekskataloge aus Corbie</title>, Berlin, Univ., Phil. Diss., 1972, pp. 10-16, 91-137 and 354-74<ptr target="http://gso.gbv.de/DB=2.1/PPNSET?PPN=409426075"/>
                             </bibl> and <bibl>Ganz, p. 37.</bibl>.</p>
-                   <p>The manuscript was probably consulted in <rs type="place" ref="#chartres">Chartres</rs> in the 10th or 11th century by <persName>Fulbert</persName>. It is tempting to believe that during that time the two filling text on ff. 105v-106v were copied during that period. Later on the manuscript was the property of the monastery of <rs type="place" ref="#st_germain_des_pres">Saint-Germain-des-Prés</rs> (see note on f.<locus from="1r">1r</locus>.</p>
+                   <p>The manuscript was probably consulted in <rs type="place" ref="#chartres">Chartres</rs> in the <date notBefore="0901" notAfter="1000">10th</date> or <date notBefore="1001" notAfter="1100">11th</date> century by <persName>Fulbert</persName>. It is tempting to believe that the two filling text on ff. 105v-106v were copied during that period. Later on the manuscript was the property of the monastery of <rs type="place" ref="#st_germain_des_pres">Saint-Germain-des-Prés</rs> (see note on f.<locus from="1r">1r</locus>.</p>
                </provenance>
                 <acquisition>
                     <p>Acquired by the Bibliothèque nationale during the French revolution (see f.<locus from="1r">1r</locus> 
@@ -973,21 +972,21 @@
                   <head>Selected Bibliography:</head>
                    <bibl>
                             <abbr>Munk Olsen</abbr>, Vol. 2, p. 268.</bibl>
-                  <bibl>Beccaria, Augusto. <title>I codici di medicina del periodo presalernitano: (secoli IX, X E XI)</title>. Roma: Ed. di storia e letteratura, 1956. p. 176</bibl>
-                  <bibl>Boethius. <title>Geometrie II: Ein Mathematisches Lehrbuch des Mittelalters</title>. Edited by Menso Folkerts. Wiesbaden: Steiner, 1970.</bibl>
-                   <bibl>Bischoff, Bernhard. “Hadoard und die Klassikerhandschriften aus Corbie.” In Bischoff,<title level="m">Mittelalterliche Studien I</title>, 49–63. Stuttgart: Hiersemann, 1966.</bibl>
-                  <bibl>Corsetti, Pierre-Paul. “Note sur les excerpta médiévaux de Columelle.”<title level="j">Revue d’histoire des textes</title> 7 (1977): 109–32 (esp. 113-4).</bibl>
-                  <bibl>Léopold Delisle, <title>Inventaire des manuscrits latins conservés à la Bibliothèque impériale sous les nos 11504-14231 du fonds latin</title>. Paris 1868 (reprint Hildesheim 1974), p. 123.</bibl>
-                  <bibl>Eastwood, Bruce Stansfield. “Calcidius’s Commentary on Plato’s ‘Timaeus’ in Latin Astronomy of the Ninth to Eleventh Centuries.” In Eastwood, <title>The Revival of Planetary Astronomy in Carolingian and Post-Carolingian Europe</title>, 171–209, 2002.</bibl>
-                   <bibl>Eastwood, Bruce Stansfield. <title>Ordering the Heavens: Roman Astronomy and Cosmology in the Carolingian Renaissance</title>. Leiden, 2007 (esp. pp. 68-72, 242, 253, ).</bibl>
-                  <bibl>Ganz, David. <title>Corbie in the Carolingian Renaissance</title>. Sigmaringen: Thorbecke, 1990 (esp. pp. 94, 152-3, 159-60).</bibl>
-                  <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: I. The Library.”<title type="j">Speculum</title> 22 (1947): 191–204.</bibl>
-                   <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: II. The Script and the Problems.” <title type="j">Speculum</title> 22 (1947): 375–94.</bibl>
-                  <bibl>Leonardi, Claudio. “I codici di Marziano Capella.”<title type="j">Aevum</title> 34 (1960): 1–99, 411–524.</bibl>
-                  <bibl>Toneatto, Lucio. <title>Codices artis mensoriae: I manoscritti degli antichi opuscoli latini d’agrimensura (V - XIX Sec.)</title>. Vol. 1. 3 vols. Centro Italiano di Studi sull’Alto Medioevo, 1994.</bibl>
-                   <bibl>Thulin, Carl Olof. <title>Zur Überlieferungsgeschichte des Corpus agrimensorum: Exzerptenhandschriften und Kompendien</title>. Göteborg: Zachrisson, 1911 (here p. 17-18).</bibl>
-                   <bibl>Smits van Waesberghe, Joseph.<title>Répertoire international des sources musicales</title>. Vol. 3. <title>The theory of Music: From the Carolingian Era up to 1400</title>. Munich: Henle, 1961.</bibl>
-                   <bibl>Ullman, Berthold L. <title>Geometry in the Mediaeval Quadrivium</title>. Verona, 1964.</bibl>
+                  <bibl>Beccaria, Augusto. I codici di medicina del periodo presalernitano: (secoli IX, X E XI). Roma: Ed. di storia e letteratura, 1956. p. 176</bibl>
+                  <bibl>Boethius. Geometrie II: Ein Mathematisches Lehrbuch des Mittelalters. Edited by Menso Folkerts. Wiesbaden: Steiner, 1970.</bibl>
+                   <bibl>Bischoff, Bernhard. “Hadoard und die Klassikerhandschriften aus Corbie.” In Bischoff, Mittelalterliche Studien I, 49–63. Stuttgart: Hiersemann, 1966.</bibl>
+                  <bibl>Corsetti, Pierre-Paul. “Note sur les excerpta médiévaux de Columelle.” Revue d’histoire des textes 7 (1977): 109–32 (esp. 113-4).</bibl>
+                  <bibl>Léopold Delisle, Inventaire des manuscrits latins conservés à la Bibliothèque impériale sous les nos 11504-14231 du fonds latin. Paris 1868 (reprint Hildesheim 1974), p. 123.</bibl>
+                  <bibl>Eastwood, Bruce Stansfield. “Calcidius’s Commentary on Plato’s ‘Timaeus’ in Latin Astronomy of the Ninth to Eleventh Centuries.” In Eastwood, The Revival of Planetary Astronomy in Carolingian and Post-Carolingian Europe, 171–209, 2002.</bibl>
+                   <bibl>Eastwood, Bruce Stansfield. Ordering the Heavens: Roman Astronomy and Cosmology in the Carolingian Renaissance. Leiden, 2007 (esp. pp. 68-72, 242, 253, ).</bibl>
+                  <bibl>Ganz, David. Corbie in the Carolingian Renaissance. Sigmaringen: Thorbecke, 1990 (esp. pp. 94, 152-3, 159-60).</bibl>
+                  <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: I. The Library.” Speculum 22 (1947): 191–204.</bibl>
+                   <bibl>Jones, Leslie Webber. “The Scriptorium at Corbie: II. The Script and the Problems.” Speculum 22 (1947): 375–94.</bibl>
+                  <bibl>Leonardi, Claudio. “I codici di Marziano Capella.” Aevum 34 (1960): 1–99, 411–524.</bibl>
+                  <bibl>Toneatto, Lucio. Codices artis mensoriae: I manoscritti degli antichi opuscoli latini d’agrimensura (V - XIX Sec.). Vol. 1. 3 vols. Centro Italiano di Studi sull’Alto Medioevo, 1994.</bibl>
+                   <bibl>Thulin, Carl Olof. Zur Überlieferungsgeschichte des Corpus agrimensorum: Exzerptenhandschriften und Kompendien. Göteborg: Zachrisson, 1911 (here p. 17-18).</bibl>
+                   <bibl>Smits van Waesberghe, Joseph. Répertoire international des sources musicales. Vol. 3. <title>The theory of Music: From the Carolingian Era up to 1400</title>. Munich: Henle, 1961.</bibl>
+                   <bibl>Ullman, Berthold L. Geometry in the Mediaeval Quadrivium. Verona, 1964.</bibl>
                </listBibl>
             </additional>
          </msDesc>

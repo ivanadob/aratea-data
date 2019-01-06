@@ -54,11 +54,11 @@
               <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721142g">gallica.bnf.fr</ref></note>
               <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
               <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
-              <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml"></rs></note>
+              <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
            </head>
            <msContents>
               <textLang mainLang="lat" otherLangs=""/>
-              <msItem>
+              <msItem class="aratea">
                  <locus from="1r" to="14r">1ra-14ra</locus>
                  <author ref="#germanicus">Germanicus</author>
                  <title ref="#germanicus_aratea">Aratea</title>
@@ -71,7 +71,7 @@
                        <del>ne</del>
                     </corr> nube caua solis uia forte latebit.</explicit>
                  </msItem>
-                 <msItem>
+                 <msItem class="aratea">
                     <locus from="1r" to="11v">1r-11v</locus>
                     <title ref="#scholia_basileensia">Scholia Basileensia</title>
                     <incipit>Queritur quare ab ioue coepit et non a musis ut homerus</incipit>
@@ -120,7 +120,7 @@
                  <bibl>M- Steinmann, "Die Collatio Alexandri et Dindimi – eine annotierte Arbeitsbibliographie," Göttinger Forum für Altertumswissenschaft 4 (2001) 51-84<ref target="https://www.academia.edu/5469687/ARTIKEL_Die_Collatio_Alexandri_et_Dindimi_-_eine_annotierte_Arbeitsbibliographie"/>
                  </bibl>
               </msItem>
-              <msItem>
+              <msItem class="aratea">
                  <locus from="15r" to="36r">15ra-36rb</locus>
                  <title ref="#al">Aratus Latinus</title>
                  <msItem>

@@ -50,16 +50,17 @@
            </msIdentifier>
            <head>
               <title>Aratus Latinus</title>
-              <origPlace ref="#">Francia</origPlace>
+              <origPlace>Francia</origPlace>
               <origDate notBefore="0881" notAfter="0900">s. IX<hi rend="sup">ex</hi>
               </origDate>
               <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721144c">gallica.bnf.fr</ref></note>
+              <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
            </head>
            <msContents>
               <textLang mainLang="lat"/>
               <msItem>
                  <locus from="1v" to="50v">1v-50v</locus>
-                 <title>Aratus Latinus</title>
+                 <title ref="#al">Aratus Latinus</title>
                  <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>
                  <explicit/>
                  <msItem>
