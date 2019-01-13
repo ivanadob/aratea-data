@@ -457,12 +457,14 @@
     </work>
     <work xml:id="de_xii_signis">
         <author ref="#bede">(Ps.) Bede</author>
-        <title>De XII signis ex quibus causis nomina cceperunt</title>
-        <incipit>Signa xii vel a causis annalibus vel a gentium fabulis nomina supserunt</incipit>
-        <explicit>feb. aquarii, mar. piscium; sic quidam veterum versibus explicavit.</explicit>
+        <title>De XII signis ex quibus causis nomina acceperunt</title>
+        <title>De causis quibus nomina acceperunt duodecim signa</title>
+        <incipit>Signa duodecim vel a causis annalibus vel a gentium fabulis nomina sumpserunt</incipit>
+        <explicit>Singuli igitur menses sua signa habet: Aprilis signum Arietis <gap reason="omitted"/> Martius Piscium. Sic quidam ueterum uersibus explicauit.</explicit>
         <note>Often followed by the verses <title ref="#ad_boreae">De sideribus</title>.</note>
+        <bibl>Bede. Opera Didascalica. Edited by Charles Jones. CCSL, 123 C. Turnhout: Brepols, 1980. Pp. 665-67.</bibl>
         <bibl>Jones, Charles W. <title>Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede</title>. Ithaca, New York: Cornell University Press, 1939. Pp. 102-3.</bibl>
-    </work>
+    </work>  
     <work type="al" xml:id="de_signis_coeli_revision">
         <title>De signis (interpolated version)</title>
         <incipit>Quidam tamen multa dicunt et alii aliter narrasse celum diuersis proferentes uocabulis sed ipse magis axe continetur quam se continui indemetipso reuoluitur. Habet autem undique inponderata per medium terre in circuitum celi equalem deductum</incipit>
@@ -507,13 +509,6 @@
         <bibl>
          <abbr>Clavis</abbr> 1343.</bibl>
         <bibl>Entry in <ref target="http://www.mirabileweb.it/title/de-natura-rerum-beda-venerabilis-n-672-673-ca-m-26-title/2313">Mirabile</ref>.</bibl>
-    </work>
-    <work xml:id="de_causis_nomina">
-        <title>De causis quibus nomina acceperunt duodecim signa</title>
-        <incipit>Signa duodecim uel a causis annalibus uel a gentilium fabulis nomina sumpserunt</incipit>
-        <explicit>Singuli igitur menses sua signa habet: Aprilis signum Arietis <gap reason="omitted"/> Martius Piscium. Sic quidam ueterum uersibus explicauit.</explicit>
-        <bibl>Bede. Opera Didascalica. Edited by Charles Jones. CCSL, 123 C. Turnhout: Brepols, 1980. Pp. 665-67.</bibl>
-        <!--<bibl>MS: Harley 3017, ff. 72r-73v.</bibl>-->
     </work>
     <work xml:id="de_flexibus_digitorum">
         <title>De flexibus digitorum</title>

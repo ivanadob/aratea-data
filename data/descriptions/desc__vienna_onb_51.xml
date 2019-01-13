@@ -304,7 +304,7 @@
                     </msItem>
                     <msItem class="aratea">
                         <locus from="146r" to="162r">146ra-162ra</locus>
-                        <author ref="#cassiodorus">Hyginus</author>
+                        <author ref="#hyginus">Hyginus</author>
                         <title ref="#de_astronomia">De astronomia</title>
                         <incipit><supplied>I</supplied>ginus M. fabio plurimam salutem</incipit>
                         <explicit>cum sol ab estiuo circulo redeat.</explicit>
