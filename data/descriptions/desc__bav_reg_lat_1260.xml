@@ -129,8 +129,16 @@
                      <title ref="#de_astronomia">De astronomia</title>
                   </msItem>
                   <msItem>
-                     <locus from="84r" to="86r">84r-86r</locus>
+                     <locus from="84r" to="84v">84r-84v</locus>
+                    <author ref="#bede">Bede</author>
+                    <title ref="#DNR">De natura rerum (ch. 14-17)</title>
                      <incipit>Sunt autem sui cuique planetarum circuli quos greci hapsides in stellis uocant</incipit>
+                    <explicit>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt</explicit>
+                  </msItem>
+                 <msItem>
+                     <locus from="84v" to="86r">84v-86r</locus>
+                    <note type="title">Addition to Bede's DNR on the names of the zodiacal signs</note>
+                     <incipit></incipit>
                   </msItem>
                   <msItem>
                      <locus from="86v">86v</locus>
