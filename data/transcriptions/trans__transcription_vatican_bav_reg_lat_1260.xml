@@ -12,14 +12,32 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Text based on the AL or the RAL</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
          <p>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt. quas ideo strictim ac breuiter subter notare curauimus. non quo eorum ineptissimis opinionibus assensum prebeamus sed ut lectoris animus his cognitis melius carmina poetarum intellegat, quae plerumque his sunt conpaginata mendaciis. idcirco et figuris ea depingere studuimus ut stellarum ordo uel numerus quasi quibusdam membris infixus euidentius adiscente cernatur.</p>
-        <p><supplied>N</supplied>am arietem martie mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornita fingunt. aiunt autem hesiodus et pherecides hunc administrandum frixae et beli concessum a nominibus fuisse, qui cum trans fraetaret eas hellim secus angustissimam mare ac potius in mari quod hellaespontus uocatur proiecit. quae neptunus saluans puerum peonam exea suscepit. frixam autem apud euximum saluans sinum ad etehem perduxit cui et suam auream pellem antequam inter astra procederet dedit. habet siquidem stellas XVII. id est in capite I, in naribus III, in collo II, in summitate anterioris pedis I, in spino IIII, in cauda I, in uentre III, in lumbo I, in summo pede I.</p>
+        <p><supplied>N</supplied>am arietem martie mense propter ammonem iouem tribuunt, unde et in
+            eius simulacro arietis cornita fingunt (Bede). aiunt autem hesiodus et pherecides hunc
+            administrandum frixae et beli (for helli) concessum a nominibus (for nubibus) fuisse,
+            qui cum transfraetaret eas hellim secus angustissimam mare ac potius in mari quod
+            hellaespontus uocatur proiecit. quae neptunus saluans, puerum peonam ex ea suscepit.
+            frixam autem apud euximum saluans sinum ad etehem perduxit cui et suam auream pellem
+            antequam inter astra procederet dedit. habet siquidem stellas XVII. id est in capite I,
+            in naribus III, in collo II, in summitate anterioris pedis I, in spino IIII, in cauda I,
+            in uentre III, in lumbo I, in summo pede I.</p>
+         <p><supplied>T</supplied>aurum aprili propter prefatum iouem quod in bouem sit fabulose
+            conuersus (Bede). Alii dicunt propterea inter astra positum quia europam adduxerit ad
+            phenice post medium aequor in cretem. <supplied>A</supplied>lii quoque aiunt bouem esse
+            imitatorem iuris et ideo inter astra a iouo collocatum. <supplied>T</supplied>auri
+            quoque frons quae subuculae nominatur, idcirco ait ferecides atheniensis in ammas (for:
+            mammas) esse liberi patris, quae dodoniadae sposae uocabantur. Habet siquidem stellas in
+            singulis cornibus singulas, in fronte II, in singulis oculis singulas, in nare I, quae
+            septem uocantur subuculae, in geniculo anteriore I, in gutture II, in dextro geniculo I,
+            in collo II, in spino <gap/>, in uentre splendidam, in pectore <gap/>, fiunt omnes
+            <gap/></p>
       </body>
   </text>
 </TEI>
