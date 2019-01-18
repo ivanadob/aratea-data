@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Transcription of a text on the constellations (Vatican, BAV, Reg. lat. 1260, ff. 84v-86r)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -18,7 +18,8 @@
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <p>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt. quas ideo strictim ac breuiter subter notare curauimus. non quo eorum ineptissimis opinionibus assensum prebeamus sed ut lectoris animus his cognitis melius carmina poetarum intellegat, quae plerumque his sunt conpaginata mendaciis. idcirco et figuris ea depingere studuimus ut stellarum ordo uel numerus quasi quibusdam membris infixus euidentius adiscente cernatur.</p>
+        <p><supplied>N</supplied>am arietem martie mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornita fingunt. aiunt autem hesiodus et pherecides hunc administrandum frixae et beli concessum a nominibus fuisse, qui cum trans fraetaret eas hellim secus angustissimam mare ac potius in mari quod hellaespontus uocatur proiecit. quae neptunus saluans puerum peonam exea suscepit. frixam autem apud euximum saluans sinum ad etehem perduxit cui et suam auream pellem antequam inter astra procederet dedit. habet siquidem stellas XVII. id est in capite I, in naribus III, in collo II, in summitate anterioris pedis I, in spino IIII, in cauda I, in uentre III, in lumbo I, in summo pede I.</p>
       </body>
   </text>
 </TEI>
