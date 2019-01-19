@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Aratea Digital</title>
-            <title type="sub"></title>
+            <title type="sub">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 1260</title>
             <respStmt>
                <resp>Catalogued by:</resp>
                <name type="person">Ivana Dobcheva</name>
@@ -30,6 +30,7 @@
       </fileDesc>
         <revisionDesc status="draft">
 				<change when="2019-01-12"></change>
+           <change when="2019-01-19">Correction by the text identification on ff. 84v-86r</change>
 			</revisionDesc>
      </teiHeader>
    <text>
@@ -45,6 +46,8 @@
                <origDate notBefore="0801" notAfter="1000">s. IX-X</origDate>
                <origPlace ref="#n_france">North France</origPlace>
                <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Reg.lat.1260">DigiVatLib</ref></note>
             </head>            
             <physDesc>
@@ -133,18 +136,19 @@
                     <author ref="#bede">Bede</author>
                     <title ref="#DNR">De natura rerum (ch. 14-17)</title>
                      <incipit>Sunt autem sui cuique planetarum circuli quos greci hapsides in stellis uocant</incipit>
-                    <explicit>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt</explicit>
+                    <explicit>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt.</explicit>
                   </msItem>
-                 <msItem>
+                 <msItem class="aratea">
                      <locus from="84v" to="86r">84v-86r</locus>
-                    <note type="title">Addition to Bede's DNR on the names of the zodiacal signs</note>
-                     <incipit></incipit>
+                    <note type="title">Excerpts from the <title ref="#al">Aratus Latinus</title> and the <title ref="#ral">Revised Aratus Latinus </title> as addition to Bede's DNR on the zodiacal signs their mythological origin and number of stars.</note>
+                    <incipit>quas ideo strictim ac breuiter subter notare curauimus</incipit>
+                    <explicit>sub mammis <gap/>, in sinistro lumbo I.</explicit>
                   </msItem>
                   <msItem>
                      <locus from="86v">86v</locus>
                      <title ref="ad_boreae">De sideribus</title>
                      <author ref="#priscianus">Ps. Priscianus</author>
-                     <note>Added probably in the 11th century with musical neums.</note>
+                     <note>Added probably in the 11th century with musical neumes.</note>
                   </msItem>
                   <msItem>
                      <locus from="87r" to="124v">87r-124v</locus>
@@ -160,7 +164,7 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury.</origin>
+                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury.<!--Mostert ???--></origin>
                   <provenance></provenance>
                </history>
             </msPart>
@@ -186,7 +190,7 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <collation>The text of Aethicus' Cosmographia is in five regular quaternios (125-132, 133-140, 141-148, 149-156, 157-164), seuing strings visible in the middle of quires, with two surviving quire marks at the bottom of the last verso in capital letters: f. 132v (A) and f. 164v (E). The Hermeneumata take one quaternio (ff. 165-172) and one ternio (ff. 173-178).</collation>
+                        <collation>The text of Aethicus' Cosmographia is in five regular quaternios (125-132, 133-140, 141-148, 149-156, 157-164), sewing strings visible in the middle of quires, with two surviving quire marks at the bottom of the last verso in capital letters: f. 132v (A) and f. 164v (E). The Hermeneumata take one quaternio (ff. 165-172) and one ternio (ff. 173-178).</collation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
