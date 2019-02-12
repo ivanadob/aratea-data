@@ -76,7 +76,9 @@
                   <bibl>Finch, Chauncey E. "Three Textual Notes," Illinois Classical Studies 3 (1978): 269-272 <ref target="http://hdl.handle.net/2142/11695">esp. 269-272</ref></bibl>
                   <bibl>Beeson, Charles Henry. Isidor-Studien. Munich, 1913, 67.</bibl>
                   <bibl>Laistner, M. L. W., and H. H. King. A Hand-List of Bede Manuscripts. Itaca: Cornell university press, 1943.</bibl>
-                  <bibl>Mostert, Marco. The Library of Fleury. A Provisional List of Manuscripts. Hilversum: Verloren, 1989.</bibl>
+                  <bibl>Mostert, Marco. The Library of Fleury. A Provisional List of Manuscripts. Hilversum: Verloren, 1989.<note>according to Mostert the manuscript consists of five distinctive parts: ff- 1-16, 17-86, 87-124, 125-164 164-179, whereby the first three (ff. 1-124) are contemporary and homogenous (citing also Munk Olsen). The script shows insular influence (Pellegrin, Les manuscrits classiques 2.1, pp. 155-158). Pellegrin: France, Carey, Jones: Fleury; provenance prob. Fleury
+			  ff. 125-164 only prov. prob. Fleury s. X; ff. 165-179: s. X/XI prov. prob. Fleury.
+			  </note></bibl>
                   <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
                   <bibl>Viré, Ghislaine. ‘Le Texte Du “De Astronomia” d’Hygin: Question de Méthode’. Latomus 51 (1992): 843–56.</bibl>
                </listBibl>
@@ -185,6 +187,7 @@
                      <note type="title">Four glossaries of Greek and Latin medical terms.</note>
                      <rubric>Incipiunt hermeneumata</rubric>
                      <incipit>De decem specibus medicamentorum; haec sunt de animalibus terennis</incipit>
+			  <bibl>Goetz, Corpus glossarum latinorum 3 (Leipzig, 1892), pp. xxxii-xxxiii.</bibl>
                   </msItem>
                </msContents>
                <physDesc>
