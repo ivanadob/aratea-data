@@ -53,7 +53,7 @@
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
-                     <support></support>
+                     <support>Parchment</support>
                      <extent>
                         <measure type="leaveCount" quantity="179">179 fols.</measure>
                         <dimensions type="leaf" unit="mm">
