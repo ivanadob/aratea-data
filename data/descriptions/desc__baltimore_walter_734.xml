@@ -68,7 +68,7 @@
             <head>
                <title></title>
                <origDate notBefore="1151" notAfter="1225">s. XII<hi rend="sup">2</hi> / s. XIII<hi rend="sup">1/4</hi></origDate>
-               <origPlace></origPlace>
+               <origPlace>Italy or France</origPlace>
                <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus (excerpts)</rs></note>
                <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero (excerpts)</rs></note>
@@ -100,7 +100,7 @@
                   </msItem>
                   <msItem>
                      <locus from="14r" to="18r">14r-18r</locus>
-                     <note type="title">Lib. 4 wihtout the openning and sections 8-11, 13 to the end.</note>
+                     <note type="title">Lib. 4 (wihtout the openning and sections 8-11, 13 to the end)</note>
                      <incipit>In estiuo circulo de quo primum dicere instituimus</incipit>
                      <explicit>sic igitur orientibus XII signis reliqua corpora occidere et exoriri uidentur.</explicit>
                      <note>Skip sections 8-11 on the rotaion of the world together with the fixed stars around the poles, the zodiacal band cut in half by the horizon etc. moving straight to the paranatellonta section 12 (17r-18r).</note>
@@ -153,7 +153,7 @@
                </msItem>
                <msItem>
                   <locus from="20v">20v</locus>
-                  <title ref="#ral">Excerpt on Praesepis signa, probably taken from the Revised Aratus Latinus</title>
+                  <note type="title">Excerpt on Praesepis signa, probably taken from the <title ref="#ral">Revised Aratus Latinus</title></note>
                   <incipit>Sidera quae gentiles presepe et asinos uocauerunt</incipit>
                   <explicit>una cum presepi suo inter astra collocauerint.</explicit>
                   <decoNote>Preceding the text an illustration of Presepe on the lower margin of f. 20r.</decoNote>
@@ -165,7 +165,7 @@
                </msItem>
                <msItem>
                   <locus from="20v">20v</locus>
-                  <incipit>Si uis scire quo signo stella uiuis sit fac hoc modo</incipit>
+                  <incipit>Si uis scire quo signo stella iouis sit fac hoc modo</incipit>
                   <explicit>quando conputes et in eo signo iupiter erit.</explicit>
                </msItem>
                <msItem>
