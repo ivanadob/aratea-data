@@ -52,12 +52,12 @@
                <title>Manuscripts</title>
             </head>
             <list>
-               <item><ref target="desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
-               <item><ref target="desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref></item>
-               <item><ref target="desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
-               <item><ref target="desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
-               <item><ref target="desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
-               <item><ref target="desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
+               <item><ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
+               <item><ref target="#desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref></item>
+               <item><ref target="#desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
+               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
             </list>
          </div>
       </body>
