@@ -904,6 +904,11 @@
         <incipit>Cum in africam venissem M. Manilio consuli ad quartam legionem tribunus</incipit>
         <explicit>Ille discessit; ego somno solutus sum.</explicit>
     </work>
+    <work xml:id="spera_caeli">
+        <title>Horologium nocturnum</title>
+        <author ref="#pacificus_veronensis">Pacificus Veronensis</author>
+        <incipit>Spera caeli quater senis horis dum uoluitur</incipit>
+    </work>
     <work xml:id="visio_wettini_walafridi" ref="http://d-nb.info/gnd/4128533-5">
         <title>Visio Wettini</title>
         <author ref="#walafrid_strabo">Walafrid Strabo</author>

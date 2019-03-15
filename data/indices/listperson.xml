@@ -287,6 +287,9 @@
                         <occupation>illuminator</occupation>
                         <occupation>copist</occupation>
                     </person>
+                    <person xml:id="pacificus_veronensis">
+                        <persName xml:id="gnd_119427990">Pacificus Veronensis</persName>
+                    </person>
                     <person xml:id="philibert_de_la_mare">
                         <persName xml:id="gnd_104135883" ref="http://d-nb.info/gnd/104135883">Philibert &lt;de La Mare&gt;</persName>
                     </person>

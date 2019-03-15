@@ -111,9 +111,9 @@
                      <title ref="#letter_wicthede">Letter to Wicthede</title>
                   </msItem>
                   <msItem>
-                     <locus from="14v" to="16v">14v-15v</locus>
+                     <locus from="14v" to="15v">14v-15v</locus>
                      <note type="title">Computistical argumenta</note>
-                     <incipit>Est <sic>enniracio</sic> qualiter terminus paschalis inueniri possit. martius habet relulares XXXVI aprilis XXXV si uis inuenire terminum in martium</incipit>
+                     <incipit>Est enim racio qualiter terminus paschalis inueniri possit. martius habet relulares XXXVI aprilis XXXV si uis inuenire terminum in martium</incipit>
                   </msItem>
                   <msItem>
                      <locus from="15v" to="16v">15v-16v</locus>
@@ -145,6 +145,7 @@
                     <note type="title">Excerpts from the <title ref="#al">Aratus Latinus</title> and the <title ref="#ral">Revised Aratus Latinus </title> as addition to Bede's DNR on the zodiacal signs their mythological origin and number of stars.</note>
                     <incipit>quas ideo strictim ac breuiter subter notare curauimus</incipit>
                     <explicit>sub mammis <gap/>, in sinistro lumbo I.</explicit>
+                    <note>Pellegrin noted that the texts on ff. 84v-86r are present also in Leiden, UB, VLO 15, ff. 188-190.</note>
                   </msItem>
                   <msItem>
                      <locus from="86v">86v</locus>
@@ -166,8 +167,9 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury.<!--Mostert ???--></origin>
-                  <provenance></provenance>
+                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury. Pellegrin argued for a French origin; script exhibiting insular influence.<!--Mostert ???--></origin>
+                  <provenance>By the 16 th c. the manuscript was probably in the Abbey of Fleury-sur-Loire as it matches the succinct title (Liber Bedae presbyteri de natura rerum) of No 254 in the catalogue of 1552.</provenance>
+                  <provenance>Ownership note by Pierre Daniel of Orleans (d. 1603) on f. 1r; according to Pellegrini also his marginal notes in the manuscript.</provenance>
                </history>
             </msPart>
             <msPart>

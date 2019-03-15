@@ -50,16 +50,39 @@
                 </head>
                 <msContents>
                     <msItem>
-                        <locus></locus>
-                        <title ref="#libri_computi"></title>
+                        <locus from="2v">2v-</locus>
+                        <title ref="#libri_computi">Libri computi</title>
+                        <note>Additions and omissions discussed by Borst, Schriften.</note>
                         <msItem class="aratea">
-                            <locus from="91r">91r-</locus>
+                            <locus from="90r" to="91r">90r-91r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <rubric>Excerptum de astrologia</rubric>
+                            <incipit>Duo sunt extremi uertices mundi</incipit>
+                            <explicit></explicit>
+                            <note>Marginal annotation by another contemporary hand: <quote>Discite o iuuenes cum abraham caeli et cursus siderum cognoscere non cum epicurio uoluntatum adsertore uentri de seruire et luxuriare</quote>. The same text present also in <ref type="altMs" target="desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref> and <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref>.</note>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="91r" to="99r">91r-99r</locus>
+                            <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                             <rubric>De ordine ac positione stellarum in signis</rubric>
                             <incipit>Est quidem hic ordo et positio siderum</incipit>
-                            <decoNote>Illustration of the constellations in green and brown colour.</decoNote>
+                            <explicit>Anticanis habet stellas III.</explicit>
+                            <decoNote>Forty illustration of the constellations in green and brown colour; marking of the stars' position.</decoNote>
                         </msItem>
                     </msItem>
+                    <msItem>
+                        <locus from="128r">128r</locus>
+                        <author ref="#pacificus_veronensis">Pacificus of Verona</author>
+                        <title ref="#spera_caeli">Horologium nocturnum</title>
+                        <incipit>Spera caeli quater senis horis dum reuoluitur</incipit>
+                        <bibl>Strecker K., ed. Rhythmi aevi Merovingici et Carolini, MGH Poetae Latini Aevi Carolini. Berlin, 1923, IV 692.</bibl>
+                    </msItem>
                 </msContents>
+                <additional>
+                    <listBibl>
+                        <bibl><abbr>Borst, Schriften</abbr>, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._303">303</ref>-304.</bibl>
+                    </listBibl>
+                </additional>
             </msDesc>
         </body>
     </text>
