@@ -63,16 +63,21 @@
                         <msItem>
                             <locus from="188r" to="188v">188r-v</locus>
                             <author ref="#bede">Bede</author>
-                            <title ref="#DNR">De natura rerum (ch. 14-17)</title>
+                            <title ref="#DNR">De natura rerum<note> (ch. 14-17)</note></title>
                             <incipit>Sunt autem cuique sui planetarum circuli quos greci absides in stellis uocant</incipit>
                             <explicit>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt.</explicit>
                         </msItem>
                         <msItem class="aratea">
-                            <locus from="188v" to="">188v-</locus>
+                            <locus from="188v" to="190r">188v-190r</locus>
                             <note type="title">Excerpts from the <title ref="#al">Aratus Latinus</title> and the <title ref="#ral">Revised Aratus Latinus </title> as addition to Bede's DNR on the zodiacal signs their mythological origin and number of stars.</note>
                             <incipit>Quas ideo strictim ac breuiter subter notare curauimus</incipit>
-                            <explicit>sub mammis <gap/>, in sinistro lumbo I.</explicit>
-                            <note>Pellegrin noted that the texts on ff. 84v-86r are present also in Leiden, UB, VLO 15, ff. 188-190.</note>
+                            <explicit>sub mammis <gap/>, in sinistro lumbo I. Pisces.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="190r">190r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uertices mundi quos appellant polos.</incipit>
+                            <note>rest of the page left originally blank and filled with later additions.</note>
                         </msItem>
                     </msContents>
                 </msPart>
