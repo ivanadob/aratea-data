@@ -76,10 +76,9 @@
                   <bibl>Finch, Chauncey E. "Three Textual Notes," Illinois Classical Studies 3 (1978): 269-272 <ref target="http://hdl.handle.net/2142/11695">esp. 269-272</ref></bibl>
                   <bibl>Beeson, Charles Henry. Isidor-Studien. Munich, 1913, 67.</bibl>
                   <bibl>Laistner, M. L. W., and H. H. King. A Hand-List of Bede Manuscripts. Itaca: Cornell university press, 1943.</bibl>
-		       <bibl>Munk Olsen, Birger. L’étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. I. Catalogue des manuscrits classiques latins copiés du IXe. au XIIe siècle: Apicius-Juvénal. Paris: CNRS, 1982, p. 534.<note>says it is from 3 elements (s. IX-x/XI) the second two medical. The first 124 fols. Quaternions sauf f. 49-54 (ternio), 119-124 (quaternio missing 7 and 8), missing a quire between f.16 and f.17. Within this 124 fols. one can distinguish three contemporary and homogenous units: ff. 1-16, 17-86 and 87-124.</note></bibl>
-                  <bibl>Mostert, Marco. The Library of Fleury. A Provisional List of Manuscripts. Hilversum: Verloren, 1989.<note>according to Mostert the manuscript consists of five distinctive parts: ff- 1-16, 17-86, 87-124, 125-164 164-179, whereby the first three (ff. 1-124) are contemporary and homogenous (citing also Munk Olsen). The script shows insular influence (Pellegrin, Les manuscrits classiques 2.1, pp. 155-158). Pellegrin: France, Carey, Jones: Fleury; provenance prob. Fleury
-			  ff. 125-164 only prov. prob. Fleury s. X; ff. 165-179: s. X/XI prov. prob. Fleury.
-			  </note></bibl>
+		       <bibl>Munk Olsen, Birger. L’étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. I. Catalogue des manuscrits classiques latins copiés du IXe. au XIIe siècle: Apicius-Juvénal. Paris: CNRS, 1982, p. 534.<note>says it is from 3 elements (s. IX-X/XI) the second two medical. The first 124 fols. Quaternions sauf f. 49-54 (ternio), 119-124 (quaternio missing 7 and 8), missing a quire between f.16 and f.17. Within this 124 fols. one can distinguish three contemporary and homogenous units: ff. 1-16, 17-86 and 87-124.</note></bibl>
+                  <bibl>Mostert, Marco. The Library of Fleury. A Provisional List of Manuscripts. Hilversum: Verloren, 1989.<note>provenance prob. Fleury; ff. 125-164 only prov. prob. Fleury s. X; ff. 165-179: s. X/XI prov. prob. Fleury.</note></bibl>
+                  <bibl>Pellegrin, Élisabeth. Les manuscrits classiques latins de la Bibliothèque Vaticane: 2, 1 : Fonds Patetta et fonds de la Reine. Paris: CNRS, 1978.<note>argued for a French origin; insular influence by the initials (?).</note></bibl>
                   <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
                   <bibl>Viré, Ghislaine. ‘Le Texte Du “De Astronomia” d’Hygin: Question de Méthode’. Latomus 51 (1992): 843–56.</bibl>
                </listBibl>
@@ -168,7 +167,7 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury. Pellegrin argued for a French origin; script exhibiting insular influence.<!--Mostert ???--></origin>
+                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury. Pellegrin argued for a French origin; script exhibiting insular influence by the execution of initials (?). According to Mostert the manuscript consists of five distinctive parts: ff- 1-16, 17-86, 87-124, 125-164 and 164-179, whereby the first three (ff. 1-124) are contemporary and homogenous (following here Munk Olsen).</origin>
                   <provenance>By the 16 th c. the manuscript was probably in the Abbey of Fleury-sur-Loire as it matches the succinct title (Liber Bedae presbyteri de natura rerum) of No 254 in the catalogue of 1552.</provenance>
                   <provenance>Ownership note by Pierre Daniel of Orleans (d. 1603) on f. 1r; according to Pellegrini also his marginal notes in the manuscript.</provenance>
                </history>
