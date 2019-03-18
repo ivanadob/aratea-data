@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Wolfenbuttel, Herzog August Bibliothek, Guelf. 18.16 Aug 4o </title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-03-18"></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="wolfebuettel_hab_guelf_18_16_au_4">
+                <msIdentifier>
+                    <settlement>Wolfenbüttel</settlement>
+                    <repository>Herzog August Bibliothek</repository>
+                    <idno>Guelf. 18.16 Aug 4o </idno>
+                </msIdentifier>
+                <head>
+                    <title>Hyginus, De astronomia</title>
+                    <origDate notBefore="1101" notAfter="1200">s. XII<hi rend="sup"></hi></origDate>
+                    <origPlace ref="#"></origPlace>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+                    <note type="facsimile">Photos of the illustraations available at the <ref target="https://iconographic.warburg.sas.ac.uk">Warburg Iconographic Database</ref></note>
+                </head>
+                <msContents>
+                    <msItem class="aratea">
+                        <locus>1r-35v</locus>
+                        <author ref="#hyginus">Hyginus</author>
+                        <title ref="#de_astronomia">De astronomia</title>
+                        <decoNote>Illustrations of the constellations to the second book in red ink, no stars marked; some initials to open paragraphs and more elaborated ones at the beginning of books; marginal headings for separate sections (e.g. De lacteo circulo). Illustrations drawn after the text was written (in some cases the red ink traced over the brown ink of the text).</decoNote>
+                    </msItem>
+                    <msItem>
+                        <locus>35v</locus>
+                        <note type="title">Later addition: two prayers.</note>
+                    </msItem>
+                    <!--  
+When illustrations are to the second mythologycal book - interest in the stories (also no stars marked?) 
+
+Light book; looks more like the personal endeavour (perhaps one scribe?) to be read alone; as the language is simple - no need of glossing (there are no glosses; no corrections either)  
+
+Used thick parchment, here and there some tiny holes and sewing ; but in the same time made some effort to have nice initials and orientation in the text. Left space for the illustration in the second book. 
+
+ -->
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>Parchment</support>
+                            <collation>The first four quires are regular quaterniones: ff.1-8; ff.9-16; ff.17-24; ff.25-32; 33 singleton; ff. 34-35 is a bifolio.</collation>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout ruledLines="30 31">30-31 long lines.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                </physDesc>
+                <history>
+                    <provenance>erased ownership note on f. 1r 'Iste liber ... <supplied>L</supplied>iupoldis'. </provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl></bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
+                    
