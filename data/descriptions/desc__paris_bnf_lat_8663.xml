@@ -82,7 +82,9 @@
                     <origPlace ref="#fleury">Fleury (?)</origPlace>, <origPlace ref="#tours">Tours (?)</origPlace>
                     <origDate notBefore="0901" notAfter="1050">s. X-XI<hi rend="sup">1</hi>
                     </origDate>
-                    Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8432469w.r=8663.langEN">gallica.bnf.fr</ref>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+                    <note type="facsimile">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8432469w.r=8663.langEN">gallica.bnf.fr</ref></note>
                 </head>
             <physDesc>
                <objectDesc form="codex">
@@ -143,7 +145,7 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="1r" to="19v">1r-19v</locus>
                             <author ref="#hyginus">Hyginus</author>
                             <title ref="#de_astronomia">De astronomia</title>
@@ -151,7 +153,7 @@
                             <explicit>annum uoluerunt esse cum sol a haestiuo circulore dieris CCCos LXVI dies suo cursu transigit.</explicit>
                             <decoNote>Large decorated initial E on f. 1r; drawing of Centaurus on f. 11v inside the text.</decoNote>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="19v" to="23v">19v-23v</locus>
                             <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                             <rubric>De ordine ac positione stellarum in signis</rubric>
