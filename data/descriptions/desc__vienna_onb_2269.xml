@@ -49,7 +49,7 @@
                <msItem>
                   <locus from="1r" to="3v">1ra-3vc</locus>
                   <author ref="#alcuinus_flaccus">Alcuin</author>
-                  <title ref="">De dialectica</title>
+                  <title ref="#de_dialectica">De dialectica</title>
                   <msItem>
                      <title type="supplied">Carmen Alcuini</title>
                      <incipit>O uos est aetat iuuenes quibus apta legendo</incipit>
@@ -69,7 +69,7 @@
                <msItem>
                   <locus from="3v" to="6v">3vc-6vc</locus>
                   <author ref="#alcuinus_flaccus">Alcuin</author>
-                  <title ref="">De rethorica</title>
+                  <title ref="#de_rhetorica">De rethorica</title>
                   <msItem>
                      <incipit>Qui rogo ciuiles cupiat cognoscere mores</incipit>
                      <explicit>mel tibi portat apes.</explicit>
@@ -80,7 +80,6 @@
                </msItem>
                <msItem>
                   <locus from="6v" to="7r">6vc-7ra</locus>
-                  <author ref=""></author>
                   <title type="supplied">Short text on the division of science with a schema</title>
                   <incipit>Porro sapientiam phylosophiam ueteres uocauerunt id est omnium rerum diuinarum humanarumque scientiam</incipit>
                   <explicit>VII. Medicina est scientia curationum ad temperamentum et salutem corporis inuenta.</explicit>
@@ -105,17 +104,17 @@
                   <locus from="7v" to="8v">7vb-8va</locus>
                   <note>Rest of the, f. 7v, the whole 8r and the first column of 8v, left blank probably for a treatise on geometry (see the running title: Geometria Albini).</note>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="8v">8vb-c</locus>
-                  <author ref=""></author>
                   <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                   <note>Attributed here also to Alcuin (see running title: Astrologia Albini).</note>
                   <incipit><supplied>D</supplied>uo sunt extremi <del>sunt</del> uertices mundi</incipit>
                   <explicit>usque decurrit accipiens.</explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="8v">8vc</locus>
-                 <note type="title">Text on the position of the constellations within the celestial sphere</note>
+                  <title ref="#quem_circulum">Quem circulum unumquodque signorum tangat</title>
+                  <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__bav_vat_lat_4162.xml">BAV, Ms Vat. lat. 4162</ref> and in Metz, BM MS 271.</note>
                   <rubric>Quem circulum unumquodque signorum tangat</rubric>
                   <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
                   <explicit>ultimam partem sagittae.</explicit>
@@ -137,8 +136,8 @@
                </msItem>
                <msItem>
                   <locus from="17v" to="24v">17va-24vc</locus>
-                  <author ref=""></author>
-                  <title ref="">Commentaria in Porphyrium</title>
+                  <author ref="#boethius">Boethius</author>
+                  <title ref="#commentaria_boethius">Commentaria in Porphyrium</title>
                   <incipit><supplied>c</supplied>um sit necessarium crisarori eadem quae est apud aristotelem praedicamentorum doctrinam</incipit>
                   <explicit>et ad praedicamenta seruant.</explicit>
                   <bibl><abbr>PL</abbr> 64, 77A-158D.</bibl>

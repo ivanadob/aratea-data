@@ -35,7 +35,7 @@
      </teiHeader>
    <text>
       <body>
-         <msDesc xml:lang="eng" xml:id="ab">
+         <msDesc xml:lang="eng" xml:id="berlin_phill_1832">
             <msIdentifier>
                <settlement>Berlin</settlement>
                <repository>Staatsbibliothek</repository>
@@ -47,14 +47,13 @@
             <head>
                <title>De temporibus - Chronik</title>
                <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
-                    </origDate>
+               </origDate>
                <origPlace ref="#laon">Laon</origPlace> or <origPlace ref="#reims">Reims</origPlace>
                <note type="facs">Digital facsimile available at <ref target="http://resolver.staatsbibliothek-berlin.de/SBB000104AA00000000">StaBi Digitalisierte Sammlungen</ref></note>
                <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
                <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
-               
             </head>            
             <physDesc>
                <objectDesc form="codex">
@@ -86,10 +85,10 @@
             <additional>
                <listBibl>
                   <bibl>
-                            <abbr>Sternbilder des Mittelalters</abbr>, pp. 208-213.</bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 208-213.</bibl>
                   <bibl>Contreni, J. "John Scottus, Martin Hiberniensis, the Liberal Arts, and Teaching." Insular Latin Studies: Papers on latin Text and Manuscripts of the British Isles 550-1066. Ed. M. W. Herren. Toronto, 1981, pp. 23-44, reprint in Contreni, Carolingian Learning, Masters and Manuscripts. Collected Studies Series, Variorum, 1992: VI, pp. 1-22,</bibl>
                   <bibl>
-                            <abbr>Borst, Schriften</abbr>. Vol. 1, p. 215.</bibl>
+                     <abbr>Borst, Schriften</abbr>. Vol. 1, p. 215.</bibl>
                </listBibl>
             </additional>
             <msPart>
@@ -114,18 +113,18 @@
                   <idno>Part II</idno>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="aratea">
                      <locus from="81r">81r</locus>
                      <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                   </msItem>
-               <msItem>
-                  <locus from="81v" to="85v">81v-85v</locus>
-                  <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
-                  <decoNote>Illustrations of the constellation, see the iconographical analysis in <bibl>
-                                    <abbr>Sternbilder des Mittelalters</abbr>
-                                </bibl>.</decoNote>
-                  <note>Marginal annotations drawing from Servius.</note>
-               </msItem> 
+                  <msItem class="aratea">
+                     <locus from="81v" to="85v">81v-85v</locus>
+                     <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                     <decoNote>Illustrations of the constellation, see the iconographical analysis in <bibl>
+                        <abbr>Sternbilder des Mittelalters</abbr>
+                     </bibl>.</decoNote>
+                     <note>Marginal annotations drawing from Servius.</note>
+                  </msItem> 
                </msContents>
             </msPart>
             <msPart>
@@ -133,7 +132,7 @@
                   <idno>Part III</idno>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="aratea">
                      <locus from="86r" to="92v">86r-92v</locus>
                      <author ref="#germanicus">Germanicus</author>
                      <title ref="#germanicus_aratea">Aratea</title>

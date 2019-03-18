@@ -66,14 +66,14 @@
                     <msContents>
                         <msItem>
                             <locus from="1r" to="26v">1r-26v</locus>
-                            <author>Alcuin</author>
-                            <title>Disputatio de rhetorica</title>
+                            <author ref="#alcuinus_flaccus">Alcuin</author>
+                            <title ref="#de_rhetorica">Disputatio de rhetorica</title>
                             <decoNote>Diagrams at the end of the text.</decoNote>
                         </msItem>
                         <msItem>
                             <locus from="26v" to="47r">26v-47r</locus>
-                            <author>Alcuin</author>
-                            <title>Dialogus de dialectica</title>
+                            <author ref="#alcuinus_flaccus">Alcuin</author>
+                            <title ref="#de_dialectica">Dialogus de dialectica</title>
                             <decoNote>Digram of the division of science at the end of the text (f. 47r).</decoNote>
                         </msItem>
                         <msItem>

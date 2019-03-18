@@ -529,6 +529,11 @@
         <explicit>cuius et gubernaculum et rectam puppim secans ad octauam partem cancri redit.</explicit>
         <bibl>Hasper, L.W. (ed.) <title>Hyginus philosophus. De imaginibus coeli</title>. Leipzig, 1861.</bibl>
     </work>
+    <work xml:id="quem_circulum">
+        <title>Quem circulum unumquodque signorum tangat</title>
+        <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
+        <explicit>ultimam partem sagittae.</explicit>
+    </work>
     <work type="al" xml:id="excerptum_de_astrologia">
         <title>Excerptum de astrologia</title>
         <incipit>Duo sunt extremi vertices mundi</incipit>
@@ -617,6 +622,23 @@
     <work xml:id="de_musica_augustine" ref="http://d-nb.info/gnd/4268897-8">
         <author ref="#augustinus_aurelius">Augustine of Hippo</author>
         <title>De musica</title>
+    </work>
+    <work xml:id="de_rhetorica" ref="http://d-nb.info/gnd/7618820-6">
+        <author ref="#alcuinus_flaccus">Alcuin</author>
+        <title>Disputatio de rhetorica</title>
+        <title>De rhetorica et virtutibus</title>
+        <incipit>Qui rogo civiles cupiat cognoscere mores</incipit>
+        <incipit>Quia te, venerande magister Albine, Deus adduxit</incipit>
+        <explicit>si modo macula livoris legentem non corrumpit.</explicit>
+        <bibl>PL 101, 919-946.</bibl>
+    </work>
+    <work xml:id="de_dialectica" ref="https://www.geschichtsquellen.de/repOpus_00090.html">
+        <author ref="#alcuinus_flaccus">Alcuin</author>
+        <title>Disputatio de dialectica</title>
+        <title>De dialectica</title>
+        <incipit>Quia mentionem philosophiae in priore disputationis nostrae sermone fecimus</incipit>
+        <explicit>ut Socrates disputat; Socrates non disputat.</explicit>
+        <bibl>PL 101, 950-976.</bibl>
     </work>
     <work xml:id="argumentum_ad_inveniendam_xiiii_lunam">
         <title>Argumentum ad inveniendam XIIII lunam</title>
