@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+                    Aratea Digital
+                </title>
+                <title type="sub">Vatican, Biblioteca Apostolica Vaticana, Vat.lat.4162</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2018-06-19"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="vat_lat_4162">
+                <msIdentifier>
+                    <settlement>Vatican</settlement>
+                    <repository>Biblioteca apostolica vaticana</repository>
+                    <idno>Vat. lat. 4162</idno>                    
+                </msIdentifier>
+                <head>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Vat.lat.4162">DigiVatLib</ref></note>
+                </head>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part 2</idno>
+                    </altIdentifier>
+                    <head>
+                        <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <locus from="38r" to="44r">38r-44r</locus>
+                            <author ref="#alcuinus_flaccus">Alcuin</author>
+                            <title ref="#de_rhetorica">Disputatio de rhetorica</title>
+                            <msItem>
+                                <locus from="44v" to="50r">44v-50r</locus>
+                                <decoNote>Diagrams following the text.</decoNote>
+                            </msItem>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="50v" to="52r">50v-52r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <rubric>Excerptum de astrologia Felicis Capellae</rubric>
+                            <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
+                            <explicit>usque decurrit accipiens.</explicit>
+                            <finalRubric>Explicit.</finalRubric>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="52r" to="52v">52r-v</locus>
+                            <title ref="#quem_circulum">Quem circulum unumquodque signorum tangat</title>
+                            <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__vienna_onb_2269.xml">Vienna, ÖNB, Cod. 2269</ref> and in Metz, BM MS 271.</note>
+                            <rubric>Quem circulum unumquodque signorum tangat</rubric>
+                            <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
+                            <explicit>ultimam partem sagittae.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="52v" to="53r">52v-53r</locus>
+                            <note type="title">Later addition (s. XII); warning against the immoral mythical stories.</note>
+                            <quote><supplied>C</supplied>ustodia ori ponitur dum quisque non se iustum sed quod magis uerum est peccatorem fatetur. Manum super os ponit qui nobis operibus linguae excessum operit. Manum super os ponit qui malae locutionis culpas bonae actionis uelamine tegit. Poete ideo in libris suis uenerem inpudicam martemque adulterum deos appellare uoluerunt ut persuaderent mentes hominum quasi deos imitari in malum, ut dum libidinosa persuasione adiustar eorum flagitia confidenter committunt non quasi homines perditor sed quasi caelestes deos imitari uideantur. Ideo prohibetur christianus figmenta legere poetarum quia per oblectamenta inani fabularum mentem excitent ad incentiua libidinum. Non enim solum thura offerendo demonibus immolatur sed etiam eorum dicta libentius capiendo.</quote>
+                        </msItem>
+                        <msItem>
+                            <locus from="53r">53r-</locus>
+                            <incipit>Diximus etiam octonos consistere in musica</incipit>
+                        </msItem>
+                    </msContents>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
