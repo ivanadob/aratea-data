@@ -89,6 +89,9 @@
                         <tei:geo>47.80281 2.31321</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="freising">
+                    <placeName ref="https://www.geonames.org/2925034">Freising</placeName>
+                </place>
                 <place xml:id="fulda">
                     <placeName ref="http://www.geonames.org/2923822">Fulda</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
