@@ -250,7 +250,7 @@
                      <title ref="#de_astronomia">De astronomia</title>
                      <msItem>
                         <locus from="39" to="42">39-42</locus>
-                        <note>Praefatio:</note>
+                        <note type="title">Praefatio:</note>
                         <rubric>Hyginus magister fabio plurimam salutem</rubric>
                         <incipit>Et si te studio grammaticae artis inductum</incipit>
                         <explicit>ad propositum ueniemus et initium rerum demonstrabimus.</explicit>
@@ -265,7 +265,7 @@
                      </msItem>
                      <msItem>
                         <locus from="92" to="114">92-114</locus>
-                        <note>Book 3.</note>
+                        <note type="title">Book 3.</note>
                         <rubric>Incipit de figuratione omnium signorum</rubric>
                         <incipit>Igitur incipiemus a polo boreo protinus dicere</incipit>
                         <explicit>Sed est stellarum omnino XII.</explicit>
@@ -275,8 +275,7 @@
                         <locus from="115" to="135">115-135</locus>
                         <incipit>Quae ad figurationem siderum pertinent adhunc finem</incipit>
                         <explicit>Cum sol ab aestiuo circulo descendens CCCtos LXta V dies suo cursu transigit.</explicit>
-                        <finalRubric>Finit Higinus de<gap reason="lacuna"/>
-                                </finalRubric>
+                        <finalRubric>Finit Higinus de<gap reason="lacuna"/></finalRubric>
                      </msItem>
                   </msItem>
                   <msItem>

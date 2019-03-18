@@ -75,6 +75,7 @@
                   <head>Selected bibliography:</head>
                   <bibl>Finch, Chauncey E. "Three Textual Notes," Illinois Classical Studies 3 (1978): 269-272 <ref target="http://hdl.handle.net/2142/11695">esp. 269-272</ref></bibl>
                   <bibl>Beeson, Charles Henry. Isidor-Studien. Munich, 1913, 67.</bibl>
+                  <bibl>Hyginus. L’astronomie. Edited by André LeBoeuffle. 2nd ed. Collection Des Universités de France. Paris: Les Belles Lettres, 2002, p. XLVIII.</bibl>
                   <bibl>Laistner, M. L. W., and H. H. King. A Hand-List of Bede Manuscripts. Itaca: Cornell university press, 1943.</bibl>
 		       <bibl>Munk Olsen, Birger. L’étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. I. Catalogue des manuscrits classiques latins copiés du IXe. au XIIe siècle: Apicius-Juvénal. Paris: CNRS, 1982, p. 534.<note>says it is from 3 elements (s. IX-X/XI) the second two medical. The first 124 fols. Quaternions sauf f. 49-54 (ternio), 119-124 (quaternio missing 7 and 8), missing a quire between f.16 and f.17. Within this 124 fols. one can distinguish three contemporary and homogenous units: ff. 1-16, 17-86 and 87-124.</note></bibl>
                   <bibl>Mostert, Marco. The Library of Fleury. A Provisional List of Manuscripts. Hilversum: Verloren, 1989.<note>provenance prob. Fleury; ff. 125-164 only prov. prob. Fleury s. X; ff. 165-179: s. X/XI prov. prob. Fleury.</note></bibl>
@@ -162,7 +163,7 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <collation>Quire marks in roman numerlas on the last verso of quires on fols. 8v (I), 16v (II), 24v (IIII), 32v (V), 40v (VI), 48v (VII), 54v (VIII), 62v (VIIII), 70v (X), 78v (XI), 86v (XII), 94v (XIII), 102v (XIIII), 110v and 118v probably cut out with the lower margin (XV? and XVI?), 124v (XVII);</collation>
+                        <collation>Quire marks in roman numerlas on the last verso of quires, mostly quaterniones: fols. 8v (I), 16v (II), 24v (IIII), 32v (V), 40v (VI), 48v (VII), 54v (VIII), 62v (VIIII), 70v (X), 78v (XI), 86v (XII), 94v (XIII), 102v (XIIII), 110v and 118v probably cut out with the lower margin (XV? and XVI?), 124v (XVII).</collation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
@@ -174,7 +175,7 @@
             </msPart>
             <msPart>
                <msIdentifier>
-                  <idno>Part 2</idno>
+                  <idno>Part 2 (ff. 125-164)</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
@@ -184,18 +185,32 @@
                      <rubric>Incipit liber Aethici philosophico editus oraculo a Hieronimo presbitero translatus in latinum ex cosmografia mundi scriptura edicta aethici philosophi cosmographi</rubric>
                      <incipit>Philosophorum scedulas sagaci indagatione inuestigans</incipit>
                   </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <collation>The text of Aethicus' Cosmographia is in five regular quaternios (125-132, 133-140, 141-148, 149-156, 157-164), sewing strings visible in the middle of quires, with two surviving quire marks at the bottom of the last verso in capital letters: f. 132v (A) and f. 164v (E).</collation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 3 (ff. 165-179)</idno>
+               </msIdentifier>
+               <msContents>
                   <msItem>
                      <locus from="165r" to="179v">165r-179v</locus>
                      <note type="title">Four glossaries of Greek and Latin medical terms.</note>
                      <rubric>Incipiunt hermeneumata</rubric>
                      <incipit>De decem specibus medicamentorum; haec sunt de animalibus terennis</incipit>
-			  <bibl>Goetz, Corpus glossarum latinorum 3 (Leipzig, 1892), pp. xxxii-xxxiii.</bibl>
+                     <bibl>Goetz, Corpus glossarum latinorum 3 (Leipzig, 1892), pp. xxxii-xxxiii.</bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        <collation>The text of Aethicus' Cosmographia is in five regular quaternios (125-132, 133-140, 141-148, 149-156, 157-164), sewing strings visible in the middle of quires, with two surviving quire marks at the bottom of the last verso in capital letters: f. 132v (A) and f. 164v (E). The Hermeneumata take one quaternio (ff. 165-172) and one ternio (ff. 173-178).</collation>
+                        <collation>The Hermeneumata take one quaternio (ff. 165-172) and one ternio (ff. 173-178).</collation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
