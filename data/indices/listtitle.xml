@@ -541,6 +541,12 @@
         <bibl>
          <abbr>Borst, Schriften</abbr>, Vol. 3, <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1243">pp. 1243-50.</ref>.</bibl>
     </work>
+    <work xml:id="musica_disciplina" ref="http://d-nb.info/gnd/7621340-7">
+        <author ref="#aurelianus">Aurelianus Reomensis</author>
+        <title>Musica disciplina</title>
+        <bibl>Aureliani Reomensis Musica disciplina. Ed. Lawrence Gushee. Corpus scriptorum de musica, vol. 21. Rome: American Institute of Musicology, 1975, 53–135.</bibl>
+        <bibl><ref target="http://boethius.music.indiana.edu/tml/9th-11th/AURMD">Thesaurus musicarum latinarum</ref>.</bibl>
+    </work>
     <work xml:id="flores_epitaphii" ref="http://d-nb.info/gnd/4489022-9">
         <title>Flores epitaphii sanctorum </title>
         <author>Theofridus Epternacensis</author>

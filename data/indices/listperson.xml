@@ -58,6 +58,10 @@
                     <person xml:id="ausonius">
                         <persName xml:id="gnd_118505165" ref="http://d-nb.info/gnd/118505165">Ausonius</persName>
                     </person>
+                    <person xml:id="aurelianus">
+                        <persName xml:id="gnd_100937039" ref="http://d-nb.info/gnd/100937039">Aurelianus Reomensis</persName>
+                        <persName>Aurelian of Réôme</persName>
+                    </person>
                     <person xml:id="avienus">
                         <persName xml:id="gnd_11881060X" ref="http://d-nb.info/gnd/11881060X">Avienus &lt;Rufinus Festus&gt;</persName>
                     </person>
