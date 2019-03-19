@@ -49,6 +49,7 @@
                     <note type="caption">Computistical-astronomical composite MS</note>
                     <origPlace ref="#fleury">Fleury</origPlace>
                     <origDate notBefore="0901" notAfter="0950">s. X<hi rend="sup">1</hi></origDate>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10502052p">gallica.bnf.fr</ref>.</note>
                 </head> 
             <physDesc>
@@ -231,7 +232,7 @@
                         <idno>Codicological unit 2 (ff. 158-172)</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="158r">158r</locus>
                             <title ref="#de_signis_coeli">De signis coeli</title>
                             <incipit><supplied>C</supplied>ancer habet stellas splendidas in testo IIII</incipit>

@@ -39,6 +39,11 @@
          <div>
             <head>
                <title>Editions</title>
+               <listBibl>
+                  <bibl>Borst, Arno. Schriften zur Komputistik im Frankenreich von 721 bis 818. Vol. 3. Monumenta Germaniae historica. Quellen zur Geistesgeschichte des Mittelalters 21. Hannover: Hahnsche Buchhandlung, 2006, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,3_S._1243">1243</ref>-1250.</bibl>
+                  <bibl>Maass, Ernst. <ref target="https://archive.org/details/Maass1898/page/n385">Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, 309-12</ref></bibl>
+                  <bibl>Manitius, Max. Das sogenannte Fragment Hygins, in: Rheinisches Museum für Philologie, Neue Folge 53 (1898): 392-8.</bibl>
+               </listBibl>
             </head>
             <p/>
          </div>
@@ -47,76 +52,58 @@
                <title>Literature</title>
             </head>
             <listBibl>
-               <bibl>Hasper, Ludwig Wilhelm, ed. <ref target=" http://archive.org/details/hyginusphilosop00haspgoog.">Hyginus Philosophus: De imaginibus coeli. Leipzig, 1861, 11-15</ref></bibl>
+               <bibl>Hasper, Ludwig Wilhelm, ed. <ref target="http://archive.org/details/hyginusphilosop00haspgoog">Hyginus Philosophus: De imaginibus coeli. Leipzig, 1861, 11-15.</ref></bibl>
                <bibl>Kauffmann, Georg. <ref target="https://archive.org/details/dehyginimemoria00kaufgoog/page/n5">De Hygini memoria scholiis in Ciceronis Aratum Harleianis servata</ref>. Vol. 3. Breslauer Philologische Abhandlungen. Breslau, 1888.</bibl>
-               <bibl>Maass, Ernst. <ref target="https://archive.org/details/Maass1898/page/n385">Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, 309-12</ref></bibl>
-               <bibl>Manitius, Max. Das sogenannte Fragment Hygins, in: Rheinisches Museum für Philologie, Neue Folge 53 (1898): 392-8.</bibl>
             </listBibl>
          </div>
          <div>
             <head>
                <title>Manuscripts (incomplete!)</title>
                <list>
-                  <item><ref target="#desc__paris_bnf_lat_7400A.xml">Paris, Bibliothèque nationale de France, MS lat. 7400A</ref></item>
+                  <item><ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
+                  <item><ref target="#desc__bamberg_sb_class_55.xml">Bamberg, Staatsbibliothek, MS Class. 55</ref></item>
+                  <item><ref target="#desc__berlin_sb_phill_1832">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref></item>
+                  <item>Berlin, Staatsbibliothek, Ms. Phill. 1869</item>
                   <item><ref target="#desc__brussels_br_2194-95.xml">Brussels, Bibliothèque royale, MS 2194-95</ref></item>
                   <item><ref target="#desc__cambridge_15_32.xml">Cambridge, Trinity College, MS R 15.32</ref></item>
-                  <item><ref target="#desc__florence_laur_plut_51_14.xml">Florence, Biblioteca Medicea Laurenziana, Plut. 51. 14</ref></item>
+                  <item><ref target="#desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
+                  <item>Einsiedeln, Stiftsbibliothek, Cod. 178</item>
+                  <item>Exeter, Cathedral Library 3507</item>
+                  <item><ref target="#desc__florence_laur_plut_51_14.xml">Florence, Biblioteca Medicea Laurenziana, Plut. 51. 14</ref></item> 
+                  <item><ref target="#desc__graz_ub_297.xml">Graz, Universitätsbibliothek, Ms 297</ref></item>
+                  <item>Karlsruhe, Badische Landesbibliothek, Ms 504</item>
+                  <item><ref target="#desc__leiden_ub_vlo_15.xml">Leiden, Universitaire Bibliotheken, VLO 15</ref></item>
+                  <item>Leiden, Universitaire Bibliotheken, VLQ 75</item>
+                  <item>Leiden, Universitaire Bibliotheken, VLQ 92</item>
                   <item><ref target="#desc__london_bl_royal_13AXI.xml">London, BL, Royal MS 13 A XI</ref></item>
                   <item><ref target="#desc__london_bl_cotton_vitel_a_xii.xml">London, BL, Cotton MS Vitellius  A.xii</ref></item>
                   <item>Metz, Bibliothèque municipale, MS 271</item>
+                  <item>Montpellier, École de Médecine, H 334</item>
+                  <item>Munich, Bayerische Staatsbibliothek, Clm 210</item>
+                  <item><ref target="#desc__munich_bsb_clm4432.xml">Munich, Bayerische Staatsbibliothek, Clm 4423</ref></item>
+                  <item>Munich, Bayerische Staatsbibliothek, Clm 14836</item>
+                  <item>Oxford, Bodl. Canon. Misc. 353</item>
+                  <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+                  <item>Paris, Bibliothèque nationale de France, MS lat. 7299A</item>                  
+                  <item><ref target="#desc__paris_bnf_lat_7400A.xml">Paris, Bibliothèque nationale de France, MS lat. 7400A</ref></item>
+                  <item><ref target="#desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref></item>
                   <item><ref target="#desc__paris_bnf_lat_13955.xml">Paris, Bibliothèque nationale de France, MS lat. 13955</ref></item>
-                  <item><ref target="#desc__bav_vat_lat_4162.xml">Vatican, Biblioteca Apostolica Vaticana, Vat.lat.4162</ref></item>
+                  <item>Paris, Bibliothèque nationale de France, MS nouv. acq. lat. 176</item>
+                  <item><ref target="#desc__paris_bnf_nal_456.xml">Paris, Bibliothèque nationale de France, MS nouv. acq. lat. 456</ref></item>
+                  <item>Paris, Bibliothèque nationale de France, MS nouv. acq. lat. 1614</item>
+                  <item><ref target="#desc__schaffhausen_sb_min_61.xml">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref></item>
+                  <item><ref target="#desc__st_gall_sb_250.xml">St. Gall, Stiftsbibliothek, Cod. 250</ref></item>
+                  <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
+                  <item><ref target="#desc__valenciennes_bm_343">Valenciennes, Bibliothèque municipale, Ms. 343</ref></item>
+                  <item><ref target="#desc__bav_reg_lat_309.xml">Vatican, Biblioteca Apostolica Vaticana, Reg.lat. 309</ref></item>
+                  <item><ref target="#desc__bav_vat_lat_4162.xml">Vatican, Biblioteca Apostolica Vaticana, Vat.lat. 4162</ref></item>
+                  <item>Vienna, Österreichische Nationalbibliothek, Cod. 387</item>
                   <item><ref target="#desc__vienna_onb_2269.xml">Vienna, Österreichische Nationalbibliothek, Cod. 2269</ref></item>
+                  <item><ref target="#desc__vienna_onb_12600.xml">Vienna, Österreichische Nationalbibliothek, Cod. 12600</ref></item>
                </list>
             </head>
             <p/>
-         </div>
-         <div>
-            <head>
-               <title>Later Manuscripts</title>
-            </head>
-            <list>
-               <item>
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Munich</settlement>
-                        <repository>Bayerische Staatsbibliothek</repository>
-                        <idno>Clm 4432</idno>
-                     </msIdentifier>
-                     <head>
-                        <title/>
-                        <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
-                        <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
-                                </note>
-                     </head>
-                     <msContents>
-                        <summary/>
-                        <msItem>
-                           <locus>165r-166r</locus>
-                           <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                        </msItem>
-                        <msItem>
-                           <locus>166r-168r</locus>
-                           <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r</locus>
-                           <title ref="#ad_boreae">De sideribus</title>
-                        </msItem>
-                        <msItem>
-                           <locus>168r-v</locus>
-                           <title ref="#anonymus_sangallensis">Anonymus Sangallensis</title>
-                        </msItem>
-                     </msContents>
-                     <additional>
-                        <listBibl>
-                           <bibl/>
-                        </listBibl>
-                     </additional>
-                  </msDesc>
-               </item>
-            </list>
-         </div>
+         </div>         
       </body>
    </text>
 </TEI>

@@ -79,7 +79,7 @@
     </facsimile>
     <text>
         <body>
-            <msDesc xml:id="paris_bnf_13955" xml:lang="eng">
+            <msDesc xml:id="valenciennes_bm_343" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Valenciennes</settlement>
                     <repository>Bibliothèque municipale</repository>
@@ -92,6 +92,8 @@
                     <title>Astronomical collection</title>
                     <origPlace ref="#ne_france">North-east France</origPlace>, <origPlace ref="#st_amand">Saint Amand</origPlace>(?)
                     <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__anonymus_sangallensis.xml">Anonymus Sangallensis</rs></note>
                     <note type="facs">Digital facsimile at <ref type="mss" target="http://gallica.bnf.fr/ark:/12148/btv1b8452589j">gallica.bnf.fr.</ref>
                     </note>
                 </head>                
@@ -162,7 +164,7 @@
                         <idno>Part I</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratae">
                             <locus from="1r">1r</locus>
                             <title ref="#excerptum_de_astrologia">Excerptum de astrologia<note> (acephalus)</note>
                             </title>
@@ -178,7 +180,7 @@
                             <explicit>Hinc sequitur pistrix simul heridanique fluenta.</explicit>
                             <note>Correction in darker ink. Verses separated by ;</note>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="1v" to="3v">1v-3v</locus>
                             <title ref="#anonymus_sangallensis">Anonymous Sangallensis</title>
                             <incipit>Herodius dicit elicem licaonis fuisse filiam quae a ioue uiolata</incipit>

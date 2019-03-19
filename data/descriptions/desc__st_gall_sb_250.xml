@@ -359,7 +359,7 @@ de pascha. Hodie populus Israel et vere homo
 Computusregeln, 1. Concordia solis et lunae. Novem horis in luna, 2. Item eadem ratione. Lunam lucere dodrantis, 3. Concordia maris et lunae. Unius semper horae dodrante
 </note>
 </msItem>
-<msItem>
+<msItem class="aratea">
 <locus from="447" to="522">p. 447-522</locus>
 <title ref="#ral">Revised Aratus Latinus</title>
    <rubric>Incipit astrologia</rubric>
@@ -420,7 +420,7 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
    <finalRubric>Explicit liber astrologorum</finalRubric>
 </msItem>
 </msItem>
-   <msItem>
+   <msItem class="aratea">
       <locus from="523" to="526">p. 523-526</locus>
       <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
       <incipit>Duo sunt extremi vertices mundi</incipit>

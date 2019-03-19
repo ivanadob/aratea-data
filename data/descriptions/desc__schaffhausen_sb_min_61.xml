@@ -60,7 +60,7 @@
                     <note type="title">Short text on the planets:</note>
                     <quote>Campester scribit cometas quinque esse id est ippon solis, lampadian lunae, ziphian martis, disceum martis, typhona saturni; sed quattuor stellas suprascriptas uisas esse aliquando cum regna mutuantur; typhonam numquam uisam esse, aut si quando uisa fuerit cuncta interitura.</quote>
                 </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="15r" to="19v">15r-19v</locus>
                     <title ref="#de_signis_coeli">De signis coeli<note> (missing cap. XLI)</note></title>
                     <incipit>Helix arcturus maior habet autem in capite</incipit>
@@ -72,12 +72,7 @@
                         <quote>Serpens quae hydrum nominant habet stellas in capite III claras, in prima flexura VI, in secunda III, in quarta II, in quinta usque ad caudam VIII claras; fiunt XXVI <note>(= De ordine, cap. XL)</note>. Super cuius caudam coruum sedere dicunt ad occasum spectantem qui habet in oculo stellam I, in pennis II, in cauda II, in pedibus singulas. fiunt VII <note>(= De ordine, cap. XLI)</note>; et in medio crater siue urna posita ultra prima flexuram serpentis, habet in labio stellas II obscuras, in uentre III, in fundo II; fiunt VII <note>(= De ordine, cap. XLII)</note>.</quote>
                     </msItem>
                 </msItem>
-                <msItem>
-                    <locus from="15r" to="19v">15r-19v</locus>
-                    <note type="title">Collection from excerpts on astronomy. According to Dell'Era included are the <title ref="#de_signis_coeli">De signis coeli</title>  as well as cap. XL-XLII of the <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>.</note>
-                    <title>Excerptum de astronomia</title>
-                </msItem>
-                <msItem>
+                <msItem class="aratea">
                     <locus from="19v">19v</locus>
                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                     <incipit>Duo sunt extremi uertices mundi quos appellant polos</incipit>

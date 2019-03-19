@@ -131,6 +131,8 @@
                     <origPlace ref="#reims">North-east France, Reims (?)</origPlace>
                     <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi>
                     </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="facs">Digital facsimile as part of the project <ref target="http://bsbsbb.bsb.lrz.de/~db/0000/sbb00000113/images/index.html">Kaiser-Heinrich-Bibliothek</ref>
                     </note>
                 </head>
@@ -286,7 +288,7 @@
                                 <explicit>sed inter omnia haec sidera martis maxime inobservabilis est cursus.</explicit>
                             </msItem>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="19v" to="21r">19v-21r</locus>
                             <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
                             <note>Excerpted as part of the <title ref="#libri_computi">Libri computi</title>, Lib. V, 1.</note>
@@ -294,7 +296,7 @@
                             <incipit>Duo sunt extremi uertices mundi quos appelant polos</incipit>
                             <explicit>ad ipsum usque decurrit accipiens.</explicit>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="21r" to="24v">21r-24v</locus>
                             <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum in signis</title>
                             <note>Excerpted as part of the <title ref="#libri_computi">Libri computi</title>, Lib. V, 2.</note>
