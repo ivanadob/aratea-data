@@ -95,10 +95,18 @@
                <item>New York, Pierpont Morgan Library, Ms 389</item>
                <item><ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref></item>
                <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
-               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
+               <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>               
+               
+            </list>
+            <list>
+               <head>Post 12th-century</head>
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 76</item>
                <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 77</item>
                <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 1610 - Excerpts (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 1653 (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3110 (s. XIV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3293 (s. XV)</item>
                <item><ref target="http://manuscripta.at/?ID=28862">Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521</ref> (Italy, s. XV)</item>
             </list>
          </div>

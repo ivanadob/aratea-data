@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+                    Aratea Digital
+                </title>
+                <title type="sub">Vatican, Biblioteca Apostolica Vaticana, Vat.lat.1783</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-03-21"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="bav_vat_lat_1783" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Vatican</settlement>
+                    <repository>Biblioteca apostolica vaticana</repository>
+                    <idno>Vat. lat. 1783</idno>                    
+                </msIdentifier>
+                <head>
+                    <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.1783/0278">DigiVatLib</ref></note>
+                </head>
+                <msContents>
+                    <msItem class="aratea">
+                        <locus from="136v" to="139r">136rv, 138r-139r</locus>
+                        <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                        <incipit>duo sunt extremi uertices mundi</incipit>
+                        <explicit>decurrit accipiens.</explicit>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <listBibl>
+                        <bibl>Pellegrin, Elisabeth. Les manuscrits classiques latins de la Bibliothèque Vaticane. Vol. 3, 1: Fonds Vatican latin, 224–2900. Paris: CNRS, 1991, pp. 396-398.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
