@@ -38,6 +38,9 @@
                         <ptr target="https://en.wikipedia.org/wiki/Ad%C3%A9mar_de_Chabannes"/>
                     </bibl>
                     </person>
+                    <person xml:id="adso">
+                        <persName xml:id="gnd_118647091" ref="http://d-nb.info/gnd/118647091">Adso Dervensis</persName>
+                    </person>
                     <person xml:id="aelfric">
                         <persName xml:id="gnd_118500813" ref="http://d-nb.info/gnd/118500813">Aelfric</persName>
                     </person>
@@ -126,6 +129,7 @@
                     <person xml:id="fulbert_of_chartres">
                         <persName xml:id="gnd_118703528" ref="http://d-nb.info/gnd/118703528">Fulbertus &lt;Carnotensis&gt;</persName>
                         <persName>Fulbert of Charters</persName>
+                        <persName>Fulbertus Carnotensis</persName>
                     </person>
                     <person xml:id="fulgentius">
                         <persName xml:id="gnd_118703544" ref="http://d-nb.info/gnd/118703544">Fulgentius &lt;Fabius Planciades&gt;</persName>
@@ -273,6 +277,9 @@
                     <person xml:id="martianus_capella">
                         <persName xml:id="gnd_118578278" ref="http://d-nb.info/gnd/118578278">Martianus Capella</persName>
                     </person>
+                    <person xml:id="martinus_bracarensis">
+                        <persName xml:id="gnd_186609531" ref="http://d-nb.info/gnd/186609531">Martinus Bracarensis</persName>
+                    </person>
                     <person xml:id="matthaeus_kuppitisch">
                         <persName xml:id="gnd_1115810022" ref="http://d-nb.info/gnd/1115810022">Matthäus &lt;Kuppitsch&gt;</persName>
                     </person>
@@ -311,6 +318,9 @@
                     </person>
                     <person xml:id="ptolemeus">
                         <persName xml:id="gnd_118641786" ref="http://d-nb.info/gnd/118641786">Ptolemeus</persName>
+                    </person>
+                    <person xml:id="publius_syrus">
+                        <persName xml:id="gnd_118793608" ref="http://d-nb.info/gnd/118793608">Publius Syrus</persName>
                     </person>
                     <person xml:id="remius_favinus">
                         <persName xml:id="gnd_102405026" ref="http://d-nb.info/gnd/102405026">Remius &lt;Favinus&gt;</persName>

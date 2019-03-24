@@ -926,6 +926,11 @@
         <bibl>Dell’Era, Antonio. "Una miscellanea astronomica medievale: gli "Scholia Strozziana" a germanico," in <title>Atti Della Accademia Nazionale dei Lincei: Memorie, Classe di Scienze morali, storiche e filologiche</title>. Ser. VIII, vol. XXIII. Romе, 1979, pp. 147-267.
         </bibl>
     </work>
+    <work xml:id="sententiae" ref="http://d-nb.info/gnd/4440593-5">
+        <author ref="#publius_syrus">Publius Syrus</author>
+        <title>Sententiae</title>
+        <bibl><ref target="https://latin.packhum.org/loc/622/1/0#0">PHI Latin texts</ref></bibl>
+    </work>
     <work xml:id="somnium_scipionis" ref="http://d-nb.info/gnd/4254901-2">
         <title>Somnium Scipionis</title>
         <author ref="#cicero">Cicero</author>

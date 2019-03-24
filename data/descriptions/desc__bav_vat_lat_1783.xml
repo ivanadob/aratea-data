@@ -43,23 +43,204 @@
                     <idno>Vat. lat. 1783</idno>                    
                 </msIdentifier>
                 <head>
-                    <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
+                    <title>Collection of the works of Fulbert of Chartre, Priscianus et al.</title>
+                    <origDate notBefore="1001" notAfter="1100">s. XI</origDate>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.1783/0278">DigiVatLib</ref></note>
-                </head>
-                <msContents>
-                    <msItem class="aratea">
-                        <locus from="136v" to="139r">136rv, 138r-139r</locus>
-                        <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                        <incipit>duo sunt extremi uertices mundi</incipit>
-                        <explicit>decurrit accipiens.</explicit>
-                    </msItem>
-                </msContents>
+                </head>  
                 <additional>
                     <listBibl>
                         <bibl>Pellegrin, Elisabeth. Les manuscrits classiques latins de la Bibliothèque Vaticane. Vol. 3, 1: Fonds Vatican latin, 224–2900. Paris: CNRS, 1991, pp. 396-398.</bibl>
                     </listBibl>
                 </additional>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part I (ff. 1-96)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus>1r</locus>
+                            <note>blank.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="1v" to="96v">1v-96v</locus>
+                            <author>Sidonius Apollinaris</author>
+                            <title>Epistulae</title>
+                            <incipit>Sidonius filimatio suo salutem</incipit>
+                            <explicit>per hoc studio tam ipse quam patria.</explicit>
+                            <note>Missing end of the sentence.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <collation>Quaternios with quire marks I to XII Q on the bottom margine of the last verso. The current quiremarks a-x from the beginnign of the manuscript were added in the 17th c.</collation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msPart>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part II (ff. 97-166)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="97r" to="126r">97r-126r</locus>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <title>Epistulae</title>
+                            <incipit><supplied>im</supplied>precatorie sicut filio refocillatus Israel<note> (LXVIII acephalos)</note></incipit>
+                            <bibl>F. Behrends, The Letters and Poems of Fulbert of Chartres. Oxford, OUP, 1976 (this MS with Siglum V).</bibl>
+                        </msItem>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="126v" to="128v">126v-128v</locus>
+                                <locus from="137r" to="137v">137r-v</locus>
+                            </locusGrp>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <title>Tractatus contra Iudaeos</title>
+                            <rubric>Fulberti episcopi contra iudeos</rubric>
+                            <incipit>Alii <note>(for Filii)</note> inquit iudaeorum dicunt non est mirum</incipit>
+                            <note>F. 137 was originally between ff. 127 and 128.</note>
+                            <bibl><abbr>PL</abbr> 141, 305-318.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="129r" to="136r">129r-136r</locus>
+                            <author ref="#priscianus">Priscianus</author>
+                            <title>Praeexercitamina</title>
+                            <rubric>Incipiunt preexercitamina prisciani de retherica. de fabula</rubric>
+                            <incipit>Fabula est oratio ficta</incipit>
+                            <finalRubric>Prisciani sophistae ars praeexercitamina secundum hermogenen vel libanium explicit</finalRubric>
+                            <note>Starts on a new quire and written by a different hand. Separate codicological unit (?).</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="136r" to="136v">136r-v</locus>
+                            <note type="title">Philosophical question-answer text.</note>
+                            <incipit>Quot sunt uires animae? III. Vitalis sensibilis rationalis</incipit>
+                            <explicit>Similiter uerbum ea quae sentit animus indicans, aliud est quam sensus animi.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="136v">136v</locus>
+                            <title ref="#dies_egyptiaci">Dies egyptiaci</title>
+                            <rubric>Dies aegiptiaci ad sanguinem minuendum ut dicunt noxii</rubric>
+                            <incipit>Iani primo et a fine septimo</incipit>
+                            <explicit>decembris XII a fine XVII.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="136v" to="139r">136rv, 138r-139r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uertices mundi</incipit>
+                            <explicit>usque decurrit accipiens.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="139r" to="139v">139r-v</locus>
+                            <author ref="#priscianus">Priscianus</author>
+                            <title>De figuris numerorum (Praefatio)</title>
+                            <rubric>P<supplied>riscianus</supplied> G<supplied>rammaticus</supplied> Symacho</rubric>
+                            <incipit>Omni te symmache nobilitatis splendore celebratum</incipit>
+                            <explicit>quarum decus et munimen industria uestri nititur culminis.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="139v" to="147v">139v-147v</locus>
+                            <author ref="#publius_syrus">Publius Syrus</author>
+                            <title ref="#sententiae">Sententiae</title>
+                            <rubric>Annii senece prouerbia incipiunt</rubric>
+                            <note>in alphabetical order</note>
+                            <incipit>Alienum est omne quicquid optando euenit</incipit>
+                            <explicit>Zelari autem hominibus uitiosum est.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="147v">147v-152r</locus>
+                            <author ref="#martinus_bracarensis">Martinus Bracarensis (Ps.- Seneca)</author>
+                            <title>Formula vitae honestae<note> (without prologue)</note></title>
+                            <rubric>Formula uitae honestae</rubric>
+                            <incipit>Quattuor uirtutum species multroum sepientium</incipit>
+                            <explicit>audeficientempnat <note>(for: aut deficientem contempnat)</note> ignauiam.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="152v">152v</locus>
+                                <locus from="154r">154r</locus>
+                                <locus from="157r">157r</locus>
+                                <locus from="159r">159r</locus>
+                            </locusGrp>
+                            <note>Diagrams: <quote>Omnis doctrina est -&gt; rerum-&gt; quibus fruendum est trinitas quae est deus, quibus utendum mundus, quae fruuntur et utuntur nos</quote>, <quote>regina vitiorum</quote> etc.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="153r" to="155v">153r-155v</locus>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <title>Sermones ad populum<note> (Sermones II, I, III, V - abridged)</note></title>
+                            <incipit>Fratres credo quod omnes qui praesenti basilica</incipit>
+                            <explicit>ubi christus uirginem uirgini discipulo iohanni<note> (last few words erased)</note>.</explicit>
+                            <note>Written by a different hand.</note>
+                            <bibl><abbr>PL</abbr> 141, 317B-325A.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="156r">156r</locus>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <note type="title">Carmen</note>
+                            <incipit>Sapiens cum genitore suo salomon</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus from="156r">156r</locus>
+                            <note type="title">Excerpt from Cassian's <title>Institutiones</title></note>
+                            <incipit>Cassianus ait: De timore domini nascitur conpunctio</incipit>
+                            <explicit>apostolicae caritatis perfectio possidetur.</explicit>
+                            <bibl><abbr>PL</abbr>49, 202A-B.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="156r">156r</locus>
+                            <note type="title">Prayers</note>
+                            <quote>Dignare sanctissima Dei mater obtineremus <note>(for: obtinere mihi)</note> misero seruo tuo, ut non incidam in crimen ebrietatis immunditiae concupiscentem uel vanae gloriae. suffragamini quaeso sancti dei omnes.</quote>                            
+                        </msItem>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="161r" to="162r">161r-162r</locus>
+                                <locus from="156r" to="156v">156r-v</locus>
+                            </locusGrp>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <title>Sermones ad populum<note> (Sermo VII - excerpt)</note></title>
+                            <incipit>Quia deus unus est in trinitate. Moyses in principio fecit deus caelum ... <note> (156r) </note>Christus ait gaudium est angelis</incipit>
+                            <explicit><note> (162r) </note>et dolores nostros ipse portauit; <note>(156v) </note>indulgentiam mox habebit.</explicit>
+                            <bibl><abbr>PL</abbr> 141, 331C-334A.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="157v" to="158v"></locus>
+                                <locus from="159v" to="160v"></locus>
+                            </locusGrp>
+                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <note type="title">Carmina (149-151, 135, 137-139, 132, 140-141 with headings: De pace, Eiusdem de virtutibus etc.</note>
+                            <incipit>Sanctum simpliciter patrem cole pauperum caterua</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus>160v-161r</locus>
+                            <note type="title">Oratio</note>
+                            <incipit>Da mihi peccatori clementisse mater</incipit>
+                        </msItem>                        
+                        <msItem>
+                            <locus>162v-166r</locus>
+                            <author ref="#adso">Adso Dervensis</author>
+                            <title>Libellus de antichristo<note> (abridged)</note></title>
+                            <incipit>Descriptio cuiusdam sapientis <gap/> ad reginam gyrbergam hainrici nobilissimi saxonum regis filiam de antichristo <gap/>In primo proferendum est</incipit>
+                            <explicit>qua ante saeculum iudicandum esset predixit uel prefixit.</explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <collation>Predominantly quaternios originally without quire marks. (129-136), f. 137 singleton (belongs after f. 127), (138-145, 146-153, 154-161?) The current quiremarks a-x from the beginnign of the manuscript were added in the 17th c.</collation>
+                                
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="25">25 long lines</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>The prayers on f.<locus from="156r">156r</locus> are present in <ref type="altMs">Paris, BNF, MS lat. 14167</ref>, ff. 42r-v - there together with three others and followed by the name <quote>Hildg.</quote> Clerval suggested that the prayers were composed by Hildegaire / Hildegarius (d. ca. 1032-1040) - student of Fulbert of Chartres (lit.: Clerval, Les écoles de Chartres au moyen-âge du Ve au XVIe siècle, 1895, p. 104, n. 1). The Paris manuscript is also a collection of Fulbert's works written in s. XI<hi rend="sup">mid</hi> (M.-Th. Vernet, <ref target="https://doi.org/10.3406/rht.1958.948">"Notes de Dom André Wilmart sur quelques manuscrits latins anciens de la Bibliothek nationale de Paris"</ref> in Bulletin d'information de l'Institut de recherche et d'histoire des textes, 6, 1957, 7-40, esp. 20). There is probably no direct connection between the two manuscripts. Still, the content of Vat. lat. 1783 and the presence of (Hildegarius') prayers suggests the manuscript was copied by someone with connection to the school of Chartres and high appreciation of Fulbert's works.</origin>
+                        <provenance>A note from the 15th c. (Bastarda) on f. 1r <quote>in fulda hospes johannes von sassen</quote> suggests the manuscript was in <rs type="place" ref="#fulda">Fulda</rs> at the time.</provenance>
+                    </history>
+                </msPart>
             </msDesc>
         </body>
     </text>

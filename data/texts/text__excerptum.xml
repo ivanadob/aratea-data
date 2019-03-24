@@ -96,10 +96,10 @@
                   <item><ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref></item>
                   <item><ref target="#desc__valenciennes_bm_343">Valenciennes, Bibliothèque municipale, Ms. 343</ref></item>
                   <item><ref target="#desc__bav_reg_lat_309.xml">Vatican, Biblioteca Apostolica Vaticana, Reg.lat. 309</ref></item>
-                  <item>Vatican, Biblioteca Apostolica Vaticana, Vat.lat. 1783</item>
+                  <item><ref target="#desc__bav_vat_lat_1783.xml">Vatican, Biblioteca Apostolica Vaticana, Vat.lat. 1783</ref></item>
                   <item><ref target="#desc__bav_vat_lat_4162.xml">Vatican, Biblioteca Apostolica Vaticana, Vat.lat. 4162</ref></item>
                   <item>Vatican, Biblioteca apostolica vaticana, Ottob. lat. 1939 (s. XI with Abbonian material)</item>
-                  <item>Vatican, Biblioteca apostolica vaticana, Ottob. lat. 1969 (s. XII)</item>
+                  <item><ref target="#desc__bav_ottob_lat_1968.xml">Vatican, Biblioteca apostolica vaticana, Ottob. lat. 1968</ref> (s. XII)</item>
                   <item>Vienna, Österreichische Nationalbibliothek, Cod. 387</item>
                   <item><ref target="#desc__vienna_onb_2269.xml">Vienna, Österreichische Nationalbibliothek, Cod. 2269</ref></item>
                   <item><ref target="#desc__vienna_onb_12600.xml">Vienna, Österreichische Nationalbibliothek, Cod. 12600</ref></item>
