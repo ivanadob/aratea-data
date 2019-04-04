@@ -50,10 +50,19 @@
             <pb n="188v"/>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt. quas ideo strictim ac breuiter subter notare curauimus, non quo eorum ineptissimis opinionibus assensum prebeamus sed ut lectoris animus his cognitis melius carmina poetarum intellegat, quae plerumque his sunt conpaginata mendaciis. idcirco <app>
                <lem wit="#L">igitur</lem><rdg wit="#R"/>
             </app> et figuris ea depingere studuimus ut stellarum ordo uel numerus quasi quibusdam membris infixus euidentius adiscente cernatur.</p>
-            <p part="N">Nam arietem <app>
+            <p part="N">
+               <app><lem>Nam arietem <app>
                <lem wit="#L">martio</lem>
                <rdg wit="#R">martie</rdg>
-            </app> mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornua fingunt <note anchored="true">(Source: Bede)</note>. aiunt autem hesiodus et <app>
+            </app> mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornua fingunt</lem> 
+               <note type="fontium">
+                  <bibl>
+                     <author>Bede</author>
+                     <title>DNR</title>
+                     <biblScope>cap. 17</biblScope>
+                  </bibl>
+               </note>
+            </app>. aiunt autem hesiodus et <app>
                <lem wit="#R">pherecides</lem>
                <rdg wit="#L">ferecides</rdg>
             </app> hunc administrandum <app>
@@ -95,10 +104,18 @@
                <lem wit="#L">uentre</lem>
                <rdg wit="#R">uentrae</rdg>
             </app> III, in lumbo I, in summo pede I.</p>
-            <p part="N">Taurum aprili propter praefatum iouem quod in bouem sit <app>
+            <p part="N"><app><lem>Taurum aprili propter praefatum iouem quod in bouem sit <app>
                <lem wit="#L">fabulose</lem>
                <rdg wit="#R">fabulosae</rdg>
-            </app> conuersus. Alii dicunt hunc propterea inter astra positum quia europam adduxerit <app>
+            </app> conuersus</lem>
+               <note type="fontium">
+                  <bibl>
+                     <author>Bede</author>
+                     <title>DNR</title>
+                     <biblScope>cap. 17</biblScope>
+                  </bibl>
+               </note>
+            </app>. Alii dicunt hunc propterea inter astra positum quia europam adduxerit <app>
                <lem wit="#L">a</lem>
                <rdg wit="#R">ad</rdg>
             </app> 
