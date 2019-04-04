@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 <!--http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd-->" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Bern, Burgerbibliothek, Cod. 45</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-04-04"/>
+        </revisionDesc>		
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.e-codices.unifr.ch/en/bbb/0045//59r" n="59r"/>
+        <graphic url="https://www.e-codices.unifr.ch/en/bbb/0045//59v" n="59v"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="bern_45" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Bern</settlement>
+                    <repository>Burgerbibliothek</repository>
+                    <idno>Cod. 45</idno>
+                </msIdentifier>
+                <head>
+                    <title>Lucanus: De bello civili; Dracontius: Orestes; Hyginus: De astronomia; Figurae Graecorum</title>
+                    <origPlace ref="#fleury">Fleury</origPlace>
+                    <origDate notBefore="0834" notAfter="0900">s. IX<hi rend="sup">2/3</hi>(Bischoff 1998, Munk Olsen 1982–89); s. IX<hi rend="sup">2</hi> (Homburger 1962)</origDate>
+                    <note type="facs">Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0045">e-codices - Virtual Manuscript Library of Switzerland</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+                </head>
+                <msContent>
+                    <msItem>
+                        <locus from="1r">1ra-b</locus>
+                        <author ref="#suetonius">Suetonius</author>
+                        <title>Vita Lucani</title>
+                        <title>Epitaphium Lucani</title>
+                        <title>Argumentum in lib. I De bello civili</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="1v" to="52v">1vb-52va</locus>
+                        <author ref="#lucanus">Lucanus</author>
+                        <title ref="#de_bello_civili">De bello civili<note> (Lib. I-X)</note></title>
+                        <msItem>
+                            <locus from="1r" to="12v">1rb–12va</locus>
+                            <title>Commenta Bernensia in Lucanum</title>
+                        </msItem>
+                    </msItem>                    
+                    <msItem>
+                        <locus from="52v" to="59r">52vb-59ra</locus>
+                        <author ref="#dracontius">Dracontius</author>
+                        <title ref="orestis_tragoedia">Orestis tragoedia</title>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus from="59r" to="59v">59r-v</locus>
+                        <author ref="#hyginus">Hyginus</author>
+                        <title ref="#de_astronomia">De astronomia<note> (fragment: Lib. I, 1-6)</note></title>
+                        <rubric>Incipit liber hygini periti magistri de satronomica</rubric>
+                        <incipit>Hyginus M. Fabio plurima salutem. Etsi te studio grammaricae artis</incipit>
+                        <explicit>ab hac circuli significatione IIII de reliquis partibus.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="60r">60r</locus>
+                        <title>Figurae Graecorum</title>
+                        <bibl>Hermann. Scholia Bernensia ad Vergili Bucolica atque Georgica. Leipzig 1867 (Reprint Hildesheim 1967).</bibl>
+                    </msItem>
+                </msContent>
+                <physDesc>
+                    <objectDesc form="fascicle">
+                        <supportDesc material="perg">
+                            <support>Parchment</support>
+                            <collation>I<hi rend="sup">5</hi> (ff.1-9, wants 10), II-VI<hi rend="sup">4</hi> (ff.10-49), VII<hi rend="sup">5+1</hi> (ff.50-60, f. 60 added on a stub), with quiremarks partially preserved (II on f. 17v and Q V on f. 33v).</collation>
+                        </supportDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <scriptNote script="carolmin">
+                            <p>Carolingian minuscule from Fleury (s. Homburgeg and Mittenhuber).</p>
+                        </scriptNote>
+                    </scriptDesc>
+                    <bindingDesc>
+                        <binding notBefore="1695" notAfter="1705">
+                            <p>Modern binding.</p>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary/>
+                    <origin></origin>
+                    <provenance>The manuscripts was probably in Fleury - a manuscript with the title "Lucani bellum civile" is listed in the catalogue from 1552.</provenance>
+                    <provenance>Belonged to Pierre Daniel (1530-1603), Jacques Bongars and Jakob Graviseth (see exlibris from all three on f. 1r); the latter donated it to the Burgerbibliothek in Bern.</provenance>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl><ref target="https://www.e-codices.unifr.ch/en/description/bbb/0045/Mittenhuber">Homburger, Otto: Die illustrierten Handschriften der Burgerbibliothek Bern. Bd. 1. Bern 1962. S. 99–100. Redigiert und ergänzt von Florian Mittenhuber, November 2018</ref></bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

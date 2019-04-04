@@ -510,6 +510,14 @@
          <abbr>Clavis</abbr> 1343.</bibl>
         <bibl>Entry in <ref target="http://www.mirabileweb.it/title/de-natura-rerum-beda-venerabilis-n-672-673-ca-m-26-title/2313">Mirabile</ref>.</bibl>
     </work>
+    <work xml:id="de_bello_civili" ref="http://d-nb.info/gnd/4119926-1">
+        <title>De bello civili</title>
+        <author ref="#lucanus">Lucanus</author>
+    </work>
+    <work xml:id="orestis_tragoedia" ref="http://d-nb.info/gnd/4381373-2">
+        <title>Orestis tragoedia</title>
+        <author ref="#dracontius">Dracontius</author>
+    </work>
     <work xml:id="de_flexibus_digitorum">
         <title>De flexibus digitorum</title>
         <incipit>Romana computatio ita digitorum flexibus seruatur: Per primum digitorum trium in leua</incipit>

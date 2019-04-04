@@ -119,6 +119,9 @@
                     <person xml:id="dionysius_exiguus">
                         <persName xml:id="gnd_118679724" ref="http://d-nb.info/gnd/118679724">Dionysius Exiguus</persName>
                     </person>
+                    <person xml:id="dracontius">
+                        <persName xml:id="gnd_11867241X" ref="http://d-nb.info/gnd/11867241X">Dracontius, Blossius Aemilius</persName>
+                    </person>
                     <person xml:id="dungal">
                         <persName xml:id="gnd_100940145" ref=" http://d-nb.info/gnd/100940145">Dungalus</persName>
                     </person>
@@ -260,6 +263,9 @@
                     <person xml:id="louis_pious">
                         <persName xml:id="gnd_118640658" ref="http://d-nb.info/gnd/118640658">Emperor Louis the Pious</persName>
                     </person>
+                    <person xml:id="lucanus">
+                        <persName xml:id="gnd_118574701" ref="http://d-nb.info/gnd/118574701">Lucanus, Marcus Annaeus</persName>
+                    </person>
                     <person xml:id="lucretius">
                         <persName xml:id="gnd_118575236" ref="http://d-nb.info/gnd/118575236">Titus &lt;Lucretius Carus&gt;</persName>
                     </person>
@@ -345,6 +351,9 @@
                     </person>
                     <person xml:id="sisebut">
                         <persName xml:id="gnd_00960995" ref="http://d-nb.info/gnd/100960995">Sisebut</persName>
+                    </person>
+                    <person xml:id="suetonius">
+                        <persName xml:id="gnd_118619918" ref="http://d-nb.info/gnd/118619918">Suetonius Tranquillus, Gaius</persName>
                     </person>
                     <person xml:id="susius">
                         <persName xml:id="gnd_135617855">Iacobus &lt;Susius&gt;</persName>
