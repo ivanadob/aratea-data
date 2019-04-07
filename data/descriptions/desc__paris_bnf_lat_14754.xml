@@ -40,6 +40,9 @@
 				<change when="2019-04-07"/>
 			</revisionDesc>
      </teiHeader>
+   <facsimile>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105458488/f520.item" n="255v"/>
+   </facsimile>
    <text>
       <body>
          <msDesc xml:lang="eng" xml:id="paris_lat_14754">
@@ -80,7 +83,8 @@
                </scriptDesc>
             </physDesc>
             <history>
-               <origin>Livesey and Rouse suggested the manuscript was copied in Chartres in <origDate notBefore="1151" notAfter="1175">s. XII<hi rend="sup">3/4</hi>.</origDate></origin>
+               <origin>Livesey and Rouse suggested the manuscript was copied in Chartres in <origDate notBefore="1151" notAfter="1175">s. XII<hi rend="sup">3/4</hi>, based on decorative motifs used at Chartres at that time.</origDate></origin>
+               <provenance>The exlibris of <rs type="corporate" ref="#st_victor">Saint Victor</rs> (f. <locus from="255v">255v</locus>) in Paris is dated by Livesey and Rouse to the <date notBefore="1286" notAfter="1300">late thirteenth century</date>. The cursive features of the script and the 'a' protruding above x-height suggest even later date (s. XIV).</provenance>
                <provenance>The table of content by the hand of André Hausselet (prior in Saint-Victor 1471-1495) testifies that the codicoloogical units were joined together at the latest in <date notBefore="1401" notAfter="1500">s. XV</date>, when also a foliation encompasing the whole manuscript was added.</provenance>
                <provenance>On f. Av f.1r, 1v, 95r provenance marks of the Abbey <rs type="corporate" ref="#st_victor">Saint Victor</rs> in Paris by a 15th-century hand.</provenance>
                <provenance>Van de Vyver supposed that Hugh of Saint Victor (d. 1141) used this manuscript for composing his Didascalicon. This hypothesis was dismissed by Livesey and Rouse.</provenance>
