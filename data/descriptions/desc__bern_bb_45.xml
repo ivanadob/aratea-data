@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 <!--http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd-->" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -114,6 +114,10 @@
                     <listBibl>
                         <head>Selected bibliography:</head>
                         <bibl><ref target="https://www.e-codices.unifr.ch/en/description/bbb/0045/Mittenhuber">Homburger, Otto: Die illustrierten Handschriften der Burgerbibliothek Bern. Bd. 1. Bern 1962. S. 99–100. Redigiert und ergänzt von Florian Mittenhuber, November 2018</ref></bibl>
+                        <bibl>Mostert, Marco. The library of Fleury. A provisional List of Manuscripts. Hilversum, 1989, p. 50 (Nr. 26–27).</bibl>
+                        <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276, esp. 212-213.</bibl>
+                        <bibl>Bischoff, Bernhard. Katalog der festländischen Handschriften des neunten Jahrhunderts: (mit Ausnahme der wisigotischen). Vol. 1.  Aachen-Lambach. 3 vols. Harrassowitz, 1998.</bibl>
+                        <bibl>Munk Olsen, Birger. L’étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. I. Catalogue des manuscrits classiques latins copiés du IXe. au XIIe siècle: Apicius-Juvénal. Paris: CNRS, 1982, p. 526.</bibl>
                     </listBibl>
                 </additional>
             </msDesc>

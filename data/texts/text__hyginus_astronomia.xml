@@ -67,8 +67,10 @@
                <title>Manuscripts (incomplete)</title>
             </head>
             <list>
-               <item><ref target="desc__vienna_onb_51.xml">Vienna, Österreichische Nationalbibliothek, Cod. 51</ref></item>
-               <item><ref target="desc__bav_reg_lat_1260.xml">Vatican, BAV Reg. lat. 1260</ref> (44v-83v)</item>
+               <item><ref target="#desc__bern_bb_45.xml"></ref></item>
+               <item><ref target="#desc__vienna_onb_51.xml">Vienna, Österreichische Nationalbibliothek, Cod. 51</ref></item>
+               <item><ref target="#desc__bav_reg_lat_1260.xml">Vatican, BAV Reg. lat. 1260</ref> (44v-83v)</item>
+               <item>Paris, Bibliothèque nationale de France, MS lat. 8728 (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b90660262">digitised</ref>)</item>
                <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3109 (s. XV)</item>
                <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3110 (s. XIV)</item>
                <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 11460 (s. XV)</item>
