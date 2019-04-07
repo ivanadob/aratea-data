@@ -705,6 +705,16 @@
         <title>Liber Alchandrei</title>
         <bibl>Juste, David. Les Alchandreana Primitifs: Étude Sur Les plus Anciens Traités Astrologiques Latin d’origin Arabe (Xe Siècle). Leiden: Brill, 2007.</bibl>
     </work>
+    <work xml:id="liber_nimrod">
+        <author>Ps.-Nimrod</author>
+        <title>Liber Nimrod de astronomia</title>
+        <title>Liber Nemroth</title>
+        <bibl>Grebner, Gundula. ‘Der Liber Nemroth, die Fragen Friedrichs II. an Michael Scotus und die Redaktionen des Liber particularis’. In Kulturtransfer und Hofgesellschaft im Mittelalter: Wissenskultur am sizilianischen und kastilischen Hof im 13. Jahrhundert, edited by Johannes Fried and Gundula Grebner, 285–98. Oldenbourg, 2009.</bibl>
+        <bibl>Juste, David. ‘On the Date of the Liber Nemroth’. Journal of the Warburg and Courtauld Institutes 67 (2004): 255–57.</bibl>
+        <bibl>Livesey, J., and R. H. Rouse. ‘Nimrod the Astronomer’. Traditio 37 (1981): 203–66.</bibl>
+        <bibl>Obrist, Barbara. ‘Measuring the Location of the World’s Center in Nemroth Liber de Astronomia’. In La Misura, 89–111. Microloogus, XIX. Florence: Sismel, 2011.</bibl>
+        <bibl>Draelants, Isabelle. ‘Le Liber Nemroth de astronomia: état de la question et nouveaux indices’. Revue d’Histoire des Textes 13 (2018): 245–329.</bibl>
+    </work>
     <work xml:id="argumentum_aquens">
         <title>Argumentum ad lunam, cursu turbato anno domini infrascripto</title>
         <title>Arg. Aquens.</title>

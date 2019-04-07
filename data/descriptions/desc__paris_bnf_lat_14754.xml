@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">-->
      <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,7 +37,7 @@
          </sourceDesc>
       </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-06-10"/>
+				<change when="2019-04-07"/>
 			</revisionDesc>
      </teiHeader>
    <text>
@@ -48,47 +53,9 @@
                <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
                     </origDate>
                <origPlace ref="#n_france">N. France</origPlace> (<origPlace ref="#chartres">Chartres</origPlace>?)
-               <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b9072645h">gallica.bnf.fr</ref>.</note>
-            </head>
-            <msContents>
-               <msItem>
-                  <locus from="1r" to="92r">1r-92r</locus>
-                  <note>Commentary to Martianus Capella</note>
-               </msItem>
-               <msItem>
-                  <locus>92rb-94v</locus>
-                  <note>blank.</note>
-               </msItem>
-                     <msItem>
-                        <locus>95r-202v </locus>
-                        <title>De nuptiis Philologiae et Mercirii</title>
-                        <author ref="#martianus_capella">Martianus Capella</author>
-                        <note>with glosses especially the astronomy section</note> 
-                     </msItem>
-                     
-                     
-                     
-                     <msItem>
-                        <locus from="203r" to="229r">203r-229r</locus>
-                       <title> Nimrod Liber de astronomia</title>
-                     </msItem> 
-                     
-                     
-                     
-                     <msItem>
-                        <locus>229v-232v</locus>
-                        <title ref="#de_signis_coeli">De signis coelis</title>
-                        <!--(232v with quire mark XVII)-->
-                     </msItem> 
-               <msItem>
-                        <locus from="233r">233r-244</locus> 
-                  <title>Canones Ptolemaei</title>
-                  <msItem>
-                     <locus from="244v">244v-255r</locus>
-                     <note>Tables to Canones.</note>
-                  </msItem>
-               </msItem>
-            </msContents>
+               <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
+               <note type="facs">Digital facsimile at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105458488">gallica.bnf.fr</ref>.</note>
+            </head>            
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
@@ -113,19 +80,108 @@
                </scriptDesc>
             </physDesc>
             <history>
-               <origin/>
-               <provenance>1rv Provenance marks: St-Victor  (15th c.)</provenance>
+               <origin>Livesey and Rouse suggested the manuscript was copied in Chartres in <origDate notBefore="1151" notAfter="1175">s. XII<hi rend="sup">3/4</hi>.</origDate></origin>
+               <provenance>The table of content by the hand of André Hausselet (prior in Saint-Victor 1471-1495) testifies that the codicoloogical units were joined together at the latest in <date notBefore="1401" notAfter="1500">s. XV</date>, when also a foliation encompasing the whole manuscript was added.</provenance>
+               <provenance>On f. Av f.1r, 1v, 95r provenance marks of the Abbey <rs type="corporate" ref="#st_victor">Saint Victor</rs> in Paris by a 15th-century hand.</provenance>
+               <provenance>Van de Vyver supposed that Hugh of Saint Victor (d. 1141) used this manuscript for composing his Didascalicon. This hypothesis was dismissed by Livesey and Rouse.</provenance>
             </history>
             <additional>
                <listBibl>
                   <head>Selected bibliography:</head>
-                  <bibl>Entry in <ref target="https://ptolemaeus.badw.de/ms/139">Ptolemaeus arabus et latinus</ref> (with further literature).</bibl>
+                  <bibl>David Juste, ‘MS Paris, Bibliothèque nationale de France, lat. 14754’ (update: 17.03.2017), Ptolemaeus Arabus et Latinus. Manuscripts, URL = <ref target="https://ptolemaeus.badw.de/ms/139">http://ptolemaeus.badw.de/ms/139.</ref> (with further literature).</bibl>
                   <bibl>
-                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 449-453.</bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, Nr. 48, pp. 449-453.</bibl>
                   <bibl>Kunitzsch. "Eine bilingue arabisch-lateinische Lostafel." Revue d'Histoire des Textes 6 (1976): 267-304.</bibl>
                   <bibl>Dell'Era (1979) <note>used in his edition of "De signis coelis" - siglum Q.</note></bibl>
+                  <bibl>Livesey, J., and R. H. Rouse. ‘Nimrod the Astronomer’. Traditio 37 (1981): 203–66, esp. 251.</bibl>
+                  <bibl>Van de Vyver, A. ‘Les plus anciennes traductions latines médiévales (Xe-XIe siècles) de traités d’astronomie et d’astrologie’. Osiris 1 (1936): 658–91, esp. 685.</bibl>
                </listBibl>
             </additional>
+            <msPart>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>Codicological part I (ff. 1-94)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r" to="92r">1r-92r</locus>
+                     <note type="title">Commentary to Martianus Capella, De nuptiis</note>
+                     <incipit>Partes id est circunstantias quae constant in initio</incipit>
+                     <explicit>Secute nugis nate ignosce l</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus>92rb-94v</locus>
+                     <note>blank.</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>Codicological part II (85-232)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="95r" to="202v">95r-202v</locus>
+                     <title ref="#de_nuptiis">De nuptiis Philologiae et Mercirii</title>
+                     <author ref="#martianus_capella">Martianus Capella</author>
+                     <note>Ample marginal and interlinear glosses especially at the beginning and in the astronomical section (ff. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105458488/f374.item">182v</ref>-191v).</note> 
+                  </msItem>
+                  <msItem>
+                     <locus from="203r" to="229r">203r-229r</locus>
+                     <title ref="#liber_nimrod">Nimrod Liber</title>
+                     <incipit>De locis signorum. Qua uia circumdant circuitum stellarum</incipit>
+                     <decoNote>Diagrams in blue and red.</decoNote>
+                     <note>The 15th-century foliation jumps from f. 202 to f. 207, marking a lacuna of three folia at the beginning of Liber Nimrod.</note>
+                     <msItem>
+                        <locus from="226v" to="226v">226v</locus>
+                        <note type="title">A short chapter LXXX</note>
+                        <rubric>Eusebius cesariensis</rubric>
+                        <quote>Annus integer habet dies CCCLXV et horas III et si uis scire numerus mensium et unusquisque eorum quot dies habuerint et qui sunt regulares eorus sicut scriptum est in rota ita sunt.</quote>
+                        <decoNote>Rota diagram of the 12 months, their number of days and regulares.</decoNote>
+                     </msItem>
+                     <msItem>
+                        <locus from="226v" to="229r"></locus>
+                        <note type="title">Computistical arguments</note>
+                        <incipit>Si uis cognoscere per omnes annos circulum solarem uel quot sunt concurrentes eius</incipit>
+                        <explicit></explicit>
+                        <decoNote>Accompanying rota diagrams.</decoNote>
+                        <note>Livesey and Rouse (p. 230) noted that same computistical chapters and De signis coeli are found in <ref type="altMs">Venice, Biblioteca Marciana, lat. VIII.22</ref>, copied from an ancestor of <ref type="altMs">Padua, Biblioteca Antoniana, 27</ref> (in the latter MS some parts different or omitted).</note>
+                     </msItem>
+                  </msItem>
+                  <msItem class="aratea">
+                     <locus>229v-232v</locus>
+                     <title ref="#de_signis_coeli">De signis coelis</title>
+                     <incipit>Helix arctus maior habet autem in capite</incipit>
+                     <decoNote>Position of the stars marked with red dots. Images drawn first, text added around them in two columns.</decoNote>
+                  </msItem> 
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <altIdentifier type="partial">
+                     <idno>Codicological unit III (ff. 233-256)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="233r" to="244">233r-244r</locus> 
+                     <title ref="#preceptum">Preceptum canonis Ptolomei</title>
+                     <rubric>Incipiunt canones ptolemei</rubric>
+                     <incipit>Intellectus climatum possi sepissime requires</incipit>
+                     <msItem>
+                        <locus from="244v">244v</locus>
+                        <note>Astrological divination table.</note>
+                     </msItem>
+                     <msItem>
+                        <locus from="244v">244v-255r</locus>
+                        <note>Tables to the Canones.</note>
+                     </msItem>
+                  </msItem>
+               </msContents>
+            </msPart>
          </msDesc>
       </body>
    </text>

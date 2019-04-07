@@ -78,6 +78,9 @@
             <org xml:id="st_oriens_auch">
                <orgName ref="http://www.geonames.org/3036281">Eglise Saint-Orens</orgName>
             </org>
+            <org xml:id="st_victor">
+               <orgName xml:id="gnd_1089298-9" ref="https://www.geonames.org/8505025"></orgName>
+            </org>
             <org xml:id="hyde_abbey">
                <orgName xml:id="gnd_1092073159" ref="http://www.geonames.org/2633858">Hyde Abbey</orgName>
                <bibl>wikipedia<ptr target="https://en.wikipedia.org/wiki/Hyde_Abbey"/>

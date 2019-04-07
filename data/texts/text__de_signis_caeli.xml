@@ -78,9 +78,13 @@
                   <item><ref target="desc__rouen_bm_26">Rouen, Bibliothèque municipale, Ms 26</ref></item>
                   <item><ref target="desc__schaffhausen_sb_min_61">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref></item>
                   <item><ref target="desc__bav_reg_lat_598">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 598</ref></item>
-                  <item>Venezia, Biblioteca Marciana Lat. VIII 22</item>
+                  <item>Venice, Biblioteca Marciana Lat. VIII 22</item>
                   <item><ref target="desc__wolfenbuettel_hab_gud_lat_132">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
                </list>
+            <list>
+               <head>Past manuscripts</head>
+               <item><ref target="https://digi.vatlib.it/mss/detail/Pal.lat.1417">Vatican, Bibliotheca Apostolica Vaticana, Pal. lat. 1417</ref> (s. XI<hi rend="sup">mid</hi>). Today the manuscript contains only the <title ref="#liber_nimrod">Liber Nimrod</title> (ff.1r-19v), but the 15th c. table of content on the bottom of f. <ref target="https://digi.vatlib.it/view/MSS_Pal.lat.1417/0003">1r</ref> lists: <quote>Libellus pulcer Besde de situ et dispositione stellarum et signorum coeli; libellus seu tractatus Ptolemei regis ad sciendum horas diei et noctis; tractatus de distinctione climatum mundi et de terminis VII climatum</quote>. According to Livesey Rouse (‘Nimrod the Astronomer’, Traditio 37 (1981): 203–66) this MS belongs to the German family of Liber Nimrod and was copied in the first half of the eleventh century.</item>
+            </list>
          </div>
       </body>
    </text>
