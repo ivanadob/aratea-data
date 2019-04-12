@@ -111,6 +111,7 @@
                     <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
                     <note type="facs">Digital facsimile at <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.</note>
                 </head>
                 <physDesc>

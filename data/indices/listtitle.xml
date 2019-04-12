@@ -229,12 +229,13 @@
     <work xml:id="de_geometria">
         <author ref="#boethius">Boethius</author>
         <title/>
-        <bibl>Pl 63, 1352 - 1364D<ptr target="http://www.documentacatholicaomnia.eu/02m/0480-0524,_Boethius._Severinus,_Liber_De_Geometria,_MLT.pdf"/>.</bibl>
+        <bibl>PL 63, 1352 - 1364D<ptr target="http://www.documentacatholicaomnia.eu/02m/0480-0524,_Boethius._Severinus,_Liber_De_Geometria,_MLT.pdf"/>.</bibl>
     </work>
     <work xml:id="de_natura_rerum" ref="http://d-nb.info/gnd/4721386-3">
         <author ref="#isidore">Isidore</author>
         <title>De natura rerum</title>
         <bibl>Fontaine, Jacques. <title>Isidore de Séville: Traité de la nature; suivi de l’Épître en vers du roi Sisebut à Isidore</title>. Bibliothèque de l’École des Hautes Études Hispaniques 28, Bordeaux: Féret, 1960.</bibl>
+        <bibl>PL 83, 963-1018A<ptr target="http://www.documentacatholicaomnia.eu/02m/0560-0636,_Isidorus_Hispaliensis,_De_Natura_Rerum_Ad_Sisebestum_Regem_Liber,_MLT.pdf"/>.</bibl>
     </work>
     <work xml:id="de_ortu_et_obitu_patrum" ref="http://d-nb.info/gnd/4723501-9">
         <author ref="#isidore">(Ps.) Isidore</author>
