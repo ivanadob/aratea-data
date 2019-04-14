@@ -47,110 +47,163 @@
                 </msIdentifier>
                 <head>
                     <title>Collection with computistical, astronomical and astrological texts</title>
-                    <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace>
+                    <origPlace ref="#limoges">Limoges area</origPlace>, <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace>
                     <origDate notBefore="1001" notAfter="1200">s. XI-XII</origDate>
                     <note type="facs">Digital facsimile at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10544628b">gallica.bnf.fr</ref></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
                 </head>
-                <msContents>
-                    <msItem>
-                        <locus from="64v" to="65r">64v-65r</locus>
-                        <title ref="#ad_boreae">De sideribus</title>
-                        <incipit>Ad boreae partem arctae uertuntur anguis</incipit>
-                        <explicit>Hinc sequitur pistrix simul erida inique fluenta.</explicit>
-                    </msItem>
-                    <msItem class="aratea">
-                        <locus from="65r" to="66r">65r-66r</locus>
-                        <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                        <incipit>Duo sunt extremi uerticem mundi quos appellant polon</incipit>
-                        <explicit>ad ipsum usque decurrit accipiens.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="66r">66r</locus>
-                        <author ref="#isidore">Isidore</author>
-                        <title ref="#de_natura_rerum">De natura rerum <note>(excerpt from cap. 26 De nominibus stellarum)</note></title>
-                        <incipit>Legitur in libro iob dicentem domino numquid coniungere uales</incipit>
-                        <explicit>hic autem in celi axe constitutu semper uersatur ut numquam mergitur. Arcton igitur.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="66v" to="76v">66v-</locus>
-                        <!--<note type="title">Compilation based on Bede's <title ref="#DNR">De natura rerum</title> and</note>-->
-                        <author ref="#bede">Bede</author>
-                        <title ref="#DNR">De natura rerum</title>
-                        <incipit>Naturas rerum uarias labentis et aeui</incipit>
-                    </msItem>
-                    <msItem>
-                        
-                    </msItem>
-                    <msItem class="aratea">
-                        <locus from="76v" to="79v">76v-79v</locus>
-                        <title ref="#de_signis_coeli">De signis coeli</title>
-                        <incipit>Helix arcturus maior habet autem in capite stellas obscuras VII</incipit>
-                        <explicit>CCCXL octo diebus signiferum cursum suum complens.</explicit>
-                        <note>The text has all chapters, but shares most of the smaller omissions and readings found in <ref type="altMs" target="#desc__amiens_bm_222">Amiens, BM MS 222</ref>.</note>
-                    </msItem>
-                    <msItem>
-                        <locus from="79v" to="80v">79v-80v</locus>
-                        <author ref="#sisebut">Sisebut</author>
-                        <title ref="#carmen_de_eclipsibus">Carmen de eclipsibus</title>
-                        <incipit>Tu forte in lucu lentus uaga carmina gignis</incipit>
-                        <explicit>Luna meat fratrem rectis obiectibus argens.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="80v" to="81r">80v-81r</locus>
-                        <note type="title">Unidentified</note>
-                        <rubric>De imagine et similitudine</rubric>
-                        <incipit>Imago dei est secundum augustinum <sic>genelaliter</sic> in omnibus quae a deo facte sunt</incipit>
-                        <explicit>simile sit et nullo modo diuersum alter in diuersitatibus appareat.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="81v" to="84r">81v-84r</locus>
-                        <title ref="#liber_alchandrei">Liber Alchandrei<note> (Proportiones 1-10)</note></title>
-                        <rubric>Incipiunt proportiones competentes in astrorum industris</rubric>
-                        <incipit>De exordio omnes creaturae herus humanicus</incipit>
-                        <explicit>pauperioris in reditu. De copia aut.</explicit>
-                        <note>Interlinear notes from a 14th- or 15th-c hand.</note>
-                    </msItem>
-                    <msItem>
-                        <locus from="84r" to="95v">84r-95v</locus>
-<!--                        CHECK IN BORST WHICH COMPILATION EXACTLY-->
-                        <note type="title">Computistical collection</note>
-                        <incipit>Quod modis solet annus nominari. Primus modus est de luna</incipit>
-                        <explicit></explicit>
-                    </msItem>
-                </msContents>
                 <physDesc>
-               <objectDesc form="codex">
-                  <supportDesc material="perg">
-                          <support>
-                              <p>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
                                     <material>Parchment</material>
                                 </p>
-                          </support>
-                          <extent>
-                              <measure type="leavesCount" quantity="96">96 fols.</measure>
-                              <dimensions type="leaf" unit="mm">
-                                  <height>270</height>
-                                  <width>185</width>
-                              </dimensions>
-                          </extent>
-                          <foliation/>
-                      <collation/>
-                  </supportDesc>
-                   <layoutDesc>
-                     <layout columns="1" writtenLines="31">Written in 31 long lines.</layout>
-                  </layoutDesc>
-               </objectDesc>
-            </physDesc>
-            <history/>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="96">96 fols.</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>270</height>
+                                    <width>185</width>
+                                </dimensions>
+                            </extent>
+                            <collation>According to Juste the second codicological part consists of quaterniones: ff. 56-63, 64-71, 72-79, 80-87 and 88-95.</collation>
+                            <condition>Missing one quire between ff. 63 and 64.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1" writtenLines="31">Written in 31 long lines.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <scriptNote>Written in Carolinginan minuscle. The second part is written by a single hand.</scriptNote>
+                    </scriptDesc>
+                </physDesc>
+                <history>
+                    <origin>The manuscript consists of two contemporary codicological units. There are several suggestions about the place and date of production: <ref type="place" target="#limoges">Limoges area</ref> (Folkerts) more specifically Abbey of Solignac (Borst) or <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace> (Juste) in <origDate notAfter-custom="1001" notAfter="1100">s. XI</origDate> (Gautier-Dalché, Munk Olsen), before <origDate notAfter="1050">1050</origDate> (Borst) or <origDate notBefore="1101" notAfter="1200">s. XII</origDate> (Van de Vyver, Burnett).</origin>
+                </history>
                 <additional>
-               <listBibl>
-                  <head>Selected Bibliography:</head>
-                   <bibl>Juste, David. Les Alchandreana primitifs: Étude sur les plus anciens traités astrologiques latin d’origin arabe (Xe siècle). Leiden: Brill, 2007, pp. 352-355.</bibl>
-                   <bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>
-               </listBibl>
-            </additional>
+                    <listBibl>
+                        <head>Selected Bibliography:</head>
+                        <bibl>Juste, David. Les Alchandreana primitifs: Étude sur les plus anciens traités astrologiques latin d’origin arabe (Xe siècle). Leiden: Brill, 2007, pp. 352-355.</bibl>
+                        <bibl>Borst, Arno. Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments. Heidelberg: Winter, 1994.</bibl>
+                        <bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>
+                        <bibl>Burnett, Charles. ‘Adelard, Ergaphalau and the Science of the Stars’. In Burnett, Magic and Divination in the Middle Ages, 133–45, 1996, esp. p. 141.</bibl>
+                        <bibl>Burnett, Charles. ‘L’astronomie à Chartres au temps de l’évêque Fulbert’. In Le temps de Fulbert. Enseigner le Moyen Âge à partir d’un monument, 91–103, 1996, esp. p. 101.</bibl>
+                        <bibl>Folkerts, Menso. ‘De Artithmetics Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede’. In Essays on Early Medieval Mathematics: The Latin Tradition, (III) 1-30. Aldershot: Variorum, esp. pp. 5-6.</bibl>
+                        <bibl>Gautier-Dalché, Patrick. ‘Mappae mundi antérieures au XIIIe s. dans les manuscrits latins de la bibliothèque nationale de France’. Scriptorium 52 (1998): 102–62.</bibl>
+                        <bibl>Munk Olsen, Birger. ‘Chronique des manuscrits classiques latins (IXe-XIIe siècles), IV’. Revue d’histoire des textes 30 (2000): 123–88, p. 166.</bibl>
+                        <bibl>Van de Vyver, A. ‘Les plus anciennes traductions latines médiévales (Xe-XIe siècles) de traités d’astronomie et d’astrologie’. Osiris 1 (1936): 658–91, esp. pp. 666, 679 (cited as latin 7292 A).</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part I (ff. 1-55)</idno>
+                    </altIdentifier>
+                </msPart>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part II (ff. 56-96)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="56r" to="63v">56r-63v</locus>
+                            <title ref="#alchandreana">Alchandreana<note> (Proportiones 11-35)</note></title>
+                            <incipit>Paupertate unius cuiusque XI. Quicumque uero desiderat nosse aut paupertatem aut copiam cuiusque inspiciat planetam</incipit>
+                            <explicit>IIII inutilis et natus in ea decorus erit, V inutilis.</explicit>
+                            <note>The manuscript lost probably one quire, since the text ends abbruptly and the next one is acephalous.</note>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="64r" to="64v">64r-v</locus>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title ref="#astronomia">De astronomia<note> (excerpts from Book 2, 3 and 4 on the zodiacal signs)</note></title>
+                            <incipit>omnino XVI. Corona autem centauri est stellarum VII. De decimo signo capricorni. Capricornus huius effigies similis est egippam</incipit>
+                            <explicit>in comissura III, omnino XII.</explicit>
+                            <note>The excerpts start only with the end of the ninth to the twelfth sign - Sagittarius, Capricornus, Aquarius and Pisces. For each of the twelve zodiacal signs there are the respective excerpts from Book 2 on their mythological origin (often shortened), from Book 3 on their position within the celestial circles, and (for some) from Book 4 the paranatellonta and the number of stars in each constellation.</note>                        
+                        </msItem>
+                        <msItem>
+                            <locus from="64v" to="65r">64v-65r</locus>
+                            <title ref="#ad_boreae">De sideribus</title>
+                            <incipit>Ad boreae partem arctae uertuntur anguis</incipit>
+                            <explicit>Hinc sequitur pistrix simul erida inique fluenta.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="65r" to="66r">65r-66r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uerticem mundi quos appellant polon</incipit>
+                            <explicit>ad ipsum usque decurrit accipiens.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="66r">66r</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#de_natura_rerum">De natura rerum <note>(excerpt from cap. 26 De nominibus stellarum)</note></title>
+                            <incipit>Legitur in libro iob dicentem domino numquid coniungere uales</incipit>
+                            <explicit>hic autem in celi axe constitutu semper uersatur ut numquam mergitur. Arcton igitur.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="66v" to="70r">66v-70r</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#DNR">De natura rerum<note> (cap. 1-24)</note></title>
+                            <!--                        interest only in the astronomical chapters, left out cap. 25-51 on terrestrial natural phenomena-->
+                            <incipit>Naturas rerum uarias labentis et aeui <gap reason="omitted"/> <note>capitula</note> <gap reason="omitted"/> </incipit>
+                            <explicit>Commete sunt stelle flames crinite.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="70r">70r</locus> 
+                            <note type="title">Short text of 4 lines on astrology: <quote>repente nascentes regni commutationem aut pestilenciam aut bella uel uentose sti usuae portendentes quarum alie mouentur errancium modo alie immobiles erent omnes sub ipsos septemtrionem aut aliqua eius parte non terra.</quote></note>
+                        </msItem>
+                        <msItem>
+                            <locus from="70v" to="76v">70v-76v</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note> (cap. 24-71) </note></title>
+                            <incipit>De magnitudine lune<note> (Capitula 48-71) </note><gap reason="omitted"/> Astronomia est astrorum lex</incipit>
+                            <explicit>et in superna contemplacione collocaret.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="76v" to="79v">76v-79v</locus>
+                            <title ref="#de_signis_coeli">De signis coeli</title>
+                            <incipit>Helix arcturus maior habet autem in capite stellas obscuras VII</incipit>
+                            <explicit>CCCXL octo diebus signiferum cursum suum complens.</explicit>
+                            <note>The text has all chapters. It shares most of the smaller omissions and readings found only in <ref type="altMs" target="#desc__amiens_bm_222">Amiens, BM MS 222</ref> (e.g. cap. XXII, 5 <quote>Gorgonis autem</quote>, cap. XXXIX, 1 <quote>in cuius medio urna esse dicitur et super cuius caudam coruum sedentem</quote> in Amiens 222; <quote>in cuius medio urnam esse dicunt</quote> here). Amiens 222 is missing cap. I-XVI and XLI. Amiens 222 includes further smaller omissions (e.g. cap. XX, 2 <quote>angulos</quote>; cap. XXX, 4 <quote>genu I</quote>, present in Paris 7299A), so that it is not possible that it served as the exemplar of the Paris MS, but they could have been copied from one exemplar. Our MS has the last chapter XLI transmitted, according to Dell'Era only in three other MSS: Durham, The Dean and Chapter Library Hunter Ms. 100, <ref target="desc__montecassino_archivo_3">Montecassino, Archivo della Badia 3</ref> and <ref target="desc__wolfenbuettel_hab_gud_lat_132">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref>. Shares the omission in cap. IV, 3 like the Wolfenbüttel MS, Paris lat. 5239, and BAV Reg. lat. 598.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="79v" to="80v">79v-80v</locus>
+                            <author ref="#sisebut">Sisebut</author>
+                            <title ref="#carmen_de_eclipsibus">Carmen de eclipsibus</title>
+                            <incipit>Tu forte in lucu lentus uaga carmina gignis</incipit>
+                            <explicit>Luna meat fratrem rectis obiectibus argens.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="80v" to="81r">80v-81r</locus>
+                            <note type="title">Unidentified</note>
+<!--                            ################# CHECK IN PL DATABASE #####################-->
+                            <rubric>De imagine et similitudine</rubric>
+                            <incipit>Imago dei est secundum augustinum <sic>genelaliter</sic> in omnibus quae a deo facte sunt</incipit>
+                            <explicit>simile sit et nullo modo diuersum alter in diuersitatibus appareat.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="81v" to="84r">81v-84r</locus>
+                            <title ref="#alchandreana">Alchandreana<note> (Proportiones 1-10)</note></title>
+                            <rubric>Incipiunt proportiones competentes in astrorum industris</rubric>
+                            <incipit>De exordio omnes creaturae herus humanicus</incipit>
+                            <explicit>pauperioris in reditu. De copia aut.</explicit>
+                            <note>Interlinear notes from a 14th- or 15th-c hand.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="84r" to="95v">84r-95v</locus>
+                            <title ref="#libellus_annalis">Annalis libellus<note> (with omissions)</note></title>
+                            <incipit>Quod modis solet annus nominari. Primus modus est de luna</incipit>
+                            <explicit>sed ante aures retro respicientes.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="95v">95v</locus>
+                            <title ref="#alchandreana">Alchandreana<note> (Quicumque 9,2-5)</note></title>
+                            <incipit>Draco semper abire dicitur retrorsum incipiens a leone decurrit in cancrum</incipit>
+                            <explicit>in quo predicti draconis fuerit caput.</explicit>
+                            <note>Copied as part of the computistical collection.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>                
          </msDesc>
         </body>
     </text>
