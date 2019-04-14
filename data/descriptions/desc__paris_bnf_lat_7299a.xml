@@ -27,7 +27,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2019-04-12"/>
+				<change when="2019-04-14"/>
 			</revisionDesc>
 		
     </teiHeader>    
@@ -52,6 +52,7 @@
                     <note type="facs">Digital facsimile at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10544628b">gallica.bnf.fr</ref></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
