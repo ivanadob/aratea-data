@@ -48,8 +48,13 @@
             <head>
                <title>Editions</title>
             </head>
-            <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In <title>Studi Medievali</title> ser. 3, 20:1 (1979): 269-302.</bibl>
-            <p>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</p>
+            <listBibl>
+               <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In <title>Studi Medievali</title> ser. 3, 20:1 (1979): 269-302.</bibl>
+               <bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>
+               <bibl>Germanicus. Germanici Caesaris Aratea cum scholiis. Edited by Alfred Breysig. Berlin 1867 (reprint Hildesheim: Olms, 1967), pp. <ref target="https://archive.org/details/germanicicaesar01breygoog/page/n306">233</ref>-238<note> under the title "Scholia bernensia" after <ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref>.</note></bibl>
+               <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, pp. <ref target="https://archive.org/details/Maass1898/page/n657">582</ref>-594<note> (using Monte Cassino and the previous two editions)</note>.</bibl>
+            </listBibl>
+            
          </div>
          <div>
             <head>
@@ -61,6 +66,7 @@
             <head>
                <title>Manuscripts</title>
             </head>
+            <p>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</p>
                <list xml:id="de_signis_caeli__msslist">
                   <item><ref target="desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
                   <item><ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>

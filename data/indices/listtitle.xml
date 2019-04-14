@@ -702,10 +702,11 @@
         <bibl>
          <abbr>Clavis</abbr>, 2321.</bibl>
     </work>
-    <work xml:id="liber_alchandrei">
-        <title>Liber Alchandrei</title>
+    <work xml:id="alchandreana">
+        <title>Alchandreana (corpus)</title>
         <bibl>Juste, David. Les Alchandreana Primitifs: Étude Sur Les plus Anciens Traités Astrologiques Latin d’origin Arabe (Xe Siècle). Leiden: Brill, 2007.</bibl>
-    </work>
+        <note>The corpus consists of: Liber Alchandrei (=Mathematica Alhandrei), Epistola Argafalou, Breviarium, Benedictum, Quicumque, Proportiones, In principio and a few other fragments.</note>
+    </work>    
     <work xml:id="liber_nimrod">
         <author>Ps.-Nimrod</author>
         <title>Liber Nimrod de astronomia</title>
