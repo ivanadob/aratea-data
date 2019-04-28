@@ -58,7 +58,7 @@
            </head>
            <msContents>
               <textLang mainLang="lat"/>
-              <msItem>
+              <msItem class="aratea">
                  <locus from="1v" to="50v">1v-50v</locus>
                  <title ref="#al">Aratus Latinus</title>
                  <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>

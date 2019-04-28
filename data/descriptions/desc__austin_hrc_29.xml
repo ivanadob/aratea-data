@@ -44,11 +44,13 @@
                     <idno>HRC 29</idno>
                 </msIdentifier>
                 <head>
-                    <title>Tegernsee miscellany. Excerptum de astrologia and De ordine ac positione stellarum</title>
+                    <title>Astronomical miscellany</title>
                     <note type="caption"/>
                     <origPlace>Southern Germany</origPlace>
                     <origDate notBefore="1001" notAfter="1050"> s. XI<hi rend="sup">1</hi>
                     </origDate> 
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                     <note type="facs">Digital facsimile at <ref target="http://norman.hrc.utexas.edu/mnemGal/29/HRC_29.pdf">Harry Ranson Humanities Research Center</ref>
                     </note>                    
                 </head>
@@ -191,12 +193,10 @@
                 </physDesc>
                 <history>
                     <origin>
-                        <p>The manuscript is supposed to be copied <origDate notBefore="1001" notAfter="1050">s. XI<hi rend="sup">1</hi>
-                    </origDate> in part by <rs type="person" ref="#ellinger">Abbot Ellinger</rs> (975/980-1056) of <rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> (<origPlace ref="#s_germany">Southern Germany</origPlace>). See note on <locus from="103v">fol. 103v</locus>: <quote>Abbas indignus ego Ellinger peccator istam glosam scripsi dum essem in Altahensi monasterio deo sanctoque quirino. Rogo uos omnes in ea legentes ut oretis pro me.</quote>. The note is an indication that he copied <title>De verborum significatione</title> and the following shorter texts, and not necessarily the whole manuscript.</p>
+                        <p>The manuscript is supposed to be copied <origDate notBefore="1001" notAfter="1050">s. XI<hi rend="sup">1</hi></origDate> in part by <rs type="person" ref="#ellinger">Abbot Ellinger</rs> (975/980-1056) in <origPlace ref="#tegernsee_abbey">Tegernsee Abbey</origPlace> (<origPlace ref="#s_germany">Southern Germany</origPlace>). See note on <locus from="103v">fol. 103v</locus>: <quote>Abbas indignus ego Ellinger peccator istam glosam scripsi dum essem in Altahensi monasterio deo sanctoque quirino. Rogo uos omnes in ea legentes ut oretis pro me.</quote>. The note is an indication that he copied <title>De verborum significatione</title> and the following shorter texts, and not necessarily the whole manuscript.</p>
                     </origin>
                     <provenance>
-                        <p>It belong to the<rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> as noted on the <locus from="Ir">first flyleaf</locus> 
-                            <quote>Istud volumen<unclear>attinet</unclear> venerabili monasterio sancti Quirini in Tegernsee<gap/> H̃ Abbas Ellingerus scripsit hunc librum</quote>. Additionally there is a note from the librarian of the monastery <rs type="person">Ambrosius Schwerzenbeck</rs> on the small paper leaf <locus from="1r">fol. 1-bis</locus> from the 15th c. The manuscript is recorded in the 15th c. catalogue among Bede's works under the title <quote>Excerptum de naturalibus hystoriis Plinii philosophi</quote> with the signature <quote>l 44</quote>.</p>
+                        <p>It belong to the <rs type="corporate" ref="#tegernsee_abbey">Tegernsee Abbey</rs> as noted on the <locus from="Ir">first flyleaf</locus>: <quote>Istud volumen <unclear>attinet</unclear> venerabili monasterio sancti Quirini in Tegernsee<gap/> H̃ Abbas Ellingerus scripsit hunc librum</quote>. Additionally there is a note from the librarian of the monastery <rs type="person">Ambrosius Schwerzenbeck</rs> on the small paper leaf <locus from="1r">fol. 1-bis</locus> from the 15th c. The manuscript is recorded in the 15th c. catalogue among Bede's works under the title <quote>Excerptum de naturalibus hystoriis Plinii philosophi</quote> with the signature <quote>l 44</quote>.</p>
                     </provenance>
                 </history>
                 <additional>

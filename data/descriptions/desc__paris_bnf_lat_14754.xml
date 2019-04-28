@@ -75,7 +75,7 @@
                </scriptDesc>
             </physDesc>
             <history>
-               <origin>Livesey and Rouse suggested the manuscript was copied in Chartres in <origDate notBefore="1151" notAfter="1175">s. XII<hi rend="sup">3/4</hi>, based on decorative motifs used at Chartres at that time.</origDate></origin>
+               <origin>Livesey and Rouse suggested the manuscript was copied in Chartres in <origDate notBefore="1151" notAfter="1175">s. XII<hi rend="sup">3/4</hi>, based on decorative motifs found in other Chartres manuscript from the period.</origDate></origin>
                <provenance>The exlibris of <rs type="corporate" ref="#st_victor">Saint Victor</rs> (f. <locus from="255v">255v</locus>) in Paris is dated by Livesey and Rouse to the <date notBefore="1286" notAfter="1300">late thirteenth century</date>. The cursive features of the script and the 'a' protruding above x-height suggest even later date (s. XIV).</provenance>
                <provenance>The table of content by the hand of André Hausselet (prior in Saint-Victor 1471-1495) testifies that the codicoloogical units were joined together at the latest in <date notBefore="1401" notAfter="1500">s. XV</date>, when also a foliation encompasing the whole manuscript was added.</provenance>
                <provenance>On f. Av f.1r, 1v, 95r provenance marks of the Abbey <rs type="corporate" ref="#st_victor">Saint Victor</rs> in Paris by a 15th-century hand.</provenance>
@@ -139,7 +139,7 @@
                         <decoNote>Rota diagram of the 12 months, their number of days and regulares.</decoNote>
                      </msItem>
                      <msItem>
-                        <locus from="226v" to="229r"></locus>
+                        <locus from="226v" to="229r">226v-229r</locus>
                         <note type="title">Computistical arguments</note>
                         <incipit>Si uis cognoscere per omnes annos circulum solarem uel quot sunt concurrentes eius</incipit>
                         <explicit></explicit>
@@ -148,9 +148,10 @@
                      </msItem>
                   </msItem>
                   <msItem class="aratea">
-                     <locus>229v-232v</locus>
+                     <locus from="229v" to="232v">229v-232v</locus>
                      <title ref="#de_signis_coeli">De signis coelis</title>
                      <incipit>Helix arctus maior habet autem in capite</incipit>
+                     <explicit>eo quod contraria sit cani.</explicit>
                      <decoNote>Position of the stars marked with red dots. Images drawn first, text added around them in two columns.</decoNote>
                   </msItem> 
                </msContents>

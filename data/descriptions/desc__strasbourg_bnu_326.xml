@@ -87,9 +87,9 @@
                     <scriptNote script="carolmin">Most of the texts are written in a tight carolingian minuscule, which shows characteristics of the tenth century such as: e-caudata, word division, ligatures (ct, st, ra, nt) and abbreviation (-orum, -tur). The script used for the Aratea section exhibits fewer ligatures and seems to be written by a more modern hand (the shaft of the caroline a becoming more up-right, the tongue of the e pointing to 2 o'clock). The same hand wrote probably also ff. 185-201.</scriptNote>
                 </scriptDesc>
                 <decoDesc>
-                    <decoNote>Rubrics for chapters headings in<term>Capitalis rustica</term> and initial-majuscule for opening the chapter. Later added paragraph marks in red; ample margins left but no glossa.</decoNote>
+                    <decoNote>Rubrics for chapters headings in <term>Capitalis rustica</term> and initial-majuscule for opening the chapter. Later added paragraph marks in red; ample margins left but no glossa.</decoNote>
                 </decoDesc>
-                <additions>On f.<locus from="169r">169r</locus> a prayer later added in the free space: <quote>In nomine patri et filii et spiritus sancti amen. Adiuro uos tempestates et uoces et tonitrua et fulgura<gap reason="omitted"/>
+                <additions>On f.<locus from="169r">169r</locus> a prayer later added in the free space: <quote>In nomine patri et filii et spiritus sancti amen. Adiuro uos tempestates et uoces et tonitrua et fulgura <gap reason="omitted"/>
                         </quote>. Fol. 181 a later addition.</additions>
                 <bindingDesc>
                     <binding>
@@ -98,7 +98,7 @@
                 </bindingDesc>
             </physDesc>
             <history>
-                <origin>The manuscript is a copy of<ref type="altMs" target="Paris_lat_5239">Paris, BnF, Ms lat. 5239</ref> (s. X<hi rend="sup">1/3</hi>, Saint-Martial in Limoges).</origin>
+                <origin>The manuscript is a copy of <ref type="altMs" target="Paris_lat_5239">Paris, BnF, Ms lat. 5239</ref> (s. X<hi rend="sup">1/3</hi>, Saint-Martial in Limoges).</origin>
                <provenance/>
             </history>
             <additional>
@@ -228,9 +228,10 @@
                         </msItem>
                         <msItem> 
                             <locus from="109v" to="110r">109v-110r</locus>
-                            <note type="title">On different languages and alphabets after the flood. Included are the jewish, greek, and latin alphabets, the one by Aethicus Cosmographus, and the northmen (<quote>northmannorum</quote>. The name of each letter is transliterated in Latin. At the end is alist of the Roman numerals from one to million <quote>MM</quote> (in 5 columns), with the corresponding Greek numerals transliterated in Latin letter <quote>Mia<gap reason="omitted"/> Ecathostochyle</quote>.</note>
+                            <note type="title">On different languages and alphabets after the flood.</note>
                             <incipit>Primus omnium litteras ante diluuium inuenisse enoch dicitur</incipit>
                             <explicit>MM Ecathostochyle.</explicit>
+                            <note>Included are the jewish, greek, and latin alphabets, the one by Aethicus Cosmographus, and the northmen (<quote>northmannorum</quote>). The name of each letter is transliterated in Latin. At the end is a list of the Roman numerals from one to million <quote>MM</quote> (in 5 columns), with the corresponding Greek numerals transliterated in Latin letter <quote>Mia<gap reason="omitted"/> Ecathostochyle</quote>.</note>
                         </msItem>
                         <msItem> 
                             <locus from="110v" to="111r">110v-111r</locus>
@@ -337,11 +338,11 @@
                         </msItem>
                         <msItem>
                             <locus from="120v">120v</locus>
-                            <note type="title">Rota for phases of the moon<quote>ledo</quote>, <quote>malina</quote> in connection with the tides, in the centre of the rota with T-O centre and four smaller circles on the sides each with text <quote>Luna XXVIII incipit malina</quote> etc. probably taken from <title ref="#libellus_annalis">Annalis libellus</title>, c. 51.</note>
+                            <note type="title">Rota for phases of the moon <quote>ledo</quote>, <quote>malina</quote> in connection with the tides, in the centre of the rota with T-O centre and four smaller circles on the sides each with text <quote>Luna XXVIII incipit malina</quote> etc. probably taken from <title ref="#libellus_annalis">Annalis libellus</title>, c. 51.</note>
                         </msItem>
                         <msItem>
                             <locus from="121r">121r</locus>
-                            <note type="title">Another wind diagram with eight wedge-shaped segments, each divided further in two. Texts inbetween the eight segments each starting with the the letter O:<quote>O miranda suo flamantia sidera celo</quote>, <quote>Ordine quadrifido solari currere ciclo</quote> 
+                            <note type="title">Another wind diagram with eight wedge-shaped segments, each divided further in two. Texts inbetween the eight segments each starting with the the letter O: <quote>O miranda suo flamantia sidera celo</quote>, <quote>Ordine quadrifido solari currere ciclo</quote> 
                         <quote>Orridus est aquilo frigentia climate celo</quote> etc.</note>
                         </msItem>                        
                         <msItem>
@@ -381,7 +382,7 @@
                             <rubric>De eclypsin solis et lunae</rubric>
                             <incipit>Eclypsin solis ei quotiens luna XXX ad eandem lineam qua sol uehitur</incipit>
                             <explicit>quotidie tardius ueniret tardius recederet.</explicit>
-                            <note>Astronomical notes on the place of the planets in the zodiacal band for the years 770 and 794:<quote>Anno DCCLXX indictione VIII prima die ianuari mensis stella saturni nec non et stella iouis in siderecri uersabantur. Et cuicumque codicellus iste perueniat in manus si tamen curiosit errantium recognoscere siderum cursus intellegat post quanta annorum curricula ad idem redeant sidus. Anno dominice DCCXCIIII indictione V stellarum in mense marti in geminis et stella iouis in scorpione stella martis in cancro et stella ueneris in tauro uersatur. Discite o iuuenes cum abraham caeli et siderum cursus cognoscere non cum ępicurio uoluptatum ad sertore uentri deseruire et luxuriae.</quote>
+                            <note>Astronomical notes on the place of the planets in the zodiacal band for the years 770 and 794:<quote>Anno DCCLXX indictione VIII prima die ianuari mensis stella saturni nec non et stella iouis in sidere <supplied>can</supplied>cri uersabantur. Et cuicumque codicellus iste perueniat in manus si tamen <sic>curio</sic> sit errantium recognoscere siderum cursus intellegat post quanta annorum curricula ad idem redeant sidus. Anno dominice DCCXCIIII indictione V stellarum in mense marti in geminis et stella iouis in scorpione stella martis in cancro et stella ueneris in tauro uersatur. Discite o iuuenes cum abraham caeli et siderum cursus cognoscere non cum ępicurio uoluptatum adsertore uentri deseruire et luxuriae.</quote>
                             </note>
                             <filiation>Valenciennes, BM, Ms 174, ff. 28r-29r.</filiation>
                         </msItem>
@@ -398,7 +399,7 @@
                             <author ref="#bede">(Ps.) Bede</author>
                             <title ref="#de_apsidibus_planetarum">De apsidibus planetarum</title>
                             <rubric>De absidibus planetarum</rubric>
-                            <incipit>Circulus zodiacus qui duodecim signis constat omni ex parte aequeuicinus est terre</incipit>
+                            <incipit>Circulus zodiacus qui duodecim signis constat omni ex parte aeque uicinus est terre</incipit>
                             <explicit>sed potius LXX dierum numerum reddat.</explicit>
                         </msItem>
                         <msItem>

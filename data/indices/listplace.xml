@@ -251,6 +251,9 @@
                         <tei:geo>49.79391 9.95121</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="france">
+                    <placeName>France</placeName>
+                </place>
                 <place xml:id="w_france">
                     <placeName>West France</placeName>
                 </place>

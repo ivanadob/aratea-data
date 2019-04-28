@@ -128,7 +128,7 @@
                   <quote>Antecanem graio prochion qui nomine fertur. Hec sunt quae transes nocturno tempore signa. Legitumo cernes celi substancium. Eternumque uolens mundi pernoscere motum. Namque per bis sex signorum labier orbem.</quote>
                   <!--<note>Possibly meant to complete the Excerptum. Taken probably from the so-called Scholia Harleiana, the excerpts from Hyginus used as scholia figurata in London BL, MS Harley 647 and MS Cotton Tib. C. I.</note>-->
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="19r" to="19v">19r-20r</locus>
                   <author ref="#hyginus">Hyginus</author>
                   <title ref="#de_astronomia">On the planets based partly on De astronomia, Lib. 2, cap. XLII.</title>
@@ -136,14 +136,14 @@
                   <explicit>absides altissima in capricorno.</explicit>
                   <note>On the lower margin of f. 19r: hic celo ornatur trahitur noctemque diemque.</note>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="20r">20r</locus>
                   <author ref="#cicero">Cicero</author>
                   <title ref="#aratea_cicero">Aratea<note> (vv. 227-232)</note></title>
                   <incipit>Quinque solent stelle simili ratione notari</incipit>
                   <explicit>He faciunt magnos longinqui temporis annos.</explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="20r">20r</locus>
                   <author ref="#germanicus">Germanicus</author>
                   <title ref="#germanicus_aratea">Aratea<note> (vv. 437-445)</note></title>
@@ -151,7 +151,7 @@
                   <incipit><supplied>E</supplied>t stellae via diuersa lege feruntur</incipit>
                   <explicit>tempus et ipse labor, patiantur <sic>facta</sic> docebit.</explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="20v">20v</locus>
                   <note type="title">Excerpt on Praesepis signa, probably taken from the <title ref="#ral">Revised Aratus Latinus</title></note>
                   <incipit>Sidera quae gentiles presepe et asinos uocauerunt</incipit>
@@ -173,21 +173,21 @@
                   <incipit>Si uis scire quod stella mercurii sit fac hoc modo</incipit>
                   <explicit>et inuenies signum in quo ille est positus.</explicit>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="21r">21r</locus>
                   <title ref="#ral">Excerpt from the Revised Aratus Latinus (Luna)</title>
                   <incipit>Luna bigam habere dicitur siue propter uelocitatem</incipit>
                   <explicit>certissima habetur aurarum.</explicit>
                   <decoNote>Preceding the text an illustration of Luna, personificated as a woman on a biga carrage on the lower margin of f. 20v.</decoNote>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="21v">21v</locus>
                   <title ref="#ral">Excerpt from the Revised Aratus Latinus (Sol) with omissions</title>
                   <incipit>Sol dum per trecentos sexaginta et V dies et quadrantem zodiaci ambitum lustret</incipit>
                   <explicit>si pallidus in nigras nubes occidat aquilonem significat.</explicit>
                   <decoNote>On f. 21r space left on the lower text field probably for illustration of the Sol.</decoNote>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="21v" to="22r">21v-22r</locus>
                   <author ref="#hyginus">Hyginus</author>
                   <title ref="#de_astronomia">Excerpt from De astronomia, Lib. 4, cap. 3 (on the path of the sun on the zodiac, as on f. 15v)</title>
@@ -221,7 +221,7 @@
                <accMat>Binding waste (fragments): two double leaves used as pastedowns on the front and back boards with flyleaves. Text: Julianus Toletanus, Prognosticon futuri saeculi. Origin: Italy (?), s. XI.</accMat>
             </physDesc>
             <history>
-               <origin>Based on the palaeographical evidence the manuscript can be dated to the twelfth century. Viré (1986) suggested a French origin. For an Italian origin or at least provenance speak the fragments written in a 15th-century Italian Rotunda, and the fact that the sequence of texts (and extracts) is reproduced in 15th-century manuscript, Vienna ÖNB, Cod. 3394, which is North Italian, probably Paduan,</origin>
+               <origin>Based on the palaeographical evidence the manuscript can be dated to the twelfth century. Viré (1986) suggested a French origin. For an Italian origin or at least provenance speak the fragments written in a 15th-century Italian Rotunda, and the fact that the sequence of texts (and extracts) is reproduced in 15th-century manuscript, Vienna ÖNB, Cod. 3394, which is North Italian, probably Paduan manuscript.</origin>
                <provenance>The manuscript was purchased by the Walters Art Gallery in 1947 from E.P. Goldschmidt, cat 44. (1937), no 12; cat 82 (1947), no. 1 (see Faye / Bond).</provenance>
             </history>
             <additional>

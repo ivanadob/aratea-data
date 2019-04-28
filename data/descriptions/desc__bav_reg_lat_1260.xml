@@ -44,7 +44,7 @@
             <head>
                <title></title>
                <origDate notBefore="0801" notAfter="1000">s. IX-X</origDate>
-               <origPlace ref="#n_france">North France</origPlace>
+               <origPlace ref="#france">France</origPlace>
                <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
                <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
@@ -168,7 +168,7 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury. Pellegrin argued for a French origin; script exhibiting insular influence by the execution of initials (?). According to Mostert the manuscript consists of five distinctive parts: ff- 1-16, 17-86, 87-124, 125-164 and 164-179, whereby the first three (ff. 1-124) are contemporary and homogenous (following here Munk Olsen).</origin>
+                  <origin>Written in <origDate notBefore="0801" notAfter="0900">s. IX</origDate>. Viré (1981) suggested that the manuscript was written in Northern France, possibly in Auxerre (following a suggestion by B. Bischoff). Laistner and Beeson considered it a product of Fleury. Pellegrin argued for a French origin; script exhibiting insular influence by the execution of initials (?). According to Mostert the manuscript consists of five distinctive parts: ff- 1-16, 17-86, 87-124, 125-164 and 164-179, whereby the first three (ff. 1-124) are contemporary and homogenous (following here Munk Olsen).</origin>
                   <provenance>By the 16 th c. the manuscript was probably in the Abbey of Fleury-sur-Loire as it matches the succinct title (Liber Bedae presbyteri de natura rerum) of No 254 in the catalogue of 1552.</provenance>
                   <provenance>Ownership note by Pierre Daniel of Orleans (d. 1603) on f. 1r; according to Pellegrini also his marginal notes in the manuscript.</provenance>
                </history>

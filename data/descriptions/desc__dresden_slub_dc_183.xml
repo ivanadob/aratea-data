@@ -34,7 +34,7 @@
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:id="dresden_dc_183" xml:lang="eng">
+            <msDesc xml:id="dresden_dc_183" xml:lang="lat">
                 <msIdentifier>
                     <settlement>Dresden</settlement>
                     <repository>Sächsische Landesbibliothek</repository>

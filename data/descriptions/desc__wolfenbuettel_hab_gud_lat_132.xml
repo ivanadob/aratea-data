@@ -43,10 +43,11 @@
 					          <idno sortKey="gud_lat_132">Cod. Guelf. 132 Gud. lat.</idno>
 				        </msIdentifier>
 				        <head>
-					          <title/>
+					          <title>Composed manuscript</title>
 					          <note type="caption"/>
 					          <origPlace ref="#corvey">Corvey Abbey</origPlace>
 					          <origDate notBefore="0850" notAfter="0900">IX<hi rend="sup">2</hi>
+					              <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
 					          	<note type="facs">Digital facsimile at <ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref></note>
                     </origDate>
 				        </head>
@@ -59,15 +60,15 @@
 						            <msItem>
 							              <locus from="1r" to="1v"/>
 							              <note>Table of content:</note>
-							              <incipit>Incipiunt capitula<lb/>De princiis artis architectonicae<lb/>De uentis</incipit>
+							              <incipit>Incipiunt capitulaDe princiis artis architectonicaeDe uentis</incipit>
 						            </msItem>
 						            <msItem>
 							              <locus from="1v">1v</locus>
 							              <note>Text:</note>
 							              <rubric>
-                                <hi rend="font-variant:small-caps">De artis architectonicae peritia multa oratione</hi> uitruius polio aliiq<am>ue</am> auctores scintissime scripsere.</rubric>  
+                                <hi rend="font-variant:small-caps">De artis architectonicae peritia multa oratione</hi> uitruius polio aliique auctores scintissime scripsere.</rubric>  
 							              <incipit>Verum nelonga eorim dissertaque dasundia</incipit>
-							              <explicit>totu<am>m</am> corpus om<am>ni</am>a architeturę membra in decem uoluminibus haberet explicate <hi rend="font-variant:small-caps">uitruuii liber x explicit feliciter amen</hi>
+							              <explicit>totum corpus omnia architeturę membra in decem uoluminibus haberet explicate <hi rend="font-variant:small-caps">uitruuii liber x explicit feliciter amen</hi>
                             </explicit>
 							              <note>With running titles on the upper margin of pages. Many correction to the text by a different hand in darker brown ink.</note>
 							              <bibl>Marie-Thérèse Cam, Catherine Jacquemard, "Les interpolations médiévales dans la tradition de M. Cetius Faventinus," Revue d'histoire des textes 32 (2002):</bibl>
@@ -80,42 +81,42 @@
 						            <title ref="#de_nuptiis">De nuptiis Philologiae et Mercirii <note>Book II (116-126)</note>
                         </title>						
 						            <rubric>Incipiunt uersus de nuptiis philologiae</rubric>
-						            <incipit>Et iam tunc roseo subtexere sidera peplo<lb/> Coeperat amboru<am>m</am> promens aurora pudorem</incipit>
+						            <incipit>Et iam tunc roseo subtexere sidera peplo Coeperat amborum promens aurora pudorem</incipit>
 						            <explicit>ac nos sacrate musas.</explicit>
 						            <note>Remarks: written by a different hand than the <quote>De architectura</quote>. Different ruling – the outer double lines are more narrow to each other; also pricking visible unlike in the previous f.os; also different hand; all clues suggest that this is a separate but contemporary production.</note>
 						            <msItem>
 							              <locus from="52v" to="54r">52v-54r</locus>
 							              <author ref="#martianus_capella">Martianus Capella</author>
-							              <title>De nuptiis. Philologiae et Mercirii<note>Book VIII De astronomia (838 – 846,1)</note>
+						                <title ref="#de_nuptiis_VIII">De nuptiis. Philologiae et Mercirii<note> Book VIII De astronomia (838 – 846,1)</note>
                             </title>
-							              <incipit>Peracta iam spatiorum circulorumq<am>ue</am> breuiter ratione</incipit>
-							              <explicit>haec est inequalitas  quae dieru<am>m</am> spatia noctiu<am>m</am> q<am>ue</am> discriminat</explicit>
+							              <incipit>Peracta iam spatiorum circulorumque breuiter ratione</incipit>
+							              <explicit>haec est inequalitas  quae dierum spatia noctium que discriminat</explicit>
 							              <note>Skiped is the first half of the book containing information on the circles, shape of the universe etc. The text begins straight from the section devoted to the constellations</note>
 						            </msItem>
 						            <bibl>Preaux - Le manuscrit Avranches 240 et l'oeuvre de Martianus Capella.</bibl>						
 					          </msItem>
-					          <msItem>
+					          <msItem class="aratea">
 						            <locus from="54v" to="61r">54v-61r</locus>
 						            <author ref="#bede">Ps-Bede</author>
 						            <title ref="#de_signis_coeli">De signis coeli</title>
 						            <rubric>incipit excerptu[m] de astronomia</rubric>
 						            <incipit>Helix arcuturus maior habet autem in capite</incipit>
-						            <explicit>ccclx dieb<am>us</am> signiferu<am>m</am> circu<am>m</am> suu<am>m</am> complens</explicit>						
+						            <explicit>ccclx diebus signiferum circum suum complens</explicit>						
 					          </msItem>
 					          <msItem>
 						            <locus from="61v">61v</locus>
-						            <author>Ausonius</author>
-						            <title>Epitome phenomenon</title>
-						            <rubric>prisciani epitome phenomen</rubric>
+					              <author ref="#priscianus">Ps. Priscianus</author>
+					              <title ref="#ad_boreae">Epitome phenomenon</title>
+						            <rubric>Prisciani epitome phenomen</rubric>
 						            <incipit>Ad boreę partes arctoae uertuntur et anguis</incipit>
-						            <explicit>Hinc sequitur pistrix simul eridaniq<am>ue</am> fluenta.</explicit>						
+						            <explicit>Hinc sequitur pistrix simul eridanique fluenta.</explicit>						
 					          </msItem>
-					          <msItem>
+					          <msItem class="aratea">
 						            <locus from="61v">61v</locus>
-						            <note>Lemmata to <rs type="person" role="author" ref="#avienus">Avienus</rs>' <title>Aratea</title>
+					              <note>Lemmata to <rs type="person" role="author" ref="#avienus">Avienus</rs>' <title ref="#aratea_avienus">Aratea</title>
                         </note>
 						            <rubric>Rufi festi auieni uiri clari arati phenomena</rubric>
-						            <incipit>Arctoe anguis corona<add resp="later">o</add>phyucus</incipit>
+						            <incipit>Arctoe anguis corona <add resp="later">o</add>phyucus</incipit>
 						            <explicit>Sol aselli uenti hiems aetas</explicit>
 						            <note>Missing three leaves after f.<locus from="61v">61</locus>.</note>						
 					          </msItem>
@@ -228,7 +229,7 @@
 				        <history>
 					          <summary/>
 					          <origin>
-						            <p>According to <bibl>Ganz</bibl> the manuscript was written at <rs type="corporate" ref="#corvey">Corvey Abbey</rs> partially copied by a Corbie scribe.</p>
+						            <p>According to Ganz (p. 158) the manuscript was copied for <rs type="corporate" ref="#corvey">Corvey Abbey</rs> partially copied by a Corbie scribe.</p>
 					          </origin>
 					          <provenance>
 						            <p>According to Gustav Milchsack there is a note on the lower margin of f.<locus from="11v">11v</locus>: <quote>
@@ -241,8 +242,8 @@
 				        <additional>
 					          <listBibl>
 						            <head>Selected bibliography:</head>
-						            <bibl>Ganz, Corbie, p. 158</bibl>
-						            <bibl>O. Heinemann, Die Hss. der Herzoglichen Bibliothek zu Wolfenbüttel, IV, pp. 155-6.</bibl>
+					              <bibl>Ganz, David. Corbie in the Carolingian Renaissance. Sigmaringen: Thorbecke, 1990, p. 158.</bibl>
+						            <bibl>Heinemann, O. Die Hss. der Herzoglichen Bibliothek zu Wolfenbüttel, IV, pp. 155-6.</bibl>
 						            <bibl>Leonardi, C. I codici di Marziano Capella, in Aevum 34 (1960): 493-4.</bibl>
 						            <bibl>Ebert, F. A. Zur Handschriftenkunde, II, pp. 29, 40, 138, 142, 177.</bibl>
 						            <bibl>Keil, H. Grammatici Latini III, pp. 398-9.</bibl>

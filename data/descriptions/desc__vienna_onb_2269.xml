@@ -32,7 +32,7 @@
    </teiHeader>
    <text>
       <body>
-         <msDesc>
+         <msDesc xml:id="vienna_onb_2269" xml:lang="lat">
             <msIdentifier>
                <settlement>Vienna</settlement>
                <repository>Österreichische Nationalbibliothek</repository>

@@ -159,7 +159,7 @@
                   <explicit>Versus qui restant qui uult in fine requirat.</explicit>
                   <bibl>di Pasquale, Maria Grazia. "Nomina signorum quis clauditur astriger orbis: un carme inedito sulle costellazioni e lo Zodiaco nei mesi dell'anno." In: Poesía Latina Medieval (siglos V-XV). Ed. by M. Díaz Díaz et al. Firenze, 2005, pp. 675-684.</bibl>
                </msItem>
-               <msItem>
+               <msItem class="aratea">
                   <locus from="82v" to="100v">82v-100v</locus>
                   <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
                   <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
@@ -196,7 +196,7 @@
                <listBibl>
                   <head>Selected Bibliography:</head>
                   <bibl>
-                     <abbr>sternbilder des Mittelalters</abbr>, pp. 477-481.</bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 477-481.</bibl>
                </listBibl>
             </additional>
          </msDesc>       

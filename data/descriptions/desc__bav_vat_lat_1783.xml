@@ -86,7 +86,7 @@
                     <msContents>
                         <msItem>
                             <locus from="97r" to="126r">97r-126r</locus>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <title>Epistulae</title>
                             <incipit><supplied>im</supplied>precatorie sicut filio refocillatus Israel<note> (LXVIII acephalos)</note></incipit>
                             <bibl>F. Behrends, The Letters and Poems of Fulbert of Chartres. Oxford, OUP, 1976 (this MS with Siglum V).</bibl>
@@ -96,7 +96,7 @@
                                 <locus from="126v" to="128v">126v-128v</locus>
                                 <locus from="137r" to="137v">137r-v</locus>
                             </locusGrp>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <title>Tractatus contra Iudaeos</title>
                             <rubric>Fulberti episcopi contra iudeos</rubric>
                             <incipit>Alii <note>(for Filii)</note> inquit iudaeorum dicunt non est mirum</incipit>
@@ -167,7 +167,7 @@
                         </msItem>
                         <msItem>
                             <locus from="153r" to="155v">153r-155v</locus>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <title>Sermones ad populum<note> (Sermones II, I, III, V - abridged)</note></title>
                             <incipit>Fratres credo quod omnes qui praesenti basilica</incipit>
                             <explicit>ubi christus uirginem uirgini discipulo iohanni<note> (last few words erased)</note>.</explicit>
@@ -176,7 +176,7 @@
                         </msItem>
                         <msItem>
                             <locus from="156r">156r</locus>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <note type="title">Carmen</note>
                             <incipit>Sapiens cum genitore suo salomon</incipit>
                         </msItem>
@@ -197,7 +197,7 @@
                                 <locus from="161r" to="162r">161r-162r</locus>
                                 <locus from="156r" to="156v">156r-v</locus>
                             </locusGrp>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <title>Sermones ad populum<note> (Sermo VII - excerpt)</note></title>
                             <incipit>Quia deus unus est in trinitate. Moyses in principio fecit deus caelum ... <note> (156r) </note>Christus ait gaudium est angelis</incipit>
                             <explicit><note> (162r) </note>et dolores nostros ipse portauit; <note>(156v) </note>indulgentiam mox habebit.</explicit>
@@ -208,7 +208,7 @@
                                 <locus from="157v" to="158v"></locus>
                                 <locus from="159v" to="160v"></locus>
                             </locusGrp>
-                            <author ref="#fulbert_of_chartres">Fulbert of Charter</author>
+                            <author ref="#fulbert_of_chartres">Fulbert of Chartres</author>
                             <note type="title">Carmina (149-151, 135, 137-139, 132, 140-141 with headings: De pace, Eiusdem de virtutibus etc.</note>
                             <incipit>Sanctum simpliciter patrem cole pauperum caterua</incipit>
                         </msItem>
@@ -228,8 +228,7 @@
                     <physDesc>
                         <objectDesc form="fascicle">
                             <supportDesc material="perg">
-                                <collation>Predominantly quaternios originally without quire marks. (129-136), f. 137 singleton (belongs after f. 127), (138-145, 146-153, 154-161?) The current quiremarks a-x from the beginnign of the manuscript were added in the 17th c.</collation>
-                                
+                                <collation>Predominantly quaternios originally without quire marks. (129-136), f. 137 singleton (belongs after f. 127), (138-145, 146-153, 154-161?) The current quiremarks a-x from the beginning of the manuscript were added in the 17th c.</collation>
                             </supportDesc>
                             <layoutDesc>
                                 <layout ruledLines="25">25 long lines</layout>

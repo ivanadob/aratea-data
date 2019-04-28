@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Vatican, Biblioteca Apostolica Vaticana, Urb.lat.674</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-04-19"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="urb_lat_674">
+                <msIdentifier>
+                    <settlement>Vatican</settlement>
+                    <repository>Biblioteca apostolica vaticana</repository>
+                    <idno>Urb. lat. 674</idno>                    
+                </msIdentifier>
+                <head>
+                    <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                    <note type="aratea"><rs type="text" ref="#text__avienus.xml">Lemmata to Avienus' Aratea</rs></note>
+                    <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/view/MSS_Urb.lat.674">DigiVatLib</ref></note>
+                </head>
+                <msContents>
+                    <p>
+                        1r-2r: Dionysius Periegetes, sec. II Orbis terrae descriptio - Interpretatio latina Prisciani Caesariensis - Excerptum
+                        4v-22v: Dionysius Periegetes, sec. II Orbis terrae descriptio - Interpretatio latina Prisciani Caesariensis
+                        
+                        23r: Lemmata in Arati Phaenomena latine versa a Rufo Festo Avieno
+                        23v: Avianus, sec. IV-V Epistula ad Theodosium cum glossis et scholiis
+                    </p>
+                </msContents>
+                <additional>
+                    <listBibl>
+                        <bibl>Haye, Thomas. Das lateinische Lehrgedicht im Mittelalter: Analyse einer Gattung. Mittellateinische Studien und Texte 22. Leiden: Brill, 1997, pp. 302-303.</bibl>
+                        <bibl>Reeve, Michael D. ‘Aratea’. In Texts and Transmission. A Survey of the Latin Classics, 18–25, 1983, p. 20.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

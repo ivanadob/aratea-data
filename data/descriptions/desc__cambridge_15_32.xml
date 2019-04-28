@@ -22,7 +22,7 @@
                 <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
-       <revisionDesc status="comoplete">
+       <revisionDesc status="complete">
           <change when="2018-06-01"/>
        </revisionDesc>
     </teiHeader>
@@ -100,7 +100,7 @@
                   <p>The Calendar section on pp. 13-26 was written in <origPlace ref="#new_minster">New Minster</origPlace> near <rs type="place" ref="#winchester">Winchester</rs> most probably in mid 1030s. On p.17 for the 27th March is noted <quote>Resurrectio christi</quote>, which was true for the year 1036. Robinson also observed a cross in hard point for the year 1036 in the Paschal tables on pp. 32-5. Usually such makring points the following Easter and in this case would suggest that pp. 13-26 were written between Easter 1035 and Easter 1036.</p>
                </origin>
                <provenance>
-                  <p>The MS was transferred from <rs type="corporate" ref="hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157. At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
+                  <p>The MS was transferred from <rs type="corporate" ref="hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157 as: <quote>Astrologia abbonis monachi et in eodem libro astrologia Nignn <supplied>(Higini)</supplied> philosophi astrologia Marciani capelle Compotus helperici doctissimi et figuraciones signorum abbonis</quote> (James, p. 329). At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
                   <p>The two MS parts were united in their present form in the 11th c. Bishop points to additions (filling text) on the first folio of the fourth quire (p. 37-38) which was probably initially left blank as the opening of a separate booklet. The unfinished table of the cyclus decemnovennalis on the first unpaginated page is written by an 11th c. hand.</p>
                </provenance>
                <acquisition>
@@ -110,9 +110,9 @@
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                  <bibl>T. A. M. Bishop. “Notes on Cambridge Manuscripts. Part II.” <title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
-                  <bibl>Gneuss, H. <title>Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note>
-                        </bibl>
+                  <bibl>Bishop, T. A. M. “Notes on Cambridge Manuscripts. Part II.” <title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
+                  <bibl>Gneuss, H. <title>Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note></bibl>
+                  <bibl>James, Montague Rhodes. <ref target="http://archive.org/details/ancientlibraries00jame">The Ancient Libraries of Canterbury and Dover. The Catalogues of the Libraries of Christ Church Priory and St. Augustine’s Abbey at Canterbury and of St. Martin’s Priory at Dover.</ref> Cambridge: CUP, 1903.</bibl>
                   <bibl>Morgan, N. and Panayotova, S. (eds.) with the assistance of Rebecca Rushforth. <title>Illuminated Manuscripts in Cambridge : A Catalogue of Western Book Illumination in the Fitzwilliam Museum and the Cambridge Colleges</title>. Part 4, The British Isles, 2 vols. (London, 2013), vol 1. no. 34.</bibl>
                   <bibl>Ker, Neil. R. Medieval libraries of Great Britain: a list of surviving books. London: Offices of the Royal Historical Society, 1941.</bibl>
                   <bibl>McGurk, P. "The Astronomical Section," in <title>An Eleventh-Century Anglo-Saxon Illustrated Miscellany</title>, ed. P. McGurk, Early Engilsh Manuscripts in Facsimile 21 (Copenhagen, 1983), 67-70.</bibl>

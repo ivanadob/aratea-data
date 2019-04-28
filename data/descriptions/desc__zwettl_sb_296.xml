@@ -70,16 +70,14 @@
                <origin>
                   The manuscript was written in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
                   </origDate> (based on the palaeographical examination) in the <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>.
-                  <p>Ferner showed that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of  Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MSS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>.</p>
+                  <p>Ferner demonstrated that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of MS Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MSS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>.</p>
                </origin>
                <provenance>
-                  <persName/>
-                  <settlement>Zwettl</settlement>
-                  <tei:geo xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+                  <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>
                </provenance>
             </history>
             <msPart>
-               <altIdentifier type="internal">
+               <altIdentifier type="partial">
                   <idno>Codicological unit 1</idno>
                </altIdentifier>
                <msContents>
@@ -171,7 +169,7 @@
                </msContents>
             </msPart>
             <msPart>
-               <altIdentifier type="internal">
+               <altIdentifier type="partial">
                   <idno>Codicological unit 2</idno>
                </altIdentifier>
                <msContents>
