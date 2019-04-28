@@ -69,7 +69,7 @@
                                     <width>185</width>
                                 </dimensions>
                             </extent>
-                            <collation>According to Juste the second codicological part consists of quaterniones: ff. 56-63, 64-71, 72-79, 80-87 and 88-95.</collation>
+				<collation>According to Munk Olsen the manuscript consists predominantly of quaterniones with the exception of ff. 1-4 (bifolium), 29-38 (quinio), 47-55 (quinio missing one after 9) (Munk Olsen). Juste confirms that the second codicological part consists of quaterniones: ff. 56-63, 64-71, 72-79, 80-87 and 88-95. Munk Olsen distinguished seven homogene units of the same origin: ff. 1-4, 5-20, 21-28, 29-38, 39-46, 47-55 and 56-95.</collation>
                             <condition>Missing one quire between ff. 63 and 64.</condition>
                         </supportDesc>
                         <layoutDesc>
@@ -81,19 +81,20 @@
                     </scriptDesc>
                 </physDesc>
                 <history>
-                    <origin>The manuscript consists of two contemporary codicological units. There are several suggestions about the place and date of production: <ref type="place" target="#limoges">Limoges area</ref> (Folkerts) more specifically Abbey of Solignac (Borst) or <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace> (Juste) in <origDate notAfter-custom="1001" notAfter="1100">s. XI</origDate> (Gautier-Dalché, Munk Olsen), before <origDate notAfter="1050">1050</origDate> (Borst) or <origDate notBefore="1101" notAfter="1200">s. XII</origDate> (Van de Vyver, Burnett). Meyer Schapiro suggested <origDate when="1097">1097</origDate>, based on a mark made in the calendar in the first codicological part(see a <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1400564/f799.image">note</ref> in the BNF).</origin>
+                    <origin>The manuscript consists of two contemporary codicological units. There are several suggestions about the place and date of production: Southwest of France (Munk Olsen 1985), <ref type="place" target="#limoges">Limoges area</ref> (Folkerts) more specifically Abbey of Solignac (Borst) or <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace> (Juste) in <origDate notAfter-custom="1001" notAfter="1100">s. XI</origDate> (Gautier-Dalché, Munk Olsen), before <origDate notAfter="1050">1050</origDate> (Borst), <origDate notBefore="1101" notAfter="1150">s. XII<hi rend="sup">1</hi></origDate> (Munk Olsen 1985) or <origDate notBefore="1101" notAfter="1200">s. XII</origDate> (Van de Vyver, Burnett).</origin>
                 </history>
                 <additional>
                     <listBibl>
                         <head>Selected Bibliography:</head>
                         <bibl>Juste, David. Les Alchandreana primitifs: Étude sur les plus anciens traités astrologiques latin d’origin arabe (Xe siècle). Leiden: Brill, 2007, pp. 352-355.</bibl>
-                        <bibl>Borst, Arno. Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments. Heidelberg: Winter, 1994.</bibl>
+                        <bibl>Borst, Arno. Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments. Heidelberg: Winter, 1994, p. 118, n. 95.</bibl>
                         <bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>
                         <bibl>Burnett, Charles. ‘Adelard, Ergaphalau and the Science of the Stars’. In Burnett, Magic and Divination in the Middle Ages, 133–45, 1996, esp. p. 141.</bibl>
                         <bibl>Burnett, Charles. ‘L’astronomie à Chartres au temps de l’évêque Fulbert’. In Le temps de Fulbert. Enseigner le Moyen Âge à partir d’un monument, 91–103, 1996, esp. p. 101.</bibl>
                         <bibl>Folkerts, Menso. ‘De Artithmetics Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede’. In Essays on Early Medieval Mathematics: The Latin Tradition, (III) 1-30. Aldershot: Variorum, esp. pp. 5-6.</bibl>
                         <bibl>Gautier-Dalché, Patrick. ‘Mappae mundi antérieures au XIIIe s. dans les manuscrits latins de la bibliothèque nationale de France’. Scriptorium 52 (1998): 102–62.</bibl>
                         <bibl>Munk Olsen, Birger. ‘Chronique des manuscrits classiques latins (IXe-XIIe siècles), IV’. Revue d’histoire des textes 30 (2000): 123–88, p. 166.</bibl>
+			    <bibl>Munk Olsen, Birger. L’ étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. II. Catalogue des manuscrits classiques latins copiés du IXe au XIIe siècle: Livius-Vitruvius, Florilèges-Essais de plume. 2 vols. Paris: CNRS, 1985, p. 267.</bibl>
                         <bibl>Van de Vyver, A. ‘Les plus anciennes traductions latines médiévales (Xe-XIe siècles) de traités d’astronomie et d’astrologie’. Osiris 1 (1936): 658–91, esp. pp. 666, 679 (cited as latin 7292 A).</bibl>
                     </listBibl>
                 </additional>
@@ -101,6 +102,10 @@
                     <altIdentifier type="partial">
                         <idno>Part I (ff. 1-55)</idno>
                     </altIdentifier>
+			<msContents>
+				<p>Borst says Teilkopie der Lectiones seu regula conputi (760) auf ff. 21v-22v, 23v, 29r, 30r-31v, 34r.Teilkopie von Lib. comp. wobei es sind die Plinius Stücken. Teilkopie von Ann. lib. auf ff. 19v-20r, 30r, 79r-v, 84r-92v, 94v.</p>
+				<p>Pliny Excerpta on f. 24v, 68v-69r</p>
+			</msContents>
                 </msPart>
                 <msPart>
                     <altIdentifier type="partial">
@@ -191,10 +196,15 @@
                             <note>Interlinear notes from a 14th- or 15th-c hand.</note>
                         </msItem>
                         <msItem>
-                            <locus from="84r" to="95v">84r-95v</locus>
+                            <locus from="84r" to="95v">84r-95v<note> (with additions on ff. 92v-95v)</note></locus>
                             <title ref="#libellus_annalis">Annalis libellus<note> (with omissions)</note></title>
                             <incipit>Quod modis solet annus nominari. Primus modus est de luna</incipit>
                             <explicit>sed ante aures retro respicientes.</explicit>
+				<msItem>
+					<locus from="92r">92r</locus>
+						<author>Cicero</author>
+						<title>Excerpt Primus adest aries</title>
+						</msItem>
                         </msItem>
                         <msItem>
                             <locus from="95v">95v</locus>
