@@ -46,6 +46,8 @@
                <note type="facs">
                         <ref target="http://patrimoine.bm-dijon.fr/pleade/ead.html?c=FR212316101_saintbenigne_D11011086">Bibliothèque municipale de Dijon</ref>
                     </note>
+               <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caelis</rs></note>
             </head>
             <msContents>
                <msItem>

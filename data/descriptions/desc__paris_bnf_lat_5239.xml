@@ -57,7 +57,7 @@
                     <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105419933">gallica.bnf.fr</ref>.</note>
                     <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__scholia_basileensia.xml">Scholia Basileensia</rs></note>
-                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coelis</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caelis</rs></note>
                 </head>                
             <msContents>
                <msItem>

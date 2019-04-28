@@ -37,6 +37,7 @@
                     <origPlace ref="#trier">St. Matthias Abbey in Trier</origPlace>
                     <origDate notBefore="1101" notAfter="1150">XII<hi rend="sup">1</hi>
                   </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">
@@ -764,7 +765,7 @@
                     </msIdentifier>
                     <head>Aratus Latinus</head>
                     <msContents>
-                        <msItem n="10698">  
+                        <msItem class="aratea" n="10698">  
                             <title>Aratus Latinus</title>
                             <msItem>
                                 <locus from="99r">99ra</locus>

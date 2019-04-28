@@ -45,6 +45,7 @@
                     <origPlace ref="#klosterneuburg">Klosterneuburg (?)</origPlace>
                     <origDate notBefore="1186" notAfter="1225">s. XII<hi rend="sup">4/4</hi>s. XIII<hi rend="sup">1/4</hi>
                     </origDate>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_redaction.xml">De signis caelis (redaction)</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -80,7 +81,7 @@
                     </msItem>
                     <msItem>
                         <locus from="64v" to="88r">64v-88r</locus>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="71r">71r</locus>
                             <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
                             <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>

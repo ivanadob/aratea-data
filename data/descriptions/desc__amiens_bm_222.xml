@@ -111,8 +111,8 @@
                     <origPlace ref="#ne_france">North-east France</origPlace>
                     <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
-                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
-                    <note type="facs">Digital facsimile at <ref type="altMS" target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
+                    <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8452179s">gallica.bnf.fr</ref>.</note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -244,9 +244,9 @@
                         <idno>Part 2</idno>
                     </msIdentifier>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="18r" to="18v">18r-18v</locus>
-                            <title ref="#de_signis_coeli">De signis coelis<note>(missing cap. 1-16 and 41)</note>
+                            <title ref="#de_signis_coeli">De signis caeli<note>(missing cap. 1-16 and 41)</note>
                             </title>
                             <incipit>Andromeda habet stellas in capite splendidam I</incipit>
                             <explicit>et ideo anticanis uocatur eo quod contratia sit ca<supplied>ni.</supplied>

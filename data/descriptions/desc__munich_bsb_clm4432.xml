@@ -41,10 +41,13 @@
                     <idno>Clm 4432</idno>
                 </msIdentifier>
                 <head>
-                    <title>Computistical-astronomical miscellanea</title>
-                    <origDate notBefore="1451" notAfter="1500">s. XIV<hi rend="sup">2</hi> (1481)</origDate>
-                    <note type="facsimile">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
+                    <title>Astronomical-computistical collection</title>
+                    <origDate notBefore="1451" notAfter="1500">s. XV<hi rend="sup">2</hi> (1481)</origDate>
+                    <note type="facs">Digitised microfilm at <ref target="http://daten.digitale-sammlungen.de/0004/bsb00048179/images/">BSB Digitale Bibliothek</ref>
                     </note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__anonymus_sangallensis.xml">Anonymus Sangallensis</rs></note>
                 </head>
                 <msContents>
                     <summary/>

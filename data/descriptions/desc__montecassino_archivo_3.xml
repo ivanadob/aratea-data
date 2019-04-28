@@ -41,9 +41,10 @@
                     <idno>3</idno>
                 </msIdentifier>
                 <head>
-                    <title></title>
+                    <title>Astronomical-computistical collection</title>
                     <origDate notBefore="0850" notAfter="0900">s. IX (874-892)</origDate>
-                    <origPlace></origPlace>
+                    <origPlace>Monte Cassino (?)</origPlace>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
                 </head>
                 <msContents>
                     <msItem>

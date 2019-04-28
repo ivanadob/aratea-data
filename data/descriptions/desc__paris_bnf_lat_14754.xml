@@ -48,7 +48,7 @@
                <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
                     </origDate>
                <origPlace ref="#n_france">N. France</origPlace> (<origPlace ref="#chartres">Chartres</origPlace>?)
-               <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
                <note type="facs">Digital facsimile at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105458488">gallica.bnf.fr</ref>.</note>
             </head>            
             <physDesc>

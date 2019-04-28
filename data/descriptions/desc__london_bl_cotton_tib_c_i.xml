@@ -48,7 +48,9 @@
                     <title>Cicero, Aratea with scholiae; Germano-Roman Pontifical</title>
                     <origPlace ref="#peterborough">Peterborough</origPlace>
                     <origDate notBefore="1120" notAfter="1135">1120-1135</origDate>
-                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">BL Digitised Manuscripts</ref>.</note>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_C_I">BL Digitised Manuscripts</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -122,7 +124,7 @@
                             <locus from="5r">5r</locus>
                             <note/>
                         </msItem>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="21r" to="36r">21r-36r</locus>
                             <author ref="#cicero">Cicero</author>
                             <title ref="#aratea_cicero">Aratea</title>
@@ -136,6 +138,7 @@
                                 <incipit>Aries hic existimatur esse qui phrixem</incipit>
                                 <explicit/>
                             </msItem>
+                            <decoNote></decoNote>
                         </msItem>
                     </msContents>
                 </msPart>

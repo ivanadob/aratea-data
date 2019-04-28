@@ -52,7 +52,8 @@
                <origPlace ref="#laon">Laon</origPlace>
                <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi>
                     </origDate>
-               <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8492138z">Digital facsimile at gallica.bnf.fr.</ref>
+               <note type="facs">Digital facsimile at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b8492138z">gallica.bnf.fr.</ref></note>
+               <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
             </head>
             <physDesc>
                <objectDesc form="codex">
@@ -266,10 +267,13 @@
                            Bede followed Genesis for his account of the world, its’s elements and parts. The fragments used by Pliny – that the world is in motion, as it hangs suspended</note>
                      </msItem>
                   </msItem>
-                  <msItem>
+                  <msItem class="aratea">
                      <locus from="26v" to="30v">26v-30v</locus>
                      <author ref="#bede">Ps. Bede</author>
-                     <title ref="#de_signis_coeli">De signis coelis</title>
+                     <title ref="#de_signis_coeli">De signis caeli</title>
+                     <incipit>Helix arcturus maior habet autem in capite</incipit>
+                     <explicit>eo quod contraria sit cani.</explicit>
+                     <deconote></deconote>
                   </msItem>
                   <msItem>
                      <locus from="54v" to="56v">54v-56v</locus>

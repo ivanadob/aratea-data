@@ -44,7 +44,7 @@
                     <title>Computistical-astronomical Collection</title>
                     <origDate notBefore="0841" notAfter="0860">ca. 850</origDate>
                     <origPlace ref="#lotharingia">Lotharingia</origPlace>
-                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli">De signis coeli</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli">De signis caeli</rs></note>
                 </head>
                 <msContents>
                     <msItem class="aratea">

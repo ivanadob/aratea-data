@@ -79,7 +79,9 @@
                     <origPlace ref="#lotharingia">Lotharingia</origPlace>, <origPlace ref="#aachen">Aachen</origPlace>
                     <origDate notBefore="0826" notAfter="0850">s.IX<hi rend="sup">2/4</hi>
                     </origDate>, with later additions (s. X<hi rend="sup">ex</hi> and s. XI<hi rend="sup">in</hi>)
-                    Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_647">British library</ref>
+                    <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_647">British library</ref></note>
+                    <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero, Aratea</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                 </head>                
             <msContents>
                 <msItem>

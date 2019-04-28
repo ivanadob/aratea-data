@@ -65,6 +65,7 @@
                     <title>Boethius, De arithmetica, De musica, RAL and Agrimensores</title>
                     <origPlace ref="#w_germany">West Germany</origPlace>, <origPlace ref="#cologne">Cologne (?)</origPlace>
                     <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
+                    <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref></note>
                 </head>
                 <physDesc>
@@ -219,9 +220,9 @@
                         <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                     </head>
                     <msContents>
-                        <msItem>
+                        <msItem class="aratea">
                             <locus from="49r" to="49v">49r-v</locus>
-                            <title ref="#ral">Revised Aratus Latinus <note>(Excerpt with sections: Perseus, Pleiades, and Lyra)</note>
+                            <title ref="#ral">Revised Aratus Latinus <note>(fragment with sections: Perseus, Pleiades, and Lyra)</note>
                             </title>
                             <incipit>
                                 <gap reason="lacuna"/>inter astra collocatus eo quod iupiter in similitudinem aurei imbris</incipit>

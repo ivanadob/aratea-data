@@ -141,6 +141,8 @@
                     <origPlace ref="#canterbury">Canterbury</origPlace>
                     <origDate notBefore="1026" notAfter="1175">s. XI<hi rend="sup">2/4</hi> (additions s. XII<hi rend="sup">3/4</hi>)</origDate>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Cotton_MS_Tiberius_B_V/1">www.bl.uk</ref>.</note>
+                    <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__cicero.xml">Cicero, Aratea</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat" otherLangs="ang"/>
@@ -249,7 +251,7 @@
                         <incipit>Regionem XII<hi rend="sup">ma</hi> cęli in quam sol cursum suum dirigit</incipit>
                         <explicit>sed christus dominus saluator mundi euertit.</explicit>
                     </msItem>
-                    <msItem>
+                    <msItem class="aratea">
                         <locus from="32v" to="49v">32v–49v</locus>
                         <author ref="#cicero">Cicero</author>
                         <title ref="#aratea_cicero">Aratea</title>                        

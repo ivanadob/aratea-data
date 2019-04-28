@@ -48,7 +48,7 @@
                     <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
-                    <note type="facsimile">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1946622">Leiden University Library, Digital Collections</ref></note>
+                    <note type="facs">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1946622">Leiden University Library, Digital Collections</ref></note>
                 </head>
                 <additional>
                     <listBibl>
