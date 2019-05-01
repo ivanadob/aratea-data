@@ -59,7 +59,8 @@
          </div>
          <div>
             <head>
-               <title>Manuscripts (incomplete!)</title>
+               <title>Manuscripts</title>
+            </head>
                <list>
                   <item><ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref></item>
                   <item><ref target="#desc__bamberg_sb_class_55.xml">Bamberg, Staatsbibliothek, MS Class. 55</ref></item>
@@ -106,10 +107,11 @@
                   <item><ref target="#desc__vienna_onb_12600.xml">Vienna, Österreichische Nationalbibliothek, Cod. 12600</ref></item>
                </list>
                <list>
-                  <head>Post 12th-century MSS</head>
+                  <head>
+                     <title>Post 12th-century MSS (incomplete)</title>
+                  </head>
                   <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3110 (s. XIV)</item>
                </list>
-            </head>
             <p/>
          </div>         
       </body>
