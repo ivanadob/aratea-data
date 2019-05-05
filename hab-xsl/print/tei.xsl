@@ -4,13 +4,26 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 	exclude-result-prefixes="#all"
 	version="2.0">
-	<xsl:variable name="Status">vorlaeufig</xsl:variable>
+	<xsl:variable name="Status"></xsl:variable>
 	<xsl:variable name="showAuthorname">yes</xsl:variable>
+	<xsl:variable name="opac"/>
+	<xsl:variable name="gbv"/>
+	<xsl:variable name="ebdb"/>
+	<xsl:variable name="Piccard-Online"/>
+	<xsl:variable name="cRef-gw-start"/>
+	<xsl:variable name="cRef-gw-end"/>
+	<xsl:variable name="wzma"/>
+	<xsl:variable name="wilc"/>
+	<xsl:variable name="vd16"/>
+	<xsl:variable name="vd17"/>
+	<xsl:variable name="facsimileData"/>
+	<xsl:variable name="startfile"/>
+	<xsl:variable name="imageParameter"/>
 
 	<!-- version: 5.2 /2014/ (c) Herzog August Bibliothek / schassan@hab.de -->
 
 	<!-- falls das Skript lokal genutzt werden soll, bitte folgende Adresse eintragen:  -->
-	<xsl:import href="http://diglib.hab.de/rules/styles/mss/TEI-P5-to-Print/current/param.xsl"/>
+	<xsl:import href="../params/params.xsl"/>
 
 	<xsl:output encoding="UTF-8" indent="no"/>
 	<xsl:strip-space elements="*"/>

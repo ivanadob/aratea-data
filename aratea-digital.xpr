@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>desc2web</String>
+                                        <String>desc2print</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
