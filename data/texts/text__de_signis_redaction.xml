@@ -41,6 +41,8 @@
               <head>
                   <title>Introduction</title>
               </head>  
+              <p>A reworking of the <ref target="#text__de_signis_caeli.xml">De signis caeli</ref> found in three manuscripts.</p> 
+              <p>Incipit: Quidam tamen multa dicunt et alii aliter narasse.</p>
           </div>         
           <div>
               <head>
@@ -55,7 +57,7 @@
                   <title>Manuscripts</title>
               </head>
               <list>
-                  <item><ref target="#desc__zwettl_sb_296.xml">Zwettl, Stiftsbibliothek, Cod. 29</ref>6</item>
+                  <item><ref target="#desc__zwettl_sb_296.xml">Zwettl, Stiftsbibliothek, Cod. 296</ref></item>
                   <item><ref target="#desc__klosterneuburg_sb_685.xml">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></item>
                   <item><ref target="#desc__bav_vat_lat_643.xml">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></item>
               </list>

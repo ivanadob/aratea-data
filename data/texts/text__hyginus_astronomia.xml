@@ -46,11 +46,11 @@
          <div>
             <head>
                <title>Editions</title>
+            </head>
                <listBibl>
                   <bibl>Hyginus. Hygini De Astronomia. Edited by Ghislaine Viré. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Stuttgart: Teubner, 1992.</bibl>
                   <bibl>Hyginus. L’astronomie. Edited by André LeBoeuffle. 2nd ed. Collection Des Universités de France. Paris: Les Belles Lettres, 2002.</bibl>
                </listBibl>
-            </head>
             <listBibl>
                <bibl>Text online at <ref target="http://latin.packhum.org/loc/899/1/0#0">Classical Latin Texts (The Packard Humanities Institute)</ref></bibl>
                <bibl>Text online at <ref target="http://www.thelatinlibrary.com/hyginus.html">The Latin Library</ref></bibl>

@@ -31,8 +31,7 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p>Following to some extant Germanicus’ methodology,<rs type="person" ref="#avienus">Rufus Festus Avienus</rs> translated the poem once more into Latin in the 4th c. AD. It is the only Latin translation preserved in extenso that contains both the first and the second part of the poem. Avienus elaborated on the original work using <rs type="person" ref="#hipparchus">Hipparchus</rs>’ commentary and the <title>Catasterisms</title>. His style has been characterized as verbose which can be explained by the dominant literary tastes of his time and by the translator’s desire to say more than his model. In terms of figures, the 757 verses in Aratus’ first part correspond to 1383 verses in Avienus’. In the second part dealing with weather signs, however, the two versions are almost equal in size (422 verses and 553 verses respectively).</p>
-               <p>In conclusion,<rs type="person" ref="#cicero">Cicero</rs>’s translation followed the Greek original closely and seems to have intended mainly to “translate” the Greek charm of the poem. <rs type="person" ref="#germanicus">Germanicus</rs>’ and <rs type="person" ref="#avienus">Avienus</rs>’ translations were probably meant to be “scientifically” up-to-date and emended versions of the original.</p>
+            <p>Following to some extant Germanicus’ methodology, <rs type="person" ref="#avienus">Rufus Festus Avienus</rs> translated the poem once more into Latin in the 4th c. AD. It is the only Latin translation preserved in extenso that contains both the first and the second part of the poem. Avienus elaborated on the original work using <rs type="person" ref="#hipparchus">Hipparchus</rs>’ commentary and the <title>Catasterisms</title>. His style has been characterized as verbose which can be explained by the dominant literary tastes of his time and by the translator’s desire to say more than his model. In terms of figures, the 757 verses in Aratus’ first part correspond to 1383 verses in Avienus’. In the second part dealing with weather signs, however, the two versions are almost equal in size (422 verses and 553 verses respectively).</p>
          </div>
          <div>
             <head>
@@ -53,7 +52,7 @@
                   <bibl>Daigl, Nikolaus. Avienus: Studien Über Seine Sprache, Seine Metrik Und Sein Verhältnis Zu Vergil. Erlangen: Junge &amp; Sohn, 1903.</bibl>
                   <bibl>Fiedler, Martin. Kommentar zu V. 367-746 von Aviens Neugestaltung der Phainomena Arats. Walter de Gruyter, 2004.</bibl>
                   <bibl>Jean Soubiran. “Sur Les Deux Manuscrits d’Aviénus.” Revue de Philologie, de Littérature et d’Histoire Anciennes 49 (1975): 217–26.</bibl>
-                  <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. http://hdl.handle.net/11375/14244.</bibl>
+               <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. <ref target="http://hdl.handle.net/11375/14244">http://hdl.handle.net/11375/14244</ref>.</bibl>
                   <bibl>Martin Friedler. “Postumius Rufinus Festus Signo Avienus 1900-2011.” Lustrum 53 (2011): 233–93.</bibl>
                   <bibl>Sieg, Gustavus. De Cicerone Germanico Avieno Arati Interpretibus (Dissertatio Inauguralis). Halle, 1886.</bibl>
                   <bibl>Weber, Dorothea. Aviens Phaenomena, eine Arat-Bearbeitung aus der lateinischen Spätantike. Wien: VWGÖ, 1986.</bibl>

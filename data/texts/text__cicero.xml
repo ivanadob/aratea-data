@@ -42,12 +42,15 @@
                <p>On the first place let us observe the general information about the creation of the translation. <rs type="person" ref="#aratus">Aratus</rs>’ Phaenomena constitutes of 1154 verses divided in two main part preceded by a proemium. The first part examined the constellations, their relative position in respect to each other, the celestial circles, the simultaneous rising and setting of constellations, while the second part is devoted to the signs used for weather forecast. From this translation today we posses one verse from the premium, 480 verses from the first part, and another six fragment or 27 verses from the second part. In the modern edition of the Aratea these sections are conveniently placed together, but the medieval tradition of it incorporated solely the 480 verses from the first part. As it is found in all manuscripts, the text starts with the end of the description of the constellation Aries and continues till the end of the first part. The obvious conjecture is that during its early life the poem suffered a serious physical damage resulting in the lost of the first 229 verses which included the proemium and the text describing the first eighteen constellations from the northern hemisphere.</p>
                <list>
                   <item>Proemium (only one verse fragment from DND, Aratus vv.1-18)</item>
-                  <item>I. Phaenomena, map of the heavenly sphere</item>
-                  <item>1) Northern constellations (starting from Aries Cicero’s vv.1-101 = Aratus vv.19 (Aries:229-)320)</item>
-                  <item>2) Southern constellations (Cicero vv.102-222 = Aratus’ vv. 320-453)</item>
-                  <item>3) Planets (Cicero vv.223-236, Aratus vv.454-461)</item>
-                  <item>4) Circles (Cicero vv.237-340 = Aratus vv.462-558)</item>
-                  <item>5) Simultaneous rising and setting of constellations (Cicero vv.341-480 = Aratus vv.559-757)</item>
+                  <item>I. Phaenomena, map of the heavenly sphere
+                  <list>
+                     <item>1) Northern constellations (starting from Aries Cicero’s vv.1-101 = Aratus vv.19 (Aries:229-)320)</item>
+                     <item>2) Southern constellations (Cicero vv.102-222 = Aratus’ vv. 320-453)</item>
+                     <item>3) Planets (Cicero vv.223-236, Aratus vv.454-461)</item>
+                     <item>4) Circles (Cicero vv.237-340 = Aratus vv.462-558)</item>
+                     <item>5) Simultaneous rising and setting of constellations (Cicero vv.341-480 = Aratus vv.559-757)</item>
+                  </list>
+                  </item>
                   <item>II. Diosemeia, (Cicero’s Prognostics), signs of good and bad weather (only 6 fragments, Aratus vv.758-1154)</item>
                </list>
                <p>Although today only fragments of the second part, the Prognostics have survived, it is very likely that Cicero translated this part in whole. Evidences for that are his own words in a letter addressed to Atticus, where one reads “expect very soon my Prognostics and some short speeches.”3 This letter, however, was written in June 60 BC, which poses a problem for the general chronology of translating the Phaenomena. Jean Soubiran, who edited the text, suggested three hypotheses: a) that the whole poem was translated in 89 BC b) that the whole poem was translated in 89 BC but in 60 BC the second part was revised c) that in 89 BC only the first part was translated, while the second part, the Diosemeia, was rendered only thirty years later in 60 BC.4 Whatever the case it is evident that by the year 60 BC Cicero was able to send a copy of his Prognostics and by the year 44 BC he incorporated fragment from it in his De divinatione.</p> 
@@ -68,7 +71,7 @@
          </div>
          <div>
             <head>
-               <title>Literature</title>
+               <title>Selected Literature</title>
             </head>
             <listBibl>
                <bibl>Bing, Peter. “Aratus and His Audiences.” Materiali e Discussioni 31 (1993): 99–109.</bibl>
@@ -93,6 +96,7 @@
          <div>
             <head>
                <title>Manuscripts</title>
+            </head>
                <list xml:id="cicero__msslist">
                   <item><ref target="#desc__cambridge_15_32.xml">Cambridge, Trinity College, MS R 15.32</ref></item>
                   <item><ref target="#desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
@@ -112,7 +116,6 @@
                   <item>Vatican, Biblioteca apostolica vaticana, Ottob. lat. 6 (s. XI)</item>
                   <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 290 (s. XI)</item>
                </list>
-            </head>
             <!--            Under Cicero's name, i.e. with rubrics mentioning Cicero as author : Harley 647 and Tib. C. I. (Ex opere Ciceronis de astronomia) and in Dresden (according to Soubiran on f. 94r with rubric: Incipiunt versus Ciceronis des signis. Primitus de ariete), Tib. B.V and harley 2506, Cambridge no rubrics mentioning Cicero. -->
          </div>
       </body>

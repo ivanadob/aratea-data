@@ -31,7 +31,7 @@
             <head>
                <title>Introduction</title>
             </head> 
-            <p>Scholia Basileensia received their named after the manuscript Basel, Universitätsbibliothek, AN IV 18. They are an abbreviated translation of the Catasterisms of Pseudo-Erathostenes. Lactantius (fl. 4th c.) quoted them three times, which provides a terminus ante quem for their composition.</p>
+            <p>Scholia Basileensia received their named after the manuscript Basel, Universitätsbibliothek, AN IV 18. They are an abbreviated translation of the Catasterisms of Pseudo-Erathostenes that served as scholia to Germanicus' Aratea. Lactantius (fl. 4th c.) quoted them three times, which provides a terminus ante quem for their composition.</p>
             <p>Incipit: Quaeritur quare ab Ioue coepit et non a musis ut Homerus</p>
             <p>Explicit: et ostendisse lacte mirate effusum est circuli albi species.</p>
          </div>
@@ -39,7 +39,10 @@
             <head>
                <title>Editions</title>
             </head>
-            <p/>
+            <listBibl>
+               <bibl>Dell’Era, Antonio, ed. ‘Gli Scholia Basileensia a Germanico’. In Atti della Accademia Nazionale dei Lincei. Memorie, Classe di Scienze morali, storiche e filologiche. Ser. 8, Bd. 23, Fasc. 4, 301–79. Romе, 1979.</bibl>
+               <bibl>Robert, Karl, ed. Eratosthenis Catasterismorum reliquiae. Berlin: Weidmann, 1878, pp. <ref target="https://archive.org/details/eratostheniscat00eratgoog/page/n62">50</ref>-<ref target="https://archive.org/details/eratostheniscat00eratgoog/page/n210">199</ref>. <note>(as 'Schol. Germ', based on MSS Paris, BNF, lat. 7886 and Basel, Universitätsbibliothek, AN IV 18)</note>.</bibl>
+            </listBibl>
          </div>
          <div>
             <head>

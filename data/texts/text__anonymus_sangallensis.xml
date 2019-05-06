@@ -45,10 +45,9 @@
          <div>
             <head>
                <title>Editions</title>
-               <bibl>
-                        <abbr>Maass</abbr>, pp. 595-601.</bibl>
-               <bibl>Hadravova, A. The Second Vatican Mythographer. The Newly Identified Manuscripts from the National Library in Prague. Prague, 2017, 323-331.</bibl>
             </head>
+            <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, pp. 595-601.</bibl>
+               <bibl>Hadravova, A. The Second Vatican Mythographer. The Newly Identified Manuscripts from the National Library in Prague. Prague, 2017, 323-331.</bibl>
             <p/>
          </div>
          <div>
@@ -56,8 +55,7 @@
                <title>Literature</title>
             </head>
             <listBibl>
-               <bibl>
-                        <abbr>Le Bourdellès (1985)</abbr>, pp. 84-85.</bibl>
+               <bibl>Le Bourdellès, Hubert. L’Aratus Latinus: étude sur la culture et la langue latines dans le Nord de la France au VIIIe siècle. Travaux et recherches. Lille: Université de Lille III, 1985, pp. 84-85.</bibl>
                <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
             </listBibl>
          </div>
@@ -73,9 +71,9 @@
                <item><ref target="#desc__munich_bsb_clm4432.xml">Munich, Bayerische Staatsbibliothek, Clm 4432</ref></item>
                <item>Budapest, University Library, Lat. 21 (ff. 1r-75r)</item>
                <item>Venice, Biblioteca Nazionale Marciana, Lat. X, 119 (ff. 62v-65r)</item>
-               <item>Bergamo, Biblioteca civica Angelo Mai, MA 329 (s. XV) (ff. 59r-62r</item>
+               <item>Bergamo, Biblioteca civica Angelo Mai, MA 329 (s. XV) (ff. 59r-62r)</item>
             </list>
-            <p>In Leiden, UB, VLQ 75 and Munich, BSB, Clm 14569 (ff. 29r-32v) only More christiano.</p>
+            <p>In Leiden, UB, VLQ 75 and <ref target="#desc__munich_bsb_clm14569.xml">Munich, BSB, Clm 14569</ref> (ff. 29r-32v) only More christiano.</p>
          </div>
       </body>
    </text>

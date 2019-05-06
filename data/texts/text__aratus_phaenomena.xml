@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aratus: Phaenomena (WORK IN PROGRESS)</title>
+            <title>Aratus: Phaenomena</title>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -26,7 +26,10 @@
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc>      
+      <revisionDesc status="draft">
+         <change when="2019-05-06"></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -34,7 +37,7 @@
             <head>
                <title>Introduction</title>
             </head>            
-            <p>The <foreign>Phaenomena</foreign> (literally “Things that appear”) is a didactic poem comprising 1154 hexameters composed by the poet Aratus of Soli (ca. 315/310 – 240 BC). It can be divided into two parts which follow an introductory hymn to Zeus (1-18): a description of the constellations and the circles, later called <foreign>Phaenomena</foreign> (19-558), and the <foreign>Diosemeia</foreign> which deals with weather-signs and gives advices on how to “read” them (559-1154). For both parts Aratus used technical works written in prose, probably those by Eudoxus and Theophrastus. His didactic poem was highly influenced by and shaped in correspondence to Hesiod’s <foreign>Works and Days</foreign>. Its poetic form made it extremely popular for centuries. Even Hipparchus, who wrote his <foreign>Commentary on the Phaenomena of Eudoxus and Aratus</foreign> (Τῶν Ἀράτου καὶ Εὐδόξου φαινομένων ἐξήγησις) a century later demonstrating its mistakes, could not dissuade people from reading, or rather falling for the charm (<foreign>charis</foreign>) of Aratus’ verses.</p>
+            <p>The <foreign>Phaenomena</foreign> (literally “Things that appear”) is a didactic poem comprising 1154 hexameters composed by the poet Aratus of Soli (ca. 315/310 – 240 BC). It can be divided into two parts which follow an introductory hymn to Zeus (1-18): a description of the constellations and the circles, later called <foreign>Phaenomena</foreign> (19-558), and the <foreign>Diosemeia</foreign> which deals with weather-signs and gives advice on how to “read” them (559-1154). For both parts, Aratus used technical works written in prose, probably those by Eudoxus and Theophrastus. His didactic poem was highly influenced by and shaped in correspondence to Hesiod’s <foreign>Works and Days</foreign>. Its poetic form made it extremely popular for centuries. Even Hipparchus, who wrote his <foreign>Commentary on the Phaenomena of Eudoxus and Aratus</foreign> (Τῶν Ἀράτου καὶ Εὐδόξου φαινομένων ἐξήγησις) a century later demonstrating its mistakes, could not dissuade people from reading, or rather falling for the charm (<foreign>charis</foreign>) of Aratus’ verses.</p>
             <p>The archaic style of the work, on the other hand, made it an elite text, as Richard Hunter [1995] observed, and thus created the need for a companion to the <foreign>Phaenomena</foreign>. Such a work is Pseudo-Eratosthenes’ <foreign>Catasterisms</foreign>. This commentary is a simplified version of an original work of Eratosthenes that was rearranged in such a way as to fit the order of the constellations presented in the Phaenomena. Thus this manual consists of 44 chapters one for each constellation discussed by Aratus, providing further information on the myths. Both Hipparchus and Pseudo-Eratosthenes commentaries or corrections were later used and introduced into the text of the Latin translations of Germanicus and Avienus as well as a source for Hyginus (ca. 64 BC –17 AD) who borrowed from them for his <foreign>De astronomia</foreign>.</p>
          </div>
          <div>
@@ -45,12 +48,12 @@
                <bibl>Aratus. Aratus, Phaenomena. Edited by Douglas A. Kidd. Cambridge: CUP, 1997.</bibl>
                   <bibl>———. Phainomena: Griechisch - Deutsch. Edited by Manfred Erren. 2nd ed. Berlin: De Gruyter, 2011.</bibl>
                   <bibl>———. Phénomènes. Edited by Jean Martin. 2 vols. Paris: Belles Lettres, 1998.</bibl>
-                  <bibl>Callimachus, Lycophron, and Aratus. Callimachus: Hymns and Epigrams, Lycophron and Aratus. Translated by A. W. Mair and G. R. Mair. Cambridge: Harvard University Press, 1921. http://www.theoi.com/Text/AratusPhaenomena.html.</bibl>
+               <bibl>Callimachus, Lycophron, and Aratus. Callimachus: Hymns and Epigrams, Lycophron and Aratus. Translated by A. W. Mair and G. R. Mair. Cambridge: Harvard University Press, 1921. <ref target="http://www.theoi.com/Text/AratusPhaenomena.html">http://www.theoi.com/Text/AratusPhaenomena.html</ref>.</bibl>
                <bibl>Eratosthenes. Eratòstenes de Cirene, Catasterismes. Edited by Jordi Pàmias i Massana. Barcelona: Fundació Bernat Metge, 2004.</bibl>
                   <bibl>———. Ératosthène de Cyrène: Catastérismes. Edited by Jordi Pàmias i Massana and Arnaud Zucker. Collection Des Universités de France [Collection Des Universités de France / Série Grecque] . - Paris : Les Belles Lettres, 1946- 497. Paris: Les Belles Lettres, 2013.</bibl>
                   <bibl>———. Eratosthenes, Sternsagen (Catasterismi). Edited by Jordi Pàmias and Klaus Geus. Bibliotheca classicorum 2. Oberhaid: Utopica, 2007.</bibl>
                   <bibl>———. Eratosthenis Catasterismorum reliquiae. Edited by Karl Robert. 2nd ed. Berolini: Weidmann, 1963.</bibl>
-               <bibl>Hipparchus. Des Hipparchos Kommentar zu den ‘Himmelserscheinungen’ des Aratos und des Eudoxos. Edited by Karl Manitius. Leipzig: Teubner, 1894.</bibl>
+               <bibl>Manitius, Karl (ed.) <ref target="http://archive.org/details/McGillLibrary-hssl_hipparchou-ton-aratou_QB41H561894-18575">Hipparchi in Arati et Eudoxi Phaenomena commentariorum libri III</ref>. Leipzig: Teubner, 1894.</bibl>
             </listBibl>
          </div>
          <div>

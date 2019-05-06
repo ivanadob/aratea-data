@@ -52,7 +52,7 @@
                <title>Editions</title>
             </head>
             <listBibl>
-               <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In <title>Studi Medievali</title> ser. 3, 20:1 (1979): 269-302.</bibl>
+               <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In Studi Medievali ser. 3, 20:1 (1979): 269-302.</bibl>
                <bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>
                <bibl>Germanicus. Germanici Caesaris Aratea cum scholiis. Edited by Alfred Breysig. Berlin 1867 (reprint Hildesheim: Olms, 1967), pp. <ref target="https://archive.org/details/germanicicaesar01breygoog/page/n306">233</ref>-238<note> under the title "Scholia bernensia" after <ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref>.</note></bibl>
                <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, pp. <ref target="https://archive.org/details/Maass1898/page/n657">582</ref>-594<note> (using Monte Cassino and the previous two editions)</note>.</bibl>
@@ -69,7 +69,6 @@
             <head>
                <title>Manuscripts</title>
             </head>
-            <p>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</p>
                <list xml:id="de_signis_caeli__msslist">
                   <item><ref target="#desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
                   <item><ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>
@@ -94,6 +93,7 @@
             <list>
                <head>Lost manuscripts</head>
                <item>Vatican, Bibliotheca Apostolica Vaticana, Pal. lat. 1417 <ref target="https://digi.vatlib.it/mss/detail/Pal.lat.1417">online</ref> (s. XI<hi rend="sup">mid</hi>). Today the manuscript contains only the <title ref="#liber_nimrod">Liber Nimrod</title> (ff.1r-19v), but the 15th c. table of content on the bottom of f. <ref target="https://digi.vatlib.it/view/MSS_Pal.lat.1417/0003">1r</ref> lists: <quote>Libellus pulcer Besde de situ et dispositione stellarum et signorum coeli; libellus seu tractatus Ptolemei regis ad sciendum horas diei et noctis; tractatus de distinctione climatum mundi et de terminis VII climatum</quote>. According to Livesey Rouse (‘Nimrod the Astronomer’, Traditio 37 (1981): 203–66) this MS belongs to the German family of Liber Nimrod and was copied in the first half of the eleventh century.</item>
+               <item>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</item>
             </list>
          </div>
       </body>
