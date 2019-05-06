@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
+                <title type="main">Aratea Digital</title>
             <title type="sub">Vienna, Österreichische Nationalbibliothek, Cod. 12600</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
@@ -117,7 +115,7 @@
                         <p>How the manuscript arrived in Vienna is unclear. Boeckler suggested that the manuscript might have been part of the library of<rs type="person" ref="#caspar_von_nidbruck">Caspar von Nidbruck</rs>, who served as a <foreign>kaiserlicher Rat</foreign> in the court of Maximilian the II and Ferdinand the I. He bequeathed large part of his collection in Regensburg to serve the Reformation. Since many of his books were obtained from austrian monasteries, after his death Vienna asked for the books back. Boeckler considered it plausible that on that occasion our manuscript was mistaken as an austrian book and transferred to Vienna. To strengthen this hypothesis, Boeckler argued that Caspar von Nidbruck might have borrowed the manuscript from Regensburg, so that it was later found among his collection.</p>
                     </provenance>
                     <provenance>
-                        <p>According to Hermann once in<rs type="place">Vienna</rs> the manuscript belong to the antiquarian <rs type="person" ref="#matthaeus_kuppitisch">Kuppitsch</rs>. Upon his death in <date when="1849">1849</date> it became part of the 'Neuer Fond' which includes manuscripts of the Hofbibliothek bought from or donated by <rs type="person" ref="#hammer_purgstall">Hammer-Purgstall</rs>.</p>
+                        <p>According to Hermann once in <rs type="place">Vienna</rs> the manuscript belong to the antiquarian <rs type="person" ref="#matthaeus_kuppitisch">Kuppitsch</rs>. Upon his death in <date when="1849">1849</date> it became part of the 'Neuer Fond' which includes manuscripts of the Hofbibliothek bought from or donated by <rs type="person" ref="#hammer_purgstall">Hammer-Purgstall</rs>.</p>
                     </provenance>
                 </history>
                 <additional>
@@ -196,7 +194,7 @@
                         </msItem>
                         <msItem>
                             <locus from="14v" to="16v">14v-16v</locus>
-                            <note type="title">Excerpts from<title ref="#libri_computi">Libri computi</title> (III.2-9, 14; IV.10)</note>
+                            <note type="title">Excerpts from <title ref="#libri_computi">Libri computi</title> (III.2-9, 14; IV.10)</note>
                             <rubric>De anno et partibus eius</rubric>
                             <rubric>Quot athomos habet annus vel partes eius</rubric>
                             <rubric>Quot modis soleat annus nominari</rubric>
@@ -212,7 +210,7 @@
                             <locus from="16v" to="17v"/>
                             <author ref="#pliny">Pliny</author>
                             <title ref="#pliny_excerpt_presagiis">De praesagiis tempestatum</title>
-                            <note>Possibly taken from the<title ref="#libri_computi">Libri computi</title> (V.12), but corrected agains a copy of Pliny's <title>Naturalis historia</title> (<bibl>
+                            <note>Possibly taken from the <title ref="#libri_computi">Libri computi</title> (V.12), but corrected agains a copy of Pliny's <title>Naturalis historia</title> (<bibl>
                                     <abbr>Borst, Schriften</abbr>, Vol. 1, p. 316</bibl>).</note>
                             <incipit>Qui tempestatum serenitatisue presagia inuestigare et depraehendere nititur his indicis innitatur. Sol oriens sed non feruens serenum</incipit>
                             <explicit>sudorem repositorus reliquentia diras tempestates prenuntiant.</explicit>
@@ -221,7 +219,7 @@
                         </msItem>
                         <msItem>
                             <locus from="18r" to="18v">18r-v</locus>                            
-                            <note type="title">Text on geometry and on the distances between planets. Excerpt from<rs type="person" ref="#cassiodorus">Cassiodor</rs>'s <title ref="#institutiones">Institutiones</title>, followed by an excerpts from <rs type="person" ref="#censorinus">Censorinus</rs>' <title ref="#de_die_natali">De die natali</title>.</note>
+                            <note type="title">Text on geometry and on the distances between planets. Excerpt from <rs type="person" ref="#cassiodorus">Cassiodor</rs>'s <title ref="#institutiones">Institutiones</title>, followed by an excerpts from <rs type="person" ref="#censorinus">Censorinus</rs>' <title ref="#de_die_natali">De die natali</title>.</note>
                             <msItem>
                                 <author ref="#cassiodorus">Cassiodor</author>
                                 <title ref="#institutiones">Institutiones<note> Lib. II,6</note>
@@ -382,7 +380,7 @@
                         <msItem>
                             <locus from="42r" to="97r"/>
                             <author ref="#bede">Bede</author>
-                            <title ref="DTR">De temporum ratione<note>(ch. 66-71 on ff. 105r-135v)</note>
+                            <title ref="#DTR">De temporum ratione<note>(ch. 66-71 on ff. 105r-135v)</note>
                             </title>
                             <msItem>
                                 <locus from="42r" to="42v">42r-v</locus>
@@ -421,7 +419,7 @@
                         <msItem>
                             <locus from="97r" to="105r">97r-105r</locus>
                             <author ref="#bede">Bede</author>
-                            <title ref="DNR">De natura rerum</title>
+                            <title ref="#DNR">De natura rerum</title>
                             <rubric>Incipit liber bedae de natura rerum</rubric>
                             <msItem>
                                 <note>Capitula.</note>
@@ -434,7 +432,7 @@
                             </msItem>
                             <msItem>
                                 <locus from="97r">97r</locus>
-                                <note>Text:</note>
+                                <note type="title">Text:</note>
                                 <rubric>Incipiunt uersus eiusdem.</rubric>
                                 <incipit>Naturas rerum uarias lanetis et aeui<lb/>Perstrinci titulis tempora lata citis</incipit>
                                 <explicit>atque inde africa a meridie usque ad occidentem extenditur.</explicit>
@@ -460,7 +458,7 @@
                         </msItem>
                         <msItem>
                             <locus from="137r">137r</locus>
-                            <author ref="priscianus">Ps. Priscianus</author>
+                            <author ref="#priscianus">Ps. Priscianus</author>
                             <title ref="#ad_boreae">De sideribus</title>
                             <incipit>Ad boree partes arcti uertuntur et angues</incipit>
                             <explicit>

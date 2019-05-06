@@ -32,7 +32,7 @@
          </sourceDesc>
       </fileDesc>
      <revisionDesc status="draft">
-        <change when="2018-07-22"/>
+        <change when="2019-05-06"/>
      </revisionDesc>
   </teiHeader>
    <text>
@@ -55,9 +55,9 @@
                   <title>Manuscripts</title>
               </head>
               <list>
-                  <item><ref target="desc__zwettl_sb_296">Zwettl, Stiftsbibliothek, Cod. 29</ref>6</item>
-                  <item><ref target="desc__klosterneuburg_sb_685">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></item>
-                  <item><ref target="desc__bav_vat_lat_643">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></item>
+                  <item><ref target="#desc__zwettl_sb_296.xml">Zwettl, Stiftsbibliothek, Cod. 29</ref>6</item>
+                  <item><ref target="#desc__klosterneuburg_sb_685.xml">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></item>
+                  <item><ref target="#desc__bav_vat_lat_643.xml">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></item>
               </list>
           </div>
          

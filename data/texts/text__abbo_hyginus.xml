@@ -31,6 +31,9 @@
             <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-05-06"/>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -52,12 +55,12 @@
                <title>Manuscripts</title>
             </head>
             <list>
-               <item><ref target="desc__paris_bnf_lat_7400A.xml">Paris, Bibliothèque nationale de France, MS lat. 7400A</ref></item>
-               <item><ref target="desc__brussels_br_2194-95.xml">Brussels, Bibliothèque royale, MS 2194-95</ref></item>
-               <item><ref target="desc__cambridge_15_32.xml">Cambridge, Trinity College, MS R 15.32</ref></item>
-               <item><ref target="desc__florence_laur_plut_51_14.xml">Florence, Biblioteca Medicea Laurenziana, Plut. 51. 14</ref></item>
-               <item><ref target="desc__london_bl_royal_13AXI.xml">London, BL, Royal MS 13 A XI</ref></item>               
-               <item><ref target="desc__london_bl_harley_2506.xml">London, British library, Harley 2506</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_7400A.xml">Paris, Bibliothèque nationale de France, MS lat. 7400A</ref></item>
+               <item><ref target="#desc__brussels_br_2194-95.xml">Brussels, Bibliothèque royale, MS 2194-95</ref></item>
+               <item><ref target="#desc__cambridge_15_32.xml">Cambridge, Trinity College, MS R 15.32</ref></item>
+               <item><ref target="#desc__florence_laur_plut_51_14.xml">Florence, Biblioteca Medicea Laurenziana, Plut. 51. 14</ref></item>
+               <item><ref target="#desc__london_bl_royal_13AXI.xml">London, BL, Royal MS 13 A XI</ref></item>               
+               <item><ref target="#desc__london_bl_harley_2506.xml">London, British library, Harley 2506</ref></item>
                <item>Paris, Bibliothèque nationale de France, MS lat. 7518 (?)</item>
                <item>Paris, Bibliothèque nationale de France, MS lat. 17868 (?)</item>
                <item>Leiden BPL 225, - 1-18v Hyginus, 19 excerptum; 19v-23 Abbo's catalogue based on Hyginus (?)ex Pliny and Abbo; 23r-27v treatises a-b; second part ff. 30-67 - S. Iuliani Toletani Prognosticon</item>

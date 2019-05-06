@@ -57,20 +57,20 @@
                <title>Manuscripts</title>
             </head>
             <list xml:id="revised_aratus_latinus__msslist">
-               <item><ref target="desc__brussels_br_5413-22.xml">Brussels, Bibliothèque royale, MS 5413-22</ref></item>
+               <item><ref target="#desc__brussels_br_5413-22.xml">Brussels, Bibliothèque royale, MS 5413-22</ref></item>
                <item>Cologne, Dimbibliothek, Cod. 83 II</item>
-               <item><ref target="desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
+               <item><ref target="#desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref></item>
                <item>Göttweig, Stiftsbibliothek, Cod. 7 (olim 146) (s. XV)</item>
-               <item><ref target="desc__london_bl_harley_3595">London, British Library, Harley 3595</ref></item>
-               <item><ref target="desc__london_bl_cotton_tib_b_v.xml">London, BL, Cotton Tiberius B.V.</ref> (as scholia)</item>
+               <item><ref target="#desc__london_bl_harley_3595">London, British Library, Harley 3595</ref></item>
+               <item><ref target="#desc__london_bl_cotton_tib_b_v.xml">London, BL, Cotton Tiberius B.V.</ref> (as scholia)</item>
                <item>Munich, Bayerische Staatsbibliothek, Clm 560</item>
-               <item><ref target="desc__paris_bnf_lat_12957.xml">Paris, Bibliothèque nationale de France, MS lat. 12957</ref></item>
-               <item><ref target="desc__paris_bnf_nal_176.xml">Paris, Bibliothèque nationale de France, MS NAL 176</ref></item>
-               <item><ref target="desc__paris_bnf_nal_1614.xml">Paris, Bibliothèque nationale de France, MS NAL 1614</ref></item>
+               <item><ref target="#desc__paris_bnf_lat_12957.xml">Paris, Bibliothèque nationale de France, MS lat. 12957</ref></item>
+               <item><ref target="#desc__paris_bnf_nal_176.xml">Paris, Bibliothèque nationale de France, MS NAL 176</ref></item>
+               <item><ref target="#desc__paris_bnf_nal_1614.xml">Paris, Bibliothèque nationale de France, MS NAL 1614</ref></item>
                <item>Prague, Národní knihovna, IX.C.6 (olim 1717)</item>
-               <item>St Gall, Stiftsbibliothek, Cod. 250</item>
+               <item><ref target="#desc__st_gall_sb_250.xml">St Gall, Stiftsbibliothek, Cod. 250</ref></item>
                <item>St Gall, Stiftsbibliothek, Cod. 902</item>
-               <item><ref target="desc__siena_communale_liv25.xml">Siena, Biblioteca comunale, L IV 25</ref> (s. XIV<hi rend="sup">2</hi> / s. XV)</item>
+               <item><ref target="#desc__siena_communale_liv25.xml">Siena, Biblioteca comunale, L IV 25</ref> (s. XIV<hi rend="sup">2</hi> / s. XV)</item>
                <item>Vatican, Biblioteca apostolica vaticana, Reg. lat. 1324 (s. XV)</item>
                <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3109 (s. XV)</item>
             </list>

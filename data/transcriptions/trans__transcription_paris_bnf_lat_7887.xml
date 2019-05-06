@@ -19,7 +19,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>See <ref target="desc__paris_bnf_lat_7887.xml">description</ref>.</p>
+                <p>See <ref target="#desc__paris_bnf_lat_7887.xml">description</ref>.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>

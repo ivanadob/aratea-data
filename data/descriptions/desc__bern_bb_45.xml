@@ -50,7 +50,8 @@
                     <note type="facs">Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0045">e-codices - Virtual Manuscript Library of Switzerland</ref></note>
                     <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                 </head>
-                <msContent>
+                <msContents>
+                    <textLang mainLang="lat"/>
                     <msItem>
                         <locus from="1r">1ra-b</locus>
                         <author ref="#suetonius">Suetonius</author>
@@ -70,7 +71,7 @@
                     <msItem>
                         <locus from="52v" to="59r">52vb-59ra</locus>
                         <author ref="#dracontius">Dracontius</author>
-                        <title ref="orestis_tragoedia">Orestis tragoedia</title>
+                        <title ref="#orestis_tragoedia">Orestis tragoedia</title>
                     </msItem>
                     <msItem class="aratea">
                         <locus from="59r" to="59v">59r-v</locus>
@@ -85,7 +86,7 @@
                         <title>Figurae Graecorum</title>
                         <bibl>Hermann. Scholia Bernensia ad Vergili Bucolica atque Georgica. Leipzig 1867 (Reprint Hildesheim 1967).</bibl>
                     </msItem>
-                </msContent>
+                </msContents>
                 <physDesc>
                     <objectDesc form="fascicle">
                         <supportDesc material="perg">

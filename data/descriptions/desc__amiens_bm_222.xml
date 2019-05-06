@@ -162,7 +162,7 @@
                 <history>
                     <origin>
                         <p>The manuscript was thought to originated from <rs type="place" ref="#corbie">Corbie</rs>. According to David Ganz, who studies the manuscripts produced at Corbie, Amien 222 may have been in Corbie in the 9th c., but it was not written there (see <bibl>Contreni, John J. ‘John Scottus and Bede’. In <title level="m">History and Eschatology in John Scottus Eriugena and His Time</title>. Ed. Michael Dunne and J. J. McEvoy, 91–140 (here p. 97, n. 15). Leuven University Press, 2002.</bibl> B. Bischoff (<bibl>
-                                <abbr>Bischoff, Katalog I</abbr>, p. 14</bibl>) considered it to be written in <origPlace ref="ne_france" resp="Bischoff, Katalog I">North-east Francia</origPlace> in the <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
+                                <abbr>Bischoff, Katalog I</abbr>, p. 14</bibl>) considered it to be written in <origPlace ref="#ne_france" resp="Bischoff, Katalog I">North-east Francia</origPlace> in the <origDate notBefore="0867" notAfter="0900">s. IX<hi rend="sup">3/3</hi>
                             </origDate>.</p>
                     </origin>
                     <provenance>

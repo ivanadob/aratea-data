@@ -218,7 +218,7 @@
                         <msItem>
                             <locus from="1v" to="16r">1v-16r</locus>
                             <author ref="#boethius">Ps-Boethius</author>
-                            <title ref="geometria_i">Geometria I</title>
+                            <title ref="#geometria_i">Geometria I</title>
                             <note>Six blank lines left for rubrication.</note>
                             <incipit>Geometria est disciplina magnitudinis immobilis formarumque</incipit>
                             <explicit>M. Propositio dispositio distributio descriptio demonastratio et conclusio.</explicit>

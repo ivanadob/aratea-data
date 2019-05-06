@@ -59,7 +59,7 @@
                             <rubric>Excerptum de astrologia</rubric>
                             <incipit>Duo sunt extremi uertices mundi</incipit>
                             <explicit></explicit>
-                            <note>Marginal annotation by another contemporary hand: <quote>Discite o iuuenes cum abraham caeli et cursus siderum cognoscere non cum epicurio uoluntatum adsertore uentri de seruire et luxuriare</quote>. The same text present also in <ref type="altMs" target="desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref> and <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref>.</note>
+                            <note>Marginal annotation by another contemporary hand: <quote>Discite o iuuenes cum abraham caeli et cursus siderum cognoscere non cum epicurio uoluntatum adsertore uentri de seruire et luxuriare</quote>. The same text present also in <ref type="altMs" target="#desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref> and <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref>.</note>
                         </msItem>
                         <msItem class="aratea">
                             <locus from="91r" to="99r">91r-99r</locus>

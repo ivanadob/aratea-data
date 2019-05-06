@@ -44,9 +44,8 @@
 				        </msIdentifier>
 				        <head>
 					          <title>Composed manuscript</title>
-					          <note type="caption"/>
 					          <origPlace ref="#corvey">Corvey Abbey</origPlace>
-					          <origDate notBefore="0850" notAfter="0900">IX<hi rend="sup">2</hi>
+					          <origDate notBefore="0850" notAfter="0900">s. IX<hi rend="sup">2</hi>
 					              <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
 					          	<note type="facs">Digital facsimile at <ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref></note>
                     </origDate>
@@ -58,18 +57,16 @@
 						            <author ref="#vitruvius">Vitruvius</author>
 						            <title ref="#de_architecura">De architectura</title>
 						            <msItem>
-							              <locus from="1r" to="1v"/>
-							              <note>Table of content:</note>
-							              <incipit>Incipiunt capitulaDe princiis artis architectonicaeDe uentis</incipit>
+							              <locus from="1r" to="1v">1r-v</locus>
+							              <note type="title">Table of content:</note>
+							              <incipit>Incipiunt capitula De princiis artis architectonicae De uentis</incipit>
 						            </msItem>
 						            <msItem>
 							              <locus from="1v">1v</locus>
-							              <note>Text:</note>
-							              <rubric>
-                                <hi rend="font-variant:small-caps">De artis architectonicae peritia multa oratione</hi> uitruius polio aliique auctores scintissime scripsere.</rubric>  
+							              <note type="title">Text:</note>
+							              <rubric>De artis architectonicae peritia multa oratione uitruius polio aliique auctores scintissime scripsere</rubric>  
 							              <incipit>Verum nelonga eorim dissertaque dasundia</incipit>
-							              <explicit>totum corpus omnia architeturę membra in decem uoluminibus haberet explicate <hi rend="font-variant:small-caps">uitruuii liber x explicit feliciter amen</hi>
-                            </explicit>
+							              <explicit>totum corpus omnia architeturę membra in decem uoluminibus haberet explicate uitruuii liber x explicit feliciter amen.</explicit>
 							              <note>With running titles on the upper margin of pages. Many correction to the text by a different hand in darker brown ink.</note>
 							              <bibl>Marie-Thérèse Cam, Catherine Jacquemard, "Les interpolations médiévales dans la tradition de M. Cetius Faventinus," Revue d'histoire des textes 32 (2002):</bibl>
 							              <bibl>Krinsky. 78 Vitruvius MSS in Journal of the Warburg and Courtauld Inst. 30 (1967): 36-70</bibl>
@@ -143,7 +140,7 @@
 						            <rubric>prisciani g<ex>ramatici</ex> Partitiones xij uers<ex>uum</ex> aeneid<ex>os</ex> principalium</rubric>
 						            <incipit>
                             <hi rend="font-variant:small-caps">arma uirumq<ex>ue</ex> cano troie qui primus ab oris</hi>. uersus genere uniformis specia dactilicus</incipit>
-						            <explicit>&amp; pro graugena grauigena faciens.</explicit>
+						            <explicit>et pro graugena grauigena faciens.</explicit>
 						            <finalRubric>
                             <hi rend="font-variant:small-caps">prisciani grammatici svper xii primos versvs aeneidos explicit tractatus partitionum</hi>
                         </finalRubric>
@@ -156,7 +153,7 @@
 						            <rubric>
                             <hi rend="font-variant:small-caps">Incipit ortographia bedę praesbyteri</hi>
                         </rubric>
-						            <incipit>A littera &amp;iam nota praenominis est</incipit>
+						            <incipit>A littera etiam nota praenominis est</incipit>
 						            <explicit>oratoris sermo peruerat. <hi rend="font-variant:small-caps">Explicit. Amen.</hi>
                         </explicit>
 					          </msItem>					

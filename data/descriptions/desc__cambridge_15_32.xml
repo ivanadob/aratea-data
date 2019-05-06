@@ -100,7 +100,7 @@
                   <p>The Calendar section on pp. 13-26 was written in <origPlace ref="#new_minster">New Minster</origPlace> near <rs type="place" ref="#winchester">Winchester</rs> most probably in mid 1030s. On p.17 for the 27th March is noted <quote>Resurrectio christi</quote>, which was true for the year 1036. Robinson also observed a cross in hard point for the year 1036 in the Paschal tables on pp. 32-5. Usually such makring points the following Easter and in this case would suggest that pp. 13-26 were written between Easter 1035 and Easter 1036.</p>
                </origin>
                <provenance>
-                  <p>The MS was transferred from <rs type="corporate" ref="hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157 as: <quote>Astrologia abbonis monachi et in eodem libro astrologia Nignn <supplied>(Higini)</supplied> philosophi astrologia Marciani capelle Compotus helperici doctissimi et figuraciones signorum abbonis</quote> (James, p. 329). At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
+                  <p>The MS was transferred from <rs type="corporate" ref="#hyde_abbey">Hyde Abbey</rs> to <rs type="corporate" ref="#saint_augustine_abbey">St. Augustine's Abbey</rs> at <rs type="place" ref="#canterbury">Canterbury</rs> at the <date notBefore="1086" notAfter="1100">end of the 11th century</date>. The astronomical parts are recorded in the Canterbury St. Augustine's catalogue under no. 1157 as: <quote>Astrologia abbonis monachi et in eodem libro astrologia Nignn <supplied>(Higini)</supplied> philosophi astrologia Marciani capelle Compotus helperici doctissimi et figuraciones signorum abbonis</quote> (James, p. 329). At the same time the Calendar also passed into the ownership of St. Augustine's Canterbury as is visible by few but notable 11th-century additions such as the local for Canterbury feasts of Saints Mildred on 13th July (p.21) and Eanswitha on 31th August (p.22).</p>
                   <p>The two MS parts were united in their present form in the 11th c. Bishop points to additions (filling text) on the first folio of the fourth quire (p. 37-38) which was probably initially left blank as the opening of a separate booklet. The unfinished table of the cyclus decemnovennalis on the first unpaginated page is written by an 11th c. hand.</p>
                </provenance>
                <acquisition>
@@ -110,15 +110,15 @@
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                  <bibl>Bishop, T. A. M. “Notes on Cambridge Manuscripts. Part II.” <title level="j">Transactions of the Cambridge Bibliographical Society</title> 2, no. 2 (1955): 185–99.</bibl>
-                  <bibl>Gneuss, H. <title>Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100</title>, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note></bibl>
+                  <bibl>Bishop, T. A. M. “Notes on Cambridge Manuscripts. Part II.” Transactions of the Cambridge Bibliographical Society 2, no. 2 (1955): 185–99.</bibl>
+                  <bibl>Gneuss, H. Handlist of Anglo-Saxon Manuscripts: a List of Manuscripts and Manuscript Fragments Written or Owned in England up to 1100, Medieval and Renaissance Studies 241 (Tempe, AZ, 2001), no. 186 <note>[MS in two parts, one s. xi in., the other s. xi1 (1035/6); both parts origin New Minster, Winchester, provenance St Augustine's Canterbury by s. xi ex.]</note></bibl>
                   <bibl>James, Montague Rhodes. <ref target="http://archive.org/details/ancientlibraries00jame">The Ancient Libraries of Canterbury and Dover. The Catalogues of the Libraries of Christ Church Priory and St. Augustine’s Abbey at Canterbury and of St. Martin’s Priory at Dover.</ref> Cambridge: CUP, 1903.</bibl>
-                  <bibl>Morgan, N. and Panayotova, S. (eds.) with the assistance of Rebecca Rushforth. <title>Illuminated Manuscripts in Cambridge : A Catalogue of Western Book Illumination in the Fitzwilliam Museum and the Cambridge Colleges</title>. Part 4, The British Isles, 2 vols. (London, 2013), vol 1. no. 34.</bibl>
+                  <bibl>Morgan, N. and Panayotova, S. (eds.) with the assistance of Rebecca Rushforth. Illuminated Manuscripts in Cambridge : A Catalogue of Western Book Illumination in the Fitzwilliam Museum and the Cambridge Colleges. Part 4, The British Isles, 2 vols. (London, 2013), vol 1. no. 34.</bibl>
                   <bibl>Ker, Neil. R. Medieval libraries of Great Britain: a list of surviving books. London: Offices of the Royal Historical Society, 1941.</bibl>
-                  <bibl>McGurk, P. "The Astronomical Section," in <title>An Eleventh-Century Anglo-Saxon Illustrated Miscellany</title>, ed. P. McGurk, Early Engilsh Manuscripts in Facsimile 21 (Copenhagen, 1983), 67-70.</bibl>
+                  <bibl>McGurk, P. "The Astronomical Section," in An Eleventh-Century Anglo-Saxon Illustrated Miscellany, ed. P. McGurk, Early Engilsh Manuscripts in Facsimile 21 (Copenhagen, 1983), 67-70.</bibl>
                   <bibl>
                      <abbr>Munk Olsen, Catalogue 1</abbr>, pp. 526-7.</bibl>
-                  <bibl>Wormald, F.<title>English Drawings in the Tenth and Eleventh Centuries</title>. London: , 1952, p. 64.</bibl>
+                  <bibl>Wormald, F.English Drawings in the Tenth and Eleventh Centuries. London: , 1952, p. 64.</bibl>
                   <bibl>Keynes, S. Anglo-Saxon manuscripts: and other items of related interest in the library of Trinity College, Cambridge. Binghamton, N.J.: Cemers, 1992.</bibl>
                   <bibl>Robinson, P. Catalogue of dated and datable manuscripts c. 737 - 1600 in Cambridge libraries. Cambridge: Brewer, 1988.</bibl>
                   <bibl>Ker, Neil R. Catalogue of manuscripts containing Anglo-Saxon. Oxford: Clarendon, 1957.</bibl>
@@ -200,11 +200,11 @@
                   </msItem>
                   <msItem>
                      <locus from="14">14</locus>
-                     <note>Calendrical texts (on the<foreign>quatuor ieiunia legitima</foreign>; the date of the nonas, idus and the number of days in a month throughout the year; computistical table).</note>
+                     <note type="title">Calendrical texts (on the<foreign>quatuor ieiunia legitima</foreign>; the date of the nonas, idus and the number of days in a month throughout the year; computistical table).</note>
                   </msItem>
                   <msItem>
                      <locus from="15" to="26">15-26</locus>
-                     <note>Calendar</note>
+                     <note type="title">Calendar</note>
                      <incipit>Principium iani sancit tropicus capricornus</incipit>
                      <note>Entries for religious feasts, astronomical-calendrical phaenomena (<quote>Sol intrat pisces</quote>, <quote>Orion et gladius eius incipiunt abscondi</quote> etc.); interestingly on 27th March is noted <quote>Resurrectio christi</quote>, which was true for the year 1036; slightly later added also unfavourable days (<quote>dies mala</quote>). <!--Some of the local saints mentioned: Eormenhilda, Eadpeardus rex et martyrus (Edward), Ceaddan episcopus (Chad of Lichfield and Mercia), Aelfheagus episcopus, Sanctus Cuthberhtus episcopus, Sanctus Erkenpaldus episcopus (Erkenwald), Dunstanus archiepiscopus, Sancta Eadburga, Sanctus Byrnstanus episcopus.-->
                             </note>
@@ -213,15 +213,15 @@
                   </msItem>
                   <msItem>
                      <locus from="27" to="36">27-31</locus>
-                     <note>Computus tables linked to the columns of key letters in the calendar: pp. 27-28 <foreign>Litterae punctatae</foreign> table; p. 29 table for the monthly lunar epacts; p. 30 <foreign>Pagina regulares</foreign>; p. 31 Table with the lunar letters AEIOV.</note>
+                     <note type="title">Computus tables linked to the columns of key letters in the calendar: pp. 27-28 <foreign>Litterae punctatae</foreign> table; p. 29 table for the monthly lunar epacts; p. 30 <foreign>Pagina regulares</foreign>; p. 31 Table with the lunar letters AEIOV.</note>
                   </msItem>
                   <msItem>
                      <locus from="32" to="36">32-35</locus>
-                     <note>19-year cycle table for the years 1025-1087.</note>
+                     <note type="title">19-year cycle table for the years 1025-1087.</note>
                   </msItem>
                   <msItem>
                      <locus from="36">36</locus>
-                     <note>Computistical rules and argumenta.</note>
+                     <note type="title">Computistical rules and argumenta.</note>
                      <rubric>Ratio certa de terminis tenenda</rubric>
                      <incipit>De LXX<hi rend="sup">ma</hi>. Post XVI KL Febr ubi lunam X inueneris ibi fac terminum setuagessimae.</incipit>
                      <explicit>Si uis scire quot concurrentes sint omni anno, scias quota feria sit IX KL apr. tot concurrentes erunt in illo anno procerto.</explicit>
@@ -242,7 +242,7 @@
                   </msItem>
                   <msItem>
                      <locus from="38">38</locus>
-                     <note>A computistical table (?) with a zodiacal diagram (later addition from XI<hi rend="sup">ex</hi>.</note>
+                     <note type="title">A computistical table (?) with a zodiacal diagram (later addition from XI<hi rend="sup">ex</hi>.</note>
                   </msItem>
                   <msItem class="aratea">
                      <locus from="39" to="135">39-135</locus>
@@ -281,7 +281,7 @@
                   <msItem>
                      <locus from="136" to="165">136-165</locus>
                      <author ref="#martianus_capella">Martianus Capella</author>
-                     <title ref="de_nuptiis">De nuptiis<note>(Book 8.<title ref="#de_nuptiis_VIII">De astronomia</title>
+                     <title ref="#de_nuptiis">De nuptiis<note>(Book 8.<title ref="#de_nuptiis_VIII">De astronomia</title>
                                 </note>
                             </title>
                      <rubric>Martiani Minei Felicis Capellae afri cartaginensis de astrologia liber incipit in nomine domini nostri ihesu christi.</rubric>
@@ -329,7 +329,7 @@
                   <msItem class="aratea">
                      <locus from="213" to="216">213-216</locus>
                      <author ref="#cicero">Cicero</author>
-                     <title ref="aratea_cicero">Aratea</title>
+                     <title ref="#aratea_cicero">Aratea</title>
                      <incipit>Quinque solent stellae simili ratione notari</incipit>
                      <explicit>Hanc autem totam properant depellere pisces.</explicit>
                   </msItem>

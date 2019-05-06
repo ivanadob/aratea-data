@@ -314,7 +314,7 @@
                     <msItem>
                         <locus from="162r" to="166r">162ra-166ra</locus>
                         <author ref="#martianus_capella">Martianus Capella</author>
-                        <title ref="de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia <note>(803-878)</note></title>
+                        <title ref="#de_nuptiis_VIII">De nuptiis Philologiae et Mercurii. Book VIII. De astronomia <note>(803-878)</note></title>
                         <incipit>Quae dum geruntur et deorum sacer senatus</incipit>
                         <explicit>equinoctialem pene directium secat.</explicit>
                     </msItem>

@@ -31,6 +31,9 @@
             <p>Digital born.</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-05-06"></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -68,25 +71,25 @@
             </head>
             <p>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref></bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</p>
                <list xml:id="de_signis_caeli__msslist">
-                  <item><ref target="desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
-                  <item><ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>
-                  <item><ref target="desc__dijon_bm_488">Dijon, Bibliothèque municipale, Ms 488</ref></item>
+                  <item><ref target="#desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref></item>
+                  <item><ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>
+                  <item><ref target="#desc__dijon_bm_488.xml">Dijon, Bibliothèque municipale, Ms 488</ref></item>
                   <item>Durham, The Dean and Chapter Library Hunter Ms. 100</item>
                   <item>Freiburg-im-Breisgau, Archiv des erzbischöflichen-Ordinariats, Ms 35</item>
-                  <item><ref target="desc__laon_bm_422">Laon, Bibliothèque municipale, Ms. 422</ref></item>
-                  <item><ref target="desc__london_bl_harley_2506">London, British library, Harley 2506</ref> (as scholia ff. 36ra-44v)</item>
-                  <item><ref target="desc__montecassino_archivo_3">Montecassino, Archivo della Badia 3</ref></item>
+                  <item><ref target="#desc__laon_bm_422.xml">Laon, Bibliothèque municipale, Ms. 422</ref></item>
+                  <item><ref target="#desc__london_bl_harley_2506.xml">London, British library, Harley 2506</ref> (as scholia ff. 36ra-44v)</item>
+                  <item><ref target="#desc__montecassino_archivo_3.xml">Montecassino, Archivo della Badia 3</ref></item>
                   <item>Oxford, Bodleian Library Laud. Misc. 644</item>
                   <item>Padova, Biblioteca Antoniana 27</item>
-                  <item><ref target="desc__paris_bnf_lat_5239">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
-                  <item><ref target="desc__paris_bnf_lat_5543">Paris, Bibliothèque nationale de France, MS lat. 5543</ref></item>
+                  <item><ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref></item>
+                  <item><ref target="#desc__paris_bnf_lat_5543.xml">Paris, Bibliothèque nationale de France, MS lat. 5543</ref></item>
                   <item><ref target="#desc__paris_bnf_lat_7299a.xml">Paris, Bibliothèque nationale de France, MS lat. 7299A</ref></item>
-                  <item><ref target="desc__paris_bnf_lat_14754">Paris, Bibliothèque nationale de France, MS lat. 14754</ref></item>
-                  <item><ref target="desc__rouen_bm_26">Rouen, Bibliothèque municipale, Ms 26</ref></item>
-                  <item><ref target="desc__schaffhausen_sb_min_61">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref></item>
-                  <item><ref target="desc__bav_reg_lat_598">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 598</ref></item>
+                  <item><ref target="#desc__paris_bnf_lat_14754.xml">Paris, Bibliothèque nationale de France, MS lat. 14754</ref></item>
+                  <item><ref target="#desc__rouen_bm_26.xml">Rouen, Bibliothèque municipale, Ms 26</ref></item>
+                  <item><ref target="#desc__schaffhausen_sb_min_61.xml">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref></item>
+                  <item><ref target="#desc__bav_reg_lat_598.xml">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 598</ref></item>
                   <item>Venice, Biblioteca Marciana Lat. VIII 22</item>
-                  <item><ref target="desc__wolfenbuettel_hab_gud_lat_132">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
+                  <item><ref target="#desc__wolfenbuettel_hab_gud_lat_132.xml">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
                </list>
             <list>
                <head>Lost manuscripts</head>
