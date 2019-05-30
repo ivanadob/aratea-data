@@ -6,7 +6,7 @@
                 <title type="main">
             Aratea Digital
         </title>
-            <title type="sub">Leiden, Bibliotheek der Rijksuniversiteit, MS VLQ 79</title>
+                <title type="sub">Leiden, Universitaire Bibliotheken, VLQ 79</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -37,7 +37,7 @@
             <msDesc xml:id="leiden_vlq_79" xml:lang="eng">
                 <msIdentifier>
                     <settlement>Leiden</settlement>
-                    <repository>Bibliotheek der Rijksuniversiteit Leiden</repository>
+                    <repository>Universitaire Bibliotheken</repository>
                     <collection>VLQ</collection>
                     <idno>79</idno>
                     <msName>Leiden Aratea</msName>

@@ -2,11 +2,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-            <titleStmt>
-                <title type="main">
-            Aratea Digital
-        </title>
-            <title type="sub">Edition of a text on the constellations based on the AL and the RAL (Leiden, Universitaire Bibliotheken, VLO 15, ff. 188v-189r and Vatican, BAV, Reg. lat. 1260, ff. 84v-86r)</title>
+            <titleStmt>               
+            <title>De signis duodecim. Text on the zodiacal constellations based on the Aratus Latinus and the Revised Aratus Latinus</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition according to TEI P5</edition>
@@ -53,7 +50,7 @@
             <p part="N">Nam arietem <app>
                <lem wit="#L">martio</lem>
                <rdg wit="#R">martie</rdg>
-            </app> mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornua fingunt <note anchored="true">(Source: Bede)</note>. aiunt autem hesiodus et <app>
+            </app> mense propter ammonem iouem tribuunt, unde et in eius simulacro arietis cornua fingunt. aiunt autem hesiodus et <app>
                <lem wit="#R">pherecides</lem>
                <rdg wit="#L">ferecides</rdg>
             </app> hunc administrandum <app>
@@ -231,7 +228,7 @@
             </app> partem esse scorpionis. aegiptii uero qui hanc <app>
                <lem wit="#L">scientiam</lem>
                <rdg wit="#R">sciam</rdg>
-            </app> ceteris gentibus eminent eam principaliter pro signo accipiunt<note anchored="true">also in Strozziana, unidentified source</note>. quem <app>
+            </app> ceteris gentibus eminent eam principaliter pro signo accipiunt. quem <app>
                <lem wit="#L">gentiles</lem>
                <rdg wit="#R">gentilis</rdg>
             </app> a ioue aiunt inter astra conlocatum eo quod terra audito quae fecerit mirata sit. <app>
