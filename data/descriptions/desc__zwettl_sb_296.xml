@@ -43,8 +43,8 @@
             <head>
                <title>Computistical-astronomical collection</title>
                <origPlace ref="#zwettl">Zwettl</origPlace> 
-               <origDate>s. XII<hi rend="sup">ex</hi>
-               </origDate>                  
+               <origDate>s. XII<hi rend="sup">ex</hi></origDate>
+               <note type="aratea"><rs type="text" ref="#text__de_signis_redaction.xml">De signis caeli (redaction)</rs></note>
             </head>
             <physDesc>
                <objectDesc form="codex">
@@ -73,7 +73,7 @@
                   <p>Ferner demonstrated that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of MS Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for Vat. lat. 643. The two austrian MSS have also iconographical differences compared to the Vat. lat. 643. The two are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>.</p>
                </origin>
                <provenance>
-                  <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>
+                  <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>.
                </provenance>
             </history>
             <msPart>
@@ -97,19 +97,19 @@
                   </msItem>
                   <msItem>
                      <locus from="19v" to="20r">19v-20r</locus>
-                     <title type="supplied">Poem De stella veneris et mercurii, Saturni, Iovis et Martis</title>
+                     <note type="title">Poem De stella veneris et mercurii, Saturni, Iovis et Martis</note>
                   </msItem>
                   <msItem>
                      <locus from="20r" to="20v">20r-20v</locus>
                      <title>De absidibus planetarum</title>
                   </msItem>
-                  <msItem n="4">
+                  <msItem>
                      <locus from="20v" to="78r">20v-78r</locus>
                      <author ref="#bede">Bede</author>
                      <title ref="#DTR">De temporum ratione</title>
                      <titlePart/>
                   </msItem>
-                  <msItem n="5">
+                  <msItem>
                      <locus from="78r" to="78v">78r-78v</locus>
                      <author ref="#bede">Ps-Bede</author>
                      <title>De duodecim signis</title>
@@ -255,7 +255,7 @@
          </msDesc>
          <listBibl>
             <bibl>Ziegler, Charlotte. <title>Zisterzienserstift Zwettl. Katalog der Handschriften des Mittelalters</title>, Teil III: Codex 201-300 (Scriptorium ordinis Cisterciensium). Wien-München, 1989.</bibl>
-            <bibl>Entry at manuscripta.at with further bibliographical references<ptr target="http://manuscripta.at/?ID=31907"/>.</bibl>
+            <bibl>Entry at <ref target="http://manuscripta.at/?ID=31907">manuscripta.at</ref> with further bibliographical references.</bibl>
          </listBibl>
       </body>
    </text>
