@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
-         <change when="2018-06-10">Still need to add info on history.</change>
+         <change when="2018-06-10">Still need to add info on history; bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -198,6 +198,8 @@
                <listBibl>
                   <head>Selected bibliography:</head>
                   <bibl>Leonardi, p. 38-39.</bibl>
+                  <bibl>Lippincott, Kristen. ‘Between Text and Image. Incident and Accident in the History of Astronomical and Astrological Illustration’. In L’art de La Renaissance Entre Science et Magie, edited by Philippe Morel, 3–34. Rome: Somogy, 2006.</bibl>
+                  <bibl>Zucker, Arnaud. ‘Exploring the Relevance of the Star-Positions in the Medieval Illuminated Manuscripts of Hyginus’ De Astronomia’. In Certissima Signa. A Venice Conference on Greek and Latin Astronomical Texts, edited by Filippomaria Pontani, 153–212. Venice: Ca’Foscari, 2017.</bibl>
                </listBibl>
             </additional>
          </msDesc>
