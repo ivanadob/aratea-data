@@ -53,6 +53,7 @@
                 
                 <additional>
                     <listBibl>
+                        <bibl>Geel, Catalogus librorum manuscriptorum qui inde ab anno 1741 Bibliothecae Lugduno-Batavae accesserunt. Leiden, 1852, No 448.</bibl>
                         <bibl>Munk Olsen, Vol. 1, p. 197 <note>recueil factice, 6 parts (written s. XII-XIII), united s. XIII (cf. table of content f. Iv); Cicero and Gellius contemporary and homogene: s. XII ex; quaternions 225 x 142, 64 lines. Origin France. Hyginus 41 lines; origin: France</note></bibl>
                         <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
                         <bibl>Zucker, Arnaud. ‘Exploring the Relevance of the Star-Positions in the Medieval Illuminated Manuscripts of Hyginus’ De Astronomia’. In Certissima Signa. A Venice Conference on Greek and Latin Astronomical Texts, ed. by Filippomaria Pontani, 153–212. Venice: Ca’Foscari, 2017.</bibl>
@@ -170,9 +171,12 @@
                     </altIdentifier>
                     <msContents>
                         <msItem>
+                            <note>Nugae monachicae (according to Geel)</note>
+                        <msItem>
                             <locus from="76r" to="79v">76ra-79vb</locus>
                             <author>Johannes de Garlandia</author>
                             <incipit><supplied>H</supplied>uius operis auctor id est ligator unicus fuit</incipit>
+                        </msItem>
                         </msItem>
                     </msContents>
                 </msPart>
