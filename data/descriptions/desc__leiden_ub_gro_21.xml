@@ -45,6 +45,7 @@
                     <title></title>
                     <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                     <origPlace ref="#germany">Germany (?)</origPlace>
+                    <origPlace ref="#germany">France (Munk Olsen)</origPlace>
                     <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="facs">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1612218">Leiden University Library, Digital Collections</ref></note>
@@ -52,6 +53,7 @@
                 
                 <additional>
                     <listBibl>
+                        <bibl>Munk Olsen, Vol. 1, p. 197 <note>recueil factice, 6 parts (written s. XII-XIII), united s. XIII (cf. table of content f. Iv); Cicero and Gellius contemporary and homogene: s. XII ex; quaternions 225 x 142, 64 lines. Origin France. Hyginus 41 lines; origin: France</note></bibl>
                         <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
                         <bibl>Zucker, Arnaud. ‘Exploring the Relevance of the Star-Positions in the Medieval Illuminated Manuscripts of Hyginus’ De Astronomia’. In Certissima Signa. A Venice Conference on Greek and Latin Astronomical Texts, ed. by Filippomaria Pontani, 153–212. Venice: Ca’Foscari, 2017.</bibl>
                     </listBibl>
