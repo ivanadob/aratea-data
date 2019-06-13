@@ -101,8 +101,8 @@
                     <origin>
                         <p>
                             <origPlace ref="#pruefening">Prüfening</origPlace> near <rs type="place" ref="#regensburg">Regensburg</rs> in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi>
-                            </origDate>.</p>
-                        <p>The manuscript was produced under the directions of<rs type="person" ref="#wolfger">Wolfger</rs>, who studied in <rs type="place" ref="#bamberg">Bamberg</rs> and moved around 1120 to Prüfening. His connections to Bemberg remained strong. According to Schmitz the three parts of the manuscript were joined together most probably shortly after <date notBefore="1200">1200</date>.</p>
+                            </origDate>. Based on the stylistical characteristics of the illustrations, Boecklers and Borchers suggest a realtive later date for the composition the 1210-1220.</p>
+                        <p>The manuscript was produced under the directions of <rs type="person" ref="#wolfger">Wolfger</rs>, who studied in <rs type="place" ref="#bamberg">Bamberg</rs> and moved around 1120 to Prüfening. His connections to Bemberg remained strong. According to Schmitz the three parts of the manuscript were joined together most probably shortly after <date notBefore="1200">1200</date>.</p>
                         <p>The style of the illustrations in Part 2 shows 13th-century features (Mütherich, p. 57). The script, however, exhibits characterics of the second half of the 12th c.</p>                        
                     </origin>
                     <provenance>
@@ -124,6 +124,7 @@
                         <bibl>Boeckler, Albert.<title>Die Regensburg-Prüfeninger Buchmalerei des 12. und 13. Jahrhunderts</title>. Munich: Reusch, 1924 (esp. pp. 72-76).</bibl>
                         <bibl>Blume, Dieter, Mechthild Haffner, and Wolfgang Metzger. Sternbilder des Mittelalters. Vol. I, 1: Text und Katalog der Handschriften. Berlin: Akademie Verlag, 2012, pp. 548-553.</bibl>
                         <bibl>Blume, Dieter. "Körper und Kosmos im Mittelalter." In<title>Bild und Körper im Mittelalter</title>. Ed. by Kristin Marek, 225-242. Munich: Fink, 2006.</bibl>
+			    <bibl>Borchers, Renate. Die ikonographischen Quellen des Codex 12600 der Österreichischen Nationalbibliothek in Wien. Studien zur mittelalterlichen illustration profan-wissenschaftlicher Texte. Vienna, 1975. Diss.</bibl>
                         <bibl>
                             <abbr>Borst, Schriften</abbr>, Vol. 1, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._315">315</ref>-<ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._316">316</ref>.</bibl>
                         <bibl>Buberl, Paul, and Hans Gerstinger. Die Byzantinischen Handschriften. 2. Die Handschriften des X. - XVIII. Jahrhunderts vols. Leipzig: Hiersemann, 1938 (pp. 72-81).</bibl>
