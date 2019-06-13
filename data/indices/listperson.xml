@@ -193,6 +193,9 @@
                         <persName xml:id="gnd_118707566">Hucbaldus &lt;de Sancto Amando&gt;</persName>
                         <persName>Hucbaldus de Sancto Amando</persName>
                     </person>
+                    <person xml:id="hugo_st_victor">
+                        <persName xml:id="gnd_118554611" ref="http://d-nb.info/gnd/118554611">Hugo of St. Victor</persName>
+                    </person>
                     <person xml:id="hyginus">
                         <persName xml:id="gnd_11896903X">Hyginus &lt;Gaius, Julius&gt;</persName>
                     </person>

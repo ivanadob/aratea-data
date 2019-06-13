@@ -42,6 +42,14 @@
                <item>Book III: on the position of the 42 constellations with respect to the celestial circles and the adjacent constellations; the way it rises above and sets below the horizon; the number and position of the stars within each constellation.</item>
                <item>Book IV: on the celestial circles and the constellations which are positioned on them; on the day and night; the paranatellonta; on the sun, moon and the five planets.</item>
             </list></p>
+            <p>Incipits and excipits:
+               <list>
+                  <item>Book I: Etsi te studio grammaticae artis inductum ... simili causa posse constitui suspicamur.</item>
+                  <item>Book II: Sed quoniam quae nobis de terrae positione ... circulum deformatum, quem supra demonstravimus.</item>
+                  <item>Book III: Igitur incipiemus a polo boreo protinus dicere ... nobis erunt dicta; reliqua protinus dicemus.</item>
+                  <item>Book IV: Quoniam in initio sphaerae circuli V ... cum sol ab aestivo circulo redit.</item>
+               </list>
+            </p>
          </div>
          <div>
             <head>
@@ -77,6 +85,9 @@
             <list>
                <head>List of Hyginus manuscripts (incomplete)</head>
                <item><ref target="#desc__bern_bb_45.xml">Bern, Bürgerbibliothek, Cod. 45</ref></item>
+               <item><ref target="#desc__leiden_ub_vlo_15">Leiden, Universitaire Bibliotheken, VLO 15</ref></item>
+               <item><ref target="#desc__leiden_ub_gro_21">Leiden, Universitaire Bibliotheken, GRO 21</ref></item>
+               <item><ref target="#"></ref></item>
                <item><ref target="#desc__paris_bnf_lat_7299a.xml">Paris, Bibliothèque nationale de France, MS lat. 7299A</ref></item>
                <item><ref target="#desc__bav_reg_lat_1260.xml">Vatican, BAV Reg. lat. 1260</ref> (44v-83v)</item>
                <item>Paris, Bibliothèque nationale de France, MS lat. 8728 (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b90660262">digitised</ref>)</item>
