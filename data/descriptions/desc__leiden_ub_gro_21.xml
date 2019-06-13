@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Leiden, Universitaire Bibliotheken, GRO 21</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-06-13"></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="leiden_ub_gro_21">
+                <msIdentifier>
+                    <settlement>Leiden</settlement>
+                    <repository>Universitaire Bibliotheken</repository>
+                    <idno>GRO 21</idno>
+                </msIdentifier>
+                <head>
+                    <title></title>
+                    <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                    <origPlace ref="#germany">Germany (?)</origPlace>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+                    <note type="facs">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1612218">Leiden University Library, Digital Collections</ref></note>
+                </head>
+                
+                <additional>
+                    <listBibl>
+                        <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
+                        <bibl>Zucker, Arnaud. ‘Exploring the Relevance of the Star-Positions in the Medieval Illuminated Manuscripts of Hyginus’ De Astronomia’. In Certissima Signa. A Venice Conference on Greek and Latin Astronomical Texts, ed. by Filippomaria Pontani, 153–212. Venice: Ca’Foscari, 2017.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part 1 (ff. 1-40)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="22r">1ra-22rb</locus>
+                            <author ref="#cicero">Cicero</author>
+                            <title>De finibus bonorum et malorum</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="23r" to="24v">23ra-24vb</locus>
+                            <author ref="#cicero">Cicero</author>
+                            <title ref="#timaeus">Timaeus</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="25r" to="40v">25ra-40vb</locus>
+                            <author>Aulus Gellius</author>
+                            <title>Noctes Atticae</title>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part 2 (ff. 41-59)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="41r" to="45v">41ra-45vb</locus>
+                            <author ref="#gerbert">Gerbert of Aurillac</author>
+                            <title ref="#gerbert_geometria">Geometria Gerberti</title>
+                            <rubric>Incipit theorica geometriae</rubric>
+                            <incipit>In quatuor matheseos ordine disciplinarum tercium</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus from="45r" to="52v">45ra-52vb</locus>
+                            <author ref="#hugo_st_victor">Hugo of St. Victor</author>
+                            <title ref="#hugo_practica_geometriae"></title>
+                            <rubric>Incipit practicam geometriae </rubric>
+                            <incipit>Practicam geometriae nostris tradere conatus sum</incipit>
+<!--                            the work of Hugo represent the state of knowledge in the field of geometry in the West before it was influenced by the translations of arabic into latin-->
+                        </msItem>
+                        <msItem>
+                            <locus from="52v">52vb</locus>
+                            <note type="title">Later additions (s. XIII<hi rend="sup">2</hi>?): astrological verse <quote>Vult aries sibi quod sit et acquisitio iuncta ... </quote>; on the houses of the zodiacal sings <quote>Mercurii prima domus et coniunctur et albus ...</quote>.</note>
+                            
+                        </msItem>
+                        <msItem>
+                            <locus from="53r" to="53v">53ra-53vb</locus>
+                            <title ref="#sphera_fiat">On the celestial circles and the postiton of the constellations</title>
+                            <incipit>Spera sit omni parte equalis et rotunda</incipit>
+                            <explicit>leua manu ipsius serpentis pectus flexuosum.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="53v" to="54r">53vb-54ra</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia<note> (missing 2/3 of the text)</note></title>
+                            <incipit>Duo sunt vertices mundi quos appelant polos</incipit>
+                            <explicit>inter cancrum et uirginem leo dicitur constitutus.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="54r">54ra</locus>
+                            <author ref="#isidore">Isidore</author>
+                            <title ref="#etymologiae">Etymologiae<note> (excerpt from lib. 13,11: De ventis)</note></title>
+                            <incipit>Hi XII uenti mundi globum circumagunt flatibus</incipit>
+                            <explicit>duo cardines sunt septentrio et auster.</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="54r" to="54v">54ra-54v</locus>
+                            <note type="title">Originally left blank. Later additions (s. XIII<hi rend="sup">2</hi>?): medical recipies and computistical argumenta.</note>
+                            <note>On f. 54v table <quote><supplied>D</supplied>icendum quod tabule iste sunt composite secundum clyma parisanum et translate secundum clyma parysiense ...</quote></note>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="55r" to="58v">55ra-58vb</locus>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title ref="#de_astronomia">De astronomia<note> (lib. 3 - lib. 4,8)</note></title>
+                            <incipit>Igitur incipiemus a polo boreo protinus dicere</incipit>
+                            <explicit>et quae perveniant ad occasum</explicit>
+                        </msItem>
+                        <msItem>
+                            <locus from="58v" to="59r">58vb-59rb</locus>
+                            <author ref="#gerbert">Gerbert of Aurillac</author>
+                            <title ref="#gerbert_letter_sphere">Letter to Constantinus on making a hemisphere</title>
+                            <rubric>Gerbertus papa constantino aurelianensi</rubric>
+                            <incipit>Spera mi frater de qua queris ad celestes circulos uel signa ostendenda conponitur</incipit>
+                            <explicit>per vi antarcticos circulos metiri poteris.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="59r" to="59v">59rb-59vb</locus>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title ref="#de_astronomia">De astronomia<note> (excerpt from lib. 2,1-3)</note></title>
+                            <incipit>Hanc autem hesiodus ait esse calisto nomine</incipit>
+                            <explicit>ut erathostenes demonstrat.</explicit>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part 3 (ff. 60-75)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="60r" to="75v">60ra-75vb</locus>
+                            <note type="title">Commentary in Boethius' Concolatio philosophiae.</note>
+                        </msItem>
+                    </msContents>
+                </msPart>
+                <msPart>
+                    <altIdentifier type="partial">
+                        <idno>Part 4 (ff. 76-79)</idno>
+                    </altIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="76r" to="79v">76ra-79vb</locus>
+                            <author>Johannes de Garlandia</author>
+                            <incipit><supplied>H</supplied>uius operis auctor id est ligator unicus fuit</incipit>
+                        </msItem>
+                    </msContents>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
