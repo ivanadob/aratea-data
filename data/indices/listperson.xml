@@ -197,7 +197,7 @@
                         <persName xml:id="gnd_118554611" ref="http://d-nb.info/gnd/118554611">Hugo of St. Victor</persName>
                     </person>
                     <person xml:id="hyginus">
-                        <persName xml:id="gnd_11896903X">Hyginus &lt;Gaius, Julius&gt;</persName>
+                        <persName xml:id="gnd_11896903X" ref="http://d-nb.info/gnd/11896903X">Hyginus &lt;Gaius, Julius&gt;</persName>
                     </person>
                     <person xml:id="ellinger">
                         <persName xml:id="gnd_10094051X" ref="http://d-nb.info/gnd/10094051X">Ellinger, Abbot</persName>

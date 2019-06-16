@@ -42,19 +42,18 @@
                     <idno>GRO 21</idno>
                 </msIdentifier>
                 <head>
-                    <title></title>
-                    <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                    <title>Composite manuscript</title>
+                    <origDate notBefore="1101" notAfter="1300">s. XII - s. XIII</origDate>
                     <origPlace ref="#germany">Germany (?)</origPlace>
-                    <origPlace ref="#germany">France (Munk Olsen)</origPlace>
+                    <origPlace ref="#france">France (Munk Olsen)</origPlace>
                     <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="facs">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1612218">Leiden University Library, Digital Collections</ref></note>
                 </head>
-                
                 <additional>
                     <listBibl>
                         <bibl>Geel, Catalogus librorum manuscriptorum qui inde ab anno 1741 Bibliothecae Lugduno-Batavae accesserunt. Leiden, 1852, No 448.</bibl>
-                        <bibl>Munk Olsen, Vol. 1, p. 197 <note>recueil factice, 6 parts (written s. XII-XIII), united s. XIII (cf. table of content f. Iv); Cicero and Gellius contemporary and homogene: s. XII ex; quaternions 225 x 142, 64 lines. Origin France. Hyginus 41 lines; origin: France</note></bibl>
+                        <bibl><abbr>Munk Olsen, Catalogue 1</abbr>, p. 197 <note>(recueil factice, 6 parts (written s. XII-XIII), united s. XIII (cf. table of content f. Iv); Cicero and Gellius contemporary and homogene: s. XII ex; quaternions 225 x 142, 64 lines. Origin France. Hyginus 41 lines; origin: France)</note>.</bibl>
                         <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
                         <bibl>Zucker, Arnaud. ‘Exploring the Relevance of the Star-Positions in the Medieval Illuminated Manuscripts of Hyginus’ De Astronomia’. In Certissima Signa. A Venice Conference on Greek and Latin Astronomical Texts, ed. by Filippomaria Pontani, 153–212. Venice: Ca’Foscari, 2017.</bibl>
                     </listBibl>
@@ -63,6 +62,10 @@
                     <altIdentifier type="partial">
                         <idno>Part 1 (ff. 1-40)</idno>
                     </altIdentifier>
+                    <head>
+                        <title>Cicero: De finibus, Timaeus; Gellius, Noctes Atticae</title>
+                        <origDate notBefore="1176" notAfter="1200">s. XII<hi rend="sup">ex</hi></origDate>
+                    </head>
                     <msContents>
                         <msItem>
                             <locus from="1r" to="22r">1ra-22rb</locus>
@@ -85,6 +88,10 @@
                     <altIdentifier type="partial">
                         <idno>Part 2 (ff. 41-59)</idno>
                     </altIdentifier>
+                    <head>
+                        <title>Geometrical-astronomical collection</title>
+                        <origDate notBefore="1151" notAfter="1225">s. XII<hi rend="sup">2</hi> - s. XIII<hi rend="sup">1/4</hi></origDate>
+                    </head>
                     <msContents>
                         <msItem>
                             <locus from="41r" to="45v">41ra-45vb</locus>
@@ -103,7 +110,7 @@
                         </msItem>
                         <msItem>
                             <locus from="52v">52vb</locus>
-                            <note type="title">Later additions (s. XIII<hi rend="sup">2</hi>?): astrological verse <quote>Vult aries sibi quod sit et acquisitio iuncta ... </quote>; on the houses of the zodiacal sings <quote>Mercurii prima domus et coniunctur et albus ...</quote>.</note>
+                            <note type="title">Later additions (s. XIII<hi rend="sup">2</hi>?): astrological verse <quote>Vult aries sibi quod sit et acquisitio iuncta <gap/> </quote>; on the houses of the zodiacal sings <quote>Mercurii prima domus et coniunctur et albus <gap/></quote>.</note>
                             
                         </msItem>
                         <msItem>
@@ -128,7 +135,7 @@
                         <msItem>
                             <locus from="54r" to="54v">54ra-54v</locus>
                             <note type="title">Originally left blank. Later additions (s. XIII<hi rend="sup">2</hi>?): medical recipies and computistical argumenta.</note>
-                            <note>On f. 54v table <quote><supplied>D</supplied>icendum quod tabule iste sunt composite secundum clyma parisanum et translate secundum clyma parysiense ...</quote></note>
+                            <note>On f. 54v table <quote><supplied>D</supplied>icendum quod tabule iste sunt composite secundum clyma parisanum et translate secundum clyma parysiense <gap/></quote>.</note>
                         </msItem>
                         <msItem class="aratea">
                             <locus from="55r" to="58v">55ra-58vb</locus>
@@ -158,6 +165,10 @@
                     <altIdentifier type="partial">
                         <idno>Part 3 (ff. 60-75)</idno>
                     </altIdentifier>
+                    <head>
+                        <title>Commentary in Boethius' Concolatio philosophiae</title>
+                        <origDate notBefore="1151" notAfter="1250">s. XII<hi rend="sup">2</hi> - s.XIII<hi rend="sup">1</hi></origDate>
+                    </head>
                     <msContents>
                         <msItem>
                             <locus from="60r" to="75v">60ra-75vb</locus>
@@ -169,14 +180,14 @@
                     <altIdentifier type="partial">
                         <idno>Part 4 (ff. 76-79)</idno>
                     </altIdentifier>
+                    <head>
+                        <title>Nugae monachicae</title>
+                        <origDate notBefore="1251" notAfter="1300">s. XIII<hi rend="sup">2</hi></origDate>
+                    </head>
                     <msContents>
                         <msItem>
-                            <note>Nugae monachicae (according to Geel)</note>
-                        <msItem>
                             <locus from="76r" to="79v">76ra-79vb</locus>
-                            <author>Johannes de Garlandia</author>
-                            <incipit><supplied>H</supplied>uius operis auctor id est ligator unicus fuit</incipit>
-                        </msItem>
+                            <note>The first short text is attributed to Johannes de Garlandia: <quote><supplied>H</supplied>uius operis auctor id est ligator unicus fuit <gap/> summus omnium dictatorum lemonicensis Johannes</quote>.</note>
                         </msItem>
                     </msContents>
                 </msPart>
