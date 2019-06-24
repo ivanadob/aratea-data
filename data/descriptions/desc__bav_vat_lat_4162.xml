@@ -43,6 +43,7 @@
                     <idno>Vat. lat. 4162</idno>                    
                 </msIdentifier>
                 <head>
+                    <title>Composite manuscript</title>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Vat.lat.4162">DigiVatLib</ref></note>
                 </head>

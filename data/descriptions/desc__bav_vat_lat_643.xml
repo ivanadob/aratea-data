@@ -82,18 +82,18 @@
                </msItem>
                <msItem>
                   <locus from="70v">70v</locus>
-                  <note>Text on the simultaneous rising and setting of the constellations.</note>
-                  <incipit>Ariete oriente duabus horis. occidit libra</incipit>
+                  <note type="title">Text on the simultaneous rising and setting of the constellations.</note>
+                  <incipit>Ariete oriente duabus horis occidit libra</incipit>
                   <explicit>superioris zodiaci sagittarius inferioris optinet gemini.</explicit>
                </msItem>
                <msItem>
                   <locus from="70v">70v</locus>
-                  <note>How to calculate the rising of the zodiacal signs.</note>
+                  <note type="title">How to calculate the rising of the zodiacal signs.</note>
                   <quote>Hortum signorum XII qualibet diei uel noctis hora quisque liquido deprehensurus est si a KL octobris horas dierum ac noctium usque ad eam quam si proposuit colligens per XXIIII<hi rend="sup">or</hi> metiatur et quos excreuerit diuidat quem ad modum subiecta instruit formula. Si I aut duo remanserunt oritur libra. Si III aut IIII scorpio. Si V aut VI sagittarius. Si VIII aut VIII capricornus. Si VIIII aut X aquarius. Si XI aut XII pisces. Si XIII aut XIIII aries. Si XV aut XVI taurus. Si XVII aut XVIII gemini, Si XVIIII aut XX cancer. Si XXI aut XXII leo. Si XXIII aut XXIIII uirgo.</quote>
                </msItem>
                <msItem>
                   <locus from="70v" to="71r">70v-71r</locus>
-                  <note>Short text on the eclypse</note>
+                  <note type="title">Short text on the eclypse</note>
                   <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCC<hi rend="sup">o</hi>VIII Quicquid ergo inde aut abcessit</incipit>
                   <explicit>quod quotiens contigerit totiens eclypsin non defecturam.</explicit>
                </msItem>
@@ -125,7 +125,7 @@
                </msItem>
                <msItem>
                   <locus from="71av" to="75r"/>
-                  <note>Commentary on Bede: DTR</note>
+                  <note>Commentary on Bede's DTR</note>
                   <rubric>De natura rerum et temporum ratione</rubric>
                   <incipit>Non est pretermittendum cum dixit de natura rerum cur non etiam de natura temporum uel de ratione rerum et ratione temporum dixit</incipit>
                   <explicit>idest CCma XXXV pars XLVII semis momentorum.</explicit>
@@ -133,7 +133,7 @@
                <msItem>
                   <locus from="75r">75r</locus>
                   <note>Computistical texts on the epacts and regulares solis.</note>
-                  <rubric>Quid est[or sint?] epacta solis et regulares solis</rubric>
+                  <rubric>Quid est epacta solis et regulares solis</rubric>
                   <incipit>Dum audis epactas lune aetates lune per singulos annos intellige</incipit>
                   <explicit>uel quot dies usque ad Kalendas futuri mensis supersunt.</explicit>
                </msItem>
