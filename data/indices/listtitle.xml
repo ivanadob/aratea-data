@@ -328,6 +328,13 @@
         <bibl>
          <abbr>Borst, Kalenderreform</abbr>, p. 322.</bibl>
     </work>
+    <work>
+        <title>De computo dialogus and De divisionibus temporum</title>
+        <author>(Ps.) Bede</author>
+        <bibl>PL 90, 641-648.</bibl>
+        <bibl>Jones, Charles William. ‘Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede’. In Jones, Bede, the Schools and the Computus, 1–154, esp. p. 48-51. Variorum, 1994.</bibl>
+<!--        found in Köln 83 II, Münich 14456s-->
+    </work>
     <work xml:id="de_creatione_mundi">
         <title>De creatione mundi</title>
         <author ref="#wandalbert_von_pruem">Wandalbert von Prüm</author>
@@ -466,7 +473,7 @@
         <author ref="#bede">Ps. Bede</author>
         <incipit>Helix, quae et Arcturus maior. Habet autem in capite stellas obscuras VII</incipit>
         <explicit>Candido colore et ualde splendens peragit CCCXLVIII diebus signiferum cursum suum complens.</explicit>
-        <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino," in:<title> Studi Medievali</title> 20 (1979): 269–301.</bibl>
+        <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino," in: Studi Medievali 20 (1979): 269–301.</bibl>
     </work>
     <work xml:id="de_xii_signis">
         <author ref="#bede">(Ps.) Bede</author>
@@ -476,7 +483,7 @@
         <explicit>Singuli igitur menses sua signa habet: Aprilis signum Arietis <gap reason="omitted"/> Martius Piscium. Sic quidam ueterum uersibus explicauit.</explicit>
         <note>Often followed by the verses <title ref="#ad_boreae">De sideribus</title>.</note>
         <bibl>Bede. Opera Didascalica. Edited by Charles Jones. CCSL, 123 C. Turnhout: Brepols, 1980. Pp. 665-67.</bibl>
-        <bibl>Jones, Charles W. <title>Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede</title>. Ithaca, New York: Cornell University Press, 1939. Pp. 102-3.</bibl>
+        <bibl>Jones, Charles W. Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede. Ithaca, New York: Cornell University Press, 1939. Pp. 102-3.</bibl>
     </work>  
     <work type="al" xml:id="de_signis_coeli_revision">
         <title>De signis (interpolated version)</title>
@@ -614,6 +621,12 @@
         <explicit>Hinc centro torrens ternos sibi sexta retentat</explicit>
         <bibl>PL 121 0631D <ptr target="http://mlat.uzh.ch/"/>
       </bibl>
+    </work>
+    <work xml:id="dtr_commentary">
+        <title ref="#dtr_commentary">Anonymous commentary on Bede's DTR</title>
+        <incipit>Non est pretermittendum cum dixit de natura rerum</incipit>
+        <explicit>idest CCma XXXV pars XLVII semis momentorum.</explicit>
+        <bibl>Jones, Charles William. ‘Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede’. In Jones, Bede, the Schools and the Computus, 1–154, esp. 95-102. Variorum, 1994.</bibl>
     </work>
     <work xml:id="iqsvm">
         <title>In quo signo versetur mars</title>

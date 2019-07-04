@@ -51,8 +51,7 @@
                   <supportDesc material="perg">
                      <support>Parchment</support>
                      <extent>
-                        <measure type="leavesCount" quantity="216">I + 216 fols. + I</measure>
-                        Fol. I and I* former pastedowns.
+                        <measure type="leavesCount" quantity="216">I + 216 fols. + I (Fol. I and I* former pastedowns)</measure>
                         <dimensions type="leaf" unit="mm">
                         <height>265</height>
                         <width>185</width>
@@ -138,7 +137,7 @@
                      <rubric>De zodiaco circulo</rubric>
                      <incipit>Circulus zodiacus qui XII signis constat omni ex parte eque uicinus est terre</incipit>
                      <explicit>quam uelocitatis cum aut pisces aut uirginem transit. Quod subiecta melius pictura declarabitur.</explicit>
-                     <note>Reference to the two diagrams on f.102r (?).</note>
+                     <!--<note>Reference to the two diagrams on f.102r (?).</note>-->
                   </msItem>
                   <msItem>
                      <locus from="20v" to="78r">20v-78r</locus>
@@ -199,7 +198,7 @@
                   </msItem>
                   <msItem>
                      <locus from="80r" to="84r">80r-84r</locus>
-                     <note type="title">Commentary on Bede's DTR</note>
+                     <title ref="#dtr_commentary">Anonymous commentary on Bede's DTR</title>
                      <rubric>De natura rerum et temporum ratione</rubric>
                      <incipit>Non est praetermitendum cum dixit de natura rerum cur non etiam de natura temporum uel de ratione rerum et ratione temporum dixit</incipit>
                      <explicit>Igitur XXX tria semis momenta et athomum I CCma XXXV pars XLVII semis momentorum.</explicit>

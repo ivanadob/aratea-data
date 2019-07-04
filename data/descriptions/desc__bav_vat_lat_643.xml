@@ -100,7 +100,7 @@
                <msItem>
                   <locus from="71r">71r</locus>
                   <title ref="#iqsvm">In quo signo versetur mars</title>
-                  <incipit>Annis ab initio mundi per senarium diuisis</incipit>
+                  <incipit>In quo signo versetur mars annis ab initio mundi per senarium diuisis</incipit>
                   <explicit>memoratum semper inueniri planetam uirgo.</explicit>
                   <note>Text begins without any visula mark separating it from the previous one. In the margin the planets are written in red next to their respective paragraph entries.</note>
                </msItem>
@@ -124,8 +124,8 @@
                   <explicit>Hec ratio subtilissima est et ualde necessatia et maxima labori undecumque ab auctoribus collecta et ad quam vernenda mentis acies purganda.</explicit>
                </msItem>
                <msItem>
-                  <locus from="71av" to="75r"/>
-                  <note>Commentary on Bede's DTR</note>
+                  <locus from="71av" to="75r">71av-75r</locus>
+                  <title ref="#dtr_commentary">Anonymous commentary on Bede's DTR</title>
                   <rubric>De natura rerum et temporum ratione</rubric>
                   <incipit>Non est pretermittendum cum dixit de natura rerum cur non etiam de natura temporum uel de ratione rerum et ratione temporum dixit</incipit>
                   <explicit>idest CCma XXXV pars XLVII semis momentorum.</explicit>
