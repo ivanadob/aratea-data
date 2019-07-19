@@ -26,11 +26,11 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Description based on microfilm in the IRHT.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-06-01"/>
+				<change when="2019-07-19"/>
 			</revisionDesc>
 		
     </teiHeader>
@@ -64,10 +64,7 @@
                               </dimensions>
                           </extent>
                           <foliation>Paginated 1-455 with 1, 162 and 163 used twice (here the second time marked with *).</foliation>
-                      <collation>According to Meier pp. 1-271 are regular quaternios with quire marks<quote>a</quote>-<quote>h</quote>. On the second part visible on the microfilm are quire marks <quote>I</quote> to <quote>VIII</quote> on pp. 285, 301, 317, 333, 349, 365, 381, 397 (all verso), which suggests one quire of 14 leaves (pp. 272-285) and seven quires of 16 leaves (pp. 286-397).</collation>
-                          <condition>
-                              <p/>
-                          </condition>
+                      <collation>According to Meier pp. 1-271 are regular quaternios with quire marks <quote>a</quote>-<quote>h</quote>. On the second part visible on the microfilm are quire marks <quote>I</quote> to <quote>VIII</quote> on pp. 285, 301, 317, 333, 349, 365, 381, 397 (all verso), which suggests eight regular quaternios (pp. 272-397).</collation>
                   </supportDesc>
                    <layoutDesc>
                      <layout columns="1" writtenLines="18 19">Written in 18-19 lines in one column. Smith gives written space:
@@ -76,11 +73,11 @@
                              <width>70</width>
                          </dimensions>
                      </layout>
-                       <layout>In the <title>Aratea</title> each verse is written on a separate line starting with versals. Some initials for section were left unexecuted; the sections on constellations are divided by empty line inserted after the corresponding verses or alternatively by marginal note as in the case for Cassiepia and Andromeda, Deltoton.</layout>
+                       <layout>In the Aratea each verse is written on a separate line starting with versals. Some initials for section were left unexecuted; the sections on constellations are divided by empty line inserted after the corresponding verses or alternatively by marginal note as in the case for Cassiepia and Andromeda, Deltoton.</layout>
                   </layoutDesc>
                </objectDesc>
                 <handDesc>
-                    <handNote/>
+                    <handNote>Hoffmann identified some of the hands also in other manuscripts from Würzburg. Often change between scribes - more skilled one wrote some lines, followed by other not so skilled hands imitating them.</handNote>
                 </handDesc>
                 <bindingDesc>
                     <binding>
@@ -89,29 +86,30 @@
                 </bindingDesc>
             </physDesc>
             <history>
-                <origin>The manuscript was written in  <origDate notBefore="0901" notAfter="1000">s. X</origDate> in <origPlace ref="#germany">Germany</origPlace> or <origPlace ref="#switzerland">Switzerland</origPlace>.</origin>
-                <provenance>Since the<date notBefore="1301" notAfter="1400">s. XIV</date> the manuscript is kept in the Stiftsbibliothek in <rs type="place" ref="#einsiedeln">Einsiedeln</rs> cf. the note bz a 14th-century hand on p. 457 <quote>Gehört gan Einsidlen disses büchl in das gotthuss LXI°</quote> (Smith).</provenance>
+                <origin>The manuscript was written in  <origDate notBefore="0901" notAfter="1000">s. X</origDate> in <origPlace ref="#germany">Germany</origPlace> or <origPlace ref="#switzerland">Switzerland</origPlace>. According to Hoffmann Part 1 with Boethius's work was written in Trier, while Part 2 and the rest in Würzburg in 10th century by many hands (mostly bad hands).</origin>
+                <provenance>Since the <date notBefore="1301" notAfter="1400">s. XIV</date> the manuscript is kept in the Stiftsbibliothek in <rs type="place" ref="#einsiedeln">Einsiedeln</rs> cf. the note by a 14th-century hand on p. 457 <quote>Gehört gan Einsidlen disses büchl in das gotthuss LXI°</quote> (Smith).</provenance>
             </history>
             <additional>
                <listBibl>
                   <head>Selected Bibliography:</head>
-                   <bibl>Hoffmann, Hartmut.<title level="m">Schreibschulen des 10. und des 11. Jahrhunderts im Südwesten des Deutschen Reichs</title>. Vol. 1. 2 vols. Hannover: Hahn, 2004, pp. 124-5.</bibl>
-                   <bibl>Bruckner, A.<title>Scriptoria Medii Aevi Helvetica</title>. Vol. 5. 14 vols. Geneva: Roto-Sadag, 1943.</bibl>
-                   <bibl>
-                            <abbr>Bischoff, Katalog I</abbr>, pp. 236-245.</bibl>
-                   <bibl>Obbema, Pieter F. J. “Die Handschrift.” In<title level="m">Aratea. Faksimile der Handschrift Ms. Voss. Lat. Q.79 der Rijksuniversiteit Leiden</title>, edited by Bernhard Bischoff, 9–29. Luzern: Faksimile-Verl., 1989, here p. 13-14, 34, 60, 65, 91.</bibl>
+                   <bibl>Hoffmann, Hartmut. Schreibschulen des 10. und des 11. Jahrhunderts im Südwesten des Deutschen Reichs. Vol. 1. 2 vols. Hannover: Hahn, 2004, pp. 124-5.</bibl>
+                   <bibl>Bruckner, A. Scriptoria Medii Aevi Helvetica. Vol. 5. 14 vols. Geneva: Roto-Sadag, 1943.</bibl>
+                   <bibl><abbr>Bischoff, Katalog I</abbr>, pp. 236-245.</bibl>
+                   <bibl>Obbema, Pieter F. J. “Die Handschrift.” In: Aratea. Faksimile der Handschrift Ms. Voss. Lat. Q.79 der Rijksuniversiteit Leiden, edited by Bernhard Bischoff, 9–29. Luzern: Faksimile-Verl., 1989, here p. 13-14, 34, 60, 65, 91.</bibl>
                    <bibl>Tischer, Matthias M. “Die ottonische Klosterschule in Einsiedeln zur Zeit Abt Gregors. Zum Bildungsprofil des hl. Wolfgang.” In<title>Festschrift zum tausendsten Todestag des Seligen Abtes Gregor, des dritten Abtes von Einsiedeln 996 - 1996</title>, edited by Odo Lang, 93–181. München: Bayerische Benediktinerakademie, 1996, esp. 130-133, 139f.</bibl>
-                   <bibl>
-                            <title level="m">Aristoteles Latinus Codices</title>. Vol. 2: <title>Supplementa altera</title>. Bruges-Paris: Desclée de Brouwer, 1961, n. 2125, p. 121.</bibl>
-                   <bibl>Meier, Gabriel.<title level="m">Catalogus codicum manu scriptorum qui in Bibliotheca Monasterii Einsidlensis O.S.B. servantur</title>. Einsiedeln, 1899, pp. 311-2.</bibl>
-                   <bibl>Passalacqua, Marina.<title level="m">I codici di Prisciano</title>. Roma: Edizioni di storia e letteratura, 1978, n. 115, pp. 52-53.</bibl>
-                   <bibl>
-                            <abbr>Munk Olsen, Catalogue 1</abbr>, p. 407.</bibl>
-                   <bibl>Smith, Lesley et al.<title level="m">Codices Boethiani. A Conspectus of Manuscripts of the Works of Boethius</title>. Vol. 2 <title>Austria, Belgium, Denmark, Luxembourg, The Netherlands, Sweden, Switzerland</title>. London: Warburg Institute, 2001, p. 194, n. 47.</bibl>
+                   <bibl>Aristoteles Latinus Codices. Vol. 2: Supplementa altera. Bruges-Paris: Desclée de Brouwer, 1961, n. 2125, p. 121.</bibl>
+                   <bibl>Meier, Gabriel. Catalogus codicum manu scriptorum qui in Bibliotheca Monasterii Einsidlensis O.S.B. servantur. Einsiedeln, 1899, pp. 311-2.</bibl>
+                   <bibl>Passalacqua, Marina. I codici di Prisciano. Roma: Edizioni di storia e letteratura, 1978, n. 115, pp. 52-53.</bibl>
+                   <bibl><abbr>Munk Olsen, Catalogue 1</abbr>, p. 407.</bibl>
+                   <bibl>Smith, Lesley et al. Codices Boethiani. A Conspectus of Manuscripts of the Works of Boethius. Vol. 2: Austria, Belgium, Denmark, Luxembourg, The Netherlands, Sweden, Switzerland. London: Warburg Institute, 2001, p. 194, n. 47.</bibl>
                   </listBibl>
             </additional>
                 <msPart>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 1 (pp. 1-272)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>
                         <msItem>
                             <locus from="1">1</locus>
@@ -130,7 +128,11 @@
                     </msContents>
                 </msPart>
                 <msPart>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 2 (pp. 272*-411)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>
                         <msItem>
                             <locus from="272bis" to="301">272*(recto)-301</locus>
@@ -147,7 +149,7 @@
                             <author ref="#priscianus">Priscianus</author>
                             <title ref="#de_metris_fabularum">De metris fabularum Terentii</title>
                             <rubric>Incipit eiusdem de metris fabularum terentii et aliorum comicorum Prisciani sophistae ars prae exertitaminum secundum hermogenem uel libanium explicit feliciter</rubric> 
-                            <incipit>Cum non colum terentius sed etiam Plautus et ennius ac cuisque et naeuius</incipit>                             
+                            <incipit>Cum non colum terentius sed etiam Plautus et ennius ac cuisque et naeuius</incipit>
                         </msItem>
                         <msItem>
                             <locus from="323" to="356">323-356</locus>
@@ -168,12 +170,16 @@
                         <msItem>
                             <locus from="411">411</locus>
                             <note type="title">left blank.</note>
-                            <decoNote>Underlines of an image of a human figure with drapery (roman style?), holding in the left hand something like a rotulus, while the right hand is bended in front of the chest; note on the upper most page<quote>abauus</quote>.</decoNote> 
+                            <decoNote>Underlines of an image of a human figure with drapery (roman style?), holding in the left hand something like a rotulus, while the right hand is bended in front of the chest; note on the upper most page <quote>abauus</quote>.</decoNote> 
                         </msItem>
                     </msContents>
                 </msPart>
                 <msPart>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 3 (pp. 412-455)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>                        
                         <msItem>
                             <locus from="412">412</locus>
