@@ -43,7 +43,7 @@
                     <origPlace ref="#france">France</origPlace>
                     <origDate notBefore="1001" notAfter="1050">s. XI<hi rend="sup">1</hi>
                     </origDate>
-                    <note type="facs">Digital facsimile at <ref target="http://data.onb.ac.at/rep/100209A7">onb.ac.at</ref>.</note>
+                    <note type="facs">Digitised microfilm at <ref target="http://data.onb.ac.at/rep/100209A7">onb.ac.at</ref>.</note>
                 </head>
             <msContents>
                <msItem>
@@ -102,19 +102,19 @@
                </msItem>
                <msItem>
                   <locus from="7v" to="8v">7vb-8va</locus>
-                  <note>Rest of the, f. 7v, the whole 8r and the first column of 8v, left blank probably for a treatise on geometry (see the running title: Geometria Albini).</note>
+                  <note>Rest of the, f. 7v, the whole f. 8r and the first column of f. 8v, left blank probably for a treatise on geometry (see the running title: <quote>Geometria Albini</quote>).</note>
                </msItem>
                <msItem class="aratea">
                   <locus from="8v">8vb-c</locus>
                   <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
-                  <note>Attributed here also to Alcuin (see running title: Astrologia Albini).</note>
+                  <note>Attributed here also to Alcuin (see running title: <quote>Astrologia Albini</quote>).</note>
                   <incipit><supplied>D</supplied>uo sunt extremi <del>sunt</del> uertices mundi</incipit>
                   <explicit>usque decurrit accipiens.</explicit>
                </msItem>
                <msItem class="aratea">
                   <locus from="8v">8vc</locus>
                   <title ref="#quem_circulum">Quem circulum unumquodque signorum tangat</title>
-                  <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__bav_vat_lat_4162.xml">BAV, Ms Vat. lat. 4162</ref> and in Metz, BM MS 271.</note>
+                  <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__bav_vat_lat_4162.xml">BAV, Ms Vat. lat. 4162</ref> and in <ref type="altMs" target="#desc__metz_bm_271.xml">Metz, BM MS 271</ref>.</note>
                   <rubric>Quem circulum unumquodque signorum tangat</rubric>
                   <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
                   <explicit>ultimam partem sagittae.</explicit>
@@ -125,7 +125,7 @@
                <msItem>
                   <locus from="9v" to="16v">9va-16vc</locus>
                   <author ref="#boethius">Boethius</author>
-                  <title ref="">In Porphyrium dialogi</title>
+                  <title>In Porphyrium dialogi</title>
                   <incipit><supplied>H</supplied>iemantis anni tempore in aureliae montibus</incipit>
                   <explicit>postea consideratione tractabitur.</explicit>
                   <bibl><abbr>PL</abbr> 64, 9A-70D</bibl>
@@ -145,7 +145,7 @@
                <msItem>
                   <locus from="25r" to="40v">25ra-40va</locus>
                   <author ref="#boethius">Boethius</author>
-                  <title ref="">In categorias Aristotelis</title>
+                  <title>In categorias Aristotelis</title>
                   <incipit></incipit>
                   <explicit></explicit>
                   <bibl><abbr>PL</abbr> 64, 159A-294C.</bibl>
@@ -157,7 +157,7 @@
                <msItem>
                   <locus from="41r" to="52v">41rb-52vc</locus>
                   <author ref="#boethius">Boetius</author>
-                  <title ref="">In librum Aristotelis de interpretatione libri duo</title>
+                  <title>In librum Aristotelis de interpretatione libri duo</title>
                   <incipit></incipit>
                   <explicit></explicit>
                   <bibl><abbr>PL</abbr> 64, 296B-329D.</bibl>
@@ -165,14 +165,13 @@
                <msItem>
                   <locus from="53r" to="86r">53ra-86rb</locus>
                   <author ref="#boethius">Boethius</author>
-                  <title ref="">In librum Aristotelis de interpretatione libri sex. Editio secunda seu maiora commentaria</title>
+                  <title>In librum Aristotelis de interpretatione libri sex. Editio secunda seu maiora commentaria</title>
                   <incipit></incipit>
                   <explicit></explicit>
                   <bibl><abbr>PL</abbr> 64, 393A-638D.</bibl>
                </msItem>
                <msItem>
                   <locus from="86r" to="86v">86rc-vc</locus>
-                  <author ref=""></author>
                   <rubric>Sententiae diversorum</rubric>
                   <incipit>Cum quidam audiente pythagora diceret</incipit>
                   <explicit>sed edero inquit ecce te et pecuniam perdo.</explicit>
@@ -181,7 +180,7 @@
                <msItem>
                   <locus from="87r" to="90v">87ra-90vb</locus>
                   <author ref="#boethius">Boethius</author>
-                  <title ref="">De differentiis topicis libri quatuor</title>
+                  <title>De differentiis topicis libri quatuor</title>
                   <bibl><abbr>PL</abbr> 64, 1173B-1216D</bibl>
                </msItem>
                <msItem>
@@ -211,7 +210,11 @@
             </history>
             <additional>
                <listBibl>
+                  <head>Selected literature:</head>
                   <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276, esp. 210-212.<note> By Vire N. 85, she considered it incomplete and contaminated; the text ends abruptly with book 4, ch. 14 in the middle of a page without any apparent reason; contaminated, because the errors in its readings correspond to two families. Consequently the manuscript is an 11th-century copy of an interpolated exemplar.</note></bibl>
+                  <bibl><abbr>Leonardi</abbr>, p. 488.</bibl>
+                  <bibl><abbr>Borst, Schriften</abbr>, p. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._315">315</ref>.</bibl>
+                  <bibl>Folkerts, Menso. ‘The Propositiones ad acuendos iuvenes Ascribed to Alcuin’. In Essays on Early Medieval Mathematics: The Latin Tradition, (IV) 1-9. Aldershot: Variorum, here p. 4.</bibl>
                </listBibl>
             </additional>
          </msDesc>

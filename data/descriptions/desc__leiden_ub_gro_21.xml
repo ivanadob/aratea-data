@@ -103,8 +103,8 @@
                         <msItem>
                             <locus from="45r" to="52v">45ra-52vb</locus>
                             <author ref="#hugo_st_victor">Hugo of St. Victor</author>
-                            <title ref="#hugo_practica_geometriae"></title>
-                            <rubric>Incipit practicam geometriae </rubric>
+                            <title ref="#hugo_practica_geometriae">Practica geometria</title>
+                            <rubric>Incipit practicam geometriae</rubric>
                             <incipit>Practicam geometriae nostris tradere conatus sum</incipit>
 <!--                            the work of Hugo represent the state of knowledge in the field of geometry in the West before it was influenced by the translations of arabic into latin-->
                         </msItem>
@@ -142,7 +142,7 @@
                             <author ref="#hyginus">Hyginus</author>
                             <title ref="#de_astronomia">De astronomia<note> (lib. 3 - lib. 4,8)</note></title>
                             <incipit>Igitur incipiemus a polo boreo protinus dicere</incipit>
-                            <explicit>et quae perveniant ad occasum</explicit>
+                            <explicit>et quae perveniant ad occasum.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="58v" to="59r">58vb-59rb</locus>

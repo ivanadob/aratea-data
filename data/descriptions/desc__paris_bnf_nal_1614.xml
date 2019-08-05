@@ -64,13 +64,13 @@
                                 </dimensions>
                             </extent>
                             <foliation/>
-                            <collation>The manuscript constist of at least two codicological units as becomes clear by the different quire marks. In the first part O (f.8v), P (f.16v), Q (f.24v), R (f.32v), S (f.38v), T (f.46v) and V (f.54v); in the second part I (f.82v), II (f.88v), and III (f.96v). Consequently a tentative formula for the second part (with the Aratea texts) would look like as follows: I<hi rend="sup">6</hi> (ff.77-82), II<hi rend="sup">7-1</hi> (ff.82-88, missing one after f.83), III<hi rend="sup">8</hi> (ff.89-96), IV<hi rend="sup">4-1</hi> (ff.97-99, missing one after f. 99).</collation>
+                            <collation>The manuscript constist of at least two codicological units as becomes clear by the different quire marks. In the first part O (f.8v), P (f.16v), Q (f.24v), R (f.32v), S (f.38v), T (f.46v) and V (f.54v); in the second part I (f.82v), II (f.88v), and III (f.96v). Consequently a tentative formula for the second part (with the Aratean texts) would look like as follows: I<hi rend="sup">6</hi> (ff.77-82), II<hi rend="sup">7-1</hi> (ff.82-88, missing one after f.83), III<hi rend="sup">8</hi> (ff.89-96), IV<hi rend="sup">4-1</hi> (ff.97-99, missing one after f. 99).</collation>
                             <condition>
                                 <p>Missing at least two folia (after f.83 and f.99). Damage by ff. 88, 94 and 97 (partially cut or torn).</p>
                             </condition>
                         </supportDesc>
                         <layoutDesc>
-                            <layout columns="1" writtenLines="27 28"/>
+                            <layout columns="1" writtenLines="27 28">Written in 27-28 long lines.</layout>
                         </layoutDesc>
                     </objectDesc>  
                     <handDesc>
@@ -93,7 +93,11 @@
                     </listBibl>
                 </additional>
                 <msPart>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 1 (ff. 1-76)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>
                         <msItem>
                             <locus from="1r" to="75r">1r-75r</locus>
@@ -111,18 +115,22 @@
                         </msItem>
                     </msContents>
                     <history>
-                        <origin>This manuscript was once part of a larger MS produced in <origPlace>Tours</origPlace>. In its original form it consisted of 20 mostly quarto-quires of parchment, with quire-marks on the verso of the last folio - A to V. This MS is currently divided into 4 parts: 
+                        <origin>This manuscript was once part of a larger MS produced in <origPlace ref="#tours">Tours</origPlace> (<rs type="corporate" ref="#st_martin_tours">Abbey St. Martin</rs>), according to Borst after <origDate notBefore="0825" notAfter="0850">825</origDate>, under the Anglo-Saxon abbot Fridugis. In its original form it consisted of 20 mostly quarto-quires of parchment, with quire-marks on the verso of the last folio - A to V. This MS is currently divided into 4 parts: 
                             <list>
                                 <item n="1">Paris, BnF, nouv. acq. lat. 1612 (22 fols.): Quires A, B and C incl. Bede, DNR and varia on the computus;</item>
                                 <item n="2">Tours, Saint-Martin, 334 (49 fols.): Quires D, E, F and the first 6 folios from quires G and 7 last folios from quire H, quire I, and 4 folios signed K;</item>
                                 <item n="3">Paris, BnF, nouv. acq. lat. 1613 (23 fols.): The last two folios of quire G and the first folium of quire H, quires L, M and N. Melange about the computus, the chronology, astronomy, the weights and measures.</item>
-                                <item n="4">Paris, BnF, nouv. acq. lat. 1614 (99 fols.): Quires O to V ; 99 fols. Arithmetic of Boethius, followed (in a separate codicological unit) by Aratea.</item>
+                                <item n="4">Paris, BnF, nouv. acq. lat. 1614 (99 fols.): Quires O to V with the Arithmetic of Boethius, followed (in a separate codicological unit) by Aratean texts.</item>
                             </list></origin>
-                        <provenance></provenance>
+                        <provenance>The manuscript was divided in four parts in 1842 by <rs type="person">Guglielmo Libri Carucci dalla Sommaja</rs>.</provenance>
                     </history>
                 </msPart>
                 <msPart>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <altIdentifier type="partial">
+                            <idno>Part 2 (ff. 77-99)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>
                         <msItem class="aratea">
                             <locus from="77r" to="93v">77r-93v</locus>
@@ -144,37 +152,37 @@
                             <msItem>
                                 <locus from="78v" to="79r">78v-79r</locus>
                                 <title>Hypparchus de magnitudine</title>
-                                <incipit>Ipparcus de magnitudine et positione errantium stellarum. Constat autem aquilonio semispherio ha</incipit>
+                                <incipit>Ipparcus de magnitudine et positione errantium stellarum. Constat autem aquilonio semispherio haec</incipit>
                                 <explicit>aries taurus gemini.</explicit>
-                                <note>no visual separation from the previous passage.</note>
+                                <note>No visual separation from the previous passage.</note>
                             </msItem>
                             <msItem>
                                 <locus from="79r" to="80r">79r-80r</locus>
                                 <title>Alexandrine preface</title>
                                 <incipit>quibus arati uidentur quaedam sunt secundum caeli stellarum</incipit>
                                 <explicit>quia simillimo in id ipsum suggerunt.</explicit>
-                                <note>no visual separation from the previous passage.</note>
+                                <note>No visual separation from the previous passage.</note>
                             </msItem>
                             <msItem>
                                 <locus from="80r" to="81r">80r-81r</locus>
                                 <title>Alia description prefationis</title>
                                 <rubric>Alia descriptio pręfationis</rubric>
-                                <incipit>Subtus terra firmantur signa </incipit>
+                                <incipit>Subtus terra firmantur signa</incipit>
                                 <explicit>serpentarius usque ad genua.</explicit>
                             </msItem>
                             <msItem>
                                 <locus from="81r">81r</locus>
                                 <title>Eratostenes de exornatione et proproetate sermonum</title>
-                                <incipit>Eratostenes de exornatione et proprietate sermonum quibus uidemus et ipparci de magnittudine et positione errantium stellarum secundum qualiter su</incipit>
+                                <incipit>Eratostenes de exornatione et proprietate sermonum quibus uidemus et ipparci de magnittudine et positione errantium stellarum secundum qualiter sunt</incipit>
                                 <explicit>sacrarium necnon sagitarium pisces coetus orion.</explicit>
-                                <note>no visual separation from the previous passage.</note>
+                                <note>No visual separation from the previous passage.</note>
                             </msItem>
                             <msItem>
                                 <locus from="81r" to="81v">81r-81v</locus>
                                 <title>Descriptio duorum semispherium</title>
-                                <rubric>Disciptio duorum semispherium</rubric>
+                                <rubric>Discriptio duorum semispherium</rubric>
                                 <incipit>Habet autem pondus totum medium terrae terrenum</incipit>
-                                <explicit> in medio iacet duobus semispheriis.</explicit>
+                                <explicit>in medio iacet duobus semispheriis.</explicit>
                                 <decoNote>Drawing of the two hemispheres (east-west). <!--too many male figures there – Perseus with the head of Medusa; Hercules stepping on Draco’s head (but without a pelt), then Agitator with a sword and some pelt above Libra, and some other second Hercules next to Cygnus/ or aquila? Delphinus is like a snake; a second capricornus next to Coetus below Orion.--></decoNote>
                             </msItem>
                             <msItem>
@@ -188,28 +196,27 @@
                                 <title>De caeli positione</title>
                                 <rubric>De caeli positione</rubric>
                                 <incipit>Caelum circulis quinque distinguit</incipit>
-                                <explicit>olida anteposita his deformia.</explicit>
+                                <explicit>solida anteposita his deformia.</explicit>
                             </msItem>
                             <msItem>
                                 <locus from="82v" to="83v">82v-83v</locus> 
                                 <title>De stellis fixis et stantibus</title>
                                 <rubric>De stellis fixis et stantibus</rubric>
                                 <incipit>Stellarum aliae cum caelo ferunt</incipit>
-                                <explicit> et quomodo consentit aut uisus est.</explicit>
+                                <explicit>et quomodo consentit aut uisus est.</explicit>
                             </msItem>
                             <msItem>
                                 <locus from="83v">83v</locus>
                                 <title>Invuolutio spherae</title>
                                 <rubric>Inuolutio spherae</rubric>
-                                <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplic</incipit>
-                                <explicit>uius heduli desuper obtinent locum Septentrio <gap reason="damage"/>
-                                </explicit>
-                                <note>One folio was torn out after f. 83. It contained most probably the illustration usually attached to Involutio spherae of a globe on five columns. This was most probably a singleton, since there is no text missing between ff. 87 and 88, where one sees only the stub with which the folio was attached to the binding.</note>
+                                <incipit>Hic est stellarum ordo utrorumque circulorum septentriones duplices</incipit>
+                                <explicit>cuius heduli desuper obtinent locum. Septentrio <gap reason="damage"/></explicit>
+                                <note>One folio was torn out after f. 83. It contained most probably the illustration usually attached to Involutio spherae of a globe on five columns. The leaf was most probably a singleton, since there is no text missing between ff. 87 and 88, where one sees only the stub with which the folio was attached to the binding.</note>
                             </msItem>
                             <msItem>
                                 <locus from="84r" to="93v">84r-93v</locus> 
                                 <title>Vertices</title>
-                                <incipit>Uertices circa quos spera caeli uoluitur polos antiq</incipit>
+                                <incipit>Uertices circa quos spera caeli uoluitur polos antiqui nuncupauerunt</incipit>
                                 <explicit>adeptos fuisse opinabantur uictoriam.</explicit>
                                 <finalRubric>Explicit liber astrologorum.</finalRubric>
                                 <decoNote>On ff. 92v-93r space left blank for illustrations: zodiacus circulus (f.<locus from="91r">91r</locus>), Luna (f.<locus from="91v">91v</locus>), Sol (f.<locus from="92v">92v</locus>) and the planets (f.<locus from="93r">93r</locus>). For description of the constellations see Lippincott and Sternbilder. <!--Constellations: space well defined in relation to text for Ursa maior (f. 84r) till serpentarius on 85r; but on <locus from="85v">85v</locus>– illustrations placed in the margin (as if scribe writing the text forgot to leave space), f. <locus from="86r">86r</locus>– again space left for twins, - auriga; <locus from="86v">86v</locus>– illustration placed in the margin although space is left blank; <locus from="87r">87r</locus>– illustration of Andromeda and Equus entering the text space -> drawn before the text?! <locus from="87v">87v</locus>– in the margin (Triangulus, Pisces, Perseus); f. <locus from="88r">88r</locus>– Pleiades, Lyra, Cignum, Aquarius, Capricornus the outer half of the page is torn out – perhaps images placed in the outer margin? The same goes for <locus from="88v">88v</locus>where text in some parts was drawn inside – left space for the (now missing) illustrations; f. <locus from="89r">89r</locus>– Syrius, lepus, nauis – and also <locus from="89v">89v</locus>and <locus from="90r">90r</locus>have illustration with defined space left for them.-->
@@ -230,7 +237,7 @@
                             <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
                             <rubric>De ordine ac positione stellarum per signa</rubric>
                             <incipit>Est quidem hic ordo et position syderum</incipit>
-                            <explicit>awing of Nauis) usque ad malum figuratur.</explicit>
+                            <explicit><note>(Drawing of Nauis) </note>usque ad malum figuratur.</explicit>
                             <decoNote>27 drawings of the constellations, marking the stars with tiny crosses in and around the figures following the instructions in the text (or the exemplar); the drawing were placed before the text; for the RAL und the De ordine were used different pictorial cycles executed most probably by the same artist.</decoNote>
                             <note>f. 97 (text and drawings of Auriga, Taurus, Cepheus, Cassiepia, Andromeda and Equus) is almost complete cut off; only part of the inner margin with few words survive. The text ends up with the section on the constellation Navis missing the last nine constellations, which probably fitted one folio (Hydra, Corvus and Crater depicted together), thus making the last quire a quarto.</note>
                         </msItem>

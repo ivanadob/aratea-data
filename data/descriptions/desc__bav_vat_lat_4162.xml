@@ -97,7 +97,7 @@
                         <msItem class="aratea">
                             <locus from="52r" to="52v">52r-v</locus>
                             <title ref="#quem_circulum">Quem circulum unumquodque signorum tangat</title>
-                            <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__vienna_onb_2269.xml">Vienna, ÖNB, Cod. 2269</ref> and in Metz, BM MS 271.</note>
+                            <note>Text on the position of the constellations within the celestial sphere; found also in <ref type="altMs" target="#desc__vienna_onb_2269.xml">Vienna, ÖNB, Cod. 2269</ref> and in <ref type="altMs" target="#desc__metz_bm_271.xml">Metz, BM MS 271</ref>.</note>
                             <rubric>Quem circulum unumquodque signorum tangat</rubric>
                             <incipit>A capite draconis tangit dextrum pedem engonasi</incipit>
                             <explicit>ultimam partem sagittae.</explicit>
@@ -157,7 +157,7 @@
                         </msItem>
                         <msItem>
                             <locus from="61v">61v</locus>
-                            <note type="title">Excerpt from the world-chronicle of Bede, <title ref="#DTR">De temporum ratione</title>, cap.  (later addition - s. XII<hi rend="sup">ex</hi>)</note>
+                            <note type="title">Excerpt from the world-chronicle of Bede, <title ref="#DTR">De temporum ratione</title> (later addition - s. XII<hi rend="sup">ex</hi>)</note>
                             <incipit>Iudeorum suscepti principatum quae tenuit annis triginta sex</incipit>
                             <explicit>neptem aristoboli fratris hircani qui ante eum.</explicit>
                         </msItem>
