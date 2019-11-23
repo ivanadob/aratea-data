@@ -56,6 +56,17 @@
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f133.item" n="128v"/>
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f133.item" n="129r"/>
       <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f134.item" n="129v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f134.item" n="130r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f135.item" n="130v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f135.item" n="131r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f136.item" n="131v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f136.item" n="132r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f137.item" n="132v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f137.item" n="133r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f138.item" n="133v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f138.item" n="134r"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f139.item" n="134v"/>
+      <graphic url="http://gallica.bnf.fr/ark:/12148/btv1b100335998/f139.item" n="135r"/>
    </facsimile>
    <text>
       <body>
@@ -158,7 +169,11 @@
                   difference between stella (single star), sidera (clusters of stars) and astra (major constellations)- following Isidore, Etym. III, 60.</note>
                </msItem>
                <msItem>               
-                  <locus from="120v" to="121r">120v-121r</locus>
+                  <locusGrp>
+                     <locus from="120v" to="121r">120v-121r</locus>
+                     <locus from="123r" to="132r">123r-132r</locus>
+                     <locus from="133v" to="134v">133v-134v</locus>
+                  </locusGrp>
                   <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum (redaction)</title>
                   <rubric>Incipit de ordine et situ siderum</rubric>
                   <msItem>
@@ -167,25 +182,26 @@
                      <explicit>cauda quidem maiorem cetero circuitu minorem.</explicit>
                      <quote>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis polis qui a philosophis caeli uertices uocantur; quorum unus septentrionalis est et uocatur boreas. Alter australis qui dicitur austronocius. Sed sicut borealis a nobis semper uideri potest ita australis numquam. Borealis uero polo tria haec uiciniora signa habentur: duo uidelicet arturi et serpens circum. Sed arcturus maior helice minor uero cinosura appellatur. Hos serpens </quote>
                   </msItem>
-               </msItem>
-               <msItem>                  
+                  <msItem>                  
                   <locus from="121r" to="134v">121r-134v</locus>
                   <incipit>Maior arcturus habet in capite stellas VII</incipit>
-                  
+                  <explicit>Anticanis <gap/> hic tantummodo trium est stellarum.</explicit>
                   <!--<note> Minor... Relique autem duae choreunte dicuntur quod circa polum uersantur
                   
-                  Lepus : fugiens infrs sinistrum ledem orimis positus habet stellas in utrisquae auribus singulas in corpore duas in pedibus prioribus singulas & unam in dorso quae ceteris nitidior est.</note>-->
+                  Lepus : fugiens infra sinistrum ledem orimis positus habet stellas in utrisquae auribus singulas in corpore duas in pedibus prioribus singulas & unam in dorso quae ceteris nitidior est.</note>-->
                     </msItem>
+               </msItem>
+               
                <msItem>                  
                   <locus from="134v" to="136r">134v-136r</locus>
-                  <rubric>DE POSITIONE ET CURSU SEPTEM PLANETARUM</rubric>
+                  <rubric>De positione et cursu septem planetarum</rubric>
                   <incipit>Inter caelum et terram</incipit>
                   <explicit> ad easdem uices exit</explicit>
-                  <note>left blank the rest of 136r for diagram, such not drawn a later text added ‘Incipit pmnu ul oracio conspicui patris amandi ... expl inreadable also on the verso.</note>
+                  <note>originally left blank the rest of 136r probably for diagram. Later addition ‘Incipit ymnum vel oracio conspicui patris amandi. Pange lira cordis mei ... et omnia insuper paradisum posedere faciat.</note>
                     </msItem>
                <msItem>                  
                   <locus from="137r">137r</locus>
-                  <rubric>IIII DE INTERVALLIS EARVM </rubric>
+                  <rubric>IIII De intervallis earum</rubric>
                   <incipit>Interualla eorum a terra multi indaga</incipit>
                   <explicit> quam diapason armonia uocant.</explicit>
                </msItem>
@@ -204,7 +220,7 @@
                   <locus from="144r" to="161r">144r-161r</locus>
                   <incipit>Incipit Prefacio heririci (sic) de racione compoti. Cum  quibusdam fribus nris adolescentulis queda</incipit>
                   <explicit> ad huc penetrare nequent his primum quasi quibusdam alphabeti caracteribus inducti illa de inces facile assequantur.</explicit>
-                  <finalRubric>EXPLICIT LIBER ERIRICI.</finalRubric><!--later hand – 12th c.-->
+                  <finalRubric>Explicit liber Eririci.</finalRubric><!--later hand – 12th c.-->
                </msItem>
                <!--Some more computistical texts-->
                <msItem>
