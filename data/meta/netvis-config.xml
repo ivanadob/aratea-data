@@ -1,0 +1,147 @@
+<netvisConfig>
+    <Nodes>
+        <Entity type="Manuscript">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:descriptions||'/'||$entity-id)//tei:TEI</getEntity>
+            <mandatoryProps>
+                <id type="xpath">util:document-name($node)</id>
+                <label type="xpath">$node//tei:title[@type="sub"]/text()</label>
+                <detail_view type="xpath">app:hrefToDoc($node, 'descriptions')</detail_view>
+                <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Manuscript')</as_graph>
+                <type type="literal">Manuscript</type>
+            </mandatoryProps>
+            <relations>
+                <target>
+                    <xpath>$node//tei:msItem//tei:title[starts-with(@ref, '#')]</xpath>
+                    <relationType>mentions Work</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                        <label type="xpath">$node/text()</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Work')</as_graph>
+                        <type type="literal">Work</type>
+                        <relationType type="literal">mentions Work</relationType>
+                    </mandatoryProps>
+                </target>
+                <target>
+                    <xpath>$node//tei:body//tei:rs[@type='text' and starts-with(@ref, '#')]</xpath>
+                    <relationType>mentions Aratea-Text</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                        <label type="xpath">$node/text()</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Aratea-Text')</as_graph>
+                        <type type="literal">Aratea-Text</type>
+                        <relationType type="literal">mentions Aratea-Text</relationType>
+                    </mandatoryProps>
+                </target>
+                <target>
+                    <xpath>$node//tei:msItem//tei:author[starts-with(@ref, '#')]</xpath>
+                    <relationType>mentions Author</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                        <label type="xpath">$node/text()</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Author')</as_graph>
+                        <type type="literal">Author</type>
+                        <relationType type="literal">mentions Author</relationType>
+                    </mandatoryProps>
+                </target>
+            </relations>
+        </Entity>
+        <Entity type="Author">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:personIndex)//tei:person[@xml:id=$id]</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Author')</as_graph>
+                <type type="literal">Person</type>
+                <relationType type="literal">mentioned by Description</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>collection($app:descriptions)//tei:TEI[.//*/@ref=concat("#", $node/@xml:id)]</xpath>
+                <relationType>mentioned by Description</relationType>
+                <mandatoryProps>
+                    <id type="xpath">util:document-name($node)</id>
+                    <label type="xpath">$node//tei:title[@type="sub"]/text()</label>
+                    <detail_view type="xpath">app:hrefToDoc($node, 'descriptions')</detail_view>
+                    <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Manuscript')</as_graph>
+                    <type type="literal">Manuscript</type>
+                    <relationType type="literal">mentioned by Description</relationType>
+                    <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+                </mandatoryProps>
+            </target>
+            <target>
+                <xpath>doc($app:workIndex)//work[./author[@xml:id=concat('#', $node/@xml:id)]]</xpath>
+                <relationType>author of</relationType>
+                <mandatoryProps>
+                    <id type="xpath">data($node/@xml:id)</id>
+                    <label type="xpath">normalize-space(string-join($node/title[1]//text(), ' '))</label>
+                    <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                    <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Work')</as_graph>
+                    <type type="literal">Work</type>
+                    <relationType type="literal">written by</relationType>
+                </mandatoryProps>
+            </target>
+        </Entity>
+        <Entity type="Work">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:workIndex)//work[@xml:id=$id]</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node/title[1]//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Work')</as_graph>
+                <type type="literal">Work</type>
+                <relationType type="literal">mentioned by Description</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>$node/author[starts-with(@ref, '#')]</xpath>
+                <relationType>wrote Work</relationType>
+                <mandatoryProps>
+                    <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                    <label type="xpath">$node/text()</label>
+                    <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                    <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Author')</as_graph>
+                    <type type="literal">Author</type>
+                    <relationType type="literal">wrote Work</relationType>
+                </mandatoryProps>
+            </target>
+        </Entity>
+        <Entity type="Aratea-Text">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:texts||'/'||$entity-id)//tei:TEI</getEntity>
+            <mandatoryProps>
+                <id type="xpath">util:document-name($node)</id>
+                <label type="xpath">$node//tei:titleStmt/tei:title[1]/text()</label>
+                <detail_view type="xpath">app:hrefToDoc($node, 'texts')</detail_view>
+                <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Aratea-Text')</as_graph>
+                <relationType type="literal">mentioned by Manuscript</relationType>
+            </mandatoryProps>
+        </Entity>
+    </Nodes>
+    <NodeTypes>
+        <node>
+            <id>Manuscript</id>
+            <color>#6b5b95</color>
+            <label>Manuscript</label>
+        </node>
+        <node>
+            <id>Aratea-Text</id>
+            <color>#feb236</color>
+            <label>Aratea-Text</label>
+        </node>
+        <node>
+            <id>Work</id>
+            <color>#28a745</color>
+            <label>Work</label>
+        </node>
+        <node>
+            <id>Author</id>
+            <color>#ff7b25</color>
+            <label>Author</label>
+        </node>
+    </NodeTypes>
+</netvisConfig>
