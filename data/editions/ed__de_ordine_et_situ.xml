@@ -20,10 +20,13 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Digital born transcription of MS Paris, BNF, NAL 456 ff. 120v-134v</p>
+                <p>Digital born transcription of <ref target="#desc__paris_bnf_nal_456.xml">MS Paris, BNF, NAL 456</ref> ff. 120v-134v</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -40,24 +43,21 @@
                 <head>
                     <title>Incipit de ordine et situ siderum</title>
                 </head>
-                <p>Incipiendum igitur nobis est de ordine et situ stellarum locuturis a duobus polis qui a philosophis caeli uertices uocantur. quorum unus septentrionalis est et uocatur boreas; alter australis qui dicitur austronocius. <note>[Isidore, Etym. III, 37]</note> <cit><quote ana="#exc_1">sed sicut borealis a nobis semper uideri potest, ita australis numquam. boreali uero polo tria haec uiciniora signa habentur: duo uidelicet arturi et serpens circum.</quote></cit> <cit><quote ana="#exc_2">sed arcturus maior helice, minor uero cinosura appellatur.</quote></cit> hos serpens inter iacens separat et ambit, cauda quidem maiorem, cetero circuitu <pb n="121r"/> minorem. </p>            
-                <p>Maior arcturus habet in capite stellas VII obscuras in utris auribus binas ; in humero claram unam, i<supplied>n</supplied> pede nouissimo duas, in summo interscapilio unam, in crure de posterioribus primo unam, in pede priore duas, in cauda tres; sunt omnes XXI.</p>
+                <p>Incipiendum igitur nobis est de ordine et situ stellarum locuturis a duobus polis qui a philosophis caeli uertices uocantur. quorum unus septentrionalis est et uocatur boreas; alter australis qui dicitur austronocius. <note>[Isidore, Etym. III, 37]</note> <cit><quote ana="#exc_1">sed sicut borealis a nobis semper uideri potest, ita australis numquam. boreali uero polo tria haec uiciniora signa habentur: duo uidelicet arturi et serpens circum.</quote></cit> <cit><quote ana="#exc_2">sed arcturus maior helice, minor uero cinosura appellatur.</quote></cit> hos serpens inter iacens separat et ambit, cauda quidem maiorem, cetero circuitu <pb n="121r"/> minorem.</p>
+                <p>Maior arcturus habet in capite stellas VII obscuras in utris auribus binas; in humero claram unam, i<supplied>n</supplied> pede nouissimo duas, in summo interscapilio unam, in crure de posterioribus primo unam, in pede priore duas, in cauda tres; sunt omnes XXI.</p>
                 <p><supplied>M</supplied>inor uero in stationis unoquoque loco habet stellas singulas clare lucentes et supra caudam tres; sunt omnes VII. Sed in prioribus caude stellis una est infima quae polus appellatur, per quem locum ipse mundus existimatur uersari. Relique autem duae choreute dicuntur quod circa polum uersantur.</p>
                 <note>On ff. 121v-122v later additions on previously blank (?) space.</note>
                 <pb n="123r"/>
                 <p>Draco inter duos arctos collocatus habet in utroque tempore singulas in occulis singulas in mento unam et toto corpore reliquo passim dispositas decem est enim stellarum XV.</p>
-                <p>Engonasin qui hercules stans genu flexo dextro pede caput primit serpentis. capite ad austrum conuerso humeris suis coronae tangit confinia. Habet autem <pb n="123v"/> in capite stellam unam, in sinistro brachio unam, in utroque humero singulas clare lucentes, in manu sinixtra unam, in dextro cubitu alteram, in utroque latere singulas, sed clariorem in sinistro, in dextre femine duas, in genu unam, in poblite unam, in crure duas, in pede unam quae dicitur clara, in sinistra manu quatuor, sunt omnes XVIIII.</p>
-                <p>Corona post <supplied>t</supplied>ergum erculis sita, capiti serpentis, quem serpentarius tenet, non longe abesse uidetur. Haec cancro et leone exoriente occidere, cum scorpione exoriri perspicitur. Habet autem [f. 124] stellas VIIII in rotundo dispositas.</p>                    
+                <p>Engonasin qui hercules stans genu flexo <cit><quote ana="#exc_4">dextro pede caput primit serpentis. capite ad austrum conuerso humeris suis coronae tangit confinia</quote></cit>. Habet autem <pb n="123v"/> in capite stellam unam, in sinistro brachio unam, in utroque humero singulas clare lucentes, in manu sinixtra unam, in dextro cubitu alteram, in utroque latere singulas, sed clariorem in sinistro, in dextre femine duas, in genu unam, in poblite unam, in crure duas, in pede unam quae dicitur clara, in sinistra manu quatuor, sunt omnes XVIIII.</p>
+                <p><cit><quote ana="#exc_5">Corona post <supplied>t</supplied>ergum erculis sita, capiti serpentis, quem serpentarius tenet, non longe abesse uidetur</quote></cit>. Haec cancro et leone exoriente occidere, cum scorpione exoriri perspicitur. Habet autem [f. 124] stellas VIIII in rotundo dispositas.</p>                    
                 <p>Serpentarius qui a grecis offiucus uocatur sub ercule positus ad austrum uersis pedibus scorpionem calcat serpente precintus, quem in utraque manu tenet plurima longitudine protentus usque ad coronam extenditur. Hic habet in capite stellam unam, in utroque humero singulas, in sinistra manu tres, in dextra IIII, in lumbis duas, in utroque genu singulas, in dextro crure unam, in utroque pede singulas, sed clariorem in dextro; itaque est stellarum XVII.</p> 
                 <p>Anguis uero habet in summo capite unam, sub capite IIII. Ceteras uero per reliquum corporis passim dispositas XV.</p>
                 <pb n="124v"/>
                 <p>Scorpio sub pedibus serpentarii positis habet sub se ad australem plagam centaurum hic exoritur erectus occidit autem inclinato corpore et est stellarum XVIIII sed inter eas que in fronte sunt media est clarissima.</p>                    
                 <p>Bootes qui et artofilax et areas custosque <pb n="124bisr"/> plaustri dicitur post <supplied>t</supplied>ergum arcturi maioris iuxta anguem quo serpentarius praecinctus dicitur. Hic habet stellas in sinixtra manu IIII reliquis in locis X sed clariorem in zona.</p>
-                
                 <p>Virgo sub pedibus bootis est constituta, contra gutur uero et pedes anteriores ursae maioris capite autem posteriorem partem leonis tangit. Haec stat supra coruum et caudam idre; capite priusquam ceteris membris occidit et est stellarum XVIIII sed ex his maior est quae in dextra manu cum spicis esse dicitur inter quas <pb n="124bisv"/> et ille sex sunt quae in penula uestis esse dicuntur.</p>
-                
-                <p>Gemini ab auriga dextra parte supra orionem collocati uidentur, ita tamen ut orion inter taurum et geminos sit constitutus. 
-                    Hii complexa corpora inter se tenentes conspiciuntur; exoriuntur autem inclinati ut iacentes. ex his qui cancro est proximus est stellarum VIII sed ex his clarior habetur quae in capite est. similiter et alter VIII stellarum est sed clarior est quae in capite iuxta cuius sinistrum pedem una uisitur quae tropus appellatur.</p>
+                <p>Gemini ab auriga dextra parte supra orionem collocati uidentur, ita tamen ut orion inter taurum et geminos sit constitutus. Hii complexa corpora inter se tenentes conspiciuntur; exoriuntur autem inclinati ut iacentes. ex his qui cancro est proximus est stellarum VIII sed ex his clarior habetur quae in capite est. similiter et alter VIII stellarum est sed clarior est quae in capite iuxta cuius sinistrum pedem una uisitur quae tropus appellatur.</p>
                 <pb n="125r"/>
                 <p>Cancer post geminos contra uentrem ursae maioris situs est. hic habet in ipsa testula stellas duas quae aselli dicuntur. Inter quos nubecula quaedam cernitur quae praesepium dicitur ceterum uero XV asseritur esse stellarum.</p>
                 <pb n="125v"/>
@@ -94,8 +94,8 @@
                 <pb n="132v"/>
                 <note>On ff. 132v-133r later additions probably over erased text sections on Coetus and Eridanus.</note>
                 <pb n="133v"/>
-                <p>Piscis magnus.____ excipiens aquam quae ab aquario funditur hic est stellarum XII.</p>
-                <p>Ara quae et sacrarium dicitur est contra summitatem caudae scorpionis ad austrum posita. <note>(excerptum)</note> Haec haber stellas super graticulam II in basi II <note>(de signis)</note>. </p>
+                <p>Piscis magnus. <gap/> excipiens aquam quae ab aquario funditur hic est stellarum XII.</p>
+                <p><cit><quote ana="#exc_36">Ara quae et sacrarium dicitur est contra summitatem caudae scorpionis ad austrum posita</quote></cit>. <cit><quote ana="#de_sig_">Haec habet stellas super graticulam II in basi II</quote></cit>.</p>
                 <p>Centaurus sub scorpione positus ad austra<pb n="134r"/>lem plagam bestiam manu tenet quasi ad aram ferentem. hic dicitur esse XXVI stellarum e quibus clariores sunt due quae in humeris et due quae in uentre dicuntur. Ostia autem quam manu tenet est decem stellarum ex quibus clarior est quae in dorso paret.</p>
                 <p>Serpens qui et hidra dicitur trium signorum longitudinem occupat ita ut caput cancro medietas leoni cauda uirgini subiecta uidentur. hic coruum et urnam renibus gestat. Nam serpens XXVII stellarum esse dicitur, coruus VII urna autem VIII.</p>
                 <pb n="134v"/>
