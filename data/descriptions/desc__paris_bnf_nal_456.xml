@@ -174,13 +174,12 @@
                      <locus from="123r" to="132r">123r-132r</locus>
                      <locus from="133v" to="134v">133v-134v</locus>
                   </locusGrp>
-                  <title ref="#de_ordine_ac_positione">De ordine ac positione stellarum (redaction)</title>
+                  <title ref="#de_ordine_ac_positione">De ordine et situ stellarum</title>
                   <rubric>Incipit de ordine et situ siderum</rubric>
                   <msItem>
                      <note>Prologue</note>
                      <incipit>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis</incipit>
                      <explicit>cauda quidem maiorem cetero circuitu minorem.</explicit>
-                     <quote>Incipiendum igitur nobis est de ordine et situ stellarum locuturis ad uobis polis qui a philosophis caeli uertices uocantur; quorum unus septentrionalis est et uocatur boreas. Alter australis qui dicitur austronocius. Sed sicut borealis a nobis semper uideri potest ita australis numquam. Borealis uero polo tria haec uiciniora signa habentur: duo uidelicet arturi et serpens circum. Sed arcturus maior helice minor uero cinosura appellatur. Hos serpens </quote>
                   </msItem>
                   <msItem>                  
                   <locus from="121r" to="134v">121r-134v</locus>
