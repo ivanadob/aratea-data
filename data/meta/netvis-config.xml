@@ -35,18 +35,6 @@
                         <relationType type="literal">mentions Aratea-Text</relationType>
                     </mandatoryProps>
                 </target>
-                <target>
-                    <xpath>$node//tei:msItem//tei:author[starts-with(@ref, '#')]</xpath>
-                    <relationType>mentions Author</relationType>
-                    <mandatoryProps>
-                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
-                        <label type="xpath">$node/text()</label>
-                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
-                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Author')</as_graph>
-                        <type type="literal">Author</type>
-                        <relationType type="literal">mentions Author</relationType>
-                    </mandatoryProps>
-                </target>
             </relations>
         </Entity>
         <Entity type="Author">
