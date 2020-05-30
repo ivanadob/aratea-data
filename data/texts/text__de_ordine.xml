@@ -32,8 +32,12 @@
       <body>
          <div>
             <head>
-               <title>Introduction</title>
-            </head>            
+               <title>Introduction</title>               
+            </head>  
+            <p>The star catalogue <title>De ordine ac positione stellarum in signis</title> derives from the <ref target="#text__scholia_basileensia">scholia Basileensia</ref>. The text was probably produced after the computists meeting in 809, when scholars at the court were gathering and compiling texts on computus for the Aachen encyclopaedia (also called 'Libri computi' and 'The 7-book computus'). Le Bourdelles argued that it was Adalard of Corbie (d. 823) who prepared it.<note type="footnote">Hubert Le Bourdellès, L’Aratus Latinus étude sur la culture et la langue latines dans le Nord de la France au VIIIe siècle (Lille: Université de Lille III, 1985), 99-103.</note></p>
+            <p>Before the actual catalogue of the 42 constellations, the author of the text offered a short introduction to the topic, explaining that these are the </p> 
+            <p>Each constellation is introduced first with its name including name variation (e.g. <quote>Helice, Arcturus maior</quote>, <quote>Cynosure, Arcutus minor</quote>) before listing the stars within its parts usually with the phrase <quote>habet stellam / stellas in ...</quote>. For most there is a total number of stars at the end (<quote>summa ... / fiunt ...</quote>). Some of the stars are described as bright or brighter (<quote>clara / clarior</quote>) and faint (<quote>obscura / parva</quote>). </p>
+            <p>Rarely there is information about the relative position with respect to the circles or other constellations.</p>
             <p>Inc.: Est quidem hic ordo et position siderum… (Imago Vrsae maioris -> Helice, Arcturus maior, habet stellas…). Expl.: Anticanis habet stellas III. </p>
          </div>
          <div>

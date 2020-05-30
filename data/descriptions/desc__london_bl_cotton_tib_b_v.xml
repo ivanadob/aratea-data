@@ -214,7 +214,7 @@
                         <locus from="23v" to="24r">23v–24r</locus>
                         <title>Adventus Sigerici ad Romam</title>
                         <incipit>In nomine domini nostri ihesu christi iohannes rabennati sedit</incipit>
-                        <bibl>W. Stubbs (ed.),<title>Memorials of Saint Dunstan, Archbishop of Canterbury</title> (London, 1874), pp. 391-395.</bibl>
+                        <bibl>W. Stubbs (ed.),Memorials of Saint Dunstan, Archbishop of Canterbury (London, 1874), pp. 391-395.</bibl>
                     </msItem>
                     <msItem xml:lang="ang">
                         <locus from="24r" to="28v">24r–28v</locus>
@@ -259,13 +259,33 @@
                         <incipit>A quibus hinc subterpossis cognoscere fultum</incipit>
                         <explicit>
                             <supplied>H</supplied>anc autem totam properant depellere pisces.</explicit>
-                        <msItem>
-                            <locus from="32v" to="44r">32v-44r</locus>
-                            <title ref="#ral">Revised Aratus Latinus<note> as scholia</note></title> 
+                        <msItem class="aratea">
+                            <locusGrp>
+                                <locus from="32v" to="33r">32v-33r</locus>
+                                <locus from="35r" to="35v">35r-v</locus>
+                                <locus from="36v">36v</locus>
+                                <locus from="37v">37v</locus>
+                                <locus from="41v">41v</locus>
+                                <locus from="44v">44v</locus>
+                            </locusGrp>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title ref="#de_astronomia">De astronomia<note> as scholia for Aries (<locus from="32v">32v</locus>), Triangulus (<locus from="33r">33r</locus>), Lira (<locus from="35r">35r</locus>), Cynus (<locus from="35v">35v</locus>), Caprocornus (<locus from="36v">36v</locus>), Sagitta (<locus from="37v">37v</locus>), Eridanus (<locus from="41v">41v</locus>) and Planetae (<locus from="44v">44v</locus>)</note></title>
                             <incipit>Aries hic existimatur esse qui fryxum</incipit>
-                            <explicit>Habet quidem stellas III.</explicit>
+                            <explicit>quae stellae palnete sunt dictae.</explicit>
                         </msItem>
-                        <decoNote>(Source British Library) Miniatures accompanying Cicero's Aratea, depicting Aries (f.<locus from="32v">32v</locus>); Deltoton (f.<locus from="33r">33r</locus>); Pisces (f.<locus from="33v">33v</locus>); Perseus (f.<locus from="34r">34r</locus>); Pleiades (f.<locus from="34v">34v</locus>); Lyra (f.<locus from="35r">35r</locus>); Cygnus (f.<locus from="35v">35v</locus>); Aquarius (f.<locus from="36r">36r</locus>); Capricornus (f.<locus from="36v">36v</locus>); Sagittarius (f.<locus from="37r">37r</locus>); Sagitta (f.<locus from="37v">37v</locus>); Aquila (f.<locus from="38r">38r</locus>); Delphinus (f.<locus from="38v">38v</locus>); Orion (f.<locus from="39r">39r</locus>); Canis (f.<locus from="39v">39v</locus>); Lepus (f.<locus from="40r">40r</locus>); Argo (f.<locus from="40v">40v</locus>); Cetus (f.<locus from="41r">41r</locus>); Eridanus (f.<locus from="41v">41v</locus>); Piscis (f.<locus from="42r">42r</locus>); Ara (f.<locus from="42v">42v</locus>); Centaurus (f.<locus from="43r">43r</locus>); Hydra (f.<locus from="43v">43v</locus>); Anticanus (f.<locus from="44r">44r</locus>); Heads of planets (f.<locus from="44v">44v</locus>); Winds and seasons (f.<locus from="46v">46v</locus>); Sol and Luna (f.<locus from="47r">47r</locus>). For description see <bibl>
+                        <msItem>
+                            <locusGrp>
+                                <locus from="33v" to="34v">33v-34v</locus>
+                                <locus from="36r">36r</locus>
+                                <locus from="37r">37r</locus>
+                                <locus from="38r" to="41r">38r-41r</locus>
+                                <locus from="42r" to="44r">42r-44r</locus>
+                            </locusGrp>
+                            <title ref="#ral">Revised Aratus Latinus<note> as scholia for Pisces (<locus from="33v">33v</locus>), Perseus (<locus from="34r">34r</locus>), Pleiades (<locus from="34v">34v</locus>), Aquarius (<locus from="36r">36r</locus>), Sagittarius (<locus from="37r">37r</locus>), Aquilla (<locus from="38r">38r</locus>), Delphinus (<locus from="38v">38v</locus>), Orion (<locus from="39r">39r</locus>), Canis (<locus from="39v">39v</locus>), Lepus (<locus from="40r">40r</locus>), Navis (<locus from="40v">40v</locus>), Coetus (<locus from="41r">41r</locus>), Piscis Austrinus (<locus from="42r">42r</locus>), Ara (<locus from="42v">42v</locus>), Centaurus (<locus from="43r">43r</locus>), Hydra (<locus from="43v">43v</locus>) and Anticanis (<locus from="44r">44r</locus>).</note></title> 
+                            <incipit>Piscium denique unus aquilonius est</incipit>
+                            <explicit>Habet quidem stellas III.</explicit>
+                        </msItem>                        
+                        <decoNote>Miniatures accompanying Cicero's Aratea, depicting Aries (f.<locus from="32v">32v</locus>); Deltoton (f.<locus from="33r">33r</locus>); Pisces (f.<locus from="33v">33v</locus>); Perseus (f.<locus from="34r">34r</locus>); Pleiades (f.<locus from="34v">34v</locus>); Lyra (f.<locus from="35r">35r</locus>); Cygnus (f.<locus from="35v">35v</locus>); Aquarius (f.<locus from="36r">36r</locus>); Capricornus (f.<locus from="36v">36v</locus>); Sagittarius (f.<locus from="37r">37r</locus>); Sagitta (f.<locus from="37v">37v</locus>); Aquila (f.<locus from="38r">38r</locus>); Delphinus (f.<locus from="38v">38v</locus>); Orion (f.<locus from="39r">39r</locus>); Canis (f.<locus from="39v">39v</locus>); Lepus (f.<locus from="40r">40r</locus>); Navis (f.<locus from="40v">40v</locus>); Coetus (f.<locus from="41r">41r</locus>); Eridanus (f.<locus from="41v">41v</locus>); Piscis (f.<locus from="42r">42r</locus>); Ara (f.<locus from="42v">42v</locus>); Centaurus (f.<locus from="43r">43r</locus>); Hydra (f.<locus from="43v">43v</locus>); Anticanus (f.<locus from="44r">44r</locus>); Heads of planets (f.<locus from="44v">44v</locus>); Winds and seasons (f.<locus from="46v">46v</locus>); Sol and Luna (f.<locus from="47r">47r</locus>). For description see <bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>, pp. 311-12</bibl> and K. Lippincott's description in the <ref target="http://www.kristenlippincott.com">Saxl Project</ref>.</decoNote>
                     </msItem>
                     <msItem>
