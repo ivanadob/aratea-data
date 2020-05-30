@@ -1,0 +1,154 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Brussels, Bibliothèque royale, MS 2194-95</title>
+            <respStmt>
+               <resp>Catalogued based on secondary literature by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-12-02"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="brussels_br_2194-2195">
+            <msIdentifier>
+               <settlement>Brussels</settlement>
+               <repository>Bibliothèque royale</repository>
+               <idno>2194-95</idno>
+            </msIdentifier>
+            <head>
+               <note type="aratea">
+                        <rs type="text" ref="#text__abbo_hyginus.xml">Excerptio Abbonis ex Higino de figuratione signorum</rs>
+                    </note>
+               <note type="aratea">
+                        <rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs>
+                    </note>
+            </head>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="56">(i) + 56 + (i) fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>222</height>
+                           <width>150</width>
+                        </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolgot">Early gothic scirpt.</scriptNote>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin/>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected bibliography:</head>
+                  <bibl>J. Van den Gheyn, <ref target="https://uurl.kbr.be/1427495">Catalogue des manuscrits de la Bibliothèque royale de Belgique, II</ref> (Bruxelles, 1902), pp. 293-294, nr. 1355.</bibl>
+                  <bibl>Entry in <ref target="https://ptolemaeus.badw.de/jordanus/ms/549">Jordanus</ref>.</bibl>
+                  <bibl>Boutemy, André: Notes sur des manuscrits classiques de la Bibliothèque royale de Belgique (Supplément au catalogue de P. Thomas). III. Le manuscrit 2194-2195, in: Latomus 3 (1939), 128-37.</bibl>
+                  <bibl>Michel, Henri: Les manuscrits astronomiques de la Bibliothèque royale de Belgique, in: Ciel et Terre 65 (1949), 201.</bibl>
+                  <bibl>Silvestre, Hubert: <ref target="http://www.persee.fr/doc/scrip_0036-9772_1951_num_5_1_2348">Incipits des traités médiévaux de sciences expérimentales dans les mss. latins de Bruxelles</ref>, in: Scriptorium 5 (1951), 151, 159.</bibl>
+               </listBibl>
+            </additional>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 1</idno>
+               </msIdentifier>
+               <head>
+                  <title>Computistical collection with Bede (?)</title>
+                  <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                  <origPlace>England (?)</origPlace>
+               </head>
+               <msContents>
+                  <msItem>
+                     <locus from="1r">1r</locus>
+                     <note type="title">Fragment: Proverbia Senecae per ordinem alphabeti (?)</note>
+                     <incipit>timere quod uitari non potest</incipit>
+                     <explicit>zelari autem hominibus viciosum est.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="1v">1v</locus>
+                     <note type="title">Computistical argumenta (?)</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="2r" to="7v">2r-7v</locus>
+                     <note type="title">Calendar</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="8r">8r</locus>
+                     <note type="title">Computistical argumenta (?)</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="8r" to="48v">8v-48v</locus>
+                     <author ref="#bede">Beda (?)</author>
+                     <note type="title">Computistical argumenta</note>
+                     <rubric>Incipiunt [85] regule facte de compoto</rubric>
+                     <incipit>Si invenire volueris per quam feriam</incipit>
+                  </msItem>
+               </msContents>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>Part 2</idno>
+               </msIdentifier>
+               <head>
+                  <title/>
+                  <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                  <origPlace>England (?)</origPlace>                  
+               </head>
+               <msContents>
+                  <msItem class="aratea">
+                     <locus from="49r" to="49v">49r-49v</locus>
+                     <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                     <incipit>Duo sunt extremi vertices mundi</incipit>
+                  </msItem>
+                  <msItem class="aratea">
+                     <locus from="49v">49v-52v</locus>
+                     <author ref="#abbo">Abbo of Fleury</author>
+                     <title ref="#excerptio_abbonis">Excerptio Abbonis ex Higino de figuratione signorum</title>
+                     <incipit>Denique dicit plinius in omnia sunt LXXII signa</incipit>
+                  </msItem>
+                  <msItem>
+                     <locus from="522v" to="54v">52v-54v</locus>
+                     <author ref="#abbo">Abbo of Fleury</author>
+                     <title ref="#abbo_sentenia">Sententia Abbonis de differentia circuli et sperae</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="54v" to="56r">54v-56r</locus>
+                     <note type="title">Astronomical compilation (?)</note>
+                  </msItem>
+               </msContents>
+            </msPart>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

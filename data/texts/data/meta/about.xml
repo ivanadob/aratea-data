@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About the Aratea Digital Project</title>
+                <author>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The (CC BY 4.0)-License applies to this document.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>About</head>
+                <p> Aratea Digital is a database collecting information about astronomy in the Early
+                    Middle Ages. The main focus of the project is the Latin transmission of the
+                    so-called Aratea texts including the Latin translations and the derivative texts
+                    based on Aratus' didactic poem Phaenomena. The website presents descriptions of
+                    their (pre-13th-century) manuscripts, references to the latest editions and
+                    relevant literature. </p>
+                <p> This website is work-in-progress. We are constantly working on improving and
+                    enhancing the information provided. </p>
+            </div>
+            <div>
+                <head>Goals</head>
+                <list>
+                    <item>Summary introduction of the Aratea texts, providing basic information on
+                        their history, as well as the authoritative edition, relevant literature and
+                        links to further resources. Also all manuscripts that contain the respective
+                        text will be automatically listed here.</item>
+                    <item>
+                        <ref target="toc.html?collection=editions">Description</ref> of all pre
+                        13th-century manuscripts of the Aratea texts.</item>
+                    <item>Indices for all <ref target="places.html">places</ref> and <ref target="persons.html">people</ref> connected with the manuscript
+                        transmission of the Aratea, as well as other <ref target="listtitle.html">text</ref>, which build up their Überlieferungsgemeinschaft. We aim to
+                        link all entities with Authority files (<ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref> and <ref target="http://www.geonames.org/">geonames</ref>) to
+                        facilitate identification and future interoperability.</item>
+                </list>
+            </div>
+            <div>
+                <head>Manuscripts</head>
+                <p> The manuscript descriptions are encoded using the guidelines of the <ref target="http://www.tei-c.org/">Text Encoding Initiative (TEI)</ref>, which
+                    is an XML standard widely adopted in the digital humanities for the
+                    representation of texts. </p>
+                <p> To validate the mark-up we used the TEI P5 schema for <ref target="http://www.europeanaregia.eu/">Europeana Regia</ref> (ER). The
+                    practices from the <ref target="http://www.hab.de/">Herzog August library
+                        Wolfenbüttel</ref> were taken as an example for structuring the manuscript
+                    descriptions. People, places are texts (works within manuscripts) are tagged as
+                    such and gathered in indices together with additional information as well as
+                    links to further resources. The XML files are also available for download. </p>
+                <p> With the growing number of manuscript description being added to the database we
+                    are further working on different possibilities to search, filter and analyse the
+                    data. Apart from full text search we plan to integrate faceted search to filter
+                    the manuscripts according to certain criteria (shelfmark, origin place / time,
+                    texts etc.) and possibly to combine different criteria. </p>
+            </div>
+            <div>
+                <head>Licence</head>
+                <p> The material is licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                    Attribution 4.0 International license (CC BY 4.0)</ref>, meaning you are
+                    free to make use of it, share and adapt it to your need, as long as you give us
+                    appropriate credit (mention the project website for instance), provide a link to
+                    the license, and indicate if changes were made. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anonymus Sangallensis</title>
+            <author ref="#ivana_dobcheva">Ivana Dobcheva</author>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital-born text.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-07-20"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Maass first edited the text from the <ref type="altMs" target="#desc__st_gall_sb_250.xml">St. Gall Ms 250</ref> (s. IX<hi rend="sup">4/4</hi>), hence giving it the name <title>Anonymus Sangallensis</title>. In two of the manuscripts this text is immediately followed by the <title>De astronomia more christiano</title>. Le Bourdellès discovered the two texts in other manuscripts, the oldest being <ref type="altMs" target="#desc__valenciennes_bm_343.xml">Valenciennes, BM, Ms 343</ref>, and so argued that they were composed in a scriptorium in Northern France, and more particularly Corbie.</p>
+            <p>Incipit: Herodius dicit helicem licaonis fuisse filiam ...</p>
+            <p>Explicit: ... absides eius ultima in capricorno est.</p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, pp. 595-601.</bibl>
+               <bibl>Hadravova, A. The Second Vatican Mythographer. The Newly Identified Manuscripts from the National Library in Prague. Prague, 2017, 323-331.</bibl>
+            <p/>
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <bibl>Le Bourdellès, Hubert. L’Aratus Latinus: étude sur la culture et la langue latines dans le Nord de la France au VIIIe siècle. Travaux et recherches. Lille: Université de Lille III, 1985, pp. 84-85.</bibl>
+               <bibl>Le Bourdellès, Hubert. "De astronomia more christiano." Studi medievali (3rd series) 32 (1991): 385-444.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <list>
+               <item>
+                        <ref target="#desc__st_gall_sb_250.xml">St. Gall, Stiftsbibliothek, Cod. 250</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__valenciennes_bm_343.xml">Valenciennes, BM, 343</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__zuerich_zb_c62.xml">Zürich, Zentralbibliothek, C 62</ref>
+                    </item>
+               <item>Zürich, Zentralbibliothek, Car. C 176</item>
+               <item>
+                        <ref target="#desc__munich_bsb_clm4432.xml">Munich, Bayerische Staatsbibliothek, Clm 4432</ref>
+                    </item>
+               <item>Budapest, University Library, Lat. 21 (ff. 1r-75r)</item>
+               <item>Venice, Biblioteca Nazionale Marciana, Lat. X, 119 (ff. 62v-65r)</item>
+               <item>Bergamo, Biblioteca civica Angelo Mai, MA 329 (s. XV) (ff. 59r-62r)</item>
+            </list>
+            <p>In Leiden, UB, VLQ 75 and <ref target="#desc__munich_bsb_clm14569.xml">Munich, BSB, Clm 14569</ref> (ff. 29r-32v) only More christiano.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

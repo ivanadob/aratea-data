@@ -1,0 +1,74 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scholia Strozziana</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head> 
+            <p/>
+            <p>Illustrated are only MSS Vatican, BAV, Urb. lat. 1358 and Madrid, BN, 19. In MSS Palermo, Biblioteca Comunale, 2 Qq. E. 11 and Vatican, BAV, Reg. lat. 1801 there are blank places left for the illustrations.</p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>Dell’Era, Antonio. Una miscellanea astronomica medievale: gli Scholia Strozziana a Germanico. Atti della Accademia Nazionale dei Lincei : memorie ; ser. 8/Classe di Scienze morali, storiche e filologiche. Rome, 1979.</bibl>
+               <bibl>Germanicus. ‘Scholia Strozziana et Sangermanensia’. In Germanici Caesaris Aratea cum scholiis, edited by Alfred Breysig, Reprograf. Berlin, 1867 (reprint Hildesheim: Olms, 1967), <ref target="https://archive.org/details/germanicicaesar01breygoog">105</ref>–232.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Selected Literature</title>
+            </head>
+            <listBibl>
+               <bibl>Meyvaert, Paul. ‘Translator’s Appendix: Gregory the Great and Astronomy’. In Gregory the Great: A Symposium, edited by John C. Cavadini, 137–45. Notre Dame, IN: University of Notre Dame Press, 1995.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <list xml:id="scholia_strozziana__msslist">
+               <item>Florence, Biblioteca Medicea Laurenziana, Strozzianus 46 (s. XV, fols. 12v-62r)</item>
+               <item>London, British Library, Arundel Ms 268 (s. XIII-XIV, fols. 85r-92r) <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_268">online</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__madrid_bn_19.xml">Madrid, Biblioteca national, Ms 19 (s. XII, fols. 54r-74v)</ref>
+                    </item>
+               <item>Palermo, Biblioteca Comunale, 2 Qq. E. 11 (s. XV, fols. 3r-49v)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358 (s. XV, fols. 2v-47v)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Reg. lat. 1801 (s. XV, fols. 1v-47r)</item>
+               <item>Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521 (s. XV)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

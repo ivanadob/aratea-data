@@ -1,0 +1,76 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Avienus: Aratea</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Following to some extant Germanicus’ methodology, <rs type="person" ref="#avienus">Rufus Festus Avienus</rs> translated the poem once more into Latin in the 4th c. AD. It is the only Latin translation preserved in extenso that contains both the first and the second part of the poem. Avienus elaborated on the original work using <rs type="person" ref="#hipparchus">Hipparchus</rs>’ commentary and the <title>Catasterisms</title>. His style has been characterized as verbose which can be explained by the dominant literary tastes of his time and by the translator’s desire to say more than his model. In terms of figures, the 757 verses in Aratus’ first part correspond to 1383 verses in Avienus’. In the second part dealing with weather signs, however, the two versions are almost equal in size (422 verses and 553 verses respectively).</p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>Avienus, Rufius Festus. Les Phénomènes d’Aratos. Edited by Jean Soubiran. 2. tirage. Paris: Les Belles Lettres, 2003.</bibl>
+               <bibl>
+                        <ref target="https://archive.org/details/rufifestiavieni00aviegoog">Rufi Festi Avieni Aratea</ref>. Edited by Alfred Breysig. Leipzig, 1882.</bibl>
+               <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Literature (selection)</title>
+            </head>
+            <listBibl>
+               <bibl>Bellandi, Franco, Emanuele Berti, and Maurizio Ciappi. Iustissima Virgo: il mito della Vergine in Germanico e in Avieno. Pisa: Giardini, 2001.</bibl>
+                  <bibl>Daigl, Nikolaus. Avienus: Studien Über Seine Sprache, Seine Metrik Und Sein Verhältnis Zu Vergil. Erlangen: Junge &amp; Sohn, 1903.</bibl>
+                  <bibl>Fiedler, Martin. Kommentar zu V. 367-746 von Aviens Neugestaltung der Phainomena Arats. Walter de Gruyter, 2004.</bibl>
+                  <bibl>Jean Soubiran. “Sur Les Deux Manuscrits d’Aviénus.” Revue de Philologie, de Littérature et d’Histoire Anciennes 49 (1975): 217–26.</bibl>
+               <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. <ref target="http://hdl.handle.net/11375/14244">http://hdl.handle.net/11375/14244</ref>.</bibl>
+                  <bibl>Martin Friedler. “Postumius Rufinus Festus Signo Avienus 1900-2011.” Lustrum 53 (2011): 233–93.</bibl>
+                  <bibl>Sieg, Gustavus. De Cicerone Germanico Avieno Arati Interpretibus (Dissertatio Inauguralis). Halle, 1886.</bibl>
+                  <bibl>Weber, Dorothea. Aviens Phaenomena, eine Arat-Bearbeitung aus der lateinischen Spätantike. Wien: VWGÖ, 1986.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <list xml:id="avienus__msslist">
+               <item>
+                        <ref target="#desc__milano_ambrosiana_d52.xml">Milano, Biblioteca Ambrosiana, Manoscritti, D 52 inf.</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__vienna_onb_107.xml">Vienna, Österreichische Nationalbibliothek, Cod. 107</ref>
+                    </item>
+               <item>Editio princeps: <ref target="https://data.cerl.org/istc/ia01432000">Avienus, Varia</ref> (Venice: Antonius de Strata, 1488)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

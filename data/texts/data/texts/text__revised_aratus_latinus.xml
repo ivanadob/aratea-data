@@ -1,0 +1,100 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revised Aratus Latinus</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p/>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898.</bibl>
+               <bibl>
+                        <note>Partly edited also in </note>Robert, Karl, ed. Eratosthenis Catasterismorum reliquiae. Berlin: Weidmann, 1878, pp. <ref target="https://archive.org/details/eratostheniscat00eratgoog/page/n62">50</ref>-<ref target="https://archive.org/details/eratostheniscat00eratgoog/page/n210">199</ref> <note>(as 'Schol. Germ. G', based on MS Paris, BNF, lat. 12957)</note>.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <listBibl>
+               <bibl>Le Bourdellès, Hubert. L’Aratus Latinus: étude sur la culture et la langue latines dans le Nord de la France au VIIIe siècle. Travaux et recherches. Lille: Université de Lille III, 1985.</bibl>
+               <bibl>Dell'Era, Antonio. "Recentiores non deteriores nella tradizione dell'Arato latino interpolato." in Revista di cultura classica e medioevale 21-22 (1979-1980): 199-201.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <list xml:id="revised_aratus_latinus__msslist">
+               <item>
+                        <ref target="#desc__brussels_br_5413-22.xml">Brussels, Bibliothèque royale, MS 5413-22</ref>
+                    </item>
+               <item>Cologne, Dimbibliothek, Cod. 83 II</item>
+               <item>
+                        <ref target="#desc__dresden_slub_dc_183.xml">Dresden, Sächsische Landesbibliothek, Dc 183</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__london_bl_harley_3595">London, British Library, Harley 3595</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__london_bl_cotton_tib_b_v.xml">London, BL, Cotton Tiberius B.V.</ref> (as scholia)</item>
+               <item>Munich, Bayerische Staatsbibliothek, Clm 560</item>
+               <item>
+                        <ref target="#desc__paris_bnf_lat_12957.xml">Paris, Bibliothèque nationale de France, MS lat. 12957</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__paris_bnf_nal_176.xml">Paris, Bibliothèque nationale de France, MS NAL 176</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__paris_bnf_nal_1614.xml">Paris, Bibliothèque nationale de France, MS NAL 1614</ref>
+                    </item>
+               <item>Prague, Národní knihovna, IX.C.6 (olim 1717)</item>
+               <item>
+                        <ref target="#desc__st_gall_sb_250.xml">St Gall, Stiftsbibliothek, Cod. 250</ref>
+                    </item>
+               <item>St Gall, Stiftsbibliothek, Cod. 902</item>
+                </list>
+            <list>
+               <head>Post 12th-c MSS</head>
+               <item>Göttweig, Stiftsbibliothek, Cod. 7 (olim 146) (s. XV)</item>
+               <item>
+                        <ref target="#desc__siena_communale_liv25.xml">Siena, Biblioteca comunale, L IV 25</ref> (s. XIV<hi rend="sup">2</hi> / s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Reg. lat. 1324 (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3109 (s. XV)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

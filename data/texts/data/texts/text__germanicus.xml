@@ -1,0 +1,141 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Germanicus: Aratea</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                        <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+                    </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>
+                    <rs type="person" ref="#germanicus">Germanicus</rs> or Tiberius (recent scholarship still argues about the authorship) made a second translation of Aratus’ poem known to us. Germanicus employed a more critical approach to the Phaenomena. Due to its elaborations and additions, as well as exclusions of certain parts his work is a reinterpretation rather than translation. Firstly, he introduced the corrections made by Hipparchus. Secondly, he dismissed most of the stoic elements in the text, so characteristic of Aratus’ work. Thirdly, Germanicus’ style resembles that of the Neoterics (Catullus, Cinna etc.) in contrast to Cicero’s mimesis of Ennius and Aratus’ usage of Hesiod as a model. The most radical change, however, is connected with his choice of replacing Aratus’ second part on weather signs with his own text on astral meteorology (the affect of the planets as they pass through the zodiac).</p>
+            <p>Some of Germanicus' manuscripts are accompanied by <ref target="#text__scholia_basileensia.xml">Scholia Basileensia</ref> (referred to therefore often as Germanicus’ scholia).</p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>
+                        <ref target="https://archive.org/details/germanicicaesar01breygoog">Germanici Caesaris Aratea cum scholiis</ref>. Edited by Alfred Breysig. Reprograf. Nachdr. der Ausg. Berlin 1867. Hildesheim: Olms, 1967.</bibl>
+               <bibl>Germanicus. Les phénomènes d’Aratos. Edited by André LeBœuffle. Paris: Les Belles Lettres, 1975.</bibl>
+               <bibl>The Aratus Ascribed to Germanicus Caesar. Edited by David Bruce Gain. London: Athlone Press, 1976.</bibl>
+               <bibl>Schaubach, Johann Konrad. Novae editionis Areteorum Ciceronis, Germanici Caesaris et R. F. Avieni. Meiningen: Hartmann, 1818.
+</bibl>
+               <bibl>Text ed. A. Breysig (1899) online at <ref target="http://www.thelatinlibrary.com/germanicus.html">The Latin Library</ref>
+                    </bibl>
+               <bibl>Text online at <ref target="http://latin.packhum.org/author/881">Classical Latin Texts (The Packard Humanities Institute)</ref>
+                    </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Selected Biblioigraphy</title>
+            </head>
+            <listBibl>
+               <bibl>Antonio Traglia. “Germanico e il suo poema astronomico.” In Aufstieg und Niedergang der romischen Welt, II. 32. 1:321–43. Berlin: Walter de Gruyter, 1984.</bibl>
+               <bibl>Germanicus. The Aratus Ascribed to Germanicus Caesar. Edited by David Bruce Gain. London: Athlone Press, 1976.</bibl>
+               <bibl>Leuthold, Werner. Die Übersetzung der Phaenomena durch Cicero und Germanicus. Zürich: Leemann, 1942.</bibl>
+               <bibl>Lewis, Anne-Marie. From Aratus to the Aratus Latinus: A Comparative Study of Latin Translation (Ph. D. Dissertation). Hamilton: McMaster university, 1983. http://hdl.handle.net/11375/14244.</bibl>
+               <bibl>Lott, Elizabeth S. “Paris B.N. Lat. 7418 and the Italian Tradition of the Aratea of Germanicus Caesar.” Manuscripta 26 (1982): 8.</bibl>
+               <bibl>Lott, Elizabeth S. “The Textual Tradition of the Aratea of Germanicus Caesar: Missing Links in the ‘M.’” Revue d’histoire Des Textes 11 (1981): 147–58.</bibl>
+               <bibl>Maurach, Gregor. Germanicus und sein Arat: eine vergleichende Auslegung von V. 1 - 327 der Phaenomena. Wissenschaftliche Kommentare zu griechischen und lateinischen Schriftstellern. Heidelberg: Winter, 1978.</bibl>
+               <bibl>Montanari Caldini, Roberta. “Aspetti Dell’astrologia in Germanico.” In Germanico. La Persona, La Personalità, Il Personaggio, 153–71, 1987.</bibl>
+               <bibl>Montanari Caldini, Roberta. L’astrologia nei Prognostica di Germanico. Firenze: Le Monnier, 1973.</bibl>
+               <bibl>Peter Steinmetz. “Germanicus, Der Römische Arat.” Hermes 94, no. 4 (1966): 450–81.</bibl>
+               <bibl>Possanza, D. Mark. Translating the Heavens: Aratus, Germanicus, and the Poetics of Latin Translation. Lang Classical Studies. New York u.a.: Peter Lang, 2004.</bibl>
+            </listBibl>
+            
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+            <list xml:id="germanicus__msslist">
+               <item>
+                        <ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__basle_bb_an_iv_18.xml">Basel, Universitätsbibliothek, AN IV 18</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__berlin_sb_phill_1832.xml">Berlin, Staatsbibliothek, Ms. Phill. 1832</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__boulogne-sur-mer_bm_188.xml">Boulogne-sur-mer, Bibliothèque municipale, MS 188</ref>
+                    </item>
+               <item>Cologny, Bibliotheca Bodmeriana, lat. 7</item>
+               <item>
+                        <ref target="#desc__einsiedeln_sb_338.xml">Einsiedeln, Stiftsbibliothek, Cod. 338</ref>
+                    </item>
+               <item>Florence, Biblioteca Medicea Laurenziana, Strozzianus 46</item>
+               <item>Florence, Biblioteca Medicea Laurenziana, Plut. 89 sup. 43</item>
+               <item>
+                        <ref target="#desc__leiden_ub_vlq_79.xml">Leiden, Bibliotheek der Rijksuniversiteit, MS VLQ 79</ref>
+                    </item>
+               <item>London, British Library, Add. Ms 15819</item>
+               <item>London, British Library, Arundel Ms 268 (s. XIII-XIV) <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Arundel_MS_268">online</ref>
+                    </item>
+               <item>London, British Library, Egerton Ms 1050</item>
+               <item>
+                        <ref target="#desc__madrid_bn_19.xml">Madrid, Biblioteca national, Ms 19</ref>
+                    </item>
+               <item>Madrid, Biblioteca national, Ms 8282</item>
+               <item>Montpellier Bibliothèque de l’Ecole de Médecine, Ms H 452</item>
+               <item>Naples, Biblioteca nazionale, Ms XIV. D. 37</item>
+               <item>New York, Pierpont Morgan Library, Ms 389</item>
+               <item>
+                        <ref target="#desc__paris_bnf_lat_7886.xml">Paris, Bibliothèque nationale de France, MS lat. 7886</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__strasbourg_bnu_326.xml">Strasbourg, Bibliothèque nationale et universitaire, Ms 326</ref>
+                    </item>               
+               
+            </list>
+            <list>
+               <head>Post 12th-century</head>
+               <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 76</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Barb. lat. 77</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Urb. lat. 1358</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 1610 - Excerpts (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 1653 (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3110 (s. XIV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3293 (s. XV)</item>
+               <item>
+                        <ref target="http://manuscripta.at/?ID=28862">Vienna, Schottenkloster, Stiftsbibliothek, Cod. Scotensis 521</ref> (Italy, s. XV)</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

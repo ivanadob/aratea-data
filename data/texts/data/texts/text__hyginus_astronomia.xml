@@ -1,0 +1,119 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Huginus: De Astronomia</title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>Hyginus goal, as stated in his work was <quote>to explain more clearly the facts of which Aratus spoke in a confusing manner, so that it appear that we take much care in what we have engaged with. And if thanks to the use of the best authorities so that nobody have treated [the same topic] with more brevity or trustfulness... That is why we decided to use the most important works... For we wrote about the most important topics for the use/ benefit of our friends the most erudite people; dealing with no trifling things, we strive to obtain/ win the esteem of the readers.</quote>
+                </p>
+            <p>The work is divided in four books:
+            <list>
+               <item>Book I: introduction to cosmology, celestial sphere, celestial and terrestrial circles.</item>
+               <item>Book II: catasterisms, on the mythological stories of the 42 constellations, the five planets and the Milky way. Rationale: <quote>horum omnium non inutile videtur historias proponere, quae certe aut utilitatem ad scientiam, aut iucunditatem ad delectationem adferent lectori.</quote>
+                        </item>
+               <item>Book III: on the position of the 42 constellations with respect to the celestial circles and the adjacent constellations; the way it rises above and sets below the horizon; the number and position of the stars within each constellation.</item>
+               <item>Book IV: on the celestial circles and the constellations which are positioned on them; on the day and night; the paranatellonta; on the sun, moon and the five planets.</item>
+            </list>
+                </p>
+            <p>Incipits and excipits:
+               <list>
+                  <item>Book I: Etsi te studio grammaticae artis inductum ... simili causa posse constitui suspicamur.</item>
+                  <item>Book II: Sed quoniam quae nobis de terrae positione ... circulum deformatum, quem supra demonstravimus.</item>
+                  <item>Book III: Igitur incipiemus a polo boreo protinus dicere ... nobis erunt dicta; reliqua protinus dicemus.</item>
+                  <item>Book IV: Quoniam in initio sphaerae circuli V ... cum sol ab aestivo circulo redit.</item>
+               </list>
+            </p>
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+               <listBibl>
+                  <bibl>Hyginus. Hygini De Astronomia. Edited by Ghislaine Viré. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Stuttgart: Teubner, 1992.</bibl>
+                  <bibl>Hyginus. L’astronomie. Edited by André LeBoeuffle. 2nd ed. Collection Des Universités de France. Paris: Les Belles Lettres, 2002.</bibl>
+               </listBibl>
+            <listBibl>
+               <bibl>Text online at <ref target="http://latin.packhum.org/loc/899/1/0#0">Classical Latin Texts (The Packard Humanities Institute)</ref>
+                    </bibl>
+               <bibl>Text online at <ref target="http://www.thelatinlibrary.com/hyginus.html">The Latin Library</ref>
+                    </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Selected Literature</title>
+            </head>
+            <listBibl>
+               <bibl>Lippincott, Kristen. ‘Exploring Differing Notions of Scholarship in the Eleventh Century: The Two Earliest Extant Illustrated Manuscripts of Hyginus’s “De Astronomia”’. Source: Notes in the History of Art 33, no. 3/4 (2014): 11–18.</bibl>
+               <bibl>Viré, Ghislaine. Informatique et classement des manuscrits: sssai méthodologique sur le De Astronomia d’Hygin. Sources et instruments. Faculté de Philosophie et Lettres. Université Libre de Bruxelles 8. Brussels: Univ. de Bruxelles, 1986.</bibl>
+               <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
+               <bibl>Viré, Ghislaine. ‘Le Texte Du “De Astronomia” d’Hygin: Question de Méthode’. Latomus 51 (1992): 843–56.</bibl>
+               <bibl>Viré, Ghislaine. ‘<ref target="https://doi.org/10.3406/antiq.1981.2053">Les extraits du De Astronomia d’Hygin dans les scholies aux Aratea de Cicéron</ref>’. L’Antiquité Classique 50, no. 1 (1981): 801–12.</bibl>
+               <bibl>Viré, Ghislaine. ‘<ref target="https://www.persee.fr/doc/ista_0000-0000_1983_ant_273_1_1073">Quelques réflexions sur l’étude d’une tradition manuscrite</ref>’. Collection de l’Institut des Sciences et Techniques de l’Antiquité 273, no. 1 (1983): 249–58.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>
+               <title>Manuscript transmission</title>               
+            </head>
+            <p>There are more than 80 manuscripts, listed by Ghislaine Viré (1981) and André Le Boeuffle (2002).</p>
+            <list>
+               <head>List of Hyginus manuscripts (incomplete)</head>
+               <item>
+                        <ref target="#desc__bern_bb_45.xml">Bern, Bürgerbibliothek, Cod. 45</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__leiden_ub_vlo_15">Leiden, Universitaire Bibliotheken, VLO 15</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__leiden_ub_gro_21">Leiden, Universitaire Bibliotheken, GRO 21</ref>
+                    </item>
+               <item>
+                        <ref target="#"/>
+                    </item>
+               <item>
+                        <ref target="#desc__paris_bnf_lat_7299a.xml">Paris, Bibliothèque nationale de France, MS lat. 7299A</ref>
+                    </item>
+               <item>
+                        <ref target="#desc__bav_reg_lat_1260.xml">Vatican, BAV Reg. lat. 1260</ref> (44v-83v)</item>
+               <item>Paris, Bibliothèque nationale de France, MS lat. 8728 (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b90660262">digitised</ref>)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3109 (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 3110 (s. XIV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Vat. lat. 11460 (s. XV)</item>
+               <item>Vatican, Biblioteca apostolica vaticana, Pal. lat. 1363 (s. XII)</item>
+               <item>
+                        <ref target="#desc__vienna_onb_51.xml">Vienna, Österreichische Nationalbibliothek, Cod. 51</ref>
+                    </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

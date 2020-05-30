@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Bern, Burgerbibliothek, Cod. F 219 II</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                    <name type="org"/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+            <revisionDesc status="draft">
+				<change when="2020-04-28"/>
+			</revisionDesc>		
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36511" n="1r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36512" n="1v"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36513" n="2r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36514" n="2v"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36515" n="3r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36516" n="3v"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36517" n="4r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-oe12/3513/36518" n="4v"/>        
+    </facsimile>
+    <text>
+        <body>
+            <msDesc xml:id="bern_f219ii" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Bern</settlement>
+                    <repository>Burgerbibliothek</repository>
+                    <idno>Cod. F 219 II</idno>
+                </msIdentifier>
+                <head>
+                    <title>Isidore, De natura rerum; De signis caeli; Carmen Sisebuti</title>
+                    <origPlace ref="#france">France</origPlace>, Loire valley (Bischoff)
+                    <origDate notBefore="0801" notAfter="1001">s. IX or s. X
+                    </origDate>
+                    <note type="facs">Digital facsimile at <ref type="mss" target="https://fragmentarium.ms/overview/F-oe12">Fragmentarium</ref>
+                    </note>                    
+                    <note type="aratea">
+                        <rs type="text" ref="#text__de_signis_caeli">De signis caeli</rs>
+                    </note>
+                </head>
+                <msContents>
+                    <textLang mainLang="lat"/>
+                    <msItem>
+                        <locus from="1r" to="3v">1ra–3vb </locus>
+                        <author ref="#isidore">Isidore</author>
+                        <title ref="#">De natura rerum, Cap. 29–47</title>
+                        <incipit defective="true">culpam suam admonitus agnoscere mundus. XXX. De fulminibus. Aiunt naturalium scrutatores</incipit>
+                        <explicit>finem numquam est habiturus.</explicit>                               
+                    </msItem>
+                    <msItem>
+                        <locus from="3v" to="4v">3vb-4vb</locus>
+                        <title>De signis coeli [fragment]</title>                        
+                        <incipit>Helix Arcturus maior. Habet autem in capite stellas obscuras VII</incipit>
+                        <explicit>Canicula quae oritur post orionem habet stellam splendidam in lingua I, quam syrium et canem</explicit>
+                        <note>Between cap. VI and VIII on f.<locus from="4r">4ra–b</locus> Carmen Sisebuti.</note>                       
+                    </msItem>
+                    <msItem>
+                        <locus from="4r">4ra–b </locus>
+                        <title>Carmen Sisebuti</title>
+                        <incipit>Tu forte in luculentus vaga carmina gignis </incipit>
+                        <explicit>Luna meat fratrem rectis obiectibus argens</explicit>                            
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>
+                                <p>
+                                    <material>Parchment</material>
+                                </p>
+                            </support>
+                            <extent>
+                                <measure type="leavesCount" quantity="4">2 Bifolia</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>310</height>
+                                    <width>220</width>
+                                </dimensions>
+                            </extent>
+                            <foliation>Modern foliation in the upper outher corner of each recto.</foliation>
+                            <collation>Probably the two bifolia from the middle of one quire.</collation>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="2" ruledLines="44 45">
+                                <p>Writte in two columns, 260 x 175–180 (column 80–85) mm, 44–45 lines.</p>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>
+                    <scriptDesc>
+                        <summary/>
+                        <scriptNote script="carolmin">
+                            <p/>
+                        </scriptNote>
+                    </scriptDesc>                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Modern carton binding.</p>
+                        </binding>
+                    </bindingDesc>
+                </physDesc>
+                <history>
+                    <summary/>
+                    <origin>
+                        
+                    </origin>
+                    <provenance>
+                        <p>Previously belonged probably to Jacques Bongars (1554–1612). The manuscript is however not mentioned in Samuel Hortin's Clavis bibliothecae Bongarsianae from 1634.</p>
+                        </provenance>
+                    <acquisition>Gift to the Bern Burgerbibliothek by Jakob Graviseth 1632.</acquisition>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Selected bibliography:</head>
+                        <bibl>Description by Florian Mittenhuber, in <ref target="https://www.e-codices.unifr.ch/en/description/bbb/F0219-II/Mittenhuber">e-codices</ref>. Dezember 2018.</bibl>
+                        <bibl>Hortin, Samuel: Clavis bibliothecae Bongarsianae MDCXXXIIII. Bern 1634 [= BBB Cod. A 5], Wild, Marquard: Catalogus Librorum Bibliothecae Civicae Bernensis MDCIIIC. Bern 1697 [= BBB Cod. A 4] und Engel, Samuel: Manuscripta A[nno] 1740. Bern 1740 [= BBB Mss.h.h.III.110] not mentioned.</bibl>
+                        <bibl>Steiger, Karl Ludwig v.: Nachtrag zum Handschriften-Catalog von J. R. Sinner Bern 1760–1772 ... vom 16. Wintermonat 1854 [BBB F 1170: hs. Liste, eingeheftet in Sinners Katalog, Bd. 3 am Schluss], S.1: 219b. [Secul.] X. Isidori episcopi Meteorologiae, fragmentum, 8 paginas continens, folio, Cod. membr.</bibl>
+                            <bibl>Hagen, Hermann: Catalogus Codicum Bernensium. Bern 1875, S. 271.</bibl>
+                            <bibl>Pellegrin, Élisabeth: Notices de manuscrits (contenant de textes classiques latins de la Bibliothèque de la Bourgeoisie de Berne). Bern, um 1960 [unpubliziertes Typoskript].</bibl>
+                            <bibl>Homburger II (Typoskript, um 1960), S. 151.</bibl>
+                        <bibl>Bischoff, Bernhard: Katalog der festländischen Handschriften des neunten Jahrhunderts. Teil I: Aachen – Lambach. Wiesbaden 1998, hier S. 118 (Nr. 556).</bibl>
+                        <bibl>Beeson, Charles Henry: Isidor-Studien. München 1913, hier S. 68.</bibl>
+                        <bibl>Fontaine, Jacques: La diffusion de l’oeuvre d’Isidore de Séville dans les scriptoria helvétiques du haut moyen âge, in: Revue suisse d’histoire 12 (1962), S. 305–327, hier S. 309.</bibl>
+                        <bibl>Mostert, Marco. The library of Fleury.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,405 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Madrid, Biblioteca national, Ms. 19</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-06-09"/>
+			</revisionDesc>
+     </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Madrid</settlement>
+               <repository>Biblioteca national</repository>
+               <idno>Ms 19</idno>
+            </msIdentifier>
+            <head>
+               <title>Astronomical-computistical collection</title>
+               <origDate/>
+               <origPlace/>
+               <note type="facs">Digital facsimile at <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000011786">Biblioteca digital hispanica</ref>.</note>
+               <note type="aratea">
+                        <rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs>
+                    </note>
+               <note type="aratea">
+                        <rs type="text" ref="#text__scholia_strozziana.xml">Scholia Strozziana</rs>
+                    </note>
+            </head>
+            <msContents>
+                              <msItem>
+                                 <locus from="1r" to="48r">1ra-48ra</locus>
+                                 <author ref="#bede">Bede</author>
+                                 <title ref="#DTR">DTR </title>
+                                 <rubric>In nomine domini nostri ihesu christi incipit liber de temporibus expositus et ordinatus a uenerabili beda presbytero. Incipit prologus eiusdem libri</rubric>
+                                 <incipit>De natura rerum et ratione temporum duos quondam stricto sermone</incipit>
+                                 <explicit>praemiorum mereamur accipere palmam.</explicit>
+                                 <decoNote>On ff. 2v-4v illustrations of 55 manly figures referring to the first chapter <quote>De loquela digitorum</quote>.</decoNote>
+                                 <note>chronicals continue till year IIII DCLXXX - pope Leon.</note>
+                              </msItem> 
+               <msItem>
+                  <locus from="48r">48ra-48v</locus>
+                  <rubric>Item martirologium de presbiteri bede heroico compositum metro et aduerte prudens lector quia hi uersus quos obelo et chrunons in capite prenotatos inueneris ab erchenperto monacho monasterii sancti benedicti de castro casino editi sunt.</rubric>
+               </msItem>
+               <msItem>
+                  <note>
+                     
+                     48-48v - Martyrologium 
+                     
+                     48v-49v - Calendarium metricum 
+                     
+                     50-52v - 18 poems on computus 
+                     
+                     54r-v blank 
+                     
+                     55-74v - Aratea 
+                     
+                     75-86v - Computus argumenta (quot pedes habeat hora...) 
+                     
+                     86v-103v - medical excerpts 
+                     
+                     103v-113v - Treatises on stones 
+                     
+                     115-123 - Bede, DNR with additions from isidore, lacks final 19 sections found in Cava 
+                     
+                     123v-130v - Selection fro Isidore's Etym - as in Cava (the lacuna from end of Bede, affects aslo the beginning of this selection) 
+                     
+                     131-134 - church history as in Cava (the same as above, lacuna from the end of isidore affects the beginning of this part) 
+                     
+                     132-190 and 192v-195 - church fathers 
+                     
+                     195r-v additional church fathers 
+                     
+                     195v-199 - geography as in Cava 
+                     
+                     199-203v - excerpta ex tractatibus alchimiae 
+                  </note>
+               </msItem>
+<!--
+
+
+Inc. (notebook) 
+
+Expl.: premiorum mereamur accip[er]e palma[m]. 
+
+48r-53r - Verses of computus 
+
+48r-48v Martirologium Bedae - work by a monk in Monte Cassino, Erchempert ca. 904 - 120 vv for the 12 months and the religious feasts to be celebrated - martyrologium 
+
+Item martirologium de pbri bede heroico copositum metro ... Inueneris ad erchen p[]to monacho in monasterii sci benedicti de castro casino editi sunt. 
+
+Inc. Presbiteri Bede martyrologium incipit acri festa quibus passim scorum inscripta leguntur... 
+
+Divided by months 'de mense iunio'..) 
+
+ 
+
+48v Short verse (vv12) sur la crainte de Dieu et la chatiment des pecheurs 
+
+ 
+
+Longer one 191 vv. (ff. 48v-49v) another martyrologium anonymous  
+
+ -\-\- leaving blank lines on the second columns 
+
+On comput - verses Versus de anno solari seu de regularibus mensium - know under the name of Bedae de festis sanctorum praecipius - found also in Strozzi 46 (14th c. copy of Madrid 19)- another Germanicus - and only in it and in Florence Strozzi - two verses comes before the usual beginning - Nec rota per gyrum... 
+
+ 
+
+50r - more verses Item uersus de anno solaris seu de regularibus mensium... Another on comput - 12 vv also found in Strozzi 46 - on the 12 months of the year 
+
+Another on the 12 months - based on Ausonius - copied in Bede chp. 16 DTR 
+
+ 
+
+Versus de feriis (Versus metricos de singulis diebus) -  
+
+ 
+
+Dira patet Jani... - found in 5543 and in Strozzi 46 
+
+Another on the months and zodiac 
+
+Dedrasticon autenticum de singulis mensibus - 36 vv, 3 for each month -  
+
+ 
+
+All 7 till here ed. Riese, and found in Cava ff. 90-91 
+
+ 
+
+Also in Cava and in Strozzi are the following (ed. By Strecker in MGH) 
+
+Poem on the four season f. 50 - 51vv 
+
+Versus de sphera celi et de cursu planetarum et de ceteris syderibus - 17vv 
+
+On the mobile feasts (f. 51): 
+
+De initio quadragesimae - 16vv - for each year of the 19-year cycle the regulares annuels lunaires 
+
+On the termes of the five mobile feasts and the age of the moon in every day 
+
+On the rithmus cuiusdam sapinetis calculi anni vertentis - de inveniendos annos domini seu indictiones et tota argumenta que currunt per librum de temporibus : versification of chapters 45 to 60, 20-24, 38, 42, 30, 16-18 of the DTR 
+
+52f - Ymnus de ratione temporum - 58 (otherwise 90 vv) resume des conaissances necessaires en matiere de comput et um moyen facil de les retenir 
+
+6 vv on the six ages of the world 
+
+Versus de annis a principio - two poems attributed to Paul the Deacon metrical adaptation of the calcul of the years of creation found in his Historia Longobardorum 
+
+Versus cycli anni versalis (= Carmen de cyclo paschali) - mnemotichnical verse - each corresponds to one of the eight columns of paschal table found in bede DTR) - perhaps composed in St. Gall - so supposed Jones Bedae Pseudoepigrapha ,p. 81 as it is found in ms written in St. Gall in the 9th c (n. 248, 251, 450 and 459), and in other ms among which Cotton Tib. B .V 15v Cotton Vitel. A XII f. 42v, Einsiedeln 263  
+
+53r - half column occupied by the verses other half blank 
+
+53v-54v - BLANK 
+-->
+ 
+
+<msItem class="aratea">
+   <locus>55r-74v </locus>
+   <title ref="#ral">Excerpts from the Revised Aratus Latinus</title>
+   <rubric>Incipit liber arati philosophi de astronomia</rubric>
+   <msItem>
+      <locus>55ra-rb</locus>
+      <title ref="#ral">Arati Genus</title>
+   </msItem>  
+</msItem>
+               <msItem class="aratea">
+                  <locus from="55r">55rb-</locus>
+                  <author ref="#germanicus">Germanicus</author>
+                  <title ref="#germanicus_aratea">Aratea</title>
+               </msItem>
+               <msItem>
+                  <title ref="#scholia_strozziana">Scholia Strozziana</title>
+               </msItem>
+  
+
+<!--Inc. Incip[it] lib[er] arati philosophi de astronomia. Aratus patris quidem est athinodori fili[us] 
+
+Expl. ... Pericie mathematice reperimus illu[m] et super. 
+
+ 
+
+55rb - Germn. Vv. 18-48  
+
+Inc. aiunt nec fabuloso ioui sufficere eiusmodi opinione[m] esse  enim talem causam iouem et conuenire omnes uias eo confertas quas tanquam loco eius describit dicendo autem non etiam genus ostendit anime inmortalitatem. Bene preterea quod lenem nouerat enim uirtuti aliquid emulum futurum deo ergo aduersus delicta lenem Sed quam omnium in totum bonorum causas et rationabiliter et omnium parens affirmatur et non solum hominum sed etiam deorum. 
+
+55va - Germanicus, Aratea (starts with v. 18) Indefessa trabit p[ro]prio cu[m] pondere celu[m]... 
+
+Missing the proemium and the first verse of the central part. 
+
+Vv. 18-48 
+
+Then left one line - probably to place v. 49 in rubric  
+
+v. 50- 64 
+
+Vertices extremos circa quos sphera celi uoluitur... 
+
+In manis serpens sinuosa uolumina torquet... 
+
+Order: verses, scholia - RAL, image. 
+
+For Auriga image - verses are for both taurus and auriga (vv. 175-183) scholia for Taurus,  
+
+image - charioter with four horses - like the sun, but with heduli in his arm) 
+
+69rb - expl. Mole alia oceanu[m] tardo liquentia passu. 
+
+ 
+
+69rb-70ra - Excerpt on the rising and settings (to substitute Germanicus' rendering?) from Martianus Capella VIII, 838-846 - Inc. Dubiu[m] eni[m] non est trigintta quinq[ue] signis ome splendescere celum... Noctes efficit grandiores. 
+
+By the same hand; divided by the germanicus with blank line left in between 
+
+ 
+
+70ra-vb - Germanicus fragment IV Iupitter est illo leto magis hic ubi solus... Hec eadem tibi signa dabunt non irrita pisces 
+
+ 
+
+70vb -71rb RAL on the sun fragment p. 292-295 Solem p[er] se ipsu[m] moueri non cu[m] mundo uerti sed in zodiaci sirculi obliquitate... Occasibus pronus incumbat.  
+
+Illustration of sun chariot 
+
+71va-72ra RAL on the moon p. 290-2  [l]una terris uicinior qua[m] sol siue... Sin ortu quarto nanq[[ue] his certissimus auctor. 
+
+Illustration of the moon in biga with two torches 
+
+ -->
+<!--
+72rb - Pliny NH XVIII, 234-5 A bruma in fauoniu[m] cesari nobilia sydera significant III klas ian matutino canis occidens ... Uesperi occidit. 
+
+ 
+
+237 - A fauonio imequinoctiu[m] cesari... XII kl apr equu[m] occidere matutino. 
+
+ 
+
+72rb-72va - 246-248 - Equinoctiu[m] uernu[m] ad VIII kl apr p[er]agi uidetur... qui est uergiliaru[m] exortus decurrunt sydera. 
+
+ 
+
+72va - 255-6 A uergiliaru[m] exortu significant cesari post  pri id mai... Solsticiu[m] conficiunt 
+
+268-9 [A] solsticio a phidicule occasu VI kl iul... Parte[m] prima[m] leonis ingresso hoc sit solsticiu[m]. 
+
+ 
+
+74v - expl. Ceteri in imo gurgitis descendunt. [leaving more than half of the first column and the whole second one blank] 
+
+ 
+
+75-113v - Computus Graecorum sive latinorum - followed by extracts astronomy, medicine 
+
+The argumenta are almost the same everywhere, but can be grouped differently; every editor or scribe felt free to add; ces textes n'ont pas d'unite et contiennent tres souvent differentes formules pour resoudre les memes problemes; sans doute ont-ils ete composes a l'ecole 
+
+Cordoliani gives the 95 argumenta presented and their incipit 
+
+[the text start without any title just the running title whi is not however in larger script : inc. Quot pedes habeat hora p[er] sing[u]los m[en]ses anni circuli. Si uis scire quot pedes habet .... 
+
+Interesting way of transforming usual tables and rota in the two column layout - presented as simple lists. Example. Fol. 77v de diebus epactarum Epactarum dies sunt XI qui per singulos annos... On fol. 77v  follow the list in three columns but without boarders ; samew with the ledo-malina rota - here on f. 78r [copy] 
+
+86r - last paragraph on the numeri ordinares - gives the list  
+
+f.86v starts prognostic but the same hand and layout - as part of the work: based on what day the 1st jan is - if it is Sunday winter cold, spring humidum , fruits, pecus... If it is Tues, Wed... Till sabbati. 
+
+Then start: prognostic on the moon 
+
+f.87r - Expositio galeni p[ro] infirmis. Luna prima si decumbuerit et tercia die se alleuauerit... 
+
+So continues for luna secunda etc.  Till the trecesima. SI uis autem absque lune computo scire uis de infirmo si uiuiturus qut moriturus est , tolle mollicam panis recens et faciem egroti cum illa steges et mitte canibus de domo illa et si non habet in domo ilal canem mitte canibus de regione ipsa. Si manducauerit sanabitur et si non manducauerit morietur. Simili modo tolle unum folium  
+
+Fol. 88r - Pitagoras/ Petosiris rota. Inc.: Exp[er]im[en]tu[m] de egrotantib[us] Disce die lune in qua quis decubuit. Item nomen decumbentis...  
+
+Still in two columns with the rota in the second.  
+
+f.88v-89r - on the four winds, four world direction/ four humours Inc. De quattuor uentis et IIIIor anguli celi et IIIIor temporibus anni. Quattuor sunt uenti quattuor anguli celi quattuor sunt tempora uer estas autumnus et hiems. ... Et caliginem oculorum et uenerem utatur si talis est sicut supra dictum est. 
+
+f.89r  De natura corporis humani. Licet te scire kme (?) nepas grecis litteris eruditis ad hanc disciplinam posse... 
+
+f.89v - Incipit expla ypocratis de flebotomia de quantis uenis deb[] ho[] fleboromari. De uiginti et una uenis fleuotomamus hominem... 
+
+Solinus 92v-95r 
+
+f.92v - [ex solino in margin] De monstruosa fectunditate ex lib solini Rome mulier quedam ex plebe fausta nomine partu uno edidit quattuor 
+
+f.90r - dieta ypocratis de anni circulo de mensse ianuario mense ianuario zinziber et reuponticu bibere debet... 
+
+f.93r - de similitudinibus hominibus. Interdum enim ad genus spectat et per sobolem in familiam transfitus faciunt... In substantia sua iactitaret. 
+
+Again on solinus - De longitudine hominum Licet ergo plerique definiant nullum posse... 
+
+And continues with title De uelocitate hominum...  Expl. Hae sunt et in saridnia 
+
+De fortitudine quorundam. Praeualuisse fortitudine apud romanos...... Magis uicerit 
+
+De memrotia et obliuione aliquorum et de locutione muti. Cyrus memorie bono inclaruit qui in... Sacra deum Matris piisinunte. 
+
+De filia que patrem suum lactauit proper deus uberibus in carcere. Pietatis documentum nobilius.. Pietas sacellum fuit. 
+
+De italia et lupos que gignit. Ergo italia usque antiquum antea a tyberis... Quam reliquerint satietatem 
+
+95r-99r Ysidori epi de hoie et partibus eius. Natura dicta eo quod nasci aliquid faciat gignendi... (Etym XI, 1 (1-147) ..  latera dilatata  
+
+99r-100r - ex chronica origenis Diuisio tre et trium filiorum noe post diluuium sem...  Qui nunc dicitur tyberis - on the gentes, nations of the world 
+
+100v-103r De gentibus et uocabulis earum ex libro ysidori epi. Gens est multitudo an uno principio orta...  (Etym IX, 2) ... Fulminibus interierunt. 
+
+Then adds more on the myth of the titans: Nam isdem iouis cum in hoc bello proficeretur aquilam ei auspicio apparuisse feruntur.. Cuius meminit lucanus dicens signis pares aquilas et pira minantia pilis... On the signs - prodigia short section expl.  Permixtione preliorum agnoscitur. 
+
+103v - 113v Ex libro eiusdem de lapidibus insinioribus (Etym. XVI, 4 and additions) expl.  Effectum uero uidetur ex uperare chalcitem. 
+
+Reads like a catalogue of stones 
+
+Later filling of the blank leaves (second column of 113v and 114r): ambitus ambitus scdm specun[]qu cupit[] / oblitus oblitus ... His lector digne tibi seruit seruius inde. 
+
+114v - blank 
+
+115r - Bede, DNR starts as bede but mixture of excerpts 
+
+123 continues with geometry - inuentoribus some figures on the margine 
+
+Diagrams 
+
+114-134 - major encyclopaedia - devised in chapters drawing from bede, Isidore, geometry, measures... Last chapter 133v  numbered in the margin CXXXVI- quo modo angelicus ym[] suscep increnita (?) Cosinas cognomento uestitor doctor apud grecos qui reuerectionem corpusculi beati iohanis christostomi descipsit sic ait... 
+
+134-195 - Florilegium extracts from the Fathers - not really distinguished from the previous - only that it does not have the numbers. - reads more like a manual what to do what not to. Important notions etc. 
+
+195-203 - notes diverses et recettes -->
+
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="203">ii (paper) + 203 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>394</height>
+                           <width>262</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="2" ruledLines="47">written in two columns, 47 lines per page.
+                     <dimensions type="written" unit="mm">
+                        <height>320</height>
+                        <width>197</width>
+                     </dimensions>
+                     </layout>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolgot"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin>Corodliani thought it to be a copy of a MS recorded at the catalogue (from 1047)of monastery of Ripoll. Hypothesis for both Spanish  - Ripoll and Italian - Monte Cassino origin - Meyvaert proved that it was copied from a Beneventan exemplar - based on palaeographical features (pp. 40-42).</origin>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl>Cordiolani, A. "Un manuscrit de comput mal connu de la Bibliotheque nationale de Madrid," in Revista de Archivos, Bibliotecas y Museos 57 (1951): 5-35.</bibl>
+                  <bibl>Jose M. Millas Vallicrosa. "El MS . 19 de la Biblioteca Nacional de Madrid y sus influencias clasica y oriental en la transmision de las ciencias," in Nuevos estudios sobre historia de la ciencia espanola II </bibl>
+                  <bibl>
+                            <ref target="https://ptolemaeus.badw.de/jordanus/ms/12852">Jordanus Datenbank</ref>
+                        </bibl>
+                  <bibl>Lott, E. S. The Florilegium of Cava 3, Madrid 19 and Paris 7418. Harvard University, 1980.</bibl>
+                  <bibl>Lott, Elisabeth S. “The Textual Tradition of the Aratea of Germanicus Caesar: Missing Links in the « µ » Branch.” Revue d’histoire des textes 11 (1981): 147-158.</bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

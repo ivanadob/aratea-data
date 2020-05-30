@@ -1,0 +1,164 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Schaffhausen, Stadtbibliothek, Ministerialis 61</title>
+                <respStmt>
+                    <resp>Catalogue-description based on secondary literature:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2018-09-22"/>
+			</revisionDesc>
+    </teiHeader>
+  <text>
+      <body>
+        <msDesc xml:id="schaffhausen_min_61" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Schaffhausen</settlement>
+                    <repository>Stadtbibliothek</repository>
+                    <idno>Min. 61</idno>
+                </msIdentifier>
+                <head>
+                    <title>Computistical-Astronomical Sammelhandschrift</title>
+                    <origPlace ref="#bodensee">Lake Constance region (?)</origPlace>
+                    <origDate notBefore="1001" notAfter="1100">s. X</origDate>                    
+                </head>
+            
+            <physDesc>
+                <objectDesc form="codex">
+                    <supportDesc material="perg">
+                        <support>Parchment</support>
+                        <extent>
+                            <measure type="leavesCount" quantity="107">i + 105 + i </measure>
+                            <dimensions type="leaf" unit="mm">
+                                <height>270</height>
+                                <width>195</width>
+                            </dimensions>
+                        </extent>
+                        <foliation>Modern foliation I, 1-86, 86a-105. Detached pastedowns are foliated I and 105. One leaf skipped by the foliation after f.86, now foliated f.86a.</foliation>
+                        <collation>I-II<hi rend="sup">8</hi> (ff.1-16), III<hi rend="sup">8-2</hi>(wants 4 and 5, ff.17-22), IV<hi rend="sup">4</hi> (ff.23-26), V-XIII<hi rend="sup">8</hi> (ff.27-97), XIV<hi rend="sup">8-1</hi> (wants 9, ff.98-104).</collation> 
+                    </supportDesc>
+                </objectDesc>
+                <bindingDesc>
+                    <binding notBefore="1401" notAfter="1500">
+                            <p>Binding from the 15th c. typical for the Schaffhausen monastery.</p>
+                        </binding>
+                </bindingDesc>
+            </physDesc>        
+          <history>
+              <origin>Szkiet compared the meager book illumination there is (one initial on f. 42v), which, according to her, shows no similarities with the decoration from Schaffhauser. Unclear where it was produced. Borst noted as place of production (without argumentation) <rs type="corporate" ref="#st_gall">Saint Gall</rs> or <rs type="corporate" ref="#reichenau">Reichenau</rs>. The manuscript consists of two codicological units written and joined together probably in the same scriptorium. The main part contains Bede's De temporum ratione envisaged originally as separate book with quiremarks I-X. The first three quires were added later.</origin>
+              <provenance>Borst argued the manuscript was in <rs type="corporate" ref="#schaffhausen_kloster">Schaffhausen</rs> already around 1050, where it served as the "komputistische Grundausstattung" of the monastery.</provenance>
+          <provenance>Cordoliani noted that the manuscript is attested in the library of Schaffhausen from the 13th c. (see several ownership and loan-notes on f.104 <quote>Hic liber est monasterii omnium sanctorum in Scaffusa</quote>, <quote>Anno domini <date when="1356">MCCCLVI</date> in vigilia sancti Oswaldi regis accepi hunc librum de libraria nostra</quote>). For later ownership notes see Gamper.</provenance>
+          </history>
+            <additional>
+                <listBibl>
+                    <head>Selected bibliography:</head>
+                    <bibl>Dell’Era, A. "Una rielaborazione dell’Arato latino." Studi medievali, ser. 3 20, Nr. 1 (1979): 269–302.</bibl>
+                    <bibl>Borst, Schriften, p. 294.</bibl>
+                    <bibl>
+                            <ref target="http://www.persee.fr/doc/scrip_0036-9772_1958_num_12_2_2977">Cordoliani, A. "Un manuscrit de comput interessant: Schaffhouse, Ministerialbibliothek, 61." Scriptorium (1958): 247-253.</ref>
+                        </bibl>
+                    <bibl>Szkiet, Christine. Reichenauer Codices in Schaffhausen: die frühen Handschriften des Schaffhauser Allerheiligenklosters und ihre Stellung in der südwestdeutschen Buchmalerei des 11. Jahrhunderts. 9. Kiel: Ludwig, 2005.</bibl>
+                    <bibl>
+                            <ref target="http://www.urs-graf-verlag.com/pdf/SHMinK.pdf">Gamper R. et al. Die mittelalterlichen Handschriften der Ministerialbibliothek Schaffhausen. Zürich: Urs Graf Verlag, 1994, pp. 158-160</ref>.</bibl>
+                </listBibl>
+            </additional>
+            <msPart>
+                <altIdentifier type="partial">
+                    <idno>Part I</idno>
+                </altIdentifier>
+                <msContents>
+                    <msItem>
+                        <locus from="1r" to="9r">1r-9r</locus>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DNR">De natura rerum</title>
+                    </msItem>
+                    <msItem>
+                        <locus>9r-15r</locus>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DT">De temporibus</title>
+                        <explicit>Tiberius dehinc quintum agit annum in die prima. Reliquum sextae aetatis deo soli patet</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="15r">15r</locus>
+                        <note type="title">Short text on the planets:</note>
+                        <quote>Campester scribit cometas quinque esse id est ippon solis, lampadian lunae, ziphian martis, disceum martis, typhona saturni; sed quattuor stellas suprascriptas uisas esse aliquando cum regna mutuantur; typhonam numquam uisam esse, aut si quando uisa fuerit cuncta interitura.</quote>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus from="15r" to="19v">15r-19v</locus>
+                        <title ref="#de_signis_coeli">De signis coeli<note> (missing cap. XLI)</note>
+                            </title>
+                        <incipit>Helix arcturus maior habet autem in capite</incipit>
+                        <explicit>et ideo anticanis uocatur eo quod contraria sit cani.</explicit>
+                        <decoNote>Text written in one column, leaving blank space on the outer side of the pages probably for illustrations.</decoNote>
+                        <msItem>
+                            <locus from="19r">19r</locus>
+                            <note type="title">Interpolation by cap. XXXIX with sections from <title ref="#de_ordine_ac_positione">De ordine ac positione</title>, cap. XL (Serpens, Corvus, Crater). The only section which takes the whole width of the page.</note>
+                            <quote>Serpens quae hydrum nominant habet stellas in capite III claras, in prima flexura VI, in secunda III, in quarta II, in quinta usque ad caudam VIII claras; fiunt XXVI <note>(= De ordine, cap. XL)</note>. Super cuius caudam coruum sedere dicunt ad occasum spectantem qui habet in oculo stellam I, in pennis II, in cauda II, in pedibus singulas. fiunt VII <note>(= De ordine, cap. XLI)</note>; et in medio crater siue urna posita ultra prima flexuram serpentis, habet in labio stellas II obscuras, in uentre III, in fundo II; fiunt VII <note>(= De ordine, cap. XLII)</note>.</quote>
+                        </msItem>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus from="19v">19v</locus>
+                        <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                        <incipit>Duo sunt extremi uertices mundi quos appellant polos</incipit>
+                        <explicit>et virginem leo<gap reason="illegible"/>
+                            </explicit>
+                        <note>The quire is missing the innermost bifolium, after f.19, hence the lacuna at the end of the text.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="20r" to="21r">20r-21r</locus>
+                        <author ref="#dionysius_exiguus">Dionysius Exiguus</author>
+                        <title>Epistola ad Bonifacium et Bonum</title>
+                        <incipit>septimum communem, octauum embolismum</incipit>
+                        <note>The text begins imperfectly due to the missing bifolium after f. 19.</note>
+                    </msItem>
+                    <msItem>
+                        <locus from="21r" to="22r">21r-22r</locus>
+                        <title>Varia computistica</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="22r">22r</locus>
+                        <author ref="#bede">Ps. Bede</author>
+                        <title ref="#de_ratione_computi">De ratione computi</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="23r" to="26v">23r-26v</locus>
+                        <note type="title">Computiscial tables and texts</note>
+                    </msItem>                    
+                </msContents>
+            </msPart>
+            <msPart>
+                <altIdentifier type="partial">
+                    <idno>Part II</idno>
+                </altIdentifier>
+                <msContents>
+                    <msItem>
+                        <locus from="27r" to="104r">27r-104r</locus>
+                        <author ref="#bede">Bede</author>
+                        <title ref="#DTR">De temporum ratione</title>
+                    </msItem>
+                </msContents>
+            </msPart>
+         </msDesc>
+      </body>
+  </text>
+</TEI>

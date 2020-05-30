@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 309</title>
+            <respStmt>
+                <resp>Catalogued by:</resp>
+                <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+                <resp>TEI-P5 coded by</resp>
+                <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>
+                <name type="org"/>
+            </publisher>
+            <availability status="free">
+                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <p>Digital born.</p>
+        </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+        <change when="2019-03-11"/>
+    </revisionDesc>
+</teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="bav_reg_lat_309" xml:lang="eng">
+                <msIdentifier>
+                    <settlement>Vatican</settlement>
+                    <repository>Bibliotheca Apostolica Vaticana</repository>
+                    <idno>Reg. lat. 309</idno>
+                </msIdentifier>
+                <head>
+                    <title>Libri computi (Aachen encyclopedia)</title>
+                    <origDate notBefore="0801" notAfter="0900">s. IX (859-860)</origDate>
+                    <origPlace ref="#n_france">North France</origPlace>                    
+                    <note type="aratea">
+                        <rs type="text" ref="#text__de_ordine.xml">De ordine ac positione stellarum</rs>
+                    </note>
+                    <note type="aratea">
+                        <rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs>
+                    </note>
+                    <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Reg.lat.309">DigiVatLib</ref>
+                    </note>
+                </head>
+                <msContents>
+                    <msItem>
+                        <locus from="2v">2v-</locus>
+                        <title ref="#libri_computi">Libri computi</title>
+                        <note>Additions and omissions discussed by Borst, Schriften.</note>
+                        <msItem class="aratea">
+                            <locus from="90r" to="91r">90r-91r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <rubric>Excerptum de astrologia</rubric>
+                            <incipit>Duo sunt extremi uertices mundi</incipit>
+                            <explicit/>
+                            <note>Marginal annotation by another contemporary hand: <quote>Discite o iuuenes cum abraham caeli et cursus siderum cognoscere non cum epicurio uoluntatum adsertore uentri de seruire et luxuriare</quote>. The same text present also in <ref type="altMs" target="#desc__paris_bnf_lat_12117.xml">Paris, Bibliothèque nationale de France, MS lat. 12117</ref> and <ref type="altMs" target="Strasbourg_BNU_326.xml">Strasbourg, BNU, Ms 326</ref>.</note>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="91r" to="99r">91r-99r</locus>
+                            <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                            <rubric>De ordine ac positione stellarum in signis</rubric>
+                            <incipit>Est quidem hic ordo et positio siderum</incipit>
+                            <explicit>Anticanis habet stellas III.</explicit>
+                            <decoNote>Forty illustration of the constellations in green and brown colour; marking of the stars' position.</decoNote>
+                        </msItem>
+                    </msItem>
+                    <msItem>
+                        <locus from="128r">128r</locus>
+                        <author ref="#pacificus_veronensis">Pacificus of Verona</author>
+                        <title ref="#spera_caeli">Horologium nocturnum</title>
+                        <incipit>Spera caeli quater senis horis dum reuoluitur</incipit>
+                        <bibl>Strecker K., ed. Rhythmi aevi Merovingici et Carolini, MGH Poetae Latini Aevi Carolini. Berlin, 1923, IV 692.</bibl>
+                    </msItem>
+                </msContents>
+                <additional>
+                    <listBibl>
+                        <bibl>Saxl, Verzeichnis 1, pp. 59-66.</bibl>
+                        
+                        <bibl>Bischoff, Katalog III, p. 426 <note>Nordhumbrischer Koputus, Saint-Denis, IX. Jh., ca. Mitte und IX. Jh. 2 Hälfte</note>
+                        </bibl>
+                        <bibl>
+                            <abbr>Borst, Schriften</abbr>, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._303">303</ref>-304.</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,204 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">
+               Aratea Digital
+            </title>
+            <title type="sub">Vatican, Bibliotheca Apostolica Vaticana, Vat. lat. 643</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2018-07-18"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="vat_lat_643" xml:lang="en">
+            <msIdentifier>
+               <settlement>Vatican</settlement>
+               <repository>Biblioteca Apostolica Vaticana</repository>
+               <idno>Vat. lat. 643</idno>
+            </msIdentifier>
+            <head>
+               <title>Bede works on nature</title>
+               <origPlace ref="#melk">Melk (?)</origPlace>                  
+               <origDate notBefore="1101" notAfter="1200">s. XII<hi rend="sup"/>
+               </origDate>
+               <note type="facs">Digital facsimile at <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.643">DigiVatLib</ref>
+               </note>
+            </head>
+            <msContents>
+               <msItem>
+                  <locus from="1r" to="9r">1r-9r</locus>
+                  <author ref="#bede">Bede</author>
+                  <title ref="#DNR">De natura rerum</title>
+               </msItem>
+               <msItem>
+                  <locus from="9r" to="15r">9r-15r</locus>
+                  <author ref="#bede">Bede</author>
+                  <title ref="#DT">De temporibus</title>
+               </msItem>
+               <msItem>
+                  <locus from="15r" to="15v">15r-15v</locus>
+                  <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
+                  <rubric>De stella veneris et mercurii saturni iouis et martis</rubric>
+                  <incipit>Itaque stella ueneris et mercurii hoc a superioribus tribus planetarum stellis differunt</incipit>
+                  <explicit>et idcirco longiores ethercas metas peragit.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="15v">15v</locus>
+                  <author ref="#bede">(Ps.) Bede</author>
+                  <title ref="#de_apsidibus_planetarum">De apsidibus planetarum</title>
+                  <rubric>De zodiaco circulo</rubric>
+                  <incipit>Circulus zodiacus qui XII signis constat</incipit>
+                  <explicit>Quod subiecta melius pictura declarabitur.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="15v" to="70r">15v-70r</locus>
+                  <author ref="#bede">Bede</author>
+                  <title ref="#DTR">De temporum ratione</title>
+               </msItem>
+               <msItem>
+                  <locus from="70v">70v</locus>
+                  <note type="title">Text on the simultaneous rising and setting of the constellations.</note>
+                  <incipit>Ariete oriente duabus horis occidit libra</incipit>
+                  <explicit>superioris zodiaci sagittarius inferioris optinet gemini.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="70v">70v</locus>
+                  <note type="title">How to calculate the rising of the zodiacal signs.</note>
+                  <quote>Hortum signorum XII qualibet diei uel noctis hora quisque liquido deprehensurus est si a KL octobris horas dierum ac noctium usque ad eam quam si proposuit colligens per XXIIII<hi rend="sup">or</hi> metiatur et quos excreuerit diuidat quem ad modum subiecta instruit formula. Si I aut duo remanserunt oritur libra. Si III aut IIII scorpio. Si V aut VI sagittarius. Si VIII aut VIII capricornus. Si VIIII aut X aquarius. Si XI aut XII pisces. Si XIII aut XIIII aries. Si XV aut XVI taurus. Si XVII aut XVIII gemini, Si XVIIII aut XX cancer. Si XXI aut XXII leo. Si XXIII aut XXIIII uirgo.</quote>
+               </msItem>
+               <msItem>
+                  <locus from="70v" to="71r">70v-71r</locus>
+                  <note type="title">Short text on the eclypse</note>
+                  <incipit>Deliquium Solis contigisse fertur anno ab incarnatione domini DCCC<hi rend="sup">o</hi>VIII Quicquid ergo inde aut abcessit</incipit>
+                  <explicit>quod quotiens contigerit totiens eclypsin non defecturam.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="71r">71r</locus>
+                  <title ref="#iqsvm">In quo signo versetur mars</title>
+                  <incipit>In quo signo versetur mars annis ab initio mundi per senarium diuisis</incipit>
+                  <explicit>memoratum semper inueniri planetam uirgo.</explicit>
+                  <note>Text begins without any visula mark separating it from the previous one. In the margin the planets are written in red next to their respective paragraph entries.</note>
+               </msItem>
+               <msItem>
+                  <locus from="71r" to="71v">71r-71v</locus>
+                  <rubric>De incremento saltus lunae</rubric>
+                  <incipit>Primo sciendum est quod in toto decennouenali circulo unus dies de saltu
+                     lunae accrescat</incipit>
+                  <explicit>et sextans id eset sexta pars momenti.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="71v">71v</locus>
+                  <rubric>De concordia soli et lunae</rubric>
+                  <incipit>Nouem horis in luna</incipit>
+                  <explicit>possunt VIIII hore lunares cum quinque diebus solaribus concordare.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="71v" to="71av">71v-71av</locus>
+                  <rubric>De quibus embolismi menses et bissextiles dies adimplentur</rubric>
+                  <incipit>Luna igitur cotidie et cetera transit XIII partes et horas VIII</incipit>
+                  <explicit>Hec ratio subtilissima est et ualde necessatia et maxima labori undecumque ab auctoribus collecta et ad quam vernenda mentis acies purganda.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="71av" to="75r">71av-75r</locus>
+                  <title ref="#dtr_commentary">Anonymous commentary on Bede's DTR</title>
+                  <rubric>De natura rerum et temporum ratione</rubric>
+                  <incipit>Non est pretermittendum cum dixit de natura rerum cur non etiam de natura temporum uel de ratione rerum et ratione temporum dixit</incipit>
+                  <explicit>idest CCma XXXV pars XLVII semis momentorum.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="75r">75r</locus>
+                  <note>Computistical texts on the epacts and regulares solis.</note>
+                  <rubric>Quid est epacta solis et regulares solis</rubric>
+                  <incipit>Dum audis epactas lune aetates lune per singulos annos intellige</incipit>
+                  <explicit>uel quot dies usque ad Kalendas futuri mensis supersunt.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="75r">75r</locus>
+                  <note>12-line verse on the course of the planets within the zodiac and their distance from earth.</note>
+                  <incipit>Bissex signiferae numerantur sydera sperae</incipit>
+                  <explicit>Proxima telluri dum curris candida phebe</explicit>
+                  <note>ed. Walther, 2200, Schaller 1977, 1725; Baehrens, Poetae Latini minores,
+                     vol. 5, p. 350, lin. 15-351, lin 9)</note>
+               </msItem>
+               <msItem>
+                  <locus from="75v" to="80r">75v-80r</locus>
+                  <note>Medical recipes</note>
+                  <incipit>Dictamnum urinam et menstrua prouocat</incipit>
+                  <explicit>lactuces non comedat nec in balneum calidum ingrediatur.</explicit>
+               </msItem>
+               <msItem>
+                  <locus from="80v" to="82r">80v-82r</locus>
+                  <note>122-line verse on the zodiac and the months</note>
+                  <incipit>
+                     <supplied>N</supplied>omina signorum quis clauditur astriger orbis</incipit>
+                  <explicit>Versus qui restant qui uult in fine requirat.</explicit>
+                  <bibl>di Pasquale, Maria Grazia. "Nomina signorum quis clauditur astriger orbis: un carme inedito sulle costellazioni e lo Zodiaco nei mesi dell'anno." In: Poesía Latina Medieval (siglos V-XV). Ed. by M. Díaz Díaz et al. Firenze, 2005, pp. 675-684.</bibl>
+               </msItem>
+               <msItem class="aratea">
+                  <locus from="82v" to="100v">82v-100v</locus>
+                  <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
+                  <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
+                  <explicit>supercurrens multis aduenientibus nubibus.</explicit>
+                  <decoNote>Illustrations of the constellations, diagram of the zodiac, the moon and the sun in chariots and a map of the celestial zones. The stars are marked in red according to the positions stated in the text. The illustrated disctinguish between brighter and fainter stars: the one referred to as <quote>splendior</quote> are circles filled with a red crosses on a black background, while those labelled <quote>obscura</quote> are filled in dull dark-red.</decoNote>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>Perchment</support>
+                     <extent>
+                        <dimensions type="leaf" n="101">
+                           <height>276</height>
+                           <width>210</width>
+                        </dimensions>
+                     </extent>
+                     <foliation/>
+                     <collation>
+                        <p>ff.1-8, 9-17, 24-32, 33-40, 41-46, 47-55, 56-63, 64-71, 71a-76, 77-80 (f. 81 skiped or missing), 82-89, 90-98 (stub between ff.90-91), 99-100.</p>
+                     </collation>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="0"/>
+                  </layoutDesc>
+               </objectDesc>
+            </physDesc>
+            <history>
+               <origin>Based on the script as well as on early added German glosses the manuscript was written in <origDate notBefore="1101" notAfter="1200">s. XII</origDate> in <origPlace ref="#s_germany">South Germany</origPlace> or <origPlace ref="#austria">Austria</origPlace>. The textual similarities with <ref type="altMs" target="Melk_412.xml">Melk, Benediktinerstiftes, Cod. 412</ref> suggest the <origPlace ref="#melk">Benedictine Abbey of Melk</origPlace> as place of production.</origin>
+               <provenance>From the <date when="1700">18th c.</date> was in the <settlement>Vatican</settlement>.</provenance>
+            </history>
+            <additional>
+               <listBibl>
+                  <head>Selected Bibliography:</head>
+                  <bibl>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 477-481.</bibl>
+               </listBibl>
+            </additional>
+         </msDesc>       
+      </body>
+   </text>
+</TEI>

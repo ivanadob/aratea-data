@@ -1,0 +1,39 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Revised Aratus Latinus</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Maass</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+                    <bibl>Maass, ed. <ref target="https://archive.org/details/Maass1898/page/n247">Commentariorum in aratum reliquiae</ref>(Berlin, 1898)</bibl>
+                </p>
+         </sourceDesc>
+         <revisionDesc status="draft">
+<change>Added just two paragraphs to play with collatex.</change>
+         </revisionDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <p>Porro Taurum inter astra quidam putant positum propter iouem, quod in bouem sit fabulose conuersus. alii uero, pro eo quod europam adduxerit a phenice per medium aequor in cretem, plreique autem aiunt bouem esse, imitatorem ius, et ideo inter astra a ioue conlocatum. tauri quoque frons, quae subuculae nominantur, a pherecide atheniensi mammae fuisse dicuntur liberi patria et uocatae dodoniades sponsae. habet stellas in singulis cornibus singulas, in fronte duas, in unoquoque oculo unam, in nare unam (hae septem subuculae siue plaides nominantur), in geniculo anteriore unam, in palearibus duas, in dextro genuculo unam, in collo duoas, in dorso tres, in uentre splendidam unam, in pectore unam. sunt in summa XVIII.</p>
+            </div>
+            </body>
+            </text>
+            </TEI>

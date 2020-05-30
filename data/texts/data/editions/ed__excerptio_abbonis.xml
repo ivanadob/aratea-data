@@ -1,0 +1,54 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excerptio Abbonis ex Higino de figuratione signorum</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>Hasper, Ludwig Wilhelm</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+                    <bibl>Hasper, Ludwig Wilhelm, ed. <ref target=" http://archive.org/details/hyginusphilosop00haspgoog.">Hyginus Philosophus: De imaginibus coeli. Leipzig, 1861, 11-15</ref>
+                    </bibl>
+                </p>
+         </sourceDesc>
+         <revisionDesc status="draft">
+<change>Added the first two paragraphs.</change>
+         </revisionDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <p>Denique dicit Plinius in omnia sunt LXXII signa, in quibus continentur stellae ordinatim dispositae MDC (1600): Unde si plus invenias vitio scriptorum deputa.</p>
+         </div>
+         <div>
+            <head>Arcti</head>
+            <p>Siquidem intra circulum arcticum clausae sunt duae arcturi, una resupinate, altera caput alterius tegere videtur, verso semper capite majoris ad caudam minoris. Quarum major habet in capite stellas VII omnes obscuras in utrisque auribus unam, in humero claram unam, in pede novissimo II, inter scapulas unam, in crure posteriore I, in pede priore II, in cauda tres, et ita sunt XIX. Minor ursa in stationis loco stellas singulas claras et super caudam tres. In ipsa vero cauda unam, qui polus appellatur, ad quam mundus revolvitur. Ita sunt omnes VI.</p>
+            </div>
+           <div>
+              <head>Draco</head>
+              <p>
+                 Inter ipsas autem duas arcturos est draco ingens post trinam revolutionem sui respiciens ad caudam ursae mar joris id est helicis, qui anterioribus pedibus innititur caudae eius extremitati. Infera revolutione deprimit pedibus humeros eius minor ursa, id est cinosura, et sic capit rursus revolvit ad suum pectus, et habet in utroque tempore stellas singulas, in oculis singulas, in mento unam, in reliquo corpore X, ita sunt omnes XV. Super cinosuram sunt X stellae, quae ludentes dicuntur.
+              </p>
+           </div>
+         <div>
+            <head>Bootes sive Arctophylax</head>
+            <p>Arctophylacis sive Bootis manum sinistram arcticus includit et in aestivo finitur, inclinatus in longitudinem,</p>
+         </div>
+      </body>
+  </text>
+</TEI>

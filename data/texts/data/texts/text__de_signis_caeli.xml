@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De signis caeli</title>
+            <respStmt>
+               <resp>Author:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">
+                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
+               </name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2019-05-06"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <title>Introduction</title>
+            </head>            
+            <p>The star-catalogue "De signis caeli" is a short résumé of the <ref target="#text__aratus_latinus.xml">Aratus Latinus </ref>. In the manuscripts it is often ascribed to Bede the Venerable. The work is also referred to as 'Scholia Bernensia' after the manuscript in Bern (Burgerbibliothek, Cod. 88), where it accompany as scholia as it is also found on the margins of some copies of Cicero’s Aratea. This text was used by Hrabanus Maurus (780 – 856) in his De computo.</p> 
+<p>Inc. Helix, quae et Arcturus maior. Habet autem in capite ... . Expl. (cap. XL) eo quod contrarius sit Cani (cap. XLI) signiferum cursum suum complens.</p>            
+            <!--<p>habet autem helix arcturus maior in capite stellas obscuras VII, in spatula unam, super pectus unam, in pede unam, in dorso unam, in tibia anteriore duas, super caudam tres. sunt omnes XVI.</p>
+            <p>Fenix qui et arctutus minor et aq uibusdam canis cauda uocatur habet autem per unumquemque angulum in humero splendidam stellam unam, in cauda III, sunt autem intra ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
+            <p>Draco qio continet utrosque arcturos helicis superuoluit caput phenicis circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. sunt omnes XV.</p>
+            <p>Hercules qui stans genu flexu. Habet aautem in capite stellam unam, in utroque humero stellam unam, in cubito sinistro unam, in dextro femore duas, in genu dextro I, in eadem tibia unam, in dextra manu I, et in ropolo quem tenet in eadem manu unam.</p>-->
+         </div>
+         <div>
+            <head>
+               <title>Editions</title>
+            </head>
+            <listBibl>
+               <bibl>Dell'Era, Antonio. "Una rielaborazione dell'Arato latino." In Studi Medievali ser. 3, 20:1 (1979): 269-302.</bibl>
+               <bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref>
+                    </bibl>
+               <bibl>Germanicus. Germanici Caesaris Aratea cum scholiis. Edited by Alfred Breysig. Berlin 1867 (reprint Hildesheim: Olms, 1967), pp. <ref target="https://archive.org/details/germanicicaesar01breygoog/page/n306">233</ref>-238<note> under the title "Scholia bernensia" after <ref target="desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref>.</note>
+                    </bibl>
+               <bibl>Maass, Ernst. Commentariorum in Aratum reliquiae. Berlin: Weidmann, 1898, pp. <ref target="https://archive.org/details/Maass1898/page/n657">582</ref>-594<note> (using Monte Cassino and the previous two editions)</note>.</bibl>
+            </listBibl>
+            
+         </div>
+         <div>
+            <head>
+               <title>Literature</title>
+            </head>
+            <p/>
+         </div>
+         <div>
+            <head>
+               <title>Manuscripts</title>
+            </head>
+               <list xml:id="de_signis_caeli__msslist">
+                  <item>
+                        <ref target="#desc__amiens_bm_222.xml">Amiens, Bibliothèque municipale, Ms 222</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__bern_bb_88.xml">Bern, Burgerbibliothek, Cod. 88</ref> (as scholia 1v-7v)</item>
+                  <item>
+                        <ref target="#desc__bern_bb_cod-F219II.xml">Bern, Burgerbibliothek, Cod. F 219 II</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__dijon_bm_488.xml">Dijon, Bibliothèque municipale, Ms 488</ref>
+                    </item>
+                  <item>Durham, The Dean and Chapter Library Hunter Ms. 100</item>
+                  <item>Freiburg-im-Breisgau, Archiv des erzbischöflichen-Ordinariats, Ms 35</item>
+                  <item>
+                        <ref target="#desc__laon_bm_422.xml">Laon, Bibliothèque municipale, Ms. 422</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__london_bl_harley_2506.xml">London, British library, Harley 2506</ref> (as scholia ff. 36ra-44v)</item>
+                  <item>
+                        <ref target="#desc__montecassino_archivo_3.xml">Montecassino, Archivo della Badia 3</ref>
+                    </item>
+                  <item>Oxford, Bodleian Library Laud. Misc. 644</item>
+                  <item>Padova, Biblioteca Antoniana 27</item>
+                  <item>
+                        <ref target="#desc__paris_bnf_lat_5239.xml">Paris, Bibliothèque nationale de France, MS lat. 5239</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__paris_bnf_lat_5543.xml">Paris, Bibliothèque nationale de France, MS lat. 5543</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__paris_bnf_lat_7299a.xml">Paris, Bibliothèque nationale de France, MS lat. 7299A</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__paris_bnf_lat_14754.xml">Paris, Bibliothèque nationale de France, MS lat. 14754</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__rouen_bm_26.xml">Rouen, Bibliothèque municipale, Ms 26</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__schaffhausen_sb_min_61.xml">Schaffhausen, Stadtbibliothek, Ministerialis 61</ref>
+                    </item>
+                  <item>
+                        <ref target="#desc__bav_reg_lat_598.xml">Vatican, Bibliotheca Apostolica Vaticana, Reg. lat. 598</ref>
+                    </item>
+                  <item>Venice, Biblioteca Marciana Lat. VIII 22</item>
+                  <item>
+                        <ref target="#desc__wolfenbuettel_hab_gud_lat_132.xml">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref>
+                    </item>
+               </list>
+            <list>
+               <head>Lost manuscripts</head>
+               <item>Vatican, Bibliotheca Apostolica Vaticana, Pal. lat. 1417 <ref target="https://digi.vatlib.it/mss/detail/Pal.lat.1417">online</ref> (s. XI<hi rend="sup">mid</hi>). Today the manuscript contains only the <title ref="#liber_nimrod">Liber Nimrod</title> (ff.1r-19v), but the 15th c. table of content on the bottom of f. <ref target="https://digi.vatlib.it/view/MSS_Pal.lat.1417/0003">1r</ref> lists: <quote>Libellus pulcer Besde de situ et dispositione stellarum et signorum coeli; libellus seu tractatus Ptolemei regis ad sciendum horas diei et noctis; tractatus de distinctione climatum mundi et de terminis VII climatum</quote>. According to Livesey Rouse (‘Nimrod the Astronomer’, Traditio 37 (1981): 203–66) this MS belongs to the German family of Liber Nimrod and was copied in the first half of the eleventh century.</item>
+               <item>The <foreign>editio princeps</foreign> (<bibl>Hervagius, Opera Bedae Venerabilis, I, Basileae 1563 (reprint 1612), pp. <ref target="https://archive.org/details/bub_gb_pZtCsEtM9m4C/page/n285">375-376</ref>
+                        </bibl>) was based on a now lost manuscript, and is hence an important witness (marked with the siglum 'h' in Dell'Era's edition).</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

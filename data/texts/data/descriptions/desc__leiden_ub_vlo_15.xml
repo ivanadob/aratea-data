@@ -1,0 +1,123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aratea Digital</title>
+                <title type="sub">Leiden, Universitaire Bibliotheken, VLO 15</title>
+                <respStmt>
+                    <resp>Catalogued by:</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 coded by</resp>
+                    <name type="person">Ivana Dobcheva</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org"/>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital born.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-03-15"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:lang="eng" xml:id="leiden_ub_vlo_15">
+                <msIdentifier>
+                    <settlement>Leiden</settlement>
+                    <repository>Universitaire Bibliotheken</repository>
+                    <idno>VLO 15</idno>
+                </msIdentifier>
+                <head>
+                    <title>Liber manualis of Ademar of Chabannes</title>
+                    <origDate notBefore="1001" notAfter="1034">s. XI<hi rend="sup">1/3</hi>
+                    </origDate>
+                    <origPlace ref="#limoges">Limoges</origPlace>
+                    <note type="aratea">
+                        <rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs>
+                    </note>
+                    <note type="aratea">
+                        <rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs>
+                    </note>
+                    <note type="aratea">
+                        <rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs>
+                    </note>
+                    <note type="facs">Digital facsimile available at <ref target="http://hdl.handle.net/1887.1/item:1946622">Leiden University Library, Digital Collections</ref>
+                    </note>
+                </head>
+                <additional>
+                    <listBibl>
+                        <bibl>Els, A. M. J. van. ‘Een leeuw van een handschrift : Ademar van Chabannes en MS Leiden, Universiteitsbibliotheek, Vossianus Latinus Octavo 15’. Dissertation, 2015. http://dspace.library.uu.nl/handle/1874/306223.</bibl>
+                        <bibl>Els, Ad van. ‘A Flexible Unity: Ademar of Chabannes and the Production and Usage of MS Leiden, Universiteitsbibliotheek, Vossianus Latinus Octavo 15’. Scriptorium 65 (2011): 21–66. https://doi.org/10.3406/scrip.2011.4109.</bibl>
+                        <bibl>Hygini De Astronomia. Edited by Ghislaine Viré. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Stuttgart: Teubner, 1992.</bibl>
+                        <bibl>Gaborit-Chopin, Danielle. ‘Les dessins d’Adémar de Chabannes’. Bulletin archéologique du Comité des Travaux Historiques et Scientifiques 3 (1967): 163–225.</bibl>
+                        <bibl>McGurk, Patrick. Catalogue of Astrological and Mythological Illuminated Manuscripts of the Latin Middle Ages: 4. Astrological Manuscripts in Italian Libraries (Other than Rome). Vol. 4. Fritz Saxl. Verzeichnis Astrologischer Und Mythologischer Illustrierter Handschriften Des Lateinischen Mittelalters. London, 1966.</bibl>
+                        <bibl>Peter McGurk. ‘Germanici Aratea Cum Scholiis: A New Illustrated Witness from Wales’. The  National Library of Wales Journal 18, no. 2 (1973): 197–216.</bibl>
+                        <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276.</bibl>
+                        <bibl>‘VLO 15 - Liber Manualis’. Koninklijke Brill NV. Accessed 17 March 2019. https://doi.org/10.1163/9789004264243_O_015.</bibl>
+                    </listBibl>
+                </additional>
+                <msPart>
+                    <msIdentifier>
+                        <idno>Fascicle XIII (M)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="aratea">
+                            <locus from="155r" to="188r">155r-188r</locus>
+                            <author ref="#hyginus">Hyginus</author>
+                            <title ref="#de_astronomia">De astronomia</title>
+                            <decoNote/>
+                        </msItem>
+                        <msItem>
+                            <locus from="188r" to="188v">188r-v</locus>
+                            <author ref="#bede">Bede</author>
+                            <title ref="#DNR">De natura rerum<note> (ch. 14-17)</note>
+                            </title>
+                            <incipit>Sunt autem cuique sui planetarum circuli quos greci absides in stellis uocant</incipit>
+                            <explicit>Signa XII uel a causis annalibus uel a gentilium fabulis nomina sumpserunt.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="188v" to="190r">188v-190r</locus>
+                            <note type="title">Excerpts from the <title ref="#al">Aratus Latinus</title> and the <title ref="#ral">Revised Aratus Latinus </title> as addition to Bede's DNR on the zodiacal signs their mythological origin and number of stars.</note>
+                            <incipit>Quas ideo strictim ac breuiter subter notare curauimus</incipit>
+                            <explicit>sub mammis <gap/>, in sinistro lumbo I. Pisces.</explicit>
+                        </msItem>
+                        <msItem class="aratea">
+                            <locus from="190r">190r</locus>
+                            <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                            <incipit>Duo sunt extremi uertices mundi quos appellant polos.</incipit>
+                            <note>rest of the page left originally blank and filled with later additions.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <support>Parchment</support>
+                                <collation>The fascicle is made out of five quires: I<hi rend="sup">4</hi> (ff.155-162), I<hi rend="sup">4</hi> (ff.163-170), I<hi rend="sup">4</hi> (ff.171-178), I<hi rend="sup">4</hi> (ff.179-186), I<hi rend="sup">4</hi> (ff.187-194, f. 189 and 192 are singleton), with quiremarks I-V.</collation>
+                            </supportDesc>
+                        </objectDesc>                        
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>The manuscript was written by Ademar of Chabannes (c. 989–c. 1034) for personal use and for his teaching activities in the monastery schools of St.-Cybard (Angoulême) and of St.-Martial (Limoges). The manuscript, which is now bound in 14 fascicle, had originally probably the form of a stack of quires provisionally bound with tackets.</p>
+                            <p>McGurk (1966) and Els suggested that Ademar used a non-illustrated exemplar for Hyginus' text. The iconographical cycle he added is close to the one in <ref target="#desc__paris_bnf_lat_5543.xml">Paris, BNF, MS lat. 5543</ref>, <ref target="#desc__paris_bnf_lat_5239.xml">MS lat. 5239</ref> and <ref target="#desc__aberystwyth_nlw_735c.xml">Aberystwyth, National Library of Wales, MS 735 C</ref>, whereby it was most probably rather the latter MS that Ademar had used. The close relation between this manuscript and the one in Aberystwyth was also noted by McGurk (1973).</p>
+                        <p>Els recognised the text on ff. 188v-190r as excerpts from the Aratus Latinus and the Revised Aratus Latinus. He considered, however, Ademar as responsible for the composition and the short preface. The earlier copy of the same excerpts in <ref target="#desc__bav_reg_lat_1260.xml">Reg. lat. 1260</ref> proves that Ademar was using an exemplar.</p>
+                        </origin>
+                    </history>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>
