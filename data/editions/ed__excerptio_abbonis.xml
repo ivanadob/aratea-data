@@ -24,11 +24,11 @@
          </publicationStmt>
          <sourceDesc>
             <p><bibl>Hasper, Ludwig Wilhelm, ed. <ref target=" http://archive.org/details/hyginusphilosop00haspgoog.">Hyginus Philosophus: De imaginibus coeli. Leipzig, 1861, 11-15</ref></bibl></p>
-         </sourceDesc>
-         <revisionDesc status="draft">
-<change>Added the first two paragraphs.</change>
-         </revisionDesc>
+         </sourceDesc>         
       </fileDesc>
+     <revisionDesc status="draft">
+        <change>Added the first two paragraphs.</change>
+     </revisionDesc>
   </teiHeader>
   <text>
       <body>

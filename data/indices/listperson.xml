@@ -119,6 +119,9 @@
                     <person xml:id="dionysius_exiguus">
                         <persName xml:id="gnd_118679724" ref="http://d-nb.info/gnd/118679724">Dionysius Exiguus</persName>
                     </person>
+                    <person xml:id="dionysius_periegeta">
+                        <persName xml:id="gnd_118679686" ref="http://d-nb.info/gnd/118679686">Dionysius Periegeta</persName>
+                    </person>
                     <person xml:id="dracontius">
                         <persName xml:id="gnd_11867241X" ref="http://d-nb.info/gnd/11867241X">Dracontius, Blossius Aemilius</persName>
                     </person>

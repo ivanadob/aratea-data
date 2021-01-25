@@ -46,13 +46,42 @@
                     <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/view/MSS_Urb.lat.674">DigiVatLib</ref></note>
                 </head>
                 <msContents>
-                    <p>
-                        1r-2r: Dionysius Periegetes, sec. II Orbis terrae descriptio - Interpretatio latina Prisciani Caesariensis - Excerptum
-                        4v-22v: Dionysius Periegetes, sec. II Orbis terrae descriptio - Interpretatio latina Prisciani Caesariensis
-                        
-                        23r: Lemmata in Arati Phaenomena latine versa a Rufo Festo Avieno
-                        23v: Avianus, sec. IV-V Epistula ad Theodosium cum glossis et scholiis
-                    </p>
+                    <msItem>
+                        <locus from="1r" to="2r">1r-2r</locus>
+                        <author ref="#dionysius_periegeta">Dionysius Periegetes</author>
+                        <title>Orbis terrae descriptio - Excerptum</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="2v" to="4r">2v-4r</locus>
+                        <incipit>Haec signa uel ab annalibus causis uel a gentilium fabulis nominatis. De ariete Liber pater cum uictor</incipit>
+                        <explicit>De scorpione <gap reason="omitted"/> quae in ueneno scorpionis serpentis.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="4v" to="22v">4v-22v</locus>
+                        <author ref="#dionysius_periegeta">Dionysius Periegetes</author>
+                        <title ref="#orbis_descriptio">Orbis terrae descriptio</title>
+                    </msItem>
+                    <msItem>
+                        <locus from="22v" to="23r">22v-23r</locus>
+                        <author ref="#priscianus">Ps. Priscianus</author>
+                        <title ref="#ad_boreae">Epitome phenomenon</title>
+                        <rubric>Prisciani epitome phenomen</rubric>
+                        <incipit>Ad boraeae partis arctoe uertuntur et anguis</incipit>
+                        <explicit>Hinc sequitur pistrix simul eridanique fluenta.</explicit>	
+                    </msItem>
+                    <msItem>
+                        <locus from="23r">23r</locus>
+                        <note>Lemmata to <rs type="person" role="author" ref="#avienus">Avienus</rs>' <title ref="#aratea_avienus">Aratea</title>
+                        </note>
+                        <rubric>Rufi festi auieni uiri clari arati phenomina</rubric>
+                        <incipit>Arctoe engonasin corona ophiuchus</incipit>
+                        <explicit>Sol aselli uenti hiepms aestas</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="23v">23v</locus>
+                        <author>Avianus</author>
+                        <title>Epistula ad Theodosium cum glossis et scholiis</title>
+                    </msItem>                    
                 </msContents>
                 <additional>
                     <listBibl>

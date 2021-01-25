@@ -32,6 +32,20 @@
                <title>Introduction</title>
             </head>            
             <p>Following to some extant Germanicus’ methodology, <rs type="person" ref="#avienus">Rufus Festus Avienus</rs> translated the poem once more into Latin in the 4th c. AD. It is the only Latin translation preserved in extenso that contains both the first and the second part of the poem. Avienus elaborated on the original work using <rs type="person" ref="#hipparchus">Hipparchus</rs>’ commentary and the <title>Catasterisms</title>. His style has been characterized as verbose which can be explained by the dominant literary tastes of his time and by the translator’s desire to say more than his model. In terms of figures, the 757 verses in Aratus’ first part correspond to 1383 verses in Avienus’. In the second part dealing with weather signs, however, the two versions are almost equal in size (422 verses and 553 verses respectively).</p>
+            <p>Under the name of Rufus Festus Avienus and the title of "Arati Phenomena" is preserved a list of the constellations. It is found in two manuscripts, in both cases following Ps-Priscian's De sideribus. This short text was thought to consist of lemmata coming from Avienus' Aratea:</p>
+            <p><title>Item rufi festi avieni viri clari arati phenomina</title>. 
+               <l>Arctoe, engonasin corona, ophiuchus</l> 
+               <l>bootes, virgo, gemini, cancer, leo</l> 
+               <l>auriga, taurus, cepheus, cassiepia</l>
+               <l>andromeda, equus, aries, deltoton</l>
+               <l>pisces, perseus, pleiades, lyra</l>
+               <l>cycnus, aquarius, capricornus</l>
+               <l>sagittarius, sagitta, aquila, delphis</l>
+               <l>orion, syrius, lepus, argo, cetos</l>
+               <l>flumen, pisces maior, ara, centaurus</l>
+               <l>hydra, procyon, planetae, circuli</l>
+               <l>sol, aselli, venti, hiemps, aetas.</l>
+            </p>
          </div>
          <div>
             <head>
@@ -60,12 +74,17 @@
          </div>
          <div>
             <head>
-               <title>Manuscripts</title>
+               <title>Manuscripts of the Aratea</title>
             </head>
             <list xml:id="avienus__msslist">
                <item><ref target="#desc__milano_ambrosiana_d52.xml">Milano, Biblioteca Ambrosiana, Manoscritti, D 52 inf.</ref></item>
                <item><ref target="#desc__vienna_onb_107.xml">Vienna, Österreichische Nationalbibliothek, Cod. 107</ref></item>
                <item>Editio princeps: <ref target="https://data.cerl.org/istc/ia01432000">Avienus, Varia</ref> (Venice: Antonius de Strata, 1488)</item>
+            </list>
+            <list>
+               <head>Manuscripts with the Lemmata in Arati Phaenomena</head>               
+               <item><ref target="https://digi.vatlib.it/mss/detail/Urb.lat.674">Vatican, BAV, Urb. lat. 674</ref></item>
+               <item><ref target="#desc__wolfenbuettel_hab_gud_lat_132.xml">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref></item>
             </list>
          </div>
       </body>

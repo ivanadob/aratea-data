@@ -47,6 +47,7 @@
                     <note type="aratea"><rs type="text" ref="#text__avienus.xml">Avienus' Aratea</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__germanicus">Cicero's Aratea</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__cicero">Germanicus' Aratea</rs></note>
+                    <note type="facs">Catalogue entry at <ref target="https://ambrosiana.comperio.it/opac/detail/view/ambro:catalog:33535">Biblioteca Pinacoteca Accademia Ambrosiana</ref>.</note>
                 </head>
                 <msContents>
                     <msItem class="aratea">
@@ -65,7 +66,7 @@
                         <title ref="#germanicus_aratea">Aratea</title>
                     </msItem>
                     <msItem class="aratea">
-                        <locus>cc. 67r-75r</locus>
+                        <locus>67r-75r</locus>
                         <author ref="#cicero">Cicero</author>
                         <title ref="#aratea_cicero">Aratea</title>
                     </msItem>
@@ -88,7 +89,7 @@
                     </objectDesc>
                 </physDesc>
                 <history>
-                    <origin>Both this MS and <ref type="altMs">Montpellier, Ecole de Medicine 452</ref> derive from a now lost exemplar, referred to as <foreign>liber antiquissimus</foreign>. It was discover at Vercelli in 1442 by Cyriac of Ancona. In both copies the text of Cicero has neither scholia nor illustrations, but the exemplar had scholia derived from Hyginus and the Revised Aratus Latinus (the so called Scholia Sangermanensia). The exemplar was discussed by Kauffmann (who did not know the MSS in the Ambrosiana, Montpellier and Göttweig); Kauffmann's conclusions were summarised and re-confurmed by Reeve.</origin>
+                    <origin>Both this MS and <ref type="altMs">Montpellier, Ecole de Medicine 452</ref> derive from a now lost exemplar, referred to as <foreign>liber antiquissimus</foreign>. It was discovered in Vercelli in 1442 by Cyriac of Ancona. In both copies the text of Cicero has neither scholia nor illustrations, but the exemplar had scholia derived from Hyginus' Astronomia and the Revised Aratus Latinus (the so called Scholia Sangermanensia). The exemplar was discussed by Kauffmann (who did not know the MSS in the Ambrosiana, Montpellier and Göttweig); Kauffmann's conclusions were summarised and re-confurmed by Reeve.</origin>
                     <provenance></provenance>
                 </history>
                 <additional>

@@ -863,6 +863,10 @@
         <title>Prayer</title>
         <quote>Domine deus omnipotens sancta trinitas et indiuisa unitas Domine pater qui per unigenitum filium tuum dominum nostrum ihesum christum totum coaeternum et aequalem in substantia diuinitatis, in unitate et uirtute spiritus sancti omnia condidisti, et tempore nouissimo per eundem incarnatum totum mundum reformasti, presta domine ut tua misericordia inspirante per apertionem illam qua sensus apostolorum post resurrectionem aperuisti de uolubilitate firmamenti et stellarum astrorumque cursu secundum modulum nostrae fragilitatis capere et aliis ministrare ualeamus. per eundem dominum.</quote>
     </work>
+    <work xml:id="orbis_descriptio" ref="http://d-nb.info/gnd/4299124-9">
+        <title>Orbis terrae descriptio</title>
+        <author ref="#dionysius_periegeta">Dionysius Periegetes</author>
+    </work>
     <work xml:id="sancta_scriptura">
         <title>On the creation of the luminaries according to the bible</title>
         <quote>Sancta scriptura nobis a deo per beatum moysen tradita docet deum in quarto die luminaria duo solem uidelicet lunamque per uerbum sicut omnia creauit fecisse luminare maius ut preesset et diei et luminare minus nocti ut preesset nocti.</quote>
