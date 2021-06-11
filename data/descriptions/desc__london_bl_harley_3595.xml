@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Aratea Digital</title>
-            <title type="sub">London, British Library, Harley MS 3595</title>
+                <title type="sub">London, British Library, Harley MS 3595</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -23,7 +23,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
             </availability>
          </publicationStmt>
-            <sourceDesc>
+            <sourceDesc>                
                 <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
@@ -33,6 +33,7 @@
 		
     </teiHeader>
     <facsimile>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001r" n="1r"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f001v" n="1v"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048r" n="48r"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f048v" n="48v"/>
@@ -50,6 +51,7 @@
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f057r" n="57r"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f068r" n="68r"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f072r" n="72r"/>
+        <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f073r" n="73r"/>
         <graphic url="http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_3595_f073v" n="73v"/>
     </facsimile>
     <text>
@@ -67,6 +69,7 @@
                     <origDate notBefore="0901" notAfter="1100">s. X-XI</origDate>
                     <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref></note>
+                    <note type="catalogue"><ref target="http://searcharchives.bl.uk/IAMS_VU2:IAMS040-001616120">BL Archives and Manuscripts</ref></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -119,19 +122,19 @@
                             <locus from="1r" to="48v">1r-48v</locus>
                             <author ref="#boethius">Boethius</author>
                             <title ref="#de_arithmetica">De arithmetica</title>
-                            <rubric>Incipiunt duo libri artis arithmeticae anitii manlii· severini· boethii· u<ex>iri</ex> c<ex>lari</ex>· et inl<ex>ustri</ex>· ex con<ex>suli</ex>s ord<ex>ine</ex>· patricii· Domino suo patritio Symmacho boethius·</rubric>
+                            <rubric>Incipiunt duo libri artis arithmeticae anitii manlii· severini· boethii· uiri clari· et inlustri· ex consulis ordine· patricii· Domino suo patritio Symmacho boethius·</rubric>
                             <incipit>In dandis accipiendisque muneribus ita recte offitia</incipit>
                             <explicit>
                                 <note>
                                     <locus from="48r">48r</locus> 
                         </note>huius descriptio<add place="above">nis</add> subter exemplar subiecimus.</explicit>
-                            <decoNote>f.<locus from="48v">48v</locus> a diagram with four rectangulars <quote>geometrica</quote>, <quote>arithmetica</quote>, <quote>armonica</quote>, <quote>consonantiae</quote>.</decoNote>
-                            <note>Many interlienar and marginal glosses, tables and figures.</note>
+                            <decoNote>On f. <locus from="48v">48v</locus> a diagram with four rectangulars <quote>geometrica</quote>, <quote>arithmetica</quote>, <quote>armonica</quote>, <quote>consonantiae</quote>.</decoNote>
+                            <note>Many interlienar and marginal glosses, tables and figures.<ref target="https://www.dnevnik.bg/"></ref></note>
                         </msItem>                        
                         <msItem>
                             <locus from="50r" to="56v">50r-56v</locus> 
                             <author ref="#boethius">Boethius</author> 
-                            <title ref="#de_musica">De institutione musica <note>imperfect</note>
+                            <title ref="#de_musica">De institutione musica <note>(imperfect)</note>
                             </title>
                             <note>Book I, ch. 13-16 and sections from Book II and III.</note>
                             <msItem>
@@ -186,7 +189,7 @@
                                 </support>
                                 <extent>
                                     <measure type="leavesCount">56 fols.</measure>
-                                    <dimensions type="leaf">
+                                    <dimensions type="leaf" unit="mm">
                                         <height>285</height>
                                         <width>200</width>
                                     </dimensions>
@@ -194,7 +197,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="29 30">Written in one column throughout; about 30 long lines. Written space:
-                                    <dimensions type="written">
+                                    <dimensions type="written" unit="mm">
                                         <height>220</height>
                                         <width>150</width>
                                     </dimensions>. 
@@ -334,7 +337,7 @@
                                 <explicit/>
                             </msItem>
                             <msItem>
-                                <locus from="73r">73-v</locus>
+                                <locus from="73r">73r</locus>
                                 <incipit>Septem grana ordei conuersim transuersa faciunt unum digitum geometricalem id est pollicem</incipit>
                                 <explicit>Digitos VII milies IM et DC LXXX VII IM et D.</explicit>
                             </msItem>

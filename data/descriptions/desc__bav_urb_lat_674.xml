@@ -55,6 +55,7 @@
                         <locus from="2v" to="4r">2v-4r</locus>
                         <incipit>Haec signa uel ab annalibus causis uel a gentilium fabulis nominatis. De ariete Liber pater cum uictor</incipit>
                         <explicit>De scorpione <gap reason="omitted"/> quae in ueneno scorpionis serpentis.</explicit>
+                        <note>End imperfect with a cross marking perhaps the continuation in another (now lost) place within the manuscript.</note>
                     </msItem>
                     <msItem>
                         <locus from="4v" to="22v">4v-22v</locus>
@@ -83,6 +84,15 @@
                         <title>Epistula ad Theodosium cum glossis et scholiis</title>
                     </msItem>                    
                 </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <support>Parchment</support>
+                            <extent></extent>
+                            <collation></collation>
+                        </supportDesc>
+                    </objectDesc>
+                </physDesc>
                 <additional>
                     <listBibl>
                         <bibl>Haye, Thomas. Das lateinische Lehrgedicht im Mittelalter: Analyse einer Gattung. Mittellateinische Studien und Texte 22. Leiden: Brill, 1997, pp. 302-303.</bibl>

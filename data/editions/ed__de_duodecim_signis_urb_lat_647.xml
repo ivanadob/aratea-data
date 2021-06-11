@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>               
+            <title>De duodecim signis. Transcription of the text found in <ref target="desc__bav_urb_lat_674.xml">BAV, Urb.lat.674, ff. 2v-4r</ref> on the mythological origin of the zodiacal constellations</title>
+        </titleStmt>
+        <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+                <resp>Transcription and TEI-P5 coding by </resp>
+                <name type="person" full="yes" instant="false">Ivana Dobcheva</name>
+            </respStmt>
+        </editionStmt>
+        <publicationStmt>
+            <publisher></publisher>
+            <availability status="free">
+                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc default="false">
+            <p part="N">Digital born.</p>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl default="false">
+            <normalization default="false" method="silent">
+                <p part="N">Original spelling and capitalization are preserved. This refers also for Latin words written in different ways throuhout the text (by incosistent use of i and y, ci and ti etc.). Ligatured forms are not retained. Common palaeographical abbreviations (such as -em, -que, -bus etc.) are silently expanded. Deletions and insertions are encoded.</p>
+            </normalization>
+        </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+        <change when="2021-02-10" status="draft"/>
+    </revisionDesc>
+</teiHeader>
+    <text>
+        <body>
+            <p><pb n="2v"/>Haec signa uel ab annalibus causis uel a gentilium fabulis nominati sunt.</p>
+            <p>De ariete. Liber pater cum uictor ab india per liddiam reuerteretur ac siti exercitus eius laboraret, inuocans iouem in auxilium uidit eum inter arenas arietis speciem gerentem; eumque secutus, fontem repperit iuxta quem templum ioui posuit et imaginem eius cum arietis cornibus formauit et amonem eum appellauit, quia inter arenas in forma arietis eum uidit; nam arena grece amon dicitur. qui aries inter stellas positus est iuxta paganorum dementiam.<note>The myth is told by Servius (Serv. ad Aen. 4.196) but the wording is very different. Hyginus (De astronomia, lib. 2, XX) also retold the story of the exhausted army of Liber but in Africa and the story with the ram is similar but not identical (the solders spotted a ram, chase it, it leads them to water, where Liber builds a temple with a statue and a statue of Iovis Hammonis with horns). In the Fabulae 133 another report about Liber searching for water, guided by the ram, founded the temple of Iovis Hammonis. Closest is the story told by Lactantius Placitus in Comm. Theb. 3. 476: ARIDUS AMMON INVIDEAT ut Iuuenalis 'quicquid dixerit astrologus, credunt a fonte relatum Ammonis'. - Liber, cum ex India ueniens in deserta et in extrema parte Libyae teneretur ac siti laboraret exercitus, rogasse dicitur Iouem, ut se patrem probaret. unde ex arena subito aries apparuit, quo duce Liber aquam inuenit. petit Iouem, ut arietem in astra transferret, in eo autem loco, quo aqua fluxit, templum constituit, quod Iouis Ammonis dicitur. simulacrum autem eius adiectis cornibus arietinis confictum est.</note></p>
+                
+                <p>Item de ariete. Adamans, eoli filius, ex quadam nimpha frixum (et) hellem filios procreauit. postea in iocam deam filiam coniugem duxit, quae ad perdendos priuignos merses igne incendebat. et cum fames in domo mariti sui creuisset et ille ad consulendum apollinem misisset. Illa nuntios pretio uiciunt ut frixum et ellem dicerent (3r) immolandos. ergo cum adamans filios immolare uellet, nimpha mater arietem aurei uelleris iuuenibus misit. cui sedentes cum per maria ueherentur, elles in pontum cecidit, quod ellespontum dicitur. frixus uero cholchos ad regem aetam peruenit et ibi arietem immolauit et pellem eius in luco matris suae posuit, quam draco per uigil custodi redicitur. cuius postea arietis figura inter stellas est locata.</p>
+                <p>De tauro. Iupiter europam filiam agenoris regis sidoniorum adamauit et in taurum utatus in cretam transuexit et ex ea filios edidit minoem et radamantum et ut quidam putant sarpedonem. et dedit ei ad sedandum animum eius ex suo nomine testium partem mundi nominari. alii dicunt sidonem ab europa raptum taurum consectratum. alii uaccam in quam transfigurata est io filia inachi regis grecorum; est autem [...] eius primus XII KL aprilis.</p>
+                
+                <p>De geminis. Castor et pollux iouis et iunonis filii fuerunt, qui cum adamassent feben et dinam[...]uram coniuges linci et ide, filiorum afori, euellent rapere; lincus</p> 
+                
+                <pb n="3v"/>
+                <p>De cancro. Cancri uero sidus de annalli causa nominatum est quia cancer ante se ambulare potest, et in pulsus cursum suum retro dirigere ualet. Similiter ergo sol facit quando currit usque in XII KL iulii in quarta parte cancri. Et retro cursum suum ducit usque in XII KL ianuarii in quarta parte capricorni.</p>
+                
+                <p>De leone. Fuit quidam leo in superabilis  sub rupe nemeae ciuitatis ardiadie quem ercules occidit pellemque eius in signem uirtate sua se indu[...]ues figura leonis ob memorabile <pb n="4r"/>factam filii iupiter in caelo locauit. aliter hoc sidus leo uocatur propter nimiam feruorem solis in eo currentis et ex annli causa nomen accepit.</p>
+                
+                <p>De uirgine. Liber pater iacharo cuidam atheniensi uinum dedit. quod cum ille dedisset pastoribus et bibissent somno obpressi sunt. quorum parentes existimantes ueneno occisos, iacharum occiderunt et in putem proiecerunt. canis autem eius quodam modo hoc significare coepit, quem filia eius erigone secuta ad puteum cadauer inhumati sepeliuit patris. optauitque ut nisi athenienses ulti essent mortem patris eadem morte perirent, qui postea occiderunt pastares. liber autem memor quod sua causa iacharus perisset canem eius et filiam quae uirgo dicitur inter astra locauit. aliter ex annali causa hoc signum in quo sol est inseptembri uirgo uocatur quia in illo mense terra exusta caloribus ueluti uirgo nihil parit. </p>
+                
+                <p>De libra. Hoc sidus ideo uocatur libra, quia sol in sua (added: quarta) parte positus in XII KL octobri nocturnas horas atque diurnas equales facit. et ex annali causa nomen accipit.</p>
+                <p>De Scorpione. Hoc sidus ideo uocatur scorpio quia sicut sagitta quae in ueneno scorpionis serpentis <note resp="#ID">Sign cross, to mark jump of location -- text was added after the main one starting on f. 4v - new quire begins with f. 4, originally left blank the first recto.</note>
+            </p>
+        </body>
+    </text>
+</TEI>

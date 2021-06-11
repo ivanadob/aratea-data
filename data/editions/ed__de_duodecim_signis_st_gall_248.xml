@@ -1,0 +1,51 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>               
+            <title>De duodecim signis. Transcription of the text found in  St. Gall, Stiftsbibliothek, Cod. 248, pp. 65-66 on the mythological origin of the zodiacal constellations</title>
+        </titleStmt>
+        <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+                <resp>Transcription and TEI-P5 coding by </resp>
+                <name type="person" full="yes" instant="false">Ivana Dobcheva</name>
+            </respStmt>
+        </editionStmt>
+        <publicationStmt>
+            <publisher></publisher>
+            <availability status="free">
+                <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc default="false">
+            <p part="N">Digital born.</p>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl default="false">
+            <normalization default="false" method="silent">
+                <p part="N">Original spelling and capitalization are preserved. This refers also for Latin words written in different ways throuhout the text (by incosistent use of i and y, ci and ti etc.). Ligatured forms are not retained. Common palaeographical abbreviations (such as -em, -que, -bus etc.) are silently expanded. Deletions and insertions are encoded.</p>
+            </normalization>
+        </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+        <change when="2021-02-10" status="draft"/>
+    </revisionDesc>
+</teiHeader>
+    <text>
+        <body>
+            <p>De signis XII. Iam uero illa quae ab ipsis gentibus signa dominus in quibus et animantium imago de stellis formatur ut arcton aries taurus libra et huius modi alia hi qui sydera prouiderunt in numerum stellarum speciem corporis superstitiosa uanitate permoti finxerunt ex causis quibusdam deorum suorum et imagines et nomine conformantes.  
+                
+                Nam arietem signum primum cui ut librae mediam mundi lineam tradunt propter amorem iouem ideo uocauerunt in cuius capite qui simulacra faciunt arietis cornua fingunt. Quod signum ideo gentiles inter signa primum constituerunt quia in martio mense qui est principium anni solem in eo signo cursum suum agere dicunt. Sed et taurum inter sydera collocant et ipsum in honorem iouis eo quod in bouem sit fabulose conuersus quando europam transuexit. 
+                
+                Castorem quoque et pollucem post mortem inter notissima sydera consstituere quod signum gemini dixerunt. 
+                
+                Cancrum quoque inde dixerunt eo quod cum ad eum signum mense iulio sol uenerit retro graditur in modum cancri breuioresque dies facit. Hoc enim animal incertam habet primam partem deinde ad utramque partem gressum dirigit ita ut prior pars sit posterior et posterior prior. 
+                
+                Leonem in gentem in graecia hercules occidit 
+                more text to be transcribed
+                Alia ratio </p>
+        </body>
+    </text>
+</TEI>

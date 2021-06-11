@@ -1,0 +1,163 @@
+
+body
+{
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    margin-top:1.5em;
+    line-height:120%;
+}
+
+a
+{
+    color:#0000CC;
+    background-color:#FFFFFF;
+    text-decoration:none;
+}
+
+td
+{
+    padding:5pt;
+}
+
+sub, sup
+{
+    line-height:0.5em;    
+}
+
+/* Classes */
+
+.additional, 
+.fragments, 
+.history, 
+.physDesc, 
+.schlagzeile, 
+.summary, 
+.textLang
+{
+    margin-top:10pt;
+    text-align:justify;
+}
+
+.author
+{
+    font-variant: small-caps;
+}
+
+.bibl, .bibliography
+{
+    font-size:0.8em;
+    text-align:justify;
+    vertical-align: top;
+}
+
+.caption
+{
+    font-size:1.2em;
+}
+
+.caption_intro
+{
+    font-size:0.8em;
+    font-weight:bold;
+}
+
+
+.foot
+{
+    font-size:0.8em;
+    font-weight:bold;
+    text-align:right;
+}
+
+.head
+{
+    font-size:1em;
+    font-weight:bold;
+}
+
+.Hinweis
+{
+    font-size:0.8em;
+    font-weight:bold;
+    color:#000000;
+    background-color:#EEEEEE;
+}
+
+.idno
+{
+    font-weight:bold;
+}
+
+.introduction
+{
+    font-size:0.8em;
+    margin-top:10pt;
+    text-align:justify;
+}
+
+.intro_without
+{
+    font-size:0.8em;
+    margin-top:-10pt;
+}
+
+.italic, .colophon, .explicit, .incipit, .indexOnly, .quote, .rubric,
+.graphicList
+{
+    font-style:italic;
+}
+
+.listBiblHead
+{
+    font-weight:normal;
+}
+
+.msitem
+{
+    font-size:1em;
+    text-align:justify;
+}
+
+.normal
+{
+    font-style:normal !important;
+    font-variant:normal !important;
+}
+
+.part
+{
+    font-size:1em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.shelfmark
+{
+    font-size:1em;
+}
+
+.smaller
+{
+    font-size:x-small;
+    vertical-align:top;
+}
+
+.titlemain
+{
+    font-variant: small-caps;
+}
+
+.titlesub
+{
+    font-style: italic;
+}
+.illum, .physDesc_illum, .provenance_illum
+{
+    font-size:smaller;
+    vertical-align:top;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
