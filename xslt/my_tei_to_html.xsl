@@ -2309,19 +2309,15 @@
 				</a>
 			</xsl:when>
 		</xsl:choose>
-		<hr/>
-		<div>
-			<span class="head">Manuscript title: </span>
-			<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:head/tei:title"/>
-		</div>
-		<p>
+		<hr/>		
+		<!--<p>
 			<xsl:attribute name="class">Hinweis</xsl:attribute>
 			<xsl:choose>
-				<!--<xsl:when test="descendant-or-self::tei:teiCorpus and ($publishSingleFiles = 'no')">
+				<!-\-<xsl:when test="descendant-or-self::tei:teiCorpus and ($publishSingleFiles = 'no')">
 				<xsl:apply-templates select="descendant-or-self::tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
 				<xsl:apply-templates select="descendant-or-self::tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
 				<xsl:apply-templates select="descendant-or-self::tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/>
-			</xsl:when>-->
+			</xsl:when>-\->
 				<xsl:when test="descendant::tei:msDesc[2] and ($publishSingleFiles = 'no')">
 					<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
 					<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
@@ -2346,7 +2342,7 @@
 					<xsl:apply-templates/>
 				</xsl:for-each>
 			</xsl:if>			
-		</p>
+		</p>-->
 	</xsl:template>
 	
 	
