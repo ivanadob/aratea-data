@@ -14,11 +14,13 @@
 	<xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
 	<xsl:variable name="lang"/>
 	
+	<xsl:import href="nav_bar.xsl"/>
+	
 	<!-- version: 5.2 /2014/ (c) Herzog August Bibliothek / schassan@hab.de -->
 
 	<!-- falls das Skript lokal genutzt werden soll, bitte folgende Adresse eintragen:  -->
 	<xsl:import href="../xslt/hab-xsl/params/params.xsl"/>
-
+	
 	<xsl:output encoding="UTF-8" indent="no"/>
 	<xsl:strip-space elements="*"/>
 
@@ -2245,6 +2247,7 @@
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
 		</head>
 		<body>
+			<xsl:call-template name="nav_bar"/>
 			<div class="container">
 			<xsl:call-template name="Title"/>
 			<xsl:apply-templates select="descendant-or-self::tei:msDesc"/>
