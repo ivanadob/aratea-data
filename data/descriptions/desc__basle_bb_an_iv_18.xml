@@ -30,9 +30,41 @@
          </sourceDesc>
       </fileDesc>
      <revisionDesc status="complete">
+        <change when="2021-01-13">corrections during the encoding</change>
         <change when="2018-10-24">complete</change>
      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/Ar" n="Ar"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/Av" n="Av"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/1r" n="r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/1v" n="1v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/2r" n="2r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/3r" n="3r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/3v" n="3v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/6r" n="6r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/7v" n="7v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/8r" n="8r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/9v" n="9v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/10r" n="10r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/10v" n="10v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/11r" n="11r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/12r" n="12r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/12v" n="12v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/13r" n="13r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/13v" n="13v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/14r" n="14r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/14v" n="14v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/45v" n="45v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/46r" n="46r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/43r" n="43r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/40v" n="40v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/46r" n="46r"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/46v" n="46v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/37v" n="37v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/31v" n="31v"/>
+      <graphic url="https://www.e-codices.unifr.ch/en/ubb/AN-IV-0018/23v" n="23v"/>
+   </facsimile>
   <text>
       <body>
          <msDesc xml:id="basle_aniv18" xml:lang="eng">
@@ -159,7 +191,9 @@
                         </dimensions>
                      </extent>
                      <foliation>Modern foliation 2-46.</foliation>
-                     <collation>The old parchment binding is now Ar-v (title on Ar); the originally first folio with the planisphere is now stored separately; I<hi rend="sup">10(-1)</hi> (ff. 2-10), II <hi rend="sup">6(+1)</hi> (ff. 8-17), III<hi rend="sup">6</hi> (ff. 18-23), IV<hi rend="sup">8</hi> (ff. 24-31), V<hi rend="sup">6</hi> (ff. 32-37), VI<hi rend="sup">8</hi> (ff. 38-45). Tere are quiremarks marking the quire with which begins the text of Germanicus (ff. 10-17) as <quote>I</quote> (further quiremarks on f. 23v <quote>II</quote>, f. 31v <quote>III</quote> and on f. 37v <quote>IIII</quote>. This strongly suggests that the two Aratean texts were transmitted separately at least at the beginning.</collation>
+                     <collation>The old parchment binding (wrapper) is now part of the text block as fol. Ar-v (title on Ar); the originally first folio with the planisphere is now stored separately; 
+                        <formula>I<hi rend="sup">10(-1)</hi> (ff. 2-10), II <hi rend="sup">6(+1)</hi> (ff. 8-17), III<hi rend="sup">6</hi> (ff. 18-23), IV<hi rend="sup">8</hi> (ff. 24-31), V<hi rend="sup">6</hi> (ff. 32-37), VI<hi rend="sup">8</hi> (ff. 38-45)</formula>. 
+                        <signatures>There are quiremarks at the start of Germanicus' Aratea (ff. <locus from="10r" to="17v">10-17</locus>) as 'I' (further quiremarks on f. <locus from="23v">23v</locus> 'II', f. <locus from="31v">31v</locus> 'III' and on f. <locus from="37v">37v</locus> 'IIII'</signatures>. This strongly suggests that the two Aratean texts were transmitted separately at least at the beginning.</collation>
                   </supportDesc>
                   <layoutDesc>
                      <layout columns="1" ruledLines="33">
@@ -170,13 +204,13 @@
                <scriptDesc>
                   <summary/>
                   <scriptNote script="carolmin">
-                     <p>Most of the text is written in carolingian manuscule from several hands (2r-9v, 14v-45v) with insular features such as pointed shafts, 11v-13r (f. 12r blank) written in a narrow pointed anglo-saxon minuscule; ff. 11r, partly 12v and 13v, and 14r written in a hybride carolingian script showing insular features (insular f, r, s, and con- and et abbreviation).</p>
+                     <p>Most of the text is written in carolingian manuscule from several hands (<locus from="2r" to="9v">2r-9v</locus>, <locus from="14v" to="45v">14v-45v</locus>) with insular features such as pointed shafts, <locus from="11v" to="13r">11v-13r</locus> (f. <locus from="12r">12r</locus> blank) written in a narrow pointed anglo-saxon minuscule; ff. <locus from="11r">11r</locus>, partly <locus from="12v">12v</locus> and <locus from="13v">13v</locus>, and <locus from="14r">14r</locus> written in a hybride carolingian script showing insular features (insular f, r, s, and con- and et abbreviation).</p>
                   </scriptNote>
                </scriptDesc>
             </physDesc>
             <history>
                <origin>
-                  <p>Judging by the characteristics of the script Bischoff (<bibl>Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>) supposed the manuscript was produced in a German centre under insular influence in the <origDate notBefore="0801" notAfter="0833">first third of the ninth century</origDate>. The attributon to Fulda is suggested also by the authors of <bibl>Sternbilder des Mittelalters, pp. 202-207</bibl> who compare the iconography of the illustration with those in other manuscripts produced in the centre in the third decade of the ninth century. According to them resposible for the production was Hrabanus Maurus, who had seen an exemplar of Germanicus in the royal court (perhaps <ref type="altMs">Leiden MS VLQ 79</ref> or its exemplar) and procured a copy for his students. According to the authors he did this shortly after completing his book on computus, i.e. after 820, as an aid for the study of computus. Although this idea is very tempting and probable, I see no real evidence for the personal connection of Hrabanus with the manuscript. Based on textual comparison between his works and Aratea texts, reveals only that he used the "De signis coeli" for producing the section on constellation in his "De computo".</p>
+                  <p>Judging by the characteristics of the script Bischoff (<bibl>Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>) supposed the manuscript was produced in a German centre under insular influence in the <origDate notBefore="0801" notAfter="0833">first third of the ninth century</origDate>. The attributon to Fulda is suggested also by the authors of <bibl><abbr>Sternbilder des Mittelalters</abbr>, pp. 202-207</bibl> who compare the iconography of the illustration with those in other manuscripts produced in the centre in the third decade of the ninth century. According to them resposible for the production was Hrabanus Maurus, who had seen an exemplar of Germanicus in the royal court (perhaps <ref type="altMs">Leiden MS VLQ 79</ref> or its exemplar) and procured a copy for his students. According to the authors he did this shortly after completing his book on computus, i.e. after 820, as an aid for the study of computus. Although this idea is very tempting and probable, I see no real evidence for the personal connection of Hrabanus with the manuscript. Based on textual comparison between his works and Aratea texts, reveals only that he used the "De signis coeli" for producing the section on constellation in his "De computo".</p>
                </origin>
                <provenance>
                   <p>On f. <locus from="45v">45v</locus> opening of a letter: <quote>Honorabili domino ac patri suo Q dei gratia fuldensis ecclesie abbati H decanus totusque eiusdam ecclesiam conuentus paratam ac duotam obedienia.</quote> On f. <locus from="46r">46r</locus> again almost the same text: <quote>Honorabili domino ac Patri suo N. dei gratia suus Fuldensis ecclesie abbati <gap/> decanus totusque eiusdem ecclesiae conuentus paratam et devotam obedientiam</quote>. Both notes suggest that the manuscript was at <rs type="place" ref="#fulda" role="provenance">Fulda</rs> by the <date notBefore="1101" notAfter="1300">12th-13th c.</date>
@@ -187,11 +221,11 @@
                <listBibl>
                   <head>Selected bibliography:</head>
                   <bibl>B. Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>
-                  <bibl>M. Haffner, pp. 121-124.</bibl>
+                  <bibl><abbr>Haffner</abbr>, pp. 121-124.</bibl>
                   <bibl>F. Mütherich, "Die Fuldaer Buchmalerei in der Zeit des Hrabanus Maurus," in  Studies in Carolingain Manuscript Illumination, London: The Pindar Press, 2004, pp. 374-416, esp. p. 390.</bibl>
                   <bibl>Escher, Die Miniaturen in den Basler Bibliotheken, Museen und Archiven, Basel 1917, p. 32-34.</bibl>
                   <bibl>
-                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 202-207. <note>Present the hypothesis that the manuscript was copied under the initiative of Hrabanus Maurus, who was head master in the school of Fulda. He had seen an exemplar of Germanicus in the royal court (perhaps Leiden MS VLQ79 or its exemplar) and ordered or made a copy for the use of his students. According to the authors he did this shortly after completing his book on computus, as an aid Hilfsmittel for the computus (?) Although this idea is very tempting, I see no real evidences to support the attribution to Fulda and to Hrabanus. It is likely but in no way can this be proved.</note>
+                     <abbr>Sternbilder des Mittelalters</abbr>, pp. 202-207. <note>Present the hypothesis that the manuscript was copied under the initiative of Hrabanus Maurus, who was head master in the school of Fulda. He had seen an exemplar of Germanicus in the royal court (perhaps <ref type="altMs" target="#desc__leiden_ub_vlq_79.xml">Leiden MS VLQ79</ref> or its exemplar) and ordered or made a copy for the use of his students. According to the authors he did this shortly after completing his book on computus, as an aid Hilfsmittel for the computus (?) Although this idea is very tempting, I see no real evidences to support the attribution to Fulda and to Hrabanus. It is likely but in no way can this be proved.</note>
                   </bibl>
                   <bibl>Lippincott, online description <ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Germanicus-Basel-Univ-AN-IV-15-Nov-2012.pdf"/>
                   </bibl>
