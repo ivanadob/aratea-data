@@ -18,6 +18,6 @@
     </xslt>
     <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="/home/csae8092/saxon/saxon9he.jar"/>
+        <classpath location="./saxon/saxon9he.jar"/>
     </xslt>
 </project>
