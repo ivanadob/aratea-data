@@ -44,6 +44,8 @@
                <origDate notBefore="0876" notAfter="0900">s. IX<hi rend="sup">4/4</hi>
                     </origDate>
                <origPlace ref="#st_gall">St. Gall</origPlace>
+               <note type="iiif"><ref target="https://www.e-codices.unifr.ch/metadata/iiif/csg-0250/manifest.json"></ref></note>
+               <note type="facs">Digital facsimile at <ref target="https://www.e-codices.unifr.ch/en/searchresult/list/one/csg/0250">e-codices</ref>.</note>
             </head>
             <msContents>
 <!--msItem>
@@ -485,7 +487,7 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
 <objectDesc form="codex">
 <supportDesc material="perg">
    <extent>
-      <measure type="pagesCount" quantity="645">645 pp.</measure>
+      <measure type="pagesCount" quantity="645">645</measure>
       <dimensions type="leaf" unit="mm">
          <height>247</height>
          <width>180</width>

@@ -184,13 +184,14 @@
 	[not(@rend='doNotShow')]
 	[not(contains(preceding-sibling::tei:idno, 'olim')) and not(contains(preceding-sibling::tei:idno, tei:idno))]" mode="Schlagzeile">
 	<xsl:if test="not(preceding-sibling::tei:altIdentifier[@type='former'][not(@rend='doNotShow')])">
-		<xsl:text>Alte Signatur: </xsl:text>
+		<xsl:text> (olim: </xsl:text>
 	</xsl:if>
 	<xsl:if test="preceding-sibling::tei:altIdentifier[@type='former'][not(@rend='doNotShow')]">
 		<xsl:text> / </xsl:text>
 	</xsl:if>
+	
 	<xsl:apply-templates mode="Schlagzeile"/>
-	<xsl:value-of select="$Trennzeichen"/>
+	<xsl:text>)</xsl:text>
 </xsl:template>
 	
 <xsl:template match="tei:author[not(. = '')]">
@@ -539,7 +540,15 @@
 		or (normalize-space(ancestor::tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:material) != ''))">
 		<xsl:value-of select="$Trennzeichen"/>
 	</xsl:if>
-	<xsl:value-of select="descendant::tei:measure[@type = 'leavesCount']"/>
+	
+	<xsl:choose>
+		<xsl:when test="descendant::tei:measure[@type = 'leavesCount']">
+			<xsl:value-of select="descendant::tei:measure[@type = 'leavesCount']"/><xsl:text> fols.</xsl:text>
+		</xsl:when>
+		<xsl:when test="descendant::tei:measure[@type = 'pagesCount']">
+			<xsl:value-of select="descendant::tei:measure[@type = 'pagesCount']"/> <xsl:text> pp.</xsl:text>
+		</xsl:when>
+	</xsl:choose>
 	<xsl:choose>
 		<xsl:when test="descendant::tei:measure[@type = 'leavesCount'] 
 			and descendant::tei:measure[(@type = 'pageDimensions') or (@type = 'leavesSize')]">
@@ -579,14 +588,14 @@
 				<xsl:value-of select="tei:note[@type = 'caption']"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:choose>
+				<!--<xsl:choose>
 					<xsl:when test="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]">
 						<xsl:apply-templates select="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]" mode="Schlagzeile"/>
 					</xsl:when>
 					<xsl:when test="parent::tei:msPart">
 						<xsl:apply-templates select="preceding-sibling::tei:altIdentifier[@type='former'][not(@rend='doNotShow')]" mode="Schlagzeile"/>
 					</xsl:when>
-				</xsl:choose>
+				</xsl:choose>-->
 				<xsl:apply-templates select="following-sibling::tei:physDesc/descendant::tei:supportDesc" mode="Schlagzeile"/>
 				<xsl:choose>
 					<xsl:when test="(tei:origPlace != '')">
@@ -629,12 +638,12 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</p>
-	<xsl:for-each select="tei:note[@type != 'caption']">
+	<!--<xsl:for-each select="tei:note[@type != 'caption']">
 		<p>
 			<xsl:attribute name="class">schlagzeile</xsl:attribute>
 			<xsl:value-of select="."/>
 		</p>
-	</xsl:for-each>
+	</xsl:for-each>-->
 </xsl:template>
 
 <xsl:template match="tei:hi[not(normalize-space(.)='')]">
@@ -1330,10 +1339,10 @@
 	<xsl:if test="preceding::tei:msDesc">
 		<hr style="margin-top:15px;margin-bottom:15px"/>
 	</xsl:if>
-	<xsl:apply-templates select="tei:msIdentifier/tei:idno" mode="Signatur"/>
-	<xsl:if test="not($Status='vorlaeufig') and ($showAuthorname='yes')">
+	<!--<xsl:apply-templates select="tei:msIdentifier/tei:idno" mode="Signatur"/>-->
+	<!--<xsl:if test="not($Status='draft') and ($showAuthorname='yes')">
 		<xsl:call-template name="source"/>
-	</xsl:if>
+	</xsl:if>-->
 	<xsl:call-template name="Ueberschrift"/>
 	<xsl:apply-templates select="tei:head[1]" mode="Schlagzeile"/>
 	<xsl:call-template name="Hauptverteiler"/>
@@ -1602,7 +1611,7 @@
 	<xsl:apply-templates select="tei:accMat"/>
 </xsl:template>
 
-<xsl:template match="tei:quote[not(normalize-space(.)='')] | tei:signatures[not(normalize-space(.)='')]">
+<xsl:template match="tei:quote[not(normalize-space(.)='')]"> <!--| tei:signatures[not(normalize-space(.)='')]-->>
 	<xsl:if test="@type = 'rubric' ">
 		<span>
 			<xsl:attribute name="class">smaller</xsl:attribute>
@@ -2037,8 +2046,8 @@
 		</xsl:when>
 		<xsl:when test="(@material != '') and not(@material = 'mixed')">
 			<xsl:choose>
-				<xsl:when test="@material = 'perg' "><xsl:text>Pergament</xsl:text></xsl:when>
-				<xsl:when test="@material = 'chart' "><xsl:text>Papier</xsl:text></xsl:when>
+				<xsl:when test="@material = 'perg' "><xsl:text>Parchment</xsl:text></xsl:when>
+				<xsl:when test="@material = 'chart' "><xsl:text>Paper</xsl:text></xsl:when>
 				<xsl:when test="@material = 'papyrus' "><xsl:text>Papyrus</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:when>
@@ -2239,7 +2248,7 @@
 	<html>
 		<head>
 			<title>
-				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>
+				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>				
 			</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
 			<!--<link rel="stylesheet" type="text/css" href="http://diglib.hab.de/rules/styles/mss/TEI-P5-to-Print/druck.css"/>-->
@@ -2250,6 +2259,7 @@
 			<xsl:call-template name="nav_bar"/>
 			<div class="container">
 			<xsl:call-template name="Title"/>
+				
 			<xsl:apply-templates select="descendant-or-self::tei:msDesc"/>
 			<xsl:if test="($listAbbreviatedTitles = 'yes') and 
 				$bibliography//tei:label[. = current()//tei:abbr[parent::tei:bibl[not(ancestor::tei:source)]][not(ancestor::tei:list[@type = 'bibliography'])]]">
@@ -2263,7 +2273,7 @@
 				or descendant::tei:rs[(@type='person') or (@type='place') or (@type='org') or (@type='corporate')]
 				or descendant::tei:title[parent::tei:msItem]
 				) ">
-				<!--<xsl:call-template name="registerAusgeben"/>-->
+<!--				<xsl:call-template name="registerAusgeben"/>-->
 			</xsl:if>
 				<hr/>
 				<div class="copyright">
@@ -2277,13 +2287,25 @@
 					</xsl:when>
 					<xsl:when test="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/@status = 'complete' ">
 						<xsl:text> (last change: </xsl:text>
-						<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change/@when"/><xsl:text>)</xsl:text>
+						<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>)</xsl:text>
 					</xsl:when>
 				</xsl:choose>
+			<div>
+				<xsl:text>How to quote: </xsl:text>
+				<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
+				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
+				<a>
+					<xsl:attribute name="href">
+						LINK
+					</xsl:attribute>
+				</a>
+				<xsl:text> last update: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>).</xsl:text>
 			</div>
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
+				<hr/>
+			</div>
+			<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"/>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"/>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"/>-->
 			
 			
 		</body>
@@ -2293,8 +2315,13 @@
 	<xsl:template name="Title">
 		<div>
 			<span class="head">
-				<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
-			</span>
+				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
+				<xsl:choose>
+					<xsl:when test="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]">						
+						<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]" mode="Schlagzeile"/>
+					</xsl:when>					
+				</xsl:choose>
+			</span>			
 		</div>	
 		<hr/>		
 		<xsl:choose>
@@ -2304,6 +2331,7 @@
 				</a>
 			</xsl:when>
 		</xsl:choose>
+		
 		<div class="divider"/>
 		<xsl:choose>
 			<xsl:when test="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:head/tei:note[@type='catalogue']">
@@ -3332,6 +3360,18 @@ function Go (select) {
 					<xsl:value-of select="tei:title"/>
 				</xsl:for-each>
 			</xsl:otherwise>
+		</xsl:choose>
+		<xsl:choose>
+			<xsl:when test="tei:head/tei:note[@type='aratea']">
+				<span><xsl:text> </xsl:text>
+					<a> 
+						<xsl:attribute name="href">
+<!--							make rule for linking to "text" folder - variable to get the right link instead of #-->
+						</xsl:attribute>
+						<xsl:value-of select="tei:head/tei:note[@type='aratea']"/>
+					</a>
+				</span>
+			</xsl:when>
 		</xsl:choose>
 	</p>
 </xsl:template>
