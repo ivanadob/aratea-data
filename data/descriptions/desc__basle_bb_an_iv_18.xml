@@ -197,14 +197,20 @@
                   </supportDesc>
                   <layoutDesc>
                      <layout columns="1" ruledLines="33">
-                        <p/>
+                        <p>Written in 33 long lines.</p>
                      </layout>
                   </layoutDesc>
                </objectDesc>
                <scriptDesc>
-                  <summary/>
+                  <summary>Carolingian minuscule from several hands: </summary>
                   <scriptNote script="carolmin">
-                     <p>Most of the text is written in carolingian manuscule from several hands (<locus from="2r" to="9v">2r-9v</locus>, <locus from="14v" to="45v">14v-45v</locus>) with insular features such as pointed shafts, <locus from="11v" to="13r">11v-13r</locus> (f. <locus from="12r">12r</locus> blank) written in a narrow pointed anglo-saxon minuscule; ff. <locus from="11r">11r</locus>, partly <locus from="12v">12v</locus> and <locus from="13v">13v</locus>, and <locus from="14r">14r</locus> written in a hybride carolingian script showing insular features (insular f, r, s, and con- and et abbreviation).</p>
+                     <p>On ff. <locus from="2r" to="9v">2r-9v</locus>, <locus from="14v" to="45v">14v-45v</locus> hand with insular features such as pointed shafts.</p>
+                  </scriptNote>
+                  <scriptNote>
+                     <p>Ff. <locus from="11v" to="13r">11v-13r</locus> (f. <locus from="12r">12r</locus> blank) written in a narrow pointed anglo-saxon minuscule.</p>
+                  </scriptNote>
+                  <scriptNote>
+                     <p>Ff. <locus from="11r">11r</locus>, partly <locus from="12v">12v</locus> and <locus from="13v">13v</locus>, and <locus from="14r">14r</locus> written in a hybride carolingian script showing insular features (insular f, r, s, and con- and et abbreviation).</p>
                   </scriptNote>
                </scriptDesc>
             </physDesc>
@@ -219,7 +225,7 @@
             </history>
             <additional>
                <listBibl>
-                  <head>Selected bibliography:</head>
+                  <head>Selected bibliography</head>
                   <bibl>B. Bischoff, Festlandischen Handschriften, Vol. 1, p. 57.</bibl>
                   <bibl><abbr>Haffner</abbr>, pp. 121-124.</bibl>
                   <bibl>F. Mütherich, "Die Fuldaer Buchmalerei in der Zeit des Hrabanus Maurus," in  Studies in Carolingain Manuscript Illumination, London: The Pindar Press, 2004, pp. 374-416, esp. p. 390.</bibl>
@@ -227,7 +233,7 @@
                   <bibl>
                      <abbr>Sternbilder des Mittelalters</abbr>, pp. 202-207. <note>Present the hypothesis that the manuscript was copied under the initiative of Hrabanus Maurus, who was head master in the school of Fulda. He had seen an exemplar of Germanicus in the royal court (perhaps <ref type="altMs" target="#desc__leiden_ub_vlq_79.xml">Leiden MS VLQ79</ref> or its exemplar) and ordered or made a copy for the use of his students. According to the authors he did this shortly after completing his book on computus, as an aid Hilfsmittel for the computus (?) Although this idea is very tempting, I see no real evidences to support the attribution to Fulda and to Hrabanus. It is likely but in no way can this be proved.</note>
                   </bibl>
-                  <bibl>Lippincott, online description <ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Germanicus-Basel-Univ-AN-IV-15-Nov-2012.pdf"/>
+                  <bibl>Lippincott, online description <ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-DESCRIPTIONS-Germanicus-Basel-Univ-AN-IV-15-Nov-2012.pdf"/>.
                   </bibl>
                </listBibl>
             </additional>

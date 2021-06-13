@@ -68,6 +68,11 @@ sub, sup
     text-align:right;
 }
 
+.header
+{
+    font-size:2em;
+}
+
 .head
 {
     font-size:1em;

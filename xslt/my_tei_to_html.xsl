@@ -529,7 +529,7 @@
 	</xsl:choose>
 </xsl:template>
 
-<xsl:template match="tei:extent"></xsl:template>
+<!--<xsl:template match="tei:extent"></xsl:template>-->
 
 <xsl:template match="tei:extent[not(normalize-space(.)='')]" mode="Schlagzeile">
 	<xsl:if test="(ancestor::tei:physDesc/preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')] 
@@ -708,7 +708,7 @@
 		<p>
 			<xsl:attribute name="class">history</xsl:attribute>
 			<xsl:if test="not(contains(.,'History: '))">
-				<xsl:text>History: </xsl:text>
+				<span class="head"><xsl:text>History: </xsl:text></span>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</p>
@@ -859,7 +859,7 @@
 </xsl:template>
 
 <xsl:template match="tei:layout">
-	<xsl:text> </xsl:text>
+	<span class="head"><xsl:text>Layout: </xsl:text></span>
 	<xsl:apply-templates/>
 </xsl:template>
 
@@ -890,19 +890,15 @@
 <xsl:template match="tei:listBibl[tei:bibl[normalize-space(.)]]">
 	<xsl:choose>
 		<xsl:when test="parent::tei:additional">
-			<xsl:apply-templates/>			
-		</xsl:when>
-		<xsl:otherwise>
-			<!-- vorher: when test="parent::tei:msItem" -->
 			<xsl:if test="tei:head">
 				<span>
 					<xsl:attribute name="class">listBiblHead</xsl:attribute>
-					<xsl:value-of select="tei:head"/>
+					<span class="head"><xsl:value-of select="tei:head"/></span>
 					<xsl:if test="not(contains(tei:head,':'))"><xsl:text>: </xsl:text></xsl:if>
 				</span>
 			</xsl:if>
-			<xsl:apply-templates select="*[not(self::tei:head)]"/>
-		</xsl:otherwise>
+			<xsl:apply-templates select="*[not(self::tei:head)]"/>			
+		</xsl:when>
 	</xsl:choose>
 	<xsl:call-template name="Leerzeichen"/>
 </xsl:template>
@@ -1563,6 +1559,7 @@
 </xsl:template>
 
 <xsl:template match="tei:persName" mode="Register">
+	
 	<xsl:if test="ancestor::tei:msItem or not(preceding::tei:persName[. = current()])">
 		<li>
 			<xsl:apply-templates mode="Register"/>
@@ -1598,11 +1595,24 @@
 		</li>
 	</xsl:if>
 </xsl:template>
-
+	
+	<xsl:template match="tei:scriptDesc | tei:handDesc">
+		<xsl:choose>
+			<xsl:when test="tei:scriptNote | tei:summary | tei:handNote | tei:p">
+				<p class="physDesc">
+					<span class="head">Script: </span>
+					<xsl:apply-templates/>
+				</p>
+			</xsl:when>			
+		</xsl:choose>
+	</xsl:template>
+	
 <xsl:template match="tei:physDesc">
 	<p>
 		<xsl:attribute name="class">physDesc</xsl:attribute>
-		<xsl:apply-templates select="*[not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc)]"/>
+		<xsl:apply-templates select="*[not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc)]"/>
+		<xsl:apply-templates select="tei:layout"/>
+		<xsl:apply-templates select="tei:scriptDesc"/>
 		<xsl:apply-templates select="tei:additions"/>
 		<xsl:apply-templates select="tei:decoDesc"/>
 	</p>
@@ -1971,8 +1981,10 @@
 		</xsl:when>
 	</xsl:choose>
 </xsl:template>
+	
+	
 
-<xsl:template match="tei:sic[not(normalize-space(.)='')]">
+	<xsl:template match="tei:sic[not(normalize-space(.)='')]">
 	<xsl:apply-templates/>
 	<xsl:if test="not(parent::tei:choice) and not(contains(.,'['))">
 		<span>
@@ -2024,10 +2036,21 @@
 <xsl:template match="tei:supportDesc">
 	<xsl:choose>
 		<xsl:when test="not(tei:p)">
-			<xsl:apply-templates select="tei:support"/>
-			<xsl:apply-templates select="tei:extent"/>
-			<xsl:apply-templates select="tei:collation"/>
-			<xsl:apply-templates select="tei:foliation"/>
+			<!--<xsl:apply-templates select="tei:support"/>-->
+			<!--<xsl:apply-templates select="tei:extent"/>-->
+			
+			<xsl:if test="tei:collation">
+				<p class="physDesc">
+					<span class="head"><xsl:text>Collation: </xsl:text></span>	
+					<xsl:apply-templates select="tei:collation"/>
+				</p>
+			</xsl:if>
+			<xsl:if test="tei:collation">
+			<p class="physDesc">
+				<span class="head"><xsl:text>Folliation: </xsl:text></span>
+				<xsl:apply-templates select="tei:foliation"/>
+			</p>
+			</xsl:if>
 			<xsl:apply-templates select="tei:condition"/>
 		</xsl:when>
 		<xsl:otherwise>
@@ -2302,9 +2325,9 @@
 			</div>
 				<hr/>
 			</div>
-			<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"/>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"/>-->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"/>
 			
 			
 		</body>
@@ -2313,7 +2336,7 @@
 
 	<xsl:template name="Title">
 		<div>
-			<span class="head">
+			<span class="header">
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
 				<xsl:choose>
 					<xsl:when test="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]">						
@@ -2332,6 +2355,7 @@
 		</xsl:choose>
 		
 		<div class="divider"/>
+		
 		<xsl:choose>
 			<xsl:when test="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:head/tei:note[@type='catalogue']">
 				<a class="btn btn-outline-dark" href="{descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}">
@@ -2339,6 +2363,17 @@
 				</a>
 			</xsl:when>
 		</xsl:choose>
+		
+		<div class="divider"/>
+		<a class="btn btn-outline-dark">
+			<xsl:attribute name="href">		
+				<xsl:variable name="full_path">
+					<xsl:value-of select="document-uri(/)"/>
+				</xsl:variable>
+				<xsl:value-of select="../aratea-data/data/descriptions/replace(tokenize($full_path, '/')[last()], '.html', '.xml')"/>
+			</xsl:attribute>
+			<xsl:text>Show TEI-XML</xsl:text>
+		</a>
 		<hr/>		
 		<!--<p>
 			<xsl:attribute name="class">Hinweis</xsl:attribute>
@@ -2373,7 +2408,7 @@
 				</xsl:for-each>
 			</xsl:if>			
 		</p>-->
-	</xsl:template>
+	</xsl:template>	
 	
 	
 
