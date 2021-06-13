@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="tei2html">
+    <property name="source" value="./data/descriptions"/>
+    <property name="target" value="./html"/>
+    <property name="stylesheet" value="./xslt/my_tei_to_html.xsl"/>
+    <property name="index.source" value="./data/meta/about.xml"/>
+    <property name="index.style" value="./xslt/make_index.xsl"/>
+    <delete>
+        <fileset dir="${target}" includes="*.html"/>
+    </delete>
+    <xslt style="${stylesheet}" destdir="${target}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <fileset dir="${source}">
+            <include name="desc__*.xml"/>
+        </fileset>
+        <mapper type="glob" from="desc__*.xml" to="desc__*.html"/>
+    </xslt>
+    <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+</project>

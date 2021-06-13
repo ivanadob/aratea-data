@@ -13,7 +13,6 @@
 	<xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
 	<xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
 	<xsl:variable name="lang"/>
-	
 	<xsl:import href="nav_bar.xsl"/>
 	
 	<!-- version: 5.2 /2014/ (c) Herzog August Bibliothek / schassan@hab.de -->

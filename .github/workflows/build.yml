@@ -1,0 +1,26 @@
+name: Build and push to DockerHub
+
+on: 
+  push:
+
+jobs:
+  build_pages:
+    name: Push Docker image to Docker Hub
+    runs-on: ubuntu-latest
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v2
+    - name: Install Saxon and ANT
+      run: |
+        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+        wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
+        pwd
+        ls ./saxon/
+    - name: Build
+      run: |
+        ant
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./html
