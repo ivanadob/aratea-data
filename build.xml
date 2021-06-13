@@ -10,7 +10,7 @@
     </delete>
     <xslt style="${stylesheet}" destdir="${target}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="/home/csae8092/saxon/saxon9he.jar"/>
+        <classpath location="/home/runner/work/saxon/saxon9he.jar"/>
         <fileset dir="${source}">
             <include name="desc__*.xml"/>
         </fileset>
