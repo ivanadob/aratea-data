@@ -13,6 +13,7 @@
 	<xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
 	<xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
 	<xsl:variable name="lang"/>
+	<xsl:variable name="gitData">https://github.com/ivanadob/aratea-data/blob/master/data/descriptions/</xsl:variable>
 	<xsl:import href="nav_bar.xsl"/>
 	
 	<!-- version: 5.2 /2014/ (c) Herzog August Bibliothek / schassan@hab.de -->
@@ -341,7 +342,17 @@
 		</li>
 	</xsl:if>
 </xsl:template>
-
+	<xsl:template match="tei:binding">
+		<xsl:if test="not(normalize-space(.) = '')">
+			<p>
+				<xsl:attribute name="class">physDesc</xsl:attribute>
+				
+					<span class="head"><xsl:text>Binding: </xsl:text></span>
+				
+				<xsl:apply-templates/>
+			</p>
+		</xsl:if>
+	</xsl:template>
 
 <xsl:template match="tei:bibl[not(normalize-space(.)='')]">
 	<xsl:choose>
@@ -443,8 +454,8 @@
 </xsl:template>
 
 <xsl:template match="tei:dimensions[not(normalize-space(.)='')]" mode="#default condensed">
-	<xsl:if test="(@type='written') and not(contains(preceding-sibling::text()[1], 'Schriftraum'))">
-		<xsl:text>Schriftraum: </xsl:text>
+	<xsl:if test="(@type='written') and not(contains(preceding-sibling::text()[1], 'Written space'))">
+		<xsl:text>Written space: </xsl:text>
 	</xsl:if>
 	<xsl:choose>
 		<xsl:when test="ancestor::tei:accMat or ancestor::tei:msPart[@rend = 'condensed']">
@@ -542,7 +553,15 @@
 	
 	<xsl:choose>
 		<xsl:when test="descendant::tei:measure[@type = 'leavesCount']">
-			<xsl:value-of select="descendant::tei:measure[@type = 'leavesCount']"/><xsl:text> fols.</xsl:text>
+			<xsl:choose>
+				<xsl:when test="not(contains(.,'fols'))">
+					<xsl:value-of select="descendant::tei:measure[@type = 'leavesCount']"/><xsl:text> fols.</xsl:text>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="descendant::tei:measure[@type = 'leavesCount']"/>
+				</xsl:otherwise>
+			</xsl:choose>
+			
 		</xsl:when>
 		<xsl:when test="descendant::tei:measure[@type = 'pagesCount']">
 			<xsl:value-of select="descendant::tei:measure[@type = 'pagesCount']"/> <xsl:text> pp.</xsl:text>
@@ -1308,8 +1327,8 @@
 	<xsl:choose>
 		<xsl:when test="(@type='written')">
 			<xsl:choose>
-				<xsl:when test="not(starts-with(.,'Schriftraum'))">
-					<xsl:text>Schriftraum: </xsl:text>
+				<xsl:when test="not(starts-with(.,'Written space'))">
+					<xsl:text>Written space: </xsl:text>
 				</xsl:when>
 			</xsl:choose>
 		</xsl:when>
@@ -1596,23 +1615,35 @@
 	</xsl:if>
 </xsl:template>
 	
-	<xsl:template match="tei:scriptDesc | tei:handDesc">
-		<xsl:choose>
-			<xsl:when test="tei:scriptNote | tei:summary | tei:handNote | tei:p">
+	<xsl:template match="tei:handDesc">	
+		<xsl:if test="not(normalize-space(.) = '')">
 				<p class="physDesc">
-					<span class="head">Script: </span>
-					<xsl:apply-templates/>
-				</p>
-			</xsl:when>			
-		</xsl:choose>
+					<span class="head"><xsl:text>Hands: </xsl:text></span>
+				<xsl:apply-templates/>	
+				</p>			
+						
+		</xsl:if>
 	</xsl:template>
+	<xsl:template match="tei:scriptDesc">	
+		<xsl:if test="not(normalize-space(.) = '')">
+			<p>
+				<xsl:attribute name="class">physDesc</xsl:attribute>
+				<xsl:if test="not(contains(.,'Script: '))">
+					<span class="head"><xsl:text>Script: </xsl:text></span>
+				</xsl:if>
+				<xsl:apply-templates/>				
+			</p>			
+		</xsl:if>
+	</xsl:template>
+	
 	
 <xsl:template match="tei:physDesc">
 	<p>
 		<xsl:attribute name="class">physDesc</xsl:attribute>
-		<xsl:apply-templates select="*[not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc)]"/>
+		<xsl:apply-templates select="*[not(self::tei:handDesc) and not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc)]"/>
 		<xsl:apply-templates select="tei:layout"/>
 		<xsl:apply-templates select="tei:scriptDesc"/>
+		<xsl:apply-templates select="tei:handDesc"/>
 		<xsl:apply-templates select="tei:additions"/>
 		<xsl:apply-templates select="tei:decoDesc"/>
 	</p>
@@ -1627,12 +1658,14 @@
 			<xsl:text>&#x203A;</xsl:text>
 		</span>
 	</xsl:if>
-	<xsl:if test="contains(@rend, 'dottedBegin')"><xsl:text>&#x2026; </xsl:text></xsl:if>
+	<xsl:if test="contains(@rend, 'dottedBegin')">
+		<xsl:text>&#x2026; </xsl:text>
+	</xsl:if>
 	<xsl:choose>
 		<xsl:when test="contains(@rend,'before:content')">
 			<xsl:value-of select="substring-before(substring-after(@rend,'before:content('),')')"/>
 		</xsl:when>
-	</xsl:choose>
+	</xsl:choose>	
 	<span>
 		<xsl:attribute name="class">quote</xsl:attribute>
 		<xsl:apply-templates/>
@@ -2370,7 +2403,7 @@
 				<xsl:variable name="full_path">
 					<xsl:value-of select="document-uri(/)"/>
 				</xsl:variable>
-				<xsl:value-of select="../aratea-data/data/descriptions/replace(tokenize($full_path, '/')[last()], '.html', '.xml')"/>
+				<xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
 			</xsl:attribute>
 			<xsl:text>Show TEI-XML</xsl:text>
 		</a>
@@ -3395,15 +3428,24 @@ function Go (select) {
 				</xsl:for-each>
 			</xsl:otherwise>
 		</xsl:choose>
+		
+	</p>
+	<p>
 		<xsl:choose>
 			<xsl:when test="tei:head/tei:note[@type='aratea']">
-				<span><xsl:text> </xsl:text>
-					<a> 
-						<xsl:attribute name="href">
-<!--							make rule for linking to "text" folder - variable to get the right link instead of #-->
-						</xsl:attribute>
-						<xsl:value-of select="tei:head/tei:note[@type='aratea']"/>
-					</a>
+				<span><xsl:text>Aratea text: </xsl:text>
+					<xsl:for-each select="tei:head/tei:note[@type='aratea']">						
+						<a> 
+							<xsl:attribute name="href">
+								<!--							make rule for linking to "text" folder - variable to get the right link instead of #-->
+							</xsl:attribute>
+								
+							<xsl:apply-templates/>
+							<xsl:if test="following-sibling::tei:note[@type='aratea']">
+								<xsl:text>; </xsl:text>
+							</xsl:if>
+						</a>
+					</xsl:for-each>
 				</span>
 			</xsl:when>
 		</xsl:choose>

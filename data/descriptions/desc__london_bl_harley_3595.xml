@@ -28,7 +28,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="complete">
-				<change when="2018-06-01"/>
+				<change when="2021-06-14">cosmetic changes by xslt transformation</change>
 			</revisionDesc>
 		
     </teiHeader>
@@ -70,6 +70,7 @@
                     <note type="aratea"><rs type="text" ref="#text__revised_aratus_latinus.xml">Revised Aratus Latinus</rs></note>
                     <note type="facs">Digital facsimile at <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_3595">British Library</ref></note>
                     <note type="catalogue"><ref target="http://searcharchives.bl.uk/IAMS_VU2:IAMS040-001616120">BL Archives and Manuscripts</ref></note>
+                    <note type="summary"></note>
                 </head>
                 <physDesc>
                     <objectDesc form="codex">
@@ -86,7 +87,7 @@
                         </supportDesc>                        
                     </objectDesc>
                     <bindingDesc>
-                        <binding>
+                        <binding contemporary="false">
                             <p>Modern binding (1966). The front and back of the pre-modern 'Harleian' red-leather binding are glued on the innerside of the modern binding.</p>
                         </binding>
                     </bindingDesc>
@@ -115,7 +116,7 @@
                     </msIdentifier>
                     <head>
                         <title>Boethius</title>
-                        <origDate notBefore="0901" notAfter="1000">s.X</origDate>
+                        <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                     </head>
                     <msContents>
                         <msItem>
@@ -200,7 +201,7 @@
                                     <dimensions type="written" unit="mm">
                                         <height>220</height>
                                         <width>150</width>
-                                    </dimensions>. 
+                                    </dimensions> 
                                 </layout>                                
                             </layoutDesc>
                         </objectDesc>
@@ -209,7 +210,7 @@
                         </handDesc>
                         <scriptDesc>
                             <scriptNote script="carolmin">Caroline minuscule. Complete word-division. Ligature: st, &amp; as well as e-caudata. Specific letters: <quote>a</quote> with an upright stroke and a small lower-positioned lobe.</scriptNote>
-                            <scriptNote script="caprust">For <term>incipit</term> and <term>explicit</term> used <term>Capitalis rustica</term>
+                            <scriptNote script="caprust">For <term>incipit</term> and <term>explicit</term> used <term>Capitalis rustica</term>.
                             </scriptNote>
                         </scriptDesc>
                     </physDesc>
@@ -241,7 +242,7 @@
                                     <material>Parchment</material>
                                 </support>
                                 <extent>
-                                    <measure type="leavesCount">1 fol.</measure>
+                                    <measure type="leavesCount">1</measure>
                                     <dimensions type="leaf">
                                         <height>285</height>
                                         <width>200</width>
@@ -272,7 +273,7 @@
                     </msIdentifier>
                     <head>
                         <title>Boethius, Geometria</title>
-                        <origDate notBefore="1026" notAfter="1075">s.XI<hi rend="sup">2/4-3/4</hi>
+                        <origDate notBefore="1026" notAfter="1075">s. XI<hi rend="sup">2/4-3/4</hi>
                         </origDate>
                     </head>
                     <msContents>
