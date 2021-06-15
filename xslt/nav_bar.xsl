@@ -22,7 +22,7 @@
                                 <a class="nav-link" href="#">Link</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/ivanadob/aratea-data/html/index-mss.html">Manuscripts</a>
+                                <a class="nav-link" href="index-mss.html">Manuscripts</a>
                             </li>
                             <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
