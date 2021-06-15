@@ -494,7 +494,36 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
       </dimensions>
    </extent>
 
-   <collation>(according to von Euw) <locus from="1" to="2">p. 1-2</locus>), I<hi rend="sup">12</hi> (<locus from="3" to="26">p. 3-26</locus>), II-III<hi rend="sup">10</hi> (<locus from="27" to="66">p. 27-66</locus>), IIII8-V<hi rend="sup">8</hi> (<locus from="67" to="98">p. 67-98</locus>), VI-VIII (<locus from="99" to="140">p. 99-140</locus> unregelmässig), VIIII-XIIII<hi rend="sup">10</hi> (<locus from="141" to="260">p. 141-260</locus>), XV<hi rend="sup">6</hi> (<locus from="261" to="278">p. 261-278</locus>), XVI-XVIII<hi rend="sup">10</hi> (<locus from="279" to="332">p. 279-332</locus>), XIIII <hi rend="sup">8</hi> (<locus from="333" to="348">p. 333-348</locus>), XX-XXIII<hi rend="sup">10</hi> (<locus from="349" to="428">p. 349-428</locus>), XXIIII<hi rend="sup">8+1</hi> (<locus from="429" to="446">p. 429-446</locus>), XXV<hi rend="sup">8</hi> (<locus from="447" to="462">p. 447-462</locus>), XXVI<hi rend="sup">10-1</hi> (<locus from="463" to="480">p. 463-480</locus>, missing 1 fol. after p. 478; <locus from="463" to="464">p. 463-464</locus> single leaves), XXVII-XXVIII<hi rend="sup">8</hi> (<locus from="481" to="512">p. 481-512</locus>), XXVIIII<hi rend="sup">6</hi> (<locus from="513" to="524">p. 513-524</locus>), XXX<hi rend="sup">8-1</hi> (<locus from="525" to="538">p. 525-538</locus>, missing 1 fol. after <locus from="526">p. 526</locus>), XXXI<hi rend="sup">10</hi> (<locus from="539" to="558">p. 539-558</locus>), XXXII<hi rend="sup">8</hi> (<locus from="559" to="578">p. 559-578</locus>), XXXIII-XXXV<hi rend="sup">10</hi> (<locus from="579" to="638">p. 579-638</locus>), XXXVI<hi rend="sup">2</hi> (2 single leaves, <locus from="639" to="642">p. 639-642</locus>), XXXVII<hi rend="sup">2</hi> (Bifolium, <locus from="643" to="645">p. 643-645</locus>
+   <collation>The quire structure can be examined to a certain extent in the digital facsimile thanks to the <signatures>quire marks in Roman numerals centered in the lower margin of the last page of each quire</signatures>. Uncertain is the collation for the quires VI and VII (including mainly tables on <locus from="99" to="140">p. 99-140</locus>), for which there are no quire marks and which seem to be irregular. 
+      
+      <formula>
+         flyleaf<hi rend="sup">2</hi> (pastedown + p. 1), 
+         I<hi rend="sup">12</hi> (pp. 3-26), 
+         II<hi rend="sup"></hi> (pp. 27-46), 
+         III <hi rend="sup">10</hi> (pp. 47-66), 
+         IIII<hi rend="sup">8</hi> (pp. 67-82), 
+         V<hi rend="sup">8</hi> (pp. 83-98),
+         VI+VII<hi rend="sup">12(-1)</hi> (pp. 99-120),
+         VIII<hi rend="sup">10</hi> (pp. 121-140),
+         VIIII-XIIII<hi rend="sup">10</hi> (p. 141-260), 
+         XV<hi rend="sup">6</hi> (p. 261-278), 
+         XVI-XVIII<hi rend="sup">10</hi> (p. 279-332), 
+         XIIII <hi rend="sup">8</hi> (p. 333-348), 
+         XX-XXIII<hi rend="sup">10</hi> (p. 349-428), 
+         XXIIII<hi rend="sup">8+1</hi> (p. 429-446), 
+         XXV<hi rend="sup">8</hi> (p. 447-462), 
+         XXVI<hi rend="sup">10-1</hi> (p. 463-480, missing 1 fol. after p. 478; p. 463-464 single leaves), 
+         XXVII-XXVIII<hi rend="sup">8</hi> (p. 481-512), 
+         XXVIIII<hi rend="sup">6</hi> (p. 513-524), 
+         XXX<hi rend="sup">8-1</hi> (p. 525-538, missing 1 fol. after p. 526), 
+         XXXI<hi rend="sup">10</hi> (p. 539-558), 
+         XXXII<hi rend="sup">8</hi> (p. 559-578), 
+         XXXIII-XXXV<hi rend="sup">10</hi> (p. 579-638), 
+         XXXVI<hi rend="sup">2</hi> (2 single leaves, p. 639-642), 
+         XXXVII<hi rend="sup">2</hi> (Bifolium, p. 643-645)
+      </formula>.
+      
+      See also the collation in <bibl><abbr>Anton von Euw (2008)</abbr> (pp. 449-454, Nr. 120)</bibl>, reproduced in <ref target="https://www.e-codices.unifr.ch/en/description/csg/0250/">e-codices</ref>. 
                             </collation>
                      
                      <condition/>
@@ -513,185 +542,9 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
             </history>
             <additional>
                <listBibl>
-                  <head>Selected Bibliography:</head>
-                  <bibl>Euw, Anton von. Die St. Galler Buchkunst vom 8. bis zum Ende des 11. Jahrhunderts, Band I: Textband, St. Gallen 2008 (Monasterium Sancti Galli, Bd. 3), S. 449-454, Nr. 120.</bibl>
-                  <!--                  <listBibl>
-<bibl>
-<note>
-<ref type="crossRef" target="http://www.stibi.ch/handschriften/hss/0250.htm">
-<hi rend="small-caps">Scherrer</hi>
-</ref>
-</note>
-, S. 92-94.
-</bibl>
-<bibl>
-Gabriel
-<hi rend="small-caps">Meier</hi>
-, Die sieben freien Künste im Mittelalter (Schluss), in: Jahresbericht über die Lehr- und Erziehungs-Anstalt des Benediktiner-Stiftes Maria-Einsiedeln 1886/87, S. 30 (Ed. Columbanus, De saltu lunae).
-</bibl>
-<bibl>
-Georg
-<hi rend="small-caps">Thiele</hi>
-, Antike Himmelsbilder. Mit Forschungen zu Hipparchos, Aratos und seinen Fortsetzern und mit Beiträgen zur Kunstgeschichte des Sternenhimmels, Berlin 1898, S. 160f.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Rahn</hi>
-</abbr>
-, Psalterium aureum, S. 36, 54, Abb. 34, 44, 45f.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Merton</hi>
-</abbr>
-, S. 66f., 105, Taf. LXII-LXIV.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Landsberger</hi>
-, Folchart-Psalter
-</abbr>
-, S. 45.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Löffler</hi>
-</abbr>
-, St. Galler Schreibschule II, S. 40.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Bruckner</hi>
-III
-</abbr>
-, S. 86f., Taf. XXXVIII
-</bibl>
-<bibl>
-Charles W.
-<hi rend="small-caps">Jones</hi>
-, Bedae Pseudepigrapha: Scientific Writings Falsely Attributed to Bede, Ithaca, New York, London, Oxford 1939, S. 2, 44, 55, 63f., 68, 74, 77, 87, 92.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Munding</hi>
-</abbr>
-, Kalendarien von St. Gallen 1948, S. 4, 8f.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Cordoliani</hi>
-, Manuscrits de comput
-</abbr>
-, S. 161-200, bes. 184-187.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Cordoliani</hi>
-</abbr>
-, L'évolution du comput ecclésiastique, S. 288-323, bes. S. 304-312.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Boeckler</hi>
-, St. Galler Fragmente
-</abbr>
-, S. 38, 41f., Abb. 4f.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Knoepfli</hi>
-</abbr>
-, Kunstgeschichte I, S. 37-39.
-</bibl>
-<bibl>
-Wolfgang
-<hi rend="small-caps">Haubrich</hi>
-, Neue Zeugnisse zur Reichenauer Kultgeschichte des neunten Jahrhunderts, in: Zeitschrift für Geschichte des Oberrheins 126, 1978, S. 2.
-</bibl>
-<bibl>
-Patrick
-<hi rend="small-caps">McGurk</hi>
-, Carolingian Astrological Manuscripts, in: Charles the Bald: Court and Kingdom (Papers based on a Colloquium held in London in April 1979), hrsg. von Margaret Gibson und Janet Nelson, London 1981, S. 317-332, bes. S. 319f., 324.
-</bibl>
-<bibl>
-Elizabeth
-<hi rend="small-caps">O'Connor</hi>
-, The Star Mantle of Henry II., Ph. D. Columbia University, New York 1980 (University Microfilm, Ann Arbor, Michigan 1984), S. 64f., Abb. 92 passim.
-</bibl>
-<bibl>
-Henri
-<hi rend="small-caps">Le Bourdellès</hi>
-, L'Aratus Latinus, Étude sur la culture et la langue latine dans le Nord de la France au VIIIe siècle, Lille 1985, S. 20, 77, passim.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Eggenberger</hi>
-</abbr>
-, Psalterium aureum, S. 44, 179, 185.
-</bibl>
-<bibl>
-Florentine
-<hi rend="small-caps">Mütherich</hi>
-, Die Bilder, in: Bernhard
-<hi rend="small-caps">Bischoff</hi>
-, Bruce S.
-<hi rend="small-caps">Eastwood</hi>
-, Thomas A.P.
-<hi rend="small-caps">Klein</hi>
-, Florentine
-<hi rend="small-caps">Mütherich</hi>
-, Pieter F.J.
-<hi rend="small-caps">Obbema</hi>
-, Aratea. Kommentar zum Aratus des Germanicus Ms. Voss. Lat. Q. 79 der Bibliotheek der Rijksuniversiteit Leiden, Luzern 1989, S. 31-68, bes. S. 50, 58, 61.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Duft</hi>
-, Abtei St. Gallen I
-</abbr>
-, S. 26, 52f., 82.
-</bibl>
-<bibl>
-Mechthild
-<hi rend="small-caps">Haffner</hi>
-, Ein antiker Sternbilderzyklus und seine Tradierung in Handschriften vom frühen Mittelalter bis zum Humanismus. Untersuchungen zu den Illustrationen der «Aratea» des Germanicus (Studien zur Kunstgeschichte Bd. 114), Hildesheim, Zürich, New York 1997, S. 28, passim.
-</bibl>
-<bibl>
-Cornel
-<hi rend="small-caps">Dora</hi>
-, in: Cimelia Sangallensia, Nr. 43.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">Borst</hi>
-</abbr>
-, Kalenderreform, S. XXIV, 150, 308, 380, 457f., passim.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">von Euw</hi>
-, in: Kloster St. Gallen
-</abbr>
-, S. 181.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">von Euw</hi>
-</abbr>
-, Der Aratus Latinus in Hs. 83 (II) der Kölner Dombibliothek, in: Römische Historische Mitteilungen 41, 1999, S. 405-422, bes. S. 415.
-</bibl>
-<bibl>
-Bianca
-<hi rend="small-caps">Kühnel</hi>
-, The End of Time in the Order of Things. S. 104, 141f., 164, 192, Abb. 64, 101f., 122.
-</bibl>
-<bibl>
-<abbr>
-<hi rend="small-caps">von Euw</hi>
-</abbr>
-, Astronomie und Zeitrechnung im Karolingerreich, S. 38, Abb. 24-26).
-</bibl>
-</listBibl>-->
+                  <head>Selected Bibliography</head>
+                  <bibl><abbr>Anton von Euw (2008)</abbr>, pp. 449-454, Nr. 120.</bibl>
+                                    
                </listBibl>
             </additional>
          </msDesc>

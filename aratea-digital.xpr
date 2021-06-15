@@ -25,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/descriptions/desc__basle_bb_an_iv_18.xml</String>
+                                    <String>data/descriptions/desc__london_bl_harley_3595.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -40,7 +40,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/descriptions/desc__london_bl_harley_3595.xml</String>
+                                    <String>data/descriptions/desc__basle_bb_an_iv_18.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

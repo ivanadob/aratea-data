@@ -863,7 +863,13 @@
 				<xsl:apply-templates/>
 			</li>
 		</xsl:when>
-		<xsl:otherwise>
+<!--		the following added by ID - more general ?-->
+		<xsl:when test="parent::tei:list">
+					<li>
+						<xsl:apply-templates/>
+					</li>
+				</xsl:when>
+		<xsl:otherwise>			
 			<xsl:apply-templates/>
 			<xsl:call-template name="Satzzeichen"/>
 		</xsl:otherwise>
@@ -877,7 +883,7 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template match="tei:layout">
+	<xsl:template match="tei:layout[not(normalize-space(.)='')]">
 	<span class="head"><xsl:text>Layout: </xsl:text></span>
 	<xsl:apply-templates/>
 </xsl:template>
@@ -894,7 +900,7 @@
 </xsl:template>
 
 <xsl:template match="tei:list[not(normalize-space(.)='')]">
-	<xsl:choose>
+	<!--<xsl:choose>
 		<xsl:when test="ancestor::tei:physDesc or ancestor::tei:msItem">
 			<xsl:apply-templates/>
 		</xsl:when>
@@ -903,8 +909,12 @@
 				<xsl:apply-templates/>
 			</ul>
 		</xsl:otherwise>
-	</xsl:choose>
+	</xsl:choose>-->
+	<ul>
+		<xsl:apply-templates/>
+	</ul>
 </xsl:template>
+	
 
 <xsl:template match="tei:listBibl[tei:bibl[normalize-space(.)]]">
 	<xsl:choose>
@@ -2075,15 +2085,20 @@
 			<xsl:if test="tei:collation">
 				<p class="physDesc">
 					<span class="head"><xsl:text>Collation: </xsl:text></span>	
+					<xsl:if test="tei:foliation">
+						<xsl:apply-templates select="tei:foliation"/>
+					</xsl:if>
 					<xsl:apply-templates select="tei:collation"/>
 				</p>
 			</xsl:if>
-			<xsl:if test="tei:collation">
+			<!--alternative for presenting foliation as a separate paragraph with heading
+				
+				<xsl:if test="tei:foliation">
 			<p class="physDesc">
-				<span class="head"><xsl:text>Folliation: </xsl:text></span>
+				<span class="head"><xsl:text>Foliation: </xsl:text></span>
 				<xsl:apply-templates select="tei:foliation"/>
 			</p>
-			</xsl:if>
+			</xsl:if>-->
 			<xsl:apply-templates select="tei:condition"/>
 		</xsl:when>
 		<xsl:otherwise>
@@ -3389,10 +3404,11 @@ function Go (select) {
 		not(parent::tei:abbr) and not(parent::tei:ptr) and not(parent::tei:ref) and
 		not(parent::tei:rubric) and not(parent::tei:incipit) and not(parent::tei:quote) and not(parent::tei:explicit) and not(parent::tei:finalRubric) and not(parent::tei:colophon) and
 		not(parent::tei:title) and not(parent::tei:note) and not(parent::tei:item)">
-		<xsl:choose>
+		
+		<!--<xsl:choose>
 			<xsl:when test="self::tei:item"><xsl:text>,</xsl:text></xsl:when>
 			<xsl:otherwise><xsl:text>.</xsl:text></xsl:otherwise>
-		</xsl:choose>
+		</xsl:choose>-->
 	</xsl:if>
 	<xsl:call-template name="Leerzeichen"/>
 </xsl:template>
