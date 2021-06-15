@@ -6,6 +6,9 @@
 	version="2.0">
 	<xsl:variable name="Status"></xsl:variable>
 	<xsl:variable name="showAuthorname">yes</xsl:variable>
+	<xsl:variable name="full_path">
+		<xsl:value-of select="document-uri(/)"/>
+	</xsl:variable>
 	<xsl:variable name="gbv"/>
 	<xsl:variable name="facsimileData"/>
 	<xsl:variable name="startfile"/>
@@ -2366,8 +2369,9 @@
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
 				<a>
 					<xsl:attribute name="href">
-						LINK
+						<xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
 					</xsl:attribute>
+					<xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
 				</a>
 				<xsl:text> last update: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>).</xsl:text>
 			</div>
