@@ -7,6 +7,7 @@
     <property name="stylesheet_text" value="./xslt/text_tei_to_html.xsl"/>
     <property name="index.source" value="./data/meta/about.xml"/>
     <property name="index.style" value="./xslt/make_index.xsl"/>
+    <property name="index-mss.style" value="./xslt/make_index-mss.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -27,6 +28,10 @@
         <mapper type="glob" from="text__*.xml" to="text__*.html"/>
     </xslt>
     <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index.source}" out="${target}/index-mss.html" style="${index-mss.style}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
