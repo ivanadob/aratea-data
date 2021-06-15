@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/descriptions/desc__basle_bb_an_iv_18.xml</String>
+                                    <String>data/texts/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>desc_tei_to_print</String>
+                                        <String>text_tei_to_html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/texts/text__aratus_latinus.xml</String>
+                                    <String>data/descriptions/desc__basle_bb_an_iv_18.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>text_tei_to_html</String>
+                                        <String>desc_tei_to_print</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
