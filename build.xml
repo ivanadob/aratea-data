@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="tei2html">
     <property name="source" value="./data/descriptions"/>
+    <property name="source_text" value="./data/texts"/>
     <property name="target" value="./html"/>
-    <property name="stylesheet" value="./xslt/desc_tei_to_html.xsl"/>
+    <property name="stylesheet_desc" value="./xslt/desc_tei_to_html.xsl"/>
+    <property name="stylesheet_text" value="./xslt/text_tei_to_html.xsl.xsl"/>
     <property name="index.source" value="./data/meta/about.xml"/>
     <property name="index.style" value="./xslt/make_index.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
-    <xslt style="${stylesheet}" destdir="${target}">
+    <xslt style="${stylesheet_desc}" destdir="${target}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
         <fileset dir="${source}">
             <include name="desc__*.xml"/>
+        </fileset>
+        <mapper type="glob" from="desc__*.xml" to="desc__*.html"/>
+    </xslt>
+    <xslt style="${stylesheet_text}" destdir="${target}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <fileset dir="${source_text}">
+            <include name="text__*.xml"/>
         </fileset>
         <mapper type="glob" from="desc__*.xml" to="desc__*.html"/>
     </xslt>
