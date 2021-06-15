@@ -2,7 +2,7 @@
 <project basedir="." name="tei2html">
     <property name="source" value="./data/descriptions"/>
     <property name="target" value="./html"/>
-    <property name="stylesheet" value="./xslt/my_tei_to_html.xsl"/>
+    <property name="stylesheet" value="./xslt/desc_tei_to_html.xsl"/>
     <property name="index.source" value="./data/meta/about.xml"/>
     <property name="index.style" value="./xslt/make_index.xsl"/>
     <delete>
