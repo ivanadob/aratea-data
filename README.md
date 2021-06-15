@@ -1,3 +1,5 @@
+[![Build](https://github.com/ivanadob/aratea-data/actions/workflows/build.yml/badge.svg)](https://github.com/ivanadob/aratea-data/actions/workflows/build.yml)
+
 # aratea data
 
 This repo contains (xml) data. Included are:
