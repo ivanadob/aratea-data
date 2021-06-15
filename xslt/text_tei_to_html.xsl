@@ -18,7 +18,7 @@
     <xsl:variable name="full_path">
         <xsl:value-of select="document-uri(/)"/>
     </xsl:variable>
-    <xsl:variable name="gitData">https://github.com/ivanadob/aratea-data/blob/master/data/descriptions/</xsl:variable>
+    <xsl:variable name="gitData">https://github.com/ivanadob/aratea-data/blob/master/data/texts/</xsl:variable>
     <xsl:variable name="githubPages">https://ivanadob.github.io/aratea-data/</xsl:variable>
     <xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
     <xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
