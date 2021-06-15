@@ -7,7 +7,7 @@
     <property name="stylesheet_text" value="./xslt/text_tei_to_html.xsl"/>
     <property name="index.source" value="./data/meta/about.xml"/>
     <property name="index.style" value="./xslt/make_index.xsl"/>
-    <property name="index-mss.style" value="./xslt/make_index-mss.xsl"/>
+    <property name="index-mss.style" value="./xslt/make_index_mss.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
