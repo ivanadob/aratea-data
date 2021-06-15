@@ -4,7 +4,7 @@
     <property name="source_text" value="./data/texts"/>
     <property name="target" value="./html"/>
     <property name="stylesheet_desc" value="./xslt/desc_tei_to_html.xsl"/>
-    <property name="stylesheet_text" value="./xslt/text_tei_to_html.xsl.xsl"/>
+    <property name="stylesheet_text" value="./xslt/text_tei_to_html.xsl"/>
     <property name="index.source" value="./data/meta/about.xml"/>
     <property name="index.style" value="./xslt/make_index.xsl"/>
     <delete>
