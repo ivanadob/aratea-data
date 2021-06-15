@@ -24,7 +24,7 @@
         <fileset dir="${source_text}">
             <include name="text__*.xml"/>
         </fileset>
-        <mapper type="glob" from="desc__*.xml" to="desc__*.html"/>
+        <mapper type="glob" from="text__*.xml" to="text__*.html"/>
     </xslt>
     <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
