@@ -6,6 +6,7 @@
 	version="2.0">
 	<xsl:variable name="Status"></xsl:variable>
 	<xsl:variable name="showAuthorname">yes</xsl:variable>
+	<xsl:variable name="githubPages">https://ivanadob.github.io/aratea-data/</xsl:variable>
 	<xsl:variable name="full_path">
 		<xsl:value-of select="document-uri(/)"/>
 	</xsl:variable>
@@ -3454,10 +3455,14 @@ function Go (select) {
 		<xsl:choose>
 			<xsl:when test="tei:head/tei:note[@type='aratea']">
 				<span><xsl:text>Aratea text: </xsl:text>
-					<xsl:for-each select="tei:head/tei:note[@type='aratea']">						
+					<xsl:for-each select="tei:head/tei:note[@type='aratea']">	
+						
+						<xsl:variable name="nohashtag">
+							<xsl:value-of select="substring-after(tei:note[@type='aratea']/tei:rs/@ref, '#')"/>
+						</xsl:variable>
 						<a> 
 							<xsl:attribute name="href">
-								<!--							make rule for linking to "text" folder - variable to get the right link instead of #-->
+								<xsl:value-of select="concat($githubPages,replace(tokenize($nohashtag, '/')[last()], '.xml', '.html'))"/>
 							</xsl:attribute>
 								
 							<xsl:apply-templates/>
