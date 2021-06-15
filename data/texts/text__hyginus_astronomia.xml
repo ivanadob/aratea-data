@@ -5,29 +5,35 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Huginus: De Astronomia</title>
+            <title type="sub">Huginus: De Astronomia</title>
+            <title type="main">Aratea Digital</title>
+            <respStmt>
+               <resp>Introduction by</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition/>
+            <edition>Digital edition according to TEI P5</edition>
             <respStmt>
-               <resp>TEI-P5 coded by</resp>
-               <name type="person">
-                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
-               </name>
-               <name type="org"/>
+               <resp>TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher></publisher>
+            <publisher/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Digital born</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2021-01-15">corrections during the encoding</change>
+      </revisionDesc>
    </teiHeader>
+   
    <text>
       <body>
          <div>

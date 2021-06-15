@@ -2,23 +2,22 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>De signis caeli</title>
+            <title type="sub">De signis caeli</title>
+            <title type="main">Aratea Digital</title>
             <respStmt>
-               <resp>Author:</resp>
+               <resp>Introduction by</resp>
                <name type="person">Ivana Dobcheva</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition/>
+            <edition>Digital edition according to TEI P5</edition>
             <respStmt>
-               <resp>TEI-P5 coded by</resp>
-               <name type="person">
-                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
-               </name>
-               <name type="org"/>
+               <resp>TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -28,13 +27,14 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Digital born.</p>
+            <p>Digital born</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
          <change when="2019-05-06"></change>
       </revisionDesc>
    </teiHeader>
+   
    <text>
       <body>
          <div>
