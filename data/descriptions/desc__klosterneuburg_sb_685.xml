@@ -46,6 +46,8 @@
                     <origDate notBefore="1186" notAfter="1225">s. XII<hi rend="sup">4/4</hi>s. XIII<hi rend="sup">1/4</hi>
                     </origDate>
                     <note type="aratea"><rs type="text" ref="#text__de_signis_redaction.xml">De signis caelis (redaction)</rs></note>
+                    <note type="facs"><ref target="https://manuscripta.at/diglit/AT5000-685/0001">Digital facsimile</ref></note>
+                    <note type="catalogue"><ref target="https://manuscripta.at/hs_detail.php?ID=889"></ref></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -99,13 +101,13 @@
                             <extent>
                                 <measure type="leavesCount">II + 88 fols. + I</measure>
                                 <dimensions type="leaf" unit="mm">
-                                    <height/>
-                                    <width/>
-                                </dimensions>
+                                    <height>310</height>
+                                    <width>210</width>
+                                </dimensions> (Pfeiffer–Černík IV 892-894)
                             </extent>
                             <foliation/>
-                            <collation>
-                                <formula/>
+                            <collation>Quire structure according to description in manuscripta.at:
+                                <formula>8.IV<hi rend="sup">64</hi>+V<hi rend="sup">74</hi>+IV<hi rend="sup">82</hi>+III<hi rend="sup">88</hi></formula>
                             </collation>
                             <condition>
                                 <p/>
