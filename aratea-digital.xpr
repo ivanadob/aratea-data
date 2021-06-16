@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/descriptions/desc__baltimore_walter_734.xml</String>
+                                    <String>data/meta/about.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>desc_tei_to_html</String>
+                                        <String>about</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/meta/about.xml</String>
+                                    <String>data/descriptions/desc__baltimore_walter_734.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>about - mssIndex</String>
+                                        <String>desc_tei_to_html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

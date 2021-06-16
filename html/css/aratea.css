@@ -25,6 +25,12 @@ sub, sup
 
 /* Classes */
 
+.container
+{
+    width: 80vw;
+    
+}
+
 .additional, 
 .fragments, 
 .history, 
