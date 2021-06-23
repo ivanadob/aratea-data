@@ -25,6 +25,9 @@ jobs:
     - name: Build
       run: |
         ant
+    - name: Build Index
+      run: |
+        ant -f ./staticSearch/build.xml -DssConfigFile=${PWD}/ss_config.xml
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
