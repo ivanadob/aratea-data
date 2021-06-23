@@ -1,2 +1,6 @@
+/staticSearch
 /html/*.html
 /saxon
+/html/utils/*
+/tmp
+v1.3.0.zip

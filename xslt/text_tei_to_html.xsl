@@ -3,7 +3,8 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="html"
     version="2.0">
     <xsl:variable name="bibliography">
         <xsl:choose>
@@ -26,14 +27,15 @@
     <xsl:import href="nav_bar.xsl"/> 
     
     <xsl:template match="/">
-        <html>
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>
                     <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>				
                 </title>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
                 <link rel="stylesheet" type="text/css" href="css/aratea.css"/>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
             </head>
             <body>
                 <xsl:call-template name="nav_bar"/>
@@ -81,24 +83,24 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2><xsl:apply-templates/></h2>
+        <h2 xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></h2>
     </xsl:template>
     
     <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+        <p xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:list">
-        <ul><xsl:apply-templates/></ul>
+        <ul xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></ul>
     </xsl:template>
     
     <xsl:template match="tei:item">
-        <li><xsl:apply-templates/></li>
+        <li xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), 'http')">
-                <a>
+                <a xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
                     <xsl:value-of select="."/>
                 </a>
@@ -107,7 +109,7 @@
                 <xsl:variable name="desc">
                     <xsl:value-of select="replace(tokenize(@target, '/')[last()], '.xml', '.html')"/>
                 </xsl:variable>
-                <a>
+                <a xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:attribute name="href">
                         <xsl:value-of select="concat($githubPages,(substring-after($desc,'#')))"/>
                     </xsl:attribute>

@@ -2,12 +2,13 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:html="http://www.w3.org/1999/xhtml"
     exclude-result-prefixes="xs"
     version="2.0">
     
     <xsl:template match="/" name="nav_bar">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav xmlns="http://www.w3.org/1999/xhtml" class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html">Aratea Digital</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
