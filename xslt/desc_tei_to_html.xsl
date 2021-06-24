@@ -2320,7 +2320,6 @@
 
 <xsl:template name="DateiAusgeben">
 	<xsl:param name="start"/>
-	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<title>
@@ -2383,8 +2382,6 @@
 			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  />
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  />
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  />
-			
-			
 		</body>
 	</html>
 </xsl:template>

@@ -4,7 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:html="http://www.w3.org/1999/xhtml"
-    exclude-result-prefixes="html"
+    exclude-result-prefixes="#all"
     version="2.0">
     <xsl:variable name="bibliography">
         <xsl:choose>
@@ -27,7 +27,6 @@
     <xsl:import href="nav_bar.xsl"/> 
     
     <xsl:template match="/">
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>
@@ -79,28 +78,31 @@
                     </div>
                     <hr/>
                 </div>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
             </body>
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2 xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></h2>
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
     
     <xsl:template match="tei:p">
-        <p xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></p>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:list">
-        <ul xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></ul>
+        <ul><xsl:apply-templates/></ul>
     </xsl:template>
     
     <xsl:template match="tei:item">
-        <li xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></li>
+        <li><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), 'http')">
-                <a xmlns="http://www.w3.org/1999/xhtml">
+                <a>
                     <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
                     <xsl:value-of select="."/>
                 </a>
@@ -109,7 +111,7 @@
                 <xsl:variable name="desc">
                     <xsl:value-of select="replace(tokenize(@target, '/')[last()], '.xml', '.html')"/>
                 </xsl:variable>
-                <a xmlns="http://www.w3.org/1999/xhtml">
+                <a>
                     <xsl:attribute name="href">
                         <xsl:value-of select="concat($githubPages,(substring-after($desc,'#')))"/>
                     </xsl:attribute>
