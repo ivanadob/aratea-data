@@ -65,6 +65,10 @@
                         <a class="nav-link" href="https://github.com/ivanadob/aratea-data">GitHub</a>
                     </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0" method="get" action="search.html">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q"/>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
         </nav>
     </xsl:template>

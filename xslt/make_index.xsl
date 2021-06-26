@@ -18,7 +18,7 @@
         <xsl:call-template name="nav_bar"/>
         <div class="container">
             <xsl:for-each select="//tei:body//tei:div">
-                <div>
+                <div id="{generate-id()}">
                     <xsl:apply-templates/>
                 </div>
             </xsl:for-each>
@@ -30,19 +30,19 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2><xsl:apply-templates/></h2>
+        <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
     
     <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+        <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:list">
-        <ul><xsl:apply-templates/></ul>
+        <ul id="{generate-id()}"><xsl:apply-templates/></ul>
     </xsl:template>
     
     <xsl:template match="tei:item">
-        <li><xsl:apply-templates/></li>
+        <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:choose>

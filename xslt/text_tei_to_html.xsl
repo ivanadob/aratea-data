@@ -39,18 +39,18 @@
             <body>
                 <xsl:call-template name="nav_bar"/>
                 <div class="container">
-                    <div>
-                        <h1>
+                    <div id="{generate-id()}">
+                        <h1 id="{generate-id()}">
                             <xsl:value-of select="//tei:title[@type='sub']"/>                            
                         </h1>	
-                        <p><xsl:apply-templates select="//tei:titleStmt/tei:respStmt"/></p>
+                        <p id="{generate-id()}"><xsl:apply-templates select="//tei:titleStmt/tei:respStmt"/></p>
                     </div>	
 <!--                    Body -->
                     <xsl:apply-templates select="//tei:body"/>
                     
 <!--                    Footer-->
                     <hr/>
-                    <div class="copyright">
+                    <div class="copyright" id="{generate-id()}">
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
                         
                     </div>
@@ -64,7 +64,7 @@
                             <xsl:value-of select="//tei:revisionDesc/tei:change[1]/@when"/><xsl:text>)</xsl:text>
                         </xsl:when>
                     </xsl:choose>
-                    <div>
+                    <div id="{generate-id()}">
                         <xsl:text>How to quote: </xsl:text>
                         <xsl:apply-templates select="//tei:titleStmt/tei:respStmt/tei:name | //tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
                         <xsl:value-of select="//tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
@@ -85,11 +85,11 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2><xsl:apply-templates/></h2>
+        <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
     
     <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+        <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:list">
@@ -97,7 +97,7 @@
     </xsl:template>
     
     <xsl:template match="tei:item">
-        <li><xsl:apply-templates/></li>
+        <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:choose>

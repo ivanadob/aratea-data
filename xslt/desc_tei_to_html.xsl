@@ -178,7 +178,7 @@
 <xsl:template match="tei:altIdentifier">
 	<xsl:choose>
 		<xsl:when test="@type='siglum'">
-			<div>
+			<div id="{generate-id()}">
 				<span><xsl:attribute name="class">head</xsl:attribute>Sigle: </span>
 				<xsl:apply-templates/>
 			</div>
@@ -2051,7 +2051,7 @@
 
 <xsl:template match="tei:summary[not(normalize-space(.)='')]">
 	<xsl:choose>
-		<xsl:when test="tei:p"><p><xsl:apply-templates/></p></xsl:when>
+		<xsl:when test="tei:p"><p id="{generate-id()}"><xsl:apply-templates/></p></xsl:when>
 		<xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
 	</xsl:choose>
 </xsl:template>
@@ -2365,7 +2365,7 @@
 						<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>)</xsl:text>
 					</xsl:when>
 				</xsl:choose>
-			<div>
+			<div id="{generate-id()}">
 				<xsl:text>How to quote: </xsl:text>
 				<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
@@ -2387,7 +2387,7 @@
 </xsl:template>
 
 	<xsl:template name="Title">
-		<div>
+		<div id="{generate-id()}">
 			<span class="header">
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
 				<xsl:choose>
@@ -2703,20 +2703,20 @@ function Go (select) {
 	<xsl:if test="tei:msPart[@rend = 'condensed']">
 		<xsl:choose>
 			<xsl:when test="not(tei:msPart[2]) and tei:msPart[@rend = 'condensed'][not(tei:head)and not(tei:msContents) and not(tei:physDesc) and not(tei:history) and not(tei:additional) and not(tei:p)]">
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:value-of select="tei:altIdentifier/tei:idno"/>
 				</div>
 			</xsl:when>
 			<xsl:when test="contains(tei:msPart[@rend='condensed'][1]/tei:altIdentifier/tei:idno,'Fragment')"/>
 			<xsl:when test="tei:msPart[2]">
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:text>Fragmente</xsl:text>
 				</div>
 			</xsl:when>
 			<xsl:otherwise>
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:text>Fragment</xsl:text>
 				</div>
@@ -3418,7 +3418,7 @@ function Go (select) {
 </xsl:template>
 
 <xsl:template name="source">
-	<div>
+	<div id="{generate-id()}">
 		<xsl:attribute name="class">source</xsl:attribute>
 		<xsl:value-of select="descendant::tei:source/tei:bibl"></xsl:value-of>
 	</div>
