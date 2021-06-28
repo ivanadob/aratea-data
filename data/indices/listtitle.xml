@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <register>
+    <work xml:id="zodiac_rising">
+        <title>De ortu duodecim signis</title>
+        <bibl><abbr>Thorndike-Kibre</abbr> 134.7</bibl>
+    </work>
+    <work xml:id="eclypses">
+        <title>On solar and lunar eclypses</title>
+        <bibl><abbr>Thorndike-Kibre</abbr> 399.12.</bibl>
+    </work>
+    <work xml:id="simultaneous_rising">
+        <title>De duodecim signis</title>
+        <note>Text on the simultaneous rising and setting of the zodiacal signs inserted usually within a rota divided in 12 wedge-shaped segments for each of the zodiacal signs. In some (mostly later) manuscripts the text is written in a simple paragraph. Cf. Libri computi, I, 6.</note>
+        <incipit>Ariete oriente duabus horis occidit libra</incipit>
+        <explicit>tunc aquarius inferioris optinet leo.</explicit>
+        <bibl><abbr>Thorndike-Kibre</abbr> 134.7.</bibl>
+    </work>
     <work xml:id="gerbert_geometria">
         <title>Geometria gerberti</title>
         <author ref="#gerbert">Gerbert of Aurillac</author>
@@ -658,6 +673,8 @@
         <incipit>Circulus zodiacus qui XII signis constat omni ex parte aeque vicinus est terrae</incipit>
         <explicit>Et VIIma ut tamen decies revolutus non LXXX sed potius LXX dierum numerum reddat.</explicit>
         <bibl>Bede. Opera Didascalica. Edited by Charles Jones. CCSL, 123 C. Turnhout: Brepols, 1980. P. 659.</bibl>
+        <bibl>
+            <abbr>Thorndike-Kibre</abbr> 224.14.</bibl>
     </work>
     <work xml:id="de_musica_augustine" ref="http://d-nb.info/gnd/4268897-8">
         <author ref="#augustinus_aurelius">Augustine of Hippo</author>

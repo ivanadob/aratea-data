@@ -6,7 +6,7 @@
                 <title type="main">Aratea Digital</title>
                 <title type="sub">Klosterneuburg, Stiftsbibliothek, Cod. 685</title>
                 <respStmt>
-                    <resp>Catalogued by:</resp>
+                    <resp>Catalogued by: </resp>
                     <name type="person">Ivana Dobcheva</name>
                 </respStmt>
             </titleStmt>
@@ -23,14 +23,37 @@
             </availability>
          </publicationStmt>
             <sourceDesc>
-                <p>digital born.</p>
+                <p>born digital.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-05-31"/>
+				<change when="2021-06-28"/>
 			</revisionDesc>
 		
     </teiHeader>
+    <facsimile>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0007" n="1r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0008" n="1v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0022" n="8v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0031" n="13r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0033" n="14r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0034" n="14v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0035" n="15r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0036" n="15v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0134" n="64v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0135" n="65r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0136" n="65v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0137" n="66r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0138" n="66v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0144" n="69v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0145" n="70r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0146" n="70v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0147" n="71r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0172" n="83v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0177" n="86r"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0178" n="86v"/>
+        <graphic url="https://manuscripta.at/diglit/AT5000-685/0181" n="88r"/>
+    </facsimile>
     <text>
         <body>
             <msDesc xml:id="klosterneuburg_685" xml:lang="eng">
@@ -65,14 +88,31 @@
                     </msItem>
                     <msItem>
                         <locus from="14r">14r</locus>
-                        <note type="title">two chapters on the planets and on the zodiac excerpted from???</note>
+                        <author ref="#bede">Ps-Bede</author>
+                        <title ref="#itaque_stella_veneris">Opusculum Itaque stella veneris et mercurii</title>
+                        <incipit>Itaque stella ueneris et mercurii hoc a superioribus tribus planetarum stellis differunt</incipit>
+                        <explicit>idcirco longiores ethereas metas peragit.</explicit>                        
+                    </msItem>
+                    <msItem>
+                        <locus from="14r">14r</locus>
+                        <author ref="#bede">Ps-Bede</author>
+                        <title ref="#de_apsidibus_planetarum">De absidibus planetarum</title>
+                        <rubric>De zodiaco circulo</rubric>
+                        <incipit>Circulus zodiacus qui XII signis constat omni ex parte equae uicinus est terrae</incipit>
+                        <explicit>quod subiecta melius pictura declarabitur.</explicit>
+                        <bibl>
+                            <abbr>Thorndike-Kibre</abbr> 224.14.</bibl>
                     </msItem>
                     <msItem>
                         <locus from="14v" to="64v">14v-64v</locus>
                         <author ref="#bede">Bede</author>
                         <title ref="#DTR">De temporum ratione</title>
                         <msItem>
-                            <locus from="14v" to="15v">14v-15v</locus>
+                            <locus from="14v" to="15r">14v-15r</locus>
+                            <note type="title">Prefatio.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="15r" to="15v">15r-v</locus>
                             <note type="title">Capitula.</note>
                         </msItem>
                         <msItem>
@@ -82,13 +122,84 @@
                         </msItem>
                     </msItem>
                     <msItem>
-                        <locus from="64v" to="88r">64v-88r</locus>
-                        <msItem class="aratea">
-                            <locus from="71r">71r</locus>
-                            <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
-                            <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
-                        </msItem>
-                    </msItem>			
+                        <locus from="64v" to="65r">64v-65r</locus>
+                        <title ref="#simultaneous_rising" rend="supplied">De duodecim signis</title>
+                        <note type="title">On the simultaneously rising and setting of the zodiacal signs.</note>
+                        <incipit>Ariete oriente duabus horis occidit libra</incipit>
+                        <explicit>sagittarius <unclear>inferioris</unclear> optinet gemini.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="65r">65r</locus>
+                        <title ref="#zodiac_rising" rend="supplied">De ortu duodecim signis</title>
+                        <incipit>Ortus signorum XII qualibet diei uel noctis hora quisque liquido deprehensurus est</incipit>
+                        <explicit>Si XXIII aut XXIIII virgo.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="65r">65r</locus>
+                        <title ref="#eclypses">On solar and lunar eclypses</title>                        
+                        <incipit>Deliquium solis contigisse fertur anno ab incarnatione domini 808</incipit>
+                        <explicit>quod quotiens contigerit tociens eclypsim non defecturam.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="65r" to="65v">65r-v</locus>
+                        <title ref="#iqsvm">IQSVM</title>
+                        <incipit>In quo signo uersetur mars annis ab inicio mundi per senarium divisis</incipit>
+                        <explicit>memoratum semper inueniri planetam uirgo.</explicit>
+                    </msItem>                    
+                    <msItem>
+                        <locus from="65v">65v</locus>
+                        <rubric>De incremento saltus lunae</rubric>
+                        <incipit>Primus sciendum est quod in toto decennouenali circulo unus dies de saltu lunae accrescat</incipit>
+                        <explicit>et sextans, id est sexta pars momenti.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="65v" to="66r">65v-66r</locus>
+                        <rubric>De concordia solis et lunae</rubric>
+                        <incipit>Novem horis in luna pro V diebus in sole computatis</incipit>
+                        <explicit>possunt VIIII horae lunares cum V diebus solaribus concordare.</explicit>
+                        <bibl><abbr>Thorndike-Kibre</abbr> 955.6.</bibl>
+                    </msItem>
+                    <msItem>
+                        <locus from="66r" to="66v">66r-v</locus>
+                        <rubric>De quibus embolismi menses et bissextiles dies adimplentur</rubric>
+                        <incipit>Luna igitur cottidie et cetera transit XIII partes et horas VIII</incipit>
+                        <explicit>et ad quam cernendam mentis acies purganda.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="66v" to="69v">66v-69v</locus>
+                        <title ref="#dtr_commentary">Anonymous commentary on Bede's DTR</title>
+                        <rubric>De natura rerum et temporum ratione</rubric>
+                        <incipit>Non est praetermittendum cum dixit de natura rerum, cur non etiam de natura temporum vel de ratione rerum et ratione temporum dixit</incipit>
+                        <explicit>id est CCma XXXVma pars XL VII semis momentorum.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="69v">69v</locus>
+                        <note type="title">On the epacts and regulars</note>
+                        <rubric>Quid sit epacta et regulares solis</rubric>
+                        <incipit>Dum audis epactas <corr>solis</corr> lunae, etates lunae per singulos annos intellige</incipit>
+                        <explicit>uel quot dies usque ad Kalendas futuri mensis supersunt.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="70r">70r</locus>
+                        <note type="title">Verse on the course of the planets around the zodiac</note>
+                        <bibl><abbr>Walther, Carmina I/1</abbr>, 2200.</bibl>
+                        <incipit>Bissex signifere numerantur sydera sperae</incipit>
+                        <explicit>Proxima telluri dum curris candida phebae.</explicit>
+                    </msItem> 	
+                    <msItem>
+                        <locus from="70v">70v</locus>
+                        <note>Three circular diagrams: 1) terrestrial sphere with the five zones; 2) zodiacal, months; 3) small circle representing Earth with text about its size.</note>
+                    </msItem>
+                    <msItem class="aratea">
+                        <locus from="71r" to="88r">71r-88r</locus>
+                        <title ref="#de_signis_coeli_revision" rend="supplied">De signis coelis (redaction incl AL)</title>
+                        <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
+                        <explicit>currens multis aduenientibus nubibus.</explicit>
+                    </msItem>
+                    <msItem>
+                        <locus from="88v">88v</locus>
+                        <note>blank.</note>
+                    </msItem>
                 </msContents>
                 <physDesc>
                     <objectDesc form="codex">
@@ -99,23 +210,20 @@
                                 </p>
                             </support>
                             <extent>
-                                <measure type="leavesCount">II + 88 fols. + I</measure>
+                                <measure type="leavesCount" n="91">I (modern) + I (mediaeval) + 88 fols. + I (mediaeval) + I (modern)</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height>310</height>
                                     <width>210</width>
                                 </dimensions> (Pfeiffer–Černík IV 892-894)
                             </extent>
-                            <foliation/>
-                            <collation>Quire structure according to description in manuscripta.at:
-                                <formula>8.IV<hi rend="sup">64</hi>+V<hi rend="sup">74</hi>+IV<hi rend="sup">82</hi>+III<hi rend="sup">88</hi></formula>
+                            <foliation>Mediaeval foliation 1-90 jumping from 54 to 56 and from 87 to 89, corrected after fol. 55 by a modern hand in pen 55-88; mediaeval flyleaves foliated in pencil (I and I*).</foliation>
+                            <collation>
+                                <formula>8.IV<hi rend="sup">64</hi> + V<hi rend="sup">74</hi> + IV<hi rend="sup">82</hi> + III<hi rend="sup">88</hi></formula> (source: manuscripta.at).
                             </collation>
-                            <condition>
-                                <p/>
-                            </condition>
                         </supportDesc>
                         <layoutDesc>
                             <layout columns="1">
-                                <p/>
+                                <p>One column in 35 long lines.</p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
@@ -129,33 +237,37 @@
                     <decoDesc>
                         <decoNote>Pendrawings in red and violet ink. On <locus from="70v"> f. 70v</locus> three rota-diagrams on of the terrestria zones, one stating the circumference of earth, and another combining zodiacal signs, months, elements and their qualities, and the path of the sun. (image<ptr target="http://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_70v.jpg"/>) Illustrations of the constellations on <locus from="71r" to="83v">ff. 71r-83v</locus>; portraits of the planets on <locus from="84r">f. 84r</locus>; Zodiacal circle with full figures of Sol and Luna in the middle on <locus from="86r"> f. 86r</locus>; medalion of Sol in quadriga on <locus from="86v">f. 86v</locus> and medalion of Luna in biga on <locus from="88r">f. 88r</locus>.</decoNote>
                     </decoDesc>
-                    <additions/>
                     <bindingDesc>
-                        <binding>
-                            <p/>
+                        <binding contemporary="false">
+                            <p>15th. c- leather binding with stamps. Title on the front cover: <quote>Libri Bede presbiteri de naturis rerum, de temporibus horis momentis et finaliter de temporibus. Ibidem Higimus de signis celestibus</quote>.</p>
                         </binding>
                     </bindingDesc>
+                    <accMat>Fragments: as former flyleaves (today fols. I and I*) were used two signle leaves from a 14th. c. lectionary for the mass.</accMat>
                 </physDesc>
                 <history>
                     <summary/>
                     <origin>
-                        <p>The manuscript cannot to be found in any of the monastery catalogues from the 12-14th c. A. Haidinger, in <bibl>Sehnsucht nach der Antike, ed. Huber Wolfgang, pp. 66-67</bibl> however found palaeographical similarities between this manuscript and others written in Klosterneuburg, as for example MS 20.</p>
+                        <p>The manuscript cannot to be found in any of the monastery catalogues from the 12-14th c. A. Haidinger, however found palaeographical similarities between this manuscript and others written in Klosterneuburg, as for example MS 20 (see <bibl>Sehnsucht nach der Antike, ed. Huber Wolfgang, pp. 66-67</bibl>).</p>
                     </origin>
                     <provenance>
-                        <p>Exlibris on <locus from="88r">f. 88r</locus> 
-                     <quote>Iste liber est sancte marie de Neuburga.</quote>
+                        <p>Note on <locus from="1r">1r</locus>: <quote>Liber sancte Marie in Newnburga claustrali</quote> and <locus from="88r">f. 88r</locus>: <quote>Iste liber est sancte marie de Neuburga.</quote>
                         </p>
                     </provenance>
                 </history>
                 <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <p>Description based on the digital facsimile (no in-situ inspection) and the existing secondary literature.</p>
+                        </recordHist>
+                    </adminInfo>
                     <listBibl>
                         <bibl>Hermann Pfeiffer und Berthold Černík, Catalogus codicum manu scriptorum, qui in bibliotheca Canonicorum Regularium s. Augustini Claustroneoburgi asservantur. Bd. 4, pp. 892-894.<ptr target="http://www.ksbm.oeaw.ac.at/_scripts/php/newWin4msDescription.php?ID=889"/>
                         </bibl>
-                        <bibl>Huber, Wolfgang, ed. Sehnsucht Nach Der Antike: Handbuch Und Katalog. Klosterneuburg: Mayer, 1992.</bibl>
+                        <bibl>Huber, Wolfgang, ed. Sehnsucht nach der Antike: Handbuch und Katalog. Klosterneuburg: Mayer, 1992.</bibl>
                         <bibl>Winkler, Erich. Die Buchmalerei in Niederösterreich von 1150 - 1250.  Wien: Krystall-Verl., 1923. Pp. 11f.</bibl>
                         <bibl>Christine Glaßner–Alois Haidinger, Die Anfänge der Melker Bibliothek. Neue Erkenntnisse zu Handschriften und Fragmenten aus der Zeit vor 1200. Präsentiert im Rahmen der Sonderausstellung aus Anlaß '1000 Jahre Ostarrichi'. Melk 1996, 74-78.</bibl>
                         <bibl>Ernst Zinner, Verzeichnis der astronomischen Handschriften des deutschen Kulturgebietes. München 1925, Nr.01046, Nr.01067, Nr.01102, Nr.10272.</bibl>
-                        <bibl>Haidinger, Alois. Verborgene Schönheit: Die Buchkunst Im Stift Klosterneuburg; Katalog Zur Sonderausstellung 1998 Des Stiftsmuseums Klosterneuburg. Klosterneuburg/Wien: Mayer, 1998. Pp. 18-19.</bibl>
+                        <bibl>Haidinger, Alois. Verborgene Schönheit: Die Buchkunst im Stift Klosterneuburg; Katalog zur Sonderausstellung 1998 des Stiftsmuseums Klosterneuburg. Klosterneuburg/Wien: Mayer, 1998. Pp. 18-19.</bibl>
                     </listBibl>
                 </additional>
             </msDesc>

@@ -117,7 +117,7 @@
                   </msItem>
                   <msItem>
                      <locus from="27">27</locus>
-                     <title>De absidibus planetarum</title>
+                     <title ref="#de_apsidibus_planetarum">De absidibus planetarum</title>
                      <incipit>Circulus zodiacus quo duodecim signis constat omni es parte aeque vicinus est terrae</incipit>
                      <explicit>quod subiecta melius pictura declarabitur.</explicit>
                      <note>Partly later additions with two rough diagrams.</note>
@@ -137,34 +137,29 @@
                <msContents>
                   <msItem>
                      <locus from="29">29</locus>
-                     <note type="title">On the zodiac</note>
+                     <title ref="#simultaneous_rising">De duodecim signis</title>
                      <rubric>De duodecim signis</rubric>
                      <incipit>Ariete oriente duabus horis occidit libra</incipit>
                      <explicit>obtinent gemini.</explicit>
-                     <listBibl>
-                        <bibl>
-                                    <abbr>Thorndike-Kibre</abbr> 134.7</bibl>
-                     </listBibl>
+                     <bibl><abbr>Thorndike-Kibre</abbr> 134.7</bibl>
                   </msItem>
                   <msItem>
                      <locus from="29">29</locus>
-                     <note type="title">On the zodiac</note>
+                     <title ref="#zodiac_rising" rend="supplied">De ortu duodecim signis</title>
                      <rubric>De ortu duodecim signis</rubric>
                      <incipit>Ortum signorum dudoecim qualibet diei vel noctis hora quisque liquido deprehensurus est</incipit>
                      <explicit>Si XXIII aut XXIIII virgo.</explicit>
-                     <listBibl>
-                        <bibl>Thorndike-Kibre 134.7</bibl>
-                     </listBibl>
+                     <bibl><abbr>Thorndike-Kibre</abbr> 134.7</bibl>
                   </msItem>
                   <msItem>
                      <locus from="29">29</locus>
-                     <note type="title">On eclipses</note>
+                     <title ref="#eclypses">On solar and lunar eclypses</title>
                      <rubric>De solis et lunae defectu</rubric>
                      <incipit>Deliquium solis contigisse fertur anno ab incarnatione domini 808</incipit>
                      <explicit>quod quotiens contigerit totiens eclipsim non defecturam</explicit>
-                     <listBibl>
-                        <bibl>Thorndike-Kibre 399.12</bibl>
-                     </listBibl>
+                     <bibl><abbr>Thorndike-Kibre</abbr> 399.12.</bibl>
+                        
+                     
                   </msItem>
                   <msItem>
                      <locus from="29" to="30">29-30</locus>
@@ -215,10 +210,7 @@
                      <locus from="38">38</locus>
                      <note type="title">Verse on the course of the planets around the zodiac</note>
                      <note>Later addition</note>
-                     <listBibl>
-                        <bibl>Walther, Initia 2200.</bibl>
-                        <bibl>Schaller-Könsgen 1725.</bibl>
-                     </listBibl>
+                     <bibl><abbr>Walther, Carmina I/1</abbr>, 2200.</bibl>
                   </msItem>
                   <msItem>
                      <locus from="38">38</locus>

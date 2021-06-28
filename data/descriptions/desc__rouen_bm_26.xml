@@ -38,13 +38,17 @@
                <repository>Bibliothèque municipale</repository>
                <idno>26</idno>
                <altIdentifier type="former">
-                  <idno>A 292</idno>
+                  <idno>A 292</idno>                  
+               </altIdentifier>
+               <altIdentifier type="former">
+                  <idno>Jumieges, A. 12 - Ancien n. A. 128 </idno>
                </altIdentifier>
             </msIdentifier>
             <head>
                <title>Astronomical-computistical collection</title>
-               <origDate>s. IX<hi rend="sup">3/4</hi>(853-867)</origDate>
-               <origPlace/>
+               <origDate>s. IX<hi rend="sup">3/4</hi> (853-867)</origDate>
+               <origPlace ref="https://www.geonames.org/12189183">Jumièges Abbey Saint-Pierre</origPlace>
+               <note type="catalogue"><ref target="https://data.biblissima.fr/entity/Q187979"></ref></note>
             </head>
             <msContents>
                <msItem>
@@ -63,11 +67,11 @@
                   
                   Fol. <locus from="34v">34v</locus> Anonmymi "trac[ta]tus Cantica canticorum. Osculetur me osculo oris sui, tangat... - ... Falsa sonabit" 
                   
-                  <locus from="47v">47v</locus> - "Hunc cecinit salomon mira dulcedine libru[m] qui tenet egregias sponsi sponsaeq[ue] camenas... Written in different hand Fragmen of the office, notes and neumes "Dominica III. De adventu Domini written in different hand. 
+                  <locus from="47v">47v</locus> - "Hunc cecinit salomon mira dulcedine libru[m] qui tenet egregias sponsi sponsaeq[ue] camenas... Written in different hand: Fragment of the office, notes and neumes "Dominica III. De adventu Domini written in different hand. 
                   
                   <locus from="48r">48r</locus> - image of Christ on the cross - image in plume of Christ  on the cross, between Mary and John Ibid - Liber Sapientie 
                   
-                  "arce cricis d[omi]ni summa prudentia sistit.. And in the lower part Inicpit liber sapientie. Seems to be written by the hand which wrote the Ps-bede.<locus from="48v">48v</locus> written by two different hand. Has long hast of the R pointed minuscule (anglo-saxon?) for the first half of the page then it changes into a regular caroline minuscule  folio expl. Qui sunt exparte illius . Next folio: dixerunt enim apud se cogitantes...  
+                  "arce cricis d[omi]ni summa prudentia sistit.. And in the lower part Inicpit liber sapientie. Seems to be written by the hand which wrote the Ps-Bede. <locus from="48v">48v</locus> written by two different hands. Has long hast of the R pointed minuscule (anglo-saxon?) for the first half of the page then it changes into a regular caroline minuscule  folio expl. Qui sunt exparte illius . Next folio: dixerunt enim apud se cogitantes...  
                   
                   <locus from="62v">62v</locus> - another fragment - In die Natalis Domini Lux orta e[s]t super nos quia hodie natus e[s]t saluator .. 
                   
@@ -403,9 +407,9 @@
                  
                  
                  
-                 IX century. Parchment. I+203 ff. 272 x 185 mm 
                  
-                 Rel. Mod (Jumieges, A. 12 - Ancien n. A. 128 
+                 
+                
               </p>
                     </msItem>
             </msContents>
@@ -431,21 +435,24 @@
                <scriptDesc>
                   <scriptNote script="carolmin"/>
                </scriptDesc>
+               <bindingDesc>
+                  <binding contemporary="false">
+                     <p>Modern binding.</p>
+                  </binding>
+               </bindingDesc>
             </physDesc>
             <history>
                <origin/>
                <provenance>
-                        <rs type="corporate" ref="#jumieges">Saint-Pierre de Jumieges</rs>. <!--Monastery founded by saint Philibert in 654, cultural centre in Neustria from the 7th century onwards; in had a school, of which talks the author of the Life of saint Aycadre (the second abbot), and for sure a library, but not enough sources to specify what was its characteristics.--> The monastery was ravaged by the Vikings between 841 and 852, the monks had to flee carrying with them their precious possessions including books; returned in the half of 10th c. called by duke Guillaume I Longue-Epee, perhaps did not return the books. Six volumes datable to the 9th century are from uncertain origin, including the present Rouen 26 (A. 292).</provenance>
+                        <rs type="corporate" ref="#jumieges">Saint-Pierre de Jumieges</rs>. <!--Monastery founded by saint Philibert in 654, cultural centre in Neustria from the 7th century onwards; in had a school, of which talks the author of the Life of saint Aycadre (the second abbot), and for sure a library, but not enough sources to specify what was its characteristics.--> The monastery was ravaged by the Vikings between 841 and 852, the monks had to flee carrying with them their precious possessions including books; returned in the 10th c., perhaps without the previous library. Six volumes datable to the 9th century are from uncertain origin, including the present MS Rouen 26 (A. 292).</provenance>
             </history>
             <additional>
                <listBibl>
-                  <head>Selected bibliography:</head>
+                  <head>Selected bibliography: </head>
                   <bibl>
-                            <abbr>Borst, Schriften</abbr>. Vol. 1, pp. 
-                     <!--First part: Biblical, patristic, and liturgical texts, then liturgical and cosmological and astronomical texts, and last Ps-Bede De signis. 
-                     The second computistical part can be dated to 857; has both Bede's work Nat. And Temp. The Berechnung der Mondepakten fur das Inkarnationsjahr 811 -  can be taken from the Aachen encyclp. (Lib. comp. VII 1) 
-                     Neugeordnere bearbeitung des Veroneser jahrbuchlein (Liv. ann. c. 1-3, 5-52, 54-65, 69, 69 a-c) mixed together with parts from the Aachen encyclp. (Lib. Comp. I 2, 4, 6; II 14-15, 18-21; III 1, 10; IIII 1, 28a, V 13a) 
-                     Hier wurde also der kuhne Versuch unternommen, zwei enzyclopadien nich nur, wie inzwischen ublich, miteinander zu vermengen, sonder auch zu einer einzigen Uber-Enzyklopadie auszubauen und dabei zugleich auf den handlichen Umfang von 25 Blattern zuruckzuschneiden. So notig eine derartige Neugestaltung war, sie kam wohl zu spat, um Abschreiber und Nachahmer zu finden.--> </bibl>
+                            <abbr>Borst, Schriften</abbr>. Vol. 1, pp. 286-87 
+                    <note><!-- First part: Biblical, patristic, and liturgical texts, then liturgical and cosmological and astronomical texts, and last Ps-Bede De signis.has both Bede's work Nat. And Temp. The Berechnung der Mondepakten fur das Inkarnationsjahr 811 -  can be taken from the Aachen encyclp. (Lib. comp. VII 1) Neugeordnere bearbeitung des Veroneser jahrbuchlein (Liv. ann. c. 1-3, 5-52, 54-65, 69, 69 a-c) mixed together with parts from the Aachen encyclp. (Lib. Comp. I 2, 4, 6; II 14-15, 18-21; III 1, 10; IIII 1, 28a, V 13a) -->
+                       The second computistical part can be dated to 857; uniting parts from the Lib. comp. (Aachen encylopedia) and the Lib. ann. (neugeordnere Bearbeitung). "Hier wurde also der kühne Versuch unternommen, zwei karolingische Enzyklopädien nich nur, wie inzwischen üblich, miteinander zu vermengen, sondern auch zu einer einzigen Über-Enzyklopädie auszubauen und dabei zugleich auf den handlichen Umfang von 25 Blättern zurückzuschneiden. So nötig eine derartige Neugestaltung war, sie kam wohl zu spät, um Abschreiber und Nachahmer zu finden.</note> </bibl>
                   <bibl>Cordoliani, Alfred. Le plus ancien manuscrit de comput ecclesiastique du fonds de Jumieges, in: Jumieges. Congres scientifique du XIIIe centenaire, Bd. 2 (1955) p. 691-702.</bibl>
                   <bibl>Catalogue des manuscrits en ecriture latine. Portant des indications de date de lieu ou de copiste Tome VII Ouest de la France et Pays de Loire. Editions du CNRS. Charles Samaran et Robert Marichal, Paris, 1984, p.  XVII.</bibl>
                   <bibl>Catalogue générale des manuscrits des bibliothèques publiques de France, Départements I: Rouen. Paris, 1886, pp. 8-10. </bibl>
