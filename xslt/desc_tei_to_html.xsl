@@ -2,6 +2,7 @@
 <xsl:stylesheet 
 	xmlns:tei="http://www.tei-c.org/ns/1.0" 
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+	xmlns:html="http://www.w3.org/1999/xhtml"
 	exclude-result-prefixes="#all"
 	version="2.0">
 	<xsl:variable name="Status"></xsl:variable>
@@ -177,7 +178,7 @@
 <xsl:template match="tei:altIdentifier">
 	<xsl:choose>
 		<xsl:when test="@type='siglum'">
-			<div>
+			<div id="{generate-id()}">
 				<span><xsl:attribute name="class">head</xsl:attribute>Sigle: </span>
 				<xsl:apply-templates/>
 			</div>
@@ -2050,7 +2051,7 @@
 
 <xsl:template match="tei:summary[not(normalize-space(.)='')]">
 	<xsl:choose>
-		<xsl:when test="tei:p"><p><xsl:apply-templates/></p></xsl:when>
+		<xsl:when test="tei:p"><p id="{generate-id()}"><xsl:apply-templates/></p></xsl:when>
 		<xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
 	</xsl:choose>
 </xsl:template>
@@ -2319,7 +2320,7 @@
 
 <xsl:template name="DateiAusgeben">
 	<xsl:param name="start"/>
-	<html>
+	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<title>
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>				
@@ -2327,7 +2328,7 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
 			<!--<link rel="stylesheet" type="text/css" href="http://diglib.hab.de/rules/styles/mss/TEI-P5-to-Print/druck.css"/>-->
 			<link rel="stylesheet" type="text/css" href="css/aratea.css"/>
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 		</head>
 		<body>
 			<xsl:call-template name="nav_bar"/>
@@ -2364,7 +2365,7 @@
 						<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>)</xsl:text>
 					</xsl:when>
 				</xsl:choose>
-			<div>
+			<div id="{generate-id()}">
 				<xsl:text>How to quote: </xsl:text>
 				<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
@@ -2378,17 +2379,15 @@
 			</div>
 				<hr/>
 			</div>
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"/>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"/>
-			
-			
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  />
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  />
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  />
 		</body>
 	</html>
 </xsl:template>
 
 	<xsl:template name="Title">
-		<div>
+		<div id="{generate-id()}">
 			<span class="header">
 				<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
 				<xsl:choose>
@@ -2704,20 +2703,20 @@ function Go (select) {
 	<xsl:if test="tei:msPart[@rend = 'condensed']">
 		<xsl:choose>
 			<xsl:when test="not(tei:msPart[2]) and tei:msPart[@rend = 'condensed'][not(tei:head)and not(tei:msContents) and not(tei:physDesc) and not(tei:history) and not(tei:additional) and not(tei:p)]">
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:value-of select="tei:altIdentifier/tei:idno"/>
 				</div>
 			</xsl:when>
 			<xsl:when test="contains(tei:msPart[@rend='condensed'][1]/tei:altIdentifier/tei:idno,'Fragment')"/>
 			<xsl:when test="tei:msPart[2]">
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:text>Fragmente</xsl:text>
 				</div>
 			</xsl:when>
 			<xsl:otherwise>
-				<div>
+				<div id="{generate-id()}">
 					<xsl:attribute name="class">fragments</xsl:attribute>
 					<xsl:text>Fragment</xsl:text>
 				</div>
@@ -3419,7 +3418,7 @@ function Go (select) {
 </xsl:template>
 
 <xsl:template name="source">
-	<div>
+	<div id="{generate-id()}">
 		<xsl:attribute name="class">source</xsl:attribute>
 		<xsl:value-of select="descendant::tei:source/tei:bibl"></xsl:value-of>
 	</div>

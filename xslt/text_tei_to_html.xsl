@@ -3,7 +3,8 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="#all"
     version="2.0">
     <xsl:variable name="bibliography">
         <xsl:choose>
@@ -26,30 +27,30 @@
     <xsl:import href="nav_bar.xsl"/> 
     
     <xsl:template match="/">
-        <html>
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>
                     <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>				
                 </title>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
                 <link rel="stylesheet" type="text/css" href="css/aratea.css"/>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
             </head>
             <body>
                 <xsl:call-template name="nav_bar"/>
                 <div class="container">
-                    <div>
-                        <h1>
+                    <div id="{generate-id()}">
+                        <h1 id="{generate-id()}">
                             <xsl:value-of select="//tei:title[@type='sub']"/>                            
                         </h1>	
-                        <p><xsl:apply-templates select="//tei:titleStmt/tei:respStmt"/></p>
+                        <p id="{generate-id()}"><xsl:apply-templates select="//tei:titleStmt/tei:respStmt"/></p>
                     </div>	
 <!--                    Body -->
                     <xsl:apply-templates select="//tei:body"/>
                     
 <!--                    Footer-->
                     <hr/>
-                    <div class="copyright">
+                    <div class="copyright" id="{generate-id()}">
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
                         
                     </div>
@@ -63,7 +64,7 @@
                             <xsl:value-of select="//tei:revisionDesc/tei:change[1]/@when"/><xsl:text>)</xsl:text>
                         </xsl:when>
                     </xsl:choose>
-                    <div>
+                    <div id="{generate-id()}">
                         <xsl:text>How to quote: </xsl:text>
                         <xsl:apply-templates select="//tei:titleStmt/tei:respStmt/tei:name | //tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
                         <xsl:value-of select="//tei:titleStmt/tei:title[@type='sub']"/> <xsl:text> - </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/> <xsl:text>' (</xsl:text>
@@ -77,15 +78,18 @@
                     </div>
                     <hr/>
                 </div>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
             </body>
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2><xsl:apply-templates/></h2>
+        <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
     
     <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+        <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:list">
@@ -93,7 +97,7 @@
     </xsl:template>
     
     <xsl:template match="tei:item">
-        <li><xsl:apply-templates/></li>
+        <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:choose>
