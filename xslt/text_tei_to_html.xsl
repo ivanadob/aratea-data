@@ -92,6 +92,14 @@
         <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
     
+    <xsl:template match="tei:listBibl">
+        <ul><xsl:apply-templates/></ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:bibl">
+        <li id="{generate-id()}"><xsl:apply-templates/></li>
+    </xsl:template>
+    
     <xsl:template match="tei:list">
         <ul><xsl:apply-templates/></ul>
     </xsl:template>
@@ -114,6 +122,17 @@
                 <a>
                     <xsl:attribute name="href">
                         <xsl:value-of select="concat($githubPages,(substring-after($desc,'#')))"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                </a>
+            </xsl:when>
+            <xsl:when test="starts-with(data(@target), '#text')">
+                <xsl:variable name="text">
+                    <xsl:value-of select="replace(tokenize(@target, '/')[last()], '.xml', '.html')"/>
+                </xsl:variable>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat($githubPages,(substring-after($text,'#')))"/>
                     </xsl:attribute>
                     <xsl:value-of select="."/>
                 </a>

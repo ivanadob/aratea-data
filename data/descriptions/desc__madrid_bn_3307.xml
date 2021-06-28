@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+     <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Aratea Digital</title>
+            <title type="sub">Madrid, Biblioteca national, Ms. 3307</title>
+            <respStmt>
+               <resp>Catalogued by:</resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 coded by</resp>
+               <name type="person">Ivana Dobcheva</name>
+               <name type="org"/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital born.</p>
+         </sourceDesc>
+      </fileDesc>
+        <revisionDesc status="draft">
+				<change when="2021-06-28"/>
+			</revisionDesc>
+     </teiHeader>
+   
+   <text>
+      <body>
+         <msDesc xml:lang="eng" xml:id="ab">
+            <msIdentifier>
+               <settlement>Madrid</settlement>
+               <repository>Biblioteca national</repository>
+               <idno>Ms 3307</idno>
+            </msIdentifier>
+            <head>
+               <title>Astronomical-computistical collection</title>
+               <origDate notBefore="0826" notAfter="0850">826-850</origDate>
+               <origPlace>Murbach (Borst) or Metz</origPlace>
+               <note type="facs">Digital facsimile at <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000122617">Biblioteca digital hispanica</ref>.</note>
+               <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
+               <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+               <note type="summary">The manuscript represents a fragmentary copy of the Aachen encyclopedia (Lib. comp.). It must have been a luxury copy made perhaps for a member of the royal family (Borst suggested that the exemplar came from Aachen). The Excerptum de astrologia and the star catalogue De ordine ac positione, open the fifth book of the encyclopedia.</note>
+            </head>
+            <msContents>
+               <msItem class="aratea">
+                  <locus from="53r" to="54r">53r-54r</locus>
+                  <title ref="#excerptum_de_astrologia">Excerptum de astrologia</title>
+                  <rubric>Excerptum de astrologia</rubric>
+                  <incipit>Duo sunt vertices mundi quos appelant polos</incipit>
+                  <explicit>ad ipsum usque decurrit accipiens.</explicit>
+               </msItem>
+               <msItem class="aratea">
+                  <locus from="54r" to="62v">54r-62v</locus>
+                  <title ref="#de_ordine_ac_positione">De ordine ac positione</title>
+                  <rubric>De ordine ac positione stellarum in signis</rubric>
+                  <incipit>Est quidem hic ordo et positio siderum quae fixa caelo</incipit>
+                  <explicit>Anticanis habet stelas III.</explicit>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support/>
+                     <extent>
+                        <measure type="leaveCount" quantity="71"> 71 fols.</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>302</height>
+                           <width>245</width>
+                        </dimensions> (according to Borst).
+                     </extent>
+                     <foliation/>
+                     <collation/>
+                     <condition/>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" ruledLines="47">Written in one column, 47 lines per page.
+                     <dimensions type="written" unit="mm">
+                        <height></height>
+                        <width></width>
+                     </dimensions>
+                     </layout>
+                  </layoutDesc>
+               </objectDesc>
+               <scriptDesc>
+                  <scriptNote script="carolmin"/>
+               </scriptDesc>
+            </physDesc>
+            <history>
+               <origin></origin>
+               <provenance/>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl>Montero Cartelle, E. Códice de Metz: una compilación medieval de cómputo y astronomía: introducción, traducción y notas. Madrid, 1994.</bibl>
+                  <bibl>Cordoliani, A. Un autre manuscrit de comput ecclesiastique mal connu de la Bibliotheque Nationale de Madrid. In RABM, LXI (1955), 2.</bibl>
+                  <bibl><abbr>Borst, Schriften</abbr>, I, pp. 248-249.</bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
