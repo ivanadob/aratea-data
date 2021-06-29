@@ -56,7 +56,7 @@
                   <supportDesc material="perg">
                      <support/>
                      <extent>
-                        <measure type="leaveCount" quantity="256">256</measure>
+                        <measure type="leavesCount" quantity="256">256</measure>
                         <dimensions type="leaf" unit="mm">
                            <height/>
                            <width/>

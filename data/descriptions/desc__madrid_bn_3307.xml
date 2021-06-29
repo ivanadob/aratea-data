@@ -49,7 +49,7 @@
                <note type="facs">Digital facsimile at <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000122617">Biblioteca digital hispanica</ref>.</note>
                <note type="aratea"><rs type="text" ref="#text__de_ordine.xml">De ordine ac positione</rs></note>
                <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
-               <note type="summary">The manuscript represents a fragmentary copy of the Aachen encyclopedia (Lib. comp.). It must have been a luxury copy made perhaps for a member of the royal family (Borst suggested that the exemplar came from Aachen). The Excerptum de astrologia and the star catalogue De ordine ac positione, open the fifth book of the encyclopedia.</note>
+               <note type="summary">The manuscript represents a fragmentary copy of the Aachen encyclopedia (Lib. comp.). It must have been a luxury copy made perhaps for a member of the royal family (<bibl><abbr>Borst, Schriften</abbr> (Vol. I, pp. 248-249)</bibl> suggested that the exemplar came from Aachen). The Excerptum de astrologia and the star catalogue De ordine ac positione, open the fifth book of the encyclopedia.</note>
             </head>
             <msContents>
                <msItem class="aratea">
@@ -70,9 +70,13 @@
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
-                     <support/>
+                     <support>
+                        <p>
+                           <material>Parchment</material>
+                        </p>
+                     </support>
                      <extent>
-                        <measure type="leaveCount" quantity="71"> 71 fols.</measure>
+                        <measure type="leavesCount" quantity="71">71</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>302</height>
                            <width>245</width>
@@ -101,6 +105,7 @@
             </history>
             <additional>
                <listBibl>
+                  <head>Selected literature</head>
                   <bibl>Montero Cartelle, E. Códice de Metz: una compilación medieval de cómputo y astronomía: introducción, traducción y notas. Madrid, 1994.</bibl>
                   <bibl>Cordoliani, A. Un autre manuscrit de comput ecclesiastique mal connu de la Bibliotheque Nationale de Madrid. In RABM, LXI (1955), 2.</bibl>
                   <bibl><abbr>Borst, Schriften</abbr>, I, pp. 248-249.</bibl>

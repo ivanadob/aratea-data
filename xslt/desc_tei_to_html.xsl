@@ -661,12 +661,14 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</p>
-	<!--<xsl:for-each select="tei:note[@type != 'caption']">
-		<p>
-			<xsl:attribute name="class">schlagzeile</xsl:attribute>
-			<xsl:value-of select="."/>
-		</p>
-	</xsl:for-each>-->
+	<xsl:choose>
+		<xsl:when test="(tei:note[@type = 'summary'] != '')">
+			<p> 
+				<xsl:attribute name="class">schlagzeile</xsl:attribute>
+				<xsl:apply-templates select="tei:note[@type = 'summary']"/>
+			</p>
+		</xsl:when>
+	</xsl:choose>
 </xsl:template>
 
 <xsl:template match="tei:hi[not(normalize-space(.)='')]">
@@ -924,13 +926,21 @@
 <xsl:template match="tei:listBibl[tei:bibl[normalize-space(.)]]">
 	<xsl:choose>
 		<xsl:when test="parent::tei:additional">
-			<xsl:if test="tei:head">
+			<xsl:choose>
+				<xsl:when test="tei:head">
 				<span>
 					<xsl:attribute name="class">listBiblHead</xsl:attribute>
 					<span class="head"><xsl:value-of select="tei:head"/></span>
 					<xsl:if test="not(contains(tei:head,':'))"><xsl:text>: </xsl:text></xsl:if>
 				</span>
-			</xsl:if>
+				</xsl:when>
+				<xsl:otherwise>
+					<span>
+						<xsl:attribute name="class">listBiblHead</xsl:attribute>
+						<span class="head">Selected literature: </span>						
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
 			<xsl:apply-templates select="*[not(self::tei:head)]"/>			
 		</xsl:when>
 	</xsl:choose>
@@ -1365,9 +1375,9 @@
 
 <xsl:template match="tei:msDesc">
 	<xsl:param name="xmlid"><xsl:value-of select="replace(replace(replace(replace(replace(replace(replace(translate(translate(lower-case(tei:msIdentifier/tei:idno),'.',''),' ','-'),'fol','2f'),'4to','4f'),'8vo','8f'),'12mo','12f'),'&#x03B1;','alpha'),'&#x03B2;','beta'),'&#x2014;','--')"/></xsl:param>
-	<xsl:if test="preceding::tei:msDesc">
+	<!--<xsl:if test="preceding::tei:msDesc">
 		<hr style="margin-top:15px;margin-bottom:15px"/>
-	</xsl:if>
+	</xsl:if>-->
 	<!--<xsl:apply-templates select="tei:msIdentifier/tei:idno" mode="Signatur"/>-->
 	<!--<xsl:if test="not($Status='draft') and ($showAuthorname='yes')">
 		<xsl:call-template name="source"/>

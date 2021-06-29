@@ -60,7 +60,7 @@
                   <supportDesc material="perg">
                      <support/>
                      <extent>
-                        <measure type="leaveCount" quantity="92">92 fols.</measure>
+                        <measure type="leavesCount" quantity="92">92 fols.</measure>
                         <!--<dimensions type="leaf" unit="mm">
                            <height>239</height>
                            <width>272</width>

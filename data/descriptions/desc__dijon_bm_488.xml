@@ -313,7 +313,7 @@ Fo. 211 - Chronologie fabuleuse des rois de France (XIIe siecle) with a nore "A 
                   <supportDesc material="perg">
                      <support/>
                      <extent>
-                        <measure type="leaveCount" quantity="211">211 fols.</measure>
+                        <measure type="leavesCount" quantity="211">211 fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>280</height>
                            <width>182</width>
