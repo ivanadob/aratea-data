@@ -234,7 +234,7 @@
                         <supportDesc material="perg">
                             <support></support>
                             <extent>
-                                <measure type="leaveCount" quantity="99">iii + 99 + i</measure>
+                                <measure type="leavesCount" quantity="99">iii + 99 + i</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height></height>
                                     <width></width>

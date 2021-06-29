@@ -358,7 +358,7 @@ Diagrams
                   <supportDesc material="perg">
                      <support/>
                      <extent>
-                        <measure type="leaveCount" quantity="203">ii (paper) + 203 fols.</measure>
+                        <measure type="leavesCount" quantity="203">ii (paper) + 203 fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>394</height>
                            <width>262</width>

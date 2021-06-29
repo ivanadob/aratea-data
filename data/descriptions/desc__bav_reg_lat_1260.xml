@@ -55,7 +55,7 @@
                   <supportDesc material="perg">
                      <support>Parchment</support>
                      <extent>
-                        <measure type="leaveCount" quantity="179">179 fols.</measure>
+                        <measure type="leavesCount" quantity="179">179 fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>237</height>
                            <width>190</width>

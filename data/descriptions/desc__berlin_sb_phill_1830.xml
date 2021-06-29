@@ -128,7 +128,7 @@
                         <supportDesc material="perg">
                             <support></support>
                             <extent>
-                                <measure type="leaveCount" quantity="12">iii (paper) + 12 fols. + iii (paper)</measure>
+                                <measure type="leavesCount" quantity="12">iii (paper) + 12 fols. + iii (paper)</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height></height>
                                     <width></width>

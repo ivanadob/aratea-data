@@ -117,7 +117,7 @@
                   <supportDesc material="perg">
                      <support>Parchment</support>
                      <extent>
-                        <measure type="leaveCount" quantity="56">56 fols.</measure>
+                        <measure type="leavesCount" quantity="56">56 fols.</measure>
                      </extent>
                   </supportDesc>
                   <layoutDesc>

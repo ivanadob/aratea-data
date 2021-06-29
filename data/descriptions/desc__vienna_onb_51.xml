@@ -43,7 +43,7 @@
                     <title>Miscellany on music, geometry and astronomy</title>
                     <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi></origDate>
                     <origPlace>Southern Germany or Austria</origPlace>
-                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia">Hyginus, De astronomia</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
                 </head>
                 <msContents> 
                     <msItem>
@@ -328,7 +328,7 @@
                   <supportDesc material="perg">
                      <support>Parchment</support>
                      <extent>
-                         <measure type="leaveCount" quantity="170">170 fols.</measure>
+                         <measure type="leavesCount" quantity="170">170 fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>345</height>
                            <width>262</width>

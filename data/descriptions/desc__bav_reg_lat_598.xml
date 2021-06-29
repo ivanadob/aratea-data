@@ -53,7 +53,7 @@
                         <supportDesc material="perg">
                             <support></support>
                             <extent>
-                                <measure type="leaveCount"></measure>
+                                <measure type="leavesCount"></measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height></height>
                                     <width></width>

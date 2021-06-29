@@ -76,7 +76,7 @@
                         <supportDesc material="chart">
                             <support>Paper</support>
                             <extent>
-                                <measure type="leaveCount" quantity="82">82 fols.</measure>
+                                <measure type="leavesCount" quantity="82">82 fols.</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height>290</height>
                                     <width>210</width>

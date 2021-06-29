@@ -49,7 +49,7 @@
                   <supportDesc material="perg">
                      <support></support>
                      <extent>
-                        <measure type="leaveCount" quantity="56">(i) + 56 + (i) fols.</measure>
+                        <measure type="leavesCount" quantity="56">(i) + 56 + (i) fols.</measure>
                         <dimensions type="leaf" unit="mm">
                            <height>222</height>
                            <width>150</width>
