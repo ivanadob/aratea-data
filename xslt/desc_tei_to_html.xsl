@@ -2247,6 +2247,14 @@
 				<xsl:if test=" @rend = 'supplied' and not(preceding-sibling::tei:author[ @rend = 'supplied' ]) "><xsl:text>[</xsl:text></xsl:if>
 				<xsl:apply-templates/>
 				<xsl:if test=" @rend = 'supplied' "><xsl:text>]</xsl:text></xsl:if>
+				<xsl:if test=" @ref != ' ' ">
+					<a>
+						<xsl:attribute name="href">
+							<xsl:value-of select="."/>
+						</xsl:attribute>
+						<xsl:apply-templates/>
+					</a>
+				</xsl:if>				
 			</span>
 		</xsl:when>
 		<xsl:when test="not(parent::tei:bibl)">
@@ -2255,22 +2263,13 @@
 				<xsl:apply-templates/>
 			</span>
 		</xsl:when>
+		
 		<xsl:when test="parent::tei:bibl">
-			<xsl:choose>
-				<xsl:when test="contains(@n,'ppn')">
-					<a>
-						<xsl:attribute name="target"><xsl:text>_blank</xsl:text></xsl:attribute>
-						<xsl:attribute name="href">							
-							<xsl:value-of select="substring-after(@n, concat($searchfield, '_'))"/>
-						</xsl:attribute>
-						<xsl:apply-templates/>
-					</a>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:apply-templates/>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:when>
+			<span>
+				<xsl:attribute name="class">italic</xsl:attribute>
+				<xsl:value-of select="."/>
+			</span>
+		</xsl:when>		
 		<xsl:otherwise>
 			<xsl:apply-templates/>
 		</xsl:otherwise>

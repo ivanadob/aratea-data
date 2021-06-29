@@ -44,6 +44,8 @@
                     <origDate notBefore="1001" notAfter="1050">s. XI<hi rend="sup">1</hi>
                     </origDate>
                     <note type="facs">Digitised microfilm at <ref target="http://data.onb.ac.at/rep/100209A7">onb.ac.at</ref>.</note>
+              <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
+              
                 </head>
             <msContents>
                <msItem>
@@ -80,7 +82,7 @@
                </msItem>
                <msItem>
                   <locus from="6v" to="7r">6vc-7ra</locus>
-                  <title type="supplied">Short text on the division of science with a schema</title>
+                  <note type="title">Short text on the division of science with a schema</note>
                   <incipit>Porro sapientiam phylosophiam ueteres uocauerunt id est omnium rerum diuinarum humanarumque scientiam</incipit>
                   <explicit>VII. Medicina est scientia curationum ad temperamentum et salutem corporis inuenta.</explicit>
                </msItem>
@@ -94,11 +96,9 @@
                </msItem>
                <msItem>
                   <locus from="7v">7vb</locus>
-                  <author ref=""></author>
-                  <title ref=""></title>
                   <incipit><supplied>O</supplied>cto tonos in musica consistere musicus scire debet</incipit>
                   <explicit>quia sonus eorum praessior est quam superorum.</explicit>
-                  <bibl>Folkerts</bibl>!
+                  <bibl>Folkerts</bibl>
                </msItem>
                <msItem>
                   <locus from="7v" to="8v">7vb-8va</locus>
@@ -156,7 +156,7 @@
                </msItem>
                <msItem>
                   <locus from="41r" to="52v">41rb-52vc</locus>
-                  <author ref="#boethius">Boetius</author>
+                  <author ref="#boethius">Boethius</author>
                   <title>In librum Aristotelis de interpretatione libri duo</title>
                   <incipit></incipit>
                   <explicit></explicit>
@@ -194,24 +194,33 @@
                   <author ref="#boethius">Boethius</author>
                   <rubric>Incipit liber communis speculationis de rethorica cognitione</rubric>
                   <title>Speculatio de rhetoricae cognatione</title>
-                  <bibl><abbr>PL</abbr> 64, </bibl>
+                  <bibl><abbr>PL</abbr> 64.</bibl>
                </msItem>
                <msItem>
-                  <locus></locus>
-                  <title></title>
-                  <bibl><abbr>PL</abbr> 64, </bibl>
+                  <note>more texts to be added.</note>
                </msItem>
             </msContents>
             <physDesc>
-               <p>IV + 225 fols. + III*; 515 x 330 mm; f. 138 is a double leaf foulded in two to fit the table of Abbo.</p>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <extent>
+                        <measure type="leavesCount" quantity="225">IV + 225 + III*</measure>
+                        <dimensions type="leaf" unit="mm">
+                           <height>515</height>
+                           <width>330</width>
+                        </dimensions>
+                     </extent>
+                     <collation>f. 138 is a double leaf foulded in two to fit the table of Abbo.</collation>
+                  </supportDesc>
+               </objectDesc>               
             </physDesc>
             <history>
                <origin></origin>
             </history>
             <additional>
                <listBibl>
-                  <head>Selected literature:</head>
-                  <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. Revue d’histoire des textes 11 (1981): 159–276, esp. 210-212.<note> By Vire N. 85, she considered it incomplete and contaminated; the text ends abruptly with book 4, ch. 14 in the middle of a page without any apparent reason; contaminated, because the errors in its readings correspond to two families. Consequently the manuscript is an 11th-century copy of an interpolated exemplar.</note></bibl>
+                  <head>Selected literature: </head>
+                  <bibl>Viré, Ghislaine. ‘La transmission du De astronomia d’Hygin jusqu’au XIIIe siècle’. <title>Revue d’histoire des textes</title> 11 (1981): 159–276, esp. 210-212.<note> By Vire N. 85, she considered it incomplete and contaminated; the text ends abruptly with book 4, ch. 14 in the middle of a page without any apparent reason; contaminated, because the errors in its readings correspond to two families. Consequently the manuscript is an 11th-century copy of an interpolated exemplar.</note></bibl>
                   <bibl><abbr>Leonardi</abbr>, p. 488.</bibl>
                   <bibl><abbr>Borst, Schriften</abbr>, p. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._315">315</ref>.</bibl>
                   <bibl>Folkerts, Menso. ‘The Propositiones ad acuendos iuvenes Ascribed to Alcuin’. In Essays on Early Medieval Mathematics: The Latin Tradition, (IV) 1-9. Aldershot: Variorum, here p. 4.</bibl>
