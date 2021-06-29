@@ -52,6 +52,8 @@
         <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/9v" n="9v"/>
         <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/10r" n="10r"/>
         <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/10v" n="10v"/>
+        <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/11r" n="11r"/>
+        <graphic url="http://www.e-codices.unifr.ch/en/bbb/0088/11v" n="11v"/>
     </facsimile>
     <text>
         <body>
@@ -68,7 +70,7 @@
                     </origDate>
                     <note type="facs">Digital facsimile at <ref type="mss" target="http://www.e-codices.unifr.ch/de/list/one/bbb/0088">e-codices - Virtual Manuscript Library of Switzerland</ref></note>
                     <note type="aratea"><rs type="text" ref="#text__germanicus.xml">Germanicus, Aratea</rs></note>
-                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli">De signis caeli (as scholia)</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli (as scholia)</rs></note>
                 </head>
                 <msContents>
                     <textLang mainLang="lat"/>
@@ -83,10 +85,10 @@
                         <rubric>Claudii caesaris arati phaenomena</rubric>
                         <incipit>Ab ioue principium magno deduxit aratus</incipit>
                         <explicit>
-                            <note>text of the poem ends<locus to="10r">10r</locus>
+                            <note>text of the poem ends on f. <locus from="10r">10r</locus>
                             </note> Significet ventosue truces fidamque quietem.</explicit>
-                        <note>Lost vv. 157-240 on a now lost bifolio at the middle of the quire (between ff. 3 and 4), as well as vv. 387-445 on a now lost folio presumably facing f. 7 which is now singleton.</note>
-                        <note>f. 8r blank</note>
+                        <note>Lost vv. 157-240 on a now lost bifolio at the middle of the quire (between ff. <locus from="3v">3</locus> and <locus from="4r">4</locus>), as well as vv. 387-445 on a now lost folio presumably facing f. <locus from="7r">7</locus> which is now singleton.</note>
+                        <note>f. <locus from="8r">8r</locus> blank</note>
                         <msItem>
                             <locus from="1v" to="7v">1v-7v</locus>
                             <title ref="#de_signis_coeli">De signis coelis</title>
@@ -108,7 +110,7 @@
                         </msItem>
                         <msItem>
                             <locus from="10v" to="11r">10v-11r</locus>
-                            <note>29 interpolated verses from Avienus'<title ref="#aratea_avienus">Aratea</title>:</note>
+                            <note>29 interpolated verses from Avienus' <title ref="#aratea_avienus">Aratea</title>:</note>
                             <incipit>Tempore tum proprio modulatur noctua carmen<lb/>tum uespertinum cornix longeua resultat </incipit>
                             <explicit>Pluribus indicus sollert fulcire memento<lb/>Uale sidens dno xri uestitus amore</explicit>
                         </msItem>
@@ -140,7 +142,7 @@
                         </supportDesc>
                         <layoutDesc>
                             <layout columns="1 2" ruledLines="47">
-                                <p>Ff.<locus from="1v" to="7v">1v-7v</locus> and <locus from="10r" to="11r">10r-11r</locus> written in one ff. <locus from="8v" to="9v">8v-9v</locus> in two columns, 40 lines. The text of the poem takes central place on the folio. Illustrations are drawn in the inner broad margin, while the scholia are copied in the outher margin parallel to the verses to which they relate. Capitalis rustica in red used to mark out opening verses for sections. Verses begin with interchanging red and green initials.</p>
+                                <p>Ff.<locus from="1v" to="7v">1v-7v</locus> and <locus from="10r" to="11r">10r-11r</locus> written in one column, ff. <locus from="8v" to="9v">8v-9v</locus> in two columns, 40 lines. The text of the poem takes central place on the folio. Illustrations are drawn in the inner broad margin, while the scholia are copied in the outher margin parallel to the verses to which they relate. Capitalis rustica in red used to mark out opening verses for sections. Verses begin with interchanging red and green initials.</p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
@@ -151,7 +153,7 @@
                         </scriptNote>
                     </scriptDesc>
                     <decoDesc>
-                        <decoNote>28 illustrations of the constellations, two per folio. For iconographical analysis see<bibl>Homburger, Otto: Die illustrierten Handschriften der Burgerbibliothek Bern. Bd. 2. (Bern, um 1960)<ptr target="http://www.e-codices.unifr.ch/de/description/bbb/0088/"/>
+                        <decoNote>28 illustrations of the constellations, two per folio. For iconographical analysis see <bibl>Homburger, Otto: Die illustrierten Handschriften der Burgerbibliothek Bern. Bd. 2. (Bern, um 1960)<ptr target="http://www.e-codices.unifr.ch/de/description/bbb/0088/"/>
                             </bibl>, <bibl>
                                 <abbr>Sternbilder des Mittelalters</abbr>, pp. 216-17</bibl>, as well as Kristen Lippincott's Saxl Project<ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-descriptions-Germanicus-Bern-88-15-Nov-2012.pdf"/>.</decoNote>
                     </decoDesc>
@@ -174,11 +176,11 @@
                 </history>
                 <additional>
                     <listBibl>
-                        <head>Selected bibliography:</head>
+                        <head>Selected bibliography: </head>
                         <bibl>
                             <abbr>Sternbilder des Mittelalters</abbr>, pp. 214-18.</bibl>
-                        <bibl>Boutemy, André. "Obdert de Saint-Bertin et la second Bible de Charles le Chauve,"<title>Scriptorium</title> 4 (1950): 101-102.</bibl>
-                        <bibl>Homburger, Otto. “Über die kunstgeschichtliche Bedeutung der Handschriften der Burgerbibliothek.” In<title>Schätze der Burgerbibliothek Bern</title>, pp. 107-130. Bern: Lang, 1953.</bibl>
+                        <bibl>Boutemy, André. "Obdert de Saint-Bertin et la second Bible de Charles le Chauve," Scriptorium 4 (1950): 101-102.</bibl>
+                        <bibl>Homburger, Otto. “Über die kunstgeschichtliche Bedeutung der Handschriften der Burgerbibliothek.” In Schätze der Burgerbibliothek Bern, pp. 107-130. Bern: Lang, 1953.</bibl>
                         <bibl>
                             <abbr>Bischoff, Kommentar</abbr>, pp. 13-14.</bibl>
                         <bibl>
@@ -205,7 +207,7 @@
                             <abbr>Dell'Era (1979)</abbr>, pp. 269-70.</bibl>
                         <bibl>
                             <abbr>Dekker</abbr>, pp. 145, 163, 173-75 and 233-35.</bibl>
-                        <bibl>Saenger, Paul.<title>Space Between Words: The Origins of Silent Reading</title>. Stanford University Press, 1997.</bibl>
+                        <bibl>Saenger, Paul. Space Between Words: The Origins of Silent Reading. Stanford University Press, 1997.</bibl>
                         <bibl>Stutzmann, Dominique. “Saint-Bertin : centre culturel du VIIe au XVIIIe siècle.” 2016.<ptr target="http://saint-bertin.irht.cnrs.fr/site/php/notice.php?id=Boulogne-sur-Mer188&amp;catalogue=boulogne"/>.</bibl>
                         <bibl>Lippincott, Kristen. Saxl Project<ptr target="http://www.kristenlippincott.com/assets/Uploads/MSS-descriptions-Germanicus-Bern-88-15-Nov-2012.pdf"/>.</bibl>
                     </listBibl>
