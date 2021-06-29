@@ -45,10 +45,9 @@
 				        <head>
 					          <title>Composed manuscript</title>
 					          <origPlace ref="#corvey">Corvey Abbey</origPlace>
-					          <origDate notBefore="0850" notAfter="0900">s. IX<hi rend="sup">2</hi>
+				            <origDate notBefore="0850" notAfter="0900">s. IX<hi rend="sup">2</hi></origDate>
 					              <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis coeli</rs></note>
 					          	<note type="facs">Digital facsimile at <ref type="altMs" target="http://diglib.hab.de/mss/132-gud-lat/start.htm?image=00001">Herzog August Bibliothek</ref></note>
-                    </origDate>
 				        </head>
 				        <msContents>
 					          <textLang mainLang="lat"/>

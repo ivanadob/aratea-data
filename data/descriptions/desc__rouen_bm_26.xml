@@ -46,9 +46,10 @@
             </msIdentifier>
             <head>
                <title>Astronomical-computistical collection</title>
-               <origDate>s. IX<hi rend="sup">3/4</hi> (853-867)</origDate>
+               <origDate notBefore="0853" notAfter="0867">s. IX<hi rend="sup">3/4</hi> (853-867)</origDate>
                <origPlace ref="https://www.geonames.org/12189183">Jumièges Abbey Saint-Pierre</origPlace>
                <note type="catalogue"><ref target="https://data.biblissima.fr/entity/Q187979"></ref></note>
+               <note type="aratea"><rs ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
             </head>
             <msContents>
                <msItem>
@@ -350,7 +351,7 @@
                </p>
                     </msItem> 
                  
-               <msItem>  
+               <msItem class="aratea">  
                   <locus from="197" to="201v">197</locus>
                   <title ref="#de_signis_coeli">De signis coeli</title> 
                   <incipit>Helix arcturus major habet autem in capite</incipit>
