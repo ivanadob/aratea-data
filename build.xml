@@ -28,6 +28,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt in="./data/indices/listtitle.xml" out="${target}/listtitle.html" style="./xslt/make_listtitle.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>
