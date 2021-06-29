@@ -2243,18 +2243,22 @@
 		</xsl:when>
 		<xsl:when test="not(parent::tei:bibl) and not(@type='sub')">
 			<span>
-				<xsl:attribute name="class">titlemain</xsl:attribute>
+				<xsl:attribute name="class">titlemain</xsl:attribute>				
 				<xsl:if test=" @rend = 'supplied' and not(preceding-sibling::tei:author[ @rend = 'supplied' ]) "><xsl:text>[</xsl:text></xsl:if>
-				<xsl:apply-templates/>
-				<xsl:if test=" @rend = 'supplied' "><xsl:text>]</xsl:text></xsl:if>
-				<xsl:if test=" @ref != ' ' ">
-					<a>
-						<xsl:attribute name="href">
+				<xsl:choose>
+					<xsl:when test=" @ref != ' ' ">
+						<a>
+							<xsl:attribute name="href">
+								<xsl:value-of select="concat($githubPages, 'listtitle.html', @ref)"/>
+							</xsl:attribute>	
 							<xsl:value-of select="."/>
-						</xsl:attribute>
+						</a>
+					</xsl:when>
+					<xsl:otherwise>
 						<xsl:apply-templates/>
-					</a>
-				</xsl:if>				
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:if test=" @rend = 'supplied' "><xsl:text>]</xsl:text></xsl:if>
 			</span>
 		</xsl:when>
 		<xsl:when test="not(parent::tei:bibl)">
