@@ -7,11 +7,11 @@
 	version="2.0">
 	<xsl:variable name="Status"></xsl:variable>
 	<xsl:variable name="showAuthorname">yes</xsl:variable>
-	<xsl:variable name="githubPages">https://ivanadob.github.io/aratea-data/</xsl:variable>
 	<xsl:variable name="full_path">
 		<xsl:value-of select="document-uri(/)"/>
 	</xsl:variable>
 	<xsl:variable name="gbv"/>
+	<xsl:variable name="githubPages">https://ivanadob.github.io/aratea-data/</xsl:variable>
 	<xsl:variable name="facsimileData"/>
 	<xsl:variable name="startfile"/>
 	<xsl:variable name="imageParameter"/>
@@ -1712,9 +1712,44 @@
 	</xsl:choose>
 </xsl:template>
 
+	<xsl:template match="tei:ref">
+		<xsl:choose>
+			<xsl:when test="starts-with(data(@target), 'http')">
+				<a>
+					<xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+					<xsl:value-of select="."/>
+				</a>
+			</xsl:when>
+			<xsl:when test="starts-with(data(@target), '#desc')">
+				<xsl:variable name="desc">
+					<xsl:value-of select="replace(tokenize(@target, '/')[last()], '.xml', '.html')"/>
+				</xsl:variable>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="concat($githubPages,(substring-after($desc,'#')))"/>
+					</xsl:attribute>
+					<xsl:value-of select="."/>
+				</a>
+			</xsl:when>
+			<xsl:when test="starts-with(data(@target), '#text')">
+				<xsl:variable name="text">
+					<xsl:value-of select="replace(tokenize(@target, '/')[last()], '.xml', '.html')"/>
+				</xsl:variable>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:value-of select="concat($githubPages,(substring-after($text,'#')))"/>
+					</xsl:attribute>
+					<xsl:value-of select="."/>
+				</a>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 <xsl:template match="tei:ref[not(normalize-space(.)='')] | tei:ptr">
 	<xsl:choose>
-		<xsl:when test="@target and @type='entity'">
+		<!--<xsl:when test="@target and @type='entity'">
 			<a>
 				<xsl:attribute name="href">
 					<xsl:value-of select="unparsed-entity-uri(@target)"/>
@@ -1724,7 +1759,7 @@
 				</xsl:attribute>
 				<xsl:apply-templates/>
 			</a>
-		</xsl:when>
+		</xsl:when>-->
 		<xsl:when test="@target">
 			<a>
 				<xsl:attribute name="href">
@@ -1748,7 +1783,7 @@
 				<xsl:apply-templates/>
 			</a>
 		</xsl:when>
-		<xsl:when test="@type='urn'">
+		<!--<xsl:when test="@type='urn'">
 			<a>
 				<xsl:attribute name="href">
 					<xsl:value-of select="$urn-resolver"/>
@@ -1756,16 +1791,16 @@
 				</xsl:attribute>
 				<xsl:apply-templates/>
 			</a>
-		</xsl:when>
-		<xsl:when test="@type='biblical' and @cRef">
+		</xsl:when>-->
+		<!--<xsl:when test="@type='biblical' and @cRef">
 			<xsl:if test="not(normalize-space(.) = translate(@cRef, '_.', '  '))"><xsl:apply-templates/></xsl:if>
 			<xsl:if test="not(self::tei:ptr) and normalize-space(.) = normalize-space(parent::node())">
-<!--
+<!-\-
 				<span>
 					<xsl:attribute name="class">smaller</xsl:attribute>
 					<xsl:text>‹</xsl:text>
 				</span>
--->
+-\->
 				<xsl:call-template name="Satzzeichen"/>
 			</xsl:if>
 			<a>
@@ -1802,8 +1837,8 @@
                         </xsl:otherwise>
 				</xsl:choose>
 				</a>
-		</xsl:when>
-		<xsl:when test="@type='cao' and @cRef">
+		</xsl:when>-->
+		<!--<xsl:when test="@type='cao' and @cRef">
 			<xsl:apply-templates/>
 			<xsl:text> [</xsl:text>
 			<a>
@@ -1814,7 +1849,7 @@
 			<xsl:value-of select="@cRef"/>
 			<xsl:text>]</xsl:text>
 			<xsl:call-template name="Satzzeichen"/>
-		</xsl:when>
+		</xsl:when>-->
 		<xsl:when test="(@type = 'biblical') or (@type = 'classical') or (@type = 'medieval') ">
 			<xsl:apply-templates/>
 			
@@ -1834,21 +1869,22 @@
                     </xsl:otherwise>
                 </xsl:choose>
 			</xsl:when>
-		<xsl:when test="@type='mss' and @cRef">
+		<!--<xsl:when test="@type='mss' and @cRef">
 			<a>
 				<xsl:attribute name="href"><xsl:value-of select="concat($pathFromHere,@cRef,'.html')"/></xsl:attribute>
 				<xsl:apply-templates/>
 			</a>
-		</xsl:when>
+		</xsl:when>-->	
 		
-		<xsl:when test="@type='gbv' and @cRef">
+		
+		<!--<xsl:when test="@type='gbv' and @cRef">
 			<a>
 				<xsl:attribute name="href">
 					<xsl:value-of select="concat($gbv, @cRef)"/>
 				</xsl:attribute>
 				<xsl:apply-templates/>
 			</a>
-		</xsl:when>
+		</xsl:when>-->
 		
 		<xsl:when test="($listAbbreviatedTitles = 'yes') and parent::tei:bibl and
 			((.=//tei:list[@type = 'bibliography'][not(preceding::tei:list[@type = 'bibliography'])]/tei:item/tei:label) or
@@ -1950,6 +1986,8 @@
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:template>
+	
+	
 
 <xsl:template match="tei:rs[not(normalize-space(.)='')][@type = 'person'] | tei:author" mode="Register">
 	<xsl:if test="not(preceding::tei:rs[@type = 'person'][. = current()] or preceding::tei:persName[. = current()] or preceding::tei:author[. = current()]) and
@@ -2248,13 +2286,13 @@
 </xsl:template>
 
 <!-- benannte Templates -->
-<xsl:template name="Autor">
+<!--<xsl:template name="Autor">
 	<xsl:param name="author"/>
 	<p>
 		<xsl:attribute name="class">foot</xsl:attribute>
 		<xsl:value-of select="$author"/>
 	</p>
-</xsl:template>
+</xsl:template>-->
 
 <xsl:template name="BibliographieAusgeben">
 	<hr/>	
@@ -2340,7 +2378,7 @@
 				$bibliography//tei:label[. = current()//tei:abbr[parent::tei:bibl[not(ancestor::tei:source)]][not(ancestor::tei:list[@type = 'bibliography'])]]">
 				<xsl:call-template name="BibliographieAusgeben"/>
 			</xsl:if>			
-			<xsl:if test="($showIndex = 'yes') and ( 
+			<!--<xsl:if test="($showIndex = 'yes') and ( 
 				descendant::tei:author[parent::tei:msItem] 
 				or descendant::tei:incipit 
 				or descendant::tei:index 
@@ -2348,8 +2386,8 @@
 				or descendant::tei:rs[(@type='person') or (@type='place') or (@type='org') or (@type='corporate')]
 				or descendant::tei:title[parent::tei:msItem]
 				) ">
-<!--				<xsl:call-template name="registerAusgeben"/>-->
-			</xsl:if>
+<!-\-				<xsl:call-template name="registerAusgeben"/>-\->
+			</xsl:if>-->
 				<hr/>
 				<div class="copyright">
 					<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
@@ -2462,7 +2500,57 @@
 		</p>-->
 	</xsl:template>	
 	
-	
+	<xsl:template name="Ueberschrift">
+	<p>
+		<xsl:attribute name="class">head</xsl:attribute>
+		<xsl:choose>
+			<xsl:when test="tei:head/tei:title">
+				<xsl:apply-templates select="tei:head/tei:title"/>
+			</xsl:when>
+			<xsl:when test="not(tei:head/tei:title) and tei:msIdentifier/tei:msName">
+				<xsl:apply-templates select="tei:msIdentifier/tei:msName"/>
+			</xsl:when>
+			<!--<xsl:otherwise>
+				<xsl:for-each
+					select="tei:msContents/tei:msItem[tei:author or tei:title] | tei:msPart/tei:msContents/tei:msItem[tei:author or tei:title]">
+					<xsl:if test="preceding-sibling::tei:msItem[tei:author or tei:title]">
+						<xsl:value-of select="$Trennzeichen"/>
+					</xsl:if>
+					<xsl:value-of select="tei:author"/>
+					<xsl:if test="tei:author and tei:title">
+						<xsl:text>: </xsl:text>
+					</xsl:if>
+					<xsl:value-of select="tei:title"/>
+				</xsl:for-each>
+			</xsl:otherwise>-->
+		</xsl:choose>
+		
+	</p>
+	<p>
+		<xsl:choose>
+			<xsl:when test="tei:head/tei:note[@type='aratea']">
+				<span><xsl:text>Aratea text: </xsl:text>
+					<xsl:for-each select="tei:head/tei:note[@type='aratea']">	
+						<xsl:variable name="githubPages">https://ivanadob.github.io/aratea-data/</xsl:variable>
+						<xsl:variable name="nohashtag">
+							<xsl:value-of select="substring-after(tei:rs/@ref, '#')"/>
+						</xsl:variable>
+						<a> 
+							<xsl:attribute name="href">
+								<xsl:value-of select="concat($githubPages,replace(tokenize($nohashtag, '/')[last()], '.xml', '.html'))"/>
+							</xsl:attribute>
+							
+							<xsl:value-of select="."/>
+							<xsl:if test="following-sibling::tei:note[@type='aratea']">
+								<xsl:text>; </xsl:text>
+							</xsl:if>
+						</a>
+					</xsl:for-each>
+				</span>
+			</xsl:when>
+		</xsl:choose>
+	</p>
+</xsl:template>
 
 <xsl:template name="Datum-ausgeben">
 	<xsl:param name="date"/>
@@ -2494,7 +2582,7 @@
 </xsl:template>
 	
 	
-<xsl:template name="HandschriftenErwaehnteAusgeben">
+<!--<xsl:template name="HandschriftenErwaehnteAusgeben">
 	<ul>
 		<xsl:for-each-group select="descendant::tei:ref[(@type='mss') or (@type='altMs')]" group-by="if (@cRef) then @cRef else normalize-space(.)">
 			
@@ -2518,7 +2606,7 @@
 							</xsl:choose>
 						</a>
 					</span>
-					<!--
+					<!-\-
 					<xsl:for-each select="current-group()/ancestor::node()[tei:locus]/tei:locus[1]">
 						<xsl:text> </xsl:text>
 						<xsl:apply-templates select="self::node()">
@@ -2526,7 +2614,7 @@
 						</xsl:apply-templates>
 						<xsl:if test="not(position() = last())"><xsl:text>,</xsl:text></xsl:if>
 					</xsl:for-each>
-					-->
+					-\->
 					<xsl:if test="not(position() = last())"><xsl:text>;</xsl:text></xsl:if>
 				</xsl:for-each-group>
 			</li>
@@ -2558,7 +2646,7 @@
 													</xsl:choose>
 												</a>
 											</span>
-											<!--
+											<!-\-
 											<xsl:for-each select="current-group()/ancestor::node()[tei:locus]/tei:locus[1]">
 												<xsl:text> </xsl:text>
 												<xsl:apply-templates select="self::node()">
@@ -2566,7 +2654,7 @@
 												</xsl:apply-templates>
 												<xsl:if test="not(position() = last())"><xsl:text>,</xsl:text></xsl:if>
 											</xsl:for-each>
-											-->
+											-\->
 											<xsl:if test="not(position() = last())"><xsl:text>;</xsl:text></xsl:if>
 										</xsl:for-each-group>
 									</li>
@@ -2578,11 +2666,11 @@
 			</li>
 		</xsl:for-each-group>
 	</ul>
-</xsl:template>
-<xsl:template name="SignaturAusgeben">
+</xsl:template>-->
+<!--<xsl:template name="SignaturAusgeben">
 	<xsl:param name="Value"/>
 	<xsl:value-of select="$Value"/>
-</xsl:template>
+</xsl:template>-->
 
 <xsl:template name="Hauptverteiler">
 	<xsl:apply-templates select="tei:physDesc"/>
@@ -2593,7 +2681,7 @@
 	<xsl:apply-templates select="tei:msPart[not(@rend = 'condensed')]"/>
 </xsl:template>
 
-<xsl:template name="JavascriptEinfuegen">
+<!--<xsl:template name="JavascriptEinfuegen">
 	<script>
 		<xsl:attribute name="type">text/javascript</xsl:attribute><![CDATA[
 function Go (select) {
@@ -2617,7 +2705,7 @@ function Go (select) {
 	}
 }
 ]]></script>
-</xsl:template>
+</xsl:template>-->
 
 
 
@@ -2657,7 +2745,10 @@ function Go (select) {
 	</xsl:variable>
 	<xsl:variable name="facsimile">
 		<xsl:choose>
-			<xsl:when test="ancestor-or-self::tei:TEI/tei:facsimile"><xsl:copy-of select="ancestor-or-self::tei:TEI/tei:facsimile"/></xsl:when><!--
+			<xsl:when test="ancestor-or-self::tei:TEI/tei:facsimile">
+				<xsl:copy-of select="ancestor-or-self::tei:TEI/tei:facsimile"/>
+			</xsl:when>
+			<!--
 			<xsl:when test="doc-available('tei-msDesc.xml') and doc('tei-msDesc.xml')//tei:facsimile"><xsl:copy-of select="doc('tei-msDesc.xml')//tei:facsimile"/></xsl:when>
 			<xsl:when test="doc-available(concat($server, $collection, '/', $xmlid, '/', $facsimileData))"><xsl:copy-of select="doc(concat($server, $collection, '/', $xmlid, '/', $facsimileData))"/></xsl:when>-->
 		</xsl:choose>
@@ -3424,57 +3515,7 @@ function Go (select) {
 	</div>
 </xsl:template>
 
-<xsl:template name="Ueberschrift">
-	<p>
-		<xsl:attribute name="class">head</xsl:attribute>
-		<xsl:choose>
-			<xsl:when test="tei:head/tei:title">
-				<xsl:apply-templates select="tei:head/tei:title"/>
-			</xsl:when>
-			<xsl:when test="not(tei:head/tei:title) and tei:msIdentifier/tei:msName">
-				<xsl:apply-templates select="tei:msIdentifier/tei:msName"/>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:for-each
-					select="tei:msContents/tei:msItem[tei:author or tei:title] | tei:msPart/tei:msContents/tei:msItem[tei:author or tei:title]">
-					<xsl:if test="preceding-sibling::tei:msItem[tei:author or tei:title]">
-						<xsl:value-of select="$Trennzeichen"/>
-					</xsl:if>
-					<xsl:value-of select="tei:author"/>
-					<xsl:if test="tei:author and tei:title">
-						<xsl:text>: </xsl:text>
-					</xsl:if>
-					<xsl:value-of select="tei:title"/>
-				</xsl:for-each>
-			</xsl:otherwise>
-		</xsl:choose>
-		
-	</p>
-	<p>
-		<xsl:choose>
-			<xsl:when test="tei:head/tei:note[@type='aratea']">
-				<span><xsl:text>Aratea text: </xsl:text>
-					<xsl:for-each select="tei:head/tei:note[@type='aratea']">	
-						
-						<xsl:variable name="nohashtag">
-							<xsl:value-of select="substring-after(tei:note[@type='aratea']/tei:rs/@ref, '#')"/>
-						</xsl:variable>
-						<a> 
-							<xsl:attribute name="href">
-								<xsl:value-of select="concat($githubPages,replace(tokenize($nohashtag, '/')[last()], '.xml', '.html'))"/>
-							</xsl:attribute>
-								
-							<xsl:apply-templates/>
-							<xsl:if test="following-sibling::tei:note[@type='aratea']">
-								<xsl:text>; </xsl:text>
-							</xsl:if>
-						</a>
-					</xsl:for-each>
-				</span>
-			</xsl:when>
-		</xsl:choose>
-	</p>
-</xsl:template>
+
 
 <xsl:template match="tei:back | tei:body | tei:index | tei:publicationStmt | tei:text | tei:titleStmt"/>
 <xsl:template match="tei:settlement[. = $ignoreInSettlement] | 
