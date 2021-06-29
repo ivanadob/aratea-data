@@ -11,21 +11,14 @@
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
-    <xslt style="${stylesheet_desc}" destdir="${target}">
+    <delete dir="${target}/static-search"/>
+    <xslt style="${stylesheet_desc}"  basedir="${source_desc}" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-        <fileset dir="${source_desc}">
-            <include name="desc__*.xml"/>
-        </fileset>
-        <mapper type="glob" from="desc__*.xml" to="desc__*.html"/>
     </xslt>
-    <xslt style="${stylesheet_text}" destdir="${target}">
+    <xslt style="${stylesheet_text}" basedir="${source_text}" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-        <fileset dir="${source_text}">
-            <include name="text__*.xml"/>
-        </fileset>
-        <mapper type="glob" from="text__*.xml" to="text__*.html"/>
     </xslt>
     <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
