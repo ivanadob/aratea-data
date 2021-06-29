@@ -21,8 +21,9 @@
                             <tr>
                                 <th scope="col">Shelfmark</th>
                                 <th scope="col">Aratea text</th>
-                                <th scope="col"></th>
-                                <th scope="col"></th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Place</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -43,7 +44,11 @@
                                         <xsl:value-of select="..//tei:body/tei:msDesc/tei:head/tei:note[@type='aratea']"/>
                                     </td>
                                     <td>
-                                        <xsl:value-of select="..//tei:body/tei:msDesc/tei:head/tei:origDate"/>
+                                        <xsl:apply-templates select="..//tei:body/tei:msDesc/tei:head/tei:origDate/@notBefore"/><xsl:text>-</xsl:text>
+                                        <xsl:apply-templates select="..//tei:body/tei:msDesc/tei:head/tei:origDate/@notAfter"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="..//tei:body/tei:msDesc/tei:head/tei:origDate"/>
                                     </td>
                                     <td>
                                         <xsl:value-of select="..//tei:body/tei:msDesc/tei:head/tei:origPlace"/>
@@ -62,7 +67,9 @@
     <xsl:template match="tei:div//tei:head">
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
-    
+    <xsl:template match="tei:hi[@rend = 'sup']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
     <xsl:template match="tei:p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
