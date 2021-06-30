@@ -1,1 +1,1 @@
-{"stem":"mutation","instances":[{"docId":"listtitle","docUri":"listtitle.html","score":1,"contexts":[{"form":"mutatione","weight":"1","pos":4053,"context":" De temporum <mark>mutatione<\/mark> Omnis ratio tempestatum observata est ab antiquis tribus modis...","fid":"pliny_excerpt_temporum"}]}]}
+{"stem":"mutation","instances":[{"docId":"listtitle","docUri":"listtitle.html","score":1,"contexts":[{"form":"mutatione","weight":"1","pos":3827,"context":"De temporum <mark>mutatione<\/mark>","fid":"pliny_excerpt_temporum"}]}]}

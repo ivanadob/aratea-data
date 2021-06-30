@@ -1,1 +1,1 @@
-{"stem":"generation","instances":[{"docId":"listtitle","docUri":"listtitle.html","score":1,"contexts":[{"form":"generationes","weight":"1","pos":671,"context":" Isidore Chronica Brevem temporum per <mark>generationes<\/mark> et regna primus ex nostris Iulius Afticanus tunc illi...","fid":"chronica_isidori"}]}]}
+{"stem":"generation","instances":[{"docId":"listtitle","docUri":"listtitle.html","score":1,"contexts":[{"form":"generationes","weight":"1","pos":666,"context":"Brevem temporum per <mark>generationes<\/mark> et regna primus ex nostris Iulius Afticanus"}]}]}
