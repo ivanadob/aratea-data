@@ -23,24 +23,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index-mss.html">Manuscripts</a>
                     </li>
-                    <!--<li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Descriptions
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <xsl:for-each select="collection('../data/descriptions')//tei:TEI">
-                                        <xsl:variable name="full_path">
-                                            <xsl:value-of select="document-uri(/)"/>
-                                        </xsl:variable>
-                                        <xsl:variable name="relativ_path">
-                                            <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
-                                        </xsl:variable>
-                                        <a class="dropdown-item" href="{$relativ_path}">
-                                            <xsl:value-of select=".//tei:title[@type='sub']/text()"/>
-                                        </a>
-                                    </xsl:for-each>
-                                </div>
-                            </li>-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Indices
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listtitle.html">
+                                Works within MSS
+                            </a>
+                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listperson.html">
+                                Persons
+                            </a>
+                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listplace.html">
+                                Places
+                            </a>
+                        </div>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true"

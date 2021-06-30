@@ -17,15 +17,47 @@
                 <xsl:call-template name="nav_bar"/>
                 <div class="container">
                     <span class="header">List of works in manuscripts with Aratean texts</span>
-                    <xsl:for-each select=".//work">
-                        <p>
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="@xml:id"/>
-                            </xsl:attribute>
-                            <xsl:apply-templates/>
-                        </p>
-                    </xsl:for-each>
-                </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Summary</th>
+                                <th scope="col">Inc.</th>
+                                <th scope="col">Expl.</th>
+                                <th scope="col">Bibliography</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <xsl:for-each select=".//work">
+                                <tr>
+                                    <td>
+                                        <xsl:attribute name="id">
+                                    <xsl:value-of select="@xml:id"/>
+                                </xsl:attribute>
+                                <xsl:apply-templates select="title"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="author"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="note"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="incipit"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="explicit"/>
+                                    </td>
+                                    <td>
+                                        <xsl:apply-templates select="bibl"/>                                        
+                                    </td>
+                                </tr>
+                            </xsl:for-each>
+                        </tbody>
+                    </table>
+                </div>                     
+                    
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
@@ -33,7 +65,34 @@
         </html>
     </xsl:template>
     
-    <!--<xsl:template match="tei:ref">
+    <xsl:template match="bibl[not(normalize-space(.)='')]">
+        <xsl:apply-templates/>
+                
+                <xsl:choose>
+                    <xsl:when test="following-sibling::bibl[not(normalize-space(.)='')]">
+                        <xsl:text> &#x2014; </xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:call-template name="empty_space"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+    </xsl:template>
+    <xsl:template name="empty_space">
+        <xsl:if test="(
+            not(ends-with(normalize-space(parent::*), normalize-space(.))) and
+            not(starts-with(following-sibling::node()[1],')')) and
+            not(starts-with(following-sibling::node()[1],',')) and
+            not(starts-with(following-sibling::node()[1],';')) and
+            not(starts-with(following-sibling::node()[1],'.')) and
+            not(starts-with(following-sibling::node()[1],':')) and
+            not(starts-with(following-sibling::node()[1],'-')) and
+            not(starts-with(following-sibling::node()[1],'–')) and
+            not(starts-with(following-sibling::node()[1],']'))
+            ) or starts-with(following-sibling::node()[1],'&#x2026;')">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), 'http')">
                 <a>
@@ -45,5 +104,5 @@
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template>-->
+    </xsl:template>
 </xsl:stylesheet>

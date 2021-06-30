@@ -75,7 +75,7 @@
                          <persName xml:id="gnd_118508237" ref="http://d-nb.info/gnd/118508237" xml:lang="lat">Beda &lt;Venerabilis&gt;</persName>
                     </person>
                     <person xml:id="benzelius_erik">
-                        <persName xml:id="gnd_120993627">Erik &lt;Benzelius&gt;</persName>
+                        <persName xml:id="gnd_120993627" ref="http://d-nb.info/gnd/120993627">Erik &lt;Benzelius&gt;</persName>
                         <occupation>archbishop of Sweden</occupation>
                         <occupation>scholar</occupation>
                         <occupation>theologian</occupation>
@@ -107,7 +107,7 @@
                         <persName>Ps. Censorinus</persName>
                     </person>
                     <person xml:id="christina_from_sweden">
-                        <persName xml:id="gnd_118520652">Christina &lt;Queen of Sweden&gt;</persName>
+                        <persName xml:id="gnd_118520652" ref="http://d-nb.info/gnd/118520652">Christina &lt;Queen of Sweden&gt;</persName>
                     </person>
                     <person xml:id="cicero">
                         <persName xml:id="gnd_118520814" ref="http://d-nb.info/gnd/118520814">Marcus &lt;Tullius Cicero&gt;</persName>
@@ -161,9 +161,9 @@
                     </person>
                     <person xml:id="heiric">
                         <persName xml:id="gnd_119215888" ref="http://d-nb.info/gnd/119215888">Heiric of Auxerres</persName>
-                        <note type="references">
+                        <bibl>
                         <ref target="http://en.wikipedia.org/wiki/Heiric_of_Auxerre">Wikipedia</ref>
-                    </note>
+                    </bibl>
                     </person>
                     <person xml:id="henricus_augustanus">
                         <persName xml:id="gnd_100945597" ref="http://d-nb.info/gnd/100945597">Henricus Augustanus</persName>
@@ -193,7 +193,7 @@
                         <persName xml:id="gnd_118553909" ref="http://d-nb.info/gnd/118553909">Hrabanus &lt;Maurus&gt;</persName>
                     </person>
                     <person xml:id="hucbaldus">
-                        <persName xml:id="gnd_118707566">Hucbaldus &lt;de Sancto Amando&gt;</persName>
+                        <persName xml:id="gnd_118707566" ref="http://d-nb.info/gnd/118707566">Hucbaldus &lt;de Sancto Amando&gt;</persName>
                         <persName>Hucbaldus de Sancto Amando</persName>
                     </person>
                     <person xml:id="hugo_st_victor">
@@ -230,14 +230,14 @@
                         <persName xml:id="gnd_118542702" ref="http://d-nb.info/gnd/118542702">Hugo &lt;Grotius&gt;</persName>
                     </person>
                     <person xml:id="isaac_vossius">
-                        <persName xml:id="gnd_119288842">Isaac &lt;Vossius&gt;</persName>
+                        <persName xml:id="gnd_119288842" ref="http://d-nb.info/gnd/119288842">Isaac &lt;Vossius&gt;</persName>
                     </person>
                     <person xml:id="isidore">
                         <persName xml:id="gnd_118555995" ref="http://d-nb.info/gnd/118555995" xml:lang="lat">Isidorus &lt;Hispalensis&gt;</persName>
                         <persName>Isidore of Seville</persName>
                     </person>
                     <person xml:id="iulius_frontinus">
-                        <persName xml:id="gnd_118536443" ref=" http://d-nb.info/gnd/118536443">Iulius &lt;Sextus Frontinus&gt;</persName>
+                        <persName xml:id="gnd_118536443" ref="http://d-nb.info/gnd/118536443">Iulius &lt;Sextus Frontinus&gt;</persName>
                     </person>
                     <person xml:id="iulius_vistor">
                         <persName xml:id="gnd_102396701" ref="http://d-nb.info/gnd/102396701">Iulius &lt;Victor&gt;</persName>
@@ -279,7 +279,7 @@
                         <persName xml:id="gnd_118729748" ref="http://d-nb.info/gnd/118729748">Lupus of Ferrières</persName>
                     </person>
                     <person xml:id="macrobius">
-                        <persName xml:id="gnd_118640763">Macrobius &lt;Ambrosius Theodosius&gt;</persName>
+                        <persName xml:id="gnd_118640763" ref="http://d-nb.info/gnd/118640763">Macrobius &lt;Ambrosius Theodosius&gt;</persName>
                         <persName>Macrobius Ambrosius Theodosius</persName>
                     </person>
                     <person xml:id="marius_plotius_sacerdos">
@@ -311,7 +311,7 @@
                         <occupation>copist</occupation>
                     </person>
                     <person xml:id="pacificus_veronensis">
-                        <persName xml:id="gnd_119427990">Pacificus Veronensis</persName>
+                        <persName xml:id="gnd_119427990" ref="http://d-nb.info/gnd/119427990">Pacificus Veronensis</persName>
                     </person>
                     <person xml:id="philibert_de_la_mare">
                         <persName xml:id="gnd_104135883" ref="http://d-nb.info/gnd/104135883">Philibert &lt;de La Mare&gt;</persName>
@@ -362,7 +362,7 @@
                         <persName xml:id="gnd_118619918" ref="http://d-nb.info/gnd/118619918">Suetonius Tranquillus, Gaius</persName>
                     </person>
                     <person xml:id="susius">
-                        <persName xml:id="gnd_135617855">Iacobus &lt;Susius&gt;</persName>
+                        <persName xml:id="gnd_135617855" ref="http://d-nb.info/gnd/135617855">Iacobus &lt;Susius&gt;</persName>
                         <persName>Suys, Jacobus van</persName>
                         <occupation>humanist</occupation>
                         <birth>1565</birth>
@@ -384,7 +384,7 @@
                         <persName xml:id="gnd_118629034" ref="http://d-nb.info/gnd/118629034">Wandalbert von Prüm</persName>
                     </person>
                     <person xml:id="werner_von_habsburg">
-                        <persName xml:id="gnd_139142975">Werner &lt;von Habsburg&gt;</persName>
+                        <persName xml:id="gnd_139142975" ref="http://d-nb.info/gnd/139142975">Werner &lt;von Habsburg&gt;</persName>
                         <persName>Werner I. bishop of Strasbourg</persName>
                         <occupation>bishop of Strasbourg (1001-1028)</occupation>
                     </person>
