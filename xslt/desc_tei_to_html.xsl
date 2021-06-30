@@ -210,7 +210,20 @@
 				</xsl:when>
 			</xsl:choose>
 			<xsl:if test="@rend='supplied'">[</xsl:if>
-			<xsl:apply-templates/>
+			<xsl:choose>
+				<xsl:when test=" @ref != ' ' ">
+					<a>
+						<xsl:attribute name="href">
+							<xsl:value-of select="concat($githubPages, 'listperson.html', @ref)"/>
+						</xsl:attribute>	
+						<xsl:value-of select="."/>
+					</a>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates/>
+				</xsl:otherwise>
+			</xsl:choose>
+			
 			<xsl:choose>
 				<xsl:when test="following-sibling::tei:author and 
 					not(starts-with(substring-after(..,.),',')) and 
@@ -236,7 +249,7 @@
 				</xsl:when>
 				<xsl:when test="not(parent::tei:bibl) and preceding-sibling::tei:ptr and normalize-space(following-sibling::text()[1])">
 					<xsl:call-template name="Leerzeichen"/>
-				</xsl:when>
+				</xsl:when>				
 			</xsl:choose>
 			<xsl:if test="@rend='supplied' and not(following-sibling::tei:title[1][@rend='supplied'])">]</xsl:if>
 		</span>

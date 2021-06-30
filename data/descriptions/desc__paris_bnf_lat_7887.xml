@@ -33,6 +33,15 @@
         <change when="2018-10-24">complete</change>
      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n="1v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n="2r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f7.item" n="2v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item" n="3v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item" n="4r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n=""/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n=""/>
+   </facsimile>
   <text>
      <body>
         <msDesc xml:id="paris_bnf_lat_7887" xml:lang="eng">
@@ -54,6 +63,7 @@
               <origDate notBefore="0881" notAfter="0900">s. IX<hi rend="sup">ex</hi>
               </origDate>
               <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721144c">gallica.bnf.fr</ref></note>
+              <note type="catalogue"><ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc67141z"></ref></note>
               <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
            </head>
            <msContents>
@@ -61,8 +71,6 @@
               <msItem class="aratea">
                  <locus from="1v" to="50v">1v-50v</locus>
                  <title ref="#al">Aratus Latinus</title>
-                 <incipit>Ostensionem quoque de quibus uidentur oportet fieri</incipit>
-                 <explicit/>
                  <msItem>
                     <locus from="1v" to="3v">1v-3v</locus>
                     <note type="title">AL, I Arati ea quae uidentur</note>
@@ -165,21 +173,23 @@
                        </p>
                     </support>
                     <extent>
-                       <measure type="leavesCount" quantity="60">60 ff.</measure>
-                       <dimensions type="leaf" unit="mm">
+                       <measure type="leavesCount" quantity="60">60 fols.</measure>
+                       <!--<dimensions type="leaf" unit="mm">
                           <height/>
                           <width/>
-                       </dimensions>
+                       </dimensions>-->
                     </extent>
                     <foliation>The folio between ff. 15v and 16r (with sections on Corona and Serpentarius) is now f. 50.</foliation>
                     <collation>
                        <formula>I<hi rend="sup">8</hi> (ff. 1-8), II<hi rend="sup">8(-1)</hi> (ff.9-15 lost one after f. 15, now f.50), III<hi rend="sup">4</hi> (ff. 16-19), IV<hi rend="sup">8</hi> (ff. 20-27), V<hi rend="sup">8</hi> (ff. 28-35), VI<hi rend="sup">8</hi> (ff. 36-43), VII<hi rend="sup">6</hi> (ff. 44-49)</formula>. Quire marks:
-                       <locus from="8v">8v</locus> - <quote>Q.I.</quote>
-                       <locus from="19v">19v</locus> - <quote>III</quote>
-                       <locus from="27v">27v</locus> - <quote>IIII</quote>
-                       <locus from="35v">35v</locus> - <quote>V</quote>
-                       <locus from="43v">43v</locus> - <quote>VI</quote>
-                       <locus from="49v">49v</locus> - <quote>VIII</quote>
+                      <list>
+                         <item> <locus from="8v">8v</locus> - <quote>Q.I.</quote></item>
+                            <item><locus from="19v">19v</locus> - <quote>III</quote></item>
+                            <item><locus from="27v">27v</locus> - <quote>IIII</quote></item>
+                            <item><locus from="35v">35v</locus> - <quote>V</quote></item>
+                            <item><locus from="43v">43v</locus> - <quote>VI</quote></item>
+                            <item><locus from="49v">49v</locus> - <quote>VIII</quote></item>
+                      </list>
                     </collation>
                     <condition>
                        <p>On several folios the lower half which was left blank (presumably for illustrations), was later cut off.</p>
@@ -188,34 +198,28 @@
                  </supportDesc>
                  <layoutDesc>
                     <layout columns="1" ruledLines="30">
-                       <p/>
+                       <p>Written in one column, 30 lines per page.</p>
                     </layout>
                  </layoutDesc>
               </objectDesc>
-              <handDesc>
-                 <handNote>word division although inconsistent at times; ligatures: or, ri, st, et, open a alongside carolingian a; abbreviations.</handNote>
-              </handDesc>
               <scriptDesc>
-                 <summary/>
-                 <scriptNote script="carolmin">
-                    <p/>
-                 </scriptNote>                     
+                 <scriptNote script="carolmin">Carolingian minuscule; word division although inconsistent at times; ligatures: or, ri, st, et, open a alongside carolingian a; abbreviations.</scriptNote>
               </scriptDesc>
            </physDesc>
            <history>
               <provenance>
                  <p>
-                    <rs type="place" ref="#fleury" role="provenance">Fleury</rs> (?); Cathedral of <rs type="place" ref="#le_puy_en_velay" role="provenance">Le Puy-en-Velay</rs>.</p>
+                    Provenance: <rs type="place" ref="#fleury" role="provenance">Fleury</rs> (?); Cathedral of <rs type="place" ref="#le_puy_en_velay" role="provenance">Le Puy-en-Velay</rs>.</p>
                  <p>At least from the 10th c. onwards lat. 7887 and lat. 7581 formed one book, listed in the 10th c. catalogue: <quote>Aratus, cum quo est liber de quadrifario opere Dei.</quote>. The catalogue found in the later MS is entitled <quote>haec retinet scedula Navilelmi <supplied>or Wilelmi</supplied> nomina certat Librorum qui sint et quo simul ordine pendit</quote>. (See discussion and edition of the catalogue in <bibl>P. Riche "Un catalogue de la bibliothèque du Puy au début du XIe siècle", Finances, pouvoirs et mémoire. Mélanges offerts à Jean Favier. S. d. de J. Kerhervé - A. Rigaudière, Paris, Fayard, 1999, p. 700-713</bibl>.) It was Baluze who divided the two in 1681. Both manuscripts have, however, independent quire signatures, which suggests that they did not form one book originally.</p>
               </provenance>
               <acquisition>
                  <p>According to Delisle (<bibl>
-                    <title>Cabinet des manuscrits</title>, pp. 511-14</bibl>) the MS was one of the ca. fifty books which Colbert in 1681 acquired  from the library of Notre-Dame du Puy and later sent to Paris. The list of books is found today in Paris Bnf, MS lat. 9364.  From the 49 items which Baluze reports, 38 are still in the BnF with the same shelf mark.</p>
+                    <title>Cabinet des manuscrits</title>, pp. 511-14</bibl>) the MS was one of the ca. fifty books which Colbert in 1681 acquired  from the library of Notre-Dame du Puy and later sent to Paris. The list of books is found today in <ref type="altMs" target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc77396n/cd0e345">Paris Bnf, MS lat. 9364</ref>.  From the 49 items which Baluze reports, 38 are still in the BnF with the same shelf mark.</p>
               </acquisition>
            </history>
            <additional>
               <listBibl>
-                 <head>Selected bibliography:</head>
+                 <head>Selected bibliography: </head>
                  <bibl>M. B. Olsen, L'etude des auteurs classiques latins, II, p.435.</bibl>
                  <bibl>P. Riche, "Un catalogue de la bibliothèque du Puy au début du XIe siècle", Finances, pouvoirs et mémoire. Mélanges offerts à Jean Favier. S. d. de J. Kerhervé - A. Rigaudière, Paris, Fayard, 1999, p. 700-713.</bibl>
               </listBibl>
