@@ -25,6 +25,7 @@
                                 <th scope="col">Summary</th>
                                 <th scope="col">Inc.</th>
                                 <th scope="col">Expl.</th>
+                                <th scope="col">MSS</th>
                                 <th scope="col">Bibliography</th>
                             </tr>
                         </thead>
@@ -48,6 +49,27 @@
                                     </td>
                                     <td>
                                         <xsl:apply-templates select="explicit"/>
+                                    </td>
+                                    <td>
+                                        <xsl:variable name="work">
+                                            <xsl:value-of select="work/@xml:id"/>
+                                        </xsl:variable>
+                                        <xsl:variable name="full_path">
+                                            <xsl:value-of select="document-uri(/)"/>
+                                        </xsl:variable>
+                                        <xsl:variable name="desciprions">
+                                            <xsl:value-of select="collection('../data/descriptions')//tei:TEI"/>
+                                        </xsl:variable>
+                                        <xsl:choose>
+                                            <xsl:when test="contains($desciprions, $work)">
+                                                <a>
+                                                    <xsl:attribute name="href">                                                
+                                                        <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="..//tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
+                                                </a>
+                                            </xsl:when>
+                                        </xsl:choose>
                                     </td>
                                     <td>
                                         <xsl:apply-templates select="bibl"/>                                        
