@@ -446,7 +446,8 @@
 	<xsl:call-template name="Satzzeichen"/>
 </xsl:template>
 
-<xsl:template match="tei:date[not(normalize-space(.)='')]">
+		
+	<xsl:template match="tei:date[not(normalize-space(.)='')]">
 	<xsl:apply-templates/>
 	<xsl:if test="(parent::tei:rubric or parent::tei:incipit or parent::tei:quote or parent::tei:explicit or parent::tei:colophon or parent::tei:finalRubric) and not(contains(.,@when))">
 		<span>
@@ -604,14 +605,20 @@
 
 <xsl:template match="tei:gap">
 	<xsl:choose>
-		<xsl:when test="@reason">
+		<xsl:when test="@reason = 'omitted'">
 			<span>
 				<xsl:attribute name="class">normal</xsl:attribute>
 				<xsl:attribute name="title"><xsl:value-of select="@reason"/></xsl:attribute>
 				<xsl:text>&#x2026;</xsl:text>
 			</span>
 		</xsl:when>
-		<xsl:otherwise><xsl:text>&#x2026;</xsl:text></xsl:otherwise>
+		<xsl:otherwise>
+			<span>
+				<xsl:attribute name="class">normal</xsl:attribute>
+				<xsl:attribute name="title"><xsl:value-of select="@reason"/></xsl:attribute>
+				<xsl:text>[&#x2026;]</xsl:text>
+			</span>
+		</xsl:otherwise>
 	</xsl:choose>
 	<!--xsl:call-template name="Leerzeichen"/-->
 </xsl:template>
@@ -1522,13 +1529,12 @@
 </xsl:template>
 
 <xsl:template match="tei:origDate[not(normalize-space(.)='')]" mode="Schlagzeile">
-	<!-- Entstehungszeit -->
 	<xsl:if test="preceding-sibling::tei:origDate">
 		<xsl:text> / </xsl:text>
 	</xsl:if>
 	<xsl:choose>
 		<xsl:when test="parent::tei:head">
-			<xsl:value-of select="."/>
+			<xsl:apply-templates select="."/>
 		</xsl:when>
 		<xsl:when test="ancestor::tei:origin">
 			<xsl:choose>
@@ -1536,7 +1542,7 @@
 					<xsl:if test="not(preceding-sibling::tei:origDate)">
 						<xsl:value-of select="$Trennzeichen"/>
 					</xsl:if>
-					<xsl:value-of select="."/>
+					<xsl:apply-templates select="."/>
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:if test="not(preceding::tei:msPart) and not(preceding-sibling::tei:origDate)">
@@ -1544,7 +1550,7 @@
 					</xsl:if>
 					<xsl:value-of select="ancestor::tei:msPart/tei:altIdentifier/tei:idno"/>
 					<xsl:text>: </xsl:text>
-					<xsl:value-of select="."/>
+					<xsl:apply-templates select="."/>
 					<xsl:if test="following::tei:msPart/descendant::tei:origDate">
 						<xsl:text> / </xsl:text>
 					</xsl:if>
@@ -1678,7 +1684,8 @@
 <xsl:template match="tei:physDesc">
 	<p>
 		<xsl:attribute name="class">physDesc</xsl:attribute>
-		<xsl:apply-templates select="*[not(self::tei:handDesc) and not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc)]"/>
+		<xsl:apply-templates select="*[not(self::tei:handDesc) and not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc) and not(self::tei:condition)]"/>
+		<xsl:apply-templates select="tei:condition"/>
 		<xsl:apply-templates select="tei:layout"/>
 		<xsl:apply-templates select="tei:scriptDesc"/>
 		<xsl:apply-templates select="tei:handDesc"/>
@@ -2148,13 +2155,18 @@
 			<!--<xsl:apply-templates select="tei:support"/>-->
 			<!--<xsl:apply-templates select="tei:extent"/>-->
 			
-			<xsl:if test="tei:collation">
+			<xsl:if test="tei:collation | tei:foliation">
 				<p class="physDesc">
-					<span class="head"><xsl:text>Collation: </xsl:text></span>	
+					<span class="head"><xsl:text>Support: </xsl:text></span>	
+					<xsl:if test="tei:collation">
+						<xsl:apply-templates select="tei:collation"/>
+					</xsl:if>
 					<xsl:if test="tei:foliation">
 						<xsl:apply-templates select="tei:foliation"/>
 					</xsl:if>
-					<xsl:apply-templates select="tei:collation"/>
+					<xsl:if test="tei:condition">
+						<xsl:apply-templates select="tei:condition"/>
+					</xsl:if>
 				</p>
 			</xsl:if>
 			<!--alternative for presenting foliation as a separate paragraph with heading
@@ -2164,9 +2176,21 @@
 				<span class="head"><xsl:text>Foliation: </xsl:text></span>
 				<xsl:apply-templates select="tei:foliation"/>
 			</p>
-			</xsl:if>-->
-			<xsl:apply-templates select="tei:condition"/>
-		</xsl:when>
+			
+			</xsl:if>
+			<xsl:choose>
+				<xsl:when test="tei:condition[not(normalize-space(.)='')]">					
+					<p class="physDesc">
+						<span class="head">
+							<xsl:text>Condition: </xsl:text>
+						</span>
+						<xsl:apply-templates select="tei:condition"/>
+					</p>
+				</xsl:when>
+			</xsl:choose>
+			-->
+			
+		</xsl:when>		
 		<xsl:otherwise>
 			<xsl:apply-templates/>
 		</xsl:otherwise>

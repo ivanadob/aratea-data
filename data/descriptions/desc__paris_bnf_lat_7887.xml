@@ -39,8 +39,23 @@
       <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f7.item" n="2v"/>
       <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item" n="3v"/>
       <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f8.item" n="4r"/>
-      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n=""/>
-      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f6.item" n=""/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f10.item" n="5v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f11.item" n="7r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f12.item" n="8r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f13.item" n="8v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f13.item" n="9r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f14.item" n="9v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f16.item" n="12r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f17.item" n="12v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f24.item" n="19v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f32.item" n="27v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f40.item" n="35v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f48.item" n="43v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f54.item" n="49v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f55.item" n="50v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f55.item" n="51r"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f64.item" n="59v"/>
+      <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10721144c/f65.item" n="60v"/>
    </facsimile>
   <text>
      <body>
@@ -65,6 +80,7 @@
               <note type="facs">Digital facsimile available at <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10721144c">gallica.bnf.fr</ref></note>
               <note type="catalogue"><ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc67141z"></ref></note>
               <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
+              <note type="summary">A late ninth-century copy of Aratus Latinus with ample blank spaces left for illustrations of the constellations (partly cut off probably for reuse).</note>
            </head>
            <msContents>
               <textLang mainLang="lat"/>
@@ -125,12 +141,11 @@
                     <note type="title">AL, VI Praefatio Arati</note>
                     <rubric>Prefacio arati</rubric>
                     <incipit>Preclara ostensio sacri uoluminis Namquet cum mihi</incipit>
-                    <explicit>fabulis disponam quasi optima tu autem sum sapientia hec intelle<gap/>
-                    </explicit>
+                    <explicit>fabulis disponam quasi optima tu autem sum sapientia hec intelle <gap/>.</explicit>
                  </msItem>
                  <msItem>
                     <locus from="9r">9r</locus>
-                    <note type="title">blank.</note>
+                    <note>blank.</note>
                  </msItem>
                  <msItem>
                     <locus from="9v" to="12r">9v-12r</locus>
@@ -144,8 +159,7 @@
                     <locus from="12v" to="50v">12v-50v</locus>
                     <note type="title">AL, VIII Aratea cum scholiis</note>
                     <incipit>A ioue incipimus quem umquam uiri relinquimus archanum</incipit>
-                    <explicit>in utraque genu <gap reason="damage"/> pedibus v omnes <gap reason="illegible"/>
-                    </explicit>
+                    <explicit>in utraque genu <gap reason="damage"/> pedibus v omnes <gap reason="illegible"/>.</explicit>
                  </msItem>
               </msItem> 
               
@@ -157,7 +171,7 @@
                  <explicit>usque ad occidentem extenditur.</explicit>
               </msItem>
               <msItem>
-                 <locus from="59v" to="60v"/>
+                 <locus from="59v" to="60v">59v-60v</locus>
                  <note type="title">Later filling text:</note>
                  <incipit>Quod sunt quetum mendant ueritatem uniuscuiusque conscripcionis</incipit>
                  <explicit>tertio ut ignorantes doceret et ad ueritatis indaginem reduceret et quia<gap/>
@@ -181,7 +195,7 @@
                     </extent>
                     <foliation>The folio between ff. 15v and 16r (with sections on Corona and Serpentarius) is now f. 50.</foliation>
                     <collation>
-                       <formula>I<hi rend="sup">8</hi> (ff. 1-8), II<hi rend="sup">8(-1)</hi> (ff.9-15 lost one after f. 15, now f.50), III<hi rend="sup">4</hi> (ff. 16-19), IV<hi rend="sup">8</hi> (ff. 20-27), V<hi rend="sup">8</hi> (ff. 28-35), VI<hi rend="sup">8</hi> (ff. 36-43), VII<hi rend="sup">6</hi> (ff. 44-49)</formula>. Quire marks:
+                       <formula>I<hi rend="sup">8</hi> (ff. 1-8), II<hi rend="sup">8(-1)</hi> (ff.9-15 lost one after f. 15, now f.50), III<hi rend="sup">4</hi> (ff. 16-19), IV<hi rend="sup">8</hi> (ff. 20-27), V<hi rend="sup">8</hi> (ff. 28-35), VI<hi rend="sup">8</hi> (ff. 36-43), VII<hi rend="sup">6</hi> (ff. 44-49)</formula>. The text of Bede' DNR is probably a separate codicological unit: stub between ff. 52 and 53, and after f. 60. Quire marks:
                       <list>
                          <item> <locus from="8v">8v</locus> - <quote>Q.I.</quote></item>
                             <item><locus from="19v">19v</locus> - <quote>III</quote></item>
