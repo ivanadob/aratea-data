@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/descriptions/desc__paris_bnf_lat_7299a.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>desc_tei_to_html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/descriptions/desc__paris_bnf_lat_7887.xml</String>
                                 </field>
                                 <field name="scenarioIds">

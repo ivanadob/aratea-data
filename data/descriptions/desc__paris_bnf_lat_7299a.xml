@@ -101,16 +101,31 @@
                 <msPart>
                     <altIdentifier type="partial">
                         <idno>Part I (ff. 1-55)</idno>
-                    </altIdentifier>
+                    </altIdentifier>  
+                    <head>
+                        <title>title</title>
+                    </head>
 			<msContents>
-				<p>Borst says Teilkopie der Lectiones seu regula conputi (760) auf ff. 21v-22v, 23v, 29r, 30r-31v, 34r.Teilkopie von Lib. comp. wobei es sind die Plinius Stücken. Teilkopie von Ann. lib. auf ff. 19v-20r, 30r, 79r-v, 84r-92v, 94v.</p>
-				<p>Pliny Excerpta on f. 24v, 68v-69r</p>
+			    <p>Borst (<bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>) <quote>recorded</quote> sections from "Lectiones seu regula conputi" (760) on ff. 21v-22v, 23v, 29r, 30r-31v, 34r; sections from "Lib. comp." (specifically the excerpts from Pliny); sections from "Ann. lib." on ff. 19v-20r, 30r, 79r-v, 84r-92v, 94v.</p>
+				<p>Pliny Excerpta on f. 24v, 68v-69r.</p>
 			</msContents>
+                    <physDesc>
+                        <objectDesc form="fascicle">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="55">55 fols.</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
                 </msPart>
                 <msPart>
                     <altIdentifier type="partial">
                         <idno>Part II (ff. 56-96)</idno>
-                    </altIdentifier>
+                    </altIdentifier>   
+                    <head>
+                        <title>title</title>
+                    </head>
                     <msContents>
                         <msItem>
                             <locus from="56r" to="63v">56r-63v</locus>
@@ -150,7 +165,7 @@
                             <locus from="66v" to="70r">66v-70r</locus>
                             <author ref="#bede">Bede</author>
                             <title ref="#DNR">De natura rerum<note> (cap. 1-24)</note></title>
-                            <!--                        interest only in the astronomical chapters, left out cap. 25-51 on terrestrial natural phenomena-->
+                            <note>interest only in the astronomical chapters, left out cap. 25-51 on terrestrial natural phenomena</note>
                             <incipit>Naturas rerum uarias labentis et aeui <gap reason="omitted"/> <note>capitula</note> <gap reason="omitted"/> </incipit>
                             <explicit>Commete sunt stelle flames crinite.</explicit>
                         </msItem>
@@ -196,7 +211,7 @@
                             <note>Interlinear notes from a 14th- or 15th-c hand.</note>
                         </msItem>
                         <msItem>
-                            <locus from="84r" to="95v">84r-95v<note> (with additions on ff. 92v-95v)</note></locus>
+                            <locus from="84r" to="95v">84r-95v (with additions on ff. 92v-95v)</locus>
                             <title ref="#libellus_annalis">Annalis libellus<note> (with omissions)</note></title>
                             <incipit>Quod modis solet annus nominari. Primus modus est de luna</incipit>
                             <explicit>sed ante aures retro respicientes.</explicit>
@@ -214,6 +229,15 @@
                             <note>Copied as part of the computistical collection.</note>
                         </msItem>
                     </msContents>
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="perg">
+                            <extent>
+                                <measure type="leavesCount" quantity="40">40 fols.</measure>
+                            </extent>
+                        </supportDesc>                        
+                    </objectDesc>
+                </physDesc>                   
                 </msPart>                
          </msDesc>
         </body>
