@@ -6,7 +6,7 @@
                 <title type="main">Aratea Digital</title>
                 <title type="sub">Paris, Bibliothèque nationale de France, MS lat. 7299A</title>
                 <respStmt>
-                    <resp>Catalogued by:</resp>
+                    <resp>Description based on digital facsimile and secondary literature by:</resp>
                     <name type="person">Ivana Dobcheva</name>
                 </respStmt>
             </titleStmt>
@@ -27,10 +27,47 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2019-04-14"/>
+				<change when="2021-07-04">Added facsimile.</change>
 			</revisionDesc>
 		
-    </teiHeader>    
+    </teiHeader>  
+    <facsimile>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f5.item" n="1r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f12.item" n="4v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f13.item" n="5r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f44.item" n="20v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f45.item" n="21r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f60.item" n="28v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f61.item" n="29r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f80.item" n="38v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f81.item" n="39r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f96.item" n="46v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f97.item" n="47r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f114.item" n="55v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f115.item" n="56r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f130.item" n="63v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f131.item" n="64r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f132.item" n="64v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f133.item" n="65r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f135.item" n="66r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f136.item" n="66v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f143.item" n="70r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f144.item" n="70v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f146.item" n="71v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f147.item" n="72r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f156.item" n="76v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f162.item" n="79v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f163.item" n="80r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f164.item" n="80v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f165.item" n="81r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f166.item" n="81v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f171.item" n="84r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f178.item" n="87v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f179.item" n="88r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f194.item" n="95v"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f187.item" n="92r"/>
+        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10544628b/f188.item" n="92v"/>
+    </facsimile>
     <text>
         <body>
             <msDesc xml:id="paris_bnf_7299a" xml:lang="eng">
@@ -50,6 +87,7 @@
                     <origPlace ref="#limoges">Limoges area</origPlace>, <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace>
                     <origDate notBefore="1001" notAfter="1200">s. XI-XII</origDate>
                     <note type="facs">Digital facsimile at <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10544628b">gallica.bnf.fr</ref></note>
+                    <note type="catalogue"><ref target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc664999"></ref></note>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
                     <note type="aratea"><rs type="text" ref="#text__hyginus_astronomia.xml">Hyginus, De astronomia</rs></note>
@@ -69,33 +107,33 @@
                                     <width>185</width>
                                 </dimensions>
                             </extent>
-				<collation>According to Munk Olsen the manuscript consists predominantly of quaterniones with the exception of ff. 1-4 (bifolium), 29-38 (quinio), 47-55 (quinio missing one after 9) (Munk Olsen). Juste confirms that the second codicological part consists of quaterniones: ff. 56-63, 64-71, 72-79, 80-87 and 88-95. Munk Olsen distinguished seven homogene units of the same origin: ff. 1-4, 5-20, 21-28, 29-38, 39-46, 47-55 and 56-95.</collation>
-                            <condition>Missing one quire between ff. 63 and 64.</condition>
+                            <collation>The manuscript consists of two contemporary codicological units. According to Munk Olsen (<bibl><abbr>Munk Olsen, Catalogue 2</abbr>, p. 267.</bibl>) one can further distinguish seven homogene units of the same origin: ff. <locus from="1r" to="4v">1-4</locus>, <locus from="5r" to="20v">5-20</locus>, <locus from="21r" to="28v">21-28</locus>, <locus from="29r" to="38v">29-38</locus>, <locus from="39r" to="46v">39-46</locus>, <locus from="47r" to="55v">47-55</locus> and <locus from="56r" to="95v">56-95</locus>. He observed that the manuscript consists predominantly of quaterniones with the exception of ff. 1-4 (bifolium), 29-38 (quinio), 47-55 (quinio missing one after 9). D. Juste confirms that the second codicological part consists of quaterniones: ff. <locus from="56r" to="63v">56-63</locus>, <locus from="64r" to="71v">64-71</locus>, <locus from="72r" to="79v">72-79</locus>, <locus from="80r" to="87v">80-87</locus> and <locus from="88r" to="95v">88-95</locus>. </collation>
+                            <condition>Missing one quire between ff. <locus from="63v">63</locus> and <locus from="64r">64</locus>.</condition>
                         </supportDesc>
                         <layoutDesc>
                             <layout columns="1" writtenLines="31">Written in 31 long lines.</layout>
                         </layoutDesc>
                     </objectDesc>
                     <scriptDesc>
-                        <scriptNote>Written in Carolinginan minuscle. The second part is written by a single hand.</scriptNote>
+                        <scriptNote>Written in Carolinginan minuscule. The second part is written by a single hand.</scriptNote>
                     </scriptDesc>
                 </physDesc>
                 <history>
-                    <origin>The manuscript consists of two contemporary codicological units. There are several suggestions about the place and date of production: Southwest of France (Munk Olsen 1985), <ref type="place" target="#limoges">Limoges area</ref> (Folkerts) more specifically Abbey of Solignac (Borst) or <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace> (Juste) in <origDate notAfter-custom="1001" notAfter="1100">s. XI</origDate> (Gautier-Dalché, Munk Olsen), before <origDate notAfter="1050">1050</origDate> (Borst), <origDate notBefore="1101" notAfter="1150">s. XII<hi rend="sup">1</hi></origDate> (Munk Olsen 1985) or <origDate notBefore="1101" notAfter="1200">s. XII</origDate> (Van de Vyver, Burnett).</origin>
+                    <origin>There are several suggestions about the place and date of production: Southwest of France (Munk Olsen 1985), <ref type="place" target="#limoges">Limoges area</ref> (Folkerts) more specifically Abbey of Solignac (Borst) or <origPlace ref="#st_martial">Saint-Martial de Limoges</origPlace> (Juste) in <origDate notAfter-custom="1001" notAfter="1100">s. XI</origDate> (Gautier-Dalché, Munk Olsen), before <origDate notAfter="1050">1050</origDate> (Borst), <origDate notBefore="1101" notAfter="1150">s. XII<hi rend="sup">1</hi></origDate> (Munk Olsen 1985) or <origDate notBefore="1101" notAfter="1200">s. XII</origDate> (Van de Vyver, Burnett).</origin>
                 </history>
                 <additional>
                     <listBibl>
-                        <head>Selected Bibliography:</head>
-                        <bibl>Juste, David. Les Alchandreana primitifs: Étude sur les plus anciens traités astrologiques latin d’origin arabe (Xe siècle). Leiden: Brill, 2007, pp. 352-355.</bibl>
-                        <bibl>Borst, Arno. Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments. Heidelberg: Winter, 1994, p. 118, n. 95.</bibl>
+                        <head>Selected Bibliography: </head>
+                        <bibl>Juste, David. <title>Les Alchandreana primitifs: Étude sur les plus anciens traités astrologiques latin d’origin arabe (Xe siècle)</title>. Leiden: Brill, 2007, pp. 352-355.</bibl>
+                        <bibl>Borst, Arno. <title>Das Buch der Naturgeschichte: Plinius und seine Leser im Zeitalter des Pergaments</title>. Heidelberg: Winter, 1994, p. 118, n. 95.</bibl>
                         <bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>
-                        <bibl>Burnett, Charles. ‘Adelard, Ergaphalau and the Science of the Stars’. In Burnett, Magic and Divination in the Middle Ages, 133–45, 1996, esp. p. 141.</bibl>
-                        <bibl>Burnett, Charles. ‘L’astronomie à Chartres au temps de l’évêque Fulbert’. In Le temps de Fulbert. Enseigner le Moyen Âge à partir d’un monument, 91–103, 1996, esp. p. 101.</bibl>
-                        <bibl>Folkerts, Menso. ‘De Artithmetics Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede’. In Essays on Early Medieval Mathematics: The Latin Tradition, (III) 1-30. Aldershot: Variorum, esp. pp. 5-6.</bibl>
-                        <bibl>Gautier-Dalché, Patrick. ‘Mappae mundi antérieures au XIIIe s. dans les manuscrits latins de la bibliothèque nationale de France’. Scriptorium 52 (1998): 102–62.</bibl>
-                        <bibl>Munk Olsen, Birger. ‘Chronique des manuscrits classiques latins (IXe-XIIe siècles), IV’. Revue d’histoire des textes 30 (2000): 123–88, p. 166.</bibl>
-			    <bibl>Munk Olsen, Birger. L’ étude des auteurs classiques latins aux XIe et XIIe siècles. Vol. II. Catalogue des manuscrits classiques latins copiés du IXe au XIIe siècle: Livius-Vitruvius, Florilèges-Essais de plume. 2 vols. Paris: CNRS, 1985, p. 267.</bibl>
-                        <bibl>Van de Vyver, A. ‘Les plus anciennes traductions latines médiévales (Xe-XIe siècles) de traités d’astronomie et d’astrologie’. Osiris 1 (1936): 658–91, esp. pp. 666, 679 (cited as latin 7292 A).</bibl>
+                        <bibl>Burnett, Charles. ‘Adelard, Ergaphalau and the Science of the Stars’. In <title>Magic and Divination in the Middle Ages</title>, 133–45, 1996, esp. p. 141.</bibl>
+                        <bibl>Burnett, Charles. ‘L’astronomie à Chartres au temps de l’évêque Fulbert’. In <title>Le temps de Fulbert. Enseigner le Moyen Âge à partir d’un monument</title>, 91–103, 1996, esp. p. 101.</bibl>
+                        <bibl>Folkerts, Menso. ‘De Artithmetics Propositionibus. A Mathematical Treatise Ascribed to the Venerable Bede’. In <title>Essays on Early Medieval Mathematics: The Latin Tradition</title>, (III) 1-30. Aldershot: Variorum, esp. pp. 5-6.</bibl>
+                        <bibl>Gautier-Dalché, Patrick. ‘Mappae mundi antérieures au XIIIe s. dans les manuscrits latins de la bibliothèque nationale de France’. <title>Scriptorium</title> 52 (1998): 102–62.</bibl>
+                        <bibl>Munk Olsen, Birger. ‘Chronique des manuscrits classiques latins (IXe-XIIe siècles), IV’. <title>Revue d’histoire des textes</title> 30 (2000): 123–88, p. 166.</bibl>
+                        <bibl><abbr>Munk Olsen, Catalogue 2</abbr>, p. 267.</bibl>
+                        <bibl>Van de Vyver, A. ‘Les plus anciennes traductions latines médiévales (Xe-XIe siècles) de traités d’astronomie et d’astrologie’. <title>Osiris</title> 1 (1936): 658–91, esp. pp. 666, 679 (cited as latin 7292 A).</bibl>
                     </listBibl>
                 </additional>
                 <msPart>
@@ -106,7 +144,7 @@
                         <title>title</title>
                     </head>
 			<msContents>
-			    <p>Borst (<bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>) <quote>recorded</quote> sections from "Lectiones seu regula conputi" (760) on ff. 21v-22v, 23v, 29r, 30r-31v, 34r; sections from "Lib. comp." (specifically the excerpts from Pliny); sections from "Ann. lib." on ff. 19v-20r, 30r, 79r-v, 84r-92v, 94v.</p>
+			    <p>Borst (<bibl><abbr>Borst, Schriften</abbr>, I, pp. <ref target="http://www.mgh.de/dmgh/resolving/MGH_QQ_zur_Geistesgesch._21,1_S._272">272</ref>-73.</bibl>) recorded sections from "Lectiones seu regula conputi" (760) on ff. 21v-22v, 23v, 29r, 30r-31v, 34r; sections from "Lib. comp." (specifically the excerpts from Pliny); sections from "Ann. lib." on ff. 19v-20r, 30r, 79r-v, 84r-92v, 94v.</p>
 				<p>Pliny Excerpta on f. 24v, 68v-69r.</p>
 			</msContents>
                     <physDesc>
@@ -185,7 +223,7 @@
                             <title ref="#de_signis_coeli">De signis coeli</title>
                             <incipit>Helix arcturus maior habet autem in capite stellas obscuras VII</incipit>
                             <explicit>CCCXL octo diebus signiferum cursum suum complens.</explicit>
-                            <note>The text has all chapters. It shares most of the smaller omissions and readings found only in <ref type="altMs" target="#desc__amiens_bm_222">Amiens, BM MS 222</ref> (e.g. cap. XXII, 5 <quote>Gorgonis autem</quote>, cap. XXXIX, 1 <quote>in cuius medio urna esse dicitur et super cuius caudam coruum sedentem</quote> in Amiens 222; <quote>in cuius medio urnam esse dicunt</quote> here). Amiens 222 is missing cap. I-XVI and XLI. Amiens 222 includes further smaller omissions (e.g. cap. XX, 2 <quote>angulos</quote>; cap. XXX, 4 <quote>genu I</quote>, present in Paris 7299A), so that it is not possible that it served as the exemplar of the Paris MS, but they could have been copied from one exemplar. Our MS has the last chapter XLI transmitted, according to Dell'Era only in three other MSS: Durham, The Dean and Chapter Library Hunter Ms. 100, <ref target="#desc__montecassino_archivo_3.xml">Montecassino, Archivo della Badia 3</ref> and <ref target="#desc__wolfenbuettel_hab_gud_lat_132.xml">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref>. Shares the omission in cap. IV, 3 like the Wolfenbüttel MS, Paris lat. 5239, and BAV Reg. lat. 598.</note>
+                            <note>The text has all chapters. It shares most of the smaller omissions and readings found only in <ref type="altMs" target="#desc__amiens_bm_222">Amiens, BM MS 222</ref> (e.g. cap. XXII, 5 <quote>Gorgonis autem</quote>, cap. XXXIX, 1 <quote>in cuius medio urna esse dicitur et super cuius caudam coruum sedentem</quote> in Amiens 222; <quote>in cuius medio urnam esse dicunt</quote> here). Amiens 222 is missing cap. I-XVI and XLI. Amiens 222 includes further smaller omissions (e.g. cap. XX, 2 <quote>angulos</quote>; cap. XXX, 4 <quote>genu I</quote>, present in Paris 7299A), so that it is not possible that it served as the exemplar of the Paris MS, but they could have been copied from one exemplar. Our MS has the last chapter XLI transmitted, according to Dell'Era only in three other MSS: <ref type="altMs">Durham, The Dean and Chapter Library Hunter Ms. 100</ref>, <ref target="#desc__montecassino_archivo_3.xml">Montecassino, Archivo della Badia 3</ref> and <ref target="#desc__wolfenbuettel_hab_gud_lat_132.xml">Wolfenbüttel, Herzog August Bibliothek, Gud. lat. 132</ref>. Shares the omission in cap. IV, 3 like the Wolfenbüttel MS, <ref type="altMs" target="#desc__paris_bnf_lat_5239.xml">Paris lat. 5239</ref>, and <ref type="altMs" target="#desc__bav_reg_lat_598.xml">BAV Reg. lat. 598</ref>.</note>
                         </msItem>
                         <msItem>
                             <locus from="79v" to="80v">79v-80v</locus>
