@@ -3,10 +3,10 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all" version="2.0">
     <xsl:template match="/" name="nav_bar">
-
+        
         <nav xmlns="http://www.w3.org/1999/xhtml"
             class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Aratea Digital</a>
+            <a class="navbar-brand" href="index.html">Mondsee Scriptorium</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -14,12 +14,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <!-- <li class="nav-item active">
-                                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                            </li> -->
-                    <!-- <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="index-mss.html">Manuscripts</a>
                     </li>
@@ -28,18 +22,18 @@
                             Indices
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listtitle.html">
-                                Works within MSS
+                            <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listtitle.html">
+                                Works
                             </a>
-                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listperson.html">
+                            <!-- <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listperson.html">
                                 Persons
                             </a>
-                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listplace.html">
+                            <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listplace.html">
                                 Places
-                            </a>
+                            </a>-->
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"> Texts </a>
@@ -58,9 +52,9 @@
                                 </a>
                             </xsl:for-each>
                         </div>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/ivanadob/aratea-data">GitHub</a>
+                        <a class="nav-link" href="https://github.com/ivanadob/mondsee">GitHub</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0" method="get" action="search.html">

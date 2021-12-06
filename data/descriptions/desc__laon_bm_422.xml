@@ -69,35 +69,19 @@
                            <height>295</height>
                            <width>185</width>
                         </dimensions>
-                     </extent>
-                     <foliation/>
-                     <collation/>
-                     <condition/>                          	                       
+                     </extent>                       	                       
                   </supportDesc>
-                  <layoutDesc>
-                     <layout/>
-                  </layoutDesc>
-               </objectDesc>  
-               <handDesc>
-                  <handNote/>
-               </handDesc>
-               <scriptDesc>
-                  <scriptNote script="carolmin"/>
-               </scriptDesc>
+               </objectDesc> 
                <bindingDesc>
                   <binding>
                      <p>The original binding was restored.</p>
                   </binding>
                </bindingDesc>
-               <accMat>Fragment from a breaviary (s. X<hi rend="sup">2</hi>/XI) was used as binding waste (probably pastedown). The trimmed double leaf is now attached as flying leaf</accMat>
+               <accMat>Fragment from a breaviary (s. X<hi rend="sup">2</hi>/XI) was used as binding waste (probably pastedown). The trimmed double leaf is now attached as a flying leaf.</accMat>
             </physDesc>
-            <history>
-               <origin/>
-               <provenance/>
-            </history>
             <additional>
                <listBibl>
-                  <head>Selected bibliography:</head>
+                  <head>Selected bibliography: </head>
                   <bibl>
                             <abbr>Bischoff, Katalog II</abbr>, p. 34.</bibl>
                   <bibl>
@@ -108,6 +92,9 @@
                         </bibl>
                   <bibl>BnF Archives et manuscripts <ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc94700t">ms. 422</ref>
                         </bibl>
+                  <bibl>Entry in <ref target="https://db.innovatingknowledge.nl/#detail/M0138">Innovative Knowledge</ref> Database.</bibl>
+                  <bibl>Entry in <ref target="http://www.mirabileweb.it/manuscript/laon-bibliothèque-municipale-suzanne-martinet-422-manoscript/15583">Mirabile</ref>.</bibl>
+                  <!--<bibl>Entry in <ref target="https://ircabritt.nuigalway.ie/handlist/catalogue/57">Ireland and Carolingian Brittany: Texts and Transmission</ref> Database.</bibl>-->
                </listBibl>	                  
             </additional>
             <msPart>
@@ -126,7 +113,7 @@
                         <explicit>auctoritas dictorum fidem efficiat. Explicit prefatio.</explicit>
                      </msItem>
                      <msItem>
-                        <locus from=""/>
+                        <locus/>
                         <note type="title">Liste of capitula</note>
                         <rubric>Incipit capitulatio</rubric>
                      </msItem>
@@ -136,7 +123,7 @@
                      <decoNote>Diagrams.</decoNote>
                   </msItem>
                   <msItem>
-                     <locus from="22v" to="">22v-</locus>
+                     <locus from="22v">22v-</locus>
                      <rubric>In nomine dei summi incipit de astronomia</rubric>
                      <msItem>
                         <note type="title">Prologue</note>
@@ -259,7 +246,7 @@
                         <finalRubric>Expliciunt capitula libri huius scripti</finalRubric>
                      </msItem>
                      <msItem>
-                        <locus from="23v" to="">23v-</locus>
+                        <locus from="23v">23v-</locus>
                         <rubric>In nomine dei summi incipit astronomia et partes compotatio</rubric>
                         <incipit>Inter astronomiam autem et astrologiam aliquid differt</incipit>
                         <explicit/>
@@ -273,7 +260,6 @@
                      <title ref="#de_signis_coeli">De signis caeli</title>
                      <incipit>Helix arcturus maior habet autem in capite</incipit>
                      <explicit>eo quod contraria sit cani.</explicit>
-                     <deconote></deconote>
                   </msItem>
                   <msItem>
                      <locus from="54v" to="56v">54v-56v</locus>

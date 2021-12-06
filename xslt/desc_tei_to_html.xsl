@@ -1840,9 +1840,7 @@
 	</xsl:choose>
 </xsl:template>
 
-<xsl:template match="tei:supportDesc" mode="Schlagzeile">
-	<!-- Beschreibstoff -->
-	<!-- später Datenprüfung durch das Schema -->
+<xsl:template match="tei:supportDesc" mode="Schlagzeile">	
 	<xsl:choose>
 		<xsl:when test="normalize-space(tei:support/descendant::tei:material) != '' ">
 			<xsl:apply-templates select="tei:support/descendant::tei:material" mode="Schlagzeile"/>
