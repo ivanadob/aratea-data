@@ -27,7 +27,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc status="draft">
-				<change when="2018-09-22"/>
+				<change when="2021-12-07"/>
 			</revisionDesc>
     </teiHeader>
   <text>
@@ -41,7 +41,9 @@
                 <head>
                     <title>Computistical-Astronomical Sammelhandschrift</title>
                     <origPlace ref="#bodensee">Lake Constance region (?)</origPlace>
-                    <origDate notBefore="1001" notAfter="1100">s. X</origDate>                    
+                    <origDate notBefore="1001" notAfter="1100">s. X</origDate>    
+                    <note type="aratea"><rs type="text" ref="#text__de_signis_caeli.xml">De signis caeli</rs></note>
+                    <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astronomia</rs></note>
                 </head>
             
             <physDesc>

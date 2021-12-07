@@ -6,7 +6,7 @@
                 <title type="main">
                     Aratea Digital
                 </title>
-                <title type="sub">Vatican, Biblioteca Apostolica Vaticana, Vat.lat.4162</title>
+                <title type="sub">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 4162</title>
                 <respStmt>
                     <resp>Catalogued by:</resp>
                     <name type="person">Ivana Dobcheva</name>
@@ -43,17 +43,25 @@
                     <idno>Vat. lat. 4162</idno>                    
                 </msIdentifier>
                 <head>
-                    <title>Composite manuscript</title>
+                    <title>Composite manuscript</title>                    
+                    <origDate notBefore="0801" notAfter="1000">s. IX-X</origDate>
+                    <origDate notBefore="1186" notAfter="1233">s. XII<hi rend="sup">ex</hi> - s. XIII<hi rend="sup">1/3</hi></origDate>
                     <note type="aratea"><rs type="text" ref="#text__excerptum.xml">Excerptum de astrologia</rs></note>
-                    <note type="facsimile">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Vat.lat.4162">DigiVatLib</ref></note>
+                    <origPlace ref="#france">Francia (?)</origPlace>
+                    <note type="facs">Digital facsimile available at <ref target="https://digi.vatlib.it/mss/detail/Vat.lat.4162">DigiVatLib</ref></note>
                 </head>
+                <additional>
+                    <listBibl>
+                        <bibl><abbr>Pellegrin (2010)</abbr>,  pp. 385-387.</bibl>
+                    </listBibl>
+                </additional>
                 <msPart>
                     <altIdentifier type="partial">
-                        <idno>Part I (ff.1-37)</idno>
+                        <idno>Codicological unit 1: ff. 1-37</idno>
                     </altIdentifier>
                     <head>
                         <title>Canon law</title>
-                        <origDate notBefore="1176" notAfter="1233">s. XII<hi rend="sup">4/4</hi> / XIII<hi rend="sup">1/3</hi></origDate>
+                        <origDate notBefore="1186" notAfter="1233">s. XII<hi rend="sup">ex</hi> - s. XIII<hi rend="sup">1/3</hi></origDate>
                     </head>
                     <msContents>
                         <msItem>
@@ -71,10 +79,10 @@
                 </msPart>
                 <msPart>
                     <altIdentifier type="partial">
-                        <idno>Part II (ff.38-53)</idno>
+                        <idno>Codicological unit 2: ff. 38-53</idno>
                     </altIdentifier>
                     <head>
-                        <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
+                        <origDate notBefore="0801" notAfter="1000">s. IX or X</origDate>
                     </head>
                     <msContents>
                         <msItem>
@@ -140,7 +148,7 @@
                 </msPart>
                 <msPart>
                     <altIdentifier type="partial">
-                        <idno>Part III (ff.54-61)</idno>
+                        <idno>Codicological unit 3: ff. 54-61</idno>
                     </altIdentifier>
                     <head>
                         <origDate notBefore="0801" notAfter="0900">s. IX</origDate>

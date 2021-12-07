@@ -52,8 +52,11 @@
 							<xsl:choose>
 								<xsl:when test="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]">						
 									<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]" mode="Schlagzeile"/>
-								</xsl:when>					
-							</xsl:choose>
+								</xsl:when>	
+								<xsl:when test="descendant-or-self::tei:revisionDesc[@status='draft']">
+									<xsl:text> (draft description)</xsl:text>
+								</xsl:when>
+							</xsl:choose>							
 						</span>			
 					</div>	
 					<!--	########### BUTTON(s) with links to facsimile, github, catalogue-->
@@ -96,7 +99,7 @@
 							</xsl:when>
 							<xsl:when test="not(descendant-or-self::tei:head/tei:title) and descendant-or-self::tei:msIdentifier/tei:msName">
 								<xsl:apply-templates select="descendant-or-self::tei:msIdentifier/tei:msName"/>
-							</xsl:when>
+							</xsl:when>							
 						</xsl:choose>					
 					</p>
 					<p>
