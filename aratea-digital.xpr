@@ -10,6 +10,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/indices/listtitle.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>make listtitle</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/texts/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>text_tei_to_html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/descriptions/desc__schaffhausen_sb_min_61.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -160,21 +190,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/indices/listtitle.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>make listtitle</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/indices/listperson.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -210,21 +225,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/texts/</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>text_tei_to_html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
