@@ -27,7 +27,11 @@
             <change when="2018-11-01"/>
         </revisionDesc>
     </teiHeader>
-<!--    ############################ WORK IN PROGRESS : collate the 4 MSS using Juxta common, choose <lem> and use the telma xslt to make a parallel segmantation edition (extra get LaTeX files and pdf)-->
+<!--    ############################ WORK IN PROGRESS : collate the 4 MSS using Juxta common, choose <lem> 
+        test use the telma xslt to make a parallel segmentation edition (extra get LaTeX files and pdf)
+    for dispay use: https://visualizationtechnology.wordpress.com/ OR http://v-machine.org/download/
+    https://kups.ub.uni-koeln.de/9085/1/SIDE_12_digital_scholarly_editions_as_interfaces.pdf
+    -->
     <text>
         <front>
             <div>
@@ -35,6 +39,7 @@
                     <witness xml:id="B">Brussels, BR, 10615-10729</witness>
                     <witness xml:id="P">Paris, Bnf, lat. 7886</witness>
                     <witness xml:id="Pa">Paris, Bnf, lat. 7887</witness>
+                    <witness xml:id="Ba">Basel, Universitätsbibliothek, AN IV 18</witness>
                 </listWit>
             </div>
         </front>

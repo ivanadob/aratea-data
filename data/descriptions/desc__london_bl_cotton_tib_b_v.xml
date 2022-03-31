@@ -269,7 +269,8 @@
                                 <locus from="44v">44v</locus>
                             </locusGrp>
                             <author ref="#hyginus">Hyginus</author>
-                            <title ref="#de_astronomia">De astronomia<note> as scholia for Aries (<locus from="32v">32v</locus>), Triangulus (<locus from="33r">33r</locus>), Lira (<locus from="35r">35r</locus>), Cynus (<locus from="35v">35v</locus>), Caprocornus (<locus from="36v">36v</locus>), Sagitta (<locus from="37v">37v</locus>), Eridanus (<locus from="41v">41v</locus>) and Planetae (<locus from="44v">44v</locus>)</note></title>
+                            <title ref="#de_astronomia">De astronomia</title>
+                            <note>Text as scholia for Aries (<locus from="32v">32v</locus>), Triangulus (<locus from="33r">33r</locus>), Lira (<locus from="35r">35r</locus>), Cynus (<locus from="35v">35v</locus>), Caprocornus (<locus from="36v">36v</locus>), Sagitta (<locus from="37v">37v</locus>), Eridanus (<locus from="41v">41v</locus>) and Planetae (<locus from="44v">44v</locus>).</note>
                             <incipit>Aries hic existimatur esse qui fryxum</incipit>
                             <explicit>quae stellae palnete sunt dictae.</explicit>
                         </msItem>
@@ -281,7 +282,8 @@
                                 <locus from="38r" to="41r">38r-41r</locus>
                                 <locus from="42r" to="44r">42r-44r</locus>
                             </locusGrp>
-                            <title ref="#ral">Revised Aratus Latinus<note> as scholia for Pisces (<locus from="33v">33v</locus>), Perseus (<locus from="34r">34r</locus>), Pleiades (<locus from="34v">34v</locus>), Aquarius (<locus from="36r">36r</locus>), Sagittarius (<locus from="37r">37r</locus>), Aquilla (<locus from="38r">38r</locus>), Delphinus (<locus from="38v">38v</locus>), Orion (<locus from="39r">39r</locus>), Canis (<locus from="39v">39v</locus>), Lepus (<locus from="40r">40r</locus>), Navis (<locus from="40v">40v</locus>), Coetus (<locus from="41r">41r</locus>), Piscis Austrinus (<locus from="42r">42r</locus>), Ara (<locus from="42v">42v</locus>), Centaurus (<locus from="43r">43r</locus>), Hydra (<locus from="43v">43v</locus>) and Anticanis (<locus from="44r">44r</locus>).</note></title> 
+                            <title ref="#ral">Revised Aratus Latinus</title> 
+                            <note>Text as scholia for Pisces (<locus from="33v">33v</locus>), Perseus (<locus from="34r">34r</locus>), Pleiades (<locus from="34v">34v</locus>), Aquarius (<locus from="36r">36r</locus>), Sagittarius (<locus from="37r">37r</locus>), Aquilla (<locus from="38r">38r</locus>), Delphinus (<locus from="38v">38v</locus>), Orion (<locus from="39r">39r</locus>), Canis (<locus from="39v">39v</locus>), Lepus (<locus from="40r">40r</locus>), Navis (<locus from="40v">40v</locus>), Coetus (<locus from="41r">41r</locus>), Piscis Austrinus (<locus from="42r">42r</locus>), Ara (<locus from="42v">42v</locus>), Centaurus (<locus from="43r">43r</locus>), Hydra (<locus from="43v">43v</locus>) and Anticanis (<locus from="44r">44r</locus>).</note>
                             <incipit>Piscium denique unus aquilonius est</incipit>
                             <explicit>Habet quidem stellas III.</explicit>
                         </msItem>                        

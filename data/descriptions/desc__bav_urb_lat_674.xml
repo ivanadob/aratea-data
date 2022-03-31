@@ -88,10 +88,21 @@
                     <objectDesc form="codex">
                         <supportDesc material="perg">
                             <support>Parchment</support>
-                            <extent></extent>
+                            <extent>
+                                <measure type="leavesCount" quantity="23">ii+23+ii</measure>
+                                <dimensions type="leaf" unit="mm">
+                                    <height>185</height>
+                                    <width>130</width>
+                                </dimensions>
+                            </extent>
                             <collation></collation>
                         </supportDesc>
                     </objectDesc>
+                    <bindingDesc>
+                        <binding>
+                            <p>Modern leather binding.</p>
+                        </binding>
+                    </bindingDesc>
                 </physDesc>
                 <additional>
                     <listBibl>

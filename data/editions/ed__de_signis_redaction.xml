@@ -13,7 +13,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>ae, e-caudata and e all trascribed as ae according to Latin classical grammar; numbers in roman capitals; modern punctuation; u and v are kept as u; capital letter at the start of a sentence. </edition>
+            <edition>ae, e-caudata and e all trascribed as ae according to Latin classical grammar; ci and ti as 'ti'; consonants according to Latin classical grammar (e.g. adsisstens instead of assistens); numbers in roman capitals; modern punctuation; u and v are kept as u; capital letter at the start of a sentence and for the Latin name of the constellations. </edition>
             <respStmt>
                <resp>Edition and TEI-P5 encoding by</resp>
                <name type="person">
@@ -367,8 +367,8 @@
                             <rdg wit="#Z">ipse</rdg>
                             <rdg wit="#V">ipsae</rdg>
                         </app> uero a capite conuertitur alter Scorpionem exspectans et spiculum Sagittae. Haec enim feruntur in medio aquae omnia manu quidem quam et caput simul et circum adducit. Sed ista uelut capilli capitis omnia membratim ordinantur, media autem Scorpionem et nouissime ipsa cauda Centauri uidetur ascendere. Ad huc Uergiliae distantes a capite Equi donec occidant et prioris Auis adducitur ultima cauda. Occidit autem Andromedae caput quod in maius ad nixum Coetum inducit ad austrum. E contrario ei Cepheum magnum ab aquilone adtrectare iubet et partem lumborum eius ex aduerso usque ad eam. Occiditque Cephei caput et humeri et manus.</p>
-                 <!--##########################from here to the end only V and Z collated.-->
-                 <p>Declinat autem Fluuius superueniente ei Scorpioni occidens ab euro oceanis atque superueniens terret magnum Orionem. Diana Helicem primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est Orionem, fortiter lamenta <!--(K 85v)--> cornicla abnuens ei propuino <note>for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens Scorpionem et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente Scorpione Incolo circa terras nouissimas fugientem. Nec non Andromeda et Coetus derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur Cepheus terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi Septentriones prohibent pedes ac manus. Statimque ipsa puero <app><rdg wit="#Z #V">admiscitur</rdg><rdg wit="#K">admiscetur</rdg></app> ostendens Cassepiae <app><rdg wit="#Z #V">symulachrum</rdg><rdg wit="#K">simulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando Coronam curcuit secundus ordo, Aquarius autem ultimam adducit Centauri partem, corpus quidem et caput Bestiam quam manu dextra Centaurus habet, alia quippe remanent; arcum autem superueninetem primi pedes Equi sepultoris.</p>
+                 
+                 <p>Declinat autem Fluuius superueniente ei Scorpioni occidens ab euro oceanis atque superueniens terret magnum Orionem. Diana Helicem primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est Orionem, fortiter lamenta cornicla abnuens ei propuino <note>for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens Scorpionem et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente Scorpione Incolo circa terras nouissimas fugientem. Nec non Andromeda et Coetus derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur Cepheus terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi Septentriones prohibent pedes ac manus. Statimque ipsa puero <app><rdg wit="#Z #V">admiscitur</rdg><rdg wit="#K">admiscetur</rdg></app> ostendens Cassepiae <app><rdg wit="#Z #V">symulachrum</rdg><rdg wit="#K">simulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando Coronam curcuit secundus ordo, Aquarius autem ultimam adducit Centauri partem, corpus quidem et caput Bestiam quam manu dextra Centaurus habet, alia quippe remanent; arcum autem superueninetem primi pedes Equi sepultoris.</p>
                  <p>Et in arcum seminat Serpens et corpus Serpentarii orietur superueniente ei pinguior esca Scorpionis orienti assumens quidem ipse Serpentarii manus et Serpentis multeformem splendorem. <app><rdg wit="#V #Z">Ingenu</rdg><rdg wit="#K">ingenii</rdg></app> autem per circum semper conuersus oritur, tunc ergo transiens egredietur sed zona et pectus et humerus omnia dextra leuaque cum capite et manibus simulque Arco ascendunt et Sagittario oriente. Cum Mercurio seu Lira et usque <app><rdg wit="#Z #V">ad</rdg><rdg wit="#K">a</rdg></app> pectore Cepheus consequitur oceanum. Verumtamen et Canis magni <app><rdg wit="#Z #V">radia</rdg><rdg wit="#K">radii</rdg></app> omnes occidunt et omnia descendunt ad <app><rdg wit="#K #V #Z">Incolo</rdg><rdg wit="#K2">incolum</rdg></app>. 
                     </p> 
                  <p><note>missing text section from AL, in Vat. lat. 643 left over a half page blank, in Zwettl and Klosterneuburg no lacuna marked.</note>Quando <app><rdg wit="#Z #K">crunes</rdg><rdg wit="#K2">crines</rdg></app> et cauda Coeti <app><rdg wit="#Z #K">statae</rdg><rdg wit="#K2">estatis</rdg></app> tempore oriuntur. Occidit autem Arctofilax, id est Arcturi custos, iam prima tunc portionem <app><rdg wit="#Z">manum</rdg><rdg wit="#K">manuum</rdg></app> trahentes deponunt consecuta ei maior subiecta Septentrio. Utrique autem pedes duo Serpentarii simul cum eis genicula Geminis <app><rdg wit="#Z #K2">super</rdg></app> signum impetrantes ex alio latere ascendentes tunc nequaquam Coeti nihil ueniet.
@@ -378,19 +378,71 @@
                  <p>Iam cum uideris paruulis cornibus esse Lunam <app>
                             <rdg wit="#Z #K">uespere</rdg>
                             <rdg wit="#V">vesperem</rdg>
-                        </app> lucentem ex ipsa doceris mensa est quando primordio absciditur lux ex alto. Quantum super umbram in quarta fuerit die; octaua autem per medio diuiditur ad omnem uultum, undique ergo aliunde altera reclinat frontibus, haec dicit quo modo in mense circumciditur aurora. Noctis extrema illae XII sortes sufficere dicit; haec ubi magna in annum quando terminauit plantas ponere. A Ioue enim omnia constituta ubique iacet. Equidem tauernaculum circuit tempestates dixit quid oportet recordatus a septentrione aut alterum quorum in oceano reuertuntur stellae utraque quarum prima noctis. Sic enim omnia remouentur in annum seu septentrionem pondus minitans aliquotiens aliquod repleuit; tunc quoque ascendens et statim occidens. Alter alterius stellae procedunt aurorae. Cognoscis heac et tu quando conueniunt simul decennouenalem circulum lucente septentrione, quantum a zona usque ad nouissimum Orionem nox superponitur Canis hirsuti Orionis locus, ecce ut cernimus <app>
-                            <rdg wit="#Z">proprius</rdg>
+                        </app> lucentem ex ipsa doceris mensa est quando primordio absciditur lux ex alto. Quantum super umbram in quarta fuerit die; octaua autem per 
+                     <app>
+                         <rdg wit="#Z #V">medio</rdg>
+                         <rdg wit="#K">medium</rdg>
+                     </app> diuiditur ad omnem uultum, undique ergo aliunde altera reclinat frontibus, haec dicit quo modo in mense circumciditur aurora. Noctis extrema illae XII sortes sufficere dicit; haec ubi magna in annum quando terminauit plantas ponere. A Ioue enim omnia constituta ubique iacet. Equidem 
+                     <app>
+                         <rdg wit="#Z #V">tauernaculum</rdg>
+                         <rdg wit="#K">tabernaculum</rdg>
+                     </app> circuit tempestates dixit quid oportet recordatus a septentrione aut alterum quorum in oceano reuertuntur stellae 
+                     <app>
+                         <rdg wit="#Z #V">utraque</rdg>
+                         <rdg wit="#K">utreque</rdg>
+                     </app>
+                      quarum prima noctis. Sic enim omnia remouentur in annum seu septentrionem pondus minitans aliquotiens aliquod repleuit; tunc quoque ascendens et statim occidens. Alter alterius stellae procedunt aurorae. Cognoscis heac et tu quando conueniunt simul decennouenalem circulum lucente septentrione, quantum a zona usque ad nouissimum Orionem nox superponitur Canis hirsuti Orionis locus, ecce ut cernimus <app>
+                            <rdg wit="#Z #K">proprius</rdg>
                             <rdg wit="#V">propriis</rdg>
-                        </app> ei stellas omnibus constitutas omnibus significant. Illarum et ego considerabo laborem. Credo enim quod reuelata iacent signa hiemalis uentibus tempestatis marium; certamen quidem paruum sed dena milibus ei perfectum fit sobrietatis semper obseruanti uiro. Ipse autem priora tua et alter bene cum alio praedixerit quando e propinquo oritur tempestas. Multotiens enim et serenitatem superueninete nocte circummittit pabidam undam maris. Aliquando etenim tertia feria occurit aliquotiens quinta. A Ioue enim homines scimus adhuc alia multa celata et quibus ipse uoluerit sponte Dauid Iuppiter; qui etiam uirorum generatione oriente propiciatur, undique uolens signa dabit ubique. Hic autem dicit ubi diuisa Luna multiplici modum utrumque mox super habundans sed ascendere aliquando iubet summa noctis Septentrionem minorem. Haec quoque erunt et Apollinis alia signa et de nocte et de diebus fieri.</p>
-                 <p>Considerandum est quidem primus cornibus utrumque Lunae. Aliquotiens enim alter incurrit uespertino lumine aliquotiens autem aliter figura cornibus suis Luna mox fuerit alia quidem tertia alia autem quarta. Quod circa mense adsistens perficit. Tenuis quidem cum pura fuerit die; serenitas erit; si autem tenuis non fuerit inuenta spiramine desenso et obscuris cornibus; quarta ex tertia lumen pallidum habens aut austro obscuratos aut aqua iuxta erit. Si autem et ambabus cornibus tertio die habens nec obtunsa nec supina apparuerit, sed directa utrisque cornibus circumaspexeris lucentes cornua ad uesperum non uenti in illa nocte feruntur. Si autem sic erecta in quarta die fuerit, tempestatem colligere docet. Si uero cornibus spatium grande uisa fuerit, aquilonem ostendit. Quando autem supina est austrum designat. itaque in tertia in <app>
-                            <rdg wit="#Z">circuitu</rdg>
+                        </app> ei stellas omnibus constitutas omnibus significant. Illarum et ego considerabo laborem. Credo enim quod reuelata iacent signa hiemalis uentibus tempestatis marium; certamen quidem paruum sed dena milibus ei perfectum fit sobrietatis semper obseruanti uiro. Ipse autem priora tua et alter bene cum alio praedixerit quando e propinquo oritur tempestas. Multotiens enim et serenitatem superueninete nocte circummittit 
+                     <app>
+                         <rdg wit="#Z #V">pabidam</rdg>
+                         <rdg wit="#K">pauidam</rdg>
+                     </app> undam maris. Aliquando etenim tertia feria occurit aliquotiens quinta. A Ioue enim homines scimus adhuc alia multa celata et quibus ipse uoluerit sponte Dauid Iuppiter; qui etiam uirorum generatione oriente propiciatur, undique uolens signa dabit ubique. Hic autem dicit ubi diuisa Luna multiplici modum utrumque mox super habundans sed ascendere aliquando iubet summa noctis Septentrionem minorem. Haec quoque erunt et Apollinis alia signa et de nocte et de diebus fieri.</p>
+                 <p>Considerandum est quidem primus cornibus utrumque Lunae. Aliquotiens enim alter incurrit uespertino lumine aliquotiens autem aliter figura cornibus suis Luna mox fuerit alia quidem tertia alia autem quarta. Quod circa 
+                     <app>
+                         <rdg wit="#Z #V">mense</rdg>
+                         <rdg wit="#K">mensem</rdg>
+                     </app> adsistens perficit. Tenuis quidem cum pura fuerit die, serenitas erit; si autem tenuis non fuerit inuenta spiramine desenso et obscuris cornibus; quarta ex tertia lumen pallidum habens aut austro obscuratos aut aqua iuxta erit. Si autem et 
+                     <app>
+                         <rdg wit="#Z #V">ambabus</rdg>
+                         <rdg wit="#K">ambobus</rdg>
+                     </app> cornibus tertio die habens nec 
+                     <app>
+                         <rdg wit="#Z #V">obtunsa</rdg>
+                         <rdg wit="#K">obtusa</rdg>
+                     </app> nec supina apparuerit, sed directa utrisque cornibus circumaspexeris lucentes cornua ad uesperum non uenti in illa nocte feruntur. Si autem sic erecta in quarta die fuerit, tempestatem colligere docet. Si uero cornibus spatium grande uisa fuerit, aquilonem ostendit. Quando autem supina est austrum designat. itaque in tertia in <app>
+                            <rdg wit="#Z #K">circuitu</rdg>
                             <rdg wit="#V">circuito</rdg>
                         </app> uideris undique pallidiorem magis et tunc tempestas erit. Maxima autem tempestas erit si rutilans apparuerit.</p>
-                 <p>Considerandum autem multiplici modo et utrumque diuisam, si quando fuerit aut in cornibus suis lucida et calore significans mensis uniuscuiusque; undique pura magis serenum significat, omnia autem pertractantes uidetur uentis iubere; alii autem aliter putant quod cum plena fuerit pluuiam significet. Sic omnibus signis omnia designat sed quanta in tertia aut quarta computantes ad breuiauerunt ab ipsa diuisione donec ad ipsam significationem perueniat. Diuiso autem mense statim item diminutionem patitur suscipitur autem continente quarta mensis transacti. Si uero tertia transacta per circuitu totam aream se circumdederit aut tres uel duos horum iacentes in orbe eius significat uenti tranquillitatem putandam, aut disruptione uentorum deficiente tranquillitate, si duo non ad huc tempestas circumdat lunam maior autem tepestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit nos ita esse.</p>
+                 <p>Considerandum autem multiplici modo et utrumque 
+                     <app>
+                         <rdg wit="#Z #V">diuisam</rdg>
+                         <rdg wit="#K">diuisum</rdg>
+                     </app>, si quando fuerit aut in cornibus suis lucida et calore significans mensis uniuscuiusque; undique pura magis serenum significat, omnia autem pertractantes uidetur uentis iubere; alii autem aliter putant quod cum plena fuerit pluuiam significet. Sic omnibus signis omnia designat sed quanta in tertia aut quarta computantes adbreuiauerunt ab ipsa diuisione donec ad ipsam significationem perueniat. Diuiso autem mense statim item diminutionem patitur suscipitur autem continente quarta mensis transacti. Si uero tertia transacta per 
+                     <app>
+                         <rdg wit="#Z #V">circuitu</rdg>
+                         <rdg wit="#K">circuitum</rdg>
+                     </app> totam aream se circumdederit aut tres uel duos horum iacentes in orbe eius significat uenti tranquillitatem putandam, aut disruptione uentorum deficiente 
+                     <app>
+                         <rdg wit="#Z #V">tranquillitate</rdg>
+                         <rdg wit="#K">traquillitate</rdg>
+                     </app>, si duo non ad huc tempestas circumdat lunam maior autem tempestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit nos ita esse.</p>
              </div>
              <div>
-                 <p>Sole autem ex utraque parte oriente solis magis adsimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus obtunsum subdiuidens nitorem et surgens mane rutilus, serenitas erit. Nam si aliquotiens uario colore circumamiciter et neque radia fuerint, iam aquilonum diuisum inmittit, alia autem per medio lucent, tunc ubique pluuiales pertranseunt uenti.</p> 
-                 <p>Considerandum autem si et aurora sub albidus fuerit sol ipse. Sic enim oportet inspicere, si inuentus fuerit supercurrens multis adueninetibus nubibus.</p>
+                 <p>Sole autem ex utraque parte oriente solis magis adsimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus <app>
+                     <rdg wit="#Z #V">obtunsum</rdg>
+                     <rdg wit="#K">obtusum</rdg>
+                 </app> subdiuidens nitorem et surgens mane rutilus, serenitas erit. Nam si aliquotiens uario colore circumamiciter et neque 
+                     <app>
+                         <rdg wit="#Z #V">radia</rdg>
+                         <rdg wit="#K">radii</rdg>
+                     </app> fuerint, iam aquilonum diuisum inmittit, alia autem per 
+                     <app>
+                         <rdg wit="#Z #V">medio</rdg>
+                         <rdg wit="#K">medium</rdg>
+                     </app> lucent, tunc ubique pluuiales pertranseunt uenti.</p> 
+                 <p>Considerandum autem si et aurora sub albidus fuerit sol ipse. Sic enim oportet inspicere, si inuentus fuerit supercurrens multis aduenientibus nubibus.</p>
              </div>
          </div>
       </body>

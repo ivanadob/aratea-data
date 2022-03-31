@@ -35,15 +35,15 @@
     </teiHeader>
     <text>
         <body>
-            <msDesc xml:lang="eng" xml:id="ab">
+            <msDesc xml:lang="eng" xml:id="phill_1830">
                 <msIdentifier>
-                    <settlement></settlement>
-                    <repository></repository>
-                    <idno></idno>
+                    <settlement>Berlin</settlement>
+                    <repository>Staatsbibliothek</repository>
+                    <idno>Ms. Phill. 1830</idno>
                 </msIdentifier>
                 <head>
-                    <title></title>
-                    <origDate></origDate>
+                    <title>Computistical compendium</title>
+                    <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
                     <origPlace></origPlace>
                     <note type="facs">Digital facsimile available at <ref target="http://resolver.staatsbibliothek-berlin.de/SBB000104AA00000000">StaBi Digitale Sammlungen</ref>.</note>
                 </head>

@@ -54,9 +54,11 @@
                     </listBibl>
                 </additional>
                 <msPart>
-                    <altIdentifier type="partial">
+                    <msIdentifier>
+                        <altIdentifier type="partial">
                         <idno>Part I (ff. 1-96)</idno>
-                    </altIdentifier>
+                        </altIdentifier>
+                    </msIdentifier>
                     <msContents>
                         <msItem>
                             <locus>1r</locus>

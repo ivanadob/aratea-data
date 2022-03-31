@@ -141,27 +141,27 @@
                         <incipit>In omni orbe uel sphera medietas centrum uocatur</incipit>
                         <explicit>et insuper centum septuaginta milia.</explicit>
                     </msItem>
-                    <msItem>
-                        <locus from="18r">18r</locus>
-                        <title xml:id="excerpt_libri_computi_vi5">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 5</title>
-                        <rubric>Item eiusdem de mensura et magnitudine solis</rubric>
-                        <incipit>His dictis quibus mensura quam terrae uel ambitus</incipit>
-                        <explicit>Ergo ex his dicendum solem octies terra esse maiorem.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="18r">18r</locus>
-                        <title xml:id="excerpt_libri_computi_vi6">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
-                        <rubric>Felicis Capellae de mensura lunae</rubric>
-                        <incipit>Luna item circuli sui sex centesimam optinet portionem</incipit>
-                        <explicit>circulum centies maiorem esse tellure.</explicit>
-                    </msItem>
-                    <msItem>
-                        <locus from="18r">18r</locus>
-                        <title xml:id="excerpt_libri_computi_vi7">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
-                        <rubric>Eiusdem argumentum quo magnitudo terrae depraehensa est</rubric>
+                <msItem>
+                    <locus from="18r">18r</locus>
+                    <title ref="#excerpt_libri_computi_vi5">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 5</title>
+                    <rubric>Item eiusdem de mensura et magnitudine solis</rubric>
+                    <incipit>His dictis quibus mensura quam terrae uel ambitus</incipit>
+                    <explicit>Ergo ex his dicendum solem octies terra esse maiorem.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="18r">18r</locus>
+                    <title ref="#excerpt_libri_computi_vi6">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 6</title>
+                    <rubric>Felicis Capellae de mensura lunae</rubric>
+                    <incipit>Luna item circuli sui sex centesimam optinet portionem</incipit>
+                    <explicit>circulum centies maiorem esse tellure.</explicit>
+                </msItem>
+                <msItem>
+                    <locus from="18r">18r</locus>
+                    <title ref="#excerpt_libri_computi_vi7">Excerpt from <title ref="#libri_computi">Libri computi</title>, Lib. VI, 7</title>
+                    <rubric>Eiusdem argumentum quo magnitudo terrae depraehensa est</rubric>
                     <incipit>Erathostenes philosophus idemque geometra subtilissimus</incipit>
                     <explicit>humanę coniecturae dimensionem admittit.</explicit>
-                    </msItem>
+                </msItem>                   
                     
                 <msItem>
                     <locus from="18v">18v</locus>
