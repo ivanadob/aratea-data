@@ -33,6 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
+          <change when="2022-03-31">Collation of #K finished.</change>
          <change when="2018-07-22"/>
       </revisionDesc>
    </teiHeader>
