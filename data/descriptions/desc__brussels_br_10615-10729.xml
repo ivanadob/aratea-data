@@ -38,6 +38,7 @@
                     <origDate notBefore="1101" notAfter="1150">XII<hi rend="sup">1</hi>
                   </origDate>
                     <note type="aratea"><rs type="text" ref="#text__aratus_latinus.xml">Aratus Latinus</rs></note>
+                    <note type="facs"><ref target="https://opac.kbr.be/LIBRARY/doc/SYRACUSE/18349465"></ref></note>
                 </head>                
                 <physDesc>
                     <objectDesc form="codex">

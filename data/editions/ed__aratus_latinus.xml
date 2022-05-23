@@ -31,6 +31,10 @@
         test use the telma xslt to make a parallel segmentation edition (extra get LaTeX files and pdf)
     for dispay use: https://visualizationtechnology.wordpress.com/ OR http://v-machine.org/download/
     https://kups.ub.uni-koeln.de/9085/1/SIDE_12_digital_scholarly_editions_as_interfaces.pdf
+    
+    check examples of parallel editions in https://www.digitalmanuscripts.eu/editions/
+    
+    Textual criticism - would disregard the reading in Pa, since it is an immediate copy of P - choice to include it - material philology 
     -->
     <text>
         <front>
@@ -44,7 +48,7 @@
             </div>
         </front>
         <body>
-            <div xml:id="ed__aratus_latinus__al_4">
+            <!--<div xml:id="ed__aratus_latinus__al_4">
                 <head>
                     <title>
                         <app>
@@ -128,7 +132,41 @@
                         <lem>iacet</lem>
                         <rdg wit="#B">ita et</rdg>
                     </app> duobus semispheriis.
-                </p></div>
+                </p></div>-->
+        <div type="book" xml:id="phaenomena" n="latin">
+            <div type="chapter" xml:id="t1-5">
+                <pb n="22r" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721142g/f28.item"/>
+                <div type="section" xml:id="t1-5-1">
+                    <head>
+                        <title>
+                            <app>
+                                <lem wit="#B">
+                                    De eo qui in geniculo est·
+                                </lem>
+                                <rdg wit="#P"> </rdg>
+                            </app>
+                        </title>
+                    </head>
+                    <p>Hic autem consternatus uir <app><lem wit="#B">adsimulatus</lem><rdg wit="#P">adsimilatus</rdg></app> est simulacro quem nemo sciens dubitet <app><lem wit="#B">esse</lem><rdg wit="#P"></rdg></app> dicere neque quod pendit inanis dolus sed illum quidem ingeniculo uocant hoc ipsum autem quod ingenu laborat· Hesitanti quidem <app><lem wit="#B">adsimulatus</lem><rdg wit="#P">adsimilatus</rdg></app> est· Ab ambobus autem humeris manus in <app><lem wit="#B">aere</lem><rdg wit="#P">aera</rdg></app> extensus dextro pede summitatem habens reuelat draconi·</p></div> 
+                <div type="section" xml:id="t1-5-2">
+                    <p><lb/>Hic est hercules qui super serpentem supersedit· Perfectus quidem stetit et leoninam <app><lem wit="#P">circumuolutus</lem><rdg wit="#B">circumuolatus</rdg></app>· Dicitur autem quando <app><lem wit="#P">apud</lem><rdg wit="#B">aput</rdg></app>apud <app><lem wit="#B">aurea mala</lem><rdg wit="#P">mala aurea </rdg></app> <app><lem wit="#B">habuit</lem><rdg wit="#P"><del>h</del>abi it</rdg></app> serpentem constitutum custodem perimit· Multas quidem habens res· Multorum enim erat interfector et magnitudine superponens et potentia mirabilis· Solus quidem insomnis erat <app><lem wit="#P">ut</lem><rdg wit="#B">et</rdg></app> nullus tangeret ea erat enim a <app><lem wit="#B">iuno</lem><rdg wit="#P">iuna</rdg></app> dea constitutus· Pro hoc quomodo decertare debeat hercules· <app><lem wit="#P">Historialiter</lem><rdg wit="#B">Istorialiter</rdg></app> dicitur hunc <app><lem wit="#B">magno</lem><rdg wit="#P">mag<del>n</del>is </rdg></app> superasset hercules· Unde perfecto opere cum <app><lem wit="#P">periculo</lem><rdg wit="#B"></rdg></app>· Iuppiter iustum iudicans pro certaminis memorialem inter astra posuit· </p></div>
+                <div type="section" xml:id="t1-5-3">
+                    <p><lb/>Habet autem stellas in capite quidem I, in <app><lem wit="#B">brachiout</lem><rdg wit="#P">brach<del>r</del>io</rdg></app> utrisque umeris I splendidam, in cubito sinistro I, in ambis manibus I, in utraque ilia I, in dextra coxa II, in geniculo I, in tibia I, in sinistro geniculo I, in tibia I, in dextra manu quod uocatur ropalum II. Omnes simul XXIIII.
+                    </p></div>
+            </div>
+            <div type="chapter" xml:id="t1-6">
+                <div type="section" xml:id="t1-6-1">
+                    <p><app><lem wit="#B">Ipsius ille</lem><rdg wit="#P">Ipse illius</rdg></app> coronam inposuit uictoriae significans liber pater ariatnes <app><lem wit="#B">laborantis</lem><rdg wit="#P">laboranti</rdg></app> simulacro Coronam quoque iuxta capite ad summum.</p>
+                </div>        
+                <div type="section" xml:id="t1-6-2">
+                    <p> Ista dicitur de ariatnes quod liber pater <app><lem wit="#B">eam</lem><rdg wit="#P"/></app> inter astra posuit quando nuptias dii fecerunt sibi in idem locum qui uocatur uolens inlustris fieri prima sponsa est absque modum accipiens et uenerem· Qui autem in cretae scripsit sic ait· Quando uenit liber pater apud minoem uolens eam <app><lem wit="#B">uiolare</lem><rdg wit="#P">uiolari</rdg></app>· hanc ei <app><lem wit="#B">munus</lem><rdg wit="#P">minus</rdg></app> dedit propter quod et <app><lem wit="#B">delusit</lem><rdg wit="#P">derisit</rdg></app> ariatnem·<pb n="22v" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721142g/f29.item"/>Vulcani autem opus hoc esse inquiunt ex auro purissimo dans et lapidibus indicis· <app><lem wit="#B">Historialiter</lem><rdg wit="#P">Istorialiter</rdg></app> quippe dicitur per hanc et theseam saluare de <app><lem wit="#B">laberinthieo</lem><rdg wit="#P">labirinteo</rdg></app> faciente corona lumen inter astra uero eam postea poni quando ad <app><lem wit="#B">naxum</lem><rdg wit="#P">naxam</rdg></app> uenerum utrique signum religionis cooperabatur et diis. Aiunt quoque et <app><lem wit="#B">crinem</lem><rdg wit="#P">crineo</rdg></app> ipsius esse quod uidetur sub caudam leonis.</p>
+                </div>
+                <div type="section" xml:id="t1-6-3">
+                    <p><lb/>Habet autem stellas corona VIIII in circuitu positas quorum III splendidas ad capite serpentis arcturi.</p>
+                </div>
+                
+            </div>
+        </div>
         </body>
     </text>
 </TEI>

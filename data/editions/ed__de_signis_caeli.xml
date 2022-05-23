@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De signis caeli</title>
+            <editor>Ernst Maass</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>Transcription of Maass' edition and TEI-P5 coding by </resp>
+               <name type="person">Ivana Dobcheva</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Maass, Ernst. ‘Supplementa ad IV Anonymum II. II. Beda de signis coelis’. In <ref target="https://archive.org/details/Maass1898">Commentariorum in Aratum reliquiae</ref>, 582–94. Berlin: Weidmann, 1898.</bibl>            
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listWit>
+            <witness xml:id="B">Bernensis 88; edidit Breysig post Germanicum p. 233-238 (praef p. XVII); desunt c. 13-17. 19. 20. 39-42.</witness>
+            <witness xml:id="C">Casinensis 3 s. XI; mihi contulit Br. Albers bibliothecae Casinensis praefectus.</witness>
+            <witness xml:id="Ba">Basileensis Bedae editio a. 1563 vol I p. 442-456.</witness>
+            <witness xml:id="l">latina translatio - Aratus Latinus cf. p. 101 et 175 sqq. </witness>
+            <witness>rec-int Revised Aratus Latinus (interpolata translationis latinae recensio), cf p. 101 et 180sqq.</witness>
+         </listWit>
+         <div>
+            <p><app><lem>Helix</lem><rdg wit="#Ba">Helice</rdg></app>, <app><lem>id est</lem><rdg wit="#B"/></app> Arcturus maior.</p> 
+            <p>Habet <app><lem>autem</lem><rdg wit="#Ba"/></app> in capite stellas obscuras VII, <app><lem>in singulis auribus singulas</lem><rdg wit="#B #C"/></app><app><lem>, super pectus I</lem><rdg wit="#C"/></app>, in spatula I, in pede I, in dorso I, in tibia anteriore II, super eandem III. sunt omnes  <app><lem>XVIII</lem><rdg wit="#C #B">XVI</rdg></app>.</p></div>
+         <div>
+            <p><app><lem>Cynosura siue</lem><rdg wit="#B #C"/></app> <app><lem>Fenix</lem><rdg wit="#B">Helix</rdg></app>, qui et Arcturus minor <app><lem/><rdg wit="#B">dicitur</rdg></app> et a quibusdam Canis cauda uocatur. Habet autem per unumquemque angulum in <app><lem>humero</lem><rdg wit="#B">umero</rdg></app> splendidam <app><lem>stellam</lem><rdg wit="#Ba"/></app> I, in cauda III. sunt autem inter ambos Arcturos stellae XXIV. Super autem sunt aliae stellae X, quae praecedunt et dicuntur Ludentes, et minimissima I, quae uocatur Polus, ubi dicunt totum mundum reuolui.</p>
+         </div>
+         <div>
+            <p>Draco, qui continet utrosque Arcturos, Helicis superuoluit capud, Fenicis circumcingit caudam. Habet autem in capite stellas splendidas III, et per totum corpus XII ab inuicem distantes. sunt omnes XV.</p>
+         </div>
+         <div>
+            <p>Hercules, qui stans genu flectit.</p>
+            <p>Habet autem stellas in capite I, in utroque humero I splendidam, in cubito sunistro I, in dextera coxa II, in genu dextro I, in eadem tibia I, in sinistro genu I, in eadem tibia I, in dextera manu I et in ropalo, quem tenet in eadem mani, I. sunt omnes XII.</p>
+         </div>
+         <div>
+            <p>Corona uero habet stellas IX in circuitu positas. sed ex ipsis sunt III splendidiores ad capud Serpentis Arcturi.</p>
+         </div>
+         <div>
+            <p>Serpentarius, qui et Ascelpius dicitur. stans uero supra Scorpionem tenet Serpentem in manibus.</p>
+            <p>Habet autem in capite stellam splendidam I, in isinistra manu III, in dextra IV, in utroque humero I splendidam, in utrisque lumbis I, in utroque genu I, in dextra tibia I, in utroque pede I. sunt omnes XVII. Serpens, quem tenet in manu, habet stellas in capite II, per reliquum corpus IV. sunt insimul XXIII.</p>
+         </div>
+         <div>
+            <p>Scorpio. Habet stellas in utrisque labiis II, quarum priores sunt magnae, secundae obscurae, in fronte uero III (media autem ex ipsis splendidior est ceteris), in spino splendidas III, in uentre II, in cauda V, super aculeum II. sunt omnes XVIIII.</p>
+         </div>
+         <div>
+            <p>Arcas, qui et Bootis, fertur esse custos Plaustri.</p>
+            <p>Habet autem stellas in dextra manu, quae non occidunt, IV, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IV, in sinistro I, in utroque genu I. sunt omnes XVI.</p>
+         </div>
+         <div>
+            <p>Virgo, quae et iustitia appellatur.</p>
+            <p>Habet stellam in capite obscuram ualde I, in unaquaque ala II, in utrisque humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. omnes XVIIII.</p>
+         </div>
+         <div>
+            <p>Ex Geminis prior, qui excedit a Cancro, habet stellam in capite splendidam I, in utroque humero splendidam I, in utroque genu I. sunt omnes V. alter uero habet stellam in capite splendidam I, in humero sinistro I, per singula femore I, in dorso III. sunt omnes VII, inter utrosque uero XII.</p>
+         </div>
+         <div>
+            <p>Cancer. Habet stellas splendidas in testo IV, in dextris pedibus per singulos I, in sinistro primo I et in sinistro tertio I, in quarto I, in ore I, in dextro labio III, in sinistro II. sunt omnes XVIII.</p>
+         </div>
+         <div>
+            <p>Leo. Habet stellas in capite III, in ceruice II, in pectore I, in dorso III, in summitate caudae splendidam I, sub pectore II, in anteriori pede splendidam I. sunt omnes XIII.</p>
+         </div>
+         <div>
+            <p>Agitator. Habet stellam in capite I, in utroque humero I (sed ea est clarior, quae in sinistro humero est), in utroque cubito I, in dextra mani I, in summitate manus sinistrae II et super ipso brachio Edulos II et in utroque Hedulo stellam I. sunt omnes X.</p>
+         </div>
+         <div>
+            <p>Taurus. Habet stellas in utroque cornu I, in fronte II, per singulos oculos I, in nare I (hae autem stellae Pliades et Virgiliae necnon et Subuculae dicuntur), in utroque genu I, in palerio II, in collo II, in dorso III, ex quibus nouissima splendida est, in uentre I, in pectore I. sunt omnes XVIII.</p>
+         </div>
+         <div>
+            <p>Cepheus. Habet in capite stellas splendidas II et in dextra manu splendidam I, in utroque humero I, in zona III, in dextro latere ex transuero super ilium VII; in sinistro genu II, in summitate pedum IV. sunt omnes XXI.</p>
+            <p>Hic autem in septerntrionis incisionem constituitur inter medium septemtrionalis circuli et aestiuali solstitio.</p>
+         </div>
+         <div>
+            <p>Cassiopia. Habet in capite stellam splendidam I, in utroque humero splendidam I, in dextra parte pectoris splendidam I, in dextro cubito I, in utrisque manibus summitatem splendidam I, in umbilico splendidam et magnam I, in sinisstro femore II, in genu splendidam I et per singulos angulos in summitate sellulae I. sunt omnes XIII.</p>
+         </div>
+         <div>
+            <p>Andromeda. Habet stellam splendidam in capite I, in utroque humero I, in cubito dextro I, in sinistro I, in summitate manus splendidam I, in pedalium summitate splendidas II, in zona III, super zonam IV, in uoquoque genu splendidam I, in dextro pede II, in sinistro I. sunt omnes XXI.</p>
+         </div>
+         <div>
+            <p>Equus, qui et bellorum fons dicitur.</p>
+            <p>Habet stellas in rosto II obscuras, in capite splendidam I, in maxilla I, in utrisque auribus splendidam I, in ceruice IV, in humero I, in pectore I, in spino I, in umbilico I nitidam, in utroque genu I, per singulos ungues anteriores I. sunt omnes XVIII.</p>
+         </div>
+         <div>
+            <p>Aries. habet stellas in capite I, in nare III, in collo II, in summitate anterioris pedis I, in dorso IV, in cauda I, in uentre III, in lumbo I, in summo pedis I. sunt omnes XVII.</p>
+         </div>
+         <div>
+            <p>Triangulum qui iacet supra caput Arietis.</p>
+            <p>Habet stellas per singulos angulos I nitidam, ex quibus una est splendidior ceteris.</p>
+         </div>
+         <div>
+            <p>Pisces. Aquilonius habet stellas XII, australis XV. Linteum eorum, in quo continentur, habet stellas ad aquilonem III, ad occasum III, ad orientem III, in Connexum III. sunt omnes XXXVIIII.</p>
+         </div>
+         <div>
+            <p>Perseus, qui fertur tenere capud Gorgonis.</p>
+            <p>Habet stellas in utroque humero splendidam I, in summitatem manus dextrae I, in eiusdem cubito I, in summitatem manus sinistrae I, in uentre I, in dextro lumbo nitidam I, in dextro femore splendidam I, in utroque genu I, in tibia II. Gorgonis autem dicitur habere in capite stellam I et in crinibus III. sunt omnes XVI.</p>
+         </div>
+<!--         De Pleiadibus-->
+         <div>
+            <p>Lira. Habet stellas in utroque pectine I, in singulos pedales I, in modolo I, in utroque humero I, in iugo I, in tympano splendidam atque candidam I. sunt omnes VIIII.</p>
+         </div>
+         <div>
+            <p>Cignus. habet stellam in capite splendidam I, in collo splendidam I, in dextra ala V (unam nitidam, quae est erga collum), in sinistra ala V, in corpore I, in geneitale suo magnam I. sunt omnes XIIII.</p>
+         </div>
+         <div>
+            <p>Aquarius. Habet in capite stellas obscuras II, in utroque humero I, in utroque cubito splendidam I, in summis manibus I, per singulas mamillas I, subtus mamillas ex utraque parte I, in sinistro lumbo I, in utroque genu I, in dextra tibia I, in singulis pedibus I. sunt omnes XVIII.</p>
+            <p>effusio autem aquae fit dextra leuaque,in qua II splendidae sunt, ceterae uero obscurae.</p>
+         </div>
+         <div>
+            <p>Capricornus. Habet in utroque cornu stellas II, in naribus splendidam I, in capite II, in collo splendidam I, in pectore II, in anteriore pede I, in summitatem ipsius pedis I, in dorso VII, in uentre V, in cauda II. sunt omnes XXVI.</p>
+         </div>
+         <div>
+            <p>Sagittarius. Habet stellas in capite II, in costis II, in dextro cubito I, in scapula nitidam I, in dorso II, in cauda II, in anteriori genu I, in utroque pede I, in arcu II.</p>
+            <p>et in Iaculo IV, una uero in summo, alia in medio obscura et II in pennis Iaculi, ex quibus una est clarior. sunt omnes XVIIII.</p>
+         </div>
+         <div>
+            <p>Aquila. Habet in pede stellam I, in medio corpore obscuram I, in rostro superiori I, in subteriori I. sunt omnes IV.</p>
+         </div>
+         <div>
+            <p>Delfinus non multum supercurrit Capricorno.</p>
+            <p>Habet in ori stellam I, in uertice II, in ala secus uentrem III, supra dorsum I, in cauda II. sunt omnes VIIII.</p>
+         </div>
+         <div>
+            <p>Orion obliquus quidem Tauro.</p>
+            <p>Habet in capite stellas splendidas III, ex quibus una est splendidior ceteris, in utroque humero splendidam I, in dextro cubito I obscuram, in summitatem manus I, in zona III, in mantile III obscuras, in utroque genu I, in utrisque pedibus I. sunt omnes XVII.</p>
+         </div>
+         <div>
+            <p>Canicula, quae oritur post Orionem.</p>
+            <p>Habet stellam splendidam in linguam I, quam Syrium et Canem uocant, rutilantem multum et per interualla colores inmutantem, in utroque humero obscuram I, in pectore II, in anteriore pede sinistro III, in dextro I, supra dorsum III, in uentre II, in sinistro lumbo I, in posteriori pede sinistro I, in summitatem caudae I. sunt omnes XVII.</p>
+         </div>
+         <div>
+            <p>Lepus. Habet stellas in utrisque auribus I, in corpore II, in dorso nitidam I, in posterioribus pedibus per singulos I. sunt omnes VIII.</p>
+         </div>
+         <div>
+            <p>Navis, quae apud Argiuos Argo uocatur.</p>
+            <p>Habet stellas in anteriore parte nauis IV et in puppi IV, in utroque temone V, in uelo III, in costa nauis V. sunt omnes XXVI.</p>
+         </div>
+         <div>
+            <p>Cetus sub Ariete et Piscibus gradiens.</p>
+            <p>Habet stellas in cauda II obscuras, a cauda usque ad gimbum VI, in uentre VI. sunt omnes XIIII.</p>
+         </div>
+         <div>
+            <p>Eurus, qui et Eridanus et a quibusdam Nilus, qui et Gion, a meridianis partibus habens initium, ad Orionis pedem tendens. subiacet ei stella, quae uocatur Canopus, splendens, quae tangit temonem Nauis. spatium paruum paret, eo quod circa terram esse uidetur.</p>
+            <p>Habet stellas in prima acie III, in secunda III, in tertia III usque ad nouissimas VII, quas dicunt in ore Nili fluuii esse. sunt omnes XVI.</p>
+         </div>
+         <div>
+            <p>Piscis magnus, qui et auster dicitur. a Capricorno usque ad Pisces eius longitudo protenditur. qui subiacet et Aquario et suscipit eius effusionem.</p>
+            <p>Habet stellas XII, ex quibus una fertur esse subtus pedes Aquarii et III in branchiis eius. ipsae autem clariores esse ceteris noscuntur.</p>
+         </div>
+         <div>
+            <p>Sacrarium, quod et Farum accipitur. hoc signum caudam magni Scorpii, circundat Septentrionem. et quaedam pars obtusior Arcturi, quaedam autem cito sub uespere deficit.</p>
+            <p>Habet autem stellas super craticulam II, in uasile II. sunt omnes IV.</p>
+         </div>
+         <div>
+            <p>Centaurus. fertur habere Bestiam in manu iuxta Sacrarium, in quo uidetur offere.</p>
+            <p>Habet stellas in capite obscuras III, in utroque humero splendidam I, in sinistro cubito I, in summa manu I, in medio pectore I, in spino II, in uentre spendidas II, in lumbo splendidam I, in cauda III, in utrisque genibus retrorsis II, in utroque armo I, in utroque pede anteriori I. sunt omnes XXIV.</p>
+            <p>Fertur tenere, sicut superius significauimus, in sinistra manu arma et leporem, in dextra uero Bestiam et a quibusdam hydram aceti.</p>
+            <p>Quae habet stellas in cauda II, in summo pedee anteriore nitidam I et in spino nitidam I et in anteriore pede splendidam I et subter ipsum pedem I, in capite III. sunt omnes IX. in totum uero XXXIII.</p>
+         </div>
+         <div>
+            <p>Serpens. super cuius caudam Coruum sedere dicunt et in medio Urnam adserunt. fertur enim, ut caput submittatur Cancro et cauda ad Centaurum tendat.</p>
+            <p>Qui habet stellas III, in ceruice I, in pectore I, in uentre I.</p>
+            <p>Coruus uero habet stellas III, in rosto I, in ala I, in genitale I.</p>
+            <p>Urna autem in medio labiorum habet stellas obscuras III. sunt omnes XI.</p>
+            <p>Sunt qui eam aliter pingunt, nempe Serpentem supinum Urnam gestantem in dorso et Coruum caudam Serpentis mordentem.</p>
+         </div>
+         <div>
+            <p>Anticanus dicitur subtus Geminos bene parere.</p>
+            <p>Habet stellas III, quarum I splendidior est ceteris et ideo Anticanus uocatur, eo quod contrarius sit Cani.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

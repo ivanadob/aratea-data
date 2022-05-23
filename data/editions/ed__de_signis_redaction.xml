@@ -2,24 +2,20 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--add info for the images
+? how to encode the corrections in K and Z as other witnesses or as choice with children elements sic and corr-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>De signis caelis (redaction)</title>
-            <respStmt>
-               <resp>Edited by:</resp>
-               <name>Ivana Dobcheva</name>
-            </respStmt>
+             <editor>Ivana Dobcheva</editor>            
          </titleStmt>
          <editionStmt>
             <edition>ae, e-caudata and e all trascribed as ae according to Latin classical grammar; ci and ti as 'ti'; consonants according to Latin classical grammar (e.g. adsisstens instead of assistens); numbers in roman capitals; modern punctuation; u and v are kept as u; capital letter at the start of a sentence and for the Latin name of the constellations. </edition>
             <respStmt>
                <resp>Edition and TEI-P5 encoding by</resp>
-               <name type="person">
-                  <rs type="person" ref="#ivana_dobcheva">Ivana Dobcheva</rs>
-               </name>
-               <name type="org"/>
+                <persName ref="#ivana_dobcheva">Ivana Dobcheva</persName>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -40,17 +36,19 @@
   <text>
       <body>
         <listWit>
-            <witness xml:id="Z">Zwettl, Stiftsbibliothek, Cod. 296</witness>
+            <witness xml:id="Z"><ref target="#desc__zwettl_sb_296.xml">Zwettl, Stiftsbibliothek, Cod. 296</ref></witness>
             <witness xml:id="Zw">Zwettl, Stiftsbibliothek, Cod. 296, corrections</witness>
-            <witness xml:id="K">Klosterneuburg, Stiftsbibliothek, Cod. 685</witness>
+            <witness xml:id="K"><ref target="#desc__klosterneuburg_sb_685.xml">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></witness>
             <witness xml:id="K2">Klosterneuburg, Stiftsbibliothek, Cod. 685 corrections</witness>
-            <witness xml:id="V">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</witness>
+            <witness xml:id="V"><ref target="#desc__bav_vat_lat_643.xml">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></witness>
          </listWit>
         
          <div>
             <head>Edition:</head>
-             <div corresp="#vv_19-42">
-            <p>Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero e contra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes Arcturos simul cum rotis quem quidam Plaustrum uocant; quae etiam capita per summum <app>
+             <div type="chapter" corresp="#t1-1">
+            <p>Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero e contra ab aquilone ex alto a parte oceani.</p></div> 
+             <div type="chapter" corresp="#t1-2">
+                 <p>Duo quoque ab utroque habentes Arcturos simul cum rotis quem quidam Plaustrum uocant; quae etiam capita per summum <app>
                             <rdg wit="#V #K">habent</rdg>
                             <rdg wit="Z">habeant</rdg>
                         </app>; alter utraque quidem in deorsum, altera uero sursum aspiciunt. Et arcturum quidem maiorem uocant Helicem, Arcturum autem minorem uocant canis caudam. Altera namque Helice quae apparet prima noctis, <app>
@@ -61,15 +59,17 @@
                             <rdg wit="#V">autem</rdg>
                             <rdg wit="#Z #K">enim</rdg>
                         </app> Helix Arcturus maior in capite stellas obscuras VII, in spatula <!--De signis: scapula--> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. sunt omnes XVI.</p>
-            <p>Fenix qui et Arctutus minor et a quibusdam canis cauda uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
+            
                 </div>
-            <div>
+             <div type="chapter" corresp="#t1-3">
+                 <p>Fenix qui et Arctutus minor et a quibusdam canis cauda uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos quae uocatur polus ubi dicunt totum mundum reuolui.</p>
+                 <div type="chapter" corresp="#t1-4">
                     <p>Draco qui continet utrosque arcturos helicis superuoluit caput, phenicis circumcidit caudam. Habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</p>
                 </div>
-            <div>
+                 <div type="chapter" corresp="#t1-5-3">
                     <p>Hercules qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in ropolo quem tenet in eadem manu I.</p>
                 </div>
-            <div>
+            <div type="chapter" corresp="#t1-6-3">
                <p>Corona uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis Arcturi.</p>
             </div>
             <div>
