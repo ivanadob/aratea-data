@@ -134,9 +134,15 @@
                     </app> duobus semispheriis.
                 </p></div>-->
         <div type="book" xml:id="phaenomena" n="latin">
-            <div type="chapter" xml:id="t1-5">
+            <div type="chapter" xml:id="t1-1"><head><title></title></head><p>A Ioue incipimus ...</p></div>
+            <div type="chapter" xml:id="t1-2"><head><title></title></head><p>Quarendum est ...</p></div>
+            <div type="chapter" xml:id="t1-3"><head><title></title></head><p>Quidam tamen multa dicunt ...</p></div>
+            <div type="chapter" xml:id="t1-4"><head><title></title></head><p>Helice ...</p></div>
+            <div type="chapter" xml:id="t1-5"><head><title></title></head><p>Altera namque pusilla ...</p></div>
+            <div type="chapter" xml:id="t1-6"><head><title>De Dracone</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-7"><head><title></title></head>
                 <pb n="22r" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721142g/f28.item"/>
-                <div type="section" xml:id="t1-5-1">
+                <div type="section" xml:id="t1-7-1">
                     <head>
                         <title>
                             <app>
@@ -148,24 +154,66 @@
                         </title>
                     </head>
                     <p>Hic autem consternatus uir <app><lem wit="#B">adsimulatus</lem><rdg wit="#P">adsimilatus</rdg></app> est simulacro quem nemo sciens dubitet <app><lem wit="#B">esse</lem><rdg wit="#P"></rdg></app> dicere neque quod pendit inanis dolus sed illum quidem ingeniculo uocant hoc ipsum autem quod ingenu laborat· Hesitanti quidem <app><lem wit="#B">adsimulatus</lem><rdg wit="#P">adsimilatus</rdg></app> est· Ab ambobus autem humeris manus in <app><lem wit="#B">aere</lem><rdg wit="#P">aera</rdg></app> extensus dextro pede summitatem habens reuelat draconi·</p></div> 
-                <div type="section" xml:id="t1-5-2">
+                <div type="section" xml:id="t1-7-2">
                     <p><lb/>Hic est hercules qui super serpentem supersedit· Perfectus quidem stetit et leoninam <app><lem wit="#P">circumuolutus</lem><rdg wit="#B">circumuolatus</rdg></app>· Dicitur autem quando <app><lem wit="#P">apud</lem><rdg wit="#B">aput</rdg></app>apud <app><lem wit="#B">aurea mala</lem><rdg wit="#P">mala aurea </rdg></app> <app><lem wit="#B">habuit</lem><rdg wit="#P"><del>h</del>abi it</rdg></app> serpentem constitutum custodem perimit· Multas quidem habens res· Multorum enim erat interfector et magnitudine superponens et potentia mirabilis· Solus quidem insomnis erat <app><lem wit="#P">ut</lem><rdg wit="#B">et</rdg></app> nullus tangeret ea erat enim a <app><lem wit="#B">iuno</lem><rdg wit="#P">iuna</rdg></app> dea constitutus· Pro hoc quomodo decertare debeat hercules· <app><lem wit="#P">Historialiter</lem><rdg wit="#B">Istorialiter</rdg></app> dicitur hunc <app><lem wit="#B">magno</lem><rdg wit="#P">mag<del>n</del>is </rdg></app> superasset hercules· Unde perfecto opere cum <app><lem wit="#P">periculo</lem><rdg wit="#B"></rdg></app>· Iuppiter iustum iudicans pro certaminis memorialem inter astra posuit· </p></div>
-                <div type="section" xml:id="t1-5-3">
+                <div type="section" xml:id="t1-7-3">
                     <p><lb/>Habet autem stellas in capite quidem I, in <app><lem wit="#B">brachiout</lem><rdg wit="#P">brach<del>r</del>io</rdg></app> utrisque umeris I splendidam, in cubito sinistro I, in ambis manibus I, in utraque ilia I, in dextra coxa II, in geniculo I, in tibia I, in sinistro geniculo I, in tibia I, in dextra manu quod uocatur ropalum II. Omnes simul XXIIII.
                     </p></div>
             </div>
-            <div type="chapter" xml:id="t1-6">
-                <div type="section" xml:id="t1-6-1">
+            <div type="chapter" xml:id="t1-8">
+                <div type="section" xml:id="t1-8-1">
                     <p><app><lem wit="#B">Ipsius ille</lem><rdg wit="#P">Ipse illius</rdg></app> coronam inposuit uictoriae significans liber pater ariatnes <app><lem wit="#B">laborantis</lem><rdg wit="#P">laboranti</rdg></app> simulacro Coronam quoque iuxta capite ad summum.</p>
                 </div>        
-                <div type="section" xml:id="t1-6-2">
+                <div type="section" xml:id="t1-8-2">
                     <p> Ista dicitur de ariatnes quod liber pater <app><lem wit="#B">eam</lem><rdg wit="#P"/></app> inter astra posuit quando nuptias dii fecerunt sibi in idem locum qui uocatur uolens inlustris fieri prima sponsa est absque modum accipiens et uenerem· Qui autem in cretae scripsit sic ait· Quando uenit liber pater apud minoem uolens eam <app><lem wit="#B">uiolare</lem><rdg wit="#P">uiolari</rdg></app>· hanc ei <app><lem wit="#B">munus</lem><rdg wit="#P">minus</rdg></app> dedit propter quod et <app><lem wit="#B">delusit</lem><rdg wit="#P">derisit</rdg></app> ariatnem·<pb n="22v" facs="http://gallica.bnf.fr/ark:/12148/btv1b10721142g/f29.item"/>Vulcani autem opus hoc esse inquiunt ex auro purissimo dans et lapidibus indicis· <app><lem wit="#B">Historialiter</lem><rdg wit="#P">Istorialiter</rdg></app> quippe dicitur per hanc et theseam saluare de <app><lem wit="#B">laberinthieo</lem><rdg wit="#P">labirinteo</rdg></app> faciente corona lumen inter astra uero eam postea poni quando ad <app><lem wit="#B">naxum</lem><rdg wit="#P">naxam</rdg></app> uenerum utrique signum religionis cooperabatur et diis. Aiunt quoque et <app><lem wit="#B">crinem</lem><rdg wit="#P">crineo</rdg></app> ipsius esse quod uidetur sub caudam leonis.</p>
                 </div>
-                <div type="section" xml:id="t1-6-3">
+                <div type="section" xml:id="t1-8-3">
                     <p><lb/>Habet autem stellas corona VIIII in circuitu positas quorum III splendidas ad capite serpentis arcturi.</p>
                 </div>
                 
             </div>
+            <div type="chapter" xml:id="t1-9"><p>Serpentarius</p></div>
+            <div type="chapter" xml:id="t1-10"><p>Scorpio</p></div>
+            <div type="chapter" xml:id="t1-11"><p>Bootes</p></div>
+            <div type="chapter" xml:id="t1-12"><p>Virgo</p></div>
+            <div type="chapter" xml:id="t1-13"><p>Gemini</p></div>
+            <div type="chapter" xml:id="t1-14"><p>Cancer</p></div>
+            <div type="chapter" xml:id="t1-15"><p>Leo</p></div>
+            <div type="chapter" xml:id="t1-16"><p>Agitator</p></div>
+            <div type="chapter" xml:id="t1-17"><p>Taurus</p></div>
+            <div type="chapter" xml:id="t1-18"><p>Cepheus</p></div>
+            <div type="chapter" xml:id="t1-19"><p>Cassiepia</p></div>
+            <div type="chapter" xml:id="t1-20"><p>Andromeda</p></div>
+            <div type="chapter" xml:id="t1-21"><p>Equus</p></div>
+            <div type="chapter" xml:id="t1-22"><p>Aries</p></div>
+            <div type="chapter" xml:id="t1-23"><p>Trangulus</p></div>
+            <div type="chapter" xml:id="t1-24"><p>Pisces</p></div>
+            <div type="chapter" xml:id="t1-25"><p>Perseus</p></div>
+            <div type="chapter" xml:id="t1-26"><p>Pliades</p></div>
+            <div type="chapter" xml:id="t1-27"><p>Lyra</p></div>
+            <div type="chapter" xml:id="t1-28"><p>Cygnus</p></div>
+            <div type="chapter" xml:id="t1-29"><p>Aquarius</p></div>
+            <div type="chapter" xml:id="t1-30"><p>Capricornus</p></div>
+            <div type="chapter" xml:id="t1-31"><p>Sagittarius</p></div>
+            <div type="chapter" xml:id="t1-32"><p>Sagitta</p></div>
+            <div type="chapter" xml:id="t1-33"><p>Aquila</p></div>
+            <div type="chapter" xml:id="t1-34"><p>Delphinus</p></div>
+            <div type="chapter" xml:id="t1-35"><head><title>De Orione</title></head></div>
+            <div type="chapter" xml:id="t1-36"><head><title>De Sirio</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-37"><head><title>De Lepore</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-38"><head><title>De Nauicula</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-39"><head><title>De Caeto</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-40"><head><title>De Eridano</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-41"><head><title>De Pisce</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-42"><head><title>De Sacrario</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-43"><head><title>De Centauro et Bestia</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-44"><head><title>De Coruo</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-45"><head><title>De Antecane</title></head><p></p></div>
+            <div type="chapter" xml:id="t1-46"><head><title>De Planetis</title></head></div>
+            <div type="chapter" xml:id="t1-47"><head><title>De quattuor circulis</title></head></div>
+            <div type="chapter" xml:id="t1-48"><head><title>De lacteo circulo</title></head></div>
+            <div type="chapter" xml:id="t1-49"><head><title>De tropicis et aequatore</title></head></div>
+            <div type="chapter" xml:id="t1-50"><head><title>Circulus signalis</title></head></div>
         </div>
         </body>
     </text>
