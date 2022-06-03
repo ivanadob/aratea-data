@@ -50,7 +50,7 @@ msDesc now as ref, maybe copy the respective files in here.
                      <desc>One of the five cities of the Philistine Pentapolis, located in present-day Israel.</desc>
                  </place>
              </listPlace>
-             <listNym type="constellations">
+             <!--<listNym type="constellations">
                  <nym xml:id="and">
                      <form xml:lang="lat">Andromeda</form>
                      <hyph>And</hyph>
@@ -236,11 +236,208 @@ msDesc now as ref, maybe copy the respective files in here.
                      <form xml:lang="lat">Virgo</form>
                      <hyph>Vir</hyph>
                  </nym>
-             </listNym>
+             </listNym>-->
          </sourceDesc>
       </fileDesc>
        <encodingDesc>
            <variantEncoding method="parallel-segmentation" location="internal"/>
+           <classDecl>
+               <taxonomy>
+                   <category xml:id="constellations">
+                       <desc>List of constellations' name</desc>
+                       <category xml:id="zodiacal_constellations">
+                           <desc>Zodiacal constellations</desc>
+                           <category xml:id="aqr">
+                               <desc xml:lang="lat">Aquarius</desc>
+                               <gloss>Aqr</gloss>
+                           </category>
+                               <category xml:id="ari">
+                                   <desc xml:lang="lat">Aries</desc>
+                                   <gloss></gloss>
+                               </category>
+                               <category xml:id="cnc">
+                                   <desc xml:lang="lat">Cancer</desc>
+                                   <gloss>Cnc</gloss>
+                               </category>
+                               <category xml:id="cap">
+                                   <desc xml:lang="lat">Capricornus</desc>
+                                   <gloss>Cap</gloss>
+                               </category>
+                               <category xml:id="gem">
+                                   <desc xml:lang="lat">Gemini</desc>
+                                   <gloss>Gem</gloss>
+                               </category>
+                               <category xml:id="leo">
+                                   <desc xml:lang="lat">Leo</desc>
+                                   <gloss>Leo</gloss>
+                               </category>
+                               <category xml:id="psc">
+                                   <desc xml:lang="lat">Pisces</desc>
+                                   <gloss>Psc</gloss>
+                               </category>
+                               <category xml:id="sgr">
+                                   <desc xml:lang="lat">Sagittarius</desc>
+                                   <gloss>Sgr</gloss>
+                               </category>
+                               <category xml:id="tau">
+                                   <desc xml:lang="lat">Taurus</desc>
+                                   <gloss>Tau</gloss>
+                               </category>
+                               <category xml:id="vir">
+                                   <desc xml:lang="lat">Virgo</desc>
+                                   <gloss>Vir</gloss>
+                               </category>
+                           <category xml:id="lib">
+                                   <desc xml:lang="lat">Libra</desc>
+                                   <gloss>Lib</gloss>
+                               </category>
+                       </category>
+                       <category xml:id="s_constellations">
+                           <desc>Southern constellations</desc>
+                               <category xml:id="arg">
+                                   <desc xml:lang="lat">Argo Navis</desc>
+                               </category>
+                               <category xml:id="ara">
+                                   <desc xml:lang="lat">Ara</desc>
+                                   <gloss>Ara</gloss>
+                               </category>
+                               <category xml:id="cma">
+                                   <desc xml:lang="lat">Canis Major</desc>
+                                   <gloss>CMa</gloss>
+                               </category>
+                               <category xml:id="cmi">
+                                   <desc xml:lang="lat">Canis Minor</desc>
+                                   <gloss>CMi</gloss>
+                               </category>
+                               <category xml:id="cen">
+                                   <desc xml:lang="lat">Centaurus</desc>
+                                   <gloss>Cen</gloss>
+                               </category>
+                               <category xml:id="crv">
+                                   <desc xml:lang="lat">Corvus</desc>
+                                   <gloss>Crv</gloss>
+                               </category>
+                               <category xml:id="crt">
+                                   <desc xml:lang="lat">Crater</desc>
+                                   <gloss>Crt</gloss>
+                               </category>
+                               <category xml:id="eri">
+                                   <desc xml:lang="lat">Eridanus</desc>
+                                   <gloss>Eri</gloss>
+                               </category>
+                               <category xml:id="hya">
+                                   <desc xml:lang="lat">Hydra</desc>
+                                   <gloss>Hya</gloss>
+                               </category>
+                               <category xml:id="lep">
+                                   <desc xml:lang="lat">Lepus</desc>
+                                   <gloss>Lep</gloss>
+                               </category>    
+                               <category xml:id="oph">
+                                   <desc xml:lang="lat">Ophiuchus</desc>
+                                   <gloss>Oph</gloss>
+                               </category>
+                               <category xml:id="psa">
+                                   <desc xml:lang="lat">Piscis Austrinus</desc>
+                                   <gloss>PsA</gloss>
+                               </category>          
+                       </category>
+                       <category xml:id="n_constellations">
+                           <desc>Northern constellations</desc>
+                               <category xml:id="and">
+                                   <desc xml:lang="lat">Andromeda</desc>
+                                   <gloss>And</gloss>
+                               </category>                               
+                               <category xml:id="aql">
+                                   <desc xml:lang="lat">Aquila</desc>
+                                   <gloss>Aql</gloss>
+                               </category>
+                               <category xml:id="aur">
+                                   <desc xml:lang="lat">Auriga</desc>
+                                   <gloss>Aur</gloss>
+                               </category>
+                               <category xml:id="boo">
+                                   <desc xml:lang="lat">Bootes</desc>
+                                   <desc xml:lang="lat">Boötes</desc>
+                                   <gloss>Boo</gloss>
+                               </category>
+                               <category xml:id="cas">
+                                   <desc xml:lang="lat">Cassiopeia</desc>
+                                   <gloss>Cas</gloss>
+                               </category>
+                               <category xml:id="cep">
+                                   <desc xml:lang="lat">Cepheus</desc>
+                                   <gloss>Cep</gloss>
+                               </category>
+                               <category xml:id="cet">
+                                   <desc xml:lang="lat">Cetus</desc>
+                                   <gloss>Cet</gloss>
+                               </category>
+                               <category xml:id="crb">
+                                   <desc xml:lang="lat">Corona Borealis</desc>
+                                   <gloss>CrB</gloss>
+                               </category>
+                               <category xml:id="cyg">
+                                   <desc xml:lang="lat">Cygnus</desc>
+                                   <gloss>Cyg</gloss>
+                               </category>
+                               <category xml:id="del">
+                                   <desc xml:lang="lat">Delphinus</desc>
+                                   <gloss>Del</gloss>
+                               </category>
+                               <category xml:id="dra">
+                                   <desc xml:lang="lat">Draco</desc>
+                                   <gloss>Dra</gloss>
+                               </category>
+                               <category xml:id="her">
+                                   <desc xml:lang="lat">Hercules</desc>
+                                   <gloss>Her</gloss>
+                               </category> 
+                               <category xml:id="lyr">
+                                   <desc xml:lang="lat">Lyra</desc>
+                                   <gloss>Lyr</gloss>
+                               </category>
+                               <category xml:id="ori">
+                                   <desc xml:lang="lat">Orion</desc>
+                                   <gloss>Ori</gloss>
+                               </category>
+                               <category xml:id="peg">
+                                   <desc xml:lang="lat">Pegasus</desc>
+                                   <desc xml:lang="lat">Equus</desc>
+                                   <gloss>Peg</gloss>
+                               </category>
+                               <category xml:id="per">
+                                   <desc xml:lang="lat">Perseus</desc>
+                                   <gloss>Per</gloss>
+                               </category>       
+                               <category xml:id="sge">
+                                   <desc xml:lang="lat">Sagitta</desc>
+                                   <gloss>Sge</gloss>
+                               </category>
+                               <category xml:id="sco">
+                                   <desc xml:lang="lat">Scorpius</desc>
+                                   <gloss>Sco</gloss>
+                               </category>
+                               <category xml:id="ser">
+                                   <desc xml:lang="lat">Serpens</desc>
+                                   <gloss>Ser</gloss>
+                               </category>
+                               <category xml:id="tri">
+                                   <desc xml:lang="lat">Triangulum</desc>
+                                   <gloss>Tri</gloss>
+                               </category>
+                               <category xml:id="uma">
+                                   <desc xml:lang="lat">Ursa Major</desc>
+                                   <gloss>UMa</gloss>
+                               </category>
+                               <category xml:id="umi">
+                                   <desc xml:lang="lat">Ursa Minor</desc>
+                                   <gloss>UMi</gloss>
+                               </category>
+                       </category>
+                   </category>
+               </taxonomy>
+           </classDecl>
        </encodingDesc>
       <revisionDesc status="draft">
           <change when="2022-05-24">Encoding the corrections in wit K and Z not as separate Sigla but with element subst (with children elements del and add).</change>
@@ -256,6 +453,16 @@ msDesc now as ref, maybe copy the respective files in here.
         </surface>
     </facsimile>
   <text>
+      <front>
+          <div>
+              <eTree>
+                  <label></label>
+                  <eLeaf>
+                      <label></label>
+                  </eLeaf>
+              </eTree>
+          </div>
+      </front>
       <body>
         
           <div>

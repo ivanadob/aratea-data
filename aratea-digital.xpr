@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/descriptions/desc__zwettl_sb_296.xml</String>
+                                    <String>data/editions/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>desc_tei_to_html</String>
+                                        <String>add_license</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/</String>
+                                    <String>data/descriptions/desc__zwettl_sb_296.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>add_license</String>
+                                        <String>desc_tei_to_html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
