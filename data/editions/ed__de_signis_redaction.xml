@@ -2,8 +2,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--add info for the images
+<!--<pb> with refEd to each witness within the transcription
+    add facs for the images and ref to the sachregister -> be able to call all images of e.g. 'Perseus'
 msDesc now as ref, maybe copy the respective files in here.
+HOW TO MANAGE THE PARALLEL SECTIONS. If this is a redaction / recension - then one file within the original 'De signis' ? EVT 2 has 'multiple recension' mode (example Avicenna) how is it encoded?
+with @source within <p> and <seg> element <seg xml:id="seg_1" type="srcTxtLink"> - separate xml for sources
+with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_Meta_4-1-1003a31-32/seg_1">
+
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,7 +18,17 @@ msDesc now as ref, maybe copy the respective files in here.
              <editor>Ivana Dobcheva</editor>            
          </titleStmt>
          <editionStmt>
-            <edition>ae, e-caudata and e all trascribed as ae according to Latin classical grammar; ci and ti as 'ti'; consonants according to Latin classical grammar (e.g. adsisstens instead of assistens); numbers in roman capitals; modern punctuation; u and v are kept as u; capital letter at the start of a sentence and for the Latin name of the constellations. </edition>
+            <edition>The edition is based on ...
+                In cases of obvious grammatical and lexical mistakes or by supposed misunderstanding of the exemplar text, both original (as in the manuscript) and conjectured (by the editor) forms are given.
+                Abbreviations are silently expanded following the classical spelling. 
+                Standartisation: ae, e-caudata and e all trascribed as ae according to Latin classical grammar; ci and ti as 'ti'; consonants according to Latin classical grammar (e.g. adsisstens instead of assistens); u and v are kept as u except when at the beginning of a word (e.g. 'conuenit' but 'Venus').
+                Punctuation is modernised according to the English usage.
+            Numbers are presented with Roman numerals, e.g. 'VII' and 'septem' as 'VII'.
+            Capitalisation is generalised at the beginning of a sentence, and for proper names. Proper names include the names of the planets, signs of the zodiac, stars and constellations.
+            Change of folio, column - indicated for each witness.
+            Diagrams and figures are encoded with element figure.
+            Citations - quote.
+            </edition>
             <respStmt>
                <resp>Edition and TEI-P5 encoding by</resp>
                 <persName ref="#ivana_dobcheva">Ivana Dobcheva</persName>
@@ -455,6 +470,7 @@ msDesc now as ref, maybe copy the respective files in here.
   <text>
       <front>
           <div>
+<!--              Stemma codicum-->
               <eTree>
                   <label></label>
                   <eLeaf>
@@ -469,6 +485,9 @@ msDesc now as ref, maybe copy the respective files in here.
             <head>
                 <title><supplied resp="#ivana_dobcheva">De signis caeli - recensio interpolata</supplied></title>
             </head>
+              <pb edRef="#K" n="71r" facs="#k_71r"/>
+              <pb edRef="#V" n="" facs=""/>
+              <pb edRef="#Z" n="85v" facs=""/>
              <div type="chapter" corresp="#t1-3">
             <p><quote source="#al">Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis, sed ipse magis axe continetur, qui se continuo in semet ipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum. Quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero econtra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes <seg ana="#uma #umi">Arcturos</seg> simul cum rotis, quem quidam Plaustrum uocant. Quae etiam capita per summum <app>
                             <lem wit="#V #K">habent</lem>

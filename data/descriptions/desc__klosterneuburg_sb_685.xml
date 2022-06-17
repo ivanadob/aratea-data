@@ -223,7 +223,7 @@
                         </supportDesc>
                         <layoutDesc>
                             <layout columns="1">
-                                <p>One column in 35 long lines.</p>
+                                <p>One column in 35 long lines. <seg type="pricking">Pricking visible on the outer edges of each folio</seg>. <seg type="ruling">Blind ruling for the vertical ruling and the top and bottom horizontal lines. Horizontal ruling for the text lines made in plummet - gry colour</seg>. Cue initials and </p>
                             </layout>
                         </layoutDesc>
                     </objectDesc>
@@ -232,10 +232,9 @@
                         <scriptNote script="carolgot">
                             <p/>
                         </scriptNote>                     
-                    </scriptDesc>                                      
-                    <musicNotation/>
+                    </scriptDesc>  
                     <decoDesc>
-                        <decoNote>Pendrawings in red and violet ink. On <locus from="70v"> f. 70v</locus> three rota-diagrams on of the terrestria zones, one stating the circumference of earth, and another combining zodiacal signs, months, elements and their qualities, and the path of the sun. (image<ptr target="http://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_70v.jpg"/>) Illustrations of the constellations on <locus from="71r" to="83v">ff. 71r-83v</locus>; portraits of the planets on <locus from="84r">f. 84r</locus>; Zodiacal circle with full figures of Sol and Luna in the middle on <locus from="86r"> f. 86r</locus>; medalion of Sol in quadriga on <locus from="86v">f. 86v</locus> and medalion of Luna in biga on <locus from="88r">f. 88r</locus>.</decoNote>
+                        <decoNote>Pendrawings in red and violet ink with green and yellow. On <locus from="70v"> f. 70v</locus> three rota-diagrams on of the terrestria zones, one stating the circumference of earth, and another combining zodiacal signs, months, elements and their qualities, and the path of the sun. (image<ptr target="http://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_70v.jpg"/>) Illustrations of the constellations on <locus from="71r" to="83v">ff. 71r-83v</locus>; portraits of the planets on <locus from="84r">f. 84r</locus>; Zodiacal circle with full figures of Sol and Luna in the middle on <locus from="86r"> f. 86r</locus>; medalion of Sol in quadriga on <locus from="86v">f. 86v</locus> and medalion of Luna in biga on <locus from="88r">f. 88r</locus>.</decoNote>
                     </decoDesc>
                     <bindingDesc>
                         <binding contemporary="false">
@@ -247,7 +246,7 @@
                 <history>
                     <summary/>
                     <origin>
-                        <p>The manuscript is not found in any of the monastery catalogues from the 12-14th c. A. Haidinger, however found palaeographical similarities between this manuscript and others written in Klosterneuburg, as for example MS 20 (see <bibl>Sehnsucht nach der Antike, ed. Huber Wolfgang, pp. 66-67</bibl>).</p>
+                        <p>The manuscript is not found in any of the monastery's catalogues from the 12-14th c. A. Haidinger, however, found palaeographical similarities between this manuscript and others written in Klosterneuburg, as for example MS 20 (see <bibl>Sehnsucht nach der Antike, ed. Huber Wolfgang, pp. 66-67</bibl>).</p>
                     </origin>
                     <provenance>
                         <p>Note on <locus from="1r">1r</locus>: <quote>Liber sancte Marie in Newnburga claustrali</quote> and <locus from="88r">f. 88r</locus>: <quote>Iste liber est sancte marie de Neuburga.</quote>
