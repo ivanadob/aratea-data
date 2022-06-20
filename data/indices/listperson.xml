@@ -51,6 +51,10 @@
                     <person xml:id="arator">
                         <persName xml:id="gnd_118503804" ref="http://d-nb.info/gnd/118503804">Arator</persName>
                     </person>
+                    <person xml:id="aratus">
+                        <persName xml:id="gnd_118645552" ref="https://d-nb.info/gnd/118645552">Aratus Solensis</persName>
+                        <persName>Aratos</persName>
+                    </person>
                     <person xml:id="astronomus">
                         <persName xml:id="gnd_119017962" ref="http://d-nb.info/gnd/119017962">Astronomus</persName>
                     </person>
