@@ -32,19 +32,18 @@
                <witness xml:id="l">latina translatio - Aratus Latinus cf. p. 101 et 175 sqq. </witness>
                <witness>rec-int Revised Aratus Latinus (interpolata translationis latinae recensio), cf p. 101 et 180sqq.</witness>
             </listWit>
-            <listWit>
+            <!--<listWit>
                <head>Witnesses of De signis caeli - recensio interpolata</head>
                <witness xml:id="Z"><ref target="#desc__zwettl_sb_296.xml">Zwettl, Stiftsbibliothek, Cod. 296</ref></witness>
                <witness xml:id="K"><ref target="#desc__klosterneuburg_sb_685.xml">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></witness>
                <witness xml:id="V"><ref target="#desc__bav_vat_lat_643.xml">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></witness>
-            </listWit>
+            </listWit>-->
                         
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
-      <body>
-         
+      <body>         
          <div type="chapter" xml:id="t2-1" corresp="#t1-4">
             <p><app><lem>Helix</lem><rdg wit="#Ba">Helice</rdg></app>, <app><lem>id est</lem><rdg wit="#B"/></app> Arcturus maior.</p> 
             <p>Habet <app><lem>autem</lem><rdg wit="#Ba"/></app> in capite stellas obscuras VII, <app><lem>in singulis auribus singulas</lem><rdg wit="#B #C"/></app><app><lem>, super pectus I</lem><rdg wit="#C"/></app>, in spatula I, in pede I, in dorso I, in tibia anteriore II, super eandem III. sunt omnes  <app><lem>XVIII</lem><rdg wit="#C #B">XVI</rdg></app>.</p></div>

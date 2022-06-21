@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<pb> with refEd to each witness within the transcription
-    add facs for the images and ref to the sachregister -> be able to call all images of e.g. 'Perseus'
-msDesc now as ref, maybe copy the respective files in here.
-HOW TO MANAGE THE PARALLEL SECTIONS. If this is a redaction / recension - then one file within the original 'De signis' ? EVT 2 has 'multiple recension' mode (example Avicenna) how is it encoded?
-with @source within <p> and <seg> element <seg xml:id="seg_1" type="srcTxtLink"> - separate xml for sources
-with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_Meta_4-1-1003a31-32/seg_1">
-
--->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -18,9 +7,7 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
              <editor>Ivana Dobcheva</editor>            
          </titleStmt>
          <editionStmt>
-            <edition>The edition is based on ...               
-            
-            </edition>
+            <edition>Digital born edition.</edition>
             <respStmt>
                <resp>Edition and TEI-P5 encoding by</resp>
                 <persName ref="#ivana_dobcheva">Ivana Dobcheva</persName>
@@ -38,34 +25,16 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
                  <witness xml:id="K"><ref target="#desc__klosterneuburg_sb_685.xml">Klosterneuburg, Stiftsbibliothek, Cod. 685</ref></witness>
                  <witness xml:id="V"><ref target="#desc__bav_vat_lat_643.xml">Vatican, Biblioteca Apostolica Vaticana, Vat. lat. 643</ref></witness>
              </listWit>
-             <listBibl>
-                 <bibl xml:id="al">Aratus latinus</bibl>
-                 <bibl xml:id="isidore_etym_3">Isidore of Seville, The Etymologies (or Origins)</bibl>
-             </listBibl>
-             <listPerson>
-                 <person xml:id="isidore">
-                     <persName xml:lang="en">Isidore of Seville</persName>
-                 </person>
-                 <person xml:id="ivana_dobcheva">
-                     <persName>Ivana Dobcheva</persName>
-                 </person>
-             </listPerson>
-             <listPlace>
-                 <place xml:id="ekron">
-                     <placeName ref="https://en.wikipedia.org/wiki/Ekron">Ekron</placeName>
-                     <placeName>Accaron</placeName>
-                     <desc>One of the five cities of the Philistine Pentapolis, located in present-day Israel.</desc>
-                 </place>
-             </listPlace>             
          </sourceDesc>
       </fileDesc>
        <encodingDesc>
            <projectDesc>
-               <p></p>
+               <p>This edition is part of a larger project devoted to the transmission and reception of the Latin Aratean textual corpus in the Early Middle Ages. The current text, with the provisional title <title>De signis caeli - recensio interpolata</title>, is supposed to be an interpolation of the star catalogue <ref target="#text__de_signis_caeli.xml">De signis caeli</ref>, itself a re-working of the <ref target="#text__aratus_latinus.xml">Aratus Latinus</ref> - an early or even pre-Carolingian translation of the Greek didactic poem Phainomena by Aratus of Soli. This is the first edition of the current text, preserved in three manuscripts datable to the twelfth century and written in Melk, Zwettl and Klosterneuburg. There is uncertainty about the relation between the three witnesses, which the current collation might finally resolve.</p>
+               <p>Aside from studying the manuscript transmission and particularly the <foreign>Überlieferungsgemeinschaft</foreign> of the various Aratea texts, the project aims also to show the freedom and innovation with which medieval scribes worked with the texts. One way to visualise the changes introduced within the so-called redactions and interpolated texts is to present the texts side by side. This will hopefully shed light at the rationale and intention of medieval readers of the Aratea.</p>
            </projectDesc>
            <editorialDecl>
                <correction> <!--states how and under what circumstances corrections have been made in the text-->
-                   <p>In cases of obvious grammatical and lexical mistakes or by supposed misunderstanding of the exemplar text, both original (as in the manuscript) and conjectured (by the editor) forms are given by using the <gi>sic</gi> and <gi>corr</gi> elements. Challenge due to the origin of the text consisting partly of excerpts from a (mis)translated Greek original poem -> the Latin sentences taken from Aratus Latinus often are non-sense. In these cases there is no correction on the side of the editor. In some cases the scribe of K corrected at least the Latin grammar. </p>
+                   <p>In cases of obvious grammatical and lexical mistakes or by supposed misunderstanding of the exemplar text, both original (as in the manuscript) and conjectured (by the editor) forms are given by using the <gi>sic</gi> and <gi>corr</gi> elements. Challenge due to the origin of the text consisting partly of excerpts from a (mis)translated Greek original poem -> the Latin sentences taken from Aratus Latinus often are non-sense. In these cases the editor introduced no correction. In the few cases where the scribe of K corrected the text to follow  the rules of Latin grammar, these readings have been accepted as lemmata.</p>
                </correction>
                <normalization>  <!--indicates the extent of normalization or regularization of the original source carried out in converting it to electronic form.-->
                    <p>Abbreviations are silently expanded following the classical spelling.</p>
@@ -84,7 +53,7 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
            <p>Constellations' names and figures are marked with <gi>seg</gi> and <att>ana</att> referencing to the taxonomy in <gi>classDecl</gi>.</p>
                <p>Change of folio, column - indicated for each witness.
                    Diagrams and illustrations are encoded with <gi>figure</gi>.
-                   Citations - quote. 
+                   Citations <gi>quote</gi> and <att>source</att> and <att>corresp</att> which referenced to the passage in two other texts and the respective sections transcribed in two xml documents (ed__de_signis_caeli.xml and ed__aratus_latinus.xml). Additionally each <gi>div</gi> and <gi>p</gi> have <att>corresp</att> again pointing to the sources or similar texts. These references will be used to call out parallel texts for comparison.
                </p>
            <variantEncoding method="parallel-segmentation" location="internal"/>
            <classDecl>
@@ -358,7 +327,7 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
          <change when="2018-07-22"/>
       </revisionDesc>
    </teiHeader>
-<!--    facsimile to try out marking the illustrations - only for the first folio in Klosterneuburg MS. -->
+<!--    try out marking the illustrations - only for the first folio in Klosterneuburg MS. -->
     <facsimile>
         <surface xml:id="k_71r" ulx="0" uly="0" lrx="423" lry="601">
             <graphic url="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_071r.jpg"/>
@@ -366,55 +335,50 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
             <zone xml:id="k_71r_umi" ulx="162" uly="2292" lrx="1555" lry="3077"/>            
         </surface>
     </facsimile>
-  <text>
-      <front>
-          <div>
-<!--              Stemma codicum-->
-              <eTree>
-                  <label></label>
-                  <eLeaf>
-                      <label></label>
-                  </eLeaf>
-              </eTree>
-          </div>
-      </front>
-      <body>
-        
+    <text>
+      <body>        
           <div>
             <head>
                 <title><supplied resp="#ivana_dobcheva">De signis caeli - recensio interpolata</supplied></title>
             </head>
               <pb edRef="#K" n="70v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_070v.jpg"/>
               <app>
+                  <lem wit="#V #Z"/>
                   <rdg wit="#K">
                       <figure><figDesc>Diagram of the terrestrial circles.</figDesc></figure></rdg>
                   <rdg wit="#V #Z"/>
               </app>
               <app>
+                  <lem wit="#V #Z"/>
                   <rdg wit="#K">Circuitus terrae CLXXX milibus stadiorum mensuratur quod sunt duodecies mille miliaria et quinquaginta et duo. Stadium est centum XXV passus. Miliare est mille passus. Passus quinque pedes habet.</rdg>
-                  <rdg wit="#V #Z"/>
               </app>
               <app>
+                  <lem wit="#V #Z"/>
                   <rdg wit="#K">Circular diagram combining the twelve zodiacal signs, the four season and the twelve months, the four elements with their qualities, and the sun's solstices and equinoxes.</rdg>
-                  <rdg wit="#V #Z"/>
               </app>
               <pb edRef="#K" n="71r" facs="#k_71r"/>
               <pb edRef="#V" n="82v"/>
               <pb edRef="#Z" n="85v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_085v.jpg"/>
              <div type="chapter" corresp="#t1-3">
-            <p><quote source="#al">Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis, sed ipse magis axe continetur, qui se continuo in semet ipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum. Quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero econtra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes <seg ana="#uma #umi">Arcturos</seg> simul cum rotis, quem quidam Plaustrum uocant. Quae etiam capita per summum <app>
-                            <lem wit="#V #K">habent</lem>
-                            <rdg wit="Z">habeant</rdg>
-                        </app>; alterutraque quidem in deorsum, altera uero sursum aspiciunt. et arcturum quidem maiorem uocant <seg ana="#uma">Helicem</seg>, Arcturum autem minorem uocant <seg ana="#umi">Canis caudam</seg>. Altera namque <seg ana="#uma">Helice</seg> quae apparet prima noctis, <app>
-                            <lem wit="#V #Z">alia</lem>
-                            <rdg wit="#K">altera</rdg>
-                        </app> uero pusilla quidem sed a nauigantibus obseruatur. Maria enim conturbat.</quote></p> 
+                 <p>
+<!--                     ############## Use cit with quote and bibl or only quote with @source and @corresp #######-->
+                     <cit>
+                         <quote source="#al" corresp="#t1-3">Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis, sed ipse magis axe continetur, qui se continuo in semet ipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum. Quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero econtra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes <seg ana="#uma #umi">Arcturos</seg> simul cum rotis, quem quidam Plaustrum uocant. Quae etiam capita per summum <app>
+                             <lem wit="#V #K">habent</lem>
+                             <rdg wit="#Z">habeant</rdg>
+                         </app>; alterutraque quidem in deorsum, altera uero sursum aspiciunt. et arcturum quidem maiorem uocant <seg ana="#uma">Helicem</seg>, Arcturum autem minorem uocant <seg ana="#umi">Canis caudam</seg>. Altera namque <seg ana="#uma">Helice</seg> quae apparet prima noctis, <app>
+                             <lem wit="#V #Z">alia</lem>
+                             <rdg wit="#K">altera</rdg>
+                         </app> uero pusilla quidem sed a nauigantibus obseruatur. Maria enim conturbat.</quote>
+                         <bibl><ref target="#ed__aratus_latinus.xml">Aratus Latinus, section 3</ref></bibl>
+                     </cit>
+                 </p> 
              </div>
               <div type="chapter" corresp="#t1-2 #t2-1">
-            <p>Habet <app>
+            <p><quote source="#t2-1">Habet <app>
                             <lem wit="#V">autem</lem>
                             <rdg wit="#Z #K">enim</rdg>
-                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</p>
+                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</quote></p>
 <!--                  ############## Use @facs or element graphic?? ###########-->
                   <figure ana="#uma" facs="#k_71r_uma">
                       <graphic url="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_071r.jpg"/>
@@ -481,7 +445,7 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
                             <rdg wit="#K">Arcides</rdg>
                         </app>, qui et <app>
                             <lem wit="#K"><seg ana="#boo">Bootes</seg></lem>
-                            <rdg wit="V Z">Bootis</rdg>
+                            <rdg wit="#V #Z">Bootis</rdg>
                         </app>, fertur esse custos <seg ana="#uma #umi">Plaustri</seg>. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.</p>
             </div>
                  <figure ana="#boo">
@@ -1042,6 +1006,6 @@ with <quote> and @source <quote source="#Ari_Meta_4-1-1003a31-32" corresp="#Ari_
                  </app>
          </div>
          </div>
-      </body>
-  </text>
+      </body>      
+  </text>  
 </TEI>

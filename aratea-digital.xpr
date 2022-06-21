@@ -10,22 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>add_license</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/descriptions/desc__zwettl_sb_296.xml</String>
+                                    <String>data/descriptions/desc__bav_vat_lat_643.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -41,6 +26,51 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/descriptions/desc__klosterneuburg_sb_685.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>desc_tei_to_html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>add_license</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/indices/listperson.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>make listperson</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/descriptions/desc__zwettl_sb_296.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -255,21 +285,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/indices/listperson.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>make listperson</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

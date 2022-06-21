@@ -77,6 +77,11 @@
                         <tei:geo>49.90672 2.50682</tei:geo>
                     </tei:location>
                 </place>
+                <place xml:id="ekron">
+                    <placeName ref="https://en.wikipedia.org/wiki/Ekron">Ekron</placeName>
+                    <placeName>Accaron</placeName>
+                    <desc>One of the five cities of the Philistine Pentapolis, located in present-day Israel.</desc>
+                </place>
                 <place xml:id="einsiedeln">
                     <placeName ref="http://www.geonames.org/2660925">Einsiedeln</placeName>
                     <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">

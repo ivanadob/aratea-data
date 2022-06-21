@@ -28,13 +28,7 @@
         </revisionDesc>
     </teiHeader>
 <!--    ############################ WORK IN PROGRESS : collate the 4 MSS using Juxta common, choose <lem> 
-        test use the telma xslt to make a parallel segmentation edition (extra get LaTeX files and pdf)
-    for dispay use: https://visualizationtechnology.wordpress.com/ OR http://v-machine.org/download/
-    https://kups.ub.uni-koeln.de/9085/1/SIDE_12_digital_scholarly_editions_as_interfaces.pdf
-    
-    check examples of parallel editions in https://www.digitalmanuscripts.eu/editions/
-    
-    Textual criticism - would disregard the reading in Pa, since it is an immediate copy of P - choice to include it - material philology 
+        
     -->
     <text>
         <front>
@@ -136,7 +130,7 @@
         <div type="book" xml:id="phaenomena" n="latin">
             <div type="chapter" xml:id="t1-1"><head><title></title></head><p>A Ioue incipimus ...</p></div>
             <div type="chapter" xml:id="t1-2"><head><title></title></head><p>Quarendum est ...</p></div>
-            <div type="chapter" xml:id="t1-3"><head><title></title></head><p>Quidam tamen multa dicunt ...</p></div>
+            <div type="chapter" xml:id="t1-3"><head><title></title></head><p><!--From P: -->Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis sed ipse magis axe continetur qui se continuo in semetipso reuoluitur habet autem undique inponderatam per medio terrae in circuitu caeli aequaliter deductum quem etiam diuidunt duo poli ab inuicem sed unus quidem non aspicitur alter uero e contra ab aquilone ex alto a parte oceani· Duo quoque ab utroque habentes arcturos simul cum rotis quem quidam plaustrum uocant quae etiam capita per summum habent alterutraque quidem in deorsum altera uero sursum aspiciunt et arcturum quidem maiorem uocant helicem arcturum autem minorem uocant canis caudam altera namque helice quae apparet prima noctis· Alia uero pusilla quidem sed a nauigantibus obseratur maria enim conturbat·</p></div>
             <div type="chapter" xml:id="t1-4"><head><title></title></head><p>Helice ...</p></div>
             <div type="chapter" xml:id="t1-5"><head><title></title></head><p>Altera namque pusilla ...</p></div>
             <div type="chapter" xml:id="t1-6"><head><title>De Dracone</title></head><p></p></div>
