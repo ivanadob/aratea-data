@@ -172,12 +172,13 @@
                   <supportDesc material="perg">
                      <support>Perchment</support>
                      <extent>
-                        <dimensions type="leaf" n="101">
+                        <measure type="leavesCount" n="99">II (modern) + 99 fols. + II (modern)</measure>
+                        <dimensions type="leaf" unit="mm">
                            <height>276</height>
                            <width>210</width>
                         </dimensions>
                      </extent>
-                     <foliation/>
+                     <foliation>Modern foliation in the upper right corner of every recto: 1-100, 81 skipped.</foliation>
                      <collation>
                         <p>ff.1-8, 9-17, 24-32, 33-40, 41-46, 47-55, 56-63, 64-71, 71a-76, 77-80 (f. 81 skiped or missing), 82-89, 90-98 (stub between ff.90-91), 99-100.</p>
                      </collation>
@@ -194,7 +195,7 @@
             </history>
             <additional>
                <listBibl>
-                  <head>Selected Bibliography:</head>
+                  <head>Selected Bibliography</head>
                   <bibl>
                      <abbr>Sternbilder des Mittelalters</abbr>, pp. 477-481.</bibl>
                </listBibl>
