@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--    figure with facs
+        add descriptions of the mss - facsimile better -
+    cit-quote
+    try teitoolbox - problem with figure - for the transoformation change to note ?
+    -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -339,27 +344,32 @@
       <body>        
           <div>
             <head>
-                <title><supplied resp="#ivana_dobcheva">De signis caeli - recensio interpolata</supplied></title>
+                <title>
+                    <supplied resp="#ivana_dobcheva">De signis caeli - recensio interpolata</supplied>
+                </title>
             </head>
-              <pb edRef="#K" n="70v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_070v.jpg"/>
+              <!--<pb edRef="#K" n="70v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_070v.jpg"/>
               <app>
                   <lem wit="#V #Z"/>
                   <rdg wit="#K">
-                      <figure><figDesc>Diagram of the terrestrial circles.</figDesc></figure></rdg>
+                      <figure><figDesc resp="#ivana_dobcheva">Diagram of the terrestrial circles.</figDesc></figure></rdg>
                   <rdg wit="#V #Z"/>
-              </app>
-              <app>
+              </app>-->
+              <!--<app>
                   <lem wit="#V #Z"/>
                   <rdg wit="#K">Circuitus terrae CLXXX milibus stadiorum mensuratur quod sunt duodecies mille miliaria et quinquaginta et duo. Stadium est centum XXV passus. Miliare est mille passus. Passus quinque pedes habet.</rdg>
-              </app>
-              <app>
+              </app>-->
+              <!--<app>
                   <lem wit="#V #Z"/>
                   <rdg wit="#K">Circular diagram combining the twelve zodiacal signs, the four season and the twelve months, the four elements with their qualities, and the sun's solstices and equinoxes.</rdg>
-              </app>
+              </app>-->
               <pb edRef="#K" n="71r" facs="#k_71r"/>
               <pb edRef="#V" n="82v"/>
               <pb edRef="#Z" n="85v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_085v.jpg"/>
              <div type="chapter" corresp="#t1-3">
+                 <head>
+                     <title type="supplied" resp="#ivana_dobcheva">I</title>
+                 </head>
                  <p>
 <!--                     ############## Use cit with quote and bibl or only quote with @source and @corresp #######-->
                      <cit>
@@ -370,75 +380,109 @@
                              <lem wit="#V #Z">alia</lem>
                              <rdg wit="#K">altera</rdg>
                          </app> uero pusilla quidem sed a nauigantibus obseruatur. Maria enim conturbat.</quote>
-                         <bibl><ref target="#ed__aratus_latinus.xml">Aratus Latinus, section 3</ref></bibl>
+                         <bibl>Aratus Latinus, section 3.</bibl>
                      </cit>
                  </p> 
              </div>
               <div type="chapter" corresp="#t1-2 #t2-1">
-            <p><quote source="#t2-1">Habet <app>
+                  <head>
+                      <title type="supplied" resp="#ivana_dobcheva">II. Ursa maior</title>
+                  </head>
+            <p><cit>
+                <quote source="#t2-1">Habet <app>
                             <lem wit="#V">autem</lem>
                             <rdg wit="#Z #K">enim</rdg>
-                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</quote></p>
+                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</quote>            
+                <bibl>De signis caeli, ch. 1.</bibl></cit>
+            </p>
 <!--                  ############## Use @facs or element graphic?? ###########-->
                   <figure ana="#uma" facs="#k_71r_uma">
                       <graphic url="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_071r.jpg"/>
                       <graphic url="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_085v.jpg"/>
-                      <figDesc>Illustration of Ursa Maior with stars marked in red.</figDesc>
+                      <figDesc resp="#ivana_dobcheva">Illustration of Ursa Maior with stars marked in red.</figDesc>
                   </figure>            
                 </div>
              <div type="chapter" corresp="#t1-5 #t2-2">
-                 <p><seg ana="#umi">Fenix</seg> qui et <seg ana="#umi">Arctutus minor</seg> et a quibusdam <seg ana="#umi">canis cauda</seg> uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos, quae uocatur polus ubi dicunt totum mundum reuolui.</p>
+                 <head>
+                     <title type="supplied" resp="#ivana_dobcheva">III. Ursa minor</title>
+                 </head>
+                 <p><cit><quote><seg ana="#umi">Fenix</seg> qui et <seg ana="#umi">Arctutus minor</seg> et a quibusdam <seg ana="#umi">canis cauda</seg> uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos, quae uocatur polus ubi dicunt totum mundum reuolui.</quote>
+                     <bibl>De signis caeli, ch. 2.</bibl></cit></p>
+             </div>
                  <figure ana="#umi" facs="#k_71r_umi">
-                     <figDesc>Illustration of Ursa Minor.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Ursa Minor.</figDesc>
                  </figure>
                  <pb edRef="#K" n="71v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_071v.jpg"/>
                  <pb edRef="#V" n="83r"/>
                  <pb edRef="#Z" n="85v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_086r.jpg"/>
                  <div type="chapter" corresp="#t1-6 #t2-3">
-                    <p><seg ana="#dra">Draco</seg>, qui continet utrosque Arcturos, <seg ana="#uma">Helicis</seg> superuoluit caput, <seg ana="#umi">Phenicis</seg> circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</p>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">IV. Draco</title>
+                     </head>
+                    <p><cit><quote><seg ana="#dra">Draco</seg>, qui continet utrosque Arcturos, <seg ana="#uma">Helicis</seg> superuoluit caput, <seg ana="#umi">Phenicis</seg> circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</quote>
+                        <bibl>De signis caeli, ch. 3.</bibl></cit></p>
                 </div>
                  <figure ana="#dra">
-                     <figDesc>Illustration of Draco.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Draco.</figDesc>
                  </figure>
                  <pb edRef="#K" n="72r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_072r.jpg"/>
                  <pb edRef="#V" n="83v"/>
                  <pb edRef="#Z" n="86v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_086v.jpg"/>
                  <div type="chapter" corresp="#t2-4">
-                    <p><seg ana="#her">Hercules</seg>, qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in <choice><sic>Ropolo</sic><corr resp="#ivana_dobcheva">Ropalo</corr></choice> quem tenet in eadem manu I.</p>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">V. Hercules</title>
+                     </head>
+                    <p><cit><quote><seg ana="#her">Hercules</seg>, qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in <choice><sic>Ropolo</sic><corr resp="#ivana_dobcheva">Ropalo</corr></choice> quem tenet in eadem manu I.</quote>
+                        <bibl>De signis caeli, ch. 4.</bibl></cit></p>
                 </div>
                  <figure ana="#her">
-                     <figDesc>Illustration of Hercules.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Hercules.</figDesc>
                  </figure>
                  <pb edRef="#K" n="72v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_072v.jpg"/>
                  <pb edRef="#V" n="84r"/>
                  <pb edRef="#Z" n="87r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_087r.jpg"/>
                  <div type="chapter" corresp="#t2-6">
-               <p><seg ana="#oph">Serpentarius</seg> qui et Asclepius uocatur. Stans uero supra <seg ana="#sco">Scorpionem</seg> tenet serpentem in manibus. habet autem in capite stellam splendidam I, in sinistra manu III, in dextera IIII, in utroque humero splendidam I, in utrisque lumbis I, in utroque genu I, in dextera tibia I, in utroque pede I. Sunt omnes XVII.</p>
-               <p><seg ana="#ser">Serpens</seg> quem tenet in manu habet stellas in capite II, per reliquum corpus IIII; fiunt insimul XXIII.</p>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">VI. Serpentarius</title>
+                     </head>
+               <p><cit><quote><seg ana="#oph">Serpentarius</seg> qui et Asclepius uocatur. Stans uero supra <seg ana="#sco">Scorpionem</seg> tenet serpentem in manibus. habet autem in capite stellam splendidam I, in sinistra manu III, in dextera IIII, in utroque humero splendidam I, in utrisque lumbis I, in utroque genu I, in dextera tibia I, in utroque pede I. Sunt omnes XVII. <seg ana="#ser">Serpens</seg> quem tenet in manu habet stellas in capite II, per reliquum corpus IIII; fiunt insimul XXIII.</quote>
+                   <bibl>De signis caeli, ch. 6.</bibl></cit></p>
             </div>
                  <figure ana="#ser #oph">
-                     <figDesc>Illustration of Serpentarius.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Serpentarius.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t1-8-3 #t2-5">
-               <p><seg ana="#crb">Corona</seg> uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis <seg ana="#umi">Arcturi</seg>.</p>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">VII. Corona</title>
+                     </head>
+               <p><cit><quote><seg ana="#crb">Corona</seg> uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis <seg ana="#umi">Arcturi</seg>.</quote>
+                   <bibl>De signis caeli, ch. 5.</bibl></cit></p>
             </div>
                  <figure ana="#crb">
-                     <figDesc>Illustration of Corona.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Corona.</figDesc>
                  </figure>            
                  <div type="chapter" corresp="#t2-7">
-               <p><seg ana="#sco">Scorpio</seg> habet stellas in utrisque labiis II, quarum priores sunt magnae secundae obscurae; <app>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">VIII. Scorpio</title>
+                     </head>
+               <p><cit><quote><seg ana="#sco">Scorpio</seg> habet stellas in utrisque labiis II, quarum priores sunt magnae secundae obscurae; <app>
                             <lem wit="#V #K">in fronte uero III</lem>
                    <rdg wit="#Z"><add place="above">in fronte uero III</add></rdg>
-                        </app>, media autem ex ipsis splendidior est caeteris, in spina III, in uentre II, in cauda V, super aculeum II. Sunt omnes XVIIII.</p>
+                        </app>, media autem ex ipsis splendidior est caeteris, in spina III, in uentre II, in cauda V, super aculeum II. Sunt omnes XVIIII.</quote>
+                   <bibl>De signis caeli, ch. 7.</bibl>
+               </cit></p>
             </div>
                  <figure ana="#sco">
-                     <figDesc>Illustration of Scorpio.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Scorpio.</figDesc>
                  </figure>
                  <pb edRef="#K" n="73r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_073r.jpg"/>
                  <pb edRef="#V" n="84v"/>
                  <pb edRef="#Z" n="87v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_087v.jpg"/>
                  <div type="chapter" corresp="#t2-8">
-               <p>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">IX. Bootes</title>
+                     </head>
+               <p><cit><quote>
                         <app>
                             <lem><seg ana="#boo">Arcas</seg></lem>
                             <rdg wit="#V #Z">Arcades</rdg>
@@ -446,17 +490,22 @@
                         </app>, qui et <app>
                             <lem wit="#K"><seg ana="#boo">Bootes</seg></lem>
                             <rdg wit="#V #Z">Bootis</rdg>
-                        </app>, fertur esse custos <seg ana="#uma #umi">Plaustri</seg>. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.</p>
+                        </app>, fertur esse custos <seg ana="#uma #umi">Plaustri</seg>. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.</quote>
+                   <bibl>De signis caeli, ch. 8.</bibl></cit></p>
             </div>
                  <figure ana="#boo">
-                     <figDesc>Illustration of Bootes.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Bootes.</figDesc>
                  </figure>
                  <pb edRef="#K" n="73v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_073v.jpg"/>
                  <pb edRef="#V" n="85r"/>
                  <pb edRef="#Z" n="88r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_088r.jpg"/>
                  <div type="chapter">
                      <div type="section" corresp="#t2-9">
-               <p><seg ana="#vir">Virgo</seg>, quae et iusticia appellatur. Habet stellam in capite obscuram ualde I, in unaquaque ala II, in singulis humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. Sunt omnes XVIIII.</p>
+                         <head>
+                             <title type="supplied" resp="#ivana_dobcheva">X. Virgo</title>
+                         </head>
+               <p><cit><quote><seg ana="#vir">Virgo</seg>, quae et iusticia appellatur. Habet stellam in capite obscuram ualde I, in unaquaque ala II, in singulis humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. Sunt omnes XVIIII.</quote>
+                   <bibl>De signis caeli, ch. 9.</bibl></cit></p>
             </div>
             <div type="section" corresp="#involutio_spherae_virgo">
                <p>Proxime istius uirginis iacet figura. Primum enim in hac stella sol uix incorrupta terrae cuncta obseruantur genera. Quaecumque finem acceptura corruptionis denominatur omnibus uirginis uita.</p>
@@ -468,7 +517,7 @@
             </div>
                  </div>
                  <figure ana="#vir">
-                     <figDesc>Illustration of Virgo.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Virgo.</figDesc>
                  </figure>
                  <pb edRef="#K" n="74r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_074r.jpg"/>
                  <pb edRef="#V" n="85v"/>
@@ -486,7 +535,7 @@
                         </app> sydera constituit, quod signum Gemini dicunt</quote>.</p></div>
             </div>
                  <figure ana="#gem">
-                     <figDesc>Illustration of Gemini.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Gemini.</figDesc>
                  </figure>
                  <div type="chapter">
                      <div type="section" corresp="#involutio_spherae_cancer">
@@ -495,7 +544,7 @@
                      <div type="section" corresp="#t2-11"><p>Habet autem stellas splendidas in testa II, in dextris pedibus per singulos I, in sinistro primo I, et in sinistro tercio I, in quarto I, in ore I, in dextro labio III, in sinistro II. Sunt omnes XV.</p></div>
          </div>
                  <figure ana="#cnc">
-                     <figDesc>Illustration of Cancer.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Cancer.</figDesc>
                  </figure>
                  <pb edRef="#K" n="74v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_074v.jpg"/>
                  <pb edRef="#V" n="85v"/>
@@ -526,7 +575,7 @@
                         </app> et aestas facit</quote>.</p></div>
          </div>
                  <figure ana="#leo">
-                     <figDesc>Illustration of Leo.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Leo.</figDesc>
                  </figure>
                  <pb edRef="#K" n="75r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_075r.jpg"/>
                  <pb edRef="#V" n="86v"/>
@@ -535,7 +584,7 @@
             <p><seg ana="#aur">Agitator</seg> autem habet stellam in capite I, in utroque humero I, sed ea est clarior quae in sinistro humero est, in utroque cubito I, in dextra manu I, in summitatem manus sinistrae II, et super ipso brachio Hedulos duos et in utroque Hedulo stellam I. Sunt omnes X.</p>
          </div>
                  <figure ana="#aur">
-                     <figDesc>Illustration of Agitator.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Agitator.</figDesc>
                  </figure>
                  <pb edRef="#K" n="75v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_075v.jpg"/>
                  <pb edRef="#V" n="87r"/>
@@ -550,7 +599,7 @@
                             <rdg wit="#V">namque</rdg>
                         </app> stellas in utroque cornu I, in fronte II, per singulos oculos I, in nare dextra I. Haec autem stellae Pliades et Uergiliae necnon et Subuculae dicuntur. In utroque genu I, in pallio II, in collo II, in dorso III, ex quibus nouissima spendidior est ceteris, in uentre I, in pectore I. Sunt omnes XVIII.</p></div>
                      <figure ana="#tau">
-                         <figDesc>Illustration of Taurus.</figDesc>
+                         <figDesc resp="#ivana_dobcheva">Illustration of Taurus.</figDesc>
                      </figure>
          </div>
                  <pb edRef="#K" n="76r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_076r.jpg"/>
@@ -560,7 +609,7 @@
             <p><seg ana="#cep">Cepheus</seg> <placeName ref="#ekron">accaron</placeName> habet in capite stellas splendidas II et in dextra manu splendidam I, in utroque humero I, in zona III, in dextro latere ex transuerso super ilium VII, in sinistro genu II, in summitate pedu IIII. Sunt omnes XXI. Hic autem in septentrionis <choice><sic>inasionem</sic><corr resp="#ivana_dobcheva">incisionem</corr></choice> <note resp="#ivana_dobcheva">for incisionem mistaken for open cc-a</note> constituitur.</p>
          </div>
                  <figure ana="#cep">
-                     <figDesc>Illustration of Cepheus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Cepheus.</figDesc>
                  </figure>
                  <pb edRef="#K" n="76v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_076v.jpg"/>
                  <pb edRef="#V" n="88r"/>
@@ -572,7 +621,7 @@
                         </app> et per singulos angulos in summitate sellulae I. Sunt omnes XIII.</p>
          </div>
                  <figure ana="#cas">
-                     <figDesc>Illustration of Cassiepia.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Cassiepia.</figDesc>
                  </figure>
                  <pb edRef="#K" n="77r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_077r.jpg"/>
                  <pb edRef="#V" n="88v"/>
@@ -584,7 +633,7 @@
                         </app> splendidas II, in zona III, super zonam IIII, in unoquoque genu splendidam I, in dextro pede II, in sinistro I. Sunt omnes XXI.</p>
          </div>
                  <figure ana="#and">
-                     <figDesc>Illustration of Andromeda.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Andromeda.</figDesc>
                  </figure>
                  <pb edRef="#K" n="77v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_077v.jpg"/>
                  <pb edRef="#V" n="89r"/>
@@ -593,7 +642,7 @@
             <p><seg ana="#peg">Equus</seg> qui et Bellorumfons dicitur. Habet stellas in rostro II obscuras, in capite splendidam I, in maxilla I, in utrisque auribus splendidam I, in ceruice IIII, in humero I, in pectore I, in spina I, in umbilico nitida I, in utroque genu I, per singulas ungulas anteriores I. Sunt omnes XVIII.</p>
          </div>
                  <figure>
-                     <figDesc>Illustration of Equus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Equus.</figDesc>
                  </figure>
          <div type="chapter" corresp="#t2-19">
             <p><seg ana="#ari">Aries</seg> habet stellam in capite I, in nare III, in collo II, in summitate anterioris <app>
@@ -602,7 +651,7 @@
                         </app> I, in dorso IIII, in cauda I, in uentre III, in lumbo I, in summo pede I. Sunt omnes XVII.</p>
          </div>
                  <figure ana="#ari">
-                     <figDesc>Illustration of Aries.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Aries.</figDesc>
                  </figure>
                  <pb edRef="#K" n="78r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_078r.jpg"/>
                  <pb edRef="#V" n="89v"/>
@@ -618,13 +667,13 @@
                         </app> splendidior ceteris.</p>
          </div>
                  <figure ana="#tri">
-                     <figDesc>Illustration of Triangulus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Triangulus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-21">
             <p><seg ana="#psc">Pisces</seg>. Aquilonius habet stellas XII, Austris XV. Linteum eorum in quo continentur habet stellas ad aquilonem III, ad occasum III, ad orientem III, in Conexum III. Sunt omnes XXXVIIII.</p>
          </div>
                  <figure ana="#psc">
-                     <figDesc>Illustration of Pisces.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Pisces.</figDesc>
                  </figure>
                  <pb edRef="#K" n="78v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_078v.jpg"/>
                  <pb edRef="#V" n="90r"/>
@@ -634,7 +683,7 @@
             <p>Gorgonus autem dicitur habere in capite stellam I et in crinibus III.</p>
          </div>
                  <figure ana="#per">
-                     <figDesc>Illustration of Perseus holding Medusa's head.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Perseus holding Medusa's head.</figDesc>
                  </figure>
                  <pb edRef="#K" n="79r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_079r.jpg"/>
                  <pb edRef="#V" n="90v"/>
@@ -668,7 +717,7 @@
                     </p>
          </div>
                  <figure ana="#pleiades">
-                     <figDesc>Illustration of Pleiades.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Pleiades.</figDesc>
                  </figure>
                  <pb edRef="#K" n="79v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_079vjpg"/>
                  <pb edRef="#V" n="91r"/>
@@ -681,13 +730,13 @@
                         </app> I. Sunt omnes VIIII.</p>
          </div>
                  <figure ana="#lyr">
-                     <figDesc>Illustration of Lyra.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Lyra.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-24">
             <p><seg ana="#cyg">Cignus</seg> habet stellam in capite splendidam I, in collo splendidam I, in dextra ala V, unam nitidam, quae est erga collum, in sinistra ala V, in corpore I, in genitale magnam I. Sunt omnes XIIII.</p>
          </div>
                  <figure ana="#cyg">
-                     <figDesc>Illustration of Cygnus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Cygnus.</figDesc>
                  </figure>
                  <pb edRef="#K" n="80r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_080r.jpg"/>
                  <pb edRef="#V" n="91v"/>
@@ -699,13 +748,13 @@
                         </app> lumbo I, in utroque genu I, in dextra tibia I, in singulis pedibus I. Sunt omnes XX. Effusio autem aquae fit dextra leuaque in quo II splendidae sunt, ceterae uero obscurae.</p>
          </div>
                  <figure ana="#aqr">
-                     <figDesc>Illustration of Aquarius.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Aquarius.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-26">
             <p><seg ana="#cap">Capricornus</seg> autem habet in utroque cornu stellas II, in naribus splendidam I, in capite II, in collo splendidam I, in pectore II, in anteriori pede I, in summitatem ipsius pedis I, in dorso VII, in uentre V, in cauda II. Sunt omnes XXVI.</p>
          </div>
                  <figure ana="#cap">
-                     <figDesc>Illustration of Capricornus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Capricornus.</figDesc>
                  </figure>
                  <pb edRef="#K" n="80v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_080v.jpg"/>
                  <pb edRef="#V" n="92r"/>
@@ -714,13 +763,13 @@
             <p><seg ana="#sgr">Sagittarius</seg> habet stellas in capite II, in costis II, in dextro cubito I, in scapula nitidam I, in dorso II, in cauda II, in anteriori genu I, in utroque pede I, in arcu II et in iaculo IIII, una uero in summo et alia in medio obscura et II in pennis iaculi, ex quibus I est clarior. Sunt omnes XVIIII.</p>
          </div>
                  <figure ana="#sgr #sge">
-                     <figDesc>Illustration of Sagittarius and Sagitta.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Sagittarius and Sagitta.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-28">
             <p><seg ana="#aql">Aquila</seg> habet in pede stellam I, in medio corpore obscuram I, in rostro superiori I, in subteriori I. Sunt omnes IIII.</p>
          </div>
                  <figure ana="#aql #sge">
-                     <figDesc>Illustration of Aquila sitting on Sagitta.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Aquila sitting on Sagitta.</figDesc>
                  </figure>
                  <pb edRef="#K" n="81r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_081r.jpg"/>
                  <pb edRef="#V" n="92v"/>
@@ -730,7 +779,7 @@
             <p>Habet in ore stellam I, in uertice II, in ala secus uentrem III, supra dorso I, in cauda II. Sunt omnes VIIII.</p>
          </div>
                  <figure ana="#del">
-                     <figDesc>Illustration of Delphinus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Delphinus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-30">
             <p><seg ana="#ori">Orion</seg> oblicus <app>
@@ -740,7 +789,7 @@
             <p>Habet in capite stellas splendidas III, ex quibus I est splendidior ceteris, in utroque humero splendidam I, in dextro cubito I obscuram, in summitate manus I, in zona III, in mantile III obscuras, in utroque genu I, in utrisque pedibus I. Sunt omnes XVII.</p>
          </div>
                  <figure ana="#ori">
-                     <figDesc>Illustration of Orion.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Orion.</figDesc>
                  </figure>
                  <pb edRef="#K" n="81v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_081v.jpg"/>
                  <pb edRef="#V" n="93r"/>
@@ -755,13 +804,13 @@
                         </app> caudae IIII. Sunt omnes XX.</p>
          </div>
                  <figure ana="#cma">
-                     <figDesc>Illustration of Canis Major.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Canis Major.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-32">
             <p><seg ana="#lep">Lepus</seg> habet stellas in utrisque auribus I, in corpore II, in dorso nitidam I, in posterioribus pedibus per singulos I. Sunt omnes VII.</p>
          </div>
                  <figure ana="#lep">
-                     <figDesc>Illustration of Lepus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Lepus.</figDesc>
                  </figure>
                  <pb edRef="#K" n="82r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_082r.jpg"/>
                  <pb edRef="#V" n="93v"/>
@@ -770,7 +819,7 @@
             <p><seg ana="#arg">Nauis</seg>, quae apud Argiuos Argo uocatur, habet stellas in anteriori parte nauis IIII, in puppi IIII, in utroque temone V, in uelo III, in costa nauis V. Sunt omnes XXVI.</p>
          </div>
                  <figure ana="#arg">
-                     <figDesc>Illustration of Navis.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Navis.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-34">
             <p><seg ana="#cet">Cetus</seg> sub <app><lem resp="#ivana_dobcheva"><seg ana="#ari">Ariete</seg></lem><rdg wit="#K #Z #V">oriente</rdg></app> et <seg ana="#psc">piscibus</seg> gradiens.</p> 
@@ -780,7 +829,7 @@
                         </app> VI, in uentre VI. Sunt omnes XIIII.</p>
          </div>
                  <figure ana="#cet">
-                     <figDesc>Illustration of Coetus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Coetus.</figDesc>
                  </figure>
                  <pb edRef="#K" n="82v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_082v.jpg"/>
                  <pb edRef="#V" n="94r"/>
@@ -793,14 +842,14 @@
             <p>Habet stellas in prima acie III, in secunda III, in tertia III usque ad nouissimas VII, quas dicunt in ore Nili fluuii esse. Sunt omnes XVI.</p>
          </div>
                  <figure ana="#eri">
-                     <figDesc>Illustration of Eridanus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Eridanus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-36">
             <p><seg ana="#psa">Piscis magnus</seg> qui et Auster dicitur a <seg ana="#cap">Capricorno</seg> usque ad Pisces eius longitudo protenditur et subiacet <seg ana="#aqr">Aquario</seg> et suscipit eius effusionem.</p>
             <p>Habet stellas XII ex quibus I fertur esse subtus pedes <seg ana="#aqr">Aquarii</seg> et III in brancis eius. Ipse autem clariores esse noscuntur.</p>
          </div>
                  <figure ana="#psa">
-                     <figDesc>Illustration of Piscis Magnus.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Piscis Magnus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-37">
              <p><seg ana="#ara">Sacrarius</seg> qui et Farum accipitur. Hoc signum sequitur caudam magnae <seg ana="#sco">Scorpioni</seg>, circumdat Septentrionem et quaedam pars <app><lem resp="#ivana_dobcheva">obtunsior</lem><rdg wit="#V #K #Z">obtonsior</rdg></app> <seg ana="#uma">Arcturi</seg>, quaedam autem cito sub uespere deficit.</p>
@@ -827,7 +876,7 @@
                         </app> nitidam I et in anteriori pede splendidam I et subtus ipso pede I, in capite III. Sunt omnes VIIII, in totum uero XXVII.</p>
              </div>
                  <figure ana="#cen #bestia">
-                     <figDesc>Illustration of Centaurus holding Bestia.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Centaurus holding Bestia.</figDesc>
                  </figure>
                  <pb edRef="#K" n="83v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_083v.jpg"/>
                  <pb edRef="#V" n="95r"/>
@@ -842,14 +891,14 @@
                  <p><seg ana="#crt">Urna</seg> autem in medio labiorum habet stellas obscuras III. Sunt omnes X.</p>
              </div>
                  <figure ana="#crt #crv #hya">
-                     <figDesc>Illustration of Hydra, Corvus and Crater.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Hydra, Corvus and Crater.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-40">
                  <p><seg ana="#cmi">Anticanis</seg> dicitur subtus <seg ana="#gem">Geminos</seg> bene parere.</p>
                  <p>Habet stellas III, quas una splendidior est ceteris et ideo Anticanis uocatur, eo quod contratia sit <seg ana="#cma">Cani</seg>.</p>
              </div>
                  <figure ana="#cmi">
-                     <figDesc>Illustration of Procyon / Canis Minor.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Procyon / Canis Minor.</figDesc>
                  </figure>
                  <pb edRef="#K" n="84r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_084r.jpg"/>
                  <pb edRef="#V" n="95v"/>
@@ -865,7 +914,7 @@
                         </app> et Luciferum uocant, eo quod mane oritur. Quinta uero <seg ana="#mercurius">Mercurius</seg> rutilans atque splendida et minor. Mercurio autem dicta est eo quod primum ipse fecit exornationem caeli et ceterorum ordines et horas dinumerauit et significationes temporum demonstrauit. Rutilus autem uocatur, eo quod tantam claritatem ostenderit.</p>
              </div>
                  <figure ana="#planets">
-                     <figDesc>Illustration of the five planets.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of the five planets.</figDesc>
                  </figure>
                  <pb edRef="#K" n="84v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_084v.jpg"/>
                  <pb edRef="#V" n="96r"/>
@@ -894,26 +943,25 @@
                      <lem wit="#V"/>
                             <rdg wit="#Z #K">et Iaculis </rdg>
                         </app>et <seg ana="#sge">Iaculus</seg>. Cum ipsis autem et <seg ana="#cyg">Cigni</seg> priores alas simul cum ipso et cauda et <seg ana="#eri">Fluminis</seg> terminos adiacentes. Occidit autem <seg ana="#peg">Equi</seg> <pb edRef="#V" n="96v"/>caput, occidit et ceruix. Oritur uero <seg ana="#aqr">Aquarius</seg> super ipsum usque ad summum, <seg ana="#crt">Urnam</seg> autem adiungit et <seg ana="#cma">Canis</seg> pedes alterutros trahens a retro <seg ana="#arg">Nauis</seg> puppem. Quem diuidit arbor in id ipso, <seg ana="#vir">Virgo</seg> tamen totum pertransiens nunc facta.</p>
-<!--                     ############ add seg ##########-->
-                 <p>Neque autem superuenientes Vergiliae et subtilius lucentes, inenarrabilem autem magnum Bootis signum subito exoritur conuolutus Septentrioni. Nauis autem <app><lem resp="#ivana_dobcheva">tranquilla</lem><rdg wit="#V #K #Z">tranquillus</rdg></app> tota sublimis assistens. Sed Aquarius funditur multum ueniens in caelum, caudam quidem. Tantummodo apud Vergilias adducit dextra leuaque tibias eius usque ad <app><lem wit="#K">genua</lem><rdg wit="#V #Z">genibus</rdg></app> semper nox ubique, sic autem Lira recedit. Hunc autem iaculum quem signum sub caelo utraque occidentia et rursus orientia multum totiens ea ad mane aspicimus in aere. Tibiae autem cum Vergilias uidentur utraque <app>
+                 <p>Neque autem superuenientes <seg ana="#pleiades">Vergiliae</seg> et subtilius lucentes, inenarrabilem autem magnum <seg ana="#boo">Bootis</seg> signum subito exoritur conuolutus Septentrioni. <seg ana="#arg">Nauis</seg> autem <app><lem resp="#ivana_dobcheva">tranquilla</lem><rdg wit="#V #K #Z">tranquillus</rdg></app> tota sublimis assistens. Sed <seg ana="#aqr">Aquarius</seg> funditur multum ueniens in caelum, caudam quidem. Tantummodo apud <seg ana="#pleiades">Vergilias</seg> adducit dextra leuaque tibias eius usque ad <app><lem wit="#K">genua</lem><rdg wit="#V #Z">genibus</rdg></app> semper nox ubique, sic autem <seg ana="#lyr">Lira</seg> recedit. Hunc autem iaculum quem signum sub caelo utraque occidentia et rursus orientia multum totiens ea ad mane aspicimus in aere. Tibiae autem cum <seg ana="#pleiades">Vergilias</seg> uidentur utraque <app>
                             <lem wit="#Z #K">ipse</lem>
                             <rdg wit="#V">ipsae</rdg>
-                        </app> uero a capite conuertitur alter Scorpionem exspectans et spiculum Sagittae. Haec enim feruntur in medio <app><lem resp="#ivana_dobcheva">eaque</lem><rdg wit="#K #V #Z">aquae</rdg></app> omnia, manu quidem quam et caput simul et <app><lem resp="#ivana_dobcheva">Arcum</lem><rdg>circum</rdg></app> adducit. Sed ista uelut capilli capitis omnia membratim ordinantur, media autem Scorpionem et nouissime ipsa cauda Centauri uidetur ascendere adhuc Vergiliae, distantes a capite Equi, donec occidant, et prioris Auis adducitur ultima cauda. Occidit autem Andromedae caput, quod in maius adnixum Coetum inducit ad austrum. E contrario ei Cepheum magnum ab aquilone adtrectare iubet et partem lumborum eius ex aduerso usque ad eam occiditque Cephei caput et humeri et manus.</p>
-                     <p>Declinat autem Fluuius superueniente ei Scorpioni occidens ab euro oceanis atque superueniens terret magnum Orionem. Diana <pb edRef="#Z" n="99r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099r.jpg"/>Helicem primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est Orionem, fortiter lamenta <pb edRef="#K" n="85v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085v.jpg"/>cornicla abnuens ei propuino <note resp="#ivana_dobcheva">for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens Scorpionem et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente Scorpione Incolo circa terras nouissimas fugientem. Nec non Andromeda et Coetus derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur Cepheus terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi Septentriones prohibent pedes ac manus. Statimque ipsa puero <app><lem wit="#Z #V">admiscitur</lem><rdg wit="#K">admiscetur</rdg></app> ostendens Cassepiae <app><lem wit="#K">simulachrum</lem><rdg wit="#Z #V">symulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando Coronam curcuit secundus ordo, Aquarius autem ultimam <pb edRef="#V" n="97r"/>adducit Centauri partem, corpus quidem et caput Bestiam quam manu dextra Centaurus habet, alia quippe remanent; arcum autem superueninetem primi pedes Equi sepultoris.</p>                    
-                     <p>Et in arcum seminat Serpens et corpus Serpentarii orietur superueniente ei pinguior esca Scorpionis orienti assumens quidem ipse Serpentarii manus et Serpentis multeformem splendorem. <app><lem wit="#V #Z">Ingenu</lem><rdg wit="#K">ingenii</rdg></app> autem per circum semper conuersus oritur, tunc ergo transiens egredietur sed zona et pectus et humerus omnia dextra leuaque cum capite et manibus simulque Arco ascendunt et Sagittario oriente. Cum Mercurio seu Lira et usque <app><lem wit="#Z #V">ad</lem><rdg wit="#K">a</rdg></app> pectore Cepheus consequitur oceanum. Verumtamen et Canis magni <app><lem wit="#Z #V">radia</lem><rdg wit="#K">radii</rdg></app> omnes <pb edRef="#K" n="86r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_086r.jpg"/>occidunt et omnia descendunt ad <app><lem wit="#V #Z">Incolo</lem><rdg wit="#K"><subst><del>Incolo</del><add>Incolum</add></subst></rdg></app>. 
+                        </app> uero a capite conuertitur alter <seg ana="#sco">Scorpionem</seg> exspectans et spiculum <seg ana="#sge">Sagittae</seg>. Haec enim feruntur in medio <app><lem resp="#ivana_dobcheva">eaque</lem><rdg wit="#K #V #Z">aquae</rdg></app> omnia, manu quidem quam et caput simul et <app><lem resp="#ivana_dobcheva">Arcum</lem><rdg>circum</rdg></app> adducit. Sed ista uelut capilli capitis omnia membratim ordinantur, media autem <seg ana="#sco">Scorpionem</seg> et nouissime ipsa cauda <seg ana="#cen">Centauri</seg> uidetur ascendere adhuc <seg ana="#pleiades">Vergiliae</seg>, distantes a capite <seg ana="#peg">Equi</seg>, donec occidant, et prioris Auis adducitur ultima cauda. Occidit autem <seg ana="#and">Andromedae</seg> caput, quod in maius adnixum <seg ana="#cet">Coetum</seg> inducit ad austrum. E contrario ei <seg ana="#cep">Cepheum</seg> magnum ab aquilone adtrectare iubet et partem lumborum eius ex aduerso usque ad eam occiditque <seg ana="#cep">Cephei</seg> caput et humeri et manus.</p>
+                     <p>Declinat autem <seg ana="#eri">Fluuius</seg> superueniente ei <seg ana="#sco">Scorpioni</seg> occidens ab euro oceanis atque superueniens terret magnum <seg ana="#ori">Orionem</seg>. Diana <pb edRef="#Z" n="99r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099r.jpg"/><seg ana="#uma">Helicem</seg> primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est <seg ana="#ori">Orionem</seg>, fortiter lamenta <pb edRef="#K" n="85v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085v.jpg"/>cornicla abnuens ei propuino <note resp="#ivana_dobcheva">for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens <seg ana="#sco">Scorpionem</seg> et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente <seg ana="#sco">Scorpione</seg> Incolo circa terras nouissimas fugientem. Nec non <seg ana="#and">Andromeda</seg> et <seg ana="#cet">Coetus</seg> derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur <seg ana="#cep">Cepheus</seg> terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi <seg ana="#uma #umi">Septentriones</seg> prohibent pedes ac manus. Statimque ipsa puero <app><lem wit="#Z #V">admiscitur</lem><rdg wit="#K">admiscetur</rdg></app> ostendens <seg ana="#cas">Cassepiae</seg> <app><lem wit="#K">simulachrum</lem><rdg wit="#Z #V">symulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando <seg ana="#crb">Coronam</seg> curcuit secundus ordo, <seg ana="#aqr">Aquarius</seg> autem ultimam <pb edRef="#V" n="97r"/>adducit <seg ana="#cen">Centauri</seg> partem, corpus quidem et caput <seg ana="#bestia">Bestiam</seg> quam manu dextra <seg ana="#cen">Centaurus</seg> habet, alia quippe remanent; arcum autem superueninetem primi pedes <seg ana="#peg">Equi</seg> sepultoris.</p>                    
+                     <p>Et in arcum seminat <seg ana="#ser">Serpens</seg> et corpus <seg ana="#oph">Serpentarii</seg> orietur superueniente ei pinguior esca <seg ana="#sco">Scorpionis</seg> orienti assumens quidem ipse <seg ana="#oph">Serpentarii</seg> manus et <seg ana="#ser">Serpentis</seg> multeformem splendorem. <app><lem wit="#V #Z"><seg ana="#her">Ingenu</seg></lem><rdg wit="#K">ingenii</rdg></app> autem per circum semper conuersus oritur, tunc ergo transiens egredietur sed zona et pectus et humerus omnia dextra leuaque cum capite et manibus simulque arco ascendunt et <seg ana="#sgr">Sagittario</seg> oriente. Cum Mercurio seu <seg ana="#lyr">Lira</seg> et usque <app><lem wit="#Z #V">ad</lem><rdg wit="#K">a</rdg></app> pectore <seg ana="#cep">Cepheus</seg> consequitur oceanum. Verumtamen et <seg ana="#cma">Canis magni</seg> <app><lem wit="#Z #V">radia</lem><rdg wit="#K">radii</rdg></app> omnes <pb edRef="#K" n="86r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_086r.jpg"/>occidunt et omnia descendunt ad <app><lem wit="#V #Z"><seg ana="#her">Incolo</seg></lem><rdg wit="#K"><subst><del>Incolo</del><add>Incolum</add></subst></rdg></app>. 
                     </p> 
-                     <p><note resp="#ivana_dobcheva">missing text section from AL, in V left over a half page blank, in Z and K no lacuna marked.</note><pb edRef="#V" n="97v"/>Quando <app><lem resp="#ivana_dobcheva">crines</lem><rdg wit="#Z #V">crunes</rdg><rdg wit="#K"><subst><del>crunes</del><add>crines</add></subst></rdg></app> et cauda Coeti <app><lem resp="#ivana_dobcheva">aestatis</lem><rdg wit="#V #Z">statae</rdg><rdg wit="#K"><subst><del>statae</del><add>estatis</add></subst></rdg></app> tempore oriuntur. Occidit autem Arctofilax, id est Arcturi custos, iam prima tunc portionem <app><lem resp="#ivana_dobcheva">manu</lem><rdg wit="#V #Z">manum</rdg><rdg wit="#K">manuum</rdg></app> trahentes <pb edRef="#Z" n="99v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099v.jpg"/>deponunt consecuta ei maior subiecta Septentrio. Utrique autem pedes duo Serpentarii simul cum eis genicula Geminis super signum impetrantes ex alio latere ascendentes tunc nequaquam Coeti nihil ueniet.
+                     <p><note resp="#ivana_dobcheva">missing text section from AL, in V left over a half page blank, in Z and K no lacuna marked.</note><pb edRef="#V" n="97v"/>Quando <app><lem resp="#ivana_dobcheva">crines</lem><rdg wit="#Z #V">crunes</rdg><rdg wit="#K"><subst><del>crunes</del><add>crines</add></subst></rdg></app> et cauda <seg ana="#cet">Coeti</seg> <app><lem resp="#ivana_dobcheva">aestatis</lem><rdg wit="#V #Z">statae</rdg><rdg wit="#K"><subst><del>statae</del><add>estatis</add></subst></rdg></app> tempore oriuntur. Occidit autem <seg ana="#aur">Arctofilax</seg>, id est Arcturi custos, iam prima tunc portionem <app><lem resp="#ivana_dobcheva">manu</lem><rdg wit="#V #Z">manum</rdg><rdg wit="#K">manuum</rdg></app> trahentes <pb edRef="#Z" n="99v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099v.jpg"/>deponunt consecuta ei maior subiecta Septentrio. Utrique autem pedes duo <seg ana="#oph">Serpentarii</seg> simul cum eis genicula <seg ana="#gem">Geminis</seg> super signum impetrantes ex alio latere ascendentes tunc nequaquam <seg ana="#cet">Coeti</seg> nihil ueniet.
                     </p>
              </div>
                  <pb edRef="#V" n="98r"/>
                  <figure ana="#zodiac #sol #luna">
-                     <figDesc>Circular diagram (rota) with twelve sections for the zodiacal signs and personification of Sol and Luna in the middle.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Circular diagram (rota) with twelve sections for the zodiacal signs and personification of Sol and Luna in the middle.</figDesc>
                  </figure>
                  <pb edRef="#Z" n="100r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_100r.jpg"/>
                  <pb edRef="#V" n="98v"/>
                  <pb edRef="#K" n="86v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_086v.jpg"/>
                  <figure ana="#luna">
-                     <figDesc>Personification of Luna as a female figure riding a quadriga.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Personification of Luna as a female figure riding a quadriga.</figDesc>
                  </figure>
                  <pb edRef="#V" n="99r"/>
                  <pb edRef="#K" n="87r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_087r.jpg"/>
@@ -991,20 +1039,19 @@
              </div>
                  <pb edRef="#V" n="100r"/>                 
                  <figure ana="#sol">
-                     <figDesc>Personification of Sol as a male figure sitting on four horses.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Personification of Sol as a male figure sitting on four horses.</figDesc>
                  </figure>
                  <pb edRef="#V" n="100v"/>
                  <pb edRef="#Z" n="102r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_102r.jpg"/>
-                 <app>
+                 <!--<app>
                      <lem wit="#V"><figure ana="#circles">
-                     <figDesc>Diagram of the celestial circles.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Diagram of the celestial circles.</figDesc>
                  </figure></lem><rdg wit="#K"/>
-                 <rdg wit="#Z"><figure><figDesc>Diagram of the planetary absides (planetary orbits around the zodiac).</figDesc></figure></rdg></app>
+                 <rdg wit="#Z"><figure><figDesc resp="#ivana_dobcheva">Diagram of the planetary absides (planetary orbits around the zodiac).</figDesc></figure></rdg></app>
                  <app>
-                     <rdg wit="#Z"><figure><figDesc>Rectangular diagram of the planetary latitudes (planetary orbits around the zodiac).</figDesc></figure></rdg>
+                     <rdg wit="#Z"><figure><figDesc resp="#ivana_dobcheva">Rectangular diagram of the planetary latitudes (planetary orbits around the zodiac).</figDesc></figure></rdg>
                      <rdg wit="#V #K"/>
-                 </app>
-         </div>
+                 </app>-->
          </div>
       </body>      
   </text>  
