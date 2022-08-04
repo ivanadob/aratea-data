@@ -368,11 +368,9 @@
               <pb edRef="#Z" n="85v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_085v.jpg"/>
              <div type="chapter" corresp="#t1-3">
                  <head>
-                     <title type="supplied" resp="#ivana_dobcheva">I</title>
+                     <title type="supplied" resp="#ivana_dobcheva">I. Poli caeli</title>
                  </head>
-                 <p>
-<!--                     ############## Use cit with quote and bibl or only quote with @source and @corresp #######-->
-                     <cit>
+                 <p><cit>
                          <quote source="#al" corresp="#t1-3">Quidam tamen multa dicunt et alii aliter narrasse caelum diuersis proferentes uocabulis, sed ipse magis axe continetur, qui se continuo in semet ipso reuoluitur. Habet autem undique inponderatam per medium terrae in circuitum caeli aequalem deductum. Quem etiam diuidunt duo poli ab inuicem; sed unus quidem non aspicitur, alter uero econtra ab aquilone ex alto a parte oceani. Duo quoque ab utroque habentes <seg ana="#uma #umi">Arcturos</seg> simul cum rotis, quem quidam Plaustrum uocant. Quae etiam capita per summum <app>
                              <lem wit="#V #K">habent</lem>
                              <rdg wit="#Z">habeant</rdg>
@@ -380,7 +378,7 @@
                              <lem wit="#V #Z">alia</lem>
                              <rdg wit="#K">altera</rdg>
                          </app> uero pusilla quidem sed a nauigantibus obseruatur. Maria enim conturbat.</quote>
-                         <bibl>Aratus Latinus, section 3.</bibl>
+                         <bibl>Aratus Latinus, Prooemium (Maass pp. 179-180).</bibl>
                      </cit>
                  </p> 
              </div>
@@ -388,14 +386,10 @@
                   <head>
                       <title type="supplied" resp="#ivana_dobcheva">II. Ursa maior</title>
                   </head>
-            <p><cit>
-                <quote source="#t2-1">Habet <app>
+            <p>Habet <app>
                             <lem wit="#V">autem</lem>
                             <rdg wit="#Z #K">enim</rdg>
-                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</quote>            
-                <bibl>De signis caeli, ch. 1.</bibl></cit>
-            </p>
-<!--                  ############## Use @facs or element graphic?? ###########-->
+                        </app> <seg ana="#uma">Helix</seg> <seg ana="#uma">Arcturus maior</seg> in capite stellas obscuras VII, in <choice><sic>spatula</sic><corr resp="#ivana_dobcheva">scapula</corr></choice> I, super pectus I, in pede I, in dorso I, in tibia anteriore II, super caudam III. Sunt omnes XVI.</p>
                   <figure ana="#uma" facs="#k_71r_uma">
                       <graphic url="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_071r.jpg"/>
                       <graphic url="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_085v.jpg"/>
@@ -406,8 +400,7 @@
                  <head>
                      <title type="supplied" resp="#ivana_dobcheva">III. Ursa minor</title>
                  </head>
-                 <p><cit><quote><seg ana="#umi">Fenix</seg> qui et <seg ana="#umi">Arctutus minor</seg> et a quibusdam <seg ana="#umi">canis cauda</seg> uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos, quae uocatur polus ubi dicunt totum mundum reuolui.</quote>
-                     <bibl>De signis caeli, ch. 2.</bibl></cit></p>
+                 <p><seg ana="#umi">Fenix</seg> qui et <seg ana="#umi">Arctutus minor</seg> et a quibusdam <seg ana="#umi">canis cauda</seg> uocatur. Habet autem per unumquemque angulum in humero splendidam stellam I, in cauda III; sunt autem inter ambos, quae uocatur polus ubi dicunt totum mundum reuolui.</p>
              </div>
                  <figure ana="#umi" facs="#k_71r_umi">
                      <figDesc resp="#ivana_dobcheva">Illustration of Ursa Minor.</figDesc>
@@ -419,8 +412,7 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">IV. Draco</title>
                      </head>
-                    <p><cit><quote><seg ana="#dra">Draco</seg>, qui continet utrosque Arcturos, <seg ana="#uma">Helicis</seg> superuoluit caput, <seg ana="#umi">Phenicis</seg> circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</quote>
-                        <bibl>De signis caeli, ch. 3.</bibl></cit></p>
+                    <p><seg ana="#dra">Draco</seg>, qui continet utrosque Arcturos, <seg ana="#uma">Helicis</seg> superuoluit caput, <seg ana="#umi">Phenicis</seg> circumcidit caudam. habet autem in capite stellas splendidas III et per totum corpus XII ab inuicem distantes. Sunt omnes XV.</p>
                 </div>
                  <figure ana="#dra">
                      <figDesc resp="#ivana_dobcheva">Illustration of Draco.</figDesc>
@@ -432,8 +424,7 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">V. Hercules</title>
                      </head>
-                    <p><cit><quote><seg ana="#her">Hercules</seg>, qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in <choice><sic>Ropolo</sic><corr resp="#ivana_dobcheva">Ropalo</corr></choice> quem tenet in eadem manu I.</quote>
-                        <bibl>De signis caeli, ch. 4.</bibl></cit></p>
+                    <p><seg ana="#her">Hercules</seg>, qui stans genu flexu. Habet autem in capite stellam I, in utroque humero stellam I, in cubito sinistro I, in dextro femore II, in genu dextro I, in eadem tibia I, in dextra manu I, et in <choice><sic>Ropolo</sic><corr resp="#ivana_dobcheva">Ropalo</corr></choice> quem tenet in eadem manu I.</p>
                 </div>
                  <figure ana="#her">
                      <figDesc resp="#ivana_dobcheva">Illustration of Hercules.</figDesc>
@@ -445,8 +436,7 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">VI. Serpentarius</title>
                      </head>
-               <p><cit><quote><seg ana="#oph">Serpentarius</seg> qui et Asclepius uocatur. Stans uero supra <seg ana="#sco">Scorpionem</seg> tenet serpentem in manibus. habet autem in capite stellam splendidam I, in sinistra manu III, in dextera IIII, in utroque humero splendidam I, in utrisque lumbis I, in utroque genu I, in dextera tibia I, in utroque pede I. Sunt omnes XVII. <seg ana="#ser">Serpens</seg> quem tenet in manu habet stellas in capite II, per reliquum corpus IIII; fiunt insimul XXIII.</quote>
-                   <bibl>De signis caeli, ch. 6.</bibl></cit></p>
+               <p><seg ana="#oph">Serpentarius</seg> qui et Asclepius uocatur. Stans uero supra <seg ana="#sco">Scorpionem</seg> tenet serpentem in manibus. habet autem in capite stellam splendidam I, in sinistra manu III, in dextera IIII, in utroque humero splendidam I, in utrisque lumbis I, in utroque genu I, in dextera tibia I, in utroque pede I. Sunt omnes XVII. <seg ana="#ser">Serpens</seg> quem tenet in manu habet stellas in capite II, per reliquum corpus IIII; fiunt insimul XXIII.</p>
             </div>
                  <figure ana="#ser #oph">
                      <figDesc resp="#ivana_dobcheva">Illustration of Serpentarius.</figDesc>
@@ -455,8 +445,7 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">VII. Corona</title>
                      </head>
-               <p><cit><quote><seg ana="#crb">Corona</seg> uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis <seg ana="#umi">Arcturi</seg>.</quote>
-                   <bibl>De signis caeli, ch. 5.</bibl></cit></p>
+               <p><seg ana="#crb">Corona</seg> uero habet stellas VIIII in circum positas, sed ex ipsis sunt tres splendidiores ad caput serpentis <seg ana="#umi">Arcturi</seg>.</p>
             </div>
                  <figure ana="#crb">
                      <figDesc resp="#ivana_dobcheva">Illustration of Corona.</figDesc>
@@ -465,12 +454,11 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">VIII. Scorpio</title>
                      </head>
-               <p><cit><quote><seg ana="#sco">Scorpio</seg> habet stellas in utrisque labiis II, quarum priores sunt magnae secundae obscurae; <app>
+               <p><seg ana="#sco">Scorpio</seg> habet stellas in utrisque labiis II, quarum priores sunt magnae secundae obscurae; <app>
                             <lem wit="#V #K">in fronte uero III</lem>
                    <rdg wit="#Z"><add place="above">in fronte uero III</add></rdg>
-                        </app>, media autem ex ipsis splendidior est caeteris, in spina III, in uentre II, in cauda V, super aculeum II. Sunt omnes XVIIII.</quote>
-                   <bibl>De signis caeli, ch. 7.</bibl>
-               </cit></p>
+                        </app>, media autem ex ipsis splendidior est caeteris, in spina III, in uentre II, in cauda V, super aculeum II. Sunt omnes XVIIII.
+               </p>
             </div>
                  <figure ana="#sco">
                      <figDesc resp="#ivana_dobcheva">Illustration of Scorpio.</figDesc>
@@ -482,7 +470,7 @@
                      <head>
                          <title type="supplied" resp="#ivana_dobcheva">IX. Bootes</title>
                      </head>
-               <p><cit><quote>
+               <p>
                         <app>
                             <lem><seg ana="#boo">Arcas</seg></lem>
                             <rdg wit="#V #Z">Arcades</rdg>
@@ -490,8 +478,8 @@
                         </app>, qui et <app>
                             <lem wit="#K"><seg ana="#boo">Bootes</seg></lem>
                             <rdg wit="#V #Z">Bootis</rdg>
-                        </app>, fertur esse custos <seg ana="#uma #umi">Plaustri</seg>. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.</quote>
-                   <bibl>De signis caeli, ch. 8.</bibl></cit></p>
+                        </app>, fertur esse custos <seg ana="#uma #umi">Plaustri</seg>. Habet autem stellas in dextra manu quae non occidunt IIII, in capite splendidam I, in utroque humero I, in utrisque mamillis I, in dextro cubito IIII, in sinistro I, in utroque genu I. Sunt omnes XVI.
+                   </p>
             </div>
                  <figure ana="#boo">
                      <figDesc resp="#ivana_dobcheva">Illustration of Bootes.</figDesc>
@@ -504,16 +492,15 @@
                          <head>
                              <title type="supplied" resp="#ivana_dobcheva">X. Virgo</title>
                          </head>
-               <p><cit><quote><seg ana="#vir">Virgo</seg>, quae et iusticia appellatur. Habet stellam in capite obscuram ualde I, in unaquaque ala II, in singulis humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. Sunt omnes XVIIII.</quote>
-                   <bibl>De signis caeli, ch. 9.</bibl></cit></p>
+               <p><seg ana="#vir">Virgo</seg>, quae et iusticia appellatur. Habet stellam in capite obscuram ualde I, in unaquaque ala II, in singulis humeris singulas, in unoquoque cubito I, in singulis manibus singulas, in penula uestimenti VI, in unoquoque pede I. Sunt omnes XVIIII.</p>
             </div>
             <div type="section" corresp="#involutio_spherae_virgo">
-               <p>Proxime istius uirginis iacet figura. Primum enim in hac stella sol uix incorrupta terrae cuncta obseruantur genera. Quaecumque finem acceptura corruptionis denominatur omnibus uirginis uita.</p>
+               <p><cit><quote>Proxime istius uirginis iacet figura. Primum enim in hac stella sol uix incorrupta terrae cuncta obseruantur genera. Quaecumque finem acceptura corruptionis denominatur omnibus uirginis uita.</quote><bibl>Aratus Latinus, Involutio spherae, vv. 116-120.</bibl></cit></p>
             </div>
             <div type="section" corresp="#involutio_spherae_libra">
-               <p><seg ana="#lib">Libra</seg> autem quod triticum in domibus brutorum terrigenis manibus coaceruatur laboribus terrenis tot colligitur. Tunc in opacis conditas escas tribuit innumerabiles <app>
+               <p><cit><quote><seg ana="#lib">Libra</seg> autem quod triticum in domibus brutorum terrigenis manibus coaceruatur laboribus terrenis tot colligitur. Tunc in opacis conditas escas tribuit innumerabiles <app>
                             <lem wit="#V #K">nutrimenta</lem>
-                            <rdg wit="#Z"><subst><del>detrimenta</del><add>nutrimenta</add></subst></rdg></app>. quando uergilae incolo continent sementem hic adcommodat semen terrae in ulnis et sine certamen adsummum introducitur.</p>
+                   <rdg wit="#Z"><subst><del>detrimenta</del><add>nutrimenta</add></subst></rdg></app>.</quote><bibl>Aratus Latinus, Involutio spherae, vv. 121-125.</bibl></cit> quando uergilae incolo continent sementem hic adcommodat semen terrae in ulnis et sine certamen adsummum introducitur.</p>
             </div>
                  </div>
                  <figure ana="#vir">
@@ -523,23 +510,30 @@
                  <pb edRef="#V" n="85v"/>
                  <pb edRef="#Z" n="88v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_088v.jpg"/>
             <div type="chapter">
-                <div type="section" corresp="#involutio_spherae"><p><seg ana="#gem">Gemini</seg> autem iacent ordine manifesto eo quod fructus adcreuerit duplex. Virides autem supra terra inchoant findi naturam et duplices folias addidit germinantes ad serenitatem sacrae disciplinae.</p></div>
+                <div type="section" corresp="#involutio_spherae">
+                    <head>
+                        <title type="supplied" resp="#ivana_dobcheva">XI. Gemini</title>
+                    </head>
+                    <p><cit><quote><seg ana="#gem">Gemini</seg> autem iacent ordine manifesto eo quod fructus adcreuerit duplex. Virides autem supra terra inchoant findi naturam et duplices folias addidit germinantes ad serenitatem sacrae disciplinae.</quote><bibl>Aratus Latinus, Involutio spherae, vv. 102-106.</bibl></cit></p></div>
                 <div type="section" corresp="#t2-10"><p>ex geminis prior, qui excedit a <seg ana="#cnc">Cancro</seg>, habet stellam in capite spelendidam I, in utroque humero splendidam I, in utroque genu splendidam I. Alter uero habet in capite stellam splendidam I, in humero sinistro I, per singula femora I, in dorso III. Sunt omnes VII. In <app>
                             <lem wit="#V #Z">utrosque</lem>
                             <rdg wit="#K">utroque</rdg>
                         </app> uero XII.</p></div>
                <div type="section">
-                   <p><persName ref="#isidore">Ysidorus</persName> dixit <quote source="#isidore_etym_3">Castorem quoque et Pollucem post mortem inter <app>
+                   <p><persName ref="#isidore">Ysidorus</persName> dixit <cit><quote source="#isidore_etym_3">Castorem quoque et Pollucem post mortem inter <app>
                             <lem wit="#V">notissima</lem>
                             <rdg wit="#K #Z">nouissima</rdg>
-                        </app> sydera constituit, quod signum Gemini dicunt</quote>.</p></div>
+                        </app> sydera constituit, quod signum Gemini dicunt</quote><bibl>Isidore, Etymologiae III, 71, 25.</bibl></cit>.</p></div>
             </div>
                  <figure ana="#gem">
                      <figDesc resp="#ivana_dobcheva">Illustration of Gemini.</figDesc>
                  </figure>
                  <div type="chapter">
                      <div type="section" corresp="#involutio_spherae_cancer">
-                <p><seg ana="#cnc">Cancer</seg>. Hic mutatio elementi recipienda est <seg ana="#cnc">cancer</seg> existens temporibus canceris quod maximum fructum demonstret mortalibus aqua constituitur ordine manifesto.</p>
+                         <head>
+                             <title type="supplied" resp="#ivana_dobcheva">XII. Cancer</title>
+                         </head>
+                <p><cit><quote><seg ana="#cnc">Cancer</seg>. Hic mutatio elementi recipienda est <seg ana="#cnc">cancer</seg> existens temporibus canceris quod maximum fructum demonstret mortalibus aqua constituitur ordine manifesto.</quote><bibl>Aratus Latinus, Involutio spherae, vv. 108-110.</bibl></cit></p>
             </div>
                      <div type="section" corresp="#t2-11"><p>Habet autem stellas splendidas in testa II, in dextris pedibus per singulos I, in sinistro primo I, et in sinistro tercio I, in quarto I, in ore I, in dextro labio III, in sinistro II. Sunt omnes XV.</p></div>
          </div>
@@ -550,7 +544,11 @@
                  <pb edRef="#V" n="85v"/>
                  <pb edRef="#Z" n="88v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_088v.jpg"/>
                  <div type="chapter">
-            <div type="section" corresp="#t1-15"><p>Pedibus quidem retrosis <seg ana="#leo">Leo</seg> subsistens bene decet. Hic quoque aestu messores inici iubet. Hic autem ubi <app>
+            <div type="section" corresp="#t1-15">
+                <head>
+                    <title type="supplied" resp="#ivana_dobcheva">XIII. Leo</title>
+                </head>
+                <p><cit><quote>Pedibus quidem retrosis <seg ana="#leo">Leo</seg> subsistens bene decet. Hic quoque aestu messores inici iubet. Hic autem ubi <app>
                             <lem wit="#K #V">spicas</lem>
                 <rdg wit="#Z"><subst><del>spicas</del><add>spices</add></subst></rdg>
                         </app> et uacuae cernuntur segetes aestatisque primae conuenit <seg ana="#leo">Leo</seg>. Honorifice <app>
@@ -563,16 +561,16 @@
                             <lem resp="#ivana_dobcheva">primus</lem>
                             <rdg wit="#K #V">primis</rdg>
                             <rdg wit="#Z"><subst><del>primis</del><add>primus</add></subst></rdg>
-                        </app> dimicatur fuit memoratus. Laudabilem enim solum hunc inermis perimit sed apprehensum offocauit.</p></div>
-                     <div type="section" corresp="#t2-12"><p>Habet stellas in capite III, in ceruice II, in pectore I, in dorso III, in summitate caudae spendidam I, sub pectore II, in anteriori pede splendidam I. Sunt omnes XIII.</p></div>
+                        </app> dimicatur fuit memoratus. Laudabilem enim solum hunc inermis perimit sed apprehensum offocauit.</quote><bibl>Aratus Latinus, De Leone (Maass p. 205).</bibl></cit></p></div>
+                     <div type="section" corresp="#t2-12"><p>Habet stellas in capite III, in ceruice II, in pectore I, in dorso III, in summitate caudae splendidam I, sub pectore II, in anteriori pede splendidam I. Sunt omnes XIII.</p></div>
             <div type="section">
-                <p><persName ref="#isidore">Ysidorus</persName> dixit <quote source="#isidore_etym_3">leonem in Grecia ingentem Hercules occidit et propter uirtutem suam hunc inter sydera XII constituit. Hoc signum sol cum attigerit nimium <app>
+                <p><persName ref="#isidore">Ysidorus</persName> dixit <cit><quote source="#isidore_etym_3">leonem in Grecia ingentem Hercules occidit et propter uirtutem suam hunc inter sydera XII constituit. Hoc signum sol cum attigerit nimium <app>
                             <lem wit="#K">calorem</lem>
                     <rdg wit="#V #Z">calore</rdg>
                         </app> mundi <app>
                             <lem wit="#K">reddit</lem>
                             <rdg wit="#V #Z">reddet</rdg>
-                        </app> et aestas facit</quote>.</p></div>
+                        </app> et aestas facit</quote><bibl>Isidore, Etymologiae III, 71, 27.</bibl></cit>.</p></div>
          </div>
                  <figure ana="#leo">
                      <figDesc resp="#ivana_dobcheva">Illustration of Leo.</figDesc>
@@ -581,6 +579,9 @@
                  <pb edRef="#V" n="86v"/>
                  <pb edRef="#Z" n="89v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_089v.jpg"/>
                  <div type="chapter" corresp="#t2-13">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XIV. Agitator</title>
+                     </head>
             <p><seg ana="#aur">Agitator</seg> autem habet stellam in capite I, in utroque humero I, sed ea est clarior quae in sinistro humero est, in utroque cubito I, in dextra manu I, in summitatem manus sinistrae II, et super ipso brachio Hedulos duos et in utroque Hedulo stellam I. Sunt omnes X.</p>
          </div>
                  <figure ana="#aur">
@@ -590,10 +591,14 @@
                  <pb edRef="#V" n="87r"/>
                  <pb edRef="#Z" n="90r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_090r.jpg"/>
                  <div type="chapter">
-                     <div type="section" corresp="#involutio_spherae_taurus"><p><seg ana="#tau">Taurus</seg> quidem iacet post ipsum quasi laboriosus figura similis illi tamquam in ceruice continentem qualem condecet iugum directis aratris sulcis diuidit terras, in stellarum ordo qui olim <app>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XV. Taurus</title>
+                     </head>
+                     <div type="section" corresp="#involutio_spherae_taurus">
+                         <p><cit><quote><seg ana="#tau">Taurus</seg> quidem iacet post ipsum quasi laboriosus figura similis illi tamquam in ceruice continentem qualem condecet iugum directis aratris sulcis diuidit terras, in stellarum ordo qui olim <app>
                             <lem wit="#V #Z">quondam</lem>
                             <rdg wit="#K" cause="omission"/>
-                        </app> dimicatur taurus. Sed et hic mortalis sic uocatur uniuersorum finium custos.</p></div>
+                         </app> dimicatur taurus. Sed et hic mortalis sic uocatur uniuersorum finium custos.</quote><bibl>Aratus Latinus, Involutio spherae, vv. 95-101.</bibl></cit></p></div>
             <div type="section" corresp="#t2-14"><p>Habet <app>
                             <lem wit="#K #Z">autem</lem>
                             <rdg wit="#V">namque</rdg>
@@ -606,6 +611,9 @@
                  <pb edRef="#V" n="87v"/>
                  <pb edRef="#Z" n="90v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_090v.jpg"/>
                  <div type="chapter" corresp="#t2-15">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XVI. Cepheus</title>
+                     </head>
             <p><seg ana="#cep">Cepheus</seg> <placeName ref="#ekron">accaron</placeName> habet in capite stellas splendidas II et in dextra manu splendidam I, in utroque humero I, in zona III, in dextro latere ex transuerso super ilium VII, in sinistro genu II, in summitate pedu IIII. Sunt omnes XXI. Hic autem in septentrionis <choice><sic>inasionem</sic><corr resp="#ivana_dobcheva">incisionem</corr></choice> <note resp="#ivana_dobcheva">for incisionem mistaken for open cc-a</note> constituitur.</p>
          </div>
                  <figure ana="#cep">
@@ -615,6 +623,9 @@
                  <pb edRef="#V" n="88r"/>
                  <pb edRef="#Z" n="91r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_091r.jpg"/>
                  <div type="chapter" corresp="#t2-16">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XVII. Cassiepia</title>
+                     </head>
                      <p><app><lem resp="#ivana_dobcheva"><seg ana="#cas">Cassiepia</seg></lem><rdg wit="#V #K #Z">Cassepia</rdg></app> habet in capite stellam splendidam I, in utroque humero splendidam I, in dextra parte pectoris splendidam I, in dextro cubitu I, in utrisque manibus summitate splendidam I, in umbilico splendidam et magnam I, in sinistro femore <app>
                             <lem wit="#Z #V">II</lem>
                             <rdg wit="#K">III</rdg>
@@ -627,6 +638,9 @@
                  <pb edRef="#V" n="88v"/>
                  <pb edRef="#Z" n="91v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_091v.jpg"/>
          <div type="chapter" corresp="#t2-17">
+             <head>
+                 <title type="supplied" resp="#ivana_dobcheva">XVIII. Andromeda</title>
+             </head>
             <p><seg ana="#and">Andromeda</seg> habet stellam in capite splendidam I, in utroque uero humero I, in utrisque cubitis I, in summitate manus sinistrae splendidam I, <app>
                             <lem wit="#V #Z">in pedali in summitate manus</lem>
                             <rdg wit="#K">in summitate manus in pedali</rdg>
@@ -639,12 +653,18 @@
                  <pb edRef="#V" n="89r"/>
                  <pb edRef="#Z" n="92r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_092r.jpg"/>
          <div type="chapter" corresp="#t2-18">
+             <head>
+                 <title type="supplied" resp="#ivana_dobcheva">XIX. Equus</title>
+             </head>
             <p><seg ana="#peg">Equus</seg> qui et Bellorumfons dicitur. Habet stellas in rostro II obscuras, in capite splendidam I, in maxilla I, in utrisque auribus splendidam I, in ceruice IIII, in humero I, in pectore I, in spina I, in umbilico nitida I, in utroque genu I, per singulas ungulas anteriores I. Sunt omnes XVIII.</p>
          </div>
                  <figure>
                      <figDesc resp="#ivana_dobcheva">Illustration of Equus.</figDesc>
                  </figure>
          <div type="chapter" corresp="#t2-19">
+             <head>
+                 <title type="supplied" resp="#ivana_dobcheva">XX. Aries</title>
+             </head>
             <p><seg ana="#ari">Aries</seg> habet stellam in capite I, in nare III, in collo II, in summitate anterioris <app>
                             <lem wit="#K">pedis</lem>
                             <rdg wit="#V #Z">pede</rdg>
@@ -656,7 +676,10 @@
                  <pb edRef="#K" n="78r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_078r.jpg"/>
                  <pb edRef="#V" n="89v"/>
                  <pb edRef="#Z" n="92v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_092v.jpg"/>
-                 <div type="chapter" corresp="#t2-20">
+        <div type="chapter" corresp="#t2-20">
+            <head>
+                <title type="supplied" resp="#ivana_dobcheva">XXI. Triangulus</title>
+            </head>
             <p><seg ana="#tri">Triangulus</seg> qui iacet super caput <seg ana="#ari">Arietis</seg>.</p>
             <p>Habet per <app>
                             <lem wit="#K">singulos angulos</lem>
@@ -669,7 +692,10 @@
                  <figure ana="#tri">
                      <figDesc resp="#ivana_dobcheva">Illustration of Triangulus.</figDesc>
                  </figure>
-                 <div type="chapter" corresp="#t2-21">
+         <div type="chapter" corresp="#t2-21">
+             <head>
+                 <title type="supplied" resp="#ivana_dobcheva">XXII. Pisces</title>
+             </head>
             <p><seg ana="#psc">Pisces</seg>. Aquilonius habet stellas XII, Austris XV. Linteum eorum in quo continentur habet stellas ad aquilonem III, ad occasum III, ad orientem III, in Conexum III. Sunt omnes XXXVIIII.</p>
          </div>
                  <figure ana="#psc">
@@ -678,7 +704,10 @@
                  <pb edRef="#K" n="78v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_078v.jpg"/>
                  <pb edRef="#V" n="90r"/>
                  <pb edRef="#Z" n="93r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_093r.jpg"/>
-                 <div type="chapter" corresp="#t2-22">
+         <div type="chapter" corresp="#t2-22">
+             <head>
+                 <title type="supplied" resp="#ivana_dobcheva">XXIII. Perseus</title>
+             </head>
             <p><seg ana="#per">Perseus</seg> qui fertur tenere caput Gorgonis. Habet stellas in utroque humero splendidam I, in summitate manus dextrae I, in eiusdem cubito I, in summitate manus sinistrae I, in uentre I, in dextro lumbo nitidam I, in dextro femore splendidam I, in utroque genu I, in tibia II. Sunt omnes XII.</p>
             <p>Gorgonus autem dicitur habere in capite stellam I et in crinibus III.</p>
          </div>
@@ -688,8 +717,11 @@
                  <pb edRef="#K" n="79r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_079r.jpg"/>
                  <pb edRef="#V" n="90v"/>
                  <pb edRef="#Z" n="93v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_093v.jpg"/>
-                 <div type="chapter" corresp="t1-26">
-            <p>Coarte quidem pluresue conueniunt omnes <seg ana="#pleiades">Pliades</seg> uidentur quas equidem uniuersas <app>
+          <div type="chapter" corresp="t1-26">
+              <head>
+                  <title type="supplied" resp="#ivana_dobcheva">XXIV. Pleiades</title>
+              </head>
+            <p><cit><quote>Coarte quidem pluresue conueniunt omnes <seg ana="#pleiades">Pliades</seg> uidentur quas equidem uniuersas <app>
                 <lem resp="#ivana_dobcheva">chorus</lem>                
                 <rdg wit="#V">
                                     <gap/>
@@ -713,7 +745,7 @@
                             </app> Comitem. Quidam autem illam, quae non paret, Meropen esse dicunt nupta a quodam uiro nominari <app>
                                 <lem wit="#V #Z">Ippodamia</lem>
                                 <rdg wit="#K">Ipodamia</rdg>
-                            </app>.
+                            </app>.</quote><bibl>Aratus Latinus, De Pliadibus (Maass pp. 228-230).</bibl></cit>
                     </p>
          </div>
                  <figure ana="#pleiades">
@@ -722,7 +754,10 @@
                  <pb edRef="#K" n="79v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_079vjpg"/>
                  <pb edRef="#V" n="91r"/>
                  <pb edRef="#Z" n="94r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_094r.jpg"/>
-                 <div  type="chapter" corresp="#t2-23">
+          <div  type="chapter" corresp="#t2-23">
+              <head>
+                  <title type="supplied" resp="#ivana_dobcheva">XXV. Lyra</title>
+              </head>
             <p><seg ana="#lyr">Lira</seg> habet stellas in utroqoue pectino I, per singulos pedales I, in modulo I, in utroque humero I, in iugo I, in tymplano splendidam atque <app>
                             <lem wit="#K">candidam</lem>
                             <rdg wit="#V">canidam</rdg>
@@ -732,7 +767,10 @@
                  <figure ana="#lyr">
                      <figDesc resp="#ivana_dobcheva">Illustration of Lyra.</figDesc>
                  </figure>
-                 <div type="chapter" corresp="#t2-24">
+          <div type="chapter" corresp="#t2-24">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXVI. Cygnus</title>
+                     </head>
             <p><seg ana="#cyg">Cignus</seg> habet stellam in capite splendidam I, in collo splendidam I, in dextra ala V, unam nitidam, quae est erga collum, in sinistra ala V, in corpore I, in genitale magnam I. Sunt omnes XIIII.</p>
          </div>
                  <figure ana="#cyg">
@@ -742,6 +780,9 @@
                  <pb edRef="#V" n="91v"/>
                  <pb edRef="#Z" n="94v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_094v.jpg"/>
                  <div type="chapter" corresp="#t2-25">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXVII. Aquarius</title>
+                     </head>
             <p><seg ana="#aqr">Aquarius</seg> habet in capite stellas II obscuras, in utroque humero I, in utroque cubito splendidam I, in summis manibus I, per singulas mamillas I, subtus mamillis ex utraque parte I, in <app>
                             <lem wit="#K">sinistro</lem>
                             <rdg wit="#V #Z">sinistra</rdg>
@@ -751,6 +792,9 @@
                      <figDesc resp="#ivana_dobcheva">Illustration of Aquarius.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-26">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXVIII. Capricornus</title>
+                     </head>
             <p><seg ana="#cap">Capricornus</seg> autem habet in utroque cornu stellas II, in naribus splendidam I, in capite II, in collo splendidam I, in pectore II, in anteriori pede I, in summitatem ipsius pedis I, in dorso VII, in uentre V, in cauda II. Sunt omnes XXVI.</p>
          </div>
                  <figure ana="#cap">
@@ -760,12 +804,18 @@
                  <pb edRef="#V" n="92r"/>
                  <pb edRef="#Z" n="95r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_095r.jpg"/>
                  <div type="chapter" corresp="#t2-27">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXIX. Sagittarius</title>
+                     </head>
             <p><seg ana="#sgr">Sagittarius</seg> habet stellas in capite II, in costis II, in dextro cubito I, in scapula nitidam I, in dorso II, in cauda II, in anteriori genu I, in utroque pede I, in arcu II et in iaculo IIII, una uero in summo et alia in medio obscura et II in pennis iaculi, ex quibus I est clarior. Sunt omnes XVIIII.</p>
          </div>
                  <figure ana="#sgr #sge">
                      <figDesc resp="#ivana_dobcheva">Illustration of Sagittarius and Sagitta.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-28">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXX. Aquila</title>
+                     </head>
             <p><seg ana="#aql">Aquila</seg> habet in pede stellam I, in medio corpore obscuram I, in rostro superiori I, in subteriori I. Sunt omnes IIII.</p>
          </div>
                  <figure ana="#aql #sge">
@@ -775,6 +825,9 @@
                  <pb edRef="#V" n="92v"/>
                  <pb edRef="#Z" n="95v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_095v.jpg"/>
                  <div type="chapter" corresp="#t2-29">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXI. Delphinus</title>
+                     </head>
             <p><seg ana="#del">Delfinus</seg> non multum supercurrit <seg ana="#cap">Capricorno</seg>.</p>
             <p>Habet in ore stellam I, in uertice II, in ala secus uentrem III, supra dorso I, in cauda II. Sunt omnes VIIII.</p>
          </div>
@@ -782,6 +835,9 @@
                      <figDesc resp="#ivana_dobcheva">Illustration of Delphinus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-30">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXII. Orion</title>
+                     </head>
             <p><seg ana="#ori">Orion</seg> oblicus <app>
                             <lem wit="#K #Z">quidem</lem>
                             <rdg wit="#V">quidam</rdg>
@@ -795,6 +851,9 @@
                  <pb edRef="#V" n="93r"/>
                  <pb edRef="#Z" n="96r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_096r.jpg"/>
                  <div type="chapter" corresp="#t2-31">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXIII. Canis Maior</title>
+                     </head>
             <p><seg ana="#cma">Canicula</seg> quae oritur post <seg ana="#ori">Orionem</seg>. Habet stellam in lingua splendidam I, quam Syrium et <app><lem resp="#ivana_dobcheva">Canem</lem><rdg wit="#Z #K #V">Canum</rdg></app> uocant, rutilantem multum et per colores inmutantem; in utroque humero obscuram I, in pectore II, in anteriori pede sinistro I, in dextro I, supra <app>
                             <lem wit="#V #Z">dorsum</lem>
                             <rdg wit="#K">dorso</rdg>
@@ -804,9 +863,12 @@
                         </app> caudae IIII. Sunt omnes XX.</p>
          </div>
                  <figure ana="#cma">
-                     <figDesc resp="#ivana_dobcheva">Illustration of Canis Major.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Illustration of Canis Maior.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-32">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXIV. Lepus</title>
+                     </head>
             <p><seg ana="#lep">Lepus</seg> habet stellas in utrisque auribus I, in corpore II, in dorso nitidam I, in posterioribus pedibus per singulos I. Sunt omnes VII.</p>
          </div>
                  <figure ana="#lep">
@@ -816,12 +878,18 @@
                  <pb edRef="#V" n="93v"/>
                  <pb edRef="#Z" n="96v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_096v.jpg"/>
                  <div type="chapter" corresp="#t2-33">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXV. Navis</title>
+                     </head>
             <p><seg ana="#arg">Nauis</seg>, quae apud Argiuos Argo uocatur, habet stellas in anteriori parte nauis IIII, in puppi IIII, in utroque temone V, in uelo III, in costa nauis V. Sunt omnes XXVI.</p>
          </div>
                  <figure ana="#arg">
                      <figDesc resp="#ivana_dobcheva">Illustration of Navis.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-34">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXVI. Coetus</title>
+                     </head>
             <p><seg ana="#cet">Cetus</seg> sub <app><lem resp="#ivana_dobcheva"><seg ana="#ari">Ariete</seg></lem><rdg wit="#K #Z #V">oriente</rdg></app> et <seg ana="#psc">piscibus</seg> gradiens.</p> 
             <p>Habet stellas in cauda II obscuras, a cauda usque ad <app>
                             <lem wit="#V">gibbum</lem>
@@ -835,16 +903,22 @@
                  <pb edRef="#V" n="94r"/>
                  <pb edRef="#Z" n="96ar" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_096ar.jpg"/>
                  <div type="chapter" corresp="#t2-35">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXVII. Eridanus</title>
+                     </head>
             <p><seg ana="#eri">Eurus</seg> qui et <app><lem><seg ana="#eri">Eridanus</seg></lem><rdg wit="#V #K #Z">Heyridanus</rdg></app> et a quibusdam Nilus, qui et Gion, a meridianis partibus habens initium ad <app>
                             <lem wit="#V #Z"><seg ana="#ori">Orionis</seg></lem>
                             <rdg wit="#K">Orionem</rdg>
-                        </app><note resp="#ivana_dobcheva">The original text had <q>pedem</q> apparently missing in the exemplar, hence the scribe of K decided to correct <q>Orionis</q> to <q>Orionem</q></note> tendens. Iacet ei stella quae uocatur Canouos splendens quae tangit <app><lem wit="#K">temonem</lem><rdg wit="#V #Z">timonem</rdg></app> posterioris; spatium paruum paret, eo quod circa terram esse uidetur.</p> 
+                        </app><note resp="#ivana_dobcheva">The word <q>pedem</q> was apparently missing in the exemplar, hence the scribe of K decided to correct <q>Orionis</q> to <q>Orionem</q></note> tendens. Iacet ei stella quae uocatur Canouos splendens quae tangit <app><lem wit="#K">temonem</lem><rdg wit="#V #Z">timonem</rdg></app> posterioris; spatium paruum paret, eo quod circa terram esse uidetur.</p> 
             <p>Habet stellas in prima acie III, in secunda III, in tertia III usque ad nouissimas VII, quas dicunt in ore Nili fluuii esse. Sunt omnes XVI.</p>
          </div>
                  <figure ana="#eri">
                      <figDesc resp="#ivana_dobcheva">Illustration of Eridanus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-36">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXVIII. Piscis Magnus</title>
+                     </head>
             <p><seg ana="#psa">Piscis magnus</seg> qui et Auster dicitur a <seg ana="#cap">Capricorno</seg> usque ad Pisces eius longitudo protenditur et subiacet <seg ana="#aqr">Aquario</seg> et suscipit eius effusionem.</p>
             <p>Habet stellas XII ex quibus I fertur esse subtus pedes <seg ana="#aqr">Aquarii</seg> et III in brancis eius. Ipse autem clariores esse noscuntur.</p>
          </div>
@@ -852,6 +926,9 @@
                      <figDesc resp="#ivana_dobcheva">Illustration of Piscis Magnus.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-37">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXIX. Sacrarius</title>
+                     </head>
              <p><seg ana="#ara">Sacrarius</seg> qui et Farum accipitur. Hoc signum sequitur caudam magnae <seg ana="#sco">Scorpioni</seg>, circumdat Septentrionem et quaedam pars <app><lem resp="#ivana_dobcheva">obtunsior</lem><rdg wit="#V #K #Z">obtonsior</rdg></app> <seg ana="#uma">Arcturi</seg>, quaedam autem cito sub uespere deficit.</p>
             <p>Habet autem stellas super craticula II, in uasine II. Sunt omnes IIII.</p>
          </div>
@@ -859,6 +936,9 @@
                  <pb edRef="#V" n="94v"/>
                  <pb edRef="#Z" n="96av" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_096av.jpg"/>
                  <div type="chapter" corresp="#t2-38">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXX. Centaurus</title>
+                     </head>
                  <p><seg ana="#cen">Centaurus</seg> fertur habere Bestiam in manu iuxta <seg ana="#ara">Sacrarium</seg>, in quo uidetur offerre.</p>
                  <p>Habet <app>
                             <lem wit="#V"/>
@@ -882,6 +962,9 @@
                  <pb edRef="#V" n="95r"/>
                  <pb edRef="#Z" n="97r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_097r.jpg"/>
                  <div type="chapter" corresp="#t2-39">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXXI. Hydra, Corvus &amp; Crater</title>
+                     </head>
                  <p><seg ana="#hya">Serpens</seg> super cuius caudam <seg ana="#crv">Coruum</seg> sedere dicunt et in medio <seg ana="#crt">Urnam</seg> habere posterioris. Fertur enim ut <app>
                             <lem wit="#V">caput submittatur</lem>
                             <rdg wit="#Z #K">submittatur caput</rdg>
@@ -894,6 +977,9 @@
                      <figDesc resp="#ivana_dobcheva">Illustration of Hydra, Corvus and Crater.</figDesc>
                  </figure>
                  <div type="chapter" corresp="#t2-40">
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXXII. Canis Minor</title>
+                     </head>
                  <p><seg ana="#cmi">Anticanis</seg> dicitur subtus <seg ana="#gem">Geminos</seg> bene parere.</p>
                  <p>Habet stellas III, quas una splendidior est ceteris et ideo Anticanis uocatur, eo quod contratia sit <seg ana="#cma">Cani</seg>.</p>
              </div>
@@ -904,14 +990,17 @@
                  <pb edRef="#V" n="95v"/>
                  <pb edRef="#Z" n="97v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_097v.jpg"/>
                  <div type="chapter" corresp="#t1-46">
-                 <p>De stellis ergo quae uocantur <seg ana="#planets">Planete</seg> id est Erraticae, pro eo quod proprium motum habeant. Ipse dicuntur quidem deorum nomina esse <app>
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXXIII. Planetae</title>
+                     </head>
+                 <p><cit><quote>De stellis ergo quae uocantur <seg ana="#planets">Planete</seg> id est Erraticae, pro eo quod proprium motum habeant. Ipse dicuntur quidem deorum nomina esse <app>
                             <lem wit="#V">V</lem>
                             <rdg wit="#K"/>
                      <rdg wit="#Z"><add>V</add></rdg>
                         </app>. Prima quidem <seg ana="#jupiter">Iouis</seg> magna paret. Secunda uero uocata est <seg ana="#saturnus">Pheton</seg>; sic uocata est a Sole. Tertia autem <seg ana="#mars">Mars</seg>, rubea, una quidem magna colore similis <seg ana="#aql">Aquilae</seg>. Quarta autem <seg ana="#venus">Venere</seg> qui et Lucifer, candido colore; omnium quippe stellarum maxima est. <app>
                             <lem wit="#K">Quam</lem>
                             <rdg wit="#V #Z">Quem</rdg>
-                        </app> et Luciferum uocant, eo quod mane oritur. Quinta uero <seg ana="#mercurius">Mercurius</seg> rutilans atque splendida et minor. Mercurio autem dicta est eo quod primum ipse fecit exornationem caeli et ceterorum ordines et horas dinumerauit et significationes temporum demonstrauit. Rutilus autem uocatur, eo quod tantam claritatem ostenderit.</p>
+                        </app> et Luciferum uocant, eo quod mane oritur. Quinta uero <seg ana="#mercurius">Mercurius</seg> rutilans atque splendida et minor. Mercurio autem dicta est eo quod primum ipse fecit exornationem caeli et ceterorum ordines et horas dinumerauit et significationes temporum demonstrauit. Rutilus autem uocatur, eo quod tantam claritatem ostenderit.</quote><bibl>Aratus Latinus, De Planetis (Maass pp. 272-275).</bibl></cit></p>
              </div>
                  <figure ana="#planets">
                      <figDesc resp="#ivana_dobcheva">Illustration of the five planets.</figDesc>
@@ -920,11 +1009,14 @@
                  <pb edRef="#V" n="96r"/>
                  <pb edRef="#Z" n="98r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_098r.jpg"/>
                  <div type="chapter" corresp="#t1-50">
-                 <p><seg ana="#zodiac">Signalem</seg> autem circulum ita appellauerunt, quod unus quidem <seg ana="#cnc">Cancer</seg> est, <seg ana="#leo">Leo</seg> autem super ipsum, <seg ana="#vir">Virgo</seg> in id ipso quidem <seg ana="#pleiades">Vergiliae</seg> et <seg ana="#sco">Scorpio</seg>, ipse autem <seg ana="#sgr">Sagittator</seg> et <seg ana="#cap">Capricornus</seg>, super Capricornum uero <seg ana="#aqr">Aquarius</seg>. Duo autem super ipsos <seg ana="#psc">Piscium</seg> stellas positas his quippe <seg ana="#ari">Aries</seg> deinde 
+                     <head>
+                         <title type="supplied" resp="#ivana_dobcheva">XXXXIV. Circulus Signalis</title>
+                     </head>
+                 <p><cit><quote><seg ana="#zodiac">Signalem</seg> autem circulum ita appellauerunt, quod unus quidem <seg ana="#cnc">Cancer</seg> est, <seg ana="#leo">Leo</seg> autem super ipsum, <seg ana="#vir">Virgo</seg> in id ipso quidem <seg ana="#pleiades">Vergiliae</seg> et <seg ana="#sco">Scorpio</seg>, ipse autem <seg ana="#sgr">Sagittator</seg> et <seg ana="#cap">Capricornus</seg>, super Capricornum uero <seg ana="#aqr">Aquarius</seg>. Duo autem super ipsos <seg ana="#psc">Piscium</seg> stellas positas his quippe <seg ana="#ari">Aries</seg> deinde 
                      <app>
                          <lem wit="#V #Z"><seg ana="#tau">Taurus</seg></lem>
                          <rdg wit="#K">Thaurus</rdg>
-                     </app>, <seg ana="#gem">Gemini</seg> autem inter quibus Fidicula<note resp="#ivana_dobcheva">From the Aratus Latinus, a mistranslation of <quote>helios</quote> - perhaps for <foreign>lurion</foreign>, also on verse 508.</note> apponitur, duo et X omnibus totum annum inducunt et ex ipsis per <app>
+                     </app>, <seg ana="#gem">Gemini</seg> autem inter quibus Fidicula<note resp="#ivana_dobcheva">From the Aratus Latinus, a mistranslation of <quote>helios</quote> - perhaps for <foreign>lurion</foreign> (cf. same mistake in verse 508).</note> apponitur, duo et X omnibus totum annum inducunt et ex ipsis per <app>
                             <lem wit="#Z #K">circuitum</lem>
                             <rdg wit="#V">circuitu</rdg>
                         </app> erunt omnes dinumeratae horae, unus quidem quantum circuit et ad oceanum occidit, tantum super terram reducitur. Per <app>
@@ -933,29 +1025,34 @@
                         </app>. Ex his occidunt XII circuli tot uero et oriuntur. Tantumque in longitudinem uniuersa non extenditur, quantum ad medietatem circuli incipiens a nocte et erigitur <app>
                             <lem wit="#V">ab altitudine</lem>
                             <rdg wit="#Z #K">ad altitudinem</rdg>
-                        </app> terrae. Quod non est abiectum sed probatum et dena milibus pertractatum, quando oriuntur uniuersa. Semper enim cum ipsis consurgit ipsa Fidicula. Quodque pertractandum magis <app><lem resp="#ivana_dobcheva">ad mane</lem><rdg wit="#V #K #Z">adriane</rdg></app> recte, si non fuerunt nubes nigrae fiunt aut montibus absconsae dum oriuntur, signa superuenientes inaestimabiles fieri. Ipse autem magis signa utrumque dat oceano. Tunc quoque multum circumuertitur, ipse super uitulos portatur singularum.</p> 
-                     <p>Cuius obscuritas, quando <seg ana="#cnc">Cancer</seg> oritur, stella utrumque conuolutae circumiacent, quaedam autem occidunt aliae uero oriuntur. Occidit quidem <seg ana="#crb">Corona</seg>, occidit autem ab spino Piscis medius, a sublimitate dimidiae partis, nouissime autem mittit declinante <seg ana="#crb">Corona</seg>. Ipsa quoque a retro conuersa, sed nondum praecedit superiore nocte ferenda. Unde quidem et in humeris deponit laboriosum <seg ana="#oph">Serpentarium</seg>; <seg ana="#cnc">Cancer</seg> uero a geniculis deponitur autem iuxta Serpentis collum. Nec non <seg ana="#boo">Arctofylax</seg>, id est Arcturi custos, quod non multum ex utraque parte, minus uel maius, sed plurime ad matutinum cernitur. Quaternis enim uicibus descendit <seg ana="#boo">Bootes</seg> et suscipitur ab oceano; <app>
+                        </app> terrae. Quod non est abiectum sed probatum et dena milibus pertractatum, quando oriuntur uniuersa. Semper enim cum ipsis consurgit ipsa Fidicula. Quodque pertractandum magis <app><lem resp="#ivana_dobcheva">ad mane</lem><rdg wit="#V #K #Z">adriane</rdg></app> recte, si non fuerunt nubes nigrae fiunt aut montibus absconsae dum oriuntur, signa superuenientes inaestimabiles fieri. Ipse autem magis signa utrumque dat oceano. Tunc quoque multum circumuertitur, ipse super uitulos portatur singularum.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 279-280).</bibl></cit></p>
+                 </div>
+              <div type="chapter" corresp="#t1-51">
+                  <head>
+                      <title type="supplied" resp="#ivana_dobcheva">XXXXV. Paranatellonta</title>
+                  </head>
+                     <p><cit><quote>Cuius obscuritas, quando <seg ana="#cnc">Cancer</seg> oritur, stella utrumque conuolutae circumiacent, quaedam autem occidunt aliae uero oriuntur. Occidit quidem <seg ana="#crb">Corona</seg>, occidit autem ab spino Piscis medius, a sublimitate dimidiae partis, nouissime autem mittit declinante <seg ana="#crb">Corona</seg>. Ipsa quoque a retro conuersa, sed nondum praecedit superiore nocte ferenda. Unde quidem et in humeris deponit laboriosum <seg ana="#oph">Serpentarium</seg>; <seg ana="#cnc">Cancer</seg> uero a geniculis deponitur autem iuxta Serpentis collum. Nec non <seg ana="#boo">Arctofylax</seg>, id est Arcturi custos, quod non multum ex utraque parte, minus uel maius, sed plurime ad matutinum cernitur. Quaternis enim uicibus descendit <seg ana="#boo">Bootes</seg> et suscipitur ab oceano; <app>
                             <lem wit="#Z #K">ipse</lem>
                             <rdg wit="#V">ipsae</rdg>
-                 </app> autem praeclarus ostenditur, uel quidem superesse alia nocta superueniente et per noctibus ad uesperum occidere dicitur, nouissime quando Fidicula descendente occidit. Quanti quidem occidunt sed contrarium nichil agunt, sed bono quidem circulo bona autem utraque et dilucida tamen <seg ana="#ori">Orion</seg>, qui et Iugula, confidenter omnia ferens <pb edRef="#Z" n="98v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_098v.jpg"/> <seg ana="#eri">Fluuium</seg> rapidum extendens irrigat agros.</p> 
-                     <p>Incipiente autem <seg ana="#leo">Leone</seg> quedam per omnia feruntur <seg ana="#cnc">Cancer</seg> quando occidit et <seg ana="#aql">Aquila</seg>, statim et nox uoluitur, alia quidem rema<pb edRef="#K" n="85r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085r.jpg"/>nent per ordinem splendida nondum fluctibus reuertitur oceanus, oritur autem <seg ana="#aqr">Aquarii</seg> caput et <seg ana="#lep">Lepusculus</seg> et <seg ana="#cmi">Anticanis</seg>, priores pedes consequentes.</p> 
-                 <p>Non autem paululum terrae subposita mittit <seg ana="#vir">Virgine</seg> oriente. <seg ana="#lyr">Lira</seg> tunc reuoluitur et <seg ana="#del">Delfinus</seg> occidunt <app>
+                     </app> autem praeclarus ostenditur, uel quidem superesse alia nocta superueniente et per noctibus ad uesperum occidere dicitur, nouissime quando Fidicula descendente occidit. Quanti quidem occidunt sed contrarium nichil agunt, sed bono quidem circulo bona autem utraque et dilucida tamen <seg ana="#ori">Orion</seg>, qui et Iugula, confidenter omnia ferens <pb edRef="#Z" n="98v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_098v.jpg"/> <seg ana="#eri">Fluuium</seg> rapidum extendens irrigat agros.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 280-281).</bibl></cit></p> 
+                  <p><cit><quote>Incipiente autem <seg ana="#leo">Leone</seg> quedam per omnia feruntur <seg ana="#cnc">Cancer</seg> quando occidit et <seg ana="#aql">Aquila</seg>, statim et nox uoluitur, alia quidem rema<pb edRef="#K" n="85r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085r.jpg"/>nent per ordinem splendida nondum fluctibus reuertitur oceanus, oritur autem <seg ana="#aqr">Aquarii</seg> caput et <seg ana="#lep">Lepusculus</seg> et <seg ana="#cmi">Anticanis</seg>, priores pedes consequentes.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass p. 281).</bibl></cit></p> 
+                 <p><cit><quote>Non autem paululum terrae subposita mittit <seg ana="#vir">Virgine</seg> oriente. <seg ana="#lyr">Lira</seg> tunc reuoluitur et <seg ana="#del">Delfinus</seg> occidunt <app>
                      <lem wit="#V"/>
                             <rdg wit="#Z #K">et Iaculis </rdg>
-                        </app>et <seg ana="#sge">Iaculus</seg>. Cum ipsis autem et <seg ana="#cyg">Cigni</seg> priores alas simul cum ipso et cauda et <seg ana="#eri">Fluminis</seg> terminos adiacentes. Occidit autem <seg ana="#peg">Equi</seg> <pb edRef="#V" n="96v"/>caput, occidit et ceruix. Oritur uero <seg ana="#aqr">Aquarius</seg> super ipsum usque ad summum, <seg ana="#crt">Urnam</seg> autem adiungit et <seg ana="#cma">Canis</seg> pedes alterutros trahens a retro <seg ana="#arg">Nauis</seg> puppem. Quem diuidit arbor in id ipso, <seg ana="#vir">Virgo</seg> tamen totum pertransiens nunc facta.</p>
-                 <p>Neque autem superuenientes <seg ana="#pleiades">Vergiliae</seg> et subtilius lucentes, inenarrabilem autem magnum <seg ana="#boo">Bootis</seg> signum subito exoritur conuolutus Septentrioni. <seg ana="#arg">Nauis</seg> autem <app><lem resp="#ivana_dobcheva">tranquilla</lem><rdg wit="#V #K #Z">tranquillus</rdg></app> tota sublimis assistens. Sed <seg ana="#aqr">Aquarius</seg> funditur multum ueniens in caelum, caudam quidem. Tantummodo apud <seg ana="#pleiades">Vergilias</seg> adducit dextra leuaque tibias eius usque ad <app><lem wit="#K">genua</lem><rdg wit="#V #Z">genibus</rdg></app> semper nox ubique, sic autem <seg ana="#lyr">Lira</seg> recedit. Hunc autem iaculum quem signum sub caelo utraque occidentia et rursus orientia multum totiens ea ad mane aspicimus in aere. Tibiae autem cum <seg ana="#pleiades">Vergilias</seg> uidentur utraque <app>
+                 </app>et <seg ana="#sge">Iaculus</seg>. Cum ipsis autem et <seg ana="#cyg">Cigni</seg> priores alas simul cum ipso et cauda et <seg ana="#eri">Fluminis</seg> terminos adiacentes. Occidit autem <seg ana="#peg">Equi</seg> <pb edRef="#V" n="96v"/>caput, occidit et ceruix. Oritur uero <seg ana="#aqr">Aquarius</seg> super ipsum usque ad summum, <seg ana="#crt">Urnam</seg> autem adiungit et <seg ana="#cma">Canis</seg> pedes alterutros trahens a retro <seg ana="#arg">Nauis</seg> puppem. Quem diuidit arbor in id ipso, <seg ana="#vir">Virgo</seg> tamen totum pertransiens nunc facta.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass p. 281).</bibl></cit></p>
+                 <p><cit><quote>Neque autem superuenientes <seg ana="#pleiades">Vergiliae</seg> et subtilius lucentes, inenarrabilem autem magnum <seg ana="#boo">Bootis</seg> signum subito exoritur conuolutus Septentrioni. <seg ana="#arg">Nauis</seg> autem <app><lem resp="#ivana_dobcheva">tranquilla</lem><rdg wit="#V #K #Z">tranquillus</rdg></app> tota sublimis assistens. Sed <seg ana="#aqr">Aquarius</seg> funditur multum ueniens in caelum, caudam quidem. Tantummodo apud <seg ana="#pleiades">Vergilias</seg> adducit dextra leuaque tibias eius usque ad <app><lem wit="#K">genua</lem><rdg wit="#V #Z">genibus</rdg></app> semper nox ubique, sic autem <seg ana="#lyr">Lira</seg> recedit. Hunc autem iaculum quem signum sub caelo utraque occidentia et rursus orientia multum totiens ea ad mane aspicimus in aere. Tibiae autem cum <seg ana="#pleiades">Vergilias</seg> uidentur utraque <app>
                             <lem wit="#Z #K">ipse</lem>
                             <rdg wit="#V">ipsae</rdg>
-                        </app> uero a capite conuertitur alter <seg ana="#sco">Scorpionem</seg> exspectans et spiculum <seg ana="#sge">Sagittae</seg>. Haec enim feruntur in medio <app><lem resp="#ivana_dobcheva">eaque</lem><rdg wit="#K #V #Z">aquae</rdg></app> omnia, manu quidem quam et caput simul et <app><lem resp="#ivana_dobcheva">Arcum</lem><rdg>circum</rdg></app> adducit. Sed ista uelut capilli capitis omnia membratim ordinantur, media autem <seg ana="#sco">Scorpionem</seg> et nouissime ipsa cauda <seg ana="#cen">Centauri</seg> uidetur ascendere adhuc <seg ana="#pleiades">Vergiliae</seg>, distantes a capite <seg ana="#peg">Equi</seg>, donec occidant, et prioris Auis adducitur ultima cauda. Occidit autem <seg ana="#and">Andromedae</seg> caput, quod in maius adnixum <seg ana="#cet">Coetum</seg> inducit ad austrum. E contrario ei <seg ana="#cep">Cepheum</seg> magnum ab aquilone adtrectare iubet et partem lumborum eius ex aduerso usque ad eam occiditque <seg ana="#cep">Cephei</seg> caput et humeri et manus.</p>
-                     <p>Declinat autem <seg ana="#eri">Fluuius</seg> superueniente ei <seg ana="#sco">Scorpioni</seg> occidens ab euro oceanis atque superueniens terret magnum <seg ana="#ori">Orionem</seg>. Diana <pb edRef="#Z" n="99r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099r.jpg"/><seg ana="#uma">Helicem</seg> primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est <seg ana="#ori">Orionem</seg>, fortiter lamenta <pb edRef="#K" n="85v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085v.jpg"/>cornicla abnuens ei propuino <note resp="#ivana_dobcheva">for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens <seg ana="#sco">Scorpionem</seg> et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente <seg ana="#sco">Scorpione</seg> Incolo circa terras nouissimas fugientem. Nec non <seg ana="#and">Andromeda</seg> et <seg ana="#cet">Coetus</seg> derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur <seg ana="#cep">Cepheus</seg> terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi <seg ana="#uma #umi">Septentriones</seg> prohibent pedes ac manus. Statimque ipsa puero <app><lem wit="#Z #V">admiscitur</lem><rdg wit="#K">admiscetur</rdg></app> ostendens <seg ana="#cas">Cassepiae</seg> <app><lem wit="#K">simulachrum</lem><rdg wit="#Z #V">symulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando <seg ana="#crb">Coronam</seg> curcuit secundus ordo, <seg ana="#aqr">Aquarius</seg> autem ultimam <pb edRef="#V" n="97r"/>adducit <seg ana="#cen">Centauri</seg> partem, corpus quidem et caput <seg ana="#bestia">Bestiam</seg> quam manu dextra <seg ana="#cen">Centaurus</seg> habet, alia quippe remanent; arcum autem superueninetem primi pedes <seg ana="#peg">Equi</seg> sepultoris.</p>                    
-                     <p>Et in arcum seminat <seg ana="#ser">Serpens</seg> et corpus <seg ana="#oph">Serpentarii</seg> orietur superueniente ei pinguior esca <seg ana="#sco">Scorpionis</seg> orienti assumens quidem ipse <seg ana="#oph">Serpentarii</seg> manus et <seg ana="#ser">Serpentis</seg> multeformem splendorem. <app><lem wit="#V #Z"><seg ana="#her">Ingenu</seg></lem><rdg wit="#K">ingenii</rdg></app> autem per circum semper conuersus oritur, tunc ergo transiens egredietur sed zona et pectus et humerus omnia dextra leuaque cum capite et manibus simulque arco ascendunt et <seg ana="#sgr">Sagittario</seg> oriente. Cum Mercurio seu <seg ana="#lyr">Lira</seg> et usque <app><lem wit="#Z #V">ad</lem><rdg wit="#K">a</rdg></app> pectore <seg ana="#cep">Cepheus</seg> consequitur oceanum. Verumtamen et <seg ana="#cma">Canis magni</seg> <app><lem wit="#Z #V">radia</lem><rdg wit="#K">radii</rdg></app> omnes <pb edRef="#K" n="86r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_086r.jpg"/>occidunt et omnia descendunt ad <app><lem wit="#V #Z"><seg ana="#her">Incolo</seg></lem><rdg wit="#K"><subst><del>Incolo</del><add>Incolum</add></subst></rdg></app>. 
+                 </app> uero a capite conuertitur alter <seg ana="#sco">Scorpionem</seg> exspectans et spiculum <seg ana="#sge">Sagittae</seg>. Haec enim feruntur in medio <app><lem resp="#ivana_dobcheva">eaque</lem><rdg wit="#K #V #Z">aquae</rdg></app> omnia, manu quidem quam et caput simul et <app><lem resp="#ivana_dobcheva">Arcum</lem><rdg>circum</rdg></app> adducit. Sed ista uelut capilli capitis omnia membratim ordinantur, media autem <seg ana="#sco">Scorpionem</seg> et nouissime ipsa cauda <seg ana="#cen">Centauri</seg> uidetur ascendere adhuc <seg ana="#pleiades">Vergiliae</seg>, distantes a capite <seg ana="#peg">Equi</seg>, donec occidant, et prioris Auis adducitur ultima cauda. Occidit autem <seg ana="#and">Andromedae</seg> caput, quod in maius adnixum <seg ana="#cet">Coetum</seg> inducit ad austrum. E contrario ei <seg ana="#cep">Cepheum</seg> magnum ab aquilone adtrectare iubet et partem lumborum eius ex aduerso usque ad eam occiditque <seg ana="#cep">Cephei</seg> caput et humeri et manus.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 281-282).</bibl></cit></p>
+                  <p><cit><quote>Declinat autem <seg ana="#eri">Fluuius</seg> superueniente ei <seg ana="#sco">Scorpioni</seg> occidens ab euro oceanis atque superueniens terret magnum <seg ana="#ori">Orionem</seg>. Diana <pb edRef="#Z" n="99r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099r.jpg"/><seg ana="#uma">Helicem</seg> primo sermone locuta inducere plurimas ymbres super bestias cunctas. Sustinentes Incolum, id est <seg ana="#ori">Orionem</seg>, fortiter lamenta <pb edRef="#K" n="85v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_085v.jpg"/>cornicla abnuens ei propuino <note resp="#ivana_dobcheva">for: pro uino</note> deditum. Iam ex ipso surgens Bestia alia dissipata insulas per medias utrum regiones persequens <seg ana="#sco">Scorpionem</seg> et extendens multum ueniens plurimae illustras super Dianam propter castitatem. Qua ratione dicunt superueniente <seg ana="#sco">Scorpione</seg> Incolo circa terras nouissimas fugientem. Nec non <seg ana="#and">Andromeda</seg> et <seg ana="#cet">Coetus</seg> derelicti; ipsa quoque oriente continuo alia simul omnia confugiunt. Tunc autem cingitur <seg ana="#cep">Cepheus</seg> terram radens et quedam a capite omnia tangit in oceanum nec non etiam ipsi <seg ana="#uma #umi">Septentriones</seg> prohibent pedes ac manus. Statimque ipsa puero <app><lem wit="#Z #V">admiscitur</lem><rdg wit="#K">admiscetur</rdg></app> ostendens <seg ana="#cas">Cassepiae</seg> <app><lem wit="#K">simulachrum</lem><rdg wit="#Z #V">symulachrum</rdg></app>. Reliqua autem iam non secundum ornamentum uidentur de sellula pedes et manus desuper sed a capite uidetur obseruare a femoribus et genibus; nam non utique uentura esset illa salua fieri rerum magnitudo. Alia autem pars in altera fertur, alia uero nuper altera celat; refert quando <seg ana="#crb">Coronam</seg> curcuit secundus ordo, <seg ana="#aqr">Aquarius</seg> autem ultimam <pb edRef="#V" n="97r"/>adducit <seg ana="#cen">Centauri</seg> partem, corpus quidem et caput <seg ana="#bestia">Bestiam</seg> quam manu dextra <seg ana="#cen">Centaurus</seg> habet, alia quippe remanent; arcum autem superueninetem primi pedes <seg ana="#peg">Equi</seg> sepultoris.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 282-283).</bibl></cit></p>                    
+                  <p><cit><quote>Et in arcum seminat <seg ana="#ser">Serpens</seg> et corpus <seg ana="#oph">Serpentarii</seg> orietur superueniente ei pinguior esca <seg ana="#sco">Scorpionis</seg> orienti assumens quidem ipse <seg ana="#oph">Serpentarii</seg> manus et <seg ana="#ser">Serpentis</seg> multeformem splendorem. <app><lem wit="#V #Z"><seg ana="#her">Ingenu</seg></lem><rdg wit="#K">ingenii</rdg></app> autem per circum semper conuersus oritur, tunc ergo transiens egredietur sed zona et pectus et humerus omnia dextra leuaque cum capite et manibus simulque arco ascendunt et <seg ana="#sgr">Sagittario</seg> oriente. Cum Mercurio seu <seg ana="#lyr">Lira</seg> et usque <app><lem wit="#Z #V">ad</lem><rdg wit="#K">a</rdg></app> pectore <seg ana="#cep">Cepheus</seg> consequitur oceanum. Verum tamen et <seg ana="#cma">Canis magni</seg> <app><lem wit="#Z #V">radia</lem><rdg wit="#K">radii</rdg></app> omnes <pb edRef="#K" n="86r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_086r.jpg"/>occidunt et omnia descendunt ad <app><lem wit="#V #Z"><seg ana="#her">Incolo</seg></lem><rdg wit="#K"><subst><del>Incolo</del><add>Incolum</add></subst></rdg></app>.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 283-4).</bibl></cit> 
                     </p> 
-                     <p><note resp="#ivana_dobcheva">missing text section from AL, in V left over a half page blank, in Z and K no lacuna marked.</note><pb edRef="#V" n="97v"/>Quando <app><lem resp="#ivana_dobcheva">crines</lem><rdg wit="#Z #V">crunes</rdg><rdg wit="#K"><subst><del>crunes</del><add>crines</add></subst></rdg></app> et cauda <seg ana="#cet">Coeti</seg> <app><lem resp="#ivana_dobcheva">aestatis</lem><rdg wit="#V #Z">statae</rdg><rdg wit="#K"><subst><del>statae</del><add>estatis</add></subst></rdg></app> tempore oriuntur. Occidit autem <seg ana="#aur">Arctofilax</seg>, id est Arcturi custos, iam prima tunc portionem <app><lem resp="#ivana_dobcheva">manu</lem><rdg wit="#V #Z">manum</rdg><rdg wit="#K">manuum</rdg></app> trahentes <pb edRef="#Z" n="99v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099v.jpg"/>deponunt consecuta ei maior subiecta Septentrio. Utrique autem pedes duo <seg ana="#oph">Serpentarii</seg> simul cum eis genicula <seg ana="#gem">Geminis</seg> super signum impetrantes ex alio latere ascendentes tunc nequaquam <seg ana="#cet">Coeti</seg> nihil ueniet.
+                  <p><note resp="#ivana_dobcheva">Here the text is missing a section from the Aratus Latinus. The scribe of V left over a half page blank; in Z and K no lacuna marked.</note><pb edRef="#V" n="97v"/><cit><quote>Quando <app><lem resp="#ivana_dobcheva">crines</lem><rdg wit="#Z #V">crunes</rdg><rdg wit="#K"><subst><del>crunes</del><add>crines</add></subst></rdg></app> et cauda <seg ana="#cet">Coeti</seg> <app><lem resp="#ivana_dobcheva">aestatis</lem><rdg wit="#V #Z">statae</rdg><rdg wit="#K"><subst><del>statae</del><add>estatis</add></subst></rdg></app> tempore oriuntur. Occidit autem <seg ana="#aur">Arctofilax</seg>, id est Arcturi custos, iam prima tunc portionem <app><lem resp="#ivana_dobcheva">manu</lem><rdg wit="#V #Z">manum</rdg><rdg wit="#K">manuum</rdg></app> trahentes <pb edRef="#Z" n="99v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_099v.jpg"/>deponunt consecuta ei maior subiecta Septentrio. Utrique autem pedes duo <seg ana="#oph">Serpentarii</seg> simul cum eis genicula <seg ana="#gem">Geminis</seg> super signum impetrantes ex alio latere ascendentes tunc nequaquam <seg ana="#cet">Coeti</seg> nihil ueniet.</quote><bibl>Aratus Latinus, Circulus Signalis (Maass pp. 285-286).</bibl></cit>
                     </p>
              </div>
                  <pb edRef="#V" n="98r"/>
                  <figure ana="#zodiac #sol #luna">
-                     <figDesc resp="#ivana_dobcheva">Circular diagram (rota) with twelve sections for the zodiacal signs and personification of Sol and Luna in the middle.</figDesc>
+                     <figDesc resp="#ivana_dobcheva">Circular diagram (rota) with twelve sections for the zodiacal signs and personifications of Sol and Luna in the middle.</figDesc>
                  </figure>
                  <pb edRef="#Z" n="100r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_100r.jpg"/>
                  <pb edRef="#V" n="98v"/>
@@ -965,8 +1062,11 @@
                  </figure>
                  <pb edRef="#V" n="99r"/>
                  <pb edRef="#K" n="87r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_087r.jpg"/>
-             <div>                 
-                 <p>Iam cum uideris paruulis cornibus esse Lunam <app>
+              <div type="chapter" corresp="#t1-52">
+                  <head>
+                  <title type="supplied" resp="#ivana_dobcheva">XXXXVI. Luna</title>
+              </head>         
+                 <p><cit><quote>Iam cum uideris paruulis cornibus esse Lunam <app>
                             <lem wit="#Z #K">uespere</lem>
                             <rdg wit="#V">uesperem</rdg>
                         </app> lucentem ex ipsa doceris mensa est quando primordio absciditur lux ex alto. Quantum super umbram in quarta fuerit die; octaua autem per 
@@ -989,8 +1089,8 @@
                      <app>
                          <lem wit="#K">pauidam</lem>
                          <rdg wit="#Z #V">pabidam</rdg>
-                     </app> undam maris. Aliquando etenim tertia feria occurit aliquotiens quinta. A Ioue enim homines scimus adhuc alia multa celata et quibus ipse uoluerit sponte Dauid Iuppiter; qui etiam uirorum generatione oriente propiciatur, undique uolens signa dabit ubique. Hic autem dicit ubi diuisa Luna multiplici modum utrumque mox super habundans sed ascendere aliquando iubet summa noctis Septentrionem minorem. Haec quoque erunt et Apollinis alia signa et de nocte et de diebus fieri.</p>
-                 <p>Considerandum est quidem primus cornibus utrumque Lunae. Aliquotiens enim alter incurrit uespertino lumine <pb edRef="#K" n="87v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_087v.jpg"/>aliquotiens autem aliter figura cornibus suis Luna mox fuerit alia quidem tertia alia autem quarta. Quod circa 
+                     </app> undam maris. Aliquando etenim tertia feria occurit aliquotiens quinta. A Ioue enim homines scimus adhuc alia multa celata et quibus ipse uoluerit sponte Dauid Iuppiter; qui etiam uirorum generatione oriente propiciatur, undique uolens signa dabit ubique. Hic autem dicit ubi diuisa Luna multiplici modum utrumque mox super habundans sed ascendere aliquando iubet summa noctis Septentrionem minorem. Haec quoque erunt et Apollinis alia signa et de nocte et de diebus fieri.</quote><bibl>Aratus Latinus, Lunae Signa (Maass pp. 287-288).</bibl></cit></p>
+                 <p><cit><quote>Considerandum est quidem primus cornibus utrumque Lunae. Aliquotiens enim alter incurrit uespertino lumine <pb edRef="#K" n="87v" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_087v.jpg"/>aliquotiens autem aliter figura cornibus suis Luna mox fuerit alia quidem tertia alia autem quarta. Quod circa 
                      <app>
                          <lem wit="#Z #V">mense</lem>
                          <rdg wit="#K">mensem</rdg>
@@ -1005,8 +1105,8 @@
                      </app> nec supina apparuerit, sed directa utrisque cornibus circumaspexeris lucentes cornua ad uesperum non uenti in illa nocte feruntur. Si autem <pb edRef="#V" n="99v"/>sic erecta in quarta die fuerit, tempestatem colligere docet. Si uero cornibus spatium grande uisa fuerit, aquilonem ostendit. Quando autem supina est austrum designat. Itaque in tertia in <app>
                             <lem wit="#Z #K">circuitu</lem>
                             <rdg wit="#V">circuito</rdg>
-                        </app> uideris undique pallidiorem magis et tunc tempestas erit. Maxima autem tempestas erit si rutilans apparuerit.</p>
-                 <p>Considerandum autem multiplici modo et utrumque 
+                     </app> uideris undique pallidiorem magis et tunc tempestas erit. Maxima autem tempestas erit si rutilans apparuerit.</quote><bibl>Aratus Latinus, Lunae Signa (Maass pp. 288-289).</bibl></cit></p>
+                 <p><cit><quote>Considerandum autem multiplici modo et utrumque 
                      <app>
                          <lem wit="#Z #V">diuisam</lem>
                          <rdg wit="#K">diuisum</rdg>
@@ -1018,12 +1118,12 @@
                      <app>
                          <lem wit="#Z #V">tranquillitate</lem>
                          <rdg wit="#K">traquillitate</rdg>
-                     </app>, si duo non ad huc tempestas circumdat lunam maior autem tempestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit <app><lem wit="#V #Z">nos</lem><rdg wit="#K">non</rdg></app> ita esse.</p>
+                     </app>, si duo non ad huc tempestas circumdat lunam maior autem tempestatem inducit, si tres se circumdederit areas, magisque nigrescere et disrumpere magis. Et hoc quidem permanet lunae et satisfacit <app><lem wit="#V #Z">nos</lem><rdg wit="#K">non</rdg></app> ita esse.</quote><bibl>Aratus Latinus, Lunae Signa (Maass pp. 289-291).</bibl></cit></p>
              </div>
                  <pb edRef="#Z" n="101v" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_101v.jpg"/>
                  <pb edRef="#K" n="88r" facs="https://manuscripta.at/images/AT/5000/AT5000-685/AT5000-685_088r.jpg"/>
-             <div>
-                 <p>Sole autem ex utraque parte oriente solis magis adsimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus <app>
+              <div type="chapter" corresp="#t1-53">
+                 <p><cit><quote>Sole autem ex utraque parte oriente solis magis adsimilantes signa haec sunt utrumque occidenti et a finibus suis orienti. Non uarias mittit segetes hic circulus quando serena utitur signa etiam adhuc haec signa refert, cum apparuerit simplex ubique. Si autem ipse purum non habuerit orbem, occidit uero sine nubibus <app>
                      <lem wit="#Z #V">obtunsum</lem>
                      <rdg wit="#K">obtusum</rdg>
                  </app> subdiuidens nitorem et surgens mane rutilus, serenitas erit. Nam si aliquotiens uario colore circumamiciter et neque 
@@ -1034,8 +1134,7 @@
                      <app>
                          <lem wit="#K">medium</lem>
                          <rdg wit="#Z #V">medio</rdg>
-                     </app> lucent, tunc ubique pluuiales pertranseunt uenti.</p> 
-                 <p>Considerandum autem si et aurora sub albidus fuerit sol ipse. Sic enim oportet inspicere, si inuentus fuerit supercurrens multis aduenientibus nubibus.</p>
+                     </app> lucent, tunc ubique pluuiales pertranseunt uenti. Considerandum autem si et aurora subalbidus fuerit sol ipse. Sic enim oportet inspicere, si inuentus fuerit supercurrens multis aduenientibus nubibus.</quote><bibl>Aratus Latinus, De Leone (Maass pp. 291-292).</bibl></cit></p>
              </div>
                  <pb edRef="#V" n="100r"/>                 
                  <figure ana="#sol">
@@ -1043,13 +1142,25 @@
                  </figure>
                  <pb edRef="#V" n="100v"/>
                  <pb edRef="#Z" n="102r" facs="https://manuscripta.at/images/AT/9800/AT9800-296/AT9800-296_102r.jpg"/>
+              <note resp="#ivana_dobcheva">In V the text is followed by a diagram of the celestial circles; in Z by a diagram of the planetary absides (planetary orbits around the zodiac) and a rectangular diagram of the planetary latitudes (planetary orbits around the zodiac).</note>
                  <!--<app>
-                     <lem wit="#V"><figure ana="#circles">
-                     <figDesc resp="#ivana_dobcheva">Diagram of the celestial circles.</figDesc>
-                 </figure></lem><rdg wit="#K"/>
-                 <rdg wit="#Z"><figure><figDesc resp="#ivana_dobcheva">Diagram of the planetary absides (planetary orbits around the zodiac).</figDesc></figure></rdg></app>
+                     <lem wit="#V">
+                         <figure ana="#circles">
+                             <figDesc resp="#ivana_dobcheva">Diagram of the celestial circles.</figDesc>
+                         </figure>
+                     </lem>
+                     <rdg wit="#K #Z"/>                     
+                 </app>
+              <app>
+                  <lem wit="#Z">
+                      <figure>
+                          <figDesc resp="#ivana_dobcheva">Diagram of the planetary absides (planetary orbits around the zodiac).</figDesc>
+                      </figure>
+                  </lem>
+                  <rdg wit="#K #V"/>
+              </app>
                  <app>
-                     <rdg wit="#Z"><figure><figDesc resp="#ivana_dobcheva">Rectangular diagram of the planetary latitudes (planetary orbits around the zodiac).</figDesc></figure></rdg>
+                     <lem wit="#Z"><figure><figDesc resp="#ivana_dobcheva">Rectangular diagram of the planetary latitudes (planetary orbits around the zodiac).</figDesc></figure></lem>
                      <rdg wit="#V #K"/>
                  </app>-->
          </div>
