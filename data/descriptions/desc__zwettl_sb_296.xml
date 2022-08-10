@@ -63,27 +63,27 @@
                            <width>135</width>
                         </dimensions>
                      </extent>
-                     <foliation>Foliated in pencil in the lower margin. Fol. 96 counted twice (f.96, f.96a)</foliation>
+                     <foliation>Foliated in pencil in the lower margin. Fol. 96 counted twice (f. 96, f. 96a)</foliation>
                      <collation>
                         <p>I<hi rend="sup">2</hi> (ff.1-2), II-X<hi rend="sup">8</hi> (ff.3-74), XI<hi rend="sup">10</hi> (ff.75-84), XII-XIII<hi rend="sup">8</hi> (ff.85-99),XIV<hi rend="sup">4-1</hi> (ff.100-102, f.100 singleton).</p>
                      </collation>
                      <condition/>
                   </supportDesc>
                   <layoutDesc>
-                     <layout columns="1" writtenLines="29 31">Between 29-31 long lines.</layout>
+                     <layout columns="1" writtenLines="29 31">Written in 29-31 long lines.</layout>
                   </layoutDesc>
                </objectDesc>
                <bindingDesc>
-                  <binding>
-                     <p>Barock binding from Zwettl, with dating blindtool on the upper board: 1783. Two schließe.</p>
+                  <binding contemporary="false">
+                     <p>Barock binding from Zwettl, with blindtool dating on the upper board: 1783.</p>
                   </binding>
                </bindingDesc>
             </physDesc>
             <history>
-               <origin>The manuscript was written in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi></origDate>; <origDate notBefore="1176" notAfter="1200">s. XII<hi rend="sup">ex</hi></origDate> in the <rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs> (Ziegler; Blume). On the basis of palaeographical study of the scribal hands, Haidinger suggests the manuscript was written in the <origDate notBefore="1141" notAfter="1175">mid or third quarter of the twelfth century</origDate>. 
-                  <p>Glassner and Haidinger (p. 74-5) argued on the basis of content and iconography that there is no doubt the Vatican MS <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref> served as a model for the Zwettl MS, which in turn was the model for the <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref>. The newest art historical study by Blume et al. demonstrated, however, that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of MS Klosterneuburg 685 made fewer mistakes than his colleague (example: in the text on Scorpio the scribe of the Zwettl MS left out the phrase <quote>in fronte vero tres</quote>, which is present in the Klosterneuburg MS). The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for the MS Vat. lat. 643.  The two Austrian MSS have also iconographical differences compared to the Vat. lat. 643; they are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>; the model was possibly coming from Fleury (Blume, p. 564).</p>
+               <origin>The manuscript was written in <origDate notBefore="1151" notAfter="1200">s. XII<hi rend="sup">2</hi></origDate>; <origDate notBefore="1176" notAfter="1200">s. XII<hi rend="sup">ex</hi></origDate> in the <rs type="corporate" ref="#zwettl">Cistercian monastery Zwettl</rs> (Ziegler; Blume). On the basis of palaeographical study of the scribal hands, Haidinger suggests the manuscript was written in the <origDate notBefore="1141" notAfter="1175">mid or third quarter of the twelfth century</origDate>. 
+                  <p>Glassner and Haidinger (pp. 74-5) argued on the basis of content and iconography that there is no doubt the Vatican MS <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref> served as a model for the Zwettl MS, which in turn was the model for the <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref>. The newest art historical study by Blume et al. (<bibl><abbr>Sternbilder des Mittelalters</abbr></bibl>) demonstrated, however, that <ref type="altMs" target="Klosterneuburg_685.xml">Klosterneuburg MS 685</ref> could not have been copied from Zwettl MS 296, but both were copied from one and the same model. The scribe of MS Klosterneuburg 685 made fewer mistakes than his colleague. The model was not <ref type="altMs" target="BAV_Vat_lat_643.xml">Vat. lat. 643</ref>, but a MS which was a model for the MS Vat. lat. 643. The two Austrian MSS have also iconographical differences compared to the Vat. lat. 643; they are nearer to the iconography of <ref type="altMs" target="Paris_lat_5543.xml">Paris, BnF, lat. 5543</ref>; the model was possibly coming from Fleury (Blume, p. 564).</p>
                </origin>
-               <provenance><rs type="corporate" ref="#zwettl">Cistercian Zwettl Abbey</rs>. Zeigler noted that both codicological units are mentioned as one codex in the thirteenth-century catalogue (Zwettl, SB, Cod. 24, f. 309v) <quote>Beda de temporibus. Augustinus in librum retractacionum. De opere monachorum. Augustinus super Genesim ad litteram</quote>, and in the catalogue from ca. 1620/1640 (now in Vienna, ÖNB, Cod. 9520, f. 7v).
+               <provenance>. Zeigler noted that both codicological units are mentioned as one codex in the thirteenth-century catalogue of the <rs type="corporate" ref="#zwettl">Zwettl Abbey</rs>(Zwettl, SB, Cod. 24, f. 309v) as <quote>Beda de temporibus. Augustinus in librum retractacionum. De opere monachorum. Augustinus super Genesim ad litteram</quote>, and in the catalogue from ca. 1620/1640 (now in Vienna, ÖNB, Cod. 9520, f. 7v).
                </provenance>
             </history>
             <msPart>
@@ -109,7 +109,7 @@
                   </msItem>
                   <msItem>
                      <locus from="2v">2v</locus>
-                     <note>Rota divided by the twelf zodiacal signs and segments for the sun, moon and the five planets with information how long its path around the zodiac lasts. Around the rota, commentary (upper part partly cut off by trimming). In the lower half of the page another diagram: circle with the sun, the moon and the five planets.</note>
+                     <note>Rota divided by the twelve zodiacal signs and segments for the sun, moon and the five planets with information how long its path around the zodiac lasts. Around the rota, commentary (upper part partly cut off by trimming). In the lower half of the page another diagram: circle with the sun, the moon and the five planets.</note>
                   </msItem>
                   
                   <msItem>

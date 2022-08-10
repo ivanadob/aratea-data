@@ -42,7 +42,7 @@
                <idno>Vat. lat. 643</idno>
             </msIdentifier>
             <head>
-               <title>Bede works on nature</title>
+               <title>(Ps.) Bede's works on nature</title>
                <origPlace ref="#melk">Melk (?)</origPlace>                  
                <origDate notBefore="1101" notAfter="1200">s. XII<hi rend="sup"/>
                </origDate>
@@ -164,13 +164,13 @@
                   <title ref="#de_signis_coeli_revision">De signis coelis (redaction incl AL)</title>
                   <incipit>Quodam tamen multa dicunt et alii alter narasse</incipit>
                   <explicit>supercurrens multis aduenientibus nubibus.</explicit>
-                  <decoNote>Illustrations of the constellations, diagram of the zodiac, the moon and the sun in chariots and a map of the celestial zones. The stars are marked in red according to the positions stated in the text. The illustrated disctinguish between brighter and fainter stars: the one referred to as <quote>splendior</quote> are circles filled with a red crosses on a black background, while those labelled <quote>obscura</quote> are filled in dull dark-red.</decoNote>
+                  <decoNote>Illustrations of the constellations, diagram of the zodiac, the moon and the sun in chariots and a map of the celestial zones. The stars are marked in red according to the positions stated in the text. The illustrator distinguished between brighter and fainter stars: the one referred to as <quote>splendior</quote> in the text are circles filled with a red crosses on a black background, while those labelled <quote>obscura</quote> are filled in dull dark-red.</decoNote>
                </msItem>
             </msContents>
             <physDesc>
                <objectDesc form="codex">
                   <supportDesc material="perg">
-                     <support>Perchment</support>
+                     <support>Parchment</support>
                      <extent>
                         <measure type="leavesCount" n="99">II (modern) + 99 fols. + II (modern)</measure>
                         <dimensions type="leaf" unit="mm">
@@ -178,20 +178,21 @@
                            <width>210</width>
                         </dimensions>
                      </extent>
-                     <foliation>Modern foliation in the upper right corner of every recto: 1-100, 81 skipped.</foliation>
+                     <foliation>Modern foliation in the upper right corner of every recto: 1-100, ff. 41 and 71 double, 81 skipped.</foliation>
                      <collation>
-                        <p>ff.1-8, 9-17, 24-32, 33-40, 41-46, 47-55, 56-63, 64-71, 71a-76, 77-80 (f. 81 skiped or missing), 82-89, 90-98 (stub between ff.90-91), 99-100.</p>
+                        <p>I-IX<hi rend="sup">8</hi> (ff. 1-8, 9-16, 17-24, 25-32, 33-40, 41-47, 48-55, 56-63, 64-71), X<hi rend="sup">6</hi> (ff. 71a-76), XI<hi rend="sup">4</hi> (ff. 77-80, f. 81 skipped or missing), XII<hi rend="sup">8</hi> (ff. 82-89), XIII<hi rend="sup">9</hi> (ff. 90-98, f. 97 a singleton with a stub visible between ff. 90-91), XIV<hi rend="sup">2</hi> (ff. 99-100).</p>
+                        <p><signatures>Quire signatures on the first recto of the quires in roman numerals <foreign>I-XII</foreign> with exception of quires XI and XIV.</signatures></p>
                      </collation>
                      <condition/>
                   </supportDesc>
                   <layoutDesc>
-                     <layout columns="1" writtenLines="0"/>
+                     <layout columns="1" writtenLines="29 30">Written in 29-30 long lines.</layout>
                   </layoutDesc>
                </objectDesc>
             </physDesc>
             <history>
-               <origin>Based on the script as well as on early added German glosses the manuscript was written in <origDate notBefore="1101" notAfter="1200">s. XII</origDate> in <origPlace ref="#s_germany">South Germany</origPlace> or <origPlace ref="#austria">Austria</origPlace>. The textual similarities with <ref type="altMs" target="Melk_412.xml">Melk, Benediktinerstiftes, Cod. 412</ref> suggest the <origPlace ref="#melk">Benedictine Abbey of Melk</origPlace> as place of production.</origin>
-               <provenance>From the <date when="1700">18th c.</date> was in the <settlement>Vatican</settlement>.</provenance>
+               <origin>Based on the script as well as on presence of German glosses the manuscript was written in <origDate notBefore="1101" notAfter="1200">the twelfth century</origDate> in <origPlace ref="#s_germany">South Germany</origPlace> or <origPlace ref="#austria">Austria</origPlace>. The textual similarities with <ref type="altMs" target="Melk_412.xml">Melk, Benediktinerstiftes, Cod. 412</ref> suggest the <origPlace ref="#melk">Benedictine Abbey of Melk</origPlace> as place of production.</origin>
+               <provenance>From the <date when="1700">18th c.</date> part of the <settlement>Vatican</settlement> collection (<bibl><abbr>Sternbilder des Mittelalters</abbr>, 481</bibl>).</provenance>
             </history>
             <additional>
                <listBibl>

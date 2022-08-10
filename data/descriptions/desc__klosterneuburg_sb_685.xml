@@ -210,7 +210,7 @@
                                 </p>
                             </support>
                             <extent>
-                                <measure type="leavesCount" n="91">I (modern) + I (mediaeval) + 88 fols. + I (mediaeval) + I (modern)</measure>
+                                <measure type="leavesCount" n="91">I (modern) + I (medieval) + 88 fols. + I (medieval) + I (modern)</measure>
                                 <dimensions type="leaf" unit="mm">
                                     <height>310</height>
                                     <width>210</width>
@@ -238,7 +238,7 @@
                     </decoDesc>
                     <bindingDesc>
                         <binding contemporary="false">
-                            <p>15th. c- leather binding with stamps. Title on the front cover: <quote>Libri Bede presbiteri de naturis rerum, de temporibus horis momentis et finaliter de temporibus. Ibidem Higimus de signis celestibus</quote>.</p>
+                            <p>15th. c. leather binding with stamps. Title on the front cover: <quote>Libri Bede presbiteri de naturis rerum, de temporibus horis momentis et finaliter de temporibus. Ibidem Higimus de signis celestibus</quote>.</p>
                         </binding>
                     </bindingDesc>
                     <accMat>Fragments: as former flyleaves (today fols. I and I*) were used two signle leaves from a 14th. c. lectionary for the mass.</accMat>
