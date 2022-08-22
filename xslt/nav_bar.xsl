@@ -22,7 +22,7 @@
                             Indices
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listtitle.html">
+                            <a class="dropdown-item" href="listtitle.html">
                                 Works
                             </a>
                             <!-- <a class="dropdown-item" href="https://ivanadob.github.io/aratea-data/listperson.html">
