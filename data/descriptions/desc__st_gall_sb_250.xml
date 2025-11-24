@@ -542,7 +542,7 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
             </history>
             <additional>
                <listBibl>
-                  <head>Selected Bibliography</head>
+                  <head>Selected Bibliography </head>
                   <bibl><abbr>Anton von Euw (2008)</abbr>, pp. 449-454, Nr. 120.</bibl>
                                     
                </listBibl>
@@ -550,4 +550,5 @@ Involutio sperae. Hic est stellarum ordo utrorumque circulorum
          </msDesc>
       </body>
    </text>
+
 </TEI>
